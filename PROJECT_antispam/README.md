@@ -102,44 +102,6 @@ PROJECT_antispam/
 Строгая политика может существенно снижать полноту — обе политики показаны в отчёте.
 Интервал FPR отражает ограниченность вывода даже при нуле наблюдаемых FP.
 
-## Запуск на Windows
-
-Проверено на Python 3.14.0. Команды выполняются из `PROJECT_antispam`:
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements-test.txt
-# Только если контрольный архив ещё не скачан:
-.\.venv\Scripts\python.exe -m src.download_external
-# Подготовка данных, обучение и сохранение отчётов:
-.\.venv\Scripts\python.exe build.py
-# Проверки критических инвариантов:
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
-# Полный запуск и сохранение результатов ноутбука:
-.\.venv\Scripts\python.exe run_notebook.py
-```
-
-На Linux/macOS используется `.venv/bin/python`. Для просмотра готового ноутбука
-повторное обучение не требуется. Для интерактивного редактирования можно открыть
-его в VS Code/Jupyter и выбрать Python из `.venv`.
-
-`run_notebook.py` запускает kernel на текущем интерпретаторе и останавливается
-при первой ошибке. Все ячейки и встроенные графики сохраняются в основной файл.
-`make_notebook.py` нужен только для правки структуры: его запуск удаляет сохранённые результаты.
-
-Программная сборка сохраняет модель сервиса и возвращает её в памяти:
-
-```python
-from build import build
-prepared, experiment = build()
-model = experiment['model']
-threshold = experiment['summary']['threshold']['threshold']
-```
-
-Также поддерживаются параметры `build.py --data-root`, `--external-root`
-(каталог ham/spam или tar.xz) и `--output-root`.
-Модель сохраняется в `microservice/app/model/`. Сохранение можно отключить через `--no-export`.
-Для экспорта без повторной CV: `python export_model.py` — оценки и решения сверяются с исходными отчётами.
 
 ## Результаты и защита
 
