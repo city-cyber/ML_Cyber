@@ -1,0 +1,16 @@
+**
+!Dockerfile
+!src/
+!src/__init__.py
+!src/preprocessing.py
+!src/inference.py
+!src/artifacts.py
+!microservice/
+!microservice/__init__.py
+!microservice/requirements.txt
+!microservice/app/
+!microservice/app/__init__.py
+!microservice/app/main.py
+!microservice/app/model/
+!microservice/app/model/model.joblib
+!microservice/app/model/metadata.json
