@@ -148,10 +148,8 @@ threshold = experiment['summary']['threshold']['threshold']
 - [`reports/final_comparison.csv`](reports/final_comparison.csv) — стандартный и выбранный пороги.
 - [`reports/cv_comparison.csv`](reports/cv_comparison.csv) — сравнение конфигураций на CV.
 - [`data/processed/data_audit.csv`](data/processed/data_audit.csv) — причины исключений.
-- [`docs/PLAN.md`](docs/PLAN.md) — соответствие этапам и материалы для шаблона презентации.
 - [`docs/DOCKER.md`](docs/DOCKER.md) — упаковка, API, запуск и проверка контейнера.
 - [`reports/export_verification.json`](reports/export_verification.json) — совпадение экспортированной модели с экспериментом.
 - [`reports/docker_api_verification.json`](reports/docker_api_verification.json) — реальная HTTP-проверка Docker-сервиса.
 
-ФИО и группу нужно добавить перед сдачей. Командная презентация, её публикация
-и отправка ссылки пока не выполнялись.
+
