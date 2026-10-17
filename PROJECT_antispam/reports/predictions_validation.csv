@@ -1,0 +1,577 @@
+path,source,label,subject,text_hash,score,prediction,error_type
+easy_ham/easy_ham/2531.8f40eb6fd94f9e48d56f6374ddc3427a,easy_ham,0,Twilight Zone,d4321efc72136f1b93991400be84e122a1bb2cd2f0c7d92203a07eed2be62107,0.0054727169788117295,0,correct
+easy_ham/easy_ham/1325.eaf141388f8b499ac522747d674f3e6a,easy_ham,0,Re: apt.conf suggestion,cb426a0a97f3685159ba02ced432a920e44e244bc0bb27ea535c3bb54863bbf2,7.062405571766396e-05,0,correct
+easy_ham/easy_ham/0023.b4a61a2990263e8825246e41a8d78399,easy_ham,0,[zzzzteana] Which Muppet Are You?,f588e4484e6a7e7358188332d6df5404a4ac707af246e6dce73a1c3d94e27ea8,0.006368586218503565,0,correct
+spam_2/spam_2/00619.8b327d9ed6741fb05ac4a180a5f776c6,spam_2,1,"Real Doctors, Real Science, Real ResultsIPZC",4c04445207acc7977b2f77774b0b9724a43838f2e6fa094d52a4a839ebb05776,0.5795608374688606,0,false_negative
+spam_2/spam_2/00807.8abdd26ba778758f5e46b84a54ac62f4,spam_2,1,Could be your last chance for savings,f8b363fc81c8026a8f6dbd59f924119313c6344f28e9cf80f80e7cf608d0e636,0.9871099557038128,1,correct
+spam_2/spam_2/01068.c9e00ffce33545a1d87512a1a854e104,spam_2,1,Never be tangled up in yard work again!,63b8f5217155514845f457aba829fb8833747101095c07a4aa52e95f8b9c4c32,0.8317221848426158,0,false_negative
+easy_ham/easy_ham/0380.7479693323d404f78e18d20d3b677e14,easy_ham,0,Re: the underground software vulnerability marketplace and its hazards (fwd),7a48585086c349c9a9cc635ee67f94d9a1eaa41252cad2d086a0a8d9bcb2e1f5,0.007338649494154428,0,correct
+easy_ham/easy_ham/0655.62691c84d110fdfa26e8579cd00c1a68,easy_ham,0,Re: Slaughter in the Name of God,5674b4f51c728d663516aea493464258ef36526c69bfdb2bf93410602039120d,0.008550058203093113,0,correct
+easy_ham/easy_ham/1230.55a8eec81fe610dade9d896627eb8703,easy_ham,0,Re: Bindings problem with current CVS code,a40d8d2dae7c5b6fd3971c3ad586de30d590a06eeeed95565eee08844a7e3751,0.0013382418425568479,0,correct
+easy_ham/easy_ham/0296.42216a75e0256510b216eaba6893d40d,easy_ham,0,"Re: [zzzzteana] FWD (TLCB) Jimmy Carter: The Troubling, New Face of America",d5d60b0a7904cc511ea49beeb4a7e429aa7a38bfb77308b58e8f207841b21abc,0.007661693502722207,0,correct
+spam_2/spam_2/01209.01df2f8f68a70062085ef787973f9ba0,spam_2,1,Clean your Bad Credit ONLINE? C,497e48486aec65fc36191a401663e9677216a54a212e1e3b5b70a32a7b9cd04d,0.7031423592776834,0,false_negative
+hard_ham/hard_ham/0023.cb5d5eef370b20c455e62dd60f071fd9,hard_ham,0,CNET NEWS.CONTEXT: Hollywood & Silicon Valley: A way out?,05b573a60548d361cbddb865ec1d39f5d1bc692b9fa0bd9c936d8e119e3494ca,0.0029664326871011288,0,correct
+easy_ham/easy_ham/1358.d784d0be4e4e9b4267e6a1165929b762,easy_ham,0,Re: RH 8 no DMA for DVD drive,8ac292a4b76565b6c06be4d95369e42b559e9a63dc58a4999c49e868df1a7d39,0.002174892740498969,0,correct
+spam_2/spam_2/01302.6e23012bc215fef128943c14c7d2c83f,spam_2,1,Work at Home,0e6aae1bb7646386db0b4e63cd055d6a2f388c9d8d6b1d34b578f7cb497a4c1e,0.9329797266682608,1,correct
+easy_ham/easy_ham/1454.88f9d20d76cccc7f1bde4e4d0794b69d,easy_ham,0,Re: [SAdev] 2.40: ready for release?,429ca7d4242540a155aafd61520ca4869d212033a890efc7d431fb33539cff6f,0.011958735912491823,0,correct
+hard_ham/hard_ham/0037.31bd6e9b2333e081b4edcaa5db136f22,hard_ham,0,"Broadband ISPs wise up to wireless, defend (or don't) against hackers (CNET INTERNET SERVICES)",bc832ece21a4e53c606ef7179383c484bcda482c5f9532125288a0fade5a4d58,0.012300540331689949,0,correct
+easy_ham/easy_ham/1788.26beacaa0fa03cb6199c57b8a99a2852,easy_ham,0,[Spambayes] understanding high false negative rate,32655acf0aa13851b8e8f2094f41003d2b3b1da9c993131c2b28c694129bb5cc,0.030091075250540455,0,correct
+spam_2/spam_2/00611.58f9a1db64c83da2bfd3b1acf8d38338,spam_2,1,A CRY FOR HELP,1775971e4a0c0e2941ab437428b28f8f4a8c3dd9de60b9227361096d7c0dd774,0.6919502996536179,0,false_negative
+easy_ham/easy_ham/1495.965bf18408e31d93d3fd256d2c6e8b64,easy_ham,0,Re: [Razor-users] Razor 2.14 - the day after,99fe4e08cb4b92fd50d2c050821983f6eecb3a136dd5525546c231681e6f008d,0.0003639966579837414,0,correct
+easy_ham/easy_ham/2501.36311f6ceac129fa31540555ffe3cc97,easy_ham,0,BSkyB recruits heavyweight non-execs,c161fefc438b155d1002b713bfd2e4919b35011b1a104bef9da67ce55de18b6c,0.0019080261116310316,0,correct
+easy_ham/easy_ham/0825.50304b4fb153c18166fd8e9244659167,easy_ham,0,A different sort of Fox News,0162c7e3af2b74f688a4deff387d0a2869b5db2c4358fdd69b8eec875b9c8021,0.05144374472864561,0,correct
+easy_ham/easy_ham/1024.2ec2a5954337a9a35a3c169caa5d947a,easy_ham,0,Re: Anolther sequence related traceback,b12382db1f0cb45e634b008afd09e8bd699e4638cf21fbdd9306a85d8b75a35a,0.001028031303597537,0,correct
+easy_ham/easy_ham/1740.cd9dec755fc9e6d819137b8e0111e031,easy_ham,0,[Spambayes] Re: [Python-Dev] Getting started with GBayes testing,085dc71a811e541c208b0a2fe4d651b37d07d22ae9396003aec6f1743808b0bd,0.02868100809785941,0,correct
+easy_ham/easy_ham/1730.2092a2c5a1de432db582fa62cf7e254e,easy_ham,0,Re: use of base image / delta image for automated recovery from attacks,d9516be3025cd28e3428008e01c082082fe48607669d0435838aea5ca2fcfa26,0.022796814782058174,0,correct
+easy_ham/easy_ham/1919.cf8a285d68ba4ce64b50b5b463a80808,easy_ham,0,[use Perl] Stories for 2002-10-07,599771b50a802b8b3ed865e2ebe2414c60b05ea033d81ffaff6dc246695b04ea,0.00027805418674391825,0,correct
+spam_2/spam_2/01191.3a3ed1eb843a56504a4b40a25a63f97f,spam_2,1,** Your approval!,be4a50302ff31557e38ce13577e4f11ec623bf37c6ca66838092ddb93027e322,0.9523224602108723,1,correct
+spam_2/spam_2/01053.2ec9e69df620c85e3c7c6f61ce199a3c,spam_2,1,EASILY Lose Weight / Build Muscle / Reverse Aging!21231,ba354d230b781df6282b0d45935ca15c1a16d09cddaebac1585ae3f876b4a17d,0.9881206028091696,1,correct
+easy_ham/easy_ham/1733.95212a5ae78a283bf7282d310d7731d7,easy_ham,0,Re: Secure Sofware Key,4518ad93bbba26a00929936d3c16873c02cb751bd03fdeb276b6c2d7478ca286,0.013183483286928095,0,correct
+easy_ham/easy_ham/2399.8815bb6c714226c9a83ad8d743d7688d,easy_ham,0,Another fine mess I've got myself into...,4235c61f1ddcc54415992c6d0906c7182523cd975b2043859c656827d70d3802,0.0010389554316322974,0,correct
+easy_ham/easy_ham/0122.4c48475d458bbca7a14270745e452dd7,easy_ham,0,RE: [ILUG] What HOWTOs for SOHO system,b71835aeca4c0f6a6d6d339045a0b4870a5ca2e23d83badf0a03ab4f38605c4a,0.001290711309324063,0,correct
+easy_ham/easy_ham/0612.f6d6b7e1dc1e063f1fd95991aa452d05,easy_ham,0,Re: storage bits,51e4d95e99d41ab7af89cc82782a6a59290051f42cf83bd339fd8beeb16da803,0.008740841798421835,0,correct
+easy_ham/easy_ham/1887.884e4c55dd2c7579be9b0986190a1426,easy_ham,0,[use Perl] Stories for 2002-09-11,8f0d4e33f98f71a93b0388922b9d6173db6c01586f086f5d6dd963315d6b03c1,0.0006928959151734482,0,correct
+easy_ham/easy_ham/0972.58234e68337a7a333ca40560900f82d9,easy_ham,0,"Quick, Outlaw Touching",5ceb4f1df51fd018e3259484d07611401636ebfb9962e9b5d5590e1bf5664d48,0.03898864740267691,0,correct
+easy_ham/easy_ham/1687.e69fa74557118313b26108f91a9cd6fa,easy_ham,0,[Razor-users] Bug ... still,12f1993b3d00ea0ce6d01882985ab06deab3790495048de83a17b44b044f0f12,0.01411418853264184,0,correct
+easy_ham/easy_ham/0613.78f3bc8ff059d262ac436be34a962c6b,easy_ham,0,Re: Snow,4acf60a38457b9ea3fa0cc1ea97003d42de7811bdf8f88aaca3a81fe4baec144,0.016823928147388,0,correct
+spam_2/spam_2/00314.ce1926a9815415807e51b80930bffdb8,spam_2,1,http://www.efi.ie,c1beb007712dc55f829a54be6c1b16564310e417b23445e570403d8d83c1929d,0.6630449593285167,0,false_negative
+easy_ham/easy_ham/2351.d418f84c3f3e02133b0ce67a243ecff4,easy_ham,0,CSS and mobile devices,6c2a0730a729a3e25023b28483b5bf87b72e7fd8ff0b55163eded9edac53a06e,0.003462408141045867,0,correct
+easy_ham/easy_ham/0711.27203d4f43e71f7e1ced0cdd7f8685c8,easy_ham,0,Re: AA Meetings the Hottest Place to Meet Women With Big Bucks,cb76a673524e69ce00409fd203255de1e2c954041a12f84c47cc442bd02cbad9,0.05941332217323198,0,correct
+easy_ham/easy_ham/1540.e6859a3f2b7d4347f84df81b2398ae58,easy_ham,0,Re: [SAtalk] redhat init.d script for spamd and the -H option,6dea1c212736517a0e5735753620cfb4e8395deafebba01282da3191202f4f40,0.00418621264865542,0,correct
+easy_ham/easy_ham/1566.513fb571511122853df82c890115f8e9,easy_ham,0,[SAtalk] OT: DNS MX Record Clarification Please,9cf3763c330c97f46a6a09c1af626e067e0182a03a168fde0b6f5a882932556e,0.015777747337374793,0,correct
+spam_2/spam_2/00462.d0ca75a85184ca9843d1dffdc8c98855,spam_2,1,Phentermine & Viagra Here,546c9dac4aa152c800cd7229a449412b85c462331dcbc9f43c47158f30c52d2a,0.9850741928740294,1,correct
+easy_ham/easy_ham/2105.b5a33b8a9bb69d17d1b2201aaf5978b2,easy_ham,0,You can't beat city hall,df791ef9407f6158c817f3864a5480063549e13418485a421a70b787dc71deae,0.0013802629284916728,0,correct
+spam_2/spam_2/01384.e23f94030a4393f0825eacd9de99eb31,spam_2,1,It's Time to Invest your Way,d48c15bf8ef585f6cd255f2d5bd18b2ea67b2e3b7b4e33e5cabd9d6768a032e0,0.9080077931321394,1,correct
+hard_ham/hard_ham/0161.199b3947c40a3a72ab6407d91eee0557,hard_ham,0,Buy Ryanair Travel Insurance Today,c35aafb023592e4f3750b6c84d8d71d9eba429e4d8457b900a72f6ff0c758b46,0.514267300035136,0,correct
+easy_ham/easy_ham/1872.2b63f04638f3878d95641f0194baa501,easy_ham,0,[use Perl] Stories for 2002-08-28,be7931d90e436c08bb1decced05eea1b7a37e0578106829c6625280261ca1d3d,0.00028781633669038747,0,correct
+easy_ham/easy_ham/2012.d580077db083dd3febe9ead582869204,easy_ham,0,Labels shoot selves in foot by focusing on stopping P2P,6eee709ce4ac0a47ae82012eb02f25c7a0b9dc0e10803bbb0f3e302fab4e359a,0.005877279161383023,0,correct
+easy_ham/easy_ham/1122.0306e263408d376f3abc5eddba544a59,easy_ham,0,Re: ALSA (almost) made easy,30162ecf70af84779c4517412f2ce73a748eca8e9b2e4515519817a4d13652ba,0.00020096243225288057,0,correct
+spam_2/spam_2/00866.75636e43a97c4a778325383ae5bb3e6e,spam_2,1,Hello hmlflk ! It's Time,62f4a3444097cd15bb314c6ae9d6da00f58dea4e35d7aef4a6c0293ab6b2c5c6,0.9463178281649818,1,correct
+easy_ham/easy_ham/0381.040644bb43a533c43f40361bd1d35355,easy_ham,0,buffer overflows,33784cc7d4ce9da4b895337f3ac8effc6c9594fa6dfaf33e204774b49b6e379d,0.0026893837788340793,0,correct
+easy_ham/easy_ham/0188.a7f061d0c2c0395922993a874d534dcb,easy_ham,0,Geneticists and a tiny worm win Nobel prize,1ae6ecc02b103b8c305aae37586e44774a100edc07369de31cd8a0c5ee760c75,0.008893750260122185,0,correct
+easy_ham/easy_ham/0053.71bcb179e702d98e88fd0bc081ba0f52,easy_ham,0,Re: CVS report,dd3ad1cc931b3fbc6785a7423b19c35daaf16a6951231dad111b334a09714711,0.00428338555427832,0,correct
+easy_ham/easy_ham/0338.b09f1384db1376a00e1c885adf9a1e05,easy_ham,0,Re: RH 8 no DMA for DVD drive,bd54b466a207e85995e357b8256e338615ef1cea477645a12e9f8550d65ec49c,0.0005415235944541048,0,correct
+easy_ham/easy_ham/2243.513e9282cb2d858393bc959ff81100e6,easy_ham,0,FreeBSD or Linux for your MySQL Server?,9a260629808e32c42726f2ead27e8d32157fc87acc30404d59fc1c1064cc97d4,0.0028508747124444704,0,correct
+easy_ham/easy_ham/2471.9bc6c0ad8e1151925d35ad52c6667d62,easy_ham,0,Support for Iraq action at new low of 32%,3423c47085c74f172d77ed05d4d0c5f720da092ba544ba92bb42e816c9157f1b,0.005567888646961068,0,correct
+easy_ham/easy_ham/2387.84613a387b02e64a0950ebd372630739,easy_ham,0,Cosmic crash of speeding jets tracked,82367d29c515cadb6b676202bcef192acd7646c059430a70418436a268ae733a,0.00795551760882867,0,correct
+easy_ham/easy_ham/0269.5a74b38284c7e9d85338eca0a25cb191,easy_ham,0,Re: [ILUG] converting strings of hex to ascii,304dd0a9771037c6adf5f207ed7ba36767c2c15335782425a56cb8faf129adcd,0.008813490596679201,0,correct
+easy_ham/easy_ham/1694.597f15f5a0b581adc3126199cc7ed066,easy_ham,0,Re: [Razor-users] Razor: shall I use it with AMaViS or with SpamAssassin?,aebc8d9128301028cd4f95b41ce9d51b298e955f128f3d694782bcd121235c78,0.00732785612775567,0,correct
+spam_2/spam_2/00492.3052cad36d423e60195ce706c7bc0e6f,spam_2,1,Free to Join!,cdcc3fe0e3bca9ec1147648a9e337b0fd7388115ddb14c29b2b593f1496d4806,0.8579742193769562,0,false_negative
+spam_2/spam_2/00954.f92e3e1383d3882a4287fb8d6a1b1eb0,spam_2,1,Urgent Business,42ce4c0586f9aa14e7055f943869bfafbba80316bdc5f71c30bb0453ee3209a7,0.9024395049771158,1,correct
+spam_2/spam_2/00112.e4952a7d270c78cd6bba9d4f6add13f2,spam_2,1,99 Million Email Addresses - $99,0f2537888dee7e4e6b7582e437bde4ff0dd536ee71727ff04248d5729c794e5d,0.9520290625621713,1,correct
+easy_ham/easy_ham/0279.42cd63d15451f9b7dbe750ea896ed78b,easy_ham,0,[zzzzteana] RE:Pictish,0ec023aa9c972afb03fe14c4d936f6ccd554647d5f0aa8db639581d02496f02a,0.004816423837867413,0,correct
+easy_ham/easy_ham/1222.c6701f56a4fe6d8e66e652ee35a6dc75,easy_ham,0,Re: Help! I've lost my exmh-unseen window!,8a904188f3b42336e3eebe35243f121168b7532429e6d0da7e951f0261b90fb4,0.0011246205277917031,0,correct
+spam_2/spam_2/00475.3d497c7d96c51986316db566756ff35a,spam_2,1,Can men live like kings in their own home?,3a1634919244e038fb822a71c8d6df664799f34f6e225a75d23fe5592f504046,0.7892869748052027,0,false_negative
+hard_ham/hard_ham/0083.1c3e3b1aaf3ae5007653c6b007e884c5,hard_ham,0,Are bigger notebooks better?,5158a4ad6032ad5e3e4ace7e59f88bbc01ae940456795cdc4d07176367297ac3,0.004052998623604193,0,correct
+easy_ham/easy_ham/0445.bca3c6c6a0dc8f7e0c3bd140936897a8,easy_ham,0,Re: Insert signature,ddd1fa18a1ae7d151332b6ae6b49627b2d5ed068058541a8708eaea48bffd4ab,0.0010755611531669867,0,correct
+easy_ham/easy_ham/0780.a3cf52b9eac79db4f3d95e1735261df4,easy_ham,0,Re: sed /s/United States/Roman Empire/g,70c376981b08bd3d170574cd8223e57865746b3cf9dc44032077f7cb5d93fbd2,0.027142682306729404,0,correct
+easy_ham/easy_ham/1987.c891203fbc1f19431e30d96928aec430,easy_ham,0,Parallels,6173004fab9836a233c242e19843352a9308527fa6d50635441cb0253282433c,0.005463324396038311,0,correct
+easy_ham/easy_ham/0419.baeaada19ebce19874d17d5ef73ced0d,easy_ham,0,"Re: ""Holiday Season"" 2002 begins",7532f149be7ea78979dc8d736196fa61a61f984586eed8565c9945c3b1471a45,0.16609341503310976,0,correct
+easy_ham/easy_ham/1901.5fb290d69c23e53e5e299ad81af93e8b,easy_ham,0,[use Perl] Headlines for 2002-09-20,e3fa23ba029ac03aece20f2693134b8344ec7b1f4b099ce1c8c3e1a0df4c01b3,0.00022816144874164893,0,correct
+spam_2/spam_2/00202.e57a96cc553ecba5064d023695a0f385,spam_2,1,Your approval is needed,0cff154611e390e6917f64a4b32035466a1f64d0112a9a3af3653b1eaa433619,0.9727096675720438,1,correct
+easy_ham/easy_ham/1790.305d7c2b4c83864ca868937855ad1b27,easy_ham,0,[Spambayes] understanding high false negative rate,cef07b5c5500158801d2679bfb2b9b3ae69ba8479a318d301c7267c8a1fde543,0.134266441313904,0,correct
+easy_ham/easy_ham/0557.4a673d945072f8ec9ef08a4366f25bc1,easy_ham,0,earthviewer (was Re: whoa},da6a633e873c5a7688890ba3dbf45ac709220dbcda70edfc4b50f60a2cbe2fbb,0.016939925607003,0,correct
+easy_ham/easy_ham/1642.c4eea2387cc6850b5e1cb84529535f8b,easy_ham,0,Re: [SAdev] Interesting approach to Spam handling..,b909cb7fd08680e0ee0f4b413b35211a72fdaa08d8f0e77441e9e72c628d33d0,0.0009280890463527877,0,correct
+easy_ham/easy_ham/0478.41ae16e74ab25e02113c5da21efd2804,easy_ham,0,Re: Kill Your Gods,1d4c20c73eb88abcb73b9464790376788001ad05524feef81b05dd2ccb1455b3,0.03917350428759158,0,correct
+easy_ham/easy_ham/2217.901fa53ad7732a9244462d73f7ed5f5f,easy_ham,0,Wedding etiquette,0d1b51207d33af8e055dd2af5268a90691d9e88494a1f33cf06dc568a3bf47b4,0.0032661025835174383,0,correct
+hard_ham/hard_ham/0208.df5d7a4e950a3aa80a71fbb5186b0f87,hard_ham,0,Announcing the New Netscape 7.0 - The Fastest Netscape Browser Ever,b9f9692ff21b788af570bc50b108c7190ab56f74a86f7aeee36732428b7f77df,0.8625377520580375,0,correct
+easy_ham/easy_ham/1551.8d00d37ef39bf157ccbc2eeeea811ece,easy_ham,0,"[SAtalk] Reject, Blackhole, or Fake No-User?",a207069f3b8528f759ca6ad8db82aa13a7370626569134ecb9a68728da03ab75,0.003201852142278514,0,correct
+easy_ham/easy_ham/0237.a21d745179e22d780194543b7ad765ec,easy_ham,0,Re: DataPower announces XML-in-silicon,ed244b29bd9104035d9d122b37c6d0ac04404924038b406b89842659dc9512a1,0.033616185720140794,0,correct
+easy_ham/easy_ham/1492.fcfeff3d31bfad092220ca731a40c05e,easy_ham,0,RE: [Razor-users] honor is not in csl,5512ca94a09b9351ee037190aa854e540519696a7ba0256d1831ea640c40c7ad,0.000688931801300707,0,correct
+easy_ham/easy_ham/1371.163cff388de55b3d4f3ac817fd8a3dd9,easy_ham,0,Re: mplayer not working for me,3c2a2a69a310251f66c7a863a44a3355a37e572bd4c39d833236cfaffdab56b2,0.00018891119197755613,0,correct
+easy_ham/easy_ham/2071.fe91cbaba0f2ad7c725d9614721e7ab6,easy_ham,0,Tough Earth bug may be from Mars,8887f908d2db5e6a839ed12ac9d2a4b3215c70ba273dfcb345f82df0005638da,0.002863165736463391,0,correct
+easy_ham/easy_ham/0494.cd5e6c1b93cf9492002689b4ea2e8520,easy_ham,0,"Re: Adam dont job for no one, see.",b4005151bdea9afa866291ed776ef57d02e0e11cdd893b6e8e784e4c504556ff,0.0578198087236559,0,correct
+easy_ham/easy_ham/0967.4e58795717c8348425fd06d48c7acc9e,easy_ham,0,Re: The absurdities of life.,f0e3390833e82288ed8e807fa9575bce5909411f82ea456cc97c69584be0df1e,0.02017902080485453,0,correct
+spam_2/spam_2/00774.bb00990ae11efeabd677cc2935f2281f,spam_2,1,LOOKING FOR LEADERS IN YOUR AREA,83a8b88f87a16097b9dca0dc385b8145ff263b9db21037a61f5d21b60aacdde7,0.9302244145923804,1,correct
+easy_ham/easy_ham/1729.f1819fca167a26d35e31087bf27324f8,easy_ham,0,Re: Secure Sofware Key,02b679dd139dcc9cbc2e73db0ddfc9df1cfed5b3d01feb68fcd1fc8fa000ba05,0.019222312002647277,0,correct
+easy_ham/easy_ham/0337.9ae9f15c4dceca867140e95cad506234,easy_ham,0,"Ack, apt-get still failing for me, stumped. [RH8]",ad4b249a4b65d9189425eb55eb81d84a3bf6012523b6d7be13b39173880d781e,0.0027776557587801793,0,correct
+easy_ham/easy_ham/2534.2804e0302718cda7783689fa2a6d90d9,easy_ham,0,Monster molecule techniques win Chemistry Nobel,b31bebecfe2ab4753f892400dcfafee790974225db7204e4e57b68f4c1272569,0.005213080172322218,0,correct
+hard_ham/hard_ham/0055.4c0a6eb2a79113071b05b84bf3851050,hard_ham,0,[Lockergnome Tech Specialist] Tantamount Revelation,a4520b989b1670e011f702665a703e62f5a3a24c234b991a2f8a253fdc44e9cf,0.0014222594448600565,0,correct
+spam_2/spam_2/01192.ae36c1ea662d5daa57777838507cceef,spam_2,1,ADV: buyers sellers agents loans,cf548dfd5cb8221b688805ec544612a01faaa5a27881433193029e70ce2463dc,0.7264448322825056,0,false_negative
+easy_ham/easy_ham/1786.59383d91430d9cb58e7d0aa4e25b1320,easy_ham,0,[Spambayes] understanding high false negative rate,1c255c13b8af96ca3d80226622880e02dae0cc435cda8991d5d9c1e12aa1ea86,0.06292715361150134,0,correct
+hard_ham/hard_ham/0206.6a591b7b90744a8a411dd6f8c0e73ca6,hard_ham,0,Today's news: Serious PHP flaw found,dfa80b3d30acd37864717e6f2105fc55e64a1f89d075ea37e310e0ced6289f7d,0.01558340580241451,0,correct
+easy_ham/easy_ham/2384.835c56e56932e88a89271d2d13df9a8c,easy_ham,0,"Houses rise �1,100 a week",7d6883bab45aa9faf65959765f409918d0f2a6889faeb67bae0f2aa804286f09,0.00796330259389017,0,correct
+easy_ham/easy_ham/1815.c20d5899b4b27415389a10cd4f400019,easy_ham,0,[Spambayes] test sets?,1048cf5bc5049e60422ae587e794999796ec5f2ab81a18fc958100d6da06f7f2,0.004962408734988859,0,correct
+hard_ham/hard_ham/0224.62765917ab1fc98fe9e118aef0894765,hard_ham,0,You're signed up for the Reich Report!,a0e9d383f053000121130f2e3698a8c9352dc82dbb6eebe98d21fc81ebe98fe1,0.18674917056776913,0,correct
+easy_ham/easy_ham/1270.d5c74ed6ae742bd031a65859f584f024,easy_ham,0,Re: sylpheed-claws,6fbb7e1003d9b37577062c679d6d5cdf3ebd9d861fe0a9a7ac288bb6c71c7c92,0.0002604527956957743,0,correct
+spam_2/spam_2/00138.acef24ad51f98e3192d5a0348543f02f,spam_2,1,legal advice,9cf9538f1a23a80f154ae34e81b6bb774c52ec1fe17e73b753f2126bd0aec1d4,0.32717051993624535,0,false_negative
+spam_2/spam_2/00217.f56a722e95d0b6ea580f1b4e9e2e013a,spam_2,1,tell you a great new K26kT5buE4AdbAD2c,2a71db81e13a6ba36633f75cdeda36869dfc40bc2af591275aa202e937b134ca,0.32081103553388307,0,false_negative
+easy_ham/easy_ham/0927.3fda95ccbe3f7818f1dfebfddeb2af66,easy_ham,0,"NYTimes.com Article: Stop Those Presses! Blonds, It Seems, Will Survive After All",601c0362f1c640a42688f6d84fa9b73c81e0bd8811322be909524c369445e0a8,0.0104580042710114,0,correct
+spam_2/spam_2/00307.79b64580c5c605583aec7b7a4f8679c0,spam_2,1,Poor Credit? Get a Mortgage NOW XK,515aa196d2f4c932bcc3fe756657f42b156249d2555c6b5e347d3d25c0ed9bf3,0.8971251944467756,1,correct
+easy_ham/easy_ham/1928.3a8d4a589532c26762138d711aac81f0,easy_ham,0,[use Perl] Stories for 2002-10-09,cfeccb2efae2ad1c0bebe471bc1c271f5f07c1670317e88dc0428c7fe4c32b66,0.00022652392879965642,0,correct
+easy_ham/easy_ham/1190.99eaa82bada000ca0ada9512a3f590e2,easy_ham,0,Re: Holidays for freshrpms.net :-),020d12ad9b1e4b0ee90b50050b49b48cbe0bb34024f34f001d508c4e1c2ad50d,0.00029498931929441,0,correct
+spam_2/spam_2/00059.d7351d4fe66fb96d83ffb65b4a60b3cc,spam_2,1,Incredible Cash Generating System!!!,a5f4c2c9aaf823b4e53dd6c40db68a4a4db46b270aacf23abe142d53cfb1ec01,0.8552560420149949,0,false_negative
+easy_ham/easy_ham/0920.cad45fa889324a42667e6da8d3a8006f,easy_ham,0,Re: ActiveBuddy,22565dc210ab8fb270e37bf25bafc10bc12aad2e520dc0a194160211241988ab,0.0375511796214802,0,correct
+easy_ham/easy_ham/1547.5a820118fa0555c1c9735e3f2cde4b7f,easy_ham,0,"Re: [SAdev] Re: [SACVS] CVS: spamassassin/rules 60_whitelist.cf,1.29,1.30",ce5a8191171f85394176e9afad1485b17d1fd0b8f18f7d4a9cf186e494c5ec08,0.0008587171249412644,0,correct
+easy_ham/easy_ham/1869.7e629f0611df5503ab8608b3cfd9def6,easy_ham,0,[use Perl] Headlines for 2002-08-27,fae0d50f65cc196d6d292d830fd32818a1b8a9964cf0455ce8cc7f327ecde14e,0.00024858582607284604,0,correct
+easy_ham/easy_ham/1303.b8fb03a2de8615f9287086ccc71a4282,easy_ham,0,Re: use new apt to do null to RH8 upgrade?,48f48cb98a318de7f2c431f0212ba59e3a0dfc10288a71523f198fa0513d5880,0.00046193609218760215,0,correct
+easy_ham/easy_ham/1284.bacf47285c3f6a514443b4d013d5736a,easy_ham,0,Re: All set for Red Hat Linux 8.0,f8dd754ff5587b76a3bc6226c2b0a47d6acc234852b0e8c5e0b652bc84fde16f,6.931429379938134e-05,0,correct
+easy_ham/easy_ham/1037.1285e23706448e51cb9be399cd0546ed,easy_ham,0,Re: Anolther sequence related traceback,5cc96b2d7e8719b751aaa862255336c5af17e13568a858dbd4948c36cd0a70b2,0.0018496700620389622,0,correct
+easy_ham/easy_ham/0378.933eac5ec9a3ef912c40c6a30a11e07d,easy_ham,0,The MIME information you requested (last changed 3154 Feb 14),30b3c0e00366a6eef9a09b71fa2dcf9275f79497195fbf88f8bb81edaf7edf1d,0.013497307602941443,0,correct
+spam_2/spam_2/00353.8d9f21930310041d8a0e17b0494e3a4a,spam_2,1,An Invitation to Advertise on Freightmart!,bfeaa6f5ffbd14ec231144f52383154d752504da74a5a0fe8653c26c979d6553,0.47253955298735967,0,false_negative
+spam_2/spam_2/00690.5dd358321ab2f5139ccf636223251d1f,spam_2,1,The Inflation Fighter,45e8b56ef51a1701a8f63dee21d7cb507739f7edb04fe07b343df9bc655c4cdc,0.9994396842880163,1,correct
+spam_2/spam_2/01071.d9be48eb5a3359dd72dd7d0e9627fff3,spam_2,1,Re: Without a Perscription - VIAGRA / PHENTERMINE / PROPECIA / ZYBAN yotgy,bc1d50258250d81d201fc9636ebe33cbfd889dfe265ab31e1bad1e024336a319,0.9922230699943345,1,correct
+easy_ham/easy_ham/1879.cf7e58d9357d945a1d7381703b70d91a,easy_ham,0,[use Perl] Headlines for 2002-09-04,2f78c86e0dd457b99410b242d52cc57317114d92e3fc9f5f2a3424ff65e70d33,0.00022242160182847336,0,correct
+spam_2/spam_2/00515.89787cdc87d6fe15af713a5e960c1e05,spam_2,1,Improved Health JBTFCZ,1f13bba07cffbf24d415b429a3bde6fdd7bc4ec23422fedde158e8e842520415,0.9372809429290534,1,correct
+spam_2/spam_2/01253.26e421b9623002d636c29f79f68a58fb,spam_2,1,Toners and inkjet cartridges for less.... F,2acc34bea1cafb450c8199449bbc4349a848ad573bee43ec7a78b7a270483711,0.9996916661045623,1,correct
+easy_ham/easy_ham/0267.218a528c448166d39f853cf75d8890dd,easy_ham,0,Re: [ILUG] find the biggest file,81e2b291b46cadba2784c638484252a44e3f0e171a83aa36e5e44fe0cddb1a86,0.0021618957213234533,0,correct
+easy_ham/easy_ham/2206.533117a0e7f5c975be45c7ccdc006d86,easy_ham,0,Saddam set to let inspectors in,61c8acb6c4248d74e4314c988b01c541d5a916eb5ef6633b84192b1f39f8ec32,0.0011353914080863515,0,correct
+easy_ham/easy_ham/1893.f4e1f04673f39ec1714ca2e3056684a0,easy_ham,0,[use Perl] Stories for 2002-09-17,ceadd25da1a00971477a26dea29a1e6d80381220615a9b9ac98a912eedc8f87a,8.386875070232394e-05,0,correct
+easy_ham/easy_ham/0686.be9e16843bcf570a9e7e9549f770d3ac,easy_ham,0,Re: [VoID] a new low on the personals tip...,74a84ff0ab6e7e507c458aac6aaa07bb0cfc3c8555c9152f4fc83b848c9e9c6c,0.001041304688709949,0,correct
+spam_2/spam_2/00522.3c781aa53f7de37cf33e2205faac7143,spam_2,1,FREE Travel package and Business Kit...,00e012056c32004e96c1d9c05da2344c19e285385edc10a9c969c6e08d746540,0.8788352186361008,1,correct
+hard_ham/hard_ham/0131.fa0961b38faf5f7e1a9ec384074a7142,hard_ham,0,CNET NEWS.COM: WorldCom woes lead to bankruptcy,5cea79e8a11fb2d29157d6075f38e73a64516b7192386f82bad460109aee6c49,0.0027706234119573955,0,correct
+easy_ham/easy_ham/1957.0fd661cae9ba750c8d2005ca5f5f2075,easy_ham,0,"Goats with enormous testicles, and a life-sized cow sculpted from butter",afaa9cc062c2d627504bba1f07b061e8ddee898708726d3ee7b199de67ae6d5c,0.01394313056855231,0,correct
+easy_ham/easy_ham/2344.45d6efa4dcc957ef888b88e5017e850b,easy_ham,0,Switcher,c05f78f556d2bf60c38115060d43072fb48c831bc67cedde1f399023e320a98e,0.0033056560726326643,0,correct
+easy_ham/easy_ham/2181.3f950d2c7e806d81476ecbd529759d0e,easy_ham,0,Stupid for a Day,71c642a94f34d245206af017f54517dbf00bd42d0c88a9fa72c554045687462b,0.005125278462542296,0,correct
+easy_ham/easy_ham/2262.e4636c98650a8e9b6f53c193cbd5180c,easy_ham,0,"""Cram school"" operator arrested for trying to cram it into a 13 year old girl",aac21676625331f5640787154d5bd87c7463a80d2606bfa4a003cdbe4c87f75e,0.0008698298658178038,0,correct
+easy_ham/easy_ham/0297.738b9e94deb4bf077221292f071de345,easy_ham,0,[zzzzteana] Scissors are a snip for Third World,759e2305886629bb0352c5c1d396568dfa97c758e4134e41ce7bf8f58ded6309,0.009443682150559308,0,correct
+easy_ham/easy_ham/1395.923c820448824387b21877293d3d1462,easy_ham,0,Apt 0.3 and 0.5,c1e5957df36f9c3264e59a55f4484f407bc226853d7b1a1a411af657a28a0ee9,0.001891332437938986,0,correct
+spam_2/spam_2/00315.81905f8867f52179286a6a5bdd1483fa,spam_2,1,Too many credit card bills! - this fixes that!,72b346af96937cf52e0aa6a701bebe9f497ba87dd0754e997516f73093da3ab5,0.987388494395354,1,correct
+easy_ham/easy_ham/1683.f2844e0cae274ae1be662d38631cd0c8,easy_ham,0,[Razor-users] How to test razor,75ab6dde9a94ae6bfeedc47d0fc3a81fae1c8d15400e63524adfd7a0f6ef1b11,0.0009248566255982425,0,correct
+easy_ham/easy_ham/0347.0e43f8ba3aadeed419f512188e5d8aa4,easy_ham,0,Re: Apt repository authentication: it's time,0464020c15095c5133301be91817201b5ea8d5928e67da1764b2e9f362db5fb6,0.00019902640014442558,0,correct
+hard_ham/hard_ham/0035.4fe7648654fa3fa1ae5379894f00474f,hard_ham,0,NEWS.COM INVESTOR: Battered stocks regain ground,55caf91e5c7d8f5dc274a87eaf734a5d87f53ebb352022cd85af9bc94109fd67,0.017743168982621668,0,correct
+easy_ham/easy_ham/0446.321425772cd75481e72bd8c30d1bd78c,easy_ham,0,defaulting to showing plaintext versions of e-mails,1ed5f197e9fa66f570e97fdd32b9ddf7e9119e3c1ff51f35cf337ab555b909f7,0.0047785958919365264,0,correct
+easy_ham/easy_ham/1599.1f738c1f2512f6179f1d94e2949cce00,easy_ham,0,[SAtalk] Razor problem,50465b0de2f0e5dadab75c344358407885e3b07df43a6ca03404e77620688318,0.013312124991204363,0,correct
+spam_2/spam_2/00833.7af1bc506099884c6171be0d846cc292,spam_2,1,Copy DVD's to regular CD-R discs and watch on your DVD Player.d7l7,d0b6053222f017dc9b2adfe31f4c50a31fe18b005f36eb138fb217b40d675250,0.7450318717971426,0,false_negative
+easy_ham/easy_ham/0496.397e015dabee7ac3c6e655ad9bf66052,easy_ham,0,Re: CD player UI for toddlers,759f96ae8360ee53d4f5cbdc4fc41d2e11ab272333534272b1eb103e3942ea5c,0.02043903043287292,0,correct
+easy_ham/easy_ham/2264.df776aafd5a6ddf82fb876ea512ce0fd,easy_ham,0,Man's leg is found 7 miles from a hit and run accident,aaadab2e37c5b1b9cbbaba7ec979b51e14d4d55dc3312b02b80e8198c89d831d,0.000989527327436256,0,correct
+spam_2/spam_2/01376.73e738e4cd8121ce3dfb42d190b193c9,spam_2,1,[ILUG] Prevent Work Monotony ilug,61aadf69e9dc671c40f436e0a03c7c7906a70aac009fa9fb9e0d1076cf64ac0f,0.7930210340679628,0,false_negative
+easy_ham/easy_ham/1641.7555c5920365e6315e3f20d83211d558,easy_ham,0,Failed mail: Banned or potentially offensive material,367092a60d5541146092695664901ccd109efcfad3c6f7f2e49003415c746062,0.4947669200438382,0,correct
+easy_ham/easy_ham/0074.78000652dcb19856e85ff9637f0e52dd,easy_ham,0,[ILUG] Looking for a file / directory in zip file,276bf2545323dd553b9110bdcca9b689e17db88e2f848aded1791ddb5370dd32,0.00368957082949005,0,correct
+easy_ham/easy_ham/0104.cbb1681451b2525d7aeec9eeb285306d,easy_ham,0,Re: The case for spam,c7cb43eb72a25917bdf4e8efacd98bdc910f0ec4fc6295407df37b3357256c2b,0.02945693137813105,0,correct
+easy_ham/easy_ham/0538.59939f403bfb0f553e02f77abfb38846,easy_ham,0,Online contents of Electronic Publishing journal,107dc0ad2bb8fca90c1235911ad61ea3ee7b8f46c0345bae758b0de3f64d0535,0.040941130194552235,0,correct
+hard_ham/hard_ham/0177.7bf03ee9001454f9f3b4d258cd926098,hard_ham,0,Movies to Watch on Lifetime,6df09f834eec7a8f5d8306a7407602647087f9adac8e328a1d075dbe84232b69,0.029704023854905778,0,correct
+easy_ham/easy_ham/0785.87d89ef541ee6678a7ec3e7009bebffb,easy_ham,0,Re: Goodbye Global Warming,31b7c5535f5bb18fce6205a78514950e6e84142498741e352b19f1221c05a1cd,0.01176683589866447,0,correct
+spam_2/spam_2/00560.dfc4142bdb51d4ac3f9a3460c9254a18,spam_2,1,Prepare to save gas driving this Summer,22af94384578f35ffac3bc895bdf5cfe8a5b3dd64613e8a80203b32cea375acb,0.992249228310254,1,correct
+spam_2/spam_2/00289.ce923605b55bfa316d567763565e6bc9,spam_2,1,This is where it all begins,9582618ec17a0f89ac40e64acd6d914cbb0477d163e96d6c3c2b33f0dfc65074,0.9517973896199011,1,correct
+easy_ham/easy_ham/0333.b702dbd33bcec7b614b9f223b2487688,easy_ham,0,Re: Zoot apt/openssh & new DVD playing doc,fbcf286bfae233e70f3e5f61f0823d25c770e634cb2889d76f1f0a70cf00ed35,0.00010496728463706241,0,correct
+easy_ham/easy_ham/0921.5a4eee7f38a1451abb6054901280b699,easy_ham,0,Re: ActiveBuddy,740c3a4861661f3a723bf14fb75ef31059a725e065e43089e1650b87d954f641,0.029989165405420553,0,correct
+easy_ham/easy_ham/0903.8b54a580db644a9a23934361d5173610,easy_ham,0,Re: The Wrong Business,9fd96de1d7b480e9b899209619da7e9a32325fd07a6c3b4f6c143e38758fc47e,0.0031266255394433477,0,correct
+spam_2/spam_2/00254.9810c685fa8fd2953b0c07ba7900605f,spam_2,1,Work at Home and Make GREAT MONEY!!!32286,27327820962dd7d924f80261ab9b4fd667d4b90d0c710ef23bdd4fc8c1ce2eb8,0.9034093693635842,1,correct
+easy_ham/easy_ham/0361.36332081025aaf122520737c26461a88,easy_ham,0,Re: My source: RE: A biblical digression,5addde5f6b699c42f1c9d9dea74ef84dd7bad3d39113672a1f0b819a1dc62b14,0.01078802071338853,0,correct
+spam_2/spam_2/01399.2319643317e2c5193d574e40a71809c2,spam_2,1,Cannabis Difference,b79efe1e6538c3488e88c9be1b9811392cf7a67c14a8d15c400a7870e27f05fb,0.9589690375461386,1,correct
+hard_ham/hard_ham/0001.f0cf04027e74802f09f723cb8916b48e,hard_ham,0,CNET NEWS.COM: Cable companies cracking down on Wi-Fi,e128785a57831515493fc74936df022f9e4494c53437db4f826063fca7f00eb6,0.004771665623327983,0,correct
+easy_ham/easy_ham/0971.0442a60e9294a07934b67f751cb1177e,easy_ham,0,Re: erratum [Re: no matter ...] & errors,1843c120a757aa25c625f4211db83d804bea93da71517d8514abaedb3fdb029a,0.011203876551669344,0,correct
+spam_2/spam_2/00420.cf4550c21f1afd532c171e6e3e10f135,spam_2,1,Government Guarantees Your Success,5d6029c4e7f7254a1b98904eda60714fddfb118672f393e9ae051869e7e3fb4c,0.9649661515565919,1,correct
+spam_2/spam_2/01362.794d3043053407d8e0c075a9a71902bd,spam_2,1,"Free Software! Games, Movie, Mp3, more free now!!! blwe",ff7312e3fa34a8716973f8b1d21732e19ab813c956e2feb4585149e7f395f8a0,0.8824911194179242,1,correct
+easy_ham/easy_ham/2544.1a95794a767c776e71893fda91f59efb,easy_ham,0,Meet Carol Ann Duffy,2d3984809218ea81bfee4ae183368374841680c256eb2071af525c75c5489837,0.005029607594428216,0,correct
+easy_ham/easy_ham/2040.d3f0b94750bc5473a3c103ad037bbc22,easy_ham,0,We're trying to decide if FogBUGZ 3.0 should support custom fields. Histor,9684112278d3637e2bd463c98e57c56d732a005e74f2da2819655d85a87e279b,0.0035782495298916574,0,correct
+spam_2/spam_2/01223.0321f73febcffd82fcf12b36cce2c6c9,spam_2,1,"ADV: 2002 China Wireless Congress - Oct. 15-17, 2002",a2dfda5569cbd4a73f42e71c8cb8ddc025891c278d38aa2bf4188d8e0bf28ee1,0.22492534979068665,0,false_negative
+hard_ham/hard_ham/0193.db3e40c7d92cc223f91149f8d3a4e1b2,hard_ham,0,[MLB-WIRELESS] FW: Cisco Wireless LAN Solutions,4256e3d4f9328f8501948ab96b632600f7b57d948404baf44bc64e4527326480,0.34150954316995646,0,correct
+easy_ham/easy_ham/0244.82d1da61c4fd05691083eeb9886e0788,easy_ham,0,Re: [zzzzteana] Secondhand books online,4b1d246f59324e371eb03e28af909535dd45dbd46a745ccc1b4353d4da1ba461,0.004092617775186288,0,correct
+easy_ham/easy_ham/1420.6954e3e5e7c772dc859c47d42ff4a085,easy_ham,0,Re: [SAtalk] From: and To: are my address,4098a21e3527a061c2be2b376048a6008fb917aac863172105714593b4b2ebf9,0.001923226512298693,0,correct
+easy_ham/easy_ham/1973.21f4b99039d60b759d1bb452dd5f6b46,easy_ham,0,Light reading,b1b1025d18819f3e2f4b15a9c895bcf01ef736f8c3271597bb60b1ac18617372,0.0015529475498569677,0,correct
+spam_2/spam_2/00356.6420c49ea8ad1c5e4120606f97b60e1e,spam_2,1,Grow Biologically Younger NOW ...5918899,263821e7a0a6b86a98ffcd2a16230d6af12340b03a7369c64e5c2be4dee66bbe,0.8869800231677929,1,correct
+easy_ham/easy_ham/0535.e5e6e90ce659ed0f9d4063350a836201,easy_ham,0,Re[2]: Selling Wedded Bliss (was Re: Ouch...),5400fa174b6cd10845df3cd9fabd957cd63d2ea15e732f4607fb6e5fe1abb029,0.002419029602697453,0,correct
+hard_ham/hard_ham/0211.bd3cf04241bf141dff4739b94b29f61c,hard_ham,0,Automated 30 day renewal reminder 2002-05-27,85178387b79892003e0cfe14b7f9787eaeb110856d15d1df787c6abf4e3c236c,0.4028697438684848,0,correct
+easy_ham/easy_ham/1023.909ebf9dc802a8f97b0d722ad443dd42,easy_ham,0,"Fwd: [POLITICOS] Re: ""Bowling for Columbine,"" Opens This Friday",cb610e7b5d43a444e1e41f89855299b213b1d98ba4c01ab7f8cc6e88a33acd67,0.00981573433038158,0,correct
+easy_ham/easy_ham/1086.b51953361efc50df363334b72a566863,easy_ham,0,Re: exmh bug?,e5cabaa2fe03d95ab7d347b15bab16997b6ecb3bde88fd458ef39a2747cbc6a8,0.0009492395667435058,0,correct
+hard_ham/hard_ham/0166.4b3874844ccb78cd7ca2cd03876124b0,hard_ham,0,WinXPnews: Time To Patch Your Windows Media Player,d487a35d4ad3adcc4c1a929d1695e0179442576e3794a4e29cff1ce802a19979,0.005305615538801238,0,correct
+spam_2/spam_2/00074.f7cfc6a5142e788004e0cff70e3a36c0,spam_2,1,PLEASURE YOUR WOMEN FOR HOURS WITH VIAGRA 6269,898974cf6e9e87e00aa4231fb5079d886a1fa19db12742294a5a8160ecc04305,0.9965786533914414,1,correct
+spam_2/spam_2/00620.488299bafd542cdfa1a1fb98f00e6441,spam_2,1,Found your resume . . . . .,d0fec33ef63b4750b22feb2d25e70436227653e6e4f6eda763c4b4b527c20f5a,0.3115582062585391,0,false_negative
+spam_2/spam_2/01163.1c25ecdd147c3f4eef84b13fa6061c9b,spam_2,1,Herbal Viagra 30 day trial.... XMXP,ea865114c8e75a09325a35473e7abf99ccf7474cd1a8f0d246719788b7e2ec85,0.9916464105672304,1,correct
+spam_2/spam_2/01377.17adb34fc692245ce301d3db0a3e80c8,spam_2,1,Thanksgiving Sale,acaf203007d7b09cab26e05bc85f7a3a1c5f2c674857f4ba88ff8c6d332d99f6,0.4811011318566317,0,false_negative
+spam_2/spam_2/00664.c4f198903588cdc4af385772bb580d90,spam_2,1,mortgage r us,1e3604fb3df6a4d952007618a4855f5418d6543f8690a513e64b07f4fdc8f30b,0.775876898655779,0,false_negative
+spam_2/spam_2/00137.17860a4d8ca9d8d813cc0eb0dfd51e45,spam_2,1,,51f03f5f18d7049b429d0c6617f86be0e40a5a1ff31f31b039dbf11728241744,0.9487826675078778,1,correct
+easy_ham/easy_ham/2440.041d0de1683ab08bbd1c626e7d0d3beb,easy_ham,0,Shader Integration: Merging Shading Technologies on the Nintendo Gamecube,e3a0291cd95376962c43afd0afba7884d5f7e55074dfa601401d2c07545dcc70,0.0064113757885652985,0,correct
+easy_ham/easy_ham/0960.ef7ed4755c4f2630aea5bf4074829bbb,easy_ham,0,"RE: Our friends the Palestinians, Our servants in government.",c5e01994b07ce8471c4e22b688307638ea6a77ac8996297ab28cb6bfa4deef03,0.011861207143767432,0,correct
+easy_ham/easy_ham/0105.be508e1b909bae328d4a13fe898f60fb,easy_ham,0,GPL limits put to a test,5e414b55e2ef0b8767c795701e097c5e44321f04c3cad3737cc3117c32999c10,0.005479725408261183,0,correct
+easy_ham/easy_ham/1626.3c8c730d8741c9357da8984dd1057665,easy_ham,0,Re: [SAdev] nightly mass-check and hit-frequencies,b742c04bad96d0032c0f1e5ce4837549bbe867938b3843e1047891be6e94eabc,0.011607312242714317,0,correct
+easy_ham/easy_ham/1778.5e3a4fdad399e2557d6921d7e938faef,easy_ham,0,[Spambayes] Deployment,4e0102a7f77d98b7f9fc2d3ba8cb44e921bf2532b987069d33d2095d31a8d943,0.01178952302949549,0,correct
+easy_ham/easy_ham/0320.6c54ea1bb991c6fae395588219cfce37,easy_ham,0,Lord of the Ringtones: Arbocks vs. Seelecks,93d5bd85e7fa1c04743f12ad9829f1d08cc2eb088108ccfbc42593e5ade40729,0.000897187548558882,0,correct
+easy_ham/easy_ham/0120.27898b8f966a9c687b1f93fcba5afd43,easy_ham,0,[ILUG] The Age Old 'Which Mailer' Question,7b369bc290f4a852c7d656e6c891a129785a72ef3fd7d043f45ef30f6e0fcbaf,0.003761842028074887,0,correct
+easy_ham/easy_ham/2367.4c7d1d3b8b2f0467a4ed5e9ef5f17980,easy_ham,0,'Miracle' gene therapy trial halted,6d9c37dbd0ca973a73faaba5434cf626eb93dd1918f40c9df15af23345151563,0.026652448838278355,0,correct
+spam_2/spam_2/00572.4657e353354321dfd7c39c6a07a90452,spam_2,1,Got Cash? [mparu],1641886cdbf8a3bd4400378b612a8d931e79dacbe5f151a310c6e278825d4981,0.9886133368248837,1,correct
+easy_ham/easy_ham/0643.2c10d49ca3fc564fd6993c1504b7de1a,easy_ham,0,RE: Slaughter in the Name of God,470f8089de7ec07007ef33105dcd9c19a21c5871decf97730ba8c5c89f0bd36d,0.0033849738128509253,0,correct
+spam_2/spam_2/01348.0ed90bb4a1ba1ea2309ffdbbce093753,spam_2,1,Toners and inkjet cartridges for less.... CTLOSJV,84abf975c9099bed230cc243fe42e24345208db6815855601d5f2c5ab73a42b1,0.9995972543163659,1,correct
+easy_ham/easy_ham/1174.92cf3d9c75add5883005eae0732c5a85,easy_ham,0,Re: Problem with an rpm...,3182c950de8d94e14d714639ae7504cba3a6c9312c8acbb049a99952e7226755,0.004663396456556461,0,correct
+easy_ham/easy_ham/2147.45f983522c770a6d369e6a992bdc2329,easy_ham,0,The secret passion that staggered Westminster,e509a4cf9b2e9a7524321215e7fcabed171550cd2e81f5282c383c4369bfe338,0.0022433263680906278,0,correct
+easy_ham/easy_ham/2497.0cbb23e8858a0e33bcf2cf6fe158deb3,easy_ham,0,In praise of evolvable formats,25c838f84a54bbf61ee34e3db137f52722b2c5d84c61268296ad16de98201bee,0.0010847576286456553,0,correct
+spam_2/spam_2/00172.0935a6d0aef9a3d6d64e07e3f6c453ec,spam_2,1,Proposal for cooperation,aa80b70eb970a995fd4c59d90190499d8d55d5a90a6ba46ffefd24ec581d6ae0,0.11758001772635147,0,false_negative
+easy_ham/easy_ham/1612.17083808deba0447726df856cbb574aa,easy_ham,0,Re: [SAtalk] 2.42: est release?,6d399f663785e016f25d1ba26835168c34422319f93607fb5dbdf49149836917,0.018911544839194598,0,correct
+spam_2/spam_2/00688.9a0a9490593c7e2c9500d06bb9386819,spam_2,1,"yyyy,GROW YOUNG WITH HGH!",25e641622cca007573d4688f4c789c57c9ad2f069738204a3b86782114f0bd2a,0.9754075773252213,1,correct
+easy_ham/easy_ham/1167.9006901f5178e82edffb4f9167f7c586,easy_ham,0,"Re: About apt, kernel updates and dist-upgrade",4c787505cf59fb1da81d861180757f98dad50fbc220a1ab58c8a7246c997e199,0.0005678475417617383,0,correct
+easy_ham/easy_ham/2009.9f155332772871c05e2b980a153ff31e,easy_ham,0,Ken Dow reports that the current version of OmniOutliner can read and write,9c349b53e52caa60a69fb904a6fb564006261f605224361cbd6cbbcec539b614,0.0029212903274455897,0,correct
+easy_ham/easy_ham/2130.195623b2a5a8f7c796ed92d031471e22,easy_ham,0,Americans are becoming more spiritual,c131129cef11e7baa5e5e58f77b2ef853c7f61775f248e013eaba1246132c3e7,0.0010029778858609984,0,correct
+spam_2/spam_2/00905.8dcb590481d3e3c04d03506100c59497,spam_2,1,send REAL PAPER GREETING CARDS on-line!,be509b14bb5b88d40315b2aa93148f86a5bb115b573fb22fca12e52830eff180,0.7517781206463192,0,false_negative
+easy_ham/easy_ham/0634.2da7e83d50baee90c3c9defd2aa30b72,easy_ham,0,"RE: dylsexics of the wrold, untie!",a3ee90ab8e2aa33e7f34b68e08179992577928306b525f52bffc6808db6c1cbf,0.049524508373498005,0,correct
+spam_2/spam_2/00081.4c7fbdca38b8def54e276e75ec56682e,spam_2,1,"Your Membership Community & Commentary, 07-27-01",40b60e79ff223a924eed0f93c5622cbd9c1d12e3aa87b93cd92360febb2ee2d0,0.9642510109767767,1,correct
+easy_ham/easy_ham/0647.3e7d91fa18377c667aedf719bc1b2c5a,easy_ham,0,Re: Slaughter in the Name of God,46f0dee236db5330a2e4b2a3f45e95a374eb27b51a13a83ffba1a35612f69d88,0.004947877517420863,0,correct
+easy_ham/easy_ham/2037.8eee0e6738beed8805727cca45c8b29b,easy_ham,0,Thunder Stealing,08aa0cf9e65058c04e142a0801ba75b20470ff0197096521767bc59c270f7496,0.021773545586036284,0,correct
+easy_ham/easy_ham/0234.4d23ca5049f3349529f5612ab5e2120d,easy_ham,0,Re: The GOv gets tough on Net Users.....er Pirates..,3a97016698e74aa002a990ef5ea2a5a927bd3a8ab61a121795b9be525451fdfb,0.005075308770191113,0,correct
+spam_2/spam_2/01123.91470734d764b1bdfb671a7d3b0d7ffa,spam_2,1,GREAT News for Men! NEW Breakthrough!,238b2714477b9f2615bfbc7d251265c8d6f3d27627ea28f323df41ce0b3a0184,0.4140265304393481,0,false_negative
+hard_ham/hard_ham/0217.9afc6950aad655603a1f70edf4ba2bb7,hard_ham,0,Securing multiple virtual hosts,af28d704a725de8a4a29c79b3dace01083996128f0daa4603280438cfa315fc4,0.039505549602969585,0,correct
+easy_ham/easy_ham/1312.cb81f191343dc4f26a8a601cf73d790f,easy_ham,0,Re: use new apt to do null to RH8 upgrade?,742d09ae37890a9c8ebb7496bbdde0ee8b1aa0d30ce7d6f2b975068262d3b2b3,0.0007916545864088308,0,correct
+easy_ham/easy_ham/1748.f61b77d47c074402d1ee5976e9a4fd7d,easy_ham,0,[Spambayes] Deployment,86c6c165914edd48b043373290a73cc1138f926df52b0b2e0dde29e2a6b55e85,0.015260233899070485,0,correct
+easy_ham/easy_ham/1558.7f77f46b6272f003f0b588f6a0eddceb,easy_ham,0,"[SAtalk] Re: Spamassassin-talk digest, Vol 1 #659 - 41 msgs",8622d9029257a74666dc6ac1608bc996468013d5ef445a3b94e193b995d07898,0.0011386713353460985,0,correct
+easy_ham/easy_ham/1966.a6ad55fc6cdaf28e047c333dd5a55b7e,easy_ham,0,News.Com: Google search gets newsier.,f62d290d49e9dd9e1382538f8ae508a31a55345eb611baf5d37202dc33f194b6,0.002339145204821088,0,correct
+easy_ham/easy_ham/2355.00eb81a74e130b74f5252af1cd45897a,easy_ham,0,Robot census,f80a19ff88e5a7a370591876ef1cd4dc46bf4eff97042ef2ca8158ec928aee22,0.014323450412093135,0,correct
+easy_ham/easy_ham/1029.cfdcc9c1ab54e77b18da7164b324178a,easy_ham,0,Re: Exmh && speed,b9874e02351a3683af6ba751f7dd35c9adbf777290b235e376b21bd9aba43642,0.0037316521345834063,0,correct
+easy_ham/easy_ham/1580.108304b0d17fc6c34436e63e5f30fc47,easy_ham,0,Re: [SAdev] testing with less rules,dc6c70591a2990f421ddfe4e71964e87f7e85db7ab692aeecea16b15e87e92d4,0.028186788210782472,0,correct
+easy_ham/easy_ham/0395.9974c2f067b24a73a2cd3f9d1af21e57,easy_ham,0,Re: The GOv gets tough on Net Users.....er Pirates..,40c49ff4bb71754ef4d303fa70ff498231bf170579a426c49ca7773fe683dbb0,0.034307628443771214,0,correct
+easy_ham/easy_ham/1310.2e2ac50f5a9535c6727c5d8a44f0ebda,easy_ham,0,Re: use new apt to do null to RH8 upgrade?,ef9845a6c31762cff9ef7372912b0f75ed8c1df1ab7effe6356b4619369bbc02,0.00015610629571286808,0,correct
+easy_ham/easy_ham/1401.2d453d45aa06dec5a5a98bba8d81fdc5,easy_ham,0,Re: results for giant mass-check (phew),688a1fd67a949e7bda84685e3cbb0ce8f15bf5a1924eac012968fdaee2e96b01,0.013265813349761658,0,correct
+spam_2/spam_2/01261.0d7a6fa74b73f80f62fe11267eeaa956,spam_2,1,Safely Send Bulk Email Using your Cable or DSL,d90bca54d9db49987f30eddcdc17eace3ddf7dd9f5114fb2940b969378996261,0.546397684233843,0,false_negative
+easy_ham/easy_ham/1819.8e1547062c811ff9b62183ad65bf4ed6,easy_ham,0,[Spambayes] test sets?,7b78cd110185430ac7d54ca2c1ff79057f2c9fac43c62318b4120388135f8e4c,0.031234582177986747,0,correct
+easy_ham/easy_ham/2522.dc159c06c191406ece1b0fc98a352bbe,easy_ham,0,Live forever or die trying,9aa451b2c3f4422b516d50e6174e5dea6f750688f95fd28f8aedddc5e42c89ab,0.01507708199668389,0,correct
+spam_2/spam_2/01122.af6891fafb13c4cc39dab9a4a85449fd,spam_2,1,Lowest Rates Available. edhhnjtvwx,f7b837a5507a801225f334f5b0c63754104ff4421c08a6185b1b2bd26596ee5d,0.983021301645165,1,correct
+easy_ham/easy_ham/1597.e85265a0da41a962b316d117548bb3ea,easy_ham,0,RE: [SAtalk] user_prefs ignored,ffdb421b10b1c723be663dec4875faa747194bba1f0fd6368a5a5f53a123e179,0.0014399380673334541,0,correct
+easy_ham/easy_ham/1148.78b528d4233a8f6f6e43fdd6e7e97a53,easy_ham,0,Re: http://apt.nixia.no/,5583deb2e013f109a2a4f2690db7f6d8de9a9a96e650e255c73febbb751d5830,0.00031130348807881464,0,correct
+easy_ham/easy_ham/1557.ca393b0c2ccca10ee02981cf20cea52a,easy_ham,0,Re: [SAtalk] Badly Formatted Spam Report in HTML spam,d175fb6e51a590ae91f12b1dd35d533eafa1e850fc146dad3276863089360003,0.0074249739717584815,0,correct
+spam_2/spam_2/01335.ca70ab7f2d1accef8b3cf646e3004ef8,spam_2,1,Why the mortgage email?,6816b0316124b24017278510b3bcfa524e651f2eaa9507bacab201a6752d994d,0.83312551237515,0,false_negative
+easy_ham/easy_ham/2209.81f0feff96d3c780aeaabb787fee38c1,easy_ham,0,Show-and-tell nearly extinct because it might hurt children's feelings,12a09455570e8f9ce3ac16907bc145647ac37380f5d31b89079daa8d63614a84,0.0031740081271624605,0,correct
+easy_ham/easy_ham/2369.490b37114daf4bba803abe57c307dfd2,easy_ham,0,Electronic circuits created in a flash,c37aded1179be3c52146384667e8306bb0d9e189145456f0fec2eda34f79eab2,0.01380685458475346,0,correct
+spam_2/spam_2/01257.f5908ef0550cdf91bd6ae55120ecb5ce,spam_2,1,MAKE MONEY AT HOME,511e0fc60f82b3dbd78bf8589aaede4f8f4f50264d47e57644cfeb54c61d1121,0.9643128716568016,1,correct
+spam_2/spam_2/00918.5674181d00a5130b030a6621ccec0819,spam_2,1,Life Insurance Price Wars 8870Hgdg0-306fFSQ8613J-21,25196f68c50b96c78443206dcc9d9f273fe53b63213670f3e4fa20e704a1820a,0.8908229466067381,1,correct
+spam_2/spam_2/01145.a34477ade6db9376e4f8ccbfa8607881,spam_2,1,MORTGAGE LOANS WITH A 5.75% AVAILABLE!!!!!11284,07832dec3ebaf5c633b5a170d49835d94b00f17ac73a41418d3bf05b87acdeb7,0.9909235500300694,1,correct
+spam_2/spam_2/01131.c9bb07673bf9f048916cd2b9b1813724,spam_2,1,Free Euro.,dddb6e1865ae607f60f3ac65cab67a91b49f3f14f3de3bc426d79b7cd8559d37,0.8411969977718579,0,false_negative
+easy_ham/easy_ham/2091.1a1d629678aa1ab8953772a2cd006183,easy_ham,0,US blueprint for smallpox mass-vaccination,884acda9d96d35d8d2254ffca5c295d83b45232dad9b58a2eee28476eca425c6,0.016695798035891746,0,correct
+hard_ham/hard_ham/0073.f27080aade7899011067836222260a45,hard_ham,0,Save an extra $50 of Compaq's powerful iPaq H3835! (CNET SHOPPER),2f001b8f424ab5f8b8d56a86c10dfd0888050932e5bb9b338d1345ff95a3c32e,0.052833813413808134,0,correct
+spam_2/spam_2/01086.158c29f51d36d79ababf4377b5b3f1d2,spam_2,1,", Find Out the Truth About Anyone!",0b15334ce46f77832c0c810af15af448388cccc4a27a211eec2c59491d55ac66,0.9405019982544196,1,correct
+spam_2/spam_2/00840.819e7f38c3eced79f5e956fd95103957,spam_2,1,,ebf7009b0730d56741e7496aff59131da05884250e2ce99f422e477c18b76957,0.7409235433787005,0,false_negative
+spam_2/spam_2/01110.0ca5bbd9e775a3c44ff965f301feaae2,spam_2,1,GREAT News for Men! NEW Breakthrough!,db6a81221ea2392a6d47c3ca401d074ae4a9a53e480b20a302ce0c6012df1915,0.41006524702571434,0,false_negative
+spam_2/spam_2/00783.a1d194b912e784ca6c4068b14791180f,spam_2,1,Best $50 I ever spent!,e12105d1090cd0771c7420dfa4925187130d4a2399573a88cdb3b58ee2dceea9,0.6041538448314406,0,false_negative
+easy_ham/easy_ham/2389.af658dd4bdf389ab5277f39579e0310a,easy_ham,0,Gaiman kicks McFarlane's ass in court,21ab7479bd4b5bd03dcfba53cebb21e293c8cffbe5116ba7de959af3a6d9218c,0.007162523013581496,0,correct
+easy_ham/easy_ham/2213.6647ae93f71723406e93a6dc306114b5,easy_ham,0,"Toddler falls from a first-storey window, saved from injury by his fully-laden diaper",2c26b889ac70e0d4af8644106b1c1bfb748b47cefedd6fa4173a4d1793a8dd8e,0.0020756810436245643,0,correct
+easy_ham/easy_ham/0236.8af79b4e6416a984668d3f9c272a2822,easy_ham,0,RE: The Curse of India's Socialism,daa4b94c7a52be3dae15d3b1315ecf3f1cc702c4e9c03ac30cf0cb8ca108d318,0.009025820270895959,0,correct
+spam_2/spam_2/00379.b2ab58d60315cdc423cd8640466092ed,spam_2,1,Oh No! My Printer Died!,96d5a26043352612393d3268d9adbc49e98df6286b95df0d393cbe10dc90943b,0.7781152739419026,0,false_negative
+easy_ham/easy_ham/1026.b2ee7b3cb90365641e465cfede58a672,easy_ham,0,Exmh && speed,58346c1a19537508bfb7aa0d37ee9c7df8abb3a5dbbb79a6ded13fbdee6a4ebc,0.004524953640111748,0,correct
+easy_ham/easy_ham/2325.cc16427dcac808a8d7e9c7aeaa6dc684,easy_ham,0,Call this a party?,fac74904eb6e04ad793cd1f37938428439d2b0f910d90a2f038b63075810722b,0.002655540250242459,0,correct
+easy_ham/easy_ham/0638.70122b70a334560fdbc450b6516bf752,easy_ham,0,Re: The Big Jump,8b2ba099f2d3072b5db2c9f87f4c4ba51309105e4df3e937ac51240e382c5db4,0.00264539210102631,0,correct
+spam_2/spam_2/00838.a9f6a5bc71c83bd73764f3945b5b9074,spam_2,1,35% Lifetime Renewals - Unbeatable Product!,d55a978b77ca47105871a0f1403c8eea27ce4aeea9fd1cb2fdfd12b708744322,0.9989496774647663,1,correct
+spam_2/spam_2/00594.3381bb07fec959ae2285b219cc18eb62,spam_2,1,Don't get ripped off! Things to watch out for:,acd91ecad4c33547bce126eaf411565aa22bb5413792dfb18c84a26d18b93749,0.3503930094384808,0,false_negative
+easy_ham/easy_ham/0042.7ef6c72f88de15d72b1c0d9c164ccb78,easy_ham,0,Re: lifegem,b3795e0a88cc63c7a5135977d560294ba449917bde5b24eb3d6adb3f3a132bf6,0.0343794160265177,0,correct
+spam_2/spam_2/00039.1295593cb1da98e80123f333def0b8dd,spam_2,1,Real Money Maker for Real!,86ffae17aa1274e0de8b0ad9357b8251806e87ee4bb7ea16245c0b3d0dbe24db,0.999180252841505,1,correct
+easy_ham/easy_ham/1507.381db954fc6fe8df9646172b53db92ad,easy_ham,0,Re: Secure Sofware Key,a0cadcff6710400662b6dd0f744ed39b92eee3b4c1f0370f4eb35de60e2cf433,0.014673423537140608,0,correct
+hard_ham/hard_ham/0021.7c2e9c94ea3ec3a3ea116f01d1a5e539,hard_ham,0,[Lockergnome Windows Daily] Fraud Wipes,38a7a5100dcf05470742181b3c294cc1fc247284b7982bced6ad5c3f5fe9f10f,0.006610286404643934,0,correct
+spam_2/spam_2/00812.275141f8033735b80bdca7c9dcabc8ad,spam_2,1,domain names now only $14.95,c260ab81ccc92f518d73fdd4c18803745fe7f4d8a574b4e5eb1106fd6213024d,0.9934254641177654,1,correct
+spam_2/spam_2/00929.008a60368b7623f11c7bb95826eb7366,spam_2,1,Juiceman II 19819,4feb89f2a6d0e1d04b1765ed60f48d011f3d424f353e84ce705d320bf5f1070b,0.957523430082383,1,correct
+easy_ham/easy_ham/0798.120c7f5263021bbdf183e1e304ef4a44,easy_ham,0,RE: Re[2]: Goodbye Global Warming,79e8b34e9a1d6e3a12964961bb30d7c874798a790ec9d911fb65994c83c7a609,0.032854829730717565,0,correct
+easy_ham/easy_ham/0070.4f269f2d783b479971f31006fe17ce62,easy_ham,0,Re: [ILUG] eircoms adsl modems,37e6164c959f48b99f2c61459af279cca3136ad681e46abada21c7c0fe7431ad,0.0018256782574970602,0,correct
+easy_ham/easy_ham/0861.6d286bd240426caa250c29aae36f9eab,easy_ham,0,Re: EBusiness Webforms: cluetrain has left the station,3d510db98a49596d58c957afb1549a9496d4c6a6d83b95344ec7e5eefa69a930,0.008893436730023926,0,correct
+easy_ham/easy_ham/1750.c5afcba50538a5f49d6e261f6bcfed40,easy_ham,0,[Spambayes] Deployment,4517a41d04a895d872001b377053de52a5f9542c449cc6a24aaca9f1c5cb37f9,0.00332633937119944,0,correct
+easy_ham/easy_ham/0007.c75188382f64b090022fa3b095b020b0,easy_ham,0,Re: [zzzzteana] Nothing like mama used to make,8dad9d714f3c2f7dfa523d36c23c8fbcef0f0b82403550284a8d6c202c2db17e,0.006180976974370183,0,correct
+easy_ham/easy_ham/1299.072df7fa1fc07de40459983f730b82ca,easy_ham,0,Re: Gabber packages for 8.0 (was: All set for Red Hat Linux 8.0),b66a0a1c4cced53db6c629c11b02926290b7e528e45a2454749d24e88b6fd9d9,0.0001361883657358971,0,correct
+hard_ham/hard_ham/0095.3ab54d86bb56d59bdf2d4a1cd5626357,hard_ham,0,[Lockergnome Digital Media] Endorsed Compatibility,7c2178616ea14f3cef3de5b8c5f1d49885bd8672c2c1712b9cd1da2d4437efc4,0.002941111947607173,0,correct
+easy_ham/easy_ham/2075.711e8f761dd164a7bcafc3ab23c96735,easy_ham,0,Ultrasound blood purifier tackles fat problem,c5073429baa40b9dbced05705fce040a190d1cfcff76efa9bb9df3a24e950ce0,0.014542546853619125,0,correct
+hard_ham/hard_ham/0199.bdcf433ea9d96d36e5a564d787aaa926,hard_ham,0,"testing for taint.org, part 2",74752e332754a817d22af16e6db0b53b0d4c35c495eb3a1c17f20199301b6314,0.11032365373662621,0,correct
+easy_ham/easy_ham/1548.009504211e34b42d8b878b5c5aec5926,easy_ham,0,"[SAdev] [Bug 486] SpamAssassin causes zombies (network tests, MIMEDefang 2.16)",848fea8960265faa9c6cb87018653a9804021500fee1c3b035ea824d936346e0,0.0013369320731998083,0,correct
+easy_ham/easy_ham/1447.fda5fab9b91617921e5b7d5097214c6c,easy_ham,0,Re: [SAtalk] custom score for a given domain?,dc8d51be1fa0d3b854c36e41c322fe31df7a3808fb883ee1507474bec645ec87,0.024029802447858354,0,correct
+easy_ham/easy_ham/0353.f4c84bdca20621cd5aa9bf8d6210e0b4,easy_ham,0,Re: The case for spam,e17d0a63d9e34e37a0236755d1b5bc6b1d08a7404eb7480a1d95b2d83416f6e4,0.04828398973194897,0,correct
+easy_ham/easy_ham/1199.5ec73158a8a2f5c74523d8eb88871653,easy_ham,0,Re: sylpheed-claws,7624b973708cbee9e1bf5a47443cecdbf6af811b97533ddbbc1314a3afe17012,0.0003322767647497897,0,correct
+easy_ham/easy_ham/2159.5ab12cc141927fdd9fbf5f9d17bb2533,easy_ham,0,New iBooks and PowerBooks,ae7dd5c143b5f9dde87190f62e2fd2a1b67319ae1e7d2d1254c4dedb655865d7,0.007250692571850248,0,correct
+easy_ham/easy_ham/0846.c64497babd4cafa18571fd484fd44e9d,easy_ham,0,Re: Digital radio playlists are prohibited?!,b2ddd4880894c03f2f4fbe14a7f06428ba9b2f18fbfef24bcc2ed1b088e49b99,0.016041546593108982,0,correct
+spam_2/spam_2/00725.260c7aa4ae8ce594c0c671b2611d313d,spam_2,1,Free Adult Videos To: yyyy@netnoteinc.com ID: vtyp,777d30e11bee25225522cc571b023bc08b3d70c9536c0ceed198be02c7f5f2ce,0.9961260920440106,1,correct
+easy_ham/easy_ham/1543.d8b77b54627b605a9be40ba163b6dd70,easy_ham,0,[SAdev] [Bug 840] spam_level_char option change/removal,d3ad6b2cd990fd0728c5b6f5667297896c09e5520f4679fe56bc1a806710474b,0.0011003177725474097,0,correct
+easy_ham/easy_ham/0046.05e8a863eaf20f90374d0a15427d9a16,easy_ham,0,public mailing list sign up package,bd08a000981820635a76601ea32b8b642c7231b2d608e9a16b18250616ab1ef5,0.013408983736708934,0,correct
+spam_2/spam_2/01229.bec63972cefbe62bb371ad659cd8563a,spam_2,1,Congratulations hpshum you've won!,4d50acc805b9248ef60a1a1482626766eafe4c6ac41a44c325eebc02c0066898,0.8634234724218455,1,correct
+spam_2/spam_2/01219.db22b96619e848e2c9825ebb710897fe,spam_2,1,Line?,95db8ac3b138a92c17fb5e10480572225ca0254a352316f28237234f5ac7e73e,0.31038404426398414,0,false_negative
+spam_2/spam_2/00433.e23d484b63694062d857aa6fc4fd6276,spam_2,1,3D Motion Capture,a6d90b8d858aef95bee1a90abff5de8610c0fe872b9d8f03c4aa2153139238dd,0.9354475477335727,1,correct
+spam_2/spam_2/00108.813fc6306b631b5c58ecfc26caf3a8dc,spam_2,1,Major Stock Play,bb35d0e173bde52131590f745515481f48b2a87fcbd00fb47583247856f6d10c,0.3317803418475769,0,false_negative
+easy_ham/easy_ham/0093.0c71febfdf6f3acbc4d0c76b777a8530,easy_ham,0,Re: Tiny DNS Swap,830a2ca1493dd3f79a45871271c24faa29cc1c79474031b0946e4f0e5630de40,0.13825751850799323,0,correct
+easy_ham/easy_ham/1307.e200557eef5893f75746c1876b337152,easy_ham,0,Debian-style task-packages for RH8.0 available,364d042cfc6c7254b9b7989d61a67ba59699fa367092096ae51f67a1b1e3977c,0.0013369455886175624,0,correct
+spam_2/spam_2/00027.b7b61e4624a29097cf55b578089c6110,spam_2,1,looking 4 real fun 211075433222,b95ca71b845c8bed10df58e343d7e98dab25fe1ec39c9912ee5a71cf97e0af8d,0.23954649328378508,0,false_negative
+easy_ham/easy_ham/0594.30616a68b04f216bcea0ad52073c0df4,easy_ham,0,Re: Recommended Viewing,8028f38649c7074c67fcbba41e3cc3308195fd22b3be174489c1b56e3c80e181,0.014606348467724342,0,correct
+spam_2/spam_2/01150.c429b55e3a5834c74d18f9b0bfc968cd,spam_2,1,work from home. free info,d8282c8446b567b7821cc3463110e9a062cffbe0f55fd10a18edecc89dda6c62,0.9893115711277435,1,correct
+easy_ham/easy_ham/0533.adb2f50e664e9db319a7e802c862ba31,easy_ham,0,Re: Googlecooking,d69eb88dc118ec2bcb453888ec3adaf1fe2210227f5ceddcf34cd46c95888ec7,0.020928038771898187,0,correct
+easy_ham/easy_ham/1103.e4d34070786a4d46da1061628bef2b57,easy_ham,0,Automated forwarding,59277bac37f12a9022eea431ed7017025ce9698fec2192922490c676d4752d12,0.003129126940837474,0,correct
+easy_ham/easy_ham/0600.5c058c763f0c2053e70d2a6ddd5afd1e,easy_ham,0,RE: Recommended Viewing,01bedf8a994204c8bc93983018a84294e611b180a713889522e6ac98a6ee183b,0.002039757984506096,0,correct
+easy_ham/easy_ham/0263.ffa4db454754b3c66fd025e92912941e,easy_ham,0,RE: [ILUG] [OT] Dell machine giving me hassle.,1a3a7ad604f6f7a3a659758c7ad5364b5b0958925c1cd7e614c16b0102b239dc,0.001497119693493829,0,correct
+easy_ham/easy_ham/1351.c176f7e5d80492c34cad40bc9e939012,easy_ham,0,Re: RH 8 no DMA for DVD drive,596385cb15cd2881a48e462c951603d2d375395986e3487ce5482071e6da5ae4,0.0011288193932803053,0,correct
+hard_ham/hard_ham/0129.187d5f6eb8880e76a396afb77e9a7241,hard_ham,0,Reg Headlines Tuesday July 23,cc01403b6b291654ebf005c687ae3fb8c60ae0c6fc7aa1769f668c6ae3620abe,0.030365962596378554,0,correct
+easy_ham/easy_ham/0839.12075b1a4eb499ff6a0d7fd0e9d776db,easy_ham,0,Re: SF Weekly's Ultimate SF Date lineup :-),7f14233b26f0333ab48460d6091acc415dc4a4795bb28d8b5f411e4616a291b8,0.06929530571188496,0,correct
+easy_ham/easy_ham/2031.81bbf025232d0d1f70571c9169091565,easy_ham,0,Maps,8d79b09c91bd06abcc176950260b32284caec262ba7211094a7aeef5565969d9,0.005110142976367083,0,correct
+easy_ham/easy_ham/0931.4b656b6718d863aa88ee116bd3fa0d1b,easy_ham,0,The 3rd Annual Consult Hyperion Digital Identity Forum,2927f79416be136ca8b26211a4438f88756563ae86fccca3225526ae3aedffbf,0.007426763313966318,0,correct
+easy_ham/easy_ham/1857.8fbef0589564bb19c088156227772fb9,easy_ham,0,[Spambayes] Current histograms,5d749b2361fa1766752c173493827363b0a047c1f0bdb940491902a324256feb,0.010401317065010343,0,correct
+spam_2/spam_2/00801.00fc164b0d3eabfded6c0dc24050dbb1,spam_2,1,Your Paycheck!,5a62f53687fc9d295d738fc5972215b4bd9156a55f32b728336af422e5c6d2bf,0.9313893401743094,1,correct
+easy_ham/easy_ham/1439.6ed10d0d0a15ece643b718880874a713,easy_ham,0,"[SACVS] CVS: spamassassin MANIFEST,1.100.2.11,1.100.2.12",d4e2ef2881a21f3fab8834720baa0a2fdb425d0b92392d64ffe904d8439b0cdf,0.018819376953656052,0,correct
+easy_ham/easy_ham/1239.4ac4f511de904aae73d8d5ead6f7fd70,easy_ham,0,Re: Ringing bell on other computer,fb1fa52b61f32e5718d82e56642cd20f0cd73fcb71994b764a1802fe76a3ea0c,0.0005166185341871378,0,correct
+easy_ham/easy_ham/1078.f47613951afe10b6b663ee4e16816072,easy_ham,0,Re: Sorting,9cd0ce7be61d1e2e9c42c76b3df8615941190698259446c2e8d25e429b352424,0.0011984424829942948,0,correct
+easy_ham/easy_ham/2316.2d6bc229796fe7a7dd725fd7211374fe,easy_ham,0,Reunion,7b765ad5a273dac0caab8043b864660c989f28d8a10709a00140ca9b0dd87788,0.005126800061058474,0,correct
+easy_ham/easy_ham/0580.61bd3978cddfc54e52fc52925ecb3b4d,easy_ham,0,Re[3]: Selling Wedded Bliss (was Re: Ouch...),a04453e0c1b3b353c8ca985ad1def84dfe8736947f516c2ba19c5797fab0b226,0.0021146847288826555,0,correct
+spam_2/spam_2/00855.0d1b1b55419a3c35f19b7c35ea9a46b7,spam_2,1,Build a great future,58cb337bf0c05088b0a1cf945113c8de61fc4f124924afabc7a19a6dac4c26de,0.8116992916463275,0,false_negative
+spam_2/spam_2/00559.f134a8ef403b9c3cc92f44a808a97403,spam_2,1,RE: Approved for $5000,0327cbb631b57eb46c73ed014ef6cf05b47b0f1d8a4360759b24a69b7a7a7e2e,0.7171216750649516,0,false_negative
+easy_ham/easy_ham/0270.5a7d9b20e00fc24d6c929c198718f5a3,easy_ham,0,Re: [ILUG] [OT] Dell machine giving me hassle.,3a361c24171724ed4c1c0ceca46925a703b3f89b701e79ebb1a73615b5880d6b,0.002898400181433427,0,correct
+easy_ham/easy_ham/0829.8d4c26619530e36bfb855f5afb08876c,easy_ham,0,RE: liberal defnitions,a0267b0ecfd6e0d5751e2b82b8258b2f4f2da40b4a33159114879c7241f05d44,0.03664362245410717,0,correct
+spam_2/spam_2/00913.2c4aa5dfdd0ecb0331c674b73f40e924,spam_2,1,VTGE 7/22/2002 10:24:24 PM,26b452c890f2aac19c5281835f05bcd0ac1b7d6953f9887ecd712f127a157468,0.5878577474316775,0,false_negative
+easy_ham/easy_ham/0534.a2b4731ea39251d3db3b433ed81b1087,easy_ham,0,Re: asynchronous I/O (was Re: Gasp!),8bbf2eadaa004da30c3e8e4969a50d46f24b6455ef56bb68c6171e4af9999aec,0.0017781915281424993,0,correct
+easy_ham/easy_ham/0520.db2ae930623e1db4c9cf60676f96c4e5,easy_ham,0,Re: sprint delivers the next big thing??,69f6cea96ed800f5a2524f7a5e7c5e50d43bc5787566954a3900a61ffaa7a1fd,0.09024258369402513,0,correct
+easy_ham/easy_ham/0721.9798746ace52b039545cfcb5dd5df9fa,easy_ham,0,Re: Avast there matey,44eb8ac364575980faaa46cab6efc44c04c52d147d37382540a26d584b7001fa,0.0513439924649212,0,correct
+easy_ham/easy_ham/0683.782e26a57d2ef6f0d8f9e82b658563e0,easy_ham,0,Re: [VoID] a new low on the personals tip...,35ed2e91164ef7cd1da6eb664dc2c1078c62391a62bb63c4a144c3d0ed47b80d,0.01653893593919982,0,correct
+spam_2/spam_2/00683.41038a20d4763e8042a811a03612bae4,spam_2,1,Fw: Offring Membership To 16 Sites For Life yyyy@netnoteinc.com aymou,78663eb9dc59df5b2399c5ff7ef934cddd72097937c8bd4ff15ab91d314e8ee2,0.9846218334271853,1,correct
+easy_ham/easy_ham/0006.ee8b0dba12856155222be180ba122058,easy_ham,0,Re: [zzzzteana] Nothing like mama used to make,5b5ee896c13a84c7b2a9674f6f59d4d78dff32d38c1918aa1d1905bb13aa56bc,0.004775419979596006,0,correct
+easy_ham/easy_ham/2499.6fc4e078d141a24f3a81bc4936722fbb,easy_ham,0,"$15,000 umbrella stand: nothing exceeds like excess",f4b955c0f706c820b036fbaef78b0a9de2f9901269a75e7960293530322625f0,0.018848951239368174,0,correct
+spam_2/spam_2/00225.a4a58f288601a7e965b358c6e7c6741f,spam_2,1,to the heaven gjOQ1LUGEh3axIEp2anbbYD,a85dc51e9e3d7e807027ada285048957e2201dda83eac7c4c9851276c04083e6,0.4031874602608354,0,false_negative
+hard_ham/hard_ham/0109.a7cf1e85d45487b4b1eb01326ef7340e,hard_ham,0,Great deals on the Summer's hottest MP3 players (CNET SHOPPER),c4abd4e0fbc24773e01021ad2e2ef14bac51b0ba34ba81bbfdb9d42da20e3934,0.027739498918770023,0,correct
+easy_ham/easy_ham/0151.4d1c8772327e44b20af6420e1d1c0a75,easy_ham,0,[zzzzteana] Man admits Soham kidnapping hoax calls,a6aaeb0e040d615879d05507236b8282b3e7afc75a4c42f34469e999a1748862,0.010980601405763854,0,correct
+easy_ham/easy_ham/2138.e9ae7c69cdbfec0ee85fe0248fbdbd69,easy_ham,0,Ecstasy users 'risk Parkinson's disease',143627fc6dc16d742c371e6a0b7db0b9628a4b58c5b32a4976ead7196402182c,0.006675373256522548,0,correct
+hard_ham/hard_ham/0169.6ba188c524a39a3795a12518b0b27a4b,hard_ham,0,CERT Advisory CA-2002-21 Vulnerability in PHP,c9eca7eb891fed434b09bbde9559363e898ca01399e0b0ee490118f8d9755bc7,0.03015612407910228,0,correct
+easy_ham/easy_ham/1613.19c5758c67f8ba03cd7412c56c979390,easy_ham,0,Re: [SAdev] Re: Web subscription for spamassassin package,a9541324963c68a51ba75fff144dd7ac510703d05ef193063c2ecb38751f4939,0.01780825202246242,0,correct
+spam_2/spam_2/00925.6ba2770acb214c661a26e54b4d03c119,spam_2,1,ADV: Search Engine Placement,b326d8909a79ab408034f92d0f31d9d08ebb1236add295fbb11c26ab22bb9c01,0.9083419572756027,1,correct
+hard_ham/hard_ham/0074.b6030281bdc89e6b039b77b49a130867,hard_ham,0,NEWS.COM INVESTOR: Techs slump with Intel,92c2c4ccbe4eaf9f2464dd4a9e0e0a447892ccabafe1c972c5b52d74cd1a6904,0.010704465129867917,0,correct
+spam_2/spam_2/01102.823fb9065f0dadccb76633810487a19c,spam_2,1,"Bigger, Fuller Breasts Naturally In Just Weeks! uqouq",1e1376a6315038676f946821a6d94c8c5cbd2e000c3bce622306e3614a3005a8,0.7182624486618533,0,false_negative
+easy_ham/easy_ham/2442.ba0f88eeb7387e4481fabc6cb31d1b30,easy_ham,0,Product Review: Virtools Dev 2.0,d99c505c8538bffacff1041c5bbfd95105273a13e8108cea9d7fb13ba1d61bbd,0.008837252781262473,0,correct
+easy_ham/easy_ham/1574.b1f0d9b40506000be4910e25a7c3ac3c,easy_ham,0,Re: [SAdev] Suggestion - 2 levels of Spam Status,6d881fc81314a018250318f7467adddd2f6fc477c1ab2829b51d554b95434ba8,0.006732451241844838,0,correct
+easy_ham/easy_ham/0048.6dbad96d78f9dd6100a4ad2a8b8086b6,easy_ham,0,Entrepreneurs,55145db9c40c0af8757a2bb756ed586401c62b210893ecf47bca1beaddd638f0,0.023319458592061398,0,correct
+spam_2/spam_2/00782.1a0cff70694be0ab6f02dbee8b5b482e,spam_2,1,"ADV: Direct email blaster, email addresses extractor, maillist verify, maillist manager...........",3688e803375f5b99dca0a7b97a0782c9065c6a9938626f407372d96206a5a75a,0.3867623148137557,0,false_negative
+easy_ham/easy_ham/1667.aa251c5e7789a550ed91cdacb0d58649,easy_ham,0,Re: [Razor-users] Problem with Razor 2.14 and Spamassassin 2.41,fc3478587df8609f4e60d6c7d505ae3475bab5af6629426e16522f873d8bc5ef,0.008037489300757568,0,correct
+easy_ham/easy_ham/0360.f47b9aa1071c95031d17821c25d3de78,easy_ham,0,TGE: Thugs of South Boston and The Revenge of the Bandit Princess,b2e3995d9eb79918b782856216c63b4333846920407174667c0f92704acba01b,0.0014267521112710166,0,correct
+easy_ham/easy_ham/2087.0bfbd54693a9c1b9898c96b430865d13,easy_ham,0,West Nile virus endangers blood transfusions,fcdd5ce2b7977c9dd9a3c48798b4359c72f27055aacb2b327389148b888bb656,0.01117464919887639,0,correct
+easy_ham/easy_ham/1537.61e8d9ec6d8fe200987abca9969c2afb,easy_ham,0,Re: [SAtalk] PerMsgStatus.pm error?,0e78ba29171a38733d292ef71d3b40b14c75600eca143cdf2f4359685a36cfc0,0.00011991765023892467,0,correct
+easy_ham/easy_ham/0503.5364d68940343b854595410487aaa1ba,easy_ham,0,Re[2]: Selling Wedded Bliss (was Re: Ouch...),fac6781ae58f5bfd3a06665134a66ef34e89bdf3a9727c4ed2dd3a6550fd8cb7,0.006395051402649451,0,correct
+spam_2/spam_2/01030.2f9d18088877f028b4ebcb3961e76354,spam_2,1,"Fast, Free, Instant Life Insurance Quotes... A",0d87a320e18b7b3c451a67d939b40034d88687c28cecbfbae9deabf2cfd07a2f,0.9769101406948888,1,correct
+spam_2/spam_2/00048.91474353d7616d0df44b0fb04e2899ff,spam_2,1,Email Marketing Works,38dfe95352dd0fb1332f789ac9b929a868d0155b7f59331f6670138b86a3be9a,0.98404420689162,1,correct
+easy_ham/easy_ham/1517.14cf0162b6bf5274305b7b573a0c3a82,easy_ham,0,[Spambayes] test sets?,a08fa99141477504277e699140bb2b6d325d7019a993611b3bfdd4ffa42a005b,0.015576575431326473,0,correct
+easy_ham/easy_ham/2256.192fda174ac98dde837f5e2651bb07f1,easy_ham,0,"Kid crams acorn up his nose, hilarity ensues",3267f81b8bf60b580e016a99cf21618a3d94429bbdb26b40482be2079332e09d,0.0006930680805807796,0,correct
+easy_ham/easy_ham/2094.ab0de9fdfde7eadec0dd1da6d27406ff,easy_ham,0,Mayan texts reveal superpower wars,b5e6e89df4c20d99da88923345b08176bd6901c772c2ca61295d593cee3fb1f4,0.004970184705824126,0,correct
+hard_ham/hard_ham/0181.4750eb0bfa983cb33844255f8f6a2094,hard_ham,0,[Lockergnome Tech Specialist] Transportation Rage,6d3229f203feac2bea436573604c076477b241c859cd1a00b739e5ea7b860832,0.0025233158331875623,0,correct
+easy_ham/easy_ham/1610.adfdd3cbb3bad46220490cf0d9c26396,easy_ham,0,"[SACVS] CVS: spamassassin/rules 50_scores.cf,1.226,1.227 60_whitelist.cf,1.31,1.32",c14fa73c3cb0502e3eed9b20fe1efc36efc7dd360ae4ab28a9bef7a21e6c8f23,0.01817655403410252,0,correct
+easy_ham/easy_ham/1171.0e43e655cee3e8aa703995f8f929b9f1,easy_ham,0,Re: Problem with an rpm...,e28daa7f91a77a741c869b8634d36ebe7cb4a4341da0af9536e38af673362b59,0.0018296397879900197,0,correct
+easy_ham/easy_ham/2468.897a44a9936163da20ab13ce60d5e153,easy_ham,0,"Delphi Questions, a new _Joel on Software_ discussion group.",2d99c0c728c0d84f5cbe44e371527df4f028a97ce6c80ba5b48b178984b1cb32,0.019209371482273405,0,correct
+easy_ham/easy_ham/0102.ba8679813c4b5f424fb225f09b2fb1f2,easy_ham,0,Re: Entrepreneurs,1aee3793ecc073856d52dbc0820843ceec2bd971eab974f27b222d2995f363a9,0.04523116464950984,0,correct
+easy_ham/easy_ham/0441.ceab9dcbd4892de96af3e38b96205f54,easy_ham,0,Re: CVS report,ebcc74e1b40fc343ea623eefae1c1a0b2703b6a601ff0e917eb61dd64912febe,0.0036997677034854804,0,correct
+spam_2/spam_2/00296.85aa16f800e0aaf8755cdf23d7e035ff,spam_2,1,Upside Only Treasury-Linked Annuity,7222b3840902e428a316aa9e82c74f8f82e16f53aa3bf51e61d492782787e3d8,0.9991768907049934,1,correct
+easy_ham/easy_ham/0325.2de3d7f6cb27edcb0bcc965b3353a5ed,easy_ham,0,Re: [ILUG] cups question,e1112f51cd76054c5167728996b4f11c364ed04452485ccbcb4a410d2a054ba8,0.0019904854104680204,0,correct
+easy_ham/easy_ham/1512.97da4f8a986b55cbe1f81bb22836ac58,easy_ham,0,[Spambayes] test sets?,74d3d659595a48fa260a4ab31eaf84ff360ba140fbbdb6c9645bd4a5b0f9be31,0.005147568434559624,0,correct
+easy_ham/easy_ham/0961.06496acb4b3a9db5434d7c68ff5376e0,easy_ham,0,"Re: Our friends the Palestinians, Our servants in government.",cb4af59915466aa75880ea6b92ec6d921505e9f9a3ea06e52d1ff9a16fe44471,0.18840535384479398,0,correct
+spam_2/spam_2/00216.c07de35b7e7f659e3c0c071b30053afa,spam_2,1,nice foto YOHvTp2KSxRjQIzJXdHxkRTfBjhO,52a0143282c0b79724b6fc3d8dfc09596d126569d2ad94c012d6c0ec3a0e271a,0.4308817530279744,0,false_negative
+easy_ham/easy_ham/0066.dcf72ba90be7570f2f7edab45b23ae36,easy_ham,0,Re: Entrepreneurs,1308c9ef9fdb0cb528eabf4a9acc59d0e9b6867cc74abc060704ec2f6c6fbe7e,0.038633951260272435,0,correct
+spam_2/spam_2/00824.eec96f74d95afedbe574498808d29395,spam_2,1,Your $1365 Welcome Bonus is waiting for You!!,298c829ca2d744a58f293eab6f570f00f3df0eec618721de0ebc7c60fbca84f3,0.7796128739203843,0,false_negative
+easy_ham/easy_ham/2292.280a5c73c09974136e1f31c118ed6b2f,easy_ham,0,Danger Hiptop reviewed,7dcd5d3ad86bf2bf9a86695fd21f619f637ff2dad2289a97f8e9e2cb2a39cdb0,0.004427095272876926,0,correct
+easy_ham/easy_ham/0289.cb9c0595bddae2c25357ce5c9fbaf687,easy_ham,0,[ILUG] Hayes Accura ISDN PCI,62105e7d244657f4860f8cc020b257aa12182dee986155888d1678ba4d514577,0.012675217762257152,0,correct
+spam_2/spam_2/00520.892a859ed7b0c96d56ae83e4f6ee6b11,spam_2,1,Ireland's first great World Cup result,346efb2555cd5b38a45c7219b3a8450e0ffd4084dce4c7935a3b911944eb3538,0.16219428944961659,0,false_negative
+easy_ham/easy_ham/1379.8f1e63f3902da72388600d360b8579b1,easy_ham,0,Re: alsa-driver rebuild fails with undeclared USB symbol,c718bf91dc56b8570a3c9f66f6413bab7c841849b0e537ff80e614db85553580,0.00010446226410251117,0,correct
+spam_2/spam_2/00662.58b714e07ae476b3d66fc7ff828a066e,spam_2,1,Get The BEST PRICE on Your Next CAR!,c3130cc864a4e29c978525f9cdc3f348bea40c30ae3a0d67d8da398c5bf8585b,0.8885842406961588,1,correct
+spam_2/spam_2/00940.33bee147237876bc1f28b1bf21b586a0,spam_2,1,Assistance requested(Please Read).,1b822ddd702d850bb0113d4ca580a0d14cf51c41c89a65960326892f1402a2d0,0.8638126469108487,1,correct
+easy_ham/easy_ham/0153.f78ed3d22e441ab7bd6d006323a83621,easy_ham,0,Re: [zzzzteana] The tenth planet,70c2551c5cb5b0759e8b5d56f0e94c45694963afcf95711847e27ac173e4042f,0.010884627204128238,0,correct
+spam_2/spam_2/00382.2e6245e7b689da67dc8cf1a600d804fa,spam_2,1,"""Great FREE Offers!"" naaqd",9c23b556fcfbe414813b02938829656758d0724ef0542e643fa03f0afe3347f2,0.9694957203910096,1,correct
+easy_ham/easy_ham/0925.c1066ea70b0e714fcea10b379e32d573,easy_ham,0,Re: Optical analog computing?,085fd120bd8966311d7951c76e100e216f4a239f74286eef542d71438350ba0e,0.0036589706826393705,0,correct
+easy_ham/easy_ham/1443.f5558679d8d2abd2165d96149a4de59b,easy_ham,0,[SAtalk] Compile error under Digital Unix,aac0769060a0c2ccfffe2d7de68a426cc09fbef4b8bdb7b74c7650e9894c07fc,0.059310538491783034,0,correct
+spam_2/spam_2/00892.98aff9f92339cedef0ce0b9bade2765f,spam_2,1,FW:>Re: Herbal Supplements only $24.99! Limited supply. NTZY,cbac1837cd014cc34710ce6a77802ec223ab392d71702b24897327afef20e274,0.9896956648644152,1,correct
+spam_2/spam_2/00684.ac796b7588e9ca61a66ccbca7a90a796,spam_2,1,What dreams are made of!,f6c5cd7dd512b5a71dec69f9d874dd0872ec6d029cd584f8d0dfb07fc5904095,0.9909702142575918,1,correct
+easy_ham/easy_ham/0955.aeb04c1ac6bb728a6561da1da8b73995,easy_ham,0,"Re: Economist: Internet models, viral spread, social diseases",501a3c2036acf8349b9f387fc989ad47c7d92f593c72c9169afaf7bc7b1e28ef,0.035804408655099984,0,correct
+easy_ham/easy_ham/1915.893a0df57d80ba1af2d3af1c591ea66b,easy_ham,0,[use Perl] Stories for 2002-10-03,a3ed1bc3e4d662ca00fb85a589dc050f0bddea516d7c0a92e46989dd5098bd97,0.0003469376654901432,0,correct
+hard_ham/hard_ham/0178.5b7f2a0e87c853e8c8e13d556c1320d2,hard_ham,0,Re: 三菱化学エンジニアリング様プロセスダウンについて - ticket #55606OTC1 -,ff622587dbf3ea8d5b30118f69cf288b178bcbe3de0e3d516dc7b253c9eebbe8,0.0033007281455237365,0,correct
+hard_ham/hard_ham/0027.67c81ed875f5095080aec2de21d50d70,hard_ham,0,Moore: Speech recognition next hurdle (Tech Update),469c1aef1ae67912279abdc05ad0ecce77d11f6e32a041e5377003ced7f9bf22,0.002708279126048449,0,correct
+easy_ham/easy_ham/1162.0ac7999a1814c6e79d6da0f6fb8ec301,easy_ham,0,Re: http://apt.nixia.no/,d020b7bb10cca0a2aa8fd006bd572b4bd9b7f3cc67c3e44d30eb0b0ad45b0b37,0.0006381371766762941,0,correct
+easy_ham/easy_ham/0794.cf41a55933ae8896b668864d7b57b177,easy_ham,0,Re: Goodbye Global Warming,4144f6779282e0dec6fc84369938aae71b0114b8ae9c9813c33e9f2fb38334d0,0.01072552978162371,0,correct
+easy_ham/easy_ham/2025.d02c808f704b98db9eff4b691ad7265d,easy_ham,0,"Great email from the RIAA's Hillary Rosen to execs at Yahoo, Real, AOL and",a3e20eb6dfc9c8e6a301cf330782219c0af737790efbf23abadce0bbb91f5f27,0.005876872368455495,0,correct
+easy_ham/easy_ham/1821.049911b67a0ff546e80e2acc6bcbe6ff,easy_ham,0,[Spambayes] testing results,af562af11dc8322153d8cbc591ed9bd65c56479efa395b150125604058c74f4c,0.051752915732961334,0,correct
+easy_ham/easy_ham/1340.763507dad3b921f972640d4d76172f7e,easy_ham,0,Re: Xine dependencies,8e40369a1663710f09fc4fc7f7059537699cada7e29e4de04df4513075a03886,0.0011485448489268006,0,correct
+easy_ham/easy_ham/0811.ec8f54c9328755f7208f3ec1717e60de,easy_ham,0,Re: Goodbye Global Warming,e307b586449aa7aae55712aea7276bbd6178ea9c7bfd6d6049237f301535bd30,0.003951757863881859,0,correct
+easy_ham/easy_ham/2114.00889c19a33dd48d42bb15c030be21f8,easy_ham,0,Keeping up with The Sims: Managing Large Scale Game Content Production,7a8f99982d25fad038cd7b67fd046be4dd157c7193f66abb55e7a0baf246c2e1,0.028764446090398795,0,correct
+easy_ham/easy_ham/0355.2d1f5d2164caea679047233e08a10a58,easy_ham,0,"Re: ""Ouch. Ouch. Ouch. Ouch. Ouch....""(was Re: My brain hurts)",5149d03cb6342378ce46991b7336d184b4e2f5098933cf6240763ea0f5b6f77d,0.0010493741835113477,0,correct
+hard_ham/hard_ham/0039.3607c74dc1b009386c48b366593ab199,hard_ham,0,Reg Headlines Friday July 12,40796dac155488a54e067c14a0f68031b2cb930899395c34a341311a5aeb216d,0.04823326750627353,0,correct
+easy_ham/easy_ham/2112.6e75ea06b30797027470e19c65ecd4d8,easy_ham,0,Condemned man picks a black olive for his last meal. Green olives have no comment,06964a5d5e306b1f188b36def22acb6427efe699392ad81462bec5f385542a76,0.0005185071193992506,0,correct
+easy_ham/easy_ham/0719.078bfec7d10d50405c5213fdcfe069f4,easy_ham,0,RE: Hanson's Sept 11 message in the National Review,7f6217c663efd57394934873cb24981d4069850f8af02f51eefc4433655e9216,0.007619362850651523,0,correct
+spam_2/spam_2/00033.53ab3a0f8862eb0c12fa6eb3d04badbb,spam_2,1,Inside the biker world,ba40feb0ffa38181f40e82fde7eef023cdc433b61624221e27806d901e730414,0.9330434005825112,1,correct
+easy_ham/easy_ham/1482.75a9c57c2bd53175e33ee6ed037400fd,easy_ham,0,"Re: [SAtalk] SA very slow (hangs?) on this message, or is it just me?",5a46135c73d1e0e210223babea907a0108174fb7a78af7192ff12b138ccff951,0.006037799115408946,0,correct
+spam_2/spam_2/00264.8fae38cbbed6a43b40e83aa8496018e4,spam_2,1,Mortgage for even the worst credit ZWZM,77570a3c4b37682f85fcd583fa2946fdb34d752eaad27dd5ad187c8b593e57a8,0.9006641603630346,1,correct
+easy_ham/easy_ham/2258.4f25aa8ad2f15bf052ed996d40bca9a0,easy_ham,0,curb your celebrity,dfef20aaad0545ac913e6cadff2c7d6a4fd6a902c29bc3260450f45ea733a0af,0.013813220532910732,0,correct
+easy_ham/easy_ham/0607.14d2b2101e12b952f5cfe7aa92afd4a4,easy_ham,0,RE: Recommended Viewing,c9ea95c45b5fb0935f9b417ed9170796d54aedd485e5de5e452be90bdfb41c5d,0.0026945351418304125,0,correct
+easy_ham/easy_ham/0524.1276996048a3e02ffbed1e2df5d13848,easy_ham,0,Re: Selling Wedded Bliss (was Re: Ouch...),4db3dcdaa233bfd1e80ad7248bdf18e1306ea8778cba64ecc13794927f678d7d,0.014006430599540244,0,correct
+easy_ham/easy_ham/2375.5faad60d386ab68428e38cb8d24e2c67,easy_ham,0,Mass human sacrifice unearthed in Peru,029da82f9ce3e8d6aca8c41957895c02d31510069320062ebe6f108622af4bca,0.006767133140084707,0,correct
+spam_2/spam_2/00604.3dcf5f835dacff5d4a32a24eba31cbd2,spam_2,1,Internet Columbo is getting on your case.,8dbf20a927816e467856b2465b0fda4293ab443bbf9a1c28f474feb8d31d4d86,0.9915063049299805,1,correct
+easy_ham/easy_ham/2014.90d4717c17eb5d162dd7230a1576b4a5,easy_ham,0,Speaking in Texas this Friday,9cba1576cb10b1208cb3ea721c5f0a4f8fdc9bbfd2940a5cce0b577544d6b4c2,0.0034015264198240264,0,correct
+hard_ham/hard_ham/0225.57081800f804ace547318b1bc499f4c6,hard_ham,0,Personalize your Palm OS device,ead8a71b8918c9a4f271acdd3bafd67487138e20a552b156279093846ecc1adf,0.1590506680799885,0,correct
+easy_ham/easy_ham/0426.9239b06238f5128c209bbdd252e0fb8f,easy_ham,0,RE: revocation of grlygrl201@,deacf3e14b9d247af2c018094dd3869d7a28b8c1a93a9567941e62c19d96a1cb,0.006889313627213292,0,correct
+easy_ham/easy_ham/2447.e93a9792f68b12cbc322eba2353b3c8e,easy_ham,0,Tory leader risks all on 80s revival,212f79b03e4cb3d3c44f69e05150c494df4517e5502341314410bb237c50826e,0.00442961469331392,0,correct
+easy_ham/easy_ham/2074.f3d515d412b9afe36b37e9e9fcaf1614,easy_ham,0,Parasites may sap male longevity,7ff5d879557776f8586ef85e239417bdab8706f469369989d59beac6cd462e8c,0.008846662767633531,0,correct
+easy_ham/easy_ham/1449.2dcf4336cc70654def986dda89e9821f,easy_ham,0,Re: [SAtalk] updating SA,bcbb903413e5927f8ef933a8a136406813312c1924c87ea68a74e0ef913463d9,0.006409680945144331,0,correct
+easy_ham/easy_ham/2101.c893f322ac6643c10615dfb3c466041d,easy_ham,0,Teen dies of starvation after stepfather puts him on a bus and tells him to find his real father,5764cea01e561c19bc00597d5c264c5e3c1bddfd052c837b8e8107b554dc1505,0.0007575650394187848,0,correct
+easy_ham/easy_ham/2451.1ccaf9bc09a2b8e339f02d21ac62f437,easy_ham,0,"A-level student sues for �100,000 over 'grade fixing'",38bdebb2aa309d84deb5ee163b47668ab01a9e8dc86a096bedf49020132c0288,0.009427530322166179,0,correct
+spam_2/spam_2/00996.cf51353ead421aa3c419ad3d42eb9f7f,spam_2,1,Is your nest egg cracking? 2617iWcH6-263-12,e5cb52bc3213e5920fe72c21e27da7f68f87c8ce67e36158a181f7aea42ceedd,0.8541537926439706,0,false_negative
+easy_ham/easy_ham/2034.84e8945b5bf480a2ebef1961a64b8060,easy_ham,0,Missing the Point,baad8a29ce7d80888f277b5aa802211ffa2cc6f1c2d80706d8a2b0e2cdb1f509,0.010286567879342037,0,correct
+easy_ham/easy_ham/0469.8b40f778677e8d001ca14bcc4268b41b,easy_ham,0,InfoWorld profile of Max Levchin,358264e2c129bbe006da4d99d55911a142a14e0ffae396aa179ff0a200a66341,0.040299469557706726,0,correct
+spam_2/spam_2/01368.0fcb4c25d287618ec7cdf84822d3d405,spam_2,1,Web Pages Load 300% Faster without cable or DSL,fb435e00895254969e1912e3f1f191f86ae8093c392d546481cc2214214071ae,0.4591951419482288,0,false_negative
+easy_ham/easy_ham/1840.0adb46c649c37f8f26c46c6d1b0d8d93,easy_ham,0,[Spambayes] understanding high false negative rate,84a89f3cd91741ed9c6068ea1227f9c669b72d6b46fa620437cc5c0d66b0e406,0.027897855146928753,0,correct
+easy_ham/easy_ham/1716.fabf67851c347abee56594b9873b2d9a,easy_ham,0,Re: [Razor-users] Razor and Pine,330454f5b7c28a4540ee508b4400c425bb140f22db7a887f7fce0dddcc0a3944,0.0005825589196244707,0,correct
+spam_2/spam_2/01359.deafa1d42658c6624c6809a446b7f369,spam_2,1,China Motorcycle,39b9b2d1c4879512968a5897832fedbb084cc98dd916f71a4e7b0a333bcae841,0.49080622669273594,0,false_negative
+spam_2/spam_2/00555.75544646fbe1fd3cb3717fb02a72e824,spam_2,1,Fw: Want to Save yourself a trip to the store? 17579,8c40b5f5483414bf49843ee2e701c093d4ae069d6829bb2a691eca5ee4def433,0.9970731855298071,1,correct
+spam_2/spam_2/00070.598f33a87fd0df81c691f9109fc2378a,spam_2,1,Free money from the government!,28bc32985f7dd123492a9bde19813b97e72aa1e1c01cc7672c7a666ba085a2a5,0.9365920701588354,1,correct
+easy_ham/easy_ham/0363.52461bc133cd3bf0b95a4e40ddb28a7e,easy_ham,0,Re: The GOv gets tough on Net Users.....er Pirates..,3e84b5125b9e4a19985988cac51efebcacdf044f44fb176ef504821691dea846,0.04885803767427306,0,correct
+spam_2/spam_2/00125.ea96729a0da6d9025d5178f2d6916e42,spam_2,1,ADV: RATES HAVE DROPPED -- FREE MORTGAGE RATE QUOTE nttvo,7e2f76ac5155646455827f1b9779a725fd13e90af41f1d61e82919d5fa4a9db6,0.9939666594890766,1,correct
+spam_2/spam_2/01336.cce700d418ddce6f5081cdcda625074f,spam_2,1,<><><> TOMORROWS WINNERS TODAY <><><>,28a6a9689cf3aef4a187528fe8395314918c5cd3cc76a85b09f654db402181ba,0.9402405824507674,1,correct
+spam_2/spam_2/00399.b5a16f11e0f6bc8898caef8d9ba3e9a8,spam_2,1,Look 10 Years Younger-FREE SAMPLE !!!!!!!! esoy,57e481f40c89c3bae3e0d58b0683892ba318404c681eb27458cef476275915ec,0.9065536705140648,1,correct
+hard_ham/hard_ham/0154.b7e55edcd1795f418e9949a9092b8018,hard_ham,0,"EFFector 15.24: EFF Submits Comments to FCC, Johansen Trial Schedule Update",a8960ab196d8c04c4727cdac7f6fb16c65d35a95bb935283d0b695a07fbe0d32,0.013294511099784682,0,correct
+spam_2/spam_2/00403.90a79abcb32065d5381a74a84da2e6bd,spam_2,1,HELLO $NAME,9d5104f5394a3f6f8ab0705e8bb236c7b46caf56dfd247b4272ddfb68d23cdf8,0.9817470448090686,1,correct
+easy_ham/easy_ham/0086.b96641b3e0a2cf8c238976336d45a86c,easy_ham,0,Re: [Razor-users] Collision of hashes?,3f1e56cf8ad33cafde05ae6fd41a790174f64520e69464135bad8ffbe6ec111a,0.012269996715122026,0,correct
+spam_2/spam_2/00582.2db3b12f1cbf87ef3a64d26c35561a5b,spam_2,1,ADV: MCLE Seminars,c8c2dc48f12bc57845c6792718160a44a86096b07fa727659beff01573019747,0.9442236049270938,1,correct
+easy_ham/easy_ham/0160.0040550972ece2c27ed01745f93b474b,easy_ham,0,Re: [zzzzteana] The Cafe Forteana is back online!!!,aa146035437981e936287f0778c9833c6f1c69e4fd0837d7c4ae6cf66ae34262,0.01273063029593092,0,correct
+spam_2/spam_2/00392.f494d12cb0d5daaead0e7f10f8afaef1,spam_2,1,MCLE Seminars,8d5a12e81fa077e0f6c97996a34871ae9eb8474b7116bdcf4f857e763710d80d,0.9066336244300797,1,correct
+spam_2/spam_2/00211.4a52fb081c7087c4a82402342751e755,spam_2,1,ADV: Search Engine Placement,6b590c2e8e05384a660a19e96abc8fa3fc39adff3a368e2b729197b6f9c51a40,0.9083419572756027,1,correct
+easy_ham/easy_ham/0252.274e70cd31fb5c72b9e7aee909c53cb1,easy_ham,0,Re: [ILUG] find the biggest file,4c976f5664d812e82374910c70a8c11396309cac80b9f8f23e78c07efbd77c26,0.0036381846029603935,0,correct
+easy_ham/easy_ham/1200.9409eddf74ede560b5e33ce381d9a00a,easy_ham,0,Re: Should mplayer be build with Win32 codecs?,bb2b162594a21f73e56a923145be35c72214acd86ae764d903b2ac20b16eced7,0.0033085942609040776,0,correct
+easy_ham/easy_ham/1562.6aca6138ec917241b64782a98697c17f,easy_ham,0,[SAtalk] Spamassassin with Pyzor,1dfb0d02c8c346da0e47033cf0617c73d3849e8d9f795c9b51da778b195c0ace,0.0077999720686390776,0,correct
+easy_ham/easy_ham/2330.854fdf89bd1ad6013aa5188ca205f6ba,easy_ham,0,Wed. OSXCon Keynote -- Jordan Hubbard,52ff65f3c9ed764ca08ae35a09d48d66e4522284ee04b39d9a6c831deb8dd7ed,0.0056364375439374,0,correct
+spam_2/spam_2/01321.f32dcf9a564da7e27f9fcad664cb0fe1,spam_2,1,[ILUG] Re: whats up -colonize,89dbdf8bba161c9e857b762f64d522f67e620a08cdd642fa488934d9f3ca915c,0.1286359083236377,0,false_negative
+spam_2/spam_2/00151.6abbf42bc1bfb6c36b749372da0cffae,spam_2,1,discounted motgages 4924161298765444333,12fee35181cba18a36fa7dbc1c3f0ac1f19926d6960551c2e655e9a4683dcacc,0.999204766236196,1,correct
+spam_2/spam_2/00747.801e88bae96047fb00593129ad02fdca,spam_2,1,A rare and wonderful email really!,81c806f49ba58173e9c7639080487c548aef392ad87edaa0e84dc25aa003df6d,0.41889181662531083,0,false_negative
+easy_ham/easy_ham/1153.7b47e0e617c7b0c1e9f3acc37588a890,easy_ham,0,Re: Prob. w/ install/uninstall,823b2d23bcdc7f153081e693a8545163a19ffc3198221e2a3041ae900dc5e785,0.001396248617614061,0,correct
+easy_ham/easy_ham/0277.43d8f575fabb051cc7041c02c9f002a8,easy_ham,0,[zzzzteana] Compensation for World's youngest mother,5d40525c0e7aab34b88408bd78d411a03fa714105d24a2a2918d8cfaf85e07ea,0.00907263451176384,0,correct
+easy_ham/easy_ham/0712.b34faf400b5f68d87b2fb9e83b4c5e80,easy_ham,0,Re: Oh ma gawd - funny site of the day...,28240745571d220741aad7c35628955194e3db5c2d60ca566c8de50c023f8ddb,0.017825286911705193,0,correct
+hard_ham/hard_ham/0188.7fc83c7dcf3fa40cb98e61a8e8661a03,hard_ham,0,Astrology.com: daily horoscope,d06787ce7837ea397e0d1502b4ed1f433bbec5175ed3c97e56384e057c08f5c3,0.5566433879715108,0,correct
+easy_ham/easy_ham/0841.c178b14279ed5f5f9e5be2abac186b3c,easy_ham,0,California needs intelligent energy deregulation,23f798f9e81a0a05836caed8ef5fe21e1f24be6c749530ca6a3f9715eb04cf75,0.0017261703892624898,0,correct
+easy_ham/easy_ham/2133.d3d4f15eb898bffe360f99678d9cae2c,easy_ham,0,Y! Finance RSS Feeds Off,f650c0f5f8eaccf8cc6677d727665f5cfe62f2f924e494c5fde42b257d1e9710,0.005320518449603796,0,correct
+spam_2/spam_2/01031.f8f0ee32c41a34cb5e4744d18d3ed76e,spam_2,1,Are your loved ones provided for?... ZJGU,75a8396b81e2c0001d6ff5344c9ee7cc3132b783835a1b5545e2ad5710511d9b,0.9761673389984713,1,correct
+spam_2/spam_2/00949.690398fb3aa163317614dc81757c23ef,spam_2,1,"Maintenance Tracking/Scheduling Software, $1495",f4b6d4328e83144c994b848c4882606ead80e33d675539d1395e2269869e8747,0.690531174083368,0,false_negative
+easy_ham/easy_ham/2017.4a2785d252ea596ccb66ca45428a8e87,easy_ham,0,[IMG: http://radio.weblogs.com/0001015/images/2002/09/25/uncSamMedium.gif (,4b84217c07e3b936a31287899f188d37abcb06a530bd44c4c0c15a4e12f1d483,0.0029101885398350666,0,correct
+spam_2/spam_2/01365.d90d27bbb210dbdc63ed704b00161315,spam_2,1,HELP WANTED. WORK FROM HOME. FREE DETAILS,35abc19749b0224ed67a53e5094ade416f347a5aaaa927abac0c43419acc31e4,0.9774094352577639,1,correct
+spam_2/spam_2/00703.9fd09a1270c8dab92ec5802e917178aa,spam_2,1,America's Most Liberal Lenders 0137Cpnx4-448G-13,84776942f74530fd7ca838df10a9aa643e1be16e6169759aabd8a36a91b815ae,0.9918911574333245,1,correct
+easy_ham/easy_ham/1761.eeb706ce24cbbf2cd21648a4781a1464,easy_ham,0,[Spambayes] test sets?,61734bcdd3c220f21c8a543bed873ac90aeeb4f03c840af64ccbc63fc9931923,0.0032310207720377846,0,correct
+easy_ham/easy_ham/1655.7a0d7700a207ef6f66686f94b02c7a8f,easy_ham,0,[Razor-users] razor plugins for mozilla?,5a2365c4bbdf970829cb1ece044b54ae0f0d2d63dab84e9e56a2de79c48109b2,0.0008947450566594162,0,correct
+easy_ham/easy_ham/1179.2cebdef3b31479afbfdb2c230046f84b,easy_ham,0,Re: Apt problems,208c9559e613c4d77daf2fb808227aa8e3c75e78d4b5d830bb4b97d5c05dd90f,0.000763995294290115,0,correct
+easy_ham/easy_ham/0837.23be7a8b5000203fd4e9fba1574d9fa3,easy_ham,0,Re: SF Weekly's Ultimate SF Date lineup :-),fbe208759a4725dc9640c5979d0f7dac8b863ceb6209f6fbb7f86d6b5febdc02,0.000807306150052069,0,correct
+easy_ham/easy_ham/1365.83f365382e725776956f137a4600117e,easy_ham,0,Re: RH 8 no DMA for DVD drive,2539f99ee6951c4c104951d1a2023928bcc776ce63c178ab1b0fa34c437628ef,0.0011253991219588042,0,correct
+spam_2/spam_2/00677.e0d5d8da6dcaeba7ba6e2cff4569c72f,spam_2,1,,f6c6695be106997c5ca6f4eca9765b1e2a581500af9a1ae47b211d12495d1658,0.3490712387871002,0,false_negative
+spam_2/spam_2/00164.272880ebd1f1f93cf0cd9800842a24bd,spam_2,1,Sun Hardware 50% off list price,b4d0cd2eb0601cda991904314f32093d7c14866fbe6c484f95bc47db1e361922,0.7187414130652682,0,false_negative
+easy_ham/easy_ham/1187.e5fee75dd86128e81186369567522f61,easy_ham,0,Holidays for freshrpms.net :-),36604a314810e3fafd828f5ab3261730f4fd15d382b5ff5ccf56e310daf7a598,0.00046060209131939807,0,correct
+spam_2/spam_2/00687.52860b94e6aec19d0286673d705facfe,spam_2,1,Promote Your Business,8b292bbd225b8983df0712bde7c11304ddd52322bfe80e5e7b0d5e07e8775812,0.9765688724118041,1,correct
+easy_ham/easy_ham/1595.fa533692bb0d635d6d1219663ee0f82c,easy_ham,0,Re: [SAtalk] Spam host?,a9f95fe03e6a1d0287dcf6e9fc845a2c2b5674c3891ce1f05ed23d548e01e342,0.011161831710952983,0,correct
+spam_2/spam_2/00032.3b93a3c65e0a2454fc9646ce01363938,spam_2,1,Double Your Life Insurance at NO EXTRA COST! 29155,202ecb3ca8443be45874abb24cc77bbcf4c158ac8af163898bc78dc568261482,0.9943310860016159,1,correct
+easy_ham/easy_ham/1316.e019de5bb870ed83dc036c657cc4ca32,easy_ham,0,Re: Mplayer,3191de9689f470aaf253c23011fa46b20350e2fd96540a6c57528512f4d0b706,0.00025924815591032535,0,correct
+easy_ham/easy_ham/0227.95301af4d5382e2029db75a4ecf7560f,easy_ham,0,Re: [zzzzteana] That wacky imam,8eb6dea2759078b36c29b13276e9049f1148b07d97069ce5b465bb8647014a5f,0.00609219740659828,0,correct
+spam_2/spam_2/00401.31d8ded049967dc48ebb564288733e81,spam_2,1,digital voice recorders,4e981e65fad145de38f8a3942d546b77c18c77309e2314fa97d40c1874eb39f9,0.46675185582474055,0,false_negative
+spam_2/spam_2/00927.9505a4791424d2a96af8d75baeaa7f58,spam_2,1,"Easy to make from $200,000 every 7 months",4fc1973e3f5d73745856027d3325313df1407c857dc5af87ce529ce1ef2f0e40,0.9995851568173879,1,correct
+easy_ham/easy_ham/0758.84f1c5bbacc2184d06eb79e4c3a81552,easy_ham,0,flavor cystals,03964fd455aea651e1a4575acbce962232a1d361d9496959cc22f79c6805b194,0.039577201489243014,0,correct
+easy_ham/easy_ham/2460.8a782dd603bfe327c2f7adadf590a094,easy_ham,0,Eldred Press Watch,fc45c6c243a7c3b5cb0344ceba16994f89984f394126f4705c9083efa33d68dd,0.012716787765732358,0,correct
+easy_ham/easy_ham/0898.7ae0747c5a557c5362ba43b0fbfef22c,easy_ham,0,Re: MIT OpenCourseWare,b523db0194aac3a218d67f1ff814fd76cbe8ee547e224fb2e73cfdf2023e078d,0.027307997984790014,0,correct
+easy_ham/easy_ham/0253.f8c6edd67ecdabe677a8f5cd082e3fc5,easy_ham,0,Re: [ILUG] converting strings of hex to ascii,58d3d49848cc0ec80a7a59f41baa2fea8203897c8793734b6270df2a83f92e82,0.0028052456818312022,0,correct
+easy_ham/easy_ham/0809.371aae7cab194e25613d5b4b2cd8b6ea,easy_ham,0,Re: Goodbye Global Warming,4373f864be20c29de0cdd2024566e13d623166a044359d0026e6ffe90d97ea2e,0.008485946129294292,0,correct
+easy_ham/easy_ham/1209.8d537f01328f65ebd018e0e4e77ebc10,easy_ham,0,Re: traceback in new exmh,df50174f384c7bf6c46ffeb2021404ecc08ce4c02ec202db65eb91f59d13ad24,0.003358346098372601,0,correct
+hard_ham/hard_ham/0040.2dd88939d59c472d733cdaf1f49e075a,hard_ham,0,New Sony Vaio: When small becomes TOO small [ANCHORDESK],0eeff490a34becb702b8ba1a5747f8e576565f259f6e8b560ccc4fb7e03580e6,0.0036007533400499794,0,correct
+easy_ham/easy_ham/1360.18758d232e8b6937d5d62ce0e0aa2d8e,easy_ham,0,Re: RH 8 no DMA for DVD drive,de9645a0af2f18622338acee4346b01ac0f5229e5402f268bcfc164c6a2e6fb5,0.0005916763369656631,0,correct
+easy_ham/easy_ham/0219.c885fbe9fa7e255d6f589b373c8608e3,easy_ham,0,[zzzzteana] re: Steam,148920b14522a6d267edff646ab55eab9bbb65f918a5ad2f8d0df6e00c94ea95,0.0037713029963529084,0,correct
+easy_ham/easy_ham/2444.825099d851d45e7c2b34e197d6812323,easy_ham,0,Our Dumb Pipeline,2e2b51c918d48b9b29a01b1a21fef414f2eb90c3b2cc2c5e177a19322d15047a,0.02350799343257197,0,correct
+easy_ham/easy_ham/2543.1fa39c8b86bc5ae84b837e8c7ae3717d,easy_ham,0,Plan to recover nuclear gas rejected,36265e72a906179f2a5083fad7cb2848fbf7f703c5ec9c916083f3cdfc71b253,0.014470174387649918,0,correct
+spam_2/spam_2/00821.b64c27e913e301f038ebfaa433f16f35,spam_2,1,Borrow Money for any purpose! GY,c771c61535cfe31937d61466b1133a64583ee31911731905aa05aa6d32db4fc8,0.9788338088195696,1,correct
+spam_2/spam_2/00394.0e95ef1fe71d6bbf6867df86c862d15a,spam_2,1,ADV: Affordable Life Insurance ddbfk,7e23b19e26d6afbe27e06e070f0471fcc53d4ea59c7ac9753864476a50ec129f,0.9941143450113825,1,correct
+easy_ham/easy_ham/0914.77308dfba976d8491bad00bb7e616166,easy_ham,0,Re: Polit-spam,93062c2a8528f798c2d400b99af4ce6c6a9c354569717fa6b40148ddca3c0f2b,0.05254270718922132,0,correct
+easy_ham/easy_ham/1930.0965a4aa5ecfe3ab06526520f7eae63a,easy_ham,0,New toys,7037646bcfcf61db90aab36234b22cc1011af828b36f184d576dfe98495bb3c8,0.005275172742281941,0,correct
+spam_2/spam_2/00972.5290463cd76d76c7dc9e2d2fb88cb8d1,spam_2,1,Cost-Effective MLM/Bizop Phone-Screened Leads,db537d112678fa53488977c56515b2098db138cc5dce2788809a26842b690bca,0.6291750840776946,0,false_negative
+spam_2/spam_2/00273.c832f32bbe447980ad0095b772343563,spam_2,1,ADV: It will be too late soon... hmlpy,a8c6a59b6f8db61c70c41a19d384d0a81f1d02fc6d40ad17cd77c218410492a5,0.8483658246687421,0,false_negative
+easy_ham/easy_ham/1763.2ac623f4f429bbe90824fa535e73b558,easy_ham,0,[Spambayes] test sets?,544ebcff86bd09f6979f8d8c35f09af92b46d8d93fd0afc3ba98cae0795e630f,0.026011754652092857,0,correct
+easy_ham/easy_ham/1046.06207e3824a4024e41215defe29e1ddf,easy_ham,0,Re: New Sequences Window,ed5c69cd43d05b2b2abf0e682c20352b0311dc4025072b508ca915025b632ade,0.0009448357229399459,0,correct
+easy_ham/easy_ham/1042.5089423fc172a53a687d43ad6b432caf,easy_ham,0,Re: New Sequences Window,016e373999a5eedbeee09eb18ae811ad2bf91c145212d61652e0f65469e4c79f,0.0005553879012991602,0,correct
+easy_ham/easy_ham/2106.dce3a5c38eb0d3ad8ef8a2e559cfd0fb,easy_ham,0,Congradulate Birthday Boy Putin. Link to send birthday wishes via Pravda.Ru.,688bb1eda3727b905005fd7ff946ae2165ff56fd52fef07d19cd65acbfbc3667,0.001578676952333205,0,correct
+easy_ham/easy_ham/2282.0d102fad2c79a83bef590c669666f298,easy_ham,0,The subtle art of sugaring bitter pills goes down well,b526238a4ab6f8cf6d6c8611a0ef12599d4c9f2c502d92d37d9892303c739c50,0.00476014590939189,0,correct
+spam_2/spam_2/00009.1e1a8cb4b57532ab38aa23287523659d,spam_2,1,[SA] URGENT HELP..............,b5cbb760035e7240ec87e33f8ea1ff1f473bbd9f72bcfb21d57909802aa16701,0.8173358894572558,0,false_negative
+easy_ham/easy_ham/2129.3d86d3c841fb61e241b77634c774c7fa,easy_ham,0,Hooters Air concept crashes and burns,363e01c73bf1a8ef50d6cd323a7d57fa306979f8cd4b2bf31c7063720e0c5e0e,0.0007224851778723286,0,correct
+easy_ham/easy_ham/2018.92f706785305106c82198f4df443cb30,easy_ham,0,WiFi Trek badges,dab60d8a1be2b52ef3725e9317c6d2aa5023d2e914175c17c42756ab96d72886,0.007142009220005808,0,correct
+easy_ham/easy_ham/1274.a44315970d569047925df38e03c62d4e,easy_ham,0,netatalk-1.5.5-1rh7,4a8029d12fafb355ac6d3b20d56a67aa6a653a05e493ebeef3c1685de2d9039d,0.0019009481292068073,0,correct
+hard_ham/hard_ham/0207.b84fe135fb77395651a5b88a1f808cf9,hard_ham,0,VoIP tip: Troubleshooting voice,d50c3132d815bbbb966c99507765a36c2a55becfbeef61d4867bafb95d3c150c,0.026738815416035722,0,correct
+spam_2/spam_2/00299.ec4bd0c57a7bf6a5616beb2897aaed7b,spam_2,1,"Hi Jack, Here is my home phone number JWCTGFF",e4197722062c6f125e177247b00d5524c27c3ca4f949c7aafe879f9d8ed7f6ff,0.9917686378292293,1,correct
+easy_ham/easy_ham/2015.b96ad514add8b5a601830d8c9d776cde,easy_ham,0,A productive thread,4017a14384071ce1775882616bcf2c3c985e1553bddc9d0b9b1f3ad9339480ee,0.002049437716267273,0,correct
+easy_ham/easy_ham/0216.d46ac2cc3fa5d42e1a9b7d8b4339f789,easy_ham,0,RE: [zzzzteana] Moon over ocean,b1c77ba7152ecd1f836b0b3295e8dab194b23bd172cbf9a2560cad63d16b1d9f,0.004027256825136014,0,correct
+easy_ham/easy_ham/0836.249730de164ba4999f1ab6ec2d3cb2d1,easy_ham,0,Liberalism in America,e3daae5bccba50e72c2ceab0507779fb9cc2ff994bb7c74f2aa4924e1d9b65f1,0.13025392560045718,0,correct
+easy_ham/easy_ham/0699.aa5a19152162e3fc22bfd5ec60973619,easy_ham,0,Oh ma gawd - funny site of the day...,2b473727dab5c04d0d3be3086b64f97d072064a269b0f9f5de687f738cf5d401,0.0004238701665170196,0,correct
+easy_ham/easy_ham/1884.a20accc905fb9492bee347165155a4f9,easy_ham,0,[use Perl] Headlines for 2002-09-10,f2e71fc828070e2bea407db9c6bb651acb237c9add3e844103af8fbb4e9fd916,0.00016808805285806663,0,correct
+easy_ham/easy_ham/0738.1a5a2f7c0b47ed1c9f7038706e7d5d01,easy_ham,0,Senate Committee Passes Nanotech Bill,829caa991e06af61f8dc4a673227c6eb09ab0477c15363827ad6549dd658dde4,0.1543859528084518,0,correct
+hard_ham/hard_ham/0132.2893a03c7ec608a1416bef197a3ac13c,hard_ham,0,Apt repository authentication: it's time,0c4b5d300ad3da0c93bb05afd74a8d48bf2ba3fb070f7a54939c8a9cf5b31f4b,0.001626471568329675,0,correct
+easy_ham/easy_ham/1940.a50f7af9a2b291721d17dff887604026,easy_ham,0,I'm on TV tonight,4a167865f9184c39cb050e903695f65ce4dbed6a13880885110ee5466b851307,0.009848879775978455,0,correct
+easy_ham/easy_ham/1518.94c41662e1101b46c74bfb14b84b34c4,easy_ham,0,Re: [SAdev] SpamAssassin v2.40 released (finally)!,92715fdc1adbadad002302756e2018958c83cbda7fa7bcf1cc0dedeb9185c8c1,0.003883690461272544,0,correct
+spam_2/spam_2/00870.ecbb85c7b91446c971762de0b9735b4d,spam_2,1,Copy any DVD Movie.f4y3,50fa9c0c4e4ede40b3b765802f7306afe73dbabcaca9a2f42f9711c896cfbc69,0.5611769142852111,0,false_negative
+hard_ham/hard_ham/0230.cc7e33f6fb35ec73315649e151d66111,hard_ham,0,Market Can't Find Its Bottom With Both Hands,6ab439bb771aaeee012fcf3b2cebcae7c9438a98c0451276f6ac880709f9e075,0.012730435773669285,0,correct
+spam_2/spam_2/00474.c1835a35419f2bbdccbabfd8547faf4a,spam_2,1,ADV Oil and Gas Investment tgym,2ceeff960011136c695008c435c062ceefb9353d555cd47b625945a9335e15f0,0.9574311311155295,1,correct
+easy_ham/easy_ham/0749.63721d934e13093d300263cb31da380b,easy_ham,0,Re: sed /s/United States/Roman Empire/g,0aa0b3b005c81a9bdc8f0aee67d4ed99a5cdd229987f10791ce64d824ae94667,0.05900631560975709,0,correct
+easy_ham/easy_ham/2227.977581980ae66fba8552097d6544d7be,easy_ham,0,Cobain dispute settled,1488a44e2fa4e872a47500ff276360b11c204b035d7cd688c8b73508645f5fa7,0.00649522154345457,0,correct
+easy_ham/easy_ham/1833.3d930e2d4968f325cc6a773df09e8969,easy_ham,0,[Spambayes] spambayes package?,f842f77f35a222e4a2a89c32023f1c370510889856daa726e9d307dbef02a532,0.01831284270084966,0,correct
+hard_ham/hard_ham/0025.15d4566a6f33d21e7f2fe5c452e1a9fe,hard_ham,0,Next MS Office? Here's what I'd add--and delete [ANCHORDESK],a26b431ba211bc6adae2559d97755e31ca602e25e36d088ad32fa2fe3d76ef0d,0.004889070510807881,0,correct
+easy_ham/easy_ham/1181.e94c4c98963c99b42be08be341418d57,easy_ham,0,Re: Apt problems,f38aa6bfa6704a787e3ff7f28b98a7190c8cd6a79f29e30636dd93fcf5e9cb59,6.842443903977239e-05,0,correct
+easy_ham/easy_ham/0186.5abf85594c3b8c40a105eed1154569ed,easy_ham,0,Man leads machine in chess duel,c0cc62e55bb2cfa2e529568ac59fcf01c7617f57e112e6976afdd141bb1aef36,0.013347504169785805,0,correct
+spam_2/spam_2/00569.369bb86b7ae4572b2eba48e0b8daf0ea,spam_2,1,I have visited IIU.TAINT.ORG and noticed that ...,f7ada98eeb92bda4fa3dedd2d830a6c273dd03604ae02696470aed53dc185fc7,0.7589762304025368,0,false_negative
+easy_ham/easy_ham/0800.ade9f54d2342efc6cd3ab051eeb6770a,easy_ham,0,Googlenews,97f6d00daa613f8ac380269a74fbca49740245d30c9dd482054090f1c9efd343,0.12067347255205227,0,correct
+spam_2/spam_2/00723.7d2f1e26ae8cbab862459e33db405be1,spam_2,1,Are you a sanitary ware distributor?,f0b2aa322c3e4c9c55f29e1673f02a88876af9d6a9b24ca67bc7a7c8d824df43,0.7490178597178643,0,false_negative
+spam_2/spam_2/00556.098b57f5108ba34d21825f176e492786,spam_2,1,(no subject),a645e8cc2be9d9757fc9e91f7c3935c9f022522ef06e752a6a98d7236b23c39b,0.7028613045902454,0,false_negative
+easy_ham/easy_ham/2429.ba3172b8bb1849e4ef208584b4fa51dd,easy_ham,0,Play by Play: Effective Memory Management,557cb84a63222a513598e743e2b10ccd3fba4b85e233803dd1134dbe96b18080,0.007240082768254191,0,correct
+spam_2/spam_2/00869.f81e5e18fca8debeb53ec8581e902987,spam_2,1,Get McAfee VirusScan for just $19.95! 60% Off!,433d651b843de8b765621c83b84570b76a19b7e89708374ac018a88c6140bcd1,0.9735199873479481,1,correct
+spam_2/spam_2/00800.770c5025e1f05a52d805d04cbc74252f,spam_2,1,ADV: Interest rates are DOWN!! ntbri,8bb7e97d25603547e1ba8019a2b1a02ae653c13129116f51c3c70bec8bdfb6fa,0.9788502852219151,1,correct
+hard_ham/hard_ham/0170.71dbfb9d9c57413a67cd865d58c776de,hard_ham,0,LP RELEASE: Outrageous military spending,e1b3593d0eef73edd56fac1a978862e73a62d17b64fb19a3c8ed7a2e2136cff5,0.09594312358864027,0,correct
+easy_ham/easy_ham/2540.9527f844d218311f91ec4d87fd2035ca,easy_ham,0,'Seminal' eczema study reveals skin's broken defences,9d616f4a24fa99c3f34f93b91aec032b53227b0befbde64a75210348ad6f0d62,0.015876447436658316,0,correct
+easy_ham/easy_ham/1169.b4991cd8416f8f9c29bf9e5359f667f5,easy_ham,0,"Re: About apt, kernel updates and dist-upgrade",b869fe1769df31e4d375c73a4888025b102231d4a2c199cf0967f07af2680bf6,0.0005101257225513434,0,correct
+easy_ham/easy_ham/1703.7c5ad732db66343c7c8c05b7bc66e811,easy_ham,0,RE: [Razor-users] Fire.cloudmark.com is having issues,a1a8c03abefea66a7442b4b74962eadcfdd3b4e5d78a7f0a6f24bc6ccc511080,0.01784703492218433,0,correct
+spam_2/spam_2/01060.d72413ea3af9e1c5530a3570e0bb517e,spam_2,1,Lose 21 Pounds In 10 Days 25654,dda878a40be29f10a5d693f05e6f337b914b2dd1abff4c3148d5ab7b3f5f540a,0.9272398381488555,1,correct
+easy_ham/easy_ham/0502.9e78d7d003ceeef52c70ac7e7b786ef9,easy_ham,0,Re: Ouch... [Bebergflame],65054591447fda3a6ce0d54afd215e00a94ecfd0d8c4b7ca1fe27e2713c94590,0.031086626095706914,0,correct
+easy_ham/easy_ham/0332.daed28f33b65dd9f1c91fa3737d21340,easy_ham,0,Re: mplayer not working for me,c5c9dd3af799f695c6f30c7288f6494653020e804783f26cca0b326104d69a68,0.00047710995208214937,0,correct
+easy_ham/easy_ham/0033.e3fd617544226dc06abf36c95a9a2d11,easy_ham,0,Encryption approach to secure web applications,cfc2e2acc402c1c7cd3af56d955a30b6bf839311e1671b7615900dae2488dc1c,0.008939475084973825,0,correct
+easy_ham/easy_ham/0646.5b8ef44185fab30abb58d0f440885d00,easy_ham,0,RE: Slaughter in the Name of God,ca0219aae6f51a56bce0519320ed17e7d8ff1999242c8dc4588144df78d55e86,0.023358247597786482,0,correct
+easy_ham/easy_ham/0763.5760c74ddc97ef3acfeb25509fc1a85e,easy_ham,0,Re: flavor cystals,1c13eb80708c363c195e7070a4ac5621df4b6df6544fc36f72a2ce29b2ed0e92,0.012147462261707685,0,correct
+spam_2/spam_2/00500.87320162ab5b79f67978406cf909c3d1,spam_2,1,best mortgage rate GZRHTKJ,4be2d876cc121ea702a9809b7cf2428343d802ed509b09ca3be40f78876b4fbb,0.9512002978007054,1,correct
+easy_ham/easy_ham/1264.c8e0a9ae674a3b16ef93c8b41013d1ee,easy_ham,0,Re: From,c772a7f26ac3a17b5334ad5ddbe96779eda7c83f2532d9105265c8698cee0822,0.003723673336703909,0,correct
+easy_ham/easy_ham/0587.20a4cd974ded4a9d366f23106aaf593f,easy_ham,0,Re: Internet radio - example from a college station,e66d2be2393f030efa0a1f8140eda73876fade880bce250544823ccd7c3f9840,0.018886028295318488,0,correct
+easy_ham/easy_ham/2201.eefdaf79beaca1667b7067ebbf9df781,easy_ham,0,"Bank robber gets the loot, makes it out of bank, shoots self in the junk, gets hit by van, still makes successful escape.",918454b23fd17aa116edbfe28b5f3641db3253554d538b8214900418e76ebc38,0.0023510946810686847,0,correct
+hard_ham/hard_ham/0064.e734509b9d9c377ce658371aaf23cb9c,hard_ham,0,"Four free e-mailers reviewed, Get the gear you need to burn DVDs",afb896eb8e0f451fe812c63adc279e25e5ca13f1df58debbce0e22932420d20f,0.002013233590746102,0,correct
+easy_ham/easy_ham/0597.658c7632c57e9f07a7bc28b58b97529e,easy_ham,0,Re: Recommended Viewing,ad0bd97acb90478185c409ebddb056241f5510cc55209cfed8799d0c17448202,0.008284166092419264,0,correct
+easy_ham/easy_ham/2523.7b5518a502b8a309e42770179d71626c,easy_ham,0,Words fail me,583b2eee6f3d80873caad88708801f0b19c8197248ec534c8a0e1d6a73c5fb65,0.005297487097143475,0,correct
+easy_ham/easy_ham/1764.1393ea887720c777d1429b07fce98ab4,easy_ham,0,[Spambayes] Deployment,47e55b115443d0ae77084cef715e35307b4e49d84219470ec00ed742f5572018,0.0015733249037681988,0,correct
+spam_2/spam_2/00319.2702ee4100f722328afc52a1a6f1dc26,spam_2,1,The power of Email Marketing,daae487425193e30197148165f1218a59e2e44d61585d73df7d263f9ce07b8c8,0.9515459522343472,1,correct
+hard_ham/hard_ham/0174.b78c73f91532150a15ced38fddbbedf4,hard_ham,0,Re: kernel BUG at filemap.c:843!,c33b3cab74ac708c63fa96a79c69c85df965641ac8d9bbb991c746e433ba25a4,0.013558922980047758,0,correct
+easy_ham/easy_ham/1370.394569ba936fe18d6d9f2723e8c2d99f,easy_ham,0,Re: mplayer not working for me,7b2b6aa7512ee90dc7979c71c6604805003b9531c418397788442e5d15144e82,0.0009480203946830183,0,correct
+spam_2/spam_2/01087.1e2be9287da9292b2553aaceaab8900b,spam_2,1,"The Government Grants You $25,000!",4b82e99333ed239c62b9653e35f8e42a6ce13a3414abd1d36c5dca5a36f3b8af,0.9976634315549432,1,correct
+hard_ham/hard_ham/0167.e069a1be61effd430e3eea8441f5ae90,hard_ham,0,[SAtalk] OT: Can Weblogs Reach Ronald Scelson?,a60b5749e81691f7dad6cf3fd9be7e5bdcb6adb2c4887e910909aa5306819aca,0.11548593990736905,0,correct
+easy_ham/easy_ham/1807.7f2b82a41322fa94c43a0dbb75472ff4,easy_ham,0,[Spambayes] understanding high false negative rate,85c45f4c8f0fc3705604df3c714a526fb79f6e53e2edf9d982191299d58ff4fb,0.04143711508481635,0,correct
+easy_ham/easy_ham/0529.39faaedc75738c375b3de0c0a5766498,easy_ham,0,Hoag's Object,926f6107baef618ff08b43b46132e1032ce594731a9641ebcdc582ad8ad1eeb3,0.15192003941024118,0,correct
+easy_ham/easy_ham/1616.cedc09d67c941d1541cf598e0007509e,easy_ham,0,[SAdev] [Bug 1046] Errors from 'perl Makefile.PL',32f0baf45ac35083b6ea3c0de7a75a9d00f78c13ee0d65bc1c4c765974a08400,0.001244093193546778,0,correct
+easy_ham/easy_ham/0589.8646984ed76a8df2811750d151f56b1e,easy_ham,0,RE: The Big Jump,c9d41bc257018d7b9858645d04d4da6f31b0e057d4f1fc56688e522338ad8b50,0.007056313958992204,0,correct
+easy_ham/easy_ham/1308.f86cade0799b6d8cf98818a1bc598f7d,easy_ham,0,freshrpms.net resources (was Re: use new apt to do null to RH8 upgrade?),8fcf9b652fe1e3227d034702b7fff98262f8606feec8cd6877693c0361bc3740,0.00014617230954072145,0,correct
+easy_ham/easy_ham/2200.866fde44a7d7ecab7c0cd1d8e84055fa,easy_ham,0,Brown budget plans in disarray,10861c9083b67c83c67460224673347c314b8af06e554a9997f348fb78787c9d,0.004650896478304329,0,correct
+spam_2/spam_2/00598.55751466eb0cbc307da570a603daa3d6,spam_2,1,Earn 20 times your peers,48157baa7b48328167f9446b64e5fe4c9686a0b1f496b94bf6e3519d1c327c0b,0.9967623697188024,1,correct
+spam_2/spam_2/00533.4bf72df6acf3c08c213584469484b0ed,spam_2,1,This investment could save your life24607,d281d26ba7d429ac63ae8303bfeeb99d239041200985dd4afcac6126ceaa1bc5,0.9429638205340026,1,correct
+easy_ham/easy_ham/0813.9c59b6b0d4e221ca29d576cd2f170f06,easy_ham,0,Re: Goodbye Global Warming,6a854bd7c502bbaf2591a8e5a1cc2fd92d1cd1006069b0d9784435b22c29651c,0.028649473145781607,0,correct
+easy_ham/easy_ham/1110.607e74a3949cd6e4787031e0164f09ff,easy_ham,0,customising FTOC display for specific folders...,0a5e822a9adb634c76e01b5ab830d29c4beb1b35ea155de36924720655e9f6aa,0.0024882584358348545,0,correct
+spam_2/spam_2/01289.2f9168490b8c45e76af4935b4827f702,spam_2,1,Business Proposal,09ab371f963145e3d0404dcdfff425845776b93dbdecd51aaeb4296be686c995,0.8141270329606927,0,false_negative
+hard_ham/hard_ham/0068.f68cf801185aa7338a1d9c4f7f94f9e3,hard_ham,0,"Personal laser picks for students, SOHO users, and more! (ZDNET SHOPPER)",9d7384ce3a94708f7479b307ffc4d79ad271d1481f4c57dfd3db9c3c7ae1e3cb,0.029895800336037264,0,correct
+easy_ham/easy_ham/1342.6770473802a7dc7ab14a212f95573c15,easy_ham,0,Re: alsa-driver.spec tweak for homemade kernels,8f2771fb0be948e6c8f1e133015ea21f53baea789defeea2bf88d47c19103dc2,0.0002205393489911454,0,correct
+spam_2/spam_2/00752.c0892cd4ffff618e689dec28f2f4695e,spam_2,1,[SA] Job Update,8aceebe013cc067c9366409e8e3da75822b904235be3b8ee04ade00ab06c0ad6,0.6537587218210519,0,false_negative
+spam_2/spam_2/00165.3a37220d69b5b8332ee4270f0121dfe9,spam_2,1,free satellite,acdcd79d388eab4f2e3a6c73e1e847b9d9de72bdf0f9017be7d816df6a1dbeda,0.8479297771668807,0,false_negative
+easy_ham/easy_ham/1074.3f586c8b4870fb60157afbad2e076b17,easy_ham,0,Re: Sorting,efec30da31a6e3fb10c99a4a3808c3d7c4837394138cf1a33383291fc502e6ed,0.0012818425208257083,0,correct
+hard_ham/hard_ham/0219.62d4972416adbbd0e9fd583835622980,hard_ham,0,Linux-Announce Digest #180,196fb4f58cc201f422edeac6b64c78b3e85cad67e11644939b55bd85328339e0,0.0038411417616906096,0,correct
+spam_2/spam_2/00391.6086519216f6de15fecaeffdb51ff3a7,spam_2,1,judicial judgments-child support LM,483fce9a5a700fb0533648c3edc3134f7997449916b282349d03283154e678aa,0.9628106215493183,1,correct
+easy_ham/easy_ham/0853.79c912aba9155510575bfec3b8123f8e,easy_ham,0,Re: dumb question: X client behind a firewall?,b477e6ba597832859eaea940c866befa31ccf03f263edee802ca181228373cb5,0.009822633306471745,0,correct
+spam_2/spam_2/00995.694aa424a2433d32b9e4997edeeed9b2,spam_2,1,New Version 7: Uncover the TRUTH about ANYONE!,14b06ef4ef18961f9a16fd3e3e883826b7e65a2cab41a095aac2faf9495f4062,0.9957420221523376,1,correct
+spam_2/spam_2/00990.e0282a91be0479aeadc4ee580bf21ded,spam_2,1,"Fw: Keep it under wraps, but this one works a treat! 7595",d5845a461ecdcbf9872776ba86f02fb4dc8f1b2fb80d0698a985252b3d7a1fb7,0.96254676748497,1,correct
+easy_ham/easy_ham/0664.0d4d48964387db0637509ad10ee66763,easy_ham,0,Re: The Big Jump,63de593258d3ad3ed62105374eb0cf3e4cecb8f9de2175d50291bf60d3f17872,0.04832883869618825,0,correct
+easy_ham/easy_ham/0451.91577b6958781643d55de1d239570131,easy_ham,0,Re: latest php upgrade in 7.3,c2e13d16918334d87676d530e7579ac46fe97bb03686fc92d659740f8f6ab934,0.003388234512942897,0,correct
+spam_2/spam_2/00141.29b1847b5d4131c536a812cdc88326eb,spam_2,1,Foreign Currency Trading Report,b4701c19b298670fc2810727c1a2a89a0166c0fa6db11b7c82c5795f1f5c768e,0.9954786195835333,1,correct
+spam_2/spam_2/00097.555911ef896c1f57a6232120685b01e7,spam_2,1,E-Business [jdnhd],3d8e7183539dd0cffb713b4d4836fe2eb4d8fb5f2371909cf1fe8ea1ae4e843a,0.9110693131727369,1,correct
+easy_ham/easy_ham/1647.e868de6866be80866e13b1660d95537c,easy_ham,0,RE: [Razor-users] Razor with sendmail,eca1172f55c3557d18fc65aa115c6c2e68e3dc15be23b33091d2d20121084528,0.0002922752791069704,0,correct
+spam_2/spam_2/00085.ae2bf18f9dd33e3d80d11eda4c0be41d,spam_2,1,Visa ~ MasterCard ~ American Express ~ Etc. [6gho10],a12ad5c5af7f8a48fcf015f701e7fb25e7e3bcaec9a017a495324a5483a8fa81,0.9641839713158212,1,correct
+hard_ham/hard_ham/0144.ac882e3f2cd7c60dfa9c061637ba7ef7,hard_ham,0,Matrox Parhelia now available,e27af74a687f754c91dacdc5f7f1d0275cddd62cebdf11c587d33646a031daa7,0.47348600830692417,0,correct
+easy_ham/easy_ham/0865.4b2110ced3bc59bb5684c5ecfa980dd1,easy_ham,0,Content management for MP3s,c56c35f74ee63cfbacf5bae86cfdf6daf374ff77812d8658180157fc2d3b65fc,0.040015880136766414,0,correct
+easy_ham/easy_ham/0526.615f918b4860d437577f6aa66c9b37cf,easy_ham,0,Re: Selling Wedded Bliss (was Re: Ouch...),4666f658cf4498d105746124e39e10d9f24c877ca3c05399acac69925ac404e5,0.022083143595527304,0,correct
+spam_2/spam_2/00053.6e5c80e892cad9c9e6b04abe49a9031e,spam_2,1,Software to rebuild your credit,de54e4033df69c649c86bb36cb34bb78adb59d4dd77bad1504ecd2ea676f15d9,0.8950554394763759,1,correct
+easy_ham/easy_ham/2090.1cc5d751bc6c360a07a2a9660359a549,easy_ham,0,"""Hidden tree"" the secret of Zen garden",09541f1946d5fe92eeef29a4c3a40c9c4459d3c61355dc7d9cc1e05c8543f5c6,0.010944575591584318,0,correct
+easy_ham/easy_ham/2363.33946657f5bd53e8453bfa83b58746ba,easy_ham,0,Troubled Royal Ballet eyes US director,69df26f2c5b40a1472016723c7d9b5aed6ea946af45c1004fb57c83a7ab67021,0.004091787497729415,0,correct
+easy_ham/easy_ham/2238.419d4e0abe0cf364cd6d518c0ae5f3be,easy_ham,0,Family refuses to cancel expensive wedding just because the groom was in a coma and got his brother to stand-in instead,3a2fc3a6538d3e7c6421f46c9d305c172b3f1d444fbb8d4f7c8bd0d6a1f7f1e6,0.003021636077730731,0,correct
+easy_ham/easy_ham/2475.8572d77868481d0fe409eedd8fa6d443,easy_ham,0,Species at risk of extinction growing,bc59a1f3167efd21a89ef9918a2a610d972f424a00271860cd593187e377eb1e,0.0064108644619432125,0,correct
+easy_ham/easy_ham/1047.816db4421a9757ddbb0acbe7baecd0b0,easy_ham,0,Re: New Sequences Window,b63af6eefe4733dad10b346cd6a75fae05e87c9a80e40bccd41bcf6d4b249787,0.00014938996587199918,0,correct
+easy_ham/easy_ham/1754.7cafcb2d9dcaadd665afabc65c267f36,easy_ham,0,[Spambayes] Deployment,7d2273cb1537de767f29158aea433a607240a1187db4d910a7a19eb23e8adce2,0.03423318614000046,0,correct
+spam_2/spam_2/01187.b47cd7a45a24f56a6908519e1c37e75a,spam_2,1,Congratulations! Here's Your Diploma!,c9582693736d6cf7e42465e9918ccc4ae4a716cfb9f05aec79b05351b6a7fdc1,0.9682331209129493,1,correct
+spam_2/spam_2/00365.b95733057a51e3571746739a620c0e14,spam_2,1,Jump start desire in both men and women 7893vBvF1-278ZKCc8-17,20dc6854534ff39bc7a683af2dd6bacad84ff3f7cce5334a70f128387f7c2b26,0.6669158662338979,0,false_negative
+easy_ham/easy_ham/0619.1eebcb2010962026f9e985efaf54c54c,easy_ham,0,RE: Hanson's Sept 11 message in the National Review,f078b363a7c23760a81c11e2e525fefca8f28037285b9ec4bee1c82838f8cfc9,0.015811127589397827,0,correct
+hard_ham/hard_ham/0048.4e73c67f3a4096ba479d25a5edd240e1,hard_ham,0,NEWS.COM INVESTOR: Techs fall with consumer sentiment,2821bfe911cb72437ecc4450c12b5d859a239565c1bd03e4de89f2ded89e23cb,0.011339908991157787,0,correct
+spam_2/spam_2/00051.8b17ce16ace4d5845e2299c0123e1f14,spam_2,1,"Your Membership Community & Commentary, 06-29-01",193d8d8cb537601eda91281215651be8d7cfbb9b98796b526c93e25c2a916161,0.88268279721723,1,correct
+easy_ham/easy_ham/0814.1d2d3dedc0e3e216225f4af0e9323fb5,easy_ham,0,Re: Goodbye Global Warming,b5a6d1c08974735fcb28aca957cf504854504c28ae72241653863234849a50fa,0.09485720589405311,0,correct
+spam_2/spam_2/00715.ba1f144e98b423e35e3a61d464274732,spam_2,1,TOP Legal advice.. for PENNIES a day!,d3598d7e5311a10f79c31b6d2f8f33c2f6ad856857b8a0bcc09d8a2c30a193d5,0.862388491552599,0,false_negative
+easy_ham/easy_ham/0436.e455bb708c5f690f929aa5359a0a1411,easy_ham,0,Re: Java is for kiddies,46d57318d358be9b490bccbe5f4885f8943f2d57476e8c6b7e0fa0b98a0e187e,0.0261804905447036,0,correct
+spam_2/spam_2/00337.dfbe7fc9aaf905bd538635d72cbba975,spam_2,1,Congrats! Here are your 2 Free Airline Tickets,3c8b99d881b86e72d5c789e02efc693c0b5e51335d11eadf2012eecf8de8e784,0.9377145081658832,1,correct
+easy_ham/easy_ham/2089.3ee44b35315e3e3c58807d125acaccd9,easy_ham,0,California challenges US stem cell rules,71a26aa024b4880736532f45b2dac2fdc7ea6dc6c48d2aab64cc3796c702b518,0.006387586142677456,0,correct
+easy_ham/easy_ham/1328.cccf5939c5844ebccd4f7b4bdad42e63,easy_ham,0,Re: K3B,4d79a60b0e18e2ac0fb4db7ff615d8309ade98e2a37a4f8e6767f5967f32456b,0.0016188087731366391,0,correct
+easy_ham/easy_ham/2294.2611a5cba9ad4cec5dc2a5c749c6238f,easy_ham,0,Food 'cancer chemical' reaction identified,7df75365561a75eb32a26bd7a6c6d51c854cc75556e75d5c638b2ebca13c9476,0.007184348235193565,0,correct
+easy_ham/easy_ham/1059.5b0713200efcabb71c7005b32e726a60,easy_ham,0,Re: Sorting,ccf5ba38b555ecb7f8316b0297e373f1737d90ec6abf701b3d0b21a3ca0a24d4,0.0008586626439171094,0,correct
+easy_ham/easy_ham/0388.c91d0f2ec4ba6d7647a48ebe7cf2f736,easy_ham,0,Re: Entrepreneurs,98004f9e3c4c4d08433a4a32c179907636201ee127f54eac514bc537e33a2720,0.011950139456287737,0,correct
+easy_ham/easy_ham/1027.35033a975b9979f1a2eb34db590b32ac,easy_ham,0,Re: Exmh && speed,f3486007f2375edceb38e555a5ea949d338c8a3be57df7a0390cfb166ce58df7,0.0023303951720198414,0,correct
+spam_2/spam_2/00658.2324b3351e766248275bace98fd3c7b3,spam_2,1,re: domain registration savings,639921d8b5c17b9abf963cf5a30c692b7c7859733f2e6c68e34b2925feedce3a,0.9933762695888178,1,correct
+easy_ham/easy_ham/1509.dd0b9717ec7e25f4adb5a5aefa204ba1,easy_ham,0,[Spambayes] All but one testing,9f03ec9cdfd893138f2ffb2038c9de72537500cd44c6cbe7d9e4ae532ef0b09b,0.14339245933818381,0,correct
+spam_2/spam_2/01243.0676aa0a6a02e5a0373d387b89af0e07,spam_2,1,Meatdemons,75add4501cf8f5da5714b97d5c13b835b2b05824f2a722f67cb5edd7bd9c3b74,0.2649514128473404,0,false_negative
+easy_ham/easy_ham/2287.0b1fb73371b1d056d6285d88053481da,easy_ham,0,Viruses that also hack computers on the rise,2859d1d2a4466fdc1e59e5e2a57d17597d5dbddc6f92ba61c45092af334ed060,0.005973666507496559,0,correct
+easy_ham/easy_ham/1860.994c77afc8d6fb072d8b95ccfdf09627,easy_ham,0,[Spambayes] XTreme Training,531cecb2247c391e15d2edb1f882d7689d2ef0f2f9558faa8e6f36ded0779e09,0.008060206752758857,0,correct
+easy_ham/easy_ham/2547.18ce2b2d4f757e70154b5c8cfe6e684f,easy_ham,0,Gene technique reveals human evolution,f470cdeab46dee0d53bf4c28c5cea332b8e0d78b419f2bb097c3fc146dbfac42,0.01456352681666946,0,correct
+easy_ham/easy_ham/0591.f533bea095d75cc4dc282bdcba69072a,easy_ham,0,Re: The Big Jump,b0d2e97bc2314e9e1453a35d11911ed0dffa5fe9ea906c69323cf7a306129150,0.003590520519984748,0,correct
+easy_ham/easy_ham/1262.6826573e4fe12221d02721aa9817da24,easy_ham,0,Re: From,e41ceb069e43b5acac93fd13d1535d8b10446b38ea37cd7f0454de36b82e352c,0.0016538400342848225,0,correct
+easy_ham/easy_ham/0397.bdea17c7f90068a763d191914770f6d6,easy_ham,0,"""A billion here, a billion there...""",1ad35c8bdfc8b6fbe46d67d5a18ceb4b8d7358e5d1d91db0d40f1de762d5a08c,0.006525428742580152,0,correct
+spam_2/spam_2/00200.2fcabc2b58baa0ebc051e3ea3dfafd8f,spam_2,1,Votre maintenance Informatique,3aeaf12af134a725e6de9abf8335d78862553e7962b36b4f68772a54b0ffec37,0.8909738247195325,1,correct
+spam_2/spam_2/00272.ff93eff2b9f05ba28efa69d72d78ede2,spam_2,1,ADV: Legal services for pennies a day! ljnhz,48c494ba3d6a0a419f48c95219b3c9f58a40a229337c8b207827f970983a860b,0.9681390119401264,1,correct
+easy_ham/easy_ham/1304.10546e3c5e1352134ff26c0e49f72864,easy_ham,0,Re: alsa-driver.spec tweak for homemade kernels,ba93b11cf89cff92e6a8d20f4f451d6450b03b60ebc62991b1e98477872a5cc0,0.00013425448331605639,0,correct
+spam_2/spam_2/01159.ff9629cf51f03cb35075a51950e73a4d,spam_2,1,"The Government grants you $25,000!",1395af0a397fa43de2aedc936a0f6695bebb84f898e482389508ca323dc47172,0.9977360756364103,1,correct
+easy_ham/easy_ham/0650.98f5c18e05ccd24028b10fa7317d67e8,easy_ham,0,Re: storage bits,1225f25f97537b6e9552357d317bca9e97668f2b733cd86e4507dacb96c2a68e,0.009328228829178664,0,correct

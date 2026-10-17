@@ -1,0 +1,569 @@
+Delivered-To: macrofag@gmail.com
+Received: by 10.80.185.102 with SMTP id m93csp1153009ede;
+        Sat, 17 Mar 2018 17:00:18 -0700 (PDT)
+X-Google-Smtp-Source: AG47ELscNhsrfKHwP0poIYw2EEuXI2tHJTK1Nw918w6Q1IMOIXwNFPvXIwpRAUeoQK3/7uS4cpLn
+X-Received: by 10.55.212.205 with SMTP id s74mr10796306qks.244.1521331218657;
+        Sat, 17 Mar 2018 17:00:18 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1521331218; cv=none;
+        d=google.com; s=arc-20160816;
+        b=B6iiMpftZd+SinGmnuIVZidPGl2dLIA57aYo92NYX8Wg1OvVA2gzgj4RG7NIDKdhDr
+         Jj1bJGSNJ6WeCE/CTc2o0f5AnvmohT6kPlpHVnZ0UjAZfUKm0sEhAAyXIY4SXKCPhAfq
+         DrEwVRYRRKeGvSaIpY4FcnNcoSxXR0CI8CBqNNIK3cqx5RM6cyHgDe3I6rhxp8jNVUiZ
+         gAIxmj05487FKvg9Za9342pvfKaBS4fXHPRlBT5VH95TtLFRLe78qkITatHFDdYUhhaj
+         QUSF4Ypwp4xGuMinLbg2VpDZlwVkvG7WGy0/AFG5kPILOrg89Us6hsEWLa6DKfNDwhS0
+         XmOg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=subject:message-id:to:mime-version:from:date
+         :content-transfer-encoding:dkim-signature:dkim-signature
+         :arc-authentication-results;
+        bh=C5sQtdbmgih1H25Q2piS4LbssUF5cdSOiAlZoB9G2w4=;
+        b=ABIsLxA0vnvaELHUqLEWVy6rL6fRMp7g2K8oGo2X2T+X2r1Y28/32jrpMAPtbubV1w
+         LxNLMV+39ENn1d7qz1MURCigQ818iBIYWa7Lb++uXCdiVwS/Bkr2URCz/V+IL4W7R0Oz
+         M5YFu5S2n459u+2+UxWCZN0Mv5aqUD/fP+yyL5rcjqC9FXKMhv8CUkNcgJlVRD5FGsO8
+         eJrItZLKgdQRbzxAjWGSoF9gemPJbx0NHuijbHWgf06CTxpPZEtwErivpvsjzMsT8gQM
+         76fpOa4FNmYCrqQeUXNckq4mDXs+LKbG4FNien33rtS4mlpvTxYjbiCJ4OHtqdY+Rm9D
+         JbXw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@memrise.com header.s=smtpapi header.b=hWTdiOvI;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=Fuj/UitG;
+       spf=pass (google.com: domain of bounces+32257-28fb-macrofag=gmail.com@email.memrise.com designates 167.89.45.42 as permitted sender) smtp.mailfrom=bounces+32257-28fb-macrofag=gmail.com@email.memrise.com
+Return-Path: <bounces+32257-28fb-macrofag=gmail.com@email.memrise.com>
+Received: from o1678945x42.outbound-mail.sendgrid.net (o1678945x42.outbound-mail.sendgrid.net. [167.89.45.42])
+        by mx.google.com with ESMTPS id l1si1529577qkf.165.2018.03.17.17.00.17
+        for <macrofag@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 17 Mar 2018 17:00:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+32257-28fb-macrofag=gmail.com@email.memrise.com designates 167.89.45.42 as permitted sender) client-ip=167.89.45.42;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@memrise.com header.s=smtpapi header.b=hWTdiOvI;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=Fuj/UitG;
+       spf=pass (google.com: domain of bounces+32257-28fb-macrofag=gmail.com@email.memrise.com designates 167.89.45.42 as permitted sender) smtp.mailfrom=bounces+32257-28fb-macrofag=gmail.com@email.memrise.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=memrise.com; 
+	h=content-transfer-encoding:content-type:from:mime-version:to:subject; 
+	s=smtpapi; bh=DFiAFvRFqUNJt/QqXl3zwj+0qY0=; b=hWTdiOvIbBd+gYCarU
+	n3YRqi5B8jrSpPca6uArsnOsiuoNgipsKpS8q4quO2xZAHj9/gYMmz1PpDOuoXRY
+	oQ05Fp9WjSVHFZrJwQ89z4Ozy/Ia3+dk7MHAD5ssdHgybbzHA/fsh+zhY4MnQZWv
+	BwBKseV5vyNBNWX1NUOFCkcws=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=sendgrid.info; 
+	h=content-transfer-encoding:content-type:from:mime-version:to:subject:x-feedback-id; 
+	s=smtpapi; bh=DFiAFvRFqUNJt/QqXl3zwj+0qY0=; b=Fuj/UitGOKBNY9+5+I
+	Z8wyJ5/fvCQS7M5Y7jGX9zpIPDdpXqXB4ICj4S8gHsl4S9rtv8V1XAKlQxp0TK7U
+	mGDy+802QX7mGghpExBfySTR+gMaP2ByvqclAck4UgrzRXEuykO9yTAssPCcVyIq
+	+gQfrUvnNYhATgbsBqTG3a7Dc=
+Received: by filter0073p1iad2.sendgrid.net with SMTP id filter0073p1iad2-2773-5AADAC0F-46
+        2018-03-18 00:00:15.978106728 +0000 UTC
+Received: from MzIyNTc (ec2-34-239-121-81.compute-1.amazonaws.com [34.239.121.81])
+	by ismtpd0009p1iad2.sendgrid.net (SG) with HTTP id smjvfDFlTkud18lgEpiAwA
+	Sun, 18 Mar 2018 00:00:15.995 +0000 (UTC)
+content-transfer-encoding: quoted-printable
+content-type: text/html; charset="UTF-8"
+Date: Sun, 18 Mar 2018 00:00:16 +0000 (UTC)
+From: "Memrise" <no-reply@memrise.com>
+Mime-Version: 1.0
+To: macrofag@gmail.com
+Message-ID: <20180318000015.22.94873@memrise.com>
+Subject: =?UTF-8?B?0J3QvtCy0YvQtSDRgdC70L7QstCwINCz0L7RgtC+0LLRiyDQtNC70Y8g0L/QvtCy0YLQvtGA0LXQvdC40Y8=?=
+X-SG-EID: +6N/ZKWUECQ1w2nGU4GqazPw6rn83xWf7eMqPV4RHt/zKAw9LpXSGXEwyQKWihnGICqjcRV+vNyVLZ
+ mJgFMQf0aID3mwHJSWsMV388TN527bCu24Lml3+N6EpV4CNFvlqlqT4Yqs/Sd89sz7TnVTLTcBmLQw
+ z7urtm13+kE/TLpXIdZx3IYnk150O6lqqkiNIIGrFUUN03vvLDY09gQ3mg==
+X-SG-ID: E6HSO9ALfmDkz3+x6fFmRH1TRNv2l1CMpm+DhkB4STZ3DZKVXAuG+1I96moYan5Bd6YEfINIch1ISE
+ +AYv0lzTW4WHtt8IWRHi+LkQJcUk4VHxwv254T4c+LXx/2TyKnMb7X3YV7TyRYcrJgppedMQr+avHY
+ 75R8EcKTCl3+/NE=
+X-Feedback-ID: 32257:5s+SziBMDSZy9xSYDhfd+aB1jJEBI8aqKRCAuhxfjBo=:pFnWsqq0DmT26z+7FPhFHMRtR38ApaS1qYML+WTGk9k=:SG
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" data-dnd=3D"true">
+
+<head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1, minimum-scale=3D1, maximum-scale=3D1" />
+  <!--[if !mso]><!-->
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge" />
+  <!--<![endif]-->
+
+  <!--[if (gte mso 9)|(IE)]><style type=3D"text/css">
+  table {border-collapse: collapse;}
+  table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+  img {-ms-interpolation-mode: bicubic;}
+  </style>
+  <![endif]-->
+  <style type=3D"text/css">
+    body {
+      color: #626262;
+    }
+
+    body a {
+      color: #7ED321;
+      text-decoration: none;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    table[class=3D"wrapper"] {
+      width: 100% !important;
+      table-layout: fixed;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    img[class=3D"max-width"] {
+      max-width: 100% !important;
+    }
+
+    @media screen and (max-width:480px) {
+      .preheader .rightColumnContent,
+      .footer .rightColumnContent {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent div,
+      .preheader .rightColumnContent span,
+      .footer .rightColumnContent div,
+      .footer .rightColumnContent span {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent,
+      .preheader .leftColumnContent {
+        font-size: 80% !important;
+        padding: 5px 0;
+      }
+      table[class=3D"wrapper-mobile"] {
+        width: 100% !important;
+        table-layout: fixed;
+      }
+      img[class=3D"max-width"] {
+        height: auto !important;
+      }
+      a[class=3D"bulletproof-button"] {
+        display: block !important;
+        width: auto !important;
+        font-size: 80%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      } // 2 columns
+      #templateColumns {
+        width: 100% !important;
+      }
+      .templateColumnContainer {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    }
+  </style>
+  <style>
+    body,
+    p,
+    div {
+      font-family: Palatino, georgia, serif;
+    }
+  </style>
+  <style>
+    body,
+    p,
+    div {
+      font-size: 15px;
+    }
+  </style>
+</head>
+
+<body yahoofix=3D"true" style=3D"min-width: 100%; margin: 0; padding: 0; fo=
+nt-size: 15px; font-family: Palatino, georgia, serif; color: #626262; backg=
+round-color: #f4f4f4; color: #626262;" data-attributes=3D'%7B%22dropped%22%=
+3Atrue%2C%22bodybackground%22%3A%22%23f4f4f4%22%2C%22bodyfontname%22%3A%22P=
+alatino%2C%20georgia%2C%20serif%22%2C%22bodytextcolor%22%3A%22%23626262%22%=
+2C%22bodylinkcolor%22%3A%22%237ED321%22%2C%22bodyfontsize%22%3A15%7D'>
+  <center class=3D"wrapper">
+    <div class=3D"webkit">
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%=
+" class=3D"wrapper" bgcolor=3D"#f4f4f4">
+        <tr>
+          <td valign=3D"top" bgcolor=3D"#f4f4f4" width=3D"100%">
+            <!--[if (gte mso 9)|(IE)]>
+      <table width=3D"600" align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+        <tr>
+          <td>
+          <![endif]-->
+            <table width=3D"100%" role=3D"content-container" class=3D"outer=
+" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22containerpadding%22%3A%22=
+0%2C0%2C0%2C0%22%2C%22containerwidth%22%3A600%2C%22containerbackground%22%3=
+A%22%23ffffff%22%7D' align=3D"center" cellpadding=3D"0"
+              cellspacing=3D"0" border=3D"0">
+              <tr>
+                <td width=3D"100%">
+                  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0"=
+ border=3D"0">
+                    <tr>
+                      <td>
+                        <!--[if (gte mso 9)|(IE)]>
+                      <table width=3D"600" align=3D"center" cellpadding=3D"=
+0" cellspacing=3D"0" border=3D"0">
+                        <tr>
+                          <td>
+                            <![endif]-->
+                        <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" style=3D"width: 100%; max-width:600px;" align=3D"center=
+">
+                          <tr>
+                            <td role=3D"modules-container" style=3D"padding=
+: 0px 0px 0px 0px; color: #626262; text-align: left;" bgcolor=3D"#ffffff" w=
+idth=3D"100%" align=3D"left">
+                              <table border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" align=3D"center" width=3D"100%" style=3D"display:none !important=
+; visibility:hidden; opacity:0; color:transparent; height:0; width:0;" clas=
+s=3D"module preheader preheader-hide" role=3D"module" data-type=3D"preheade=
+r">
+                                <tr>
+                                  <td role=3D"module-content">
+                                    <p></p>
+                                  </td>
+                                </tr>
+                              </table>
+                              <table role=3D"module" data-type=3D"image" bo=
+rder=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" width=3D"10=
+0%" style=3D"table-layout: fixed;" class=3D"wrapper" data-attributes=3D'%7B=
+%22child%22%3Afalse%2C%22link%22%3A%22%22%2C%22width%22%3A%22602%22%2C%22he=
+ight%22%3A%22170%22%2C%22imagebackground%22%3A%22%23FFFFFF%22%2C%22url%22%3=
+A%22https%3A//marketing-image-production.s3.amazonaws.com/uploads/46d34900f=
+019b67a95a9278407d6b0f7b3ceb40cea8a8afe6c233e07f3944ea19213d7e55f8d8ff2d5a3=
+446cb5a5b533207005ebf6059c2f856c4a0ead5e9947.png%22%2C%22alt_text%22%3A%22%=
+22%2C%22dropped%22%3Atrue%2C%22imagemargin%22%3A%220%2C0%2C0%2C0%22%2C%22al=
+ignment%22%3A%22center%22%2C%22responsive%22%3Atrue%7D'>
+                                <tr>
+                                  <td style=3D"font-size:6px;line-height:10=
+px;background-color:#FFFFFF;padding: 0px 0px 0px 0px;" valign=3D"top" align=
+=3D"center" role=3D"module-content">
+                                    <!--[if mso]>
+<center>
+<table width=3D"602" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"table-layout: fixed;">
+  <tr>
+    <td width=3D"602" valign=3D"top">
+<![endif]-->
+
+                                    <img class=3D"max-width" width=3D"602" =
+height=3D"" src=3D"https://marketing-image-production.s3.amazonaws.com/uplo=
+ads/46d34900f019b67a95a9278407d6b0f7b3ceb40cea8a8afe6c233e07f3944ea19213d7e=
+55f8d8ff2d5a3446cb5a5b533207005ebf6059c2f856c4a0ead5e9947.png" alt=3D""
+                                      border=3D"0" style=3D"display: block;=
+ color: #000; text-decoration: none; font-family: Helvetica, arial, sans-se=
+rif; font-size: 16px;  max-width: 602px !important; width: 100% !important;=
+ height: auto !important; " />
+
+                                    <!--[if mso]>
+</td></tr></table>
+</center>
+<![endif]-->
+                                  </td>
+                                </tr>
+                              </table>
+                              <table class=3D"module" role=3D"module" data-=
+type=3D"text" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100=
+%" style=3D"table-layout: fixed;" data-attributes=3D'%7B%22dropped%22%3Atru=
+e%2C%22child%22%3Afalse%2C%22padding%22%3A%2220%2C20%2C20%2C20%22%2C%22cont=
+ainerbackground%22%3A%22%23ffffff%22%7D'>
+                                <tr>
+                                  <td role=3D"module-content" valign=3D"top=
+" height=3D"100%" style=3D"padding: 20px 20px 20px 20px;" bgcolor=3D"#fffff=
+f">
+                                    <div>=D0=97=D0=B4=D1=80=D0=B0=D0=B2=D1=
+=81=D1=82=D0=B2=D1=83=D0=B9, macrofag3,<br/><br/>=D0=A2=D1=8B =D1=82=D0=BE=
+=D0=BB=D1=8C=D0=BA=D0=BE =D1=87=D1=82=D0=BE =D0=B2=D1=8B=D1=83=D1=87=D0=B8=
+=D0=BB =D0=BD=D0=B5=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=BD=D0=BE=
+=D0=B2=D1=8B=D1=85 =D1=81=D0=BB=D0=BE=D0=B2 =D0=BD=D0=B0 Memrise, =D0=B7=D0=
+=B0=D1=84=D0=B8=D0=BA=D1=81=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=B2 =D0=B8=D1=
+=85 =D0=B2 =D0=BA=D1=80=D0=B0=D1=82=D0=BA=D0=BE=D0=B2=D1=80=D0=B5=D0=BC=D0=
+=B5=D0=BD=D0=BD=D0=BE=D0=B9 =D0=BF=D0=B0=D0=BC=D1=8F=D1=82=D0=B8. =D0=A2=D0=
+=B5=D0=BF=D0=B5=D1=80=D1=8C =D0=BE=D0=BD=D0=B8 =D0=B3=D0=BE=D1=82=D0=BE=D0=
+=B2=D1=8B =D0=BA =D0=BF=D0=B5=D1=80=D0=B2=D0=BE=D0=BC=D1=83 =D0=BF=D0=BE=D0=
+=B2=D1=82=D0=BE=D1=80=D0=B5=D0=BD=D0=B8=D1=8E. =D0=AD=D1=82=D0=BE =D1=82=D0=
+=BE, =D1=87=D1=82=D0=BE =D0=B7=D0=B0=D0=BA=D1=80=D0=B5=D0=BF=D0=B8=D1=82 =
+=D1=81=D0=BB=D0=BE=D0=B2=D0=B0 =D0=B2 =D0=BF=D0=B0=D0=BC=D1=8F=D1=82=D0=B8 =
+=D0=BD=D0=B0=D0=B2=D1=81=D0=B5=D0=B3=D0=B4=D0=B0.<br/><br/>=D0=92=D0=BE=D1=
+=82 =D1=81=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=BD=D0=BE=D0=B2=D1=8B=D1=85 =D1=
+=81=D0=BB=D0=BE=D0=B2, =D1=87=D1=82=D0=BE=D0=B1=D1=8B =D0=BE=D1=81=D0=B2=D0=
+=B5=D0=B6=D0=B8=D1=82=D1=8C =D0=B8=D1=85 =D0=B2 =D0=BF=D0=B0=D0=BC=D1=8F=D1=
+=82=D0=B8, =D0=BF=D0=B5=D1=80=D0=B5=D0=B4 =D1=82=D0=B0=D0=BC =D0=BA=D0=B0=
+=D0=BA =D0=BF=D1=80=D0=B8=D1=81=D1=82=D1=83=D0=BF=D0=B8=D1=82=D1=8C =D0=BA =
+=D1=83=D1=87=D0=B5=D0=B1=D0=BD=D0=BE=D0=BC=D1=83 =D0=B7=D0=B0=D0=BD=D1=8F=
+=D1=82=D0=B8=D1=8E.</div>
+                                    <div>
+
+    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0"
+           class=3D"thing_list"
+           style=3D"width: 75%; margin: 20px auto; background-color: #fff; =
+border-radius: 10px; border-collapse: collapse; box-shadow: 3px 3px 3px rgb=
+a(100, 100, 100, 0.3);">
+        <thead>
+        <tr>
+            <th style=3D"text-align: left; padding: 10px; width:50%">=D0=90=
+=D0=BD=D0=B3=D0=BB=D0=B8=D0=B9=D1=81=D0=BA=D0=B8=D0=B9</th>
+            <th style=3D"text-align: left; padding: 10px; width:50%">=D0=A0=
+=D1=83=D1=81=D1=81=D0=BA=D0=B8=D0=B9</th>
+        </tr>
+        </thead>
+        <tbody>
+=20=20=20=20=20=20=20=20
+            <tr>
+                <td style=3D"padding: 10px; border: 0 solid #ddd; border-wi=
+dth: 1px 0 1px 0">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+
+
+    fun
+
+
+                </td>
+                <td style=3D"padding: 10px; border: 0 solid #ddd; border-wi=
+dth: 1px 0 1px 0">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+
+
+    =D0=B2=D0=B5=D1=81=D0=B5=D0=BB=D1=8C=D0=B5
+
+
+                </td>
+            </tr>
+=20=20=20=20=20=20=20=20
+            <tr>
+                <td style=3D"padding: 10px; border: 0 solid #ddd;">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+
+
+    exciting
+
+
+                </td>
+                <td style=3D"padding: 10px; border: 0 solid #ddd;">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+
+
+    =D1=83=D0=B2=D0=BB=D0=B5=D0=BA=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=
+=8B=D0=B9; =D0=B7=D0=B0=D1=85=D0=B2=D0=B0=D1=82=D1=8B=D0=B2=D0=B0=D1=8E=D1=
+=89=D0=B8=D0=B9
+
+
+                </td>
+            </tr>
+=20=20=20=20=20=20=20=20
+        </tbody>
+    </table>
+
+</div>
+                                  </td>
+                                </tr>
+                              </table>
+                              <table class=3D"module" role=3D"module" data-=
+type=3D"divider" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%" style=3D"table-layout: fixed;" data-attributes=3D'%7B%22dropped%22%3A=
+true%2C%22padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%2=
+2%23ffffff%22%2C%22linecolor%22%3A%22%23ffffff%22%2C%22height%22%3A5%7D'>
+                                <tr>
+                                  <td role=3D"module-content" style=3D"padd=
+ing: 0px 0px 0px 0px;" bgcolor=3D"#ffffff">
+                                    <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" align=3D"center" width=3D"100%" height=3D"5" style=3D"font=
+-size: 5px; line-height: 5px;">
+                                      <tr>
+                                        <td bgcolor=3D"#ffffff">&nbsp;</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                              <table class=3D"module" role=3D"module" data-=
+type=3D"button" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" style=3D"table-layout: fixed;" data-attributes=3D'%7B%22dropped%22%3At=
+rue%2C%22borderradius%22%3A6%2C%22buttonpadding%22%3A%2212%2C18%2C12%2C18%2=
+2%2C%22text%22%3A%22%2525@call_to_action%22%2C%22alignment%22%3A%22center%2=
+2%2C%22fontsize%22%3A16%2C%22url%22%3A%22%2525@action_url%22%2C%22height%22=
+%3A%22%22%2C%22width%22%3A%22%22%2C%22containerbackground%22%3A%22%23ffffff=
+%22%2C%22padding%22%3A%2220%2C0%2C20%2C0%22%2C%22buttoncolor%22%3A%22%236F4=
+A9%22%2C%22textcolor%22%3A%22%23ffffff%22%2C%22bordercolor%22%3A%22%236F4A9=
+%22%7D'>
+                                <tr>
+                                  <td style=3D"padding: 20px 0px 20px 0px;"=
+ align=3D"center" bgcolor=3D"#ffffff">
+                                    <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" class=3D"wrapper-mobile">
+                                      <tr>
+                                        <td align=3D"center" style=3D"-webk=
+it-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; font-si=
+ze: 16px;" bgcolor=3D"#6F4A9">
+                                          <a href=3D"http://email.memrise.c=
+om/wf/click?upn=3D5EfqOH7zPTBh-2FXrdrzzANGGhcDl6cRv5-2ByCob6vENw-2F7IamXBBz=
+t7c9v4XwGoB-2FcWMG1KZRoMCHVRQgIiJ8NLgxtqflD5v1PEzBk3ioRAMqWnb6TH2Cq4nsqpJdu=
+MWweVVHofSOq4J9Spb5W92xp1A-3D-3D_1VYcT98m-2Fz5F7mgiYGgrK9qbyEwSPKKea35sUSge=
+LkUZpXcJ4mvWNwGLEPoxtPpqgMSMif5awcfRdIHXQ3VuHC-2FYJIh2hNqRaabYfM9x3GaghsbDA=
+Rm3muY04IjMKBCsd2dgmLRSXTYWYphkEl4ZAaY0XAMtqG0qQxefJm9VAQ3HPZosZlDulVCAke2-=
+2BUcKivdsdUrvAe4Ar1R1vcXaHoK3TtwjwyXithKCwXKJMnxNLVSE7M9wLoJOn-2BWGvl-2FBIC=
+KqrAnplJ1mg2bk3yL-2B3J1eC93TsF7CAcyLn4GhdDlV3bjxeJQ3gDtK5ijmjnj15w1Z0EQIJIR=
+IXo4Kag7tmMyleD26bT3OLlPH6pFL-2FXjxOqkQR4dASagmcCHSBXlXM" class=3D"bulletpr=
+oof-button" target=3D"_blank" style=3D"height: px; width: px; font-size: 16=
+px; line-height: px; font-family: Helvetica, Arial, sans-serif; color: #fff=
+fff; padding: 12px 18px 12px 18px; text-decoration: none; color: #ffffff; t=
+ext-decoration: none; -webkit-border-radius: 6px; -moz-border-radius: 6px; =
+border-radius: 6px; border: 1px solid #6F4A9; display: inline-block;">=D0=
+=9F=D0=BE=D0=B2=D1=82=D0=BE=D1=80=D0=B8=D1=82=D1=8C =D1=81=D0=B5=D0=B9=D1=
+=87=D0=B0=D1=81</a>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                              <table border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" align=3D"center" width=3D"100%" class=3D"module footer" role=3D"=
+module" data-type=3D"footer" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%=
+22columns%22%3A%222%22%2C%22padding%22%3A%225%2C25%2C5%2C25%22%2C%22contain=
+erbackground%22%3A%22%236f4a9%22%7D'>
+                                <tr>
+                                  <td style=3D"padding: 5px 25px 5px 25px;"=
+ bgcolor=3D"#6f4a9">
+                                    <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" align=3D"center" width=3D"100%">
+                                      <tr role=3D"module-content">
+
+                                        <td align=3D"center" valign=3D"top"=
+ width=3D"50%" height=3D"100%" class=3D"templateColumnContainer">
+                                          <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" height=3D"100%">
+                                            <tr>
+                                              <td class=3D"leftColumnConten=
+t" role=3D"column-one" height=3D"100%" style=3D"height:100%;">
+                                                <table class=3D"module" rol=
+e=3D"module" data-type=3D"text" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" style=3D"table-layout: fixed;" data-attributes=3D'%7B=
+%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%220%2C0%2C0%2=
+C0%22%2C%22containerbackground%22%3A%22%236f4a9%22%7D'>
+                                                  <tr>
+                                                    <td role=3D"module-cont=
+ent" valign=3D"top" height=3D"100%" style=3D"padding: 0px 0px 0px 0px;" bgc=
+olor=3D"#6f4a9">
+                                                      <div style=3D"font-si=
+ze: 10px; line-height: 150%; margin: 0px;">&nbsp;</div>
+                                                      <div style=3D"font-si=
+ze: 10px; line-height: 150%; margin: 0px;">&nbsp;</div>
+                                                      <div style=3D"font-si=
+ze: 10px; line-height: 150%; margin: 0px;">&nbsp;</div>
+                                                      <div style=3D"font-si=
+ze: 10px; line-height: 150%; margin: 0px;"><a href=3D"http://email.memrise.=
+com/wf/click?upn=3D5EfqOH7zPTBh-2FXrdrzzANI5cWluZe1DrFqD4uP2ESB3WKr3YdOUcVd=
+L93NEArOHdKhJDP1WHvhl4kOXfOSjfRMFAhvVp3QnU2DdGXCB5WR2ZHEG98tuOeQgBNY2VrkIJA=
+0zSB7Y8FqBArU2K8wrfqYXLGn8UC9y2-2BzpuMNxQYeigy9gorER8mQxBVqap0pZHooF9CWAhmi=
+mLcHSGEfoAag-3D-3D_1VYcT98m-2Fz5F7mgiYGgrK9qbyEwSPKKea35sUSgeLkUZpXcJ4mvWNw=
+GLEPoxtPpqgMSMif5awcfRdIHXQ3VuHC-2FYJIh2hNqRaabYfM9x3GaghsbDARm3muY04IjMKBC=
+sd2dgmLRSXTYWYphkEl4ZAZ5ROWcWGyTw6OeUlrsBQCHb2dZtj2y5PSd6fpFXx44vPJsPirKa5U=
+NdhjhWRWNNTgg46YNZPEADuKcaHn5Go-2BvNYIJIQchkz4-2FGVSxqYQkCywmCKOUA-2BJd0DfX=
+KpIGeSweeBcMVQ-2Bt5GOvjGG2X66y1TH-2Bo-2FNuKxVNunJQsVkLRcEa6vTW4AfpVVz6bIwwW=
+dRONs2C-2FJsYgCAECg5CQRysSfbPH2B-2BR4Sk336kegRGq" style=3D"text-decoration:=
+none;"><span style=3D"font-family:arial,helvetica,sans-serif;"><span style=
+=3D"color:#FFFFFF;">=D0=9E=D1=82=D0=BF=D0=B8=D1=88=D0=B8=D1=81=D1=8C =D0=B8=
+=D0=BB=D0=B8 =D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B8 =D0=BD=D0=B0=D1=81=D1=82=
+=D1=80=D0=BE=D0=B9=D0=BA=D0=B8 email </span></span></a></div>
+                                                      <div style=3D"font-si=
+ze: 10px; line-height: 150%; margin: 0px;">&nbsp;</div>
+                                                      <div style=3D"font-si=
+ze: 10px; line-height: 150%; margin: 0px;">&nbsp;</div>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                        <td align=3D"center" valign=3D"top"=
+ width=3D"50%" height=3D"100%" class=3D"templateColumnContainer">
+                                          <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" height=3D"100%">
+                                            <tr>
+                                              <td class=3D"rightColumnConte=
+nt" role=3D"column-two" height=3D"100%" style=3D"height:100%;">
+                                                <table class=3D"module" rol=
+e=3D"module" data-type=3D"text" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" style=3D"table-layout: fixed;" data-attributes=3D'%7B=
+%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%220%2C0%2C0%2=
+C0%22%2C%22containerbackground%22%3A%22%236f4a9%22%7D'>
+                                                  <tr>
+                                                    <td role=3D"module-cont=
+ent" valign=3D"top" height=3D"100%" style=3D"padding: 0px 0px 0px 0px;" bgc=
+olor=3D"#6f4a9">
+                                                      <div>&nbsp;</div>
+                                                      <div style=3D"font-si=
+ze: 10px; line-height: 150%; margin: 0px; text-align: right;"><span style=
+=3D"color:#FFFFFF;"><span style=3D"font-family:arial,helvetica,sans-serif;"=
+>Memrise</span></span>
+                                                      </div>
+                                                      <div style=3D"font-si=
+ze: 10px; line-height: 150%; margin: 0px; text-align: right;"><span style=
+=3D"color:#FFFFFF;"><span style=3D"font-family:arial,helvetica,sans-serif;"=
+>38 40 Commercial Road</span></span>
+                                                      </div>
+                                                      <div style=3D"font-si=
+ze: 10px; line-height: 150%; margin: 0px; text-align: right;"><span style=
+=3D"color:#FFFFFF;"><span style=3D"font-family:arial,helvetica,sans-serif;"=
+>London, UK E1 1LN</span></span>
+                                                      </div>
+                                                      <div>&nbsp;</div>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+
+                          </tr>
+                          </td>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                        </td>
+                      </table>
+                    <![endif]-->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+        </tr>
+        </td>
+      </table>
+    </div>
+  </center>
+
+<img src=3D"http://email.memrise.com/wf/open?upn=3D1VYcT98m-2Fz5F7mgiYGgrK9=
+qbyEwSPKKea35sUSgeLkUZpXcJ4mvWNwGLEPoxtPpqgMSMif5awcfRdIHXQ3VuHC-2FYJIh2hNq=
+RaabYfM9x3GaghsbDARm3muY04IjMKBCsd2dgmLRSXTYWYphkEl4ZAbZGEfhXCt7AZ8cPW3OXdn=
+Lr-2BIzv0Iw-2FFFblza7IKWPvN-2BXLF1bDWQy-2BHhcxaSpM6mrHBEu0k-2BEynioGiEmiC69=
+LP07-2BhnmmaTueh1pv-2FLg96jHvslvta7nqBfIplFmvdkFLeXMr6bppD-2Fq2jR1VgZNzLViX=
+iJ6uSbrhz6RIE6ZbU3DEuBk3Q7LHOvwrd-2F-2Bn3w2pRwWF7-2FMSi6T8rlAbSJtdWjDimbgyT=
+xQfVRtEcdjt" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height=
+:1px !important;width:1px !important;border-width:0 !important;margin-top:0=
+ !important;margin-bottom:0 !important;margin-right:0 !important;margin-lef=
+t:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding=
+-right:0 !important;padding-left:0 !important;"/>
+</body>
+
+</html>

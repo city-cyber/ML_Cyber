@@ -1,0 +1,132 @@
+Return-Path: <gitlab@mail.ru>
+Received: from zimbra.mail.ru (LHLO zimbra.mail.ru) (192.168.80.26) by
+ zimbra.mail.ru with LMTP; Fri, 28 Jan 2022 15:40:25 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by zimbra.mail.ru (Postfix) with ESMTP id D223EC2140
+	for <v.megaman@mail.ru>; Fri, 28 Jan 2022 15:40:24 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -1.198
+X-Spam-Level:
+X-Spam-Status: No, score=-1.198 required=6.6 tests=[ALL_TRUSTED=-1,
+	DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1,
+	DKIM_VALID_EF=-0.1, HTML_MESSAGE=0.001, URIBL_BLOCKED=0.001]
+	autolearn=ham autolearn_force=no
+Authentication-Results: zimbra.mail.ru (amavisd-new); dkim=pass (2048-bit key)
+	header.d=mail.ru
+Received: from zimbra.mail.ru ([127.0.0.1])
+	by localhost (zimbra.mail.ru [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id omab4T0YOIRz for <v.megaman@mail.ru>;
+	Fri, 28 Jan 2022 15:40:24 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by zimbra.mail.ru (Postfix) with ESMTP id F2F66C2145
+	for <v.megaman@mail.ru>; Fri, 28 Jan 2022 15:40:23 +0000 (UTC)
+DKIM-Filter: OpenDKIM Filter v2.10.3 zimbra.mail.ru F2F66C2145
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mail.ru;
+	s=D7F7BEB2-72B3-11EC-9713-9EFA2A295AE4; t=1643384423;
+	bh=dJsumpiRAALrt6eDa06JHfTcQO0tZHg4J5OZHQTnGWU=;
+	h=Date:From:To:Message-ID:Mime-Version;
+	b=G0KflhsQE7EGvCFk6yrTni+rJvBtfRBgxAvaRPs/q6PxZbuxYDO/Y8vLZzUfbDTSA
+	 Lk3CIsdQZa7ii3MFIqWxzOPsRS9I1X14NRQZ+ePXHS7258CD2Df3YmCR5NcYfV4YyF
+	 m+mJnNq7Utg3pc3gNiLcrxqkoi83bCoNP9dubQLHAYCfRcwShOlP7VdH2FUThjrN/C
+	 XK19B6osVOPJeEOQhDiCqjAA6XQ9h7jWUuTbiCMdMuCsTHU1G1SaGgMxFv7ZZw6ARc
+	 jepHrEwZClLwo/A0kFSqJHVRnifGiOssQ/Vqo0XP8QsmEzehHOXiVRwC2FL56CTCEC
+	 uCIPFszXwC9MQ==
+X-Virus-Scanned: amavisd-new at zimbra.mail.ru
+Received: from zimbra.mail.ru ([127.0.0.1])
+	by localhost (zimbra.mail.ru [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id 3Io359jNel5C for <v.megaman@mail.ru>;
+	Fri, 28 Jan 2022 15:40:23 +0000 (UTC)
+Received: from mail.ru (unknown [192.168.10.185])
+	by zimbra.mail.ru (Postfix) with ESMTPSA id C1AF8C2140
+	for <v.megaman@mail.ru>; Fri, 28 Jan 2022 15:40:23 +0000 (UTC)
+Date: Fri, 28 Jan 2022 15:40:26 +0000
+From: <gitlab@mail.ru>
+Reply-To: GitLab <no-reply@mail.ru>
+To: v.megaman@mail.ru
+Message-ID: <1e36b6dd51cbf25958a2bcc7e50deafb@gitlab.mail.ru>
+In-Reply-To: <merge_request_2007@gitlab.mail.ru>
+References: <merge_request_2007@gitlab.mail.ru>
+Subject: =?UTF-8?Q?Re:_TTS=5Fbot_|_=D0=9F=D0=B0=D1=83=D0=B7=D1=8B_=D0=B8?=
+ =?UTF-8?Q?_=D1=8D=D0=BC=D0=B1=D0=B5=D0=B4=D0=B4=D0=B8=D0=BD=D0=B3=D0=B8?=
+ =?UTF-8?Q?_=28!3=29?=
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_61f40e6a5539_21e2bc0099428";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-GitLab-Project: TTS_bot
+X-GitLab-Project-Id: 524
+X-GitLab-Project-Path: machinelearning/tts_bot
+List-Id: machinelearning/tts_bot <524.tts-bot.machinelearning.gitlab.mail.ru>
+List-Unsubscribe: <https://gitlab.mail.ru/-/sent_notifications/89ff46c63e1fdd7b93340ece2fefbbff/unsubscribe?force=true>
+X-GitLab-MergeRequest-ID: 2007
+X-GitLab-MergeRequest-IID: 3
+X-GitLab-NotificationReason: 
+X-GitLab-Reply-Key: 89ff46c63e1fdd7b93340ece2fefbbff
+Auto-Submitted: auto-generated
+X-Auto-Response-Suppress: All
+
+
+----==_mimepart_61f40e6a5539_21e2bc0099428
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+
+DQoNCk1lcmdlIHJlcXVlc3QgITMgd2FzIG1lcmdlZA0KTWVyZ2UgcmVxdWVz
+dCBVUkw6IGh0dHBzOi8vZ2l0bGFiLmF2c3cucnUvbWFjaGluZWxlYXJuaW5n
+L3R0c19ib3QvLS9tZXJnZV9yZXF1ZXN0cy8zDQpCcmFuY2hlczogZGV2IHRv
+IG1haW4NCkF1dGhvcjog0JLQu9Cw0LTQuNC80LjRgCDQm9Cw0YDRjNC60LjQ
+vQ0KQXNzaWduZWU6INCu0YDQuNC5INCY0LLQsNC90L7Qsg0KUmV2aWV3ZXI6
+INCu0YDQuNC5INCY0LLQsNC90L7Qsg0KDQotLSANClZpZXcgaXQgb24gR2l0
+TGFiOiBodHRwczovL2dpdGxhYi5hdnN3LnJ1L21hY2hpbmVsZWFybmluZy90
+dHNfYm90Ly0vbWVyZ2VfcmVxdWVzdHMvMw0KWW91J3JlIHJlY2VpdmluZyB0
+aGlzIGVtYWlsIGJlY2F1c2Ugb2YgeW91ciBhY2NvdW50IG9uIGdpdGxhYi5h
+dnN3LnJ1Lg0KDQoNCg==
+
+----==_mimepart_61f40e6a5539_21e2bc0099428
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="en">
+<head>
+<meta content="text/html; charset=US-ASCII" http-equiv="Content-Type">
+<title>
+GitLab
+</title>
+
+
+<style>img {
+max-width: 100%; height: auto;
+}
+</style>
+</head>
+<body>
+<div class="content">
+
+<p>
+Merge request <a href="https://gitlab.mail.ru/machinelearning/tts_bot/-/merge_requests/3">!3</a> was merged
+</p>
+
+</div>
+<div class="footer" style="margin-top: 10px;">
+<p style="font-size: small; color: #666;">
+&#8212;
+<br>
+<a href="https://gitlab.mail.ru/machinelearning/tts_bot/-/merge_requests/3">View it on GitLab</a>.
+<br>
+You're receiving this email because of your account on gitlab.mail.ru.
+If you'd like to receive fewer emails, you can
+<a href="https://gitlab.mail.ru/-/sent_notifications/89ff46c63e1fdd7b93340ece2fefbbff/unsubscribe">unsubscribe</a>
+from this thread or
+adjust your notification settings.
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"EmailMessage","action":{"@type":"ViewAction","name":"View Merge request","url":"https://gitlab.mail.ru/machinelearning/tts_bot/-/merge_requests/3"}}</script>
+
+
+</p>
+</div>
+</body>
+</html>
+
+----==_mimepart_61f40e6a5539_21e2bc0099428--

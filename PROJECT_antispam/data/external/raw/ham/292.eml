@@ -1,0 +1,115 @@
+Return-Path: <0102017dab44cdd4-988eb82b-bfdc-4c91-a3ba-c95d3d7175e6-000000@mailer.jetbrains.com>
+Received: from relay.mai.education (LHLO mail.mai.education) (217.9.89.166)
+ by mail.mai.education with LMTP; Sat, 11 Dec 2021 23:52:41 +0300 (MSK)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.mai.education (Postfix) with ESMTP id 4CBAF404E5DFA
+	for <megaman@mail.ru>; Sat, 11 Dec 2021 23:52:41 +0300 (MSK)
+X-Virus-Scanned: amavisd-new at mail.mai.education
+X-Spam-Flag: NO
+X-Spam-Score: -1.995
+X-Spam-Level:
+X-Spam-Status: No, score=-1.995 required=6.6 tests=[BAYES_00=-1.9,
+	DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1,
+	DKIM_VALID_EF=-0.1, DMARC_PASS_QUAR=-1, HTML_IMAGE_ONLY_16=1.092,
+	HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001,
+	RCVD_IN_MSPIKE_H4=0.001, RCVD_IN_MSPIKE_WL=0.001, SPF_HELO_NONE=0.001,
+	SPF_PASS=-0.001, T_REMOTE_IMAGE=0.01] autolearn=ham autolearn_force=no
+Authentication-Results: mail.mai.education (amavisd-new);
+	dkim=pass (1024-bit key) header.d=jetbrains.com header.b=jUbTtClN;
+	dkim=pass (1024-bit key) header.d=amazonses.com header.b=MOlmZppS
+Received: from mai.education ([127.0.0.1])
+	by localhost (mail.mai.education [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id me9p-RC200bn for <megaman@mail.ru>;
+	Sat, 11 Dec 2021 23:52:40 +0300 (MSK)
+Received: from b229-162.smtp-out.eu-west-1.amazonses.com (b229-162.smtp-out.eu-west-1.amazonses.com [69.169.229.162])
+	by mail.mai.education (Postfix) with ESMTPS id AC1BD403481A8
+	for <megaman@mail.ru>; Sat, 11 Dec 2021 23:52:40 +0300 (MSK)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=zkgsaqiift4rcbn6jvpkg25sgiase5fg; d=jetbrains.com; t=1639255953;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=HuwQF5o46JGsxk/maxrlfgVF+v2aC4lDLebtOEbxjck=;
+	b=jUbTtClNrkkB92CZAlPk0QOptWjoQxUiZSPsaC/gMubm6kSEIBwKFMwGxNJ5FEpF
+	GKDtLqXUHUJ44KS6bwf4j9zzfB0f8Vn5njhCwIrWhdJUzp4M8RotS4DDtT0GnRdmQTi
+	Ln1fbJl2mtl6+l3zH7vq/pFONW86I6Oag03infKI=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=uku4taia5b5tsbglxyj6zym32efj7xqv; d=amazonses.com; t=1639255953;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=HuwQF5o46JGsxk/maxrlfgVF+v2aC4lDLebtOEbxjck=;
+	b=MOlmZppSd1famFo2dSHhwmHhZxRDaKqCtJis9XuJ1We8tKERe92HnbKk2hL7ByNK
+	Uk8TbKo7a9iqdffBYNuE5SEj6fZ9uSbCue40OcyiRJbfxmuS9A2bhx28b1wUX+uUvFU
+	aOYorE/O1+kBkK2lwVLX6Z5l0tOYiYe6eThfSbBA=
+Date: Sat, 11 Dec 2021 20:52:32 +0000
+From: JetBrains Sales <sales@jetbrains.com>
+To: megaman@mail.ru
+Message-ID: <0102017dab44cdd4-988eb82b-bfdc-4c91-a3ba-c95d3d7175e6-000000@eu-west-1.amazonses.com>
+Subject: License Certificate for your JetBrains Educational Pack / Order
+ D374977009
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_70244_133138001.1639255952041"
+X-Auto-Response-Suppress: OOF, DR, RN, NRN, AutoReply
+X-JETBRAINS-MESSAGE-ID: 0007445C24C39CFA97FEA30A244DCC23868
+Feedback-ID: 1.eu-west-1.K6LWIgPGRxjLgtEMceertZJEgVBGmuh0N+qjhP3uBkQ=:AmazonSES
+X-SES-Outgoing: 2021.12.11-69.169.229.162
+
+------=_Part_70244_133138001.1639255952041
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Steve,
+
+Congratulations! Your JetBrains Educational Pack has been renewed.
+
+Please use your  JetBrains Account [ https://account.jetbrains.com/ ]to acc=
+ess JetBrains tools whenever you want to use them.
+
+And here=E2=80=99s a quick tip. Download the  IDE Features Trainer [ https:=
+//plugins.jetbrains.com/plugin/8554-ide-features-trainer?utm_source=3Daccou=
+nt&utm_medium=3Demail&utm_campaign=3Deducation_auto-reply_student&utm_conte=
+nt=3Dlicense-certificate-for-your-jetbrains-educational-pack ]plugin to lea=
+rn basic shortcuts and essential features from right inside IntelliJ IDEA a=
+nd other JetBrains IDEs.
+
+In addition to your Educational Pack, we provide all new users with an exte=
+nded 3-month free trial at JetBrains Academy, our hands-on platform for lea=
+rning to program.  Find out more details and start your extended trial [ ht=
+tps://lp.jetbrains.com/jba-students/ ].
+
+If you have any questions, please email us and we will be glad to help.
+
+Kind Regards,
+The JetBrains team
+www.jetbrains.com [ https://www.jetbrains.com ]
+The Drive to Develop
+------=_Part_70244_133138001.1639255952041
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <body><p>Hi Steve,</p>
+<p>Congratulations! Your JetBrains Educational Pack has been renewed.</p>
+<p>Please use your <a href=3D"https://account.jetbrains.com/">JetBrains Acc=
+ount</a> to access JetBrains tools whenever you want to use them.</p>
+<p>And here=E2=80=99s a quick tip. Download the <a href=3D"https://plugins.=
+jetbrains.com/plugin/8554-ide-features-trainer?utm_source=3Daccount&amp;utm=
+_medium=3Demail&amp;utm_campaign=3Deducation_auto-reply_student&amp;utm_con=
+tent=3Dlicense-certificate-for-your-jetbrains-educational-pack">IDE Feature=
+s Trainer</a> plugin to learn basic shortcuts and essential features from r=
+ight inside IntelliJ IDEA and other JetBrains IDEs.</p>
+<p>In addition to your Educational Pack, we provide all new users with an e=
+xtended 3-month free trial at JetBrains Academy, our hands-on platform for =
+learning to program. <a href=3D"https://lp.jetbrains.com/jba-students/">Fin=
+d out more details and start your extended trial</a>.</p>
+<p>If you have any questions, please email us and we will be glad to help.<=
+/p>
+<p>Kind Regards,
+<br/>The JetBrains team
+<br/><a href=3D"https://www.jetbrains.com">www.jetbrains.com</a>
+<br/>The Drive to Develop</p>
+</body>
+</html><img src=3D"https://account.jetbrains.com/services/email/track-opene=
+d.gif?trackingCode=3D003A72A627BFAFDE736CFDC6E3E6D8BAF29C923550AF14B5DF4A02=
+D743547725BFADF96903B9B8F4CAE1643D9713695274F3D616E3F3AB1FF58B3CEABECF1FA7E=
+0" alt=3D""/>
+------=_Part_70244_133138001.1639255952041--

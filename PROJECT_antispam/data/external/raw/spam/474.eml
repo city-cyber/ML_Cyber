@@ -1,0 +1,227 @@
+Return-path: <rc@drawico.com>
+Original-recipient: rfc822;vasily@icloud.com
+Received: from ms11p00im-qufv17081601.me.com by pv35p14ic-ztdg05051301 (mailgateway 2201B134)
+	with SMTP id 18d54b45-e227-4d52-93df-a4cd0345a617 
+	for <vasily@icloud.com>; Thu, 28 Oct 2021 13:32:43 GMT
+X-Apple-MoveToFolder: INBOX 
+X-Apple-Action: MOVE_TO_FOLDER/INBOX
+X-Apple-UUID: 18d54b45-e227-4d52-93df-a4cd0345a617
+Received: from drawico.com (unknown [103.39.216.35])
+	by ms11p00im-qufv17081601.me.com (Postfix) with ESMTP id 63D92C893D5
+	for <vasily@icloud.com>; Thu, 28 Oct 2021 13:32:41 +0000 (UTC)
+X-ICL-SCORE: 3.3220332300
+X-ICL-INFO: GAtbVUseBVBHSVVESgMGUldZCh4MXUMRSFsIVVhDQ19XFwkZHRIWBxFERAUbcFIQFA4PFBceVQ0Y
+ W0YRHA0UBgcYER4bXxgBGhREVwtZRl9XSFZEVgMPTEdIUFlLBRRCHRwKGEUSUhAUDg8UFx5VDRhb
+ RgcMQgtALkhWRFYDD0xHSFBZSwVrQFUdAkpaRVgJGxYRGVoQWwsRRERLSnIPIzY4VUU6cQUjQktQ
+ RUF1clFFTyRCSglzUUJBIkZWAgZQREhWRUACB1FHS183HEJXFRwaCVkbX1tcV1kUFEUSXxQUFwkB
+ J0lFIhwaChgNVBgBGhRE
+Authentication-Results: dmarc.icloud.com; dmarc=none header.from=drawico.com
+x-dmarc-info: pass=none; dmarc-policy=(nopolicy); s=u0; d=u0
+x-dmarc-policy: none
+Authentication-Results: dkim-verifier.icloud.com; dkim=none
+Authentication-Results: spf.icloud.com; spf=pass (spf.icloud.com: domain of rc@drawico.com designates 103.39.216.35 as permitted sender) smtp.mailfrom=rc@drawico.com
+Received-SPF: pass (spf.icloud.com: domain of rc@drawico.com designates 103.39.216.35 as permitted sender) receiver=spf.icloud.com; client-ip=103.39.216.35; helo=drawico.com; envelope-from=rc@drawico.com
+Received: from WIN-A9S0SUBJN6U (unknown [222.73.31.225])
+	by drawico.com (Postfix) with ESMTPA id C59101020E9
+	for <vasily@icloud.com>; Thu, 28 Oct 2021 21:32:39 +0800 (CST)
+Date: Thu, 28 Oct 2021 21:32:29 +0800 (CST)
+From: zj <rc@drawico.com>
+Reply-To: 2224245593@qq.com
+To: vasily@icloud.com
+Message-Id: <2B9ACA32BA3A72629ED306B529E378D1.20211028213229@drawico.com>
+Subject: =?utf-8?B?6auY5bGC5qyh5Lq65omN5Zue5Zu95q2j56Gu5pa55byP?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_47922720_810103420.1635427949634"
+X-MANTSH: 1TEIXR1kbG1oaGkNHB1tfTFwbGhsbGx8aGxEKTEMXGxoEGxsYBBMSBBMTEBseGh8
+ aEQpMWRcYHREKWUQXY0xMZn5EYGZsSHgRCllNF2RFRE8RCllJFxkacRsGHBp3BgcbEgYaBhoGH
+ RoGGnEaEBp3BhoGBx8aBhoGBx8GGgYacRoQGncGGhEKWV4XY2N5EQpDThdaHmFpSGNETWdtE00
+ cR2ZzdWdAb0VEYlBHXh9HZV1CGREKWFwXGQQaBB4fB0sbGxscGk8cBRsaBBMEGBkSBBgYEBseG
+ h8aEQpeWRdzWW9ZfBEKTVwXGx4aEQpMWhdOSx5vaxEKRVkXaGtrEQpMXxd6BQUFBQUFBQUFHRE
+ KTEYXY2trEQpDWhcbGhkEGRMEGBscBBkfEQpCXhcbEQpCRRdtTx8dYWx/R01+YREKQk4XY3NTQ
+ U9DTENtW0YRCkJMF2N6GHIYWH1vSEJwEQpCbBdjRElHZxhQElxSUxEKQkAXbhNAEn9dWxpkenk
+ RCkJYF25oEnhkblh9fFobEQpNXhcHGxEKWlgXGxEKcGcXYx9iGEZJUkFNeWMQBxsaEQpwaBdrG
+ G9bXlABQmBkTBAHHBoRCnBoF21zQ3kSc1l7a1geEAccGhEKcGgXZh9kYh1fGlwcfWgQBxwaEQp
+ waBdiYmcYBU9BfV1dbRAHHBoRCnBoF25hW05MHEwdGVhhEAccGhEKcGwXYn5zBUhDHUtYUl0QB
+ xwaEQpwQxdlb0x5ThxaGX4cexAHGxkcEQptfhcHGxEKWE0XSxE=
+X-CLX-Shades: None
+category: Undefined
+
+------=_Part_47922720_810103420.1635427949634
+Content-Type: multipart/related; 
+	boundary="----=_Part_47922721_361857960.1635427949634"
+
+------=_Part_47922721_361857960.1635427949634
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+ <head></head>
+ <body>
+  <br />
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>
+  <table width=3D"700" border=3D"0" cellspacing=3D"50" cellpadding=3D"0" st=
+yle=3D"font-family:'=E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91', Georgia, Times N=
+ew Roman, Times, serif;font-size:12px;color:#232323;" class=3D"ke-zeroborde=
+r">
+   <tbody>
+    <tr>
+     <td height=3D"700" style=3D"box-shadow:0px 0px 10px #000;">
+      <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" class=3D"ke-zeroborder">
+       <tbody>
+        <tr>
+         <td height=3D"600" align=3D"center">
+          <div style=3D"width:600px;height:600px;transform:rotate(-45deg);b=
+ox-shadow:inset 2px 2px 10px #666;background:#FC3;">
+           <div style=3D"width:600px;height:600px;transform:rotate(45deg);"=
+>
+            <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" class=3D"ke-zeroborder">
+             <tbody>
+              <tr>
+               <td width=3D"300" height=3D"300" align=3D"center">
+                <div style=3D"width:280px;height:280px;background:#fff;bord=
+er-radius:150px;box-shadow:inset 2px 2px 5px #666;">
+                 <table width=3D"100%" border=3D"0" cellspacing=3D"10" cell=
+padding=3D"0" class=3D"ke-zeroborder">
+                  <tbody>
+                   <tr>
+                    <td height=3D"80" align=3D"center">
+                     <div style=3D"width:80px;height:80px;font-size:36px;li=
+ne-height:80px;font-weight:bold;background:#FC3;box-shadow:inset 2px -2px 5=
+px #666;border-radius:80px;">
+                      =E4=BA=BA
+                     </div></td>
+                   </tr>
+                   <tr>
+                    <td style=3D"font-size:12px;line-height:1.5em;padding:0=
+ 20px;"><span style=3D"font-size:16px;line-height:2em;"><strong><strong>=E6=
+=94=BF=E7=AD=96=E6=89=B6=E6=8C=81</strong></strong><br /></span><span>=E4=
+=B8=AA=E4=BA=BA=E5=A5=96=E5=8A=B1=EF=BC=88200=E4=B8=87=E5=85=83=E8=B5=B7=EF=
+=BC=89=E3=80=81=E9=A1=B9=E7=9B=AE=E8=B5=84=E5=8A=A9=EF=BC=8C=E5=8A=9E=E5=85=
+=AC=E5=9C=BA=E5=9C=B0=E6=94=AF=E6=8C=81=EF=BC=8C=E8=B4=AD=E6=88=BF=EF=BC=8C=
+=E7=94=9F=E6=B4=BB=E7=AD=89=E4=B8=80=E7=B3=BB=E5=88=97=E8=A1=A5=E8=B4=B4=EF=
+=BC=8C=E4=BA=AB=E5=9B=BD=E5=AE=B6=E9=AB=98=E5=B1=82=E6=AC=A1=E4=BA=BA=E6=89=
+=8D=E4=B8=93=E5=AE=B6=E5=BE=85=E9=81=87=EF=BC=8C=E8=BF=98=E5=8F=AF=E7=9B=B4=
+=E6=8E=A5=E8=AE=A4=E5=AE=9A=E9=AB=98=E7=BA=A7=E4=B8=93=E4=B8=9A=E6=8A=80=E6=
+=9C=AF=E8=B5=84=E6=A0=BC=E7=AD=89=E6=94=BF=E7=AD=96</span> </td>
+                   </tr>
+                  </tbody>
+                 </table>
+                </div></td>
+               <td width=3D"300" height=3D"300" align=3D"center">
+                <div style=3D"width:280px;height:280px;background:#fff;bord=
+er-radius:150px;box-shadow:inset 2px 2px 5px #666;">
+                 <table width=3D"100%" border=3D"0" cellspacing=3D"10" cell=
+padding=3D"0" class=3D"ke-zeroborder">
+                  <tbody>
+                   <tr>
+                    <td height=3D"80" align=3D"center">
+                     <div style=3D"width:80px;height:80px;font-size:36px;li=
+ne-height:80px;font-weight:bold;background:#FC3;box-shadow:inset 2px -2px 5=
+px #666;border-radius:80px;">
+                      =E6=89=8D
+                     </div></td>
+                   </tr>
+                   <tr>
+                    <td style=3D"font-size:12px;line-height:1.5em;padding:0=
+ 20px;"><span style=3D"font-size:16px;line-height:2em;"><strong><strong>=E7=
+=94=B3=E6=8A=A5=E6=9D=A1=E4=BB=B6</strong></strong><br /></span><span>1.=E5=
+=8D=9A=E5=A3=AB=E5=AD=A6=E4=BD=8D=EF=BC=9B<br /> 2.=E6=8B=A5=E6=9C=89=E6=B5=
+=B7=E5=A4=96=E5=B7=A5=E4=BD=9C=E7=BB=8F=E5=8E=86=EF=BC=9B<br /> 3.=E7=9B=AE=
+=E5=89=8D=E5=B0=9A=E6=9C=AA=E5=85=A8=E8=81=8C=E6=9D=A5=E5=8D=8E=E5=B7=A5=E4=
+=BD=9C=EF=BC=8C=E6=88=96=E8=80=852020=E5=B9=B49=E6=9C=881=E6=97=A5=E5=90=8E=
+=E6=9D=A5=E5=8D=8E=E5=B7=A5=E4=BD=9C=E3=80=82</span> </td>
+                   </tr>
+                  </tbody>
+                 </table>
+                </div></td>
+              </tr>
+              <tr>
+               <td width=3D"300" height=3D"300" align=3D"center">
+                <div style=3D"width:280px;height:280px;background:#fff;bord=
+er-radius:150px;box-shadow:inset 2px 2px 5px #666;">
+                 <table width=3D"100%" height=3D"280" border=3D"0" cellspac=
+ing=3D"10" cellpadding=3D"0" class=3D"ke-zeroborder">
+                  <tbody>
+                   <tr>
+                    <td align=3D"center" valign=3D"bottom" style=3D"font-si=
+ze:14px;line-height:1.5em;padding:0 20px;"><p><strong>=E7=94=B3=E6=8A=A5=E8=
+=81=94=E7=B3=BB</strong></p><p>=E8=AF=B7=E7=9B=B4=E6=8E=A5=E5=9B=9E=E5=A4=
+=8D=E9=82=AE=E4=BB=B6=E5=92=A8=E8=AF=A2=E7=94=B3=E6=8A=A5=E8=AF=A6=E6=83=85=
+=EF=BC=8C=E5=B9=B6=E9=99=84=E4=B8=8A=E6=82=A8=E7=9A=84=E4=B8=AD=E6=96=87=E4=
+=B8=AA=E4=BA=BA=E7=AE=80=E5=8E=86<br /> =E8=81=94=E7=B3=BB=E4=BA=BA=EF=BC=
+=9A=E9=99=88=E8=80=81=E5=B8=88<br /> <span lang=3D"ZH-CN" xml:lang=3D"ZH-CN=
+">=EF=BC=88=E7=94=B5=E8=AF=9D</span>/<span lang=3D"ZH-CN" xml:lang=3D"ZH-CN=
+">=E5=BE=AE=E4=BF=A1=EF=BC=9A</span>1<span lang=3D"ZH-CN" xml:lang=3D"ZH-CN=
+">&middot;</span>8<span lang=3D"ZH-CN" xml:lang=3D"ZH-CN">&middot;</span>8<=
+span lang=3D"ZH-CN" xml:lang=3D"ZH-CN">&middot;</span>7<span lang=3D"ZH-CN"=
+ xml:lang=3D"ZH-CN">&middot;</span>2<span lang=3D"ZH-CN" xml:lang=3D"ZH-CN"=
+>&middot;</span>4<span lang=3D"ZH-CN" xml:lang=3D"ZH-CN">&middot;</span>8<s=
+pan lang=3D"ZH-CN" xml:lang=3D"ZH-CN">&middot;</span>5<span lang=3D"ZH-CN" =
+xml:lang=3D"ZH-CN">&middot;</span>8<span lang=3D"ZH-CN" xml:lang=3D"ZH-CN">=
+&middot;</span>5<span lang=3D"ZH-CN" xml:lang=3D"ZH-CN">&middot;</span>1<sp=
+an lang=3D"ZH-CN" xml:lang=3D"ZH-CN">=EF=BC=89</span></p></td>
+                   </tr>
+                   <tr>
+                    <td height=3D"80" align=3D"center">
+                     <div style=3D"width:80px;height:80px;font-size:36px;li=
+ne-height:80px;font-weight:bold;background:#FC3;box-shadow:inset 2px -2px 5=
+px #666;border-radius:80px;">
+                      =E7=94=B3
+                     </div></td>
+                   </tr>
+                  </tbody>
+                 </table>
+                </div></td>
+               <td width=3D"300" height=3D"300" align=3D"center">
+                <div style=3D"width:280px;height:280px;background:#fff;bord=
+er-radius:150px;box-shadow:inset 2px 2px 5px #666;">
+                 <table width=3D"100%" height=3D"280" border=3D"0" cellspac=
+ing=3D"10" cellpadding=3D"0" class=3D"ke-zeroborder">
+                  <tbody>
+                   <tr>
+                    <td align=3D"center" valign=3D"bottom" style=3D"font-si=
+ze:14px;line-height:1.5em;padding:0 20px;"><p><strong>=E9=87=8D=E7=82=B9=E5=
+=BC=95=E8=BF=9B</strong></p><p>=E4=BA=BA=E5=B7=A5=E6=99=BA=E8=83=BD=E3=80=
+=81=E6=9F=94=E6=80=A7=E7=94=B5=E5=AD=90=E3=80=81=E9=87=8F=E5=AD=90=E9=80=9A=
+=E4=BF=A1=E3=80=81=E9=9B=86=E6=88=90=E7=94=B5=E8=B7=AF=E3=80=81=E7=94=9F=E7=
+=89=A9=E5=8C=BB=E8=8D=AF=E3=80=81=E5=85=88=E8=BF=9B=E6=9D=90=E6=96=99=E3=80=
+=81=E6=B8=85=E6=B4=81=E8=83=BD=E6=BA=90=E7=AD=89=E5=89=8D=E6=B2=BF=E7=A7=91=
+=E5=AD=A6=E5=92=8C=E9=87=8D=E7=82=B9=E6=8A=80=E6=9C=AF=E9=A2=86=E5=9F=9F=E9=
+=AB=98=E5=B1=82=E6=AC=A1=E4=BA=BA=E6=89=8D=EF=BC=8C=E9=87=8D=E5=A4=A7=E5=88=
+=9B=E6=96=B0=E9=A1=B9=E7=9B=AE=E3=80=81=E9=87=8D=E7=82=B9=E5=AD=A6=E7=A7=91=
+=E3=80=81=E9=87=8D=E7=82=B9=E5=AE=9E=E9=AA=8C=E5=AE=A4=E7=AD=89=E5=B9=B3=E5=
+=8F=B0=E7=B4=A7=E7=BC=BA=E6=80=A5=E9=9C=80=E7=9A=84=E9=A2=86=E5=86=9B=E4=BA=
+=BA=E3=80=82</p></td>
+                   </tr>
+                   <tr>
+                    <td height=3D"80" align=3D"center">
+                     <div style=3D"width:80px;height:80px;font-size:36px;li=
+ne-height:80px;font-weight:bold;background:#FC3;box-shadow:inset 2px -2px 5=
+px #666;border-radius:80px;">
+                      =E6=8A=A5
+                     </div></td>
+                   </tr>
+                  </tbody>
+                 </table>
+                </div></td>
+              </tr>
+             </tbody>
+            </table>
+           </div>
+          </div></td>
+        </tr>
+       </tbody>
+      </table></td>
+    </tr>
+   </tbody>
+  </table>
+  <br />
+ </body>
+</html>
+------=_Part_47922721_361857960.1635427949634--
+
+------=_Part_47922720_810103420.1635427949634--

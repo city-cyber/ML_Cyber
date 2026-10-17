@@ -1,0 +1,207 @@
+Delivered-To: macrofag@gmail.com
+Received: by 10.200.28.129 with SMTP id f1csp2590059qtl;
+        Mon, 19 Mar 2018 05:37:50 -0700 (PDT)
+X-Google-Smtp-Source: AG47ELv3auZCnvmxOwzz3g93KUwbt2hV8sP3C78PQ0lKFOnRa6QUnZL3EUCVftEI8hcFmvuzEzF/
+X-Received: by 10.237.41.129 with SMTP id o1mr17850805qtd.202.1521463070510;
+        Mon, 19 Mar 2018 05:37:50 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1521463070; cv=none;
+        d=google.com; s=arc-20160816;
+        b=vllsIppIPdqLel0gr0/FA8U/ZiGIV4fVMuh3mTr85eLAKypTNyaiDsydwPfuNo6hWO
+         O5b3io+Fv02/PatdQ2VAi5Wc3wN0hMqfVzV/dNOjiaQNrPqfFt5QUDmQKti2w94YdGpn
+         OsKlAklh1nbZq+rgGr6IdBubk+znTAy/BL/c8BG7mCB7817y8Kn5CpPjBF9t+Jk4WIk4
+         xjvMuQPO3qZDxrsef31Hxw8yS8n7iNqu0kGJwX8ZEBuQDLWGon900rjPVYzPPxM10tFy
+         EN9yfoMAy3088Vkip6Jh1gLmJ6s34J0oFMB5ZKtWioxPSH3qF2GvmfaPAbmQ1d0HRp9v
+         xSCQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:message-id:date:to:from:subject:mime-version
+         :dkim-signature:dkim-signature:arc-authentication-results;
+        bh=oYNNxXQa9U0dIlkEY74htZZOjnG0Y6TQNDsUbLWfF9g=;
+        b=dEVw8h+6zUZ24KWaOx7JkjhVevky3RUmAeGV938goc3zHWGt2kATkf9PTZWXxHSeu4
+         ecqEXhg481SYDw2lP6gP9PHKts3fI2rnCVMvbgqwszW6Sl/Ia9bLU1JBkkzUtCCgURxY
+         ztTsJM6ve8B6KYG9btvP1YXaT2ipumuIJNOoQ0T3FQLbM5QGjaQzysEV2EEdnrOGHnnR
+         qaSpB1pRzRlPBMyFrq5d640tmxa8RDLRYHViARmcudEcNSu6uDoRii5u/gOStEJ1bhnE
+         8bofajvrULTyV9H4yqu2ShKTMe2dDaq0gj0B+iq4lntdbfLFXf2piOqOO0HVE7ZOu4t/
+         i+Og==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@pythonanywhere.com header.s=7rb3csxnrdvlkjfgfwrkjt52zyjca4p5 header.b=kcpiRNIB;
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=WmZfqbGk;
+       spf=pass (google.com: domain of 010001623e440d11-d821cd50-7391-48a6-86ea-9e2b92a4760f-000000@amazonses.com designates 54.240.9.63 as permitted sender) smtp.mailfrom=010001623e440d11-d821cd50-7391-48a6-86ea-9e2b92a4760f-000000@amazonses.com
+Return-Path: <010001623e440d11-d821cd50-7391-48a6-86ea-9e2b92a4760f-000000@amazonses.com>
+Received: from a9-63.smtp-out.amazonses.com (a9-63.smtp-out.amazonses.com. [54.240.9.63])
+        by mx.google.com with ESMTPS id 8si904220qtg.389.2018.03.19.05.37.50
+        for <macrofag@gmail.com>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 19 Mar 2018 05:37:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 010001623e440d11-d821cd50-7391-48a6-86ea-9e2b92a4760f-000000@amazonses.com designates 54.240.9.63 as permitted sender) client-ip=54.240.9.63;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@pythonanywhere.com header.s=7rb3csxnrdvlkjfgfwrkjt52zyjca4p5 header.b=kcpiRNIB;
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=WmZfqbGk;
+       spf=pass (google.com: domain of 010001623e440d11-d821cd50-7391-48a6-86ea-9e2b92a4760f-000000@amazonses.com designates 54.240.9.63 as permitted sender) smtp.mailfrom=010001623e440d11-d821cd50-7391-48a6-86ea-9e2b92a4760f-000000@amazonses.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7rb3csxnrdvlkjfgfwrkjt52zyjca4p5; d=pythonanywhere.com;
+	t=1521463070;
+	h=Content-Type:MIME-Version:Subject:From:To:Date:Message-ID;
+	bh=m2aRX1x8R2AprlICdddho9uxAkJ1IM3tHTW/M/dskyM=;
+	b=kcpiRNIBhmBpBAIIvQurLgIEZsxsL4xDs3iZpA7hIPPnU+ZQ0FIpbohI8bJBO5xO
+	JGOSQgmCF5fedXG+i/xN/Yfwo0QDktzS+tjzicGhBKUaG8/HyScq5nkFWbqmr5DKhjs
+	VSexAkp7brlDRthiqL6jLYu12Q6INc856xly39Go=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1521463070;
+	h=Content-Type:MIME-Version:Subject:From:To:Date:Message-ID:Feedback-ID;
+	bh=m2aRX1x8R2AprlICdddho9uxAkJ1IM3tHTW/M/dskyM=;
+	b=WmZfqbGkOYeJ0xgE47IBR/m0ExOhwSj9BzqeKaHQ0JH/PpXzKB0b5LX+071mLJIB
+	vh9yB+GbTKKSm1rVxKbb8/vYss8y1uBIrM0qe5bRmYfl8tm2qnXZ9DOtx9rCxv5MjWt
+	RLQ6PQgFRwMSgn9bBR+18ccRwY0kP6iEOIkRxOOI=
+Content-Type: multipart/alternative;
+ boundary="===============3824542605012448666=="
+MIME-Version: 1.0
+Subject: [PythonAnywhere] Schedule a task to run automatically
+From: Giles Thomas <giles@pythonanywhere.com>
+To: macrofag@gmail.com
+Date: Mon, 19 Mar 2018 12:37:50 +0000
+Message-ID: <010001623e440d11-d821cd50-7391-48a6-86ea-9e2b92a4760f-000000@email.amazonses.com>
+X-SES-Outgoing: 2018.03.19-54.240.9.63
+Feedback-ID: 1.us-east-1.aqqnUrZmkJIrlKHtYGlEE4aeMYQu5NC3dm604Ru5da8=:AmazonSES
+
+--===============3824542605012448666==
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Tick tock tick tock tick tock.  It's the passage of time -- so familiar and yet, so mysterious; there's no good explanation for it in Physics! Will we ever truly understand it? Who knows...
+
+But one thing's for sure, and that's the fact that you can HARNESS THE POWER OF TIME using PythonAnywhere Scheduled Tasks. Something we see you haven't had *time* to do yet, ho ho.[1]
+
+So head on over to the Tasks tab where you'll be able to set any Python script (or, indeed, any other kind of script) to run on a regular basis
+
+https://www.pythonanywhere.com/user/suicidbot/tasks_tab/
+
+(Free users can set tasks to run once a day, paying users can schedule hourly tasks)
+
+Here's a few ideas to get you started:
+
+* Send yourself an email once a day reminding you to floss your teeth
+
+* Write a script to scrape daily prices 3D-printed plastic models of classic designs for fire hydrants.  Finally you'll be able to make those crucial buying decisions at the best time!
+
+* Write a twitter bot that posts the time of day once a day, and helpfully @-mentions random people informing them of what time it is
+
+* Download all the books on project gutenberg that were written on that day in history, and compute a hash of their text contents, just because!
+
+Incidentally, using a scheduled task can also be a good way to have a long-running task that restarts automatically if it crashes, for things like async workers, celery and so on.  More info here:
+
+https://help.pythonanywhere.com/pages/LongRunningTasks
+
+The possibilities are endless.
+
+[1] The original author of this email was already on their final
+warning for bad puns, and has now been summarily dismissed.
+
+
+Happy Scheduling!
+
+
+Giles + the PythonAnywhere team.
+
+
+Giles Thomas
+Developer
+
+PS These emails are designed to help you get the most out of PythonAnywhere,
+including pointing you towards some cool features that are a bit hidden.
+We'll only send out one a week, but if you want to unsubscribe from them,
+you can do so here:
+https://www.pythonanywhere.com/unsubscribe_from/engagement_emails/?email=macrofag%40gmail.com&n=9cd66187c1c55b6d85daa49cf6537b63
+
+--
+PythonAnywhere: Develop and host Python from your browser
+https://www.pythonanywhere.com/
+
+A product from PythonAnywhere LLP
+17a Clerkenwell Road, London EC1M 5RD, UK
+VAT No.: GB 893 5643 79
+Registered in England and Wales as company number OC378414.
+Registered address: 28 Ely Place, 3rd Floor, London EC1N 6TD, UK
+
+
+
+
+--===============3824542605012448666==
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<p>
+Tick tock tick tock tick tock.  It's the passage of time -- so familiar and yet,
+so mysterious; there's no good explanation for it in Physics! Will we ever truly
+understand it? Who knows...
+
+<p>
+But one thing's for sure, and that's the fact that you can
+<b>HARNESS THE POWER OF TIME</b> using PythonAnywhere Scheduled Tasks.
+Something we see you haven't had <i>time</i> to do yet, ho ho.<super>[1]</super>
+
+
+<p>
+So head on over to the
+<a href="https://www.pythonanywhere.com/user/suicidbot/tasks_tab/">Tasks tab</a>
+where you'll be able to set any Python script (or, indeed, any other kind
+of script) to run on a regular basis
+
+<p>
+<i>Free users can set tasks to run once a day, paying users can schedule hourly
+tasks</i>
+
+<p>
+Here's a few ideas to get you started
+
+<ul>
+    <li>Send yourself an email once a day reminding you to floss your teeth</li>
+    <li>Write a script to scrape daily prices 3D-printed plastic models of classic designs for fire hydrants.  Finally you'll be able to make those crucial buying decisions at the best time!</li>
+    <li>Write a twitter bot that posts the time of day once a day, and helpfully @-mentions random people informing them of what time it is</li>
+    <li>Download all the books on project gutenberg that were written on that day in history, and compute a hash of their text contents, just because!</li>
+</ul>
+
+<p><i>
+Incidentally, using a scheduled task can also be a good way to have a
+long-running task that restarts automatically if it crashes, for things like
+async workers, celery and so on.  More info on
+<a href="https://help.pythonanywhere.com/pages/LongRunningTasks">this help page about long-running tasks</a></i>.
+
+<p>
+The possibilities are endless.
+
+<p>
+<small>[1]<i>The original author of this email was already on their final
+warning for bad puns, and has now been summarily dismissed.</i></small>
+
+
+<p>
+Happy Scheduling!
+
+<p>Giles + the PythonAnywhere team.</p>
+
+
+<p>Giles Thomas</p>
+<p>Developer</p>
+
+<p>PS These emails are designed to help you get the most out of PythonAnywhere,
+including pointing you towards some cool features that are a bit hidden.
+We'll only send out one a week, but if you want to, you can
+
+<a href="https://www.pythonanywhere.com/unsubscribe_from/engagement_emails/?email=macrofag%40gmail.com&n=9cd66187c1c55b6d85daa49cf6537b63">unsubscribe here</a>.
+</p>
+
+<p style="color: grey">
+    PythonAnywhere: Develop and host Python from your browser<br/>
+    <a href="http://www.pythonanywhere.com/">http://www.pythonanywhere.com/</a><br/>
+    <br/>
+    A product from PythonAnywhere LLP<br/>
+    17a Clerkenwell Road, London EC1M 5RD, UK<br/>
+    VAT No.: GB 893 5643 79<br/>
+    Registered in England and Wales as company number OC378414.<br/>
+    Registered address: 28 Ely Place, 3rd Floor, London EC1N 6TD, UK<br/>
+</p>
+
+
+--===============3824542605012448666==--

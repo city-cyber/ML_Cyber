@@ -1,0 +1,34 @@
+{
+  "raw_emails": 4197,
+  "raw_by_source": {
+    "easy_ham": 2551,
+    "spam_2": 1396,
+    "hard_ham": 250
+  },
+  "clean_emails_before_external_exclusion": 3834,
+  "removed_external_overlaps": 956,
+  "prepared_emails": 2878,
+  "train": 1726,
+  "validation": 576,
+  "test": 576,
+  "external_raw": 1600,
+  "external_unique": 1493,
+  "external_labels": {
+    "spam": 1000,
+    "ham": 600
+  },
+  "audit_reasons": {
+    "external / duplicate_body_hash": 46,
+    "external / duplicate_message_id": 2,
+    "external / duplicate_text_hash": 57,
+    "external / empty_text": 2,
+    "training_corpora / conflicting_body_hash": 5,
+    "training_corpora / duplicate_body_hash": 122,
+    "training_corpora / duplicate_message_id": 5,
+    "training_corpora / duplicate_raw_hash": 20,
+    "training_corpora / duplicate_text_hash": 211,
+    "training_corpora / macos_metadata": 4200,
+    "training_corpora / not_email": 1,
+    "training_corpora / overlap_with_external": 956
+  }
+}

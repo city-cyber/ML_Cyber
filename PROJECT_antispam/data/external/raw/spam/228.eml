@@ -1,0 +1,486 @@
+Return-Path: <1axbi9i54dvs6vje5g1ujipgviy0ewewqi1byr-office=mail.ru@bf08.eu1.hubspotemail.net>
+Received: from zimbra.mail.ru (LHLO zimbra.mail.ru) (192.168.80.26) by
+ zimbra.mail.ru with LMTP; Mon, 18 Apr 2022 08:32:15 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by zimbra.mail.ru (Postfix) with ESMTP id B4A83C2214;
+	Mon, 18 Apr 2022 08:32:15 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at zimbra.mail.ru
+X-Spam-Flag: NO
+X-Spam-Score: 5.348
+X-Spam-Level: *****
+X-Spam-Status: No, score=5.348 required=6.6 tests=[BAYES_99=3.5,
+	BAYES_999=0.2, DKIMWL_WL_MED=-0.001, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, DMARC_PASS_NONE=-0.6,
+	HEADER_FROM_DIFFERENT_DOMAINS=0.249, HTML_MESSAGE=0.001,
+	HTTPS_HTTP_MISMATCH=0.1, MIXED_ES=1.896, PLING_QUERY=0.1,
+	RCVD_IN_MSPIKE_H5=0.001, RCVD_IN_MSPIKE_WL=0.001, SPF_HELO_NONE=0.001,
+	SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=no autolearn_force=no
+Authentication-Results: zimbra.mail.ru (amavisd-new); dkim=pass (2048-bit key)
+	header.d=bf08.eu1.hubspotemail.net header.b=GxBLszkH;
+	dkim=pass (2048-bit key) header.d=groteck.ru header.b=F7Oo+9nM
+Received: from zimbra.mail.ru ([127.0.0.1])
+	by localhost (zimbra.mail.ru [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id TJT6ZGRGGGfx; Mon, 18 Apr 2022 08:32:15 +0000 (UTC)
+Received: from bd77e9j.bf08.eu1.hubspotemail.net (bd77e9j.bf08.eu1.hubspotemail.net [143.244.84.117])
+	by zimbra.mail.ru (Postfix) with ESMTPS id E0C48C220E
+	for <office@mail.ru>; Mon, 18 Apr 2022 08:32:14 +0000 (UTC)
+Received: by 172.16.171.124 with SMTP id aybpbz3a1zmnbrdnur6m2fjb1zwfro0yba4pb33v;
+        Mon, 18 Apr 2022 08:32:08 GMT
+DKIM-Signature: v=1; s=hs1; d=bf08.eu1.hubspotemail.net; 
+        i=@bf08.eu1.hubspotemail.net; 
+        h=sender:from:from:reply-to:to:to:cc:cc:subject:subject:list-unsubscribe:form-sub:feedback-id; 
+        a=rsa-sha256; c=relaxed/relaxed; 
+        bh=xi9reSEz+HBq9ga7ULEoyZ6CBlmEpaER3kiQbmGdEtE=; 
+        b=GxBLszkHclpgsz4GGRYA41ZaIbGriirr0uq5kiSJyoIPueSY+PY2YZC90eH677
+         5GdchoGpLTICh8jBBLLWBI1cPkQDjBD6cDv+jajs1xtwoH/nRHEHz9pOaL0dSGm
+         A31skWx5eoUWcvoDLp4ZJqVCw6sATP6gxs3zY4DSOMzY3al0pDYZuOfTBPCkdh/
+         ZUM+JXcqnJO0V27nZ2pZQa8f9emlPFNUA4MpWKd7LoV+l21v6d/lNEKojHrlrHK
+         /TBgOtRG3KVdxo5XGktP8edbBsfGzRi3wNyNQMrsyKMK1DjcC/5qDECLMSKDkA/
+         3ZKWOUgY4FZ1AHMeNVtn0/WVd4MA==; q=dns/txt; t=1650270728; 
+        x=1650443528;
+DKIM-Signature: v=1; s=hs2-2037604; d=groteck.ru; i=@groteck.ru; 
+        h=sender:from:from:reply-to:to:to:cc:cc:subject:subject:list-unsubscribe:form-sub:feedback-id; 
+        a=rsa-sha256; c=relaxed/relaxed; 
+        bh=xi9reSEz+HBq9ga7ULEoyZ6CBlmEpaER3kiQbmGdEtE=; 
+        b=F7Oo+9nMg3ltIYRBYJ6Bw+fipZfZg5FhOi6wrWQtkcADSfa4oy4bca6OlK3hNW
+         AlfeCcjD1aZaon/ML/C1MCvMEE4P9Si5WOsltjs39uMj3AC+64ZuTCEfp6VNQCy
+         O102zxsDXIRZiYxrqFdSRq5T0lnKFEwn3SZVaxqPrpY9O6QjzbtkvDIfzfZbJJz
+         nrGhmehdKeubiEbjBkP5d6NdSf+koIKl40FF67+q0bhEzwHxPSrrZZ8AyOl14ZK
+         92P+WDRbcXxUCYaHEHZ5o4VuWGpxvjN+NI660Xf/flXCqlHs49V+AMmAcXL5kZb
+         cGaQvHzEXDVzckeJdH5C4gRuwXzw==; q=dns/txt; t=1650270728; 
+        x=1650443528;
+X-HS-Cid: 1axfcnfcl7hws8ighdo7zssuutqh8czaphfetv
+List-Unsubscribe: <mailto:1axctzmwit8hlkh2gtn9hlbmxgczq0z6ssk867-office=mail.ru@bf08.eu1.hubspotemail.net?subject=unsubscribe>
+Date: Mon, 18 Apr 2022 11:32:08 +0300
+From: =?UTF-8?B?0JXQutCw0YLQtdGA0LjQvdCwINCa0YPQt9GM0LzQuNC90LA=?= <kuzmina@groteck.ru>
+Reply-To: kuzmina@groteck.ru
+To: office@mail.ru
+Message-ID: <1650270628851.bf031916-ffcb-44c7-8daf-c6f8ff9845f6@bf08.eu1.hubspotemail.net>
+Subject: =?utf-8?B?0J/RgNGP0LzQviDRgdC10LnRh9Cw0YE=?=
+ =?utf-8?B?ISDQmtGD0LTQsCDQvdC10LfQsNC80LU=?=
+ =?utf-8?B?0LTQu9C40YLQtdC70YzQvdC+INC80Lg=?=
+ =?utf-8?B?0LPRgNC40YDQvtCy0LDRgtGMINGBIE4=?=
+ =?utf-8?B?R0ZXIENpc2NvINC4IEZvcnRpbmV0PyDQn9GA0Y8=?=
+ =?utf-8?B?0LzQsNGPINGB0YHRi9C70LrQsCDQtNC7?=
+ =?utf-8?B?0Y8g0L/QvtC00LrQu9GO0YfQtdC90LjRjw==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_116828_1421727360.1650270725478"
+X-Report-Abuse-To: abuse@hubspot.com (see
+ https://policy.hubspot.com/abuse-complaints)
+
+------=_Part_116828_1421727360.1650270725478
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=D0=90=D0=BD=D0=B4=D1=80=D0=B5=D0=B9, =D0=B4=D0=BE=D0=B1=D1=80=D1=8B=D0=B9 =
+=D0=B4=D0=B5=D0=BD=D1=8C!
+
+=D0=A7=D0=B5=D1=80=D0=B5=D0=B7 =D0=BD=D0=B5=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=
+=D0=BA=D0=BE =D0=BC=D0=B8=D0=BD=D1=83=D1=82 =D0=BC=D1=8B =D0=BD=D0=B0=D1=87=
+=D0=B8=D0=BD=D0=B0=D0=B5=D0=BC =D0=BE=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD-=D0=BA=
+=D0=BE=D0=BD=D1=84=D0=B5=D1=80=D0=B5=D0=BD=D1=86=D0=B8=D1=8E "=D0=9A=D1=83=
+=D0=B4=D0=B0 =D0=BD=D0=B5=D0=B7=D0=B0=D0=BC=D0=B5=D0=B4=D0=BB=D0=B8=D1=82=
+=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE =D0=BC=D0=B8=D0=B3=D1=80=D0=B8=D1=80=D0=BE=
+=D0=B2=D0=B0=D1=82=D1=8C =D1=81 NGFW Cisco =D0=B8 Fortinet?", =D0=B3=D0=B4=
+=D0=B5 =D0=BE=D0=B1=D1=81=D1=83=D0=B4=D0=B8=D0=BC =D0=B2=D0=B0=D1=80=D0=B8=
+=D0=B0=D0=BD=D1=82=D1=8B =D0=B7=D0=B0=D0=BC=D0=B5=D1=89=D0=B5=D0=BD=D0=B8=
+=D1=8F =D0=B8=D0=BD=D0=BE=D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =
+=D1=80=D0=B5=D1=88=D0=B5=D0=BD=D0=B8=D0=B9 NGFW =D0=B4=D0=BB=D1=8F =D0=BC=
+=D0=B0=D0=BA=D1=81=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE =D0=B1=D0=B5=
+=D0=B7=D0=B1=D0=BE=D0=BB=D0=B5=D0=B7=D0=BD=D0=B5=D0=BD=D0=BD=D0=BE=D0=B9 =
+=D0=BC=D0=B8=D0=B3=D1=80=D0=B0=D1=86=D0=B8=D0=B8 =D0=BD=D0=B0 =D1=80=D0=BE=
+=D1=81=D1=81=D0=B8=D0=B9=D1=81=D0=BA=D0=B8=D0=B5 =D0=B0=D0=BD=D0=B0=D0=BB=
+=D0=BE=D0=B3=D0=B8, =D0=B0 =D1=82=D0=B0=D0=BA=D0=B6=D0=B5 =D0=B2=D0=BE=D0=
+=BF=D1=80=D0=BE=D1=81=D1=8B =D0=B4=D0=BE=D1=81=D1=82=D0=B0=D1=82=D0=BE=D1=
+=87=D0=BD=D0=BE=D0=B9 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=
+=B0=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D1=83 =D1=80=D0=BE=D1=81=D1=
+=81=D0=B8=D0=B9=D1=81=D0=BA=D0=B8=D1=85 =D1=80=D0=B5=D1=88=D0=B5=D0=BD=D0=
+=B8=D0=B9 =D0=B8 =D1=83=D0=B4=D0=BE=D0=B1=D1=81=D1=82=D0=B2=D0=B0 =D0=B8=D1=
+=85 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=
+=B8=D1=8F =D0=B2 =D0=BA=D0=BE=D1=80=D0=BF=D0=BE=D1=80=D0=B0=D1=82=D0=B8=D0=
+=B2=D0=BD=D0=BE=D0=BC =D0=B8 =D1=82=D0=B5=D1=85=D0=BD=D0=BE=D0=BB=D0=BE=D0=
+=B3=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=BE=D0=BC =D1=81=D0=B5=D1=82=D0=B5=D0=
+=B2=D1=8B=D1=85 =D1=81=D0=B5=D0=B3=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=85.
+
+=D0=9F=D1=80=D1=8F=D0=BC=D0=B0=D1=8F =D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B0 =
+=D0=B4=D0=BB=D1=8F =D0=BF=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=
+=D0=B8=D1=8F https://www.groteck.com/e3t/Ctc/DI+113/cdYNq04/MWRD0pSntZgW7hL=
+JxY95hVfmW8_npSB4J0RjcN8Vtb7m3pdr7V1-WJV7CgTXDN9l7ZWFwvPxkN8zSTGk7S9m2W3b-k=
+Zw3Pq53hW3RVgW66LMRY5W3x13JC3fw-xYW6cVDn72cxCwFW75VJs483Cr0hN40fGm4QVzkMW6n=
+-Htn2FDS0hW5FSL2x6h2XmDV_Zf-P3p8SJwVj94zX4JnfBPV5-NrJ762xyhW3kbmD75jkjjDW8F=
+TlCR6p2z7CN2B0ryXDM4kxW3_wgnJ1Jx406W18RrGF3xG66yW2XZmD789KVNJW5wQRrl96fjMyW=
+5xTSb37Vcvz_W7lGcf081QjK93fkD1 (https://www.groteck.com/e3t/Ctc/DI+113/cdYN=
+q04/MWRD0pSntZgW7hLJxY95hVfmW8_npSB4J0RjcN8Vtb7m3pdr7V1-WJV7CgTXDN9l7ZWFwvP=
+xkN8zSTGk7S9m2W3b-kZw3Pq53hW3RVgW66LMRY5W3x13JC3fw-xYW6cVDn72cxCwFW75VJs483=
+Cr0hN40fGm4QVzkMW6n-Htn2FDS0hW5FSL2x6h2XmDV_Zf-P3p8SJwVj94zX4JnfBPV5-NrJ762=
+xyhW3kbmD75jkjjDW8FTlCR6p2z7CN2B0ryXDM4kxW3_wgnJ1Jx406W18RrGF3xG66yW2XZmD78=
+9KVNJW5wQRrl96fjMyW5xTSb37Vcvz_W7lGcf081QjK93fkD1 )
+
+1. =D0=9E=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5: =D0=98=D0=BD=D1=82=D0=
+=B5=D1=80=D0=B2=D1=8C=D1=8E =D1=81 =D0=B7=D0=B0=D0=BA=D0=B0=D0=B7=D1=87=D0=
+=B8=D0=BA=D0=B0=D0=BC=D0=B8 "=D0=A0=D0=B8=D1=81=D0=BA =D0=BF=D0=BE=D0=BB=D1=
+=83=D1=87=D0=B8=D1=82=D1=8C "=D0=B7=D0=BE=D0=BB=D0=BE=D1=82=D0=BE=D0=B9 =D0=
+=BA=D0=B8=D1=80=D0=BF=D0=B8=D1=87" =D0=BD=D0=B0 =D0=BF=D0=B5=D1=80=D0=B8=D0=
+=BC=D0=B5=D1=82=D1=80=D0=B5 =D0=B8 =D0=BF=D1=83=D1=82=D0=B8 =D0=B5=D0=B3=D0=
+=BE =D0=BC=D0=B8=D1=82=D0=B8=D0=B3=D0=B0=D1=86=D0=B8=D0=B8
+
+* =D0=94=D0=BC=D0=B8=D1=82=D1=80=D0=B8=D0=B9 =D0=9B=D0=B8, =D0=90=D0=9E "=
+=D0=9E=D0=A2=D0=AD=D0=9A=D0=9E"
+
+* =D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B0=D0=BD=D0=B4=D1=80 =D0=A4=D0=B0=D0=B9=
+=D0=B7=D1=83=D0=BB=D0=BB=D0=B8=D0=BD, =D0=90=D0=9E "=D0=9E=D0=A5=D0=9A "=D0=
+=A3=D0=A0=D0=90=D0=9B=D0=A5=D0=98=D0=9C"
+
+* =D0=9D=D0=B8=D0=BA=D0=BE=D0=BB=D0=B0=D0=B9 =D0=95=D0=BF=D0=B8=D1=84=D0=B0=
+=D0=BD=D0=BE=D0=B2, =D0=9E=D0=9E=D0=9E "=D0=93=D0=90=D0=97-=D0=98=D0=A2=D1=
+=81=D0=B5=D1=80=D0=B2=D0=B8=D1=81"
+
+* =D0=95=D0=B2=D0=B3=D0=B5=D0=BD=D0=B8=D0=B9 =D0=9C=D0=B8=D1=85=D0=B0=D0=BB=
+=D0=B5=D0=B2, =D0=9C=D0=90=D0=99
+
+* =D0=90=D0=BD=D0=B4=D1=80=D0=B5=D0=B9 =D0=9B=D0=B8=D1=81=D0=B5=D1=86=D0=BA=
+=D0=B8=D0=B9, =D0=90=D0=9E "=D0=A0=D1=83=D0=B1=D0=BB=D1=91=D0=B2=D0=BE-=D0=
+=90=D1=80=D1=85=D0=B0=D0=BD=D0=B3=D0=B5=D0=BB=D1=8C=D1=81=D0=BA=D0=BE=D0=B5=
+"
+
+* =D0=90=D0=BD=D0=B4=D1=80=D0=B5=D0=B9 =D0=AE=D1=80=D1=88=D0=B5=D0=B2, =D0=
+=90=D0=9E "=D0=A0=D1=83=D0=B1=D0=BB=D1=91=D0=B2=D0=BE-=D0=90=D1=80=D1=85=D0=
+=B0=D0=BD=D0=B3=D0=B5=D0=BB=D1=8C=D1=81=D0=BA=D0=BE=D0=B5"
+
+* =D0=9A=D0=BE=D0=BD=D1=81=D1=82=D0=B0=D0=BD=D1=82=D0=B8=D0=BD =D0=A1=D0=B0=
+=D0=BC=D0=B0=D1=82=D0=BE=D0=B2, =D0=90=D0=A0=D0=A1=D0=98=D0=91
+
+2. =D0=9E=D0=B1=D0=B7=D0=BE=D1=80 =D1=80=D0=B5=D1=88=D0=B5=D0=BD=D0=B8=D0=
+=B9
+
+- =D0=9A=D0=B8=D0=B1=D0=B5=D1=80=D0=B2=D0=BE=D0=B9=D0=BD=D0=B0 2022. =D0=9A=
+=D0=B0=D0=BA =D0=B7=D0=B0=D1=89=D0=B8=D1=82=D0=B8=D1=82=D1=8C=D1=81=D1=8F =
+=D0=BE=D1=82 =D0=BD=D0=BE=D0=B2=D1=8B=D1=85 =D1=83=D0=B3=D1=80=D0=BE=D0=B7 =
+=D0=B8 =D1=83=D1=85=D0=BE=D0=B4=D0=B0 =D0=B7=D0=B0=D1=80=D1=83=D0=B1=D0=B5=
+=D0=B6=D0=BD=D1=8B=D1=85 =D0=B2=D0=B5=D0=BD=D0=B4=D0=BE=D1=80=D0=BE=D0=B2 N=
+GFW/UTM-=D1=80=D0=B5=D1=88=D0=B5=D0=BD=D0=B8=D0=B9. =D0=94=D0=BC=D0=B8=D1=
+=82=D1=80=D0=B8=D0=B9 =D0=A5=D0=BE=D0=BC=D1=83=D1=82=D0=BE=D0=B2, =D0=9E=D0=
+=9E=D0=9E "=D0=90=D0=B9=D0=B4=D0=B5=D0=BA=D0=BE"
+-
+
+=D0=9E=D1=82=D0=B5=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D1=8B=D0=
+=B5 =D0=A1=D0=97=D0=98 =D0=B4=D0=BB=D1=8F =D0=90=D0=A1=D0=A3 =D0=A2=D0=9F: =
+=D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=82=D0=B8=D0=B2=D0=BD=D0=BE=D0=B5 =D0=B8 =
+=D0=B1=D0=B5=D0=B7=D0=B1=D0=BE=D0=BB=D0=B5=D0=B7=D0=BD=D0=B5=D0=BD=D0=BD=D0=
+=BE=D0=B5 =D0=B8=D0=BC=D0=BF=D0=BE=D1=80=D1=82=D0=BE=D0=B7=D0=B0=D0=BC=D0=
+=B5=D1=89=D0=B5=D0=BD=D0=B8=D0=B5. =D0=A4=D0=B5=D0=B4=D0=BE=D1=80 =D0=A2=D1=
+=80=D0=B8=D1=84=D0=BE=D0=BD=D0=BE=D0=B2, InfoWatch
+
+3. =D0=A4=D0=B8=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F =D0=B4=D0=B8=D1=
+=81=D0=BA=D1=83=D1=81=D1=81=D0=B8=D1=8F
+
+- =D0=9C=D0=B8=D0=B3=D1=80=D0=B0=D1=86=D0=B8=D1=8F =D0=BD=D0=B0 =D1=80=D0=
+=BE=D1=81=D1=81=D0=B8=D0=B9=D1=81=D0=BA=D0=B8=D0=B5 =D0=9C=D0=AD: =D0=B2=D0=
+=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=B4=D0=BB=D1=
+=8F =D0=BE=D0=BF=D1=82=D0=B8=D0=BC=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D0=B8
+
+=D0=92=D1=80=D0=B5=D0=BC=D1=8F =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=
+=D0=BD=D0=B8=D1=8F: 12.00 =E2=80=94 15.00 (=D0=BF=D0=BE =D0=BC=D0=BE=D1=81=
+=D0=BA=D0=BE=D0=B2=D1=81=D0=BA=D0=BE=D0=BC=D1=83 =D0=B2=D1=80=D0=B5=D0=BC=
+=D0=B5=D0=BD=D0=B8)
+
+=D0=97=D0=B0=D0=BF=D0=B8=D1=81=D0=B8 =D0=BE=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD-=
+=D0=BA=D0=BE=D0=BD=D1=84=D0=B5=D1=80=D0=B5=D0=BD=D1=86=D0=B8=D0=B9 =D0=B1=
+=D1=83=D0=B4=D1=83=D1=82 =D0=B4=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=BD=D1=8B =
+=D1=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=BF=D0=BE =D0=BF=D0=BB=D0=B0=D1=82=
+=D0=BD=D0=BE=D0=B9 =D0=BF=D0=BE=D0=B4=D0=BF=D0=B8=D1=81=D0=BA=D0=B5
+
+=D0=9F=D0=B0=D1=80=D1=82=D0=BD=D0=B5=D1=80 =D0=BE=D0=BD=D0=BB=D0=B0=D0=B9=
+=D0=BD-=D0=BA=D0=BE=D0=BD=D1=84=D0=B5=D1=80=D0=B5=D0=BD=D1=86=D0=B8=D0=B8
+
+=D0=A1 =D1=83=D0=B2=D0=B0=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC,
+
+=D0=95=D0=BA=D0=B0=D1=82=D0=B5=D1=80=D0=B8=D0=BD=D0=B0 =D0=9A=D1=83=D0=B7=
+=D1=8C=D0=BC=D0=B8=D0=BD=D0=B0
+
+Groteck Business Media
+
+=D0=9A=D0=B0=D0=BB=D0=B5=D0=BD=D0=B4=D0=B0=D1=80=D1=8C =D0=BE=D0=BD=D0=BB=
+=D0=B0=D0=B9=D0=BD-=D0=BA=D0=BE=D0=BD=D1=84=D0=B5=D1=80=D0=B5=D0=BD=D1=86=
+=D0=B8=D0=B9 =D0=BD=D0=B0 2022 =D0=B3=D0=BE=D0=B4 >> (https://www.groteck.c=
+om/e3t/Ctc/DI+113/cdYNq04/MWRD0pSntZgW7hLJxY95hVfmW8_npSB4J0RjcN8Vtb733pdqS=
+V1-WJV7CgP_dW34f4Sk1hLN-1W8Mh-rf1PYZkGW6HPNmg1TFv2KW6ml-3c2qN04LW5TM-FS2KNH=
+5fW8Tc8Kv77s_g3VDpb-024hz06W7csV1J6CzbZMW8RR45y13xVCHW5L_BhH3n9MdKW3lX3m25F=
+pPgbVQR55-67ZRJzW4gg8066NlnwpW6BbdGT2dgkvjW94D6914f2GM0W8Dg1zy4Znm7hVFqGRn4=
+zZxcsW3FJQ9S51bVb8W3mpFvR7_RZ2wW70D4qt57YH_034hz1 )
+
+Information Security / =D0=98=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=
+=B8=D0=BE=D0=BD=D0=BD=D0=B0=D1=8F =D0=B1=D0=B5=D0=B7=D0=BE=D0=BF=D0=B0=D1=
+=81=D0=BD=D0=BE=D1=81=D1=82=D1=8C,
+
+3-ya Magistralnaya ul., 30,
+
+Moscow,
+
+Russia
+
+Update your email preferences (https://www.groteck.com/hs/manage-preference=
+s/unsubscribe?languagePreference=3Den&d=3DVn9bTW6ngK1WW43Qghh3F6dr7W4kKxsg4=
+9S141N91T3brmWFgbW55__YL89TvzXV25xDc6mjDJ0N7fH9HpXdClXN871W8vXk_7QVbw4D95y9=
+FQJW6bGbMx8Lvv7rv4XllC4sF2&v=3D3&_hsenc=3Dp2ANqtz-9ryTsMBQKXyfGmRWUJLevFJxr=
+wz-2d9I3G3cN7xK2iRBUniwDFuRupGZrYiFjZfK_I3IUclFzqEX1iTED_RIBbFOUcHA&_hsmi=
+=3D210284897 ) to choose the types of emails you receive.
+------=_Part_116828_1421727360.1650270725478
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xht=
+ml"><head>
+    <style type=3D"text/css" id=3D"hs-inline-css">
+    /*<![CDATA[*/
+    /* everything in this node will be inlined */
+        body {
+            font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color:#444444;
+            font-size:8pt;
+        }
+       =20
+        .footer a {
+            color:#999999;
+        }
+    /*]]>*/
+    </style>
+<meta name=3D"generator" content=3D"HubSpot"><meta property=3D"og:url" cont=
+ent=3D"https://www.groteck.com/-temporary-slug-5250746d-ac98-48d2-bff0-b7ed=
+2b038be9"><meta name=3D"x-apple-disable-message-reformatting"><meta name=3D=
+"robots" content=3D"noindex,follow"></head>
+<body class=3D"hs_plain_email" style=3D"font-family:'Helvetica Neue', Helve=
+tica, Arial, sans-serif; color:#444444; font-size:8pt">
+<div id=3D"hs_cos_wrapper_hs_email_body" class=3D"hs_cos_wrapper hs_cos_wra=
+pper_widget hs_cos_wrapper_type_rich_text" style=3D"color: inherit; font-si=
+ze: inherit; line-height: inherit;" data-hs-cos-general-type=3D"widget" dat=
+a-hs-cos-type=3D"rich_text"><p style=3D"margin-bottom: 1em; line-height: 1.=
+5;"><span style=3D"font-family: verdana, geneva; font-size: 13px; color: #0=
+00000;">=D0=90=D0=BD=D0=B4=D1=80=D0=B5=D0=B9, =D0=B4=D0=BE=D0=B1=D1=80=D1=
+=8B=D0=B9 =D0=B4=D0=B5=D0=BD=D1=8C!<br></span><span style=3D"font-family: V=
+erdana, Geneva, sans-serif; color: #000000;"><span style=3D"font-size: 13px=
+;"><span style=3D"font-family: Verdana, Geneva, sans-serif; font-size: 13px=
+; color: #000000;">=D0=A7=D0=B5=D1=80=D0=B5=D0=B7 =D0=BD=D0=B5=D1=81=D0=BA=
+=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=BC=D0=B8=D0=BD=D1=83=D1=82 =D0=BC=D1=8B =
+=D0=BD=D0=B0=D1=87=D0=B8=D0=BD=D0=B0=D0=B5=D0=BC =D0=BE=D0=BD=D0=BB=D0=B0=
+=D0=B9=D0=BD-=D0=BA=D0=BE=D0=BD=D1=84=D0=B5=D1=80=D0=B5=D0=BD=D1=86=D0=B8=
+=D1=8E <span style=3D"font-weight: bold; color: #ff0201;">"=D0=9A=D1=83=D0=
+=B4=D0=B0 =D0=BD=D0=B5=D0=B7=D0=B0=D0=BC=D0=B5=D0=B4=D0=BB=D0=B8=D1=82=D0=
+=B5=D0=BB=D1=8C=D0=BD=D0=BE =D0=BC=D0=B8=D0=B3=D1=80=D0=B8=D1=80=D0=BE=D0=
+=B2=D0=B0=D1=82=D1=8C =D1=81 NGFW Cisco =D0=B8 Fortinet?"</span><span style=
+=3D"color: #000000; font-weight: normal;">, =D0=B3=D0=B4=D0=B5 =D0=BE=D0=B1=
+=D1=81=D1=83=D0=B4=D0=B8=D0=BC =D0=B2=D0=B0=D1=80=D0=B8=D0=B0=D0=BD=D1=82=
+=D1=8B =D0=B7=D0=B0=D0=BC=D0=B5=D1=89=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8=D0=BD=
+=D0=BE=D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D1=80=D0=B5=D1=88=
+=D0=B5=D0=BD=D0=B8=D0=B9 NGFW =D0=B4=D0=BB=D1=8F =D0=BC=D0=B0=D0=BA=D1=81=
+=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE =D0=B1=D0=B5=D0=B7=D0=B1=D0=BE=
+=D0=BB=D0=B5=D0=B7=D0=BD=D0=B5=D0=BD=D0=BD=D0=BE=D0=B9 =D0=BC=D0=B8=D0=B3=
+=D1=80=D0=B0=D1=86=D0=B8=D0=B8 =D0=BD=D0=B0 =D1=80=D0=BE=D1=81=D1=81=D0=B8=
+=D0=B9=D1=81=D0=BA=D0=B8=D0=B5 =D0=B0=D0=BD=D0=B0=D0=BB=D0=BE=D0=B3=D0=B8, =
+=D0=B0 =D1=82=D0=B0=D0=BA=D0=B6=D0=B5 =D0=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81=
+=D1=8B =D0=B4=D0=BE=D1=81=D1=82=D0=B0=D1=82=D0=BE=D1=87=D0=BD=D0=BE=D0=B9 =
+=D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=
+=BE=D1=81=D1=82=D0=B8 =D1=83 =D1=80=D0=BE=D1=81=D1=81=D0=B8=D0=B9=D1=81=D0=
+=BA=D0=B8=D1=85 =D1=80=D0=B5=D1=88=D0=B5=D0=BD=D0=B8=D0=B9 =D0=B8 =D1=83=D0=
+=B4=D0=BE=D0=B1=D1=81=D1=82=D0=B2=D0=B0 =D0=B8=D1=85 =D0=B8=D1=81=D0=BF=D0=
+=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=B2 =D0=BA=D0=
+=BE=D1=80=D0=BF=D0=BE=D1=80=D0=B0=D1=82=D0=B8=D0=B2=D0=BD=D0=BE=D0=BC =D0=
+=B8 =D1=82=D0=B5=D1=85=D0=BD=D0=BE=D0=BB=D0=BE=D0=B3=D0=B8=D1=87=D0=B5=D1=
+=81=D0=BA=D0=BE=D0=BC =D1=81=D0=B5=D1=82=D0=B5=D0=B2=D1=8B=D1=85 =D1=81=D0=
+=B5=D0=B3=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=85.<br></span></span></span></sp=
+an><span style=3D"font-family: Verdana, Geneva, sans-serif; color: #000000;=
+"><span style=3D"font-size: 13px;"><span style=3D"font-family: Verdana, Gen=
+eva, sans-serif; font-size: 13px; color: #000000;"><span style=3D"color: #0=
+00000; font-weight: normal;"><span style=3D"font-weight: bold;">=D0=9F=D1=
+=80=D1=8F=D0=BC=D0=B0=D1=8F =D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B0 =D0=B4=D0=
+=BB=D1=8F =D0=BF=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=D1=
+=8F <span style=3D"color: #0600ff;"><a href=3D"https://www.groteck.com/e3t/=
+Ctc/DI+113/cdYNq04/MWRD0pSntZgW7hLJxY95hVfmW8_npSB4J0RjcN8Vtb7m3q3npV1-WJV7=
+CgF3GV5JctV7DnrM0W8GcWtZ1L0k44W8XwLRV8Y-YvjW2yjqwl7f35RDN4mB3txX13msW7NkHHK=
+1gzs9pW1kGWtH1ghJkPW6C8CGR2gphzLW3J9L7W2BqhlrW4CLqvZ4h0CZVW1zyTFh4_zjlLN99_=
+6QfqM2FmW25jSVl8JynrFW7186bQ5Y3SflW3zw6F18rjlLhW7cHDFf7mrdgbW6zFQ0N1DwvgSN8=
+gLFnGPjTX_N4RGBpYt_7NHVpVdhr9f7bb_W6t9xhC4FhmNzW8j76Wr7xFYZ43jhL1" style=3D=
+"color: #0600ff;" data-hs-link-id=3D"0" target=3D"_blank">https://events.we=
+binar.ru/26288589/11082415</a></span>&nbsp;</span><br><br></span><span styl=
+e=3D"font-weight: normal;"></span></span></span></span><span style=3D"font-=
+family: Verdana, Geneva, sans-serif; color: #000000; font-weight: bold; fon=
+t-size: 14px;"><span style=3D"font-family: Verdana, Geneva, sans-serif;">1.=
+ =D0=9E=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5: <span style=3D"font-fami=
+ly: Verdana, Geneva, sans-serif; color: #000000;"><strong>=D0=98=D0=BD=D1=
+=82=D0=B5=D1=80=D0=B2=D1=8C=D1=8E =D1=81 =D0=B7=D0=B0=D0=BA=D0=B0=D0=B7=D1=
+=87=D0=B8=D0=BA=D0=B0=D0=BC=D0=B8 "=D0=A0=D0=B8=D1=81=D0=BA =D0=BF=D0=BE=D0=
+=BB=D1=83=D1=87=D0=B8=D1=82=D1=8C "=D0=B7=D0=BE=D0=BB=D0=BE=D1=82=D0=BE=D0=
+=B9 =D0=BA=D0=B8=D1=80=D0=BF=D0=B8=D1=87" =D0=BD=D0=B0 =D0=BF=D0=B5=D1=80=
+=D0=B8=D0=BC=D0=B5=D1=82=D1=80=D0=B5 =D0=B8 =D0=BF=D1=83=D1=82=D0=B8 =D0=B5=
+=D0=B3=D0=BE =D0=BC=D0=B8=D1=82=D0=B8=D0=B3=D0=B0=D1=86=D0=B8=D0=B8</strong=
+></span></span></span></p>
+<span style=3D"font-family: Verdana, Geneva, sans-serif; color: #000000;"><=
+span style=3D"font-size: 13px;">* =D0=94=D0=BC=D0=B8=D1=82=D1=80=D0=B8=D0=
+=B9 =D0=9B=D0=B8, =D0=90=D0=9E "=D0=9E=D0=A2=D0=AD=D0=9A=D0=9E"</span><br><=
+/span><span style=3D"font-family: Verdana, Geneva, sans-serif; color: #0000=
+00;"><span style=3D"font-size: 13px;">* =D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=
+=B0=D0=BD=D0=B4=D1=80 =D0=A4=D0=B0=D0=B9=D0=B7=D1=83=D0=BB=D0=BB=D0=B8=D0=
+=BD, =D0=90=D0=9E "=D0=9E=D0=A5=D0=9A "=D0=A3=D0=A0=D0=90=D0=9B=D0=A5=D0=98=
+=D0=9C"</span><br></span><span style=3D"font-family: Verdana, Geneva, sans-=
+serif; color: #000000;"><span style=3D"font-size: 13px;">* =D0=9D=D0=B8=D0=
+=BA=D0=BE=D0=BB=D0=B0=D0=B9 =D0=95=D0=BF=D0=B8=D1=84=D0=B0=D0=BD=D0=BE=D0=
+=B2, =D0=9E=D0=9E=D0=9E "=D0=93=D0=90=D0=97-=D0=98=D0=A2=D1=81=D0=B5=D1=80=
+=D0=B2=D0=B8=D1=81"</span><br></span><span style=3D"font-family: Verdana, G=
+eneva, sans-serif; color: #000000;"><span style=3D"font-size: 13px;">* =D0=
+=95=D0=B2=D0=B3=D0=B5=D0=BD=D0=B8=D0=B9 =D0=9C=D0=B8=D1=85=D0=B0=D0=BB=D0=
+=B5=D0=B2, =D0=9C=D0=90=D0=99 </span><br></span><span style=3D"font-family:=
+ Verdana, Geneva, sans-serif; color: #000000;"><span style=3D"font-size: 13=
+px;">* =D0=90=D0=BD=D0=B4=D1=80=D0=B5=D0=B9 =D0=9B=D0=B8=D1=81=D0=B5=D1=86=
+=D0=BA=D0=B8=D0=B9, =D0=90=D0=9E "=D0=A0=D1=83=D0=B1=D0=BB=D1=91=D0=B2=D0=
+=BE-=D0=90=D1=80=D1=85=D0=B0=D0=BD=D0=B3=D0=B5=D0=BB=D1=8C=D1=81=D0=BA=D0=
+=BE=D0=B5"</span><br></span><span style=3D"font-family: Verdana, Geneva, sa=
+ns-serif; color: #000000;"><span style=3D"font-size: 13px;">* =D0=90=D0=BD=
+=D0=B4=D1=80=D0=B5=D0=B9 =D0=AE=D1=80=D1=88=D0=B5=D0=B2, =D0=90=D0=9E "=D0=
+=A0=D1=83=D0=B1=D0=BB=D1=91=D0=B2=D0=BE-=D0=90=D1=80=D1=85=D0=B0=D0=BD=D0=
+=B3=D0=B5=D0=BB=D1=8C=D1=81=D0=BA=D0=BE=D0=B5"</span><br></span><span style=
+=3D"font-family: Verdana, Geneva, sans-serif; color: #000000;"><span style=
+=3D"font-size: 13px;">* =D0=9A=D0=BE=D0=BD=D1=81=D1=82=D0=B0=D0=BD=D1=82=D0=
+=B8=D0=BD =D0=A1=D0=B0=D0=BC=D0=B0=D1=82=D0=BE=D0=B2, =D0=90=D0=A0=D0=A1=D0=
+=98=D0=91</span><br></span>
+<p style=3D"margin-bottom: 1em; line-height: 1.5; font-size: 14px;"><span s=
+tyle=3D"font-weight: bold; color: #000000; font-family: Verdana, Geneva, sa=
+ns-serif;"><span style=3D"font-family: Verdana, Geneva, sans-serif;"><span =
+style=3D"font-family: Verdana, Geneva, sans-serif;"><span style=3D"font-wei=
+ght: normal;"><span style=3D"font-weight: bold;"><span style=3D"font-family=
+: Verdana, Geneva, sans-serif;">2. =D0=9E=D0=B1=D0=B7=D0=BE=D1=80 =D1=80=D0=
+=B5=D1=88=D0=B5=D0=BD=D0=B8=D0=B9</span></span></span></span></span></span>=
+</p>
+<ul style=3D"line-height: 1.25;">
+<li style=3D"font-size: 13px;"><span style=3D"font-family: Verdana, Geneva,=
+ sans-serif; color: #000000;">=D0=9A=D0=B8=D0=B1=D0=B5=D1=80=D0=B2=D0=BE=D0=
+=B9=D0=BD=D0=B0 2022. =D0=9A=D0=B0=D0=BA =D0=B7=D0=B0=D1=89=D0=B8=D1=82=D0=
+=B8=D1=82=D1=8C=D1=81=D1=8F =D0=BE=D1=82 =D0=BD=D0=BE=D0=B2=D1=8B=D1=85 =D1=
+=83=D0=B3=D1=80=D0=BE=D0=B7 =D0=B8 =D1=83=D1=85=D0=BE=D0=B4=D0=B0 =D0=B7=D0=
+=B0=D1=80=D1=83=D0=B1=D0=B5=D0=B6=D0=BD=D1=8B=D1=85 =D0=B2=D0=B5=D0=BD=D0=
+=B4=D0=BE=D1=80=D0=BE=D0=B2 NGFW/UTM-=D1=80=D0=B5=D1=88=D0=B5=D0=BD=D0=B8=
+=D0=B9.&nbsp;</span><strong><span style=3D"font-family: Verdana, Geneva, sa=
+ns-serif; color: #000000;">=D0=94=D0=BC=D0=B8=D1=82=D1=80=D0=B8=D0=B9 =D0=
+=A5=D0=BE=D0=BC=D1=83=D1=82=D0=BE=D0=B2, =D0=9E=D0=9E=D0=9E "=D0=90=D0=B9=
+=D0=B4=D0=B5=D0=BA=D0=BE"</span></strong></li>
+<li style=3D"font-size: 13px;">
+<p style=3D"margin-bottom: 1em; "><span style=3D"color: #000000; font-famil=
+y: Verdana, Geneva, sans-serif;">=D0=9E=D1=82=D0=B5=D1=87=D0=B5=D1=81=D1=82=
+=D0=B2=D0=B5=D0=BD=D0=BD=D1=8B=D0=B5 =D0=A1=D0=97=D0=98 =D0=B4=D0=BB=D1=8F =
+=D0=90=D0=A1=D0=A3 =D0=A2=D0=9F: =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=82=D0=B8=
+=D0=B2=D0=BD=D0=BE=D0=B5 =D0=B8 =D0=B1=D0=B5=D0=B7=D0=B1=D0=BE=D0=BB=D0=B5=
+=D0=B7=D0=BD=D0=B5=D0=BD=D0=BD=D0=BE=D0=B5 =D0=B8=D0=BC=D0=BF=D0=BE=D1=80=
+=D1=82=D0=BE=D0=B7=D0=B0=D0=BC=D0=B5=D1=89=D0=B5=D0=BD=D0=B8=D0=B5. <span s=
+tyle=3D"font-weight: normal;">=D0=A4=D0=B5=D0=B4=D0=BE=D1=80 =D0=A2=D1=80=
+=D0=B8=D1=84=D0=BE=D0=BD=D0=BE=D0=B2, InfoWatch</span></span></p>
+</li>
+</ul>
+<p style=3D"margin-bottom: 1em; line-height: 1.5; font-size: 14px;"><span s=
+tyle=3D"font-weight: bold; color: #000000; font-family: Verdana, Geneva, sa=
+ns-serif;"><span style=3D"font-family: Verdana, Geneva, sans-serif;"><span =
+style=3D"font-family: Verdana, Geneva, sans-serif;"><span style=3D"font-wei=
+ght: normal;"><span style=3D"font-weight: bold;"><span style=3D"font-family=
+: Verdana, Geneva, sans-serif;">3. =D0=A4=D0=B8=D0=BD=D0=B0=D0=BB=D1=8C=D0=
+=BD=D0=B0=D1=8F =D0=B4=D0=B8=D1=81=D0=BA=D1=83=D1=81=D1=81=D0=B8=D1=8F</spa=
+n></span></span></span></span></span></p>
+<ul>
+<li style=3D"line-height: 1.5; font-size: 13px;"><span style=3D"color: #000=
+000; font-family: Verdana, Geneva, sans-serif;"><span style=3D"font-family:=
+ Verdana, Geneva, sans-serif;"><span style=3D"font-size: 13px;"><span style=
+=3D"font-family: Verdana, Geneva, sans-serif; font-size: 13px;"><span style=
+=3D"font-weight: normal;">=D0=9C=D0=B8=D0=B3=D1=80=D0=B0=D1=86=D0=B8=D1=8F =
+=D0=BD=D0=B0 =D1=80=D0=BE=D1=81=D1=81=D0=B8=D0=B9=D1=81=D0=BA=D0=B8=D0=B5 =
+=D0=9C=D0=AD: =D0=B2=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=D1=82=
+=D0=B8 =D0=B4=D0=BB=D1=8F =D0=BE=D0=BF=D1=82=D0=B8=D0=BC=D0=B8=D0=B7=D0=B0=
+=D1=86=D0=B8=D0=B8</span></span></span></span></span></li>
+</ul>
+<p style=3D"margin-bottom: 1em; line-height: 1.5; font-size: 13px;"><span s=
+tyle=3D"font-weight: bold; color: #000000; font-family: Verdana, Geneva, sa=
+ns-serif;"><span style=3D"font-family: Verdana, Geneva, sans-serif; color: =
+#000000;"><span style=3D"font-size: 13px;"><span style=3D"font-family: Verd=
+ana, Geneva, sans-serif; font-size: 13px; color: #000000;"><span style=3D"f=
+ont-weight: normal;"><span style=3D"font-weight: bold; color: #ff0201;">=D0=
+=92=D1=80=D0=B5=D0=BC=D1=8F =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=
+=BD=D0=B8=D1=8F: </span>12.00 =E2=80=94 15.00 (=D0=BF=D0=BE =D0=BC=D0=BE=D1=
+=81=D0=BA=D0=BE=D0=B2=D1=81=D0=BA=D0=BE=D0=BC=D1=83 =D0=B2=D1=80=D0=B5=D0=
+=BC=D0=B5=D0=BD=D0=B8)<br><span style=3D"font-family: Verdana, Geneva, sans=
+-serif; color: #000000;"><span style=3D"font-family: Verdana, Geneva, sans-=
+serif; font-size: 13px;">=D0=97=D0=B0=D0=BF=D0=B8=D1=81=D0=B8 =D0=BE=D0=BD=
+=D0=BB=D0=B0=D0=B9=D0=BD-=D0=BA=D0=BE=D0=BD=D1=84=D0=B5=D1=80=D0=B5=D0=BD=
+=D1=86=D0=B8=D0=B9 =D0=B1=D1=83=D0=B4=D1=83=D1=82 =D0=B4=D0=BE=D1=81=D1=82=
+=D1=83=D0=BF=D0=BD=D1=8B =D1=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=BF=D0=BE =
+=D0=BF=D0=BB=D0=B0=D1=82=D0=BD=D0=BE=D0=B9 =D0=BF=D0=BE=D0=B4=D0=BF=D0=B8=
+=D1=81=D0=BA=D0=B5</span></span><br></span></span></span></span></span><spa=
+n style=3D"font-weight: bold; color: #000000; font-family: Verdana, Geneva,=
+ sans-serif;"></span></p>
+<p style=3D"margin-bottom: 1em; line-height: 1.5; font-size: 13px;"><span s=
+tyle=3D"font-weight: bold; color: #000000; font-family: Verdana, Geneva, sa=
+ns-serif;">=D0=9F=D0=B0=D1=80=D1=82=D0=BD=D0=B5=D1=80 =D0=BE=D0=BD=D0=BB=D0=
+=B0=D0=B9=D0=BD-=D0=BA=D0=BE=D0=BD=D1=84=D0=B5=D1=80=D0=B5=D0=BD=D1=86=D0=
+=B8=D0=B8</span></p>
+<p style=3D"margin-bottom: 1em; line-height: 1.5; font-size: 13px;"><span s=
+tyle=3D"font-weight: bold; color: #000000; font-family: Verdana, Geneva, sa=
+ns-serif;"><img src=3D"https://www.groteck.com/hs-fs/hubfs/Digital/SS/SS_AD=
+APT/Ideco-logo.png?width=3D328&amp;upscale=3Dtrue&amp;name=3DIdeco-logo.png=
+" alt=3D"Ideco-logo" width=3D"164" style=3D"width: 164px; max-width: 740px;=
+ margin: 0px 0px 0px 5px;" srcset=3D"https://www.groteck.com/hs-fs/hubfs/Di=
+gital/SS/SS_ADAPT/Ideco-logo.png?upscale=3Dtrue&amp;width=3D328&amp;upscale=
+=3Dtrue&amp;name=3DIdeco-logo.png 164w, https://www.groteck.com/hs-fs/hubfs=
+/Digital/SS/SS_ADAPT/Ideco-logo.png?upscale=3Dtrue&amp;width=3D656&amp;upsc=
+ale=3Dtrue&amp;name=3DIdeco-logo.png 328w" sizes=3D"(max-width: 164px) 100v=
+w, 164px"> &nbsp;</span></p>
+<p style=3D"margin-bottom: 1em; line-height: 1.5;"><em style=3D"font-family=
+: verdana, geneva; color: inherit;"><span style=3D"color: #000000;"><span s=
+tyle=3D"font-size: 13px;"><br>=D0=A1 =D1=83=D0=B2=D0=B0=D0=B6=D0=B5=D0=BD=
+=D0=B8=D0=B5=D0=BC,</span><br></span></em><span style=3D"font-family: verda=
+na, geneva; font-size: 13px;"><span color=3D"#000000"><em><span style=3D"co=
+lor: #000000;">=D0=95=D0=BA=D0=B0=D1=82=D0=B5=D1=80=D0=B8=D0=BD=D0=B0 =D0=
+=9A=D1=83=D0=B7=D1=8C=D0=BC=D0=B8=D0=BD=D0=B0</span></em><br><span style=3D=
+"color: #000000;"><i>Groteck Business Media<br><span style=3D"color: #0600f=
+f;"><a href=3D"https://www.groteck.com/e3t/Ctc/DI+113/cdYNq04/MWRD0pSntZgW7=
+hLJxY95hVfmW8_npSB4J0RjcN8Vtb733q3n5V1-WJV7CgBZKW7V1KNf4Dhgg9W39kBjX68-xs6W=
+3SS_tD692z8dW7_Q17W1fq_T-W3qJTR266hQ8nW6zZYhR4j4XPDVvWJdk3YQy-8W1pSBYZ4FVnB=
+lW7QWS9m62JpyRVdNKrR2b0X_wVl5T5f5NSDC6W89WBy54Gg4pkW71tP5z1Jxq39W26_ktJ43LV=
+pSN1rdTrXg4jk5W5cTTnt4fHkPZW3qX1Nv52T6y4W60rRh157y1p2Vj5CHn20M38HW5zsCR05sV=
+rfK3jMy1" rel=3D"noopener" style=3D"color: #0600ff;" data-hs-link-id=3D"0" =
+target=3D"_blank">=D0=9A=D0=B0=D0=BB=D0=B5=D0=BD=D0=B4=D0=B0=D1=80=D1=8C =
+=D0=BE=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD-=D0=BA=D0=BE=D0=BD=D1=84=D0=B5=D1=80=
+=D0=B5=D0=BD=D1=86=D0=B8=D0=B9 =D0=BD=D0=B0 2022 =D0=B3=D0=BE=D0=B4 &gt;&gt=
+;</a>&nbsp;</span></i></span></span></span><span style=3D"font-family: verd=
+ana, geneva; font-size: 13px;"><span color=3D"#000000"><span style=3D"color=
+: #000000;"><i><span style=3D"color: #0600ff;"><br></span></i></span></span=
+></span></p>
+<p style=3D"margin-bottom: 1em; line-height: 1.5;">&nbsp;</p>
+<p style=3D"margin-bottom: 1em; ">&nbsp;</p></div>
+<br>
+<div class=3D"footer" data-widget-type=3D"email_can_spam">
+<p style=3D"margin-bottom: 1em; ">
+Information Security / =D0=98=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=
+=B8=D0=BE=D0=BD=D0=BD=D0=B0=D1=8F =D0=B1=D0=B5=D0=B7=D0=BE=D0=BF=D0=B0=D1=
+=81=D0=BD=D0=BE=D1=81=D1=82=D1=8C,<br>
+3-ya Magistralnaya ul., 30,<br>
+Moscow,<br>
+Russia
+</p>
+<p style=3D"margin-bottom: 1em; ">
+Update your <a href=3D"https://www.groteck.com/hs/manage-preferences/unsubs=
+cribe?languagePreference=3Den&amp;d=3DVn9bTW6ngK1WW43Qghh3F6dr7W4kKxsg49S14=
+1N91T3brmWFgbW55__YL89TvzXV25xDc6mjDJ0N7fH9HpXdClXN871W8vXk_7QVbw4D95y9FQJW=
+6bGbMx8Lvv7rv4XllC4sF2&amp;v=3D3&amp;utm_campaign=3DOnline-event-2022_vispr=
+om&amp;utm_source=3Dhs_email&amp;utm_medium=3Demail&amp;utm_content=3D21028=
+4897&amp;_hsenc=3Dp2ANqtz--G9pExFEnuFfi1kdcShbBIkFAb9_7bPSxn8tF5qJmGJYYzxVf=
+WxNTRt2MY-DuX0mf67kuSJ4qwcUdKOO3WFN5BmyVeXA&amp;_hsmi=3D210284897" style=3D=
+"color:#999999" data-hs-link-id=3D"0" target=3D"_blank">email preferences</=
+a> to choose the types of emails you receive.
+</p>
+</div>
+<img src=3D"https://www.groteck.com/e3t/Cto/DI+113/cdYNq04/MWRD0pSntZgW7hLJ=
+xY95hVfmW8_npSB4J0RjcW8Vt9Ws3D6KTW103" alt=3D"" width=3D"1" height=3D"1" bo=
+rder=3D"0" style=3D"display:none!important;min-height:1px!important;width:1=
+px!important;border-width:0!important;margin-top:0!important;margin-bottom:=
+0!important;margin-right:0!important;margin-left:0!important;padding-top:0!=
+important;padding-bottom:0!important;padding-right:0!important;padding-left=
+:0!important"></body></html>
+------=_Part_116828_1421727360.1650270725478--
+

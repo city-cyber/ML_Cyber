@@ -1,0 +1,38 @@
+Received: from mxback5q.mail.yandex.net (localhost [127.0.0.1])
+	by mxback5q.mail.yandex.net with LMTP id nqFFJTRjGT-1hfAWVNC
+	for <microman@yandex.ru>; Sun, 03 May 2020 00:26:49 +0300
+Received: from mxback5q.mail.yandex.net (localhost [127.0.0.1])
+	by mxback5q.mail.yandex.net (Yandex) with ESMTP id 1AAF8D66ABCD
+	for <microman@yandex.ru>; Sun,  3 May 2020 00:26:49 +0300 (MSK)
+X-Yandex-Internal: 1
+Received: from localhost (localhost [::1])
+	by mxback5q.mail.yandex.net (mxback/Yandex) with ESMTP id p1Xd2tg4N4-QmsCCXmi;
+	Sun, 03 May 2020 00:26:48 +0300
+X-Yandex-Front: mxback5q.mail.yandex.net
+X-Yandex-TimeMark: 1588454808.771
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yandex.ru; s=mail; t=1588454808;
+	bh=hVNtvUl0NnkQ0OXOjbdWFWOGbjv1r1zvGBglDNfUwTU=;
+	h=Message-Id:Date:Subject:In-Reply-To:To:From;
+	b=s2NACTiCgqUzd/J+Bhi5u+lFB/P91SUtPcQiWY8/fHdnWlPYVWNCGDNS/HSPleL/2
+	 K6vJRIuE2gDk61SYfFyjGdWXGtmbyFKRyF74vSrhXqbkhEEYc7tyVUGm4GZHQpnsxM
+	 9zfrR6IFUhmFir7qMnP4xKKzjjr6+P/jWunE5q3E=
+Authentication-Results: mxback5q.mail.yandex.net; dkim=pass header.i=@yandex.ru
+X-Yandex-MXCode: WHI
+X-Yandex-Suid-Status: 1 0,1 0
+X-Yandex-Spam: 1
+X-Yandex-Sender-Uid: 173473234
+Received: by vla1-74bb1214b343.qloud-c.yandex.net with HTTP;
+	Sun, 03 May 2020 00:26:48 +0300
+From: <microman@yandex.ru>
+To: <dragon@mail.ru>
+In-Reply-To: <687821588447358@mail.yandex.ru>
+Subject: =?utf-8?B?RndkOiDQktC+0L/RgNC+0YEg0L/QviDQu9Cw0LHQvtGA0LDRgtC+0YDQvdC+0Lk=?=
+MIME-Version: 1.0
+X-Mailer: Yamail [ http://yandex.ru ] 5.0
+Date: Sun, 03 May 2020 00:26:48 +0300
+Message-Id: <469151588454801@mail.yandex.ru>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset=utf-8
+Return-Path: microman@yandex.ru
+
+<div> </div><div> </div><div>-------- Пересылаемое сообщение --------</div><div>02.05.2020, 22:23, "Дмитрий П." &lt;ps801@yandex.ru&gt;:</div><div> </div><div><div>Правильно х гр это граничное значение</div><div> </div><div> </div><div>02.05.2020, 22:18, "Василий С." &lt;<a href="mailto:microman@yandex.ru">microman@yandex.ru</a>&gt;:</div><blockquote><div>Здравствуйте, у меня вопрос по 3 упражнению лабораторной 64(к). Правильно ли я понимаю, что Δr = x_гр*2?</div><div>С уважением, Василий С., М8О-204Б-18.</div></blockquote></div><div> </div><div>-------- Конец пересылаемого сообщения --------</div>

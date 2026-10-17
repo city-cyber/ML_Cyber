@@ -1,0 +1,1184 @@
+Delivered-To: megaman@mail.ru
+Return-path: <bee4you@beeline.ru>
+Received-SPF: pass (mx221.i.mail.ru: domain of beeline.ru designates 89.179.138.70 as permitted sender) client-ip=89.179.138.70; envelope-from=bee4you@beeline.ru; helo=mxtech1.beeline.ru;
+Received: from mxtech1.beeline.ru ([89.179.138.70]:51640)
+	by mx221.i.mail.ru with esmtp (envelope-from <bee4you@beeline.ru>)
+	id 1hCcnw-000746-I1
+	for megaman@mail.ru; Sat, 06 Apr 2019 07:19:45 +0300
+Received: from nba43.vimpelcom.ru (nba43.vimpelcom.ru [192.168.176.186])
+	by mxtech1.beeline.ru (Postfix) with ESMTP id 33C913002FD84
+	for <megaman@mail.ru>; Sat,  6 Apr 2019 07:19:44 +0300 (MSK)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=beeline.ru;
+	s=mail-01; t=1554524384;
+	bh=G+Ceg7aFjF1Mue2sZrMKLSqe2nPh4PCW15rsW20jNx8=;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	b=IAvW3ZIru1ZdWIBvIi6JDjl3uu67yA9Kn6P1Os+0gtseRKGSe+vA/xg6N6gh14sqQ
+	 5C3PjRXe6OizPQhc76cNiKsJGjEE4carZSljpiA/ic1aS06txgqBpQCuf/RMi1jYOp
+	 s2KLSRBNGyPS6zUiYZZiv56Jty+bpc7j1RPnEGwNY3Py0WTgb8sipxiGVt16XxuX2D
+	 f13hTkKHFP5pFj2QtLQIQsQhnARDKcS5xSrIqaZbvwLcfJvJyUJTcwba7BAwTksoFU
+	 4EPn/uVeT/MUBGrHGRlUxPJu6HUqAPI/TXS8mzl1nFhsV5efcVAW5CGHx2CoOe1ahc
+	 YFaTE6ead6joQ==
+Date: Sat, 6 Apr 2019 07:19:44 +0300 (MSK)
+From: Beeline <bee4you@beeline.ru>
+To: megaman@mail.ru
+Message-ID: <1646681483.13478011.1554524384207.JavaMail.appuser@nba43.vimpelcom.ru>
+Subject: =?UTF-8?B?0JDQv9GA0LXQu9GMOiDQv9C+0LTQsNGA0LrQuCDQuCDRgdC6?=
+ =?UTF-8?B?0LjQtNC60Lgg0LrQu9C40LXQvdGC0LDQvCDQkdC40LvQsNC50L0=?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_13477971_806709030.1554524383330"
+X-Mailru-Msgtype: 712196
+X-Postmaster-Msgtype: 712196
+Feedback-ID: 712196:beeline
+X-77F55803: 52DE2D8615D6BB42B78C6AD6BB63D6B76B090B1A966371BEE6B2E4234A6E08F2401A180BBA18E729228DF90C9838AA30CFCBA5A4EB472813
+X-7FA49CB5: 0D63561A33F958A5C18CADEB4ADE7269759B93F702D16471DB77B032D70075BD4F60287FCD28770D176DF2183F8FC7C07EB88B1DE2D563A9708EB1C593AD89356BA297DBC24807EABDAD6C7F3747799A
+X-DMARC-Policy: reject
+X-DMARC-Result: pass
+X-Mailru-Dmarc-Auth: dmarc=pass header.from=bee4you@beeline.ru
+X-Mras: OK
+X-Spam: undefined
+Authentication-Results: mxs.mail.ru; spf=pass (mx221.i.mail.ru: domain of beeline.ru designates 89.179.138.70 as permitted sender) smtp.mailfrom=bee4you@beeline.ru smtp.helo=mxtech1.beeline.ru;
+	 dkim=pass header.d=beeline.ru; dmarc=pass header.from=bee4you@beeline.ru
+X-Mailru-Intl-Transport: d,f09c4a6
+
+------=_Part_13477971_806709030.1554524383330
+Content-Type: multipart/related; 
+	boundary="----=_Part_13477972_1346026285.1554524383330"
+
+------=_Part_13477972_1346026285.1554524383330
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"=
+ />
+=09<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEDGE" />
+=09<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0"/>
+=09<title></title>
+<!--[if gte mso 9]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+=09<style type=3D"text/css">
+=09=09html,
+=09=09body {
+=09=09=09-webkit-text-size-adjust: none;
+=09=09=09-ms-text-size-adjust: none;
+=09=09=09text-size-adjust: none;
+=09=09=09Margin: 0;
+=09=09=09padding: 0;
+=09=09}
+=09=09body {
+=09=09=09width: 100% !important;
+=09=09=09padding:0;
+=09=09}
+=09=09
+=09=09.apple-links a {
+=09=09=09color: #787878 !important;
+=09=09=09text-decoration: none;
+=09=09}
+=09=09.apple-links-dark a {
+=09=09=09color: #282828 !important;
+=09=09=09text-decoration: none;
+=09=09}=20
+=09=09
+=09=09@media only screen and (max-device-width: 485px), only screen and (ma=
+x-width: 485px) {=20
+=09=09=09.full
+=09=09=09{
+=09=09=09padding-left: 20px !important;
+=09=09=09padding-right: 20px !important;
+=09=09=09}
+=09=09=09.full-text
+=09=09=09{=20
+=09=09=09width: auto !important;=20
+=09=09=09text-align: center !important;
+=09=09=09Margin: 0px !important;
+=09=09=09}
+=09=09=09.full-compensation
+=09=09=09{
+=09=09=09Margin: 6px 0 20px !important;
+=09=09=09}
+=09=09}
+
+=09=09@media only screen and (max-device-width: 639px), only screen and (ma=
+x-width: 639px) {
+=09=09=09.slogan__bottom {
+=09=09=09=09Margin-left: 0 !important;
+=09=09=09=09Margin-right: 0 !important;
+=09=09=09}
+=09=09=09.no-border-radius {
+=09=09=09=09-ms-border-radius: 0 !important;
+=09=09=09=09-moz-border-radius: 0 !important;
+=09=09=09=09-webkit-border-radius: 0 !important;
+=09=09=09=09border-radius: 0 !important;
+=09=09=09}
+=09=09=09.top-shift {
+=09=09=09=09display: none;
+=09=09=09}
+=09=09}
+
+=09=09@media only screen and (min-device-pixel-ratio: 2), only screen and (=
+min-resolution: 192dpi), only screen and (-webkit-min-device-pixel-ratio: 0=
+) {
+=09=09=09.navigation {
+=09=09=09=09display: none !important;
+=09=09=09}
+=09=09}
+=09=09
+=09</style>
+</head>
+<body style=3D"padding: 0; Margin: 0; -webkit-text-size-adjust: none; -ms-t=
+ext-size-adjust: none; text-size-adjust: none;">
+=09<div style=3D"display:none;font-size:1px;color:#282828;line-height:1px;m=
+ax-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;">
+=09=09=D0=A0=D0=B0=D1=81=D1=81=D0=BA=D0=B0=D0=B6=D0=B5=D0=BC, =D0=B3=D0=B4=
+=D0=B5 =D0=B2=D1=8B=D0=B3=D0=BE=D0=B4=D0=BD=D0=BE =D0=BE=D0=B1=D0=BD=D0=BE=
+=D0=B2=D0=B8=D1=82=D1=8C =D1=81=D0=BC=D0=B0=D1=80=D1=82=D1=84=D0=BE=D0=BD =
+=D0=B8=C2=A0=D0=B3=D0=B0=D1=80=D0=B4=D0=B5=D1=80=D0=BE=D0=B1, =D0=BF=D0=BE=
+=D0=B4=D0=B0=D1=80=D0=B8=D0=BC =D1=81=D0=BA=D0=B8=D0=B4=D0=BA=D0=B8
+=09</div>
+=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" b=
+gcolor=3D"#eeeae5" style=3D"background-color: #eeeae5;">
+=09=09<tr>
+=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"640" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0"><tr><td width=3D"100%" valign=3D"top"><![e=
+ndif]-->
+=09=09=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" style=3D"max-width: 640px; min-width: 320px; background: #ffffff; b=
+order-radius: 13px; -ms-border-radius: 13px; -moz-border-radius: 13px; -web=
+kit-border-radius: 13px;" class=3D"no-border-radius">
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"15" style=3D"line-height: 0; font-size: 0;"=
+ class=3D"top-shift" bgcolor=3D"#eeeae5"> &nbsp; </td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#eeeae5" s=
+tyle=3D"padding: 0; border-bottom: 1px solid #eeeae5;">
+=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0">
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td height=3D"52" align=3D"center" valign=3D"mid=
+dle" bgcolor=3D"#ffffff" style=3D"padding: 0; font-size: 0; line-height: 0;=
+ border-radius: 13px 13px 0 0; -ms-border-radius: 13px 13px 0 0; -moz-borde=
+r-radius: 13px 13px 0 0; -webkit-border-radius: 13px 13px 0 0;" class=3D"no=
+-border-radius">
+=09=09=09=09=09=09=09=09=09=09<a href=3D"http://beeline.ru/" target=3D"_bla=
+nk" rel=3D"noopener" style=3D"outline: none; text-decoration: none;">
+=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://cm.beeline.ru/em/images=
+/712196/images/logo_01.png" width=3D"93" height=3D"28" border=3D"0" alt=3D"=
+ " />
+=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"font-size: 0; line-height: 0; padding: 0px;">
+=09=09=09=09=09=09=09<img src=3D"http://cm.beeline.ru/em/images/712196/imag=
+es/picture_main_121586.jpg" width=3D"640" height=3D"360" border=3D"0" alt=
+=3D"" title=3D"" style=3D"width: 100%; height: auto;" />=20
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"border-bottom: 1px solid #eeeae5; padding: 20px 20px 30px; color: #=
+282828; font-family: Arial, sans-serif; font-size: 16px; line-height: 21px;=
+">
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"580" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"center" valign=
+=3D"top" style=3D"color: #282828; font-family: Arial, sans-serif; font-size=
+: 16px; line-height: 21px;"><![endif]-->
+=09=09=09=09=09=09=09<div style=3D"max-width: 580px; Margin: 0 auto; text-a=
+lign: center;">=20
+=09=09=09=09=09=09=09=09<p style=3D"padding: 0; Margin: 0px 0 0; color: #28=
+2828; font-family: Arial, sans-serif; font-size: 16px; line-height: 21px;">
+=09=09=09=09=09=09=09=09=09=D0=96=D0=B4=D1=91=D0=BC =D0=BC=D0=B0=D1=8F <spa=
+n style=3D"white-space: nowrap;">=D0=B8&nbsp;=D0=B4=D0=BE=D0=B2=D0=BE=D0=BB=
+=D1=8C=D1=81=D1=82=D0=B2=D1=83=D0=B5=D0=BC=D1=81=D1=8F</span> =D0=B0=D0=BF=
+=D1=80=D0=B5=D0=BB=D0=B5=D0=BC: <span style=3D"white-space: nowrap;">=D0=B2=
+&nbsp;=D0=BF=D1=80=D0=BE=D0=B3=D0=BD=D0=BE=D0=B7=D0=B5</span> =D0=BF=D0=BE=
+=D0=B3=D0=BE=D0=B4=D1=8B =D0=B2=D1=81=D1=91 =D1=87=D0=B0=D1=89=D0=B5 =D0=B2=
+=D1=81=D1=82=D1=80=D0=B5=D1=87=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D0=B7=D0=BD=
+=D0=B0=D0=BA &laquo;=D0=BF=D0=BB=D1=8E=D1=81&raquo;, <span style=3D"white-s=
+pace: nowrap;">=D0=B0&nbsp;=D0=BD=D0=B0&nbsp;=D1=83=D0=BB=D0=B8=D1=86=D0=B5=
+</span> =D0=B2=D1=81=D1=91 =D1=87=D0=B0=D1=89=D0=B5 =D0=B2=D1=81=D1=82=D1=
+=80=D0=B5=D1=87=D0=B0=D1=8E=D1=82=D1=81=D1=8F =D1=83=D0=BB=D1=8B=D0=B1=D0=
+=BA=D0=B8. =D0=92=D0=B5=D1=81=D0=BD=D0=B0 =D0=B2=D0=BE=D0=BB=D1=88=D0=B5=D0=
+=B1=D0=BD=D0=B0=D1=8F: =D0=BA=D0=B0=D0=B6=D0=B5=D1=82=D1=81=D1=8F, <span st=
+yle=3D"white-space: nowrap;">=D0=BD=D1=83&nbsp;=D0=BD=D0=B5=D1=82</span> =
+=D1=83=D0=B6=D0=B5 =D0=BD=D0=B8=D0=BA=D0=B0=D0=BA=D0=B8=D1=85 =D1=81=D0=B8=
+=D0=BB =D1=82=D0=B5=D1=80=D0=BF=D0=B5=D1=82=D1=8C <span style=3D"white-spac=
+e: nowrap;">=D1=85=D0=BE=D0=BB=D0=BE=D0=B4&nbsp;&mdash;</span> <span style=
+=3D"white-space: nowrap;">=D0=B8&nbsp;=D1=82=D1=83=D1=82 =D0=BE=D0=BD=D0=B0=
+.</span> =D0=9B=D1=91=D0=B3=D0=BA=D0=B0=D1=8F, <span style=3D"white-space: =
+nowrap;">=D0=B2&nbsp;=D1=8F=D1=80=D0=BA=D0=BE=D0=B9</span> =D0=BE=D0=B4=D0=
+=B5=D0=B6=D0=B4=D0=B5 <span style=3D"white-space: nowrap;">=D0=B8&nbsp;=D1=
+=81=D0=BE=D0=BB=D0=BD=D1=86=D0=B5=D0=B7=D0=B0=D1=89=D0=B8=D1=82=D0=BD=D1=8B=
+=D1=85</span> =D0=BE=D1=87=D0=BA=D0=B0=D1=85. =D0=A0=D0=B0=D1=81=D1=82=D0=
+=BE=D0=BF=D0=B8=D1=82 =D0=BF=D0=BE=D1=81=D0=BB=D0=B5=D0=B4=D0=BD=D0=B8=D0=
+=B9 =D1=81=D1=83=D0=B3=D1=80=D0=BE=D0=B1, =D1=80=D0=B0=D0=B7=D0=BC=D0=BE=D1=
+=80=D0=BE=D0=B7=D0=B8=D1=82 =D1=81=D0=BA=D0=B0=D0=BC=D0=B5=D0=B9=D0=BA=D0=
+=B8 <span style=3D"white-space: nowrap;">=D0=B2&nbsp;=D0=BF=D0=B0=D1=80=D0=
+=BA=D0=B5,</span> =D0=BF=D0=BE=D1=81=D0=B5=D0=BB=D0=B8=D1=82 <span style=3D=
+"white-space: nowrap;">=D0=B2&nbsp;=D1=81=D0=B5=D1=80=D0=B4=D1=86=D0=B5</sp=
+an> =D0=BD=D0=BE=D0=B2=D1=8B=D0=B5 =D0=BC=D0=B5=D1=87=D1=82=D1=8B <span sty=
+le=3D"white-space: nowrap;">=D0=B8&nbsp;=D0=B6=D0=B5=D0=BB=D0=B0=D0=BD=D0=
+=B8=D0=B5</span> =D0=BD=D0=B5=D0=BF=D1=80=D0=B5=D0=BC=D0=B5=D0=BD=D0=BD=D0=
+=BE <span style=3D"white-space: nowrap;">=D1=87=D1=82=D0=BE-=D0=BD=D0=B8=D0=
+=B1=D1=83=D0=B4=D1=8C</span> =D0=BE=D0=B1=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=
+=8C.
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09<p style=3D"padding: 0; Margin: 10px 0 0; color: #2=
+82828; font-family: Arial, sans-serif; font-size: 16px; line-height: 21px;"=
+>
+=09=09=09=09=09=09=09=09=09=D0=95=D1=81=D0=BB=D0=B8 <span style=3D"white-sp=
+ace: nowrap;">=D0=B2&nbsp;=D0=B2=D0=B0=D1=88=D0=B5=D0=BC</span> =D1=81=D0=
+=B5=D1=80=D0=B4=D1=86=D0=B5 =D1=82=D0=B0=D0=BA=D0=BE=D0=B5 =D0=B6=D0=B5=D0=
+=BB=D0=B0=D0=BD=D0=B8=D0=B5 =D1=83=D0=B6=D0=B5 <span style=3D"white-space: =
+nowrap;">=D0=B6=D0=B8=D0=B2=D1=91=D1=82&nbsp;&mdash;</span> =D0=BD=D0=B0=D1=
+=88 =D0=B0=D0=BF=D1=80=D0=B5=D0=BB=D1=8C=D1=81=D0=BA=D0=B8=D0=B9 =D0=B4=D0=
+=B0=D0=B9=D0=B4=D0=B6=D0=B5=D1=81=D1=82 =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=
+=BA=D1=81=D1=82=D0=B0=D1=82=D0=B8. =D0=A0=D0=B0=D1=81=D1=81=D0=BA=D0=B0=D0=
+=B6=D0=B5=D0=BC, <span style=3D"white-space: nowrap;">=D0=B3=D0=B4=D0=B5 =
+=D0=B2=D1=8B=D0=B3=D0=BE=D0=B4=D0=BD=D0=BE</span> =D0=BE=D0=B1=D0=BD=D0=BE=
+=D0=B2=D0=B8=D1=82=D1=8C =D1=81=D0=BC=D0=B0=D1=80=D1=82=D1=84=D0=BE=D0=BD <=
+span style=3D"white-space: nowrap;">=D0=B8&nbsp;=D0=B3=D0=B0=D1=80=D0=B4=D0=
+=B5=D1=80=D0=BE=D0=B1,</span> =D0=BF=D0=BE=D0=B4=D0=B0=D1=80=D0=B8=D0=BC =
+=D1=81=D0=BA=D0=B8=D0=B4=D0=BA=D0=B8 <span style=3D"white-space: nowrap;">=
+=D0=BD=D0=B0&nbsp;=D0=BF=D1=83=D1=82=D0=B5=D1=88=D0=B5=D1=81=D1=82=D0=B2=D0=
+=B8=D1=8F</span> <span style=3D"white-space: nowrap;">=D0=B8&nbsp;=D0=BF=D0=
+=BE=D0=B4=D0=B5=D0=BB=D0=B8=D0=BC=D1=81=D1=8F</span> =D0=B8=D0=B4=D0=B5=D1=
+=8F=D0=BC=D0=B8 <span style=3D"white-space: nowrap;">=D0=B4=D0=BB=D1=8F =D0=
+=BF=D0=BE=D0=BA=D1=83=D0=BF=D0=BE=D0=BA,</span> =D0=BA=D0=BE=D1=82=D0=BE=D1=
+=80=D1=8B=D0=B5 =D1=81=D0=B4=D0=B5=D0=BB=D0=B0=D1=8E=D1=82 =D0=B2=D0=B5=D1=
+=81=D0=BD=D1=83 =D0=B5=D1=89=D1=91 =D1=80=D0=B0=D0=B4=D0=BE=D1=81=D1=82=D0=
+=BD=D0=B5=D0=B5!
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-=
+->
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- head: news -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"padding: 20px 20px 20px; color: #282828; font-family: Arial, sans-s=
+erif; font-size: 0; line-height: 0;">
+=09=09=09=09=09=09=09<div style=3D"max-width: 460px; Margin: 0 auto; text-a=
+lign: center;">
+=09=09=09=09=09=09=09=09<p style=3D"Margin: 0 0 8px; padding: 0; font-size:=
+ 22px; line-height: 28px;">
+=09=09=09=09=09=09=09=09=09=D0=A1=D0=BF=D0=B5=D1=86=D0=BF=D1=80=D0=B5=D0=B4=
+=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F: =D0=BE=D0=B1=D1=83=D1=87=D0=B5=
+=D0=BD=D0=B8=D0=B5
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09</div>
+
+=09=09=09=09=09=09=09<table width=3D"80" height=3D"2" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td width=3D"80" height=3D"2" bgcolor=3D"#fdc873=
+" style=3D"font-size: 0; line-height: 0;"> </td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- /head: news -->
+=09=09=09=09=09<!-- item 1 -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"font-size: 0; line-height: 0; padding: 0px;">
+=09=09=09=09=09=09=09<a href=3D"https://www.beeline.ru/customers/products/m=
+obile/bonus/premium-status/?utm_medium=3Demail&utm_source=3Dcbm&utm_campaig=
+n=3D121586-partners-digest-apr2019_book24-pic&utm_content=3Dbook24-pic&item=
+=3Ditem01#item01" target=3D"_blank" rel=3D"noopener">
+=09=09=09=09=09=09=09=09<img src=3D"http://cm.beeline.ru/em/images/712196/i=
+mages/pic01_121586.jpg" width=3D"640" height=3D"301" border=3D"0" alt=3D"=
+=D0=92=D0=B5=D1=81=D0=B5=D0=BD=D0=BD=D1=8F=D1=8F =D1=80=D0=B0=D1=81=D0=BF=
+=D1=80=D0=BE=D0=B4=D0=B0=D0=B6=D0=B0 =D0=BA=D0=BD=D0=B8=D0=B3 =D0=B2=C2=A0B=
+ook24.ru=C2=A0=E2=80=94 30% =D0=BD=D0=B0=C2=A0=D0=B2=D1=81=D1=91 =D0=B2=C2=
+=A0=D0=B0=D0=BF=D1=80=D0=B5=D0=BB=D0=B5!" title=3D"" style=3D"width: 100%; =
+height: auto;" />
+=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"padding: 25px 20px 20px; color: #282828; font-family: Arial, sans-s=
+erif; font-size: 16px; line-height: 21px;">
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"580" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"center" valign=
+=3D"top" style=3D"color: #282828; font-family: Arial, sans-serif; font-size=
+: 16px; line-height: 21px;"><![endif]-->
+=09=09=09=09=09=09=09<div style=3D"max-width: 580px; Margin: 0 auto; text-a=
+lign: center;">
+=09=09=09=09=09=09=09=09<p style=3D"Margin: 0px; padding: 0; color: #282828=
+; font-family: Arial, sans-serif; font-size: 22px; line-height: 28px;">
+=09=09=09=09=09=09=09=09=09=D0=92=D0=B5=D1=81=D0=B5=D0=BD=D0=BD=D1=8F=D1=8F=
+ =D1=80=D0=B0=D1=81=D0=BF=D1=80=D0=BE=D0=B4=D0=B0=D0=B6=D0=B0 =D0=BA=D0=BD=
+=D0=B8=D0=B3 <span style=3D"white-space: nowrap;">=D0=B2&nbsp;<a style=3D"c=
+olor: #282828 !important; text-decoration: none;"><span style=3D"color: #28=
+2828 !important; text-decoration: none;" class=3D"apple-links-dark">Book24.=
+ru</span></a>&nbsp;&mdash;</span> <span style=3D"white-space: nowrap;">30% =
+=D0=BD=D0=B0&nbsp;=D0=B2=D1=81=D1=91</span> <span style=3D"white-space: now=
+rap;">=D0=B2&nbsp;=D0=B0=D0=BF=D1=80=D0=B5=D0=BB=D0=B5!</span>
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09<p style=3D"padding: 0; Margin: 5px 0 0; color: #28=
+2828; font-family: Arial, sans-serif; font-size: 16px; line-height: 21px;">
+=09=09=09=09=09=09=09=09=09<span style=3D"white-space: nowrap;">=D0=92=D0=
+=B5=D1=81=D0=BD=D0=B0&nbsp;&mdash;</span> =D0=BE=D1=82=D0=BB=D0=B8=D1=87=D0=
+=BD=D0=BE=D0=B5 =D0=B2=D1=80=D0=B5=D0=BC=D1=8F <span style=3D"white-space: =
+nowrap;">=D0=B4=D0=BB=D1=8F =D1=87=D1=82=D0=B5=D0=BD=D0=B8=D1=8F.</span> =
+=D0=9F=D0=BE=D1=82=D0=B5=D0=BF=D0=BB=D0=B5=D1=8E=D1=82 <span style=3D"white=
+-space: nowrap;">=D0=BD=D0=B0&nbsp;=D1=81=D0=BE=D0=BB=D0=BD=D1=86=D0=B5</sp=
+an> =D1=81=D0=BA=D0=B0=D0=BC=D0=B5=D0=B9=D0=BA=D0=B8 <span style=3D"white-s=
+pace: nowrap;">=D0=B2&nbsp;=D0=BF=D0=B0=D1=80=D0=BA=D0=B0=D1=85,</span> <sp=
+an style=3D"white-space: nowrap;">=D0=B0&nbsp;=D0=B0=D0=BF=D1=80=D0=B5=D0=
+=BB=D1=8C=D1=81=D0=BA=D0=B8=D0=B9</span> =D0=B2=D0=B5=D1=82=D0=B5=D1=80 =D0=
+=BF=D0=B5=D1=80=D0=B5=D0=BC=D0=B5=D0=BD =D0=BF=D0=BE=D1=82=D1=80=D0=B5=D0=
+=B1=D1=83=D0=B5=D1=82 =D0=BD=D0=BE=D0=B2=D1=8B=D1=85 =D0=BB=D1=91=D0=B3=D0=
+=BA=D0=B8=D1=85 =D1=81=D1=8E=D0=B6=D0=B5=D1=82=D0=BE=D0=B2. =D0=9F=D0=BE=D1=
+=80=D0=B0 =D0=B7=D0=B0=D0=BF=D0=B0=D1=81=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=
+=BA=D0=BD=D0=B8=D0=B3=D0=B0=D0=BC=D0=B8! <span style=3D"white-space: nowrap=
+;">=D0=92&nbsp;=D0=BC=D0=B0=D0=B3=D0=B0=D0=B7=D0=B8=D0=BD=D0=B5</span> <a s=
+tyle=3D"color: #282828 !important; text-decoration: none;"><span style=3D"c=
+olor: #282828 !important; text-decoration: none;" class=3D"apple-links-dark=
+">Book24.ru</span></a> =D0=BE=D1=87=D0=B5=D0=BD=D1=8C =D0=B2=D0=BE=D0=B2=D1=
+=80=D0=B5=D0=BC=D1=8F <span style=3D"white-space: nowrap;">=D1=81=D0=BA=D0=
+=B8=D0=B4=D0=BA=D0=B0&nbsp;30%</span> <span style=3D"white-space: nowrap;">=
+=D0=BD=D0=B0&nbsp;=D0=B2=D1=81=D1=91.</span>
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-=
+->
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"padding: 0px 0 35px;">
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"256" height=
+=3D"48" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td width=3D"1=
+00%" height=3D"48" align=3D"center" valign=3D"middle" bgcolor=3D"#fdc873" s=
+tyle=3D"color: #282828; font-family: Arial, sans-serif; font-size: 18px; wh=
+ite-space: nowrap; text-decoration: none; outline: none; padding: 0 20px; b=
+ackground-color: #fdc873;"><![endif]-->
+=09=09=09=09=09=09=09<a href=3D"https://www.beeline.ru/customers/products/m=
+obile/bonus/premium-status/?utm_medium=3Demail&utm_source=3Dcbm&utm_campaig=
+n=3D121586-partners-digest-apr2019_book24-button&utm_content=3Dbook24-butto=
+n&item=3Ditem01#item01" target=3D"_blank" rel=3D"noopener" style=3D"display=
+: inline-block; min-width: 256px; padding: 12px 0 10px; color: #282828; fon=
+t-family: Arial, sans-serif; font-size: 18px; line-height: 20px; white-spac=
+e: nowrap; text-decoration: none; text-align: center; outline: none; border=
+-bottom: #f8c568 1px solid; box-sizing: border-box; background: #fdc873; ba=
+ckground: linear-gradient(to bottom, #f9c25a, #fdce66); box-shadow: 0 4px 0=
+ 0 #ebb26a, 0 5px 0 0 #c88523, 0 5px 8px 0 rgba(116,52,0,.4); -webkit-box-s=
+hadow: 0 4px 0 0 #ebb26a, 0 5px 0 0 #c88523, 0 5px 8px 0 rgba(116,52,0,.4);=
+ border-radius: 19px;"><span style=3D"padding: 0 17px;">=D0=9F=D0=BE=D0=B4=
+=D1=80=D0=BE=D0=B1=D0=BD=D0=B5=D0=B5</span></a>
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-=
+->
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- /item 1 -->=20
+=09=09=09=09=09<!-- item 2 -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"font-size: 0; line-height: 0; padding: 0px;">
+=09=09=09=09=09=09=09<a href=3D"https://www.beeline.ru/customers/products/m=
+obile/bonus/premium-status/?utm_medium=3Demail&utm_source=3Dcbm&utm_campaig=
+n=3D121586-partners-digest-apr2019_skyeng-pic&utm_content=3Dskyeng-pic&item=
+=3Ditem02#item02" target=3D"_blank" rel=3D"noopener">
+=09=09=09=09=09=09=09=09<img src=3D"http://cm.beeline.ru/em/images/712196/i=
+mages/pic02_121586.jpg" width=3D"640" height=3D"301" border=3D"0" alt=3D"Sk=
+yeng =D0=B4=D0=B0=D1=80=D0=B8=D1=82 2000 =D1=80=D1=83=D0=B1=D0=BB=D0=B5=D0=
+=B9 =D0=BD=D0=B0=C2=A0=D1=83=D1=80=D0=BE=D0=BA=D0=B8 =D0=B0=D0=BD=D0=B3=D0=
+=BB=D0=B8=D0=B9=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D1=81=C2=A0=D0=BB=D0=B8=D1=
+=87=D0=BD=D1=8B=D0=BC =D1=83=D1=87=D0=B8=D1=82=D0=B5=D0=BB=D0=B5=D0=BC!" ti=
+tle=3D"" style=3D"width: 100%; height: auto;" />
+=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"padding: 25px 20px 20px; color: #282828; font-family: Arial, sans-s=
+erif; font-size: 16px; line-height: 21px;">
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"580" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"center" valign=
+=3D"top" style=3D"color: #282828; font-family: Arial, sans-serif; font-size=
+: 16px; line-height: 21px;"><![endif]-->
+=09=09=09=09=09=09=09<div style=3D"max-width: 580px; Margin: 0 auto; text-a=
+lign: center;">
+=09=09=09=09=09=09=09=09<p style=3D"Margin: 0px; padding: 0; color: #282828=
+; font-family: Arial, sans-serif; font-size: 22px; line-height: 28px;">
+=09=09=09=09=09=09=09=09=09Skyeng =D0=B4=D0=B0=D1=80=D0=B8=D1=82 2000 =D1=
+=80=D1=83=D0=B1=D0=BB=D0=B5=D0=B9 <span style=3D"white-space: nowrap;">=D0=
+=BD=D0=B0&nbsp;=D1=83=D1=80=D0=BE=D0=BA=D0=B8</span> =D0=B0=D0=BD=D0=B3=D0=
+=BB=D0=B8=D0=B9=D1=81=D0=BA=D0=BE=D0=B3=D0=BE <span style=3D"white-space: n=
+owrap;">=D1=81&nbsp;=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D0=BC</span> =D1=83=D1=
+=87=D0=B8=D1=82=D0=B5=D0=BB=D0=B5=D0=BC!
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09<p style=3D"padding: 0; Margin: 5px 0 0; color: #28=
+2828; font-family: Arial, sans-serif; font-size: 16px; line-height: 21px;">
+=09=09=09=09=09=09=09=09=09<span style=3D"white-space: nowrap;">Skyeng&nbsp=
+;&mdash;</span> =D1=8D=D1=82=D0=BE <span style=3D"white-space: nowrap;">=D0=
+=BE=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD-=D1=88=D0=BA=D0=BE=D0=BB=D0=B0</span> =D0=
+=B0=D0=BD=D0=B3=D0=BB=D0=B8=D0=B9=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D1=8F=D0=
+=B7=D1=8B=D0=BA=D0=B0, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=B0=D1=8F =D0=BF=D0=
+=BE=D0=B7=D0=B2=D0=BE=D0=BB=D1=8F=D0=B5=D1=82 =D0=B7=D0=B0=D0=BD=D0=B8=D0=
+=BC=D0=B0=D1=82=D1=8C=D1=81=D1=8F <span style=3D"white-space: nowrap;">=D1=
+=81&nbsp;=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D0=BC</span> =D0=BF=D1=80=D0=B5=D0=
+=BF=D0=BE=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D0=B5=D0=BC <span style=
+=3D"white-space: nowrap;">=D0=B8=D0=B7&nbsp;=D0=BB=D1=8E=D0=B1=D0=BE=D0=B9<=
+/span> =D1=82=D0=BE=D1=87=D0=BA=D0=B8 =D0=BC=D0=B8=D1=80=D0=B0. =D0=94=D0=
+=BB=D1=8F =D1=83=D1=80=D0=BE=D0=BA=D0=BE=D0=B2 =D0=BD=D1=83=D0=B6=D0=B5=D0=
+=BD =D1=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=B8=D0=BD=D1=82=D0=B5=D1=80=D0=
+=BD=D0=B5=D1=82. <span style=3D"white-space: nowrap;">=D0=9F=D1=80=D0=BE=D0=
+=B1=D0=BD=D1=8B=D0=B9 =D1=83=D1=80=D0=BE=D0=BA&nbsp;&mdash;</span> =D0=B1=
+=D0=B5=D1=81=D0=BF=D0=BB=D0=B0=D1=82=D0=BD=D0=BE, <span style=3D"white-spac=
+e: nowrap;">=D0=B0&nbsp;=D0=BD=D0=B0&nbsp;=D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=
+=8E=D1=89=D0=B8=D0=B5</span> =D0=B7=D0=B0=D0=BD=D1=8F=D1=82=D0=B8=D1=8F =D0=
+=B4=D0=B0=D1=80=D0=B8=D0=BC =D1=81=D0=BA=D0=B8=D0=B4=D0=BA=D1=83 <span styl=
+e=3D"white-space: nowrap;">2000&nbsp;=D1=80=D1=83=D0=B1=D0=BB=D0=B5=D0=B9!<=
+/span>
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-=
+->
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"padding: 0px 0 35px;">
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"256" height=
+=3D"48" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td width=3D"1=
+00%" height=3D"48" align=3D"center" valign=3D"middle" bgcolor=3D"#fdc873" s=
+tyle=3D"color: #282828; font-family: Arial, sans-serif; font-size: 18px; wh=
+ite-space: nowrap; text-decoration: none; outline: none; padding: 0 20px; b=
+ackground-color: #fdc873;"><![endif]-->
+=09=09=09=09=09=09=09<a href=3D"https://www.beeline.ru/customers/products/m=
+obile/bonus/premium-status/?utm_medium=3Demail&utm_source=3Dcbm&utm_campaig=
+n=3D121586-partners-digest-apr2019_skyeng-button&utm_content=3Dskyeng-butto=
+n&item=3Ditem02#item02" target=3D"_blank" rel=3D"noopener" style=3D"display=
+: inline-block; min-width: 256px; padding: 12px 0 10px; color: #282828; fon=
+t-family: Arial, sans-serif; font-size: 18px; line-height: 20px; white-spac=
+e: nowrap; text-decoration: none; text-align: center; outline: none; border=
+-bottom: #f8c568 1px solid; box-sizing: border-box; background: #fdc873; ba=
+ckground: linear-gradient(to bottom, #f9c25a, #fdce66); box-shadow: 0 4px 0=
+ 0 #ebb26a, 0 5px 0 0 #c88523, 0 5px 8px 0 rgba(116,52,0,.4); -webkit-box-s=
+hadow: 0 4px 0 0 #ebb26a, 0 5px 0 0 #c88523, 0 5px 8px 0 rgba(116,52,0,.4);=
+ border-radius: 19px;"><span style=3D"padding: 0 17px;">=D0=9F=D0=BE=D0=B4=
+=D1=80=D0=BE=D0=B1=D0=BD=D0=B5=D0=B5</span></a>
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-=
+->
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- /item 2 -->=20
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#F6F4F2" s=
+tyle=3D"background-color:#F6F4F2; padding: 0px 10px 30px;">
+=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><center><table width=3D"580" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td width=3D"580" align=
+=3D"center" valign=3D"top" style=3D"color: #282828; font-family: Arial, san=
+s-serif; font-size: 16px; line-height: 21px;"><![endif]-->=20
+=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" bgcolor=3D"#F6F4F2"=
+ cellpadding=3D"0" cellspacing=3D"0" style=3D"background-color: #F6F4F2; ma=
+x-width:580px; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:=
+collapse; Margin: 0px; padding: 0px;">
+=09=09=09=09=09=09=09=09<!-- head: news -->
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" style=3D"pad=
+ding: 20px 0px 20px; color: #282828; font-family: Arial, sans-serif;">=20
+=09=09=09=09=09=09=09=09=09=09<div style=3D"max-width: 460px; Margin: 0 aut=
+o; text-align: center;">
+=09=09=09=09=09=09=09=09=09=09=09<p style=3D"Margin: 0 0 8px; padding: 0; f=
+ont-size: 22px; line-height: 28px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=D0=A1=D0=BF=D0=B5=D1=86=D0=BF=D1=80=D0=
+=B5=D0=B4=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F: =D1=88=D0=BE=D0=BF=D0=
+=B8=D0=BD=D0=B3
+=09=09=09=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=09=09</div>=20
+=09=09=09=09=09=09=09=09=09=09<table width=3D"80" height=3D"2" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"80" height=3D"2" bgcolor=
+=3D"#fdc873" style=3D"font-size: 0; line-height: 0;"> </td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" bgcolor=3D"#FFFFFF" valign=
+=3D"top" style=3D"background-color: #FFFFFF; padding: 0px 0px 0px; color: #=
+282828; font-family: Arial, sans-serif;border-radius: 8px; -ms-border-radiu=
+s: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;" class=3D"no-b=
+order-radius">
+=09=09=09=09=09=09=09=09=09=09<!-- item 3 -->
+=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0">
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgc=
+olor=3D"#ffffff" style=3D"font-size: 0; line-height: 0; padding: 0px; borde=
+r-radius: 8px 8px 0 0; -ms-border-radius: 8px 8px 0 0; -moz-border-radius: =
+8px 8px 0 0; -webkit-border-radius: 8px 8px 0 0;" class=3D"no-border-radius=
+">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<a href=3D"https://www.beeline.ru/cu=
+stomers/products/mobile/bonus/premium-status/?utm_medium=3Demail&utm_source=
+=3Dcbm&utm_campaign=3D121586-partners-digest-apr2019_huawei-pic&utm_content=
+=3Dhuawei-pic&item=3Ditem03#item03" target=3D"_blank" rel=3D"noopener">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://cm.beeline.ru/=
+em/images/712196/images/pic03_121586.jpg" width=3D"580" height=3D"274" bord=
+er=3D"0" alt=3D"=D0=A1=D1=83=D0=BF=D0=B5=D1=80=D1=86=D0=B5=D0=BD=D0=B0 =D0=
+=BD=D0=B0=C2=A0=D1=81=D0=BC=D0=B0=D1=80=D1=82=D1=84=D0=BE=D0=BD=D1=8B Huawe=
+i =D0=BF=D1=80=D0=B8 =D0=BF=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=
+=D0=B8=D0=B8 =D1=83=D1=81=D0=BB=D1=83=D0=B3 =D1=81=D0=B2=D1=8F=D0=B7=D0=B8!=
+" title=3D"" style=3D"width: 100%; height: auto; border-radius: 8px 8px 0 0=
+; -ms-border-radius: 8px 8px 0 0; -moz-border-radius: 8px 8px 0 0; -webkit-=
+border-radius: 8px 8px 0 0;" class=3D"no-border-radius" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgc=
+olor=3D"#ffffff" style=3D"padding: 25px 20px 20px; color: #282828; font-fam=
+ily: Arial, sans-serif; font-size: 16px; line-height: 21px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table wid=
+th=3D"580" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=
+=3D"center" valign=3D"top" style=3D"color: #282828; font-family: Arial, san=
+s-serif; font-size: 16px; line-height: 21px;"><![endif]-->
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"max-width: 580px; Marg=
+in: 0 auto; text-align: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"Margin: 0px; padding:=
+ 0; color: #282828; font-family: Arial, sans-serif; font-size: 22px; line-h=
+eight: 28px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=D0=A1=D1=83=D0=BF=D0=B5=D1=80=
+=D1=86=D0=B5=D0=BD=D0=B0 <span style=3D"white-space: nowrap;">=D0=BD=D0=B0&=
+nbsp;=D1=81=D0=BC=D0=B0=D1=80=D1=82=D1=84=D0=BE=D0=BD=D1=8B</span> Huawei =
+=D0=BF=D1=80=D0=B8 =D0=BF=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=
+=D0=B8=D0=B8 =D1=83=D1=81=D0=BB=D1=83=D0=B3 =D1=81=D0=B2=D1=8F=D0=B7=D0=B8!
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"padding: 0; Margin: 5=
+px 0 0; color: #282828; font-family: Arial, sans-serif; font-size: 16px; li=
+ne-height: 21px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=D0=95=D1=81=D0=BB=D0=B8 <span=
+ style=3D"white-space: nowrap;">=D0=B2=D1=8B&nbsp;=D1=80=D0=B5=D1=88=D0=B8=
+=D0=BB=D0=B8</span> =D0=BE=D0=B1=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8C <span =
+style=3D"white-space: nowrap;">=D1=81=D0=BC=D0=B0=D1=80=D1=82=D1=84=D0=BE=
+=D0=BD&nbsp;&mdash;</span> =D1=81=D0=B5=D0=B9=D1=87=D0=B0=D1=81 =D1=81=D0=
+=B0=D0=BC=D0=BE=D0=B5 =D0=B2=D1=80=D0=B5=D0=BC=D1=8F. <span style=3D"white-=
+space: nowrap;">=D0=98&nbsp;=D0=BD=D0=B5&nbsp;=D1=82=D0=BE=D0=BB=D1=8C=D0=
+=BA=D0=BE</span> =D0=BF=D0=BE=D1=82=D0=BE=D0=BC=D1=83, =D1=87=D1=82=D0=BE =
+=D0=B2=D0=B5=D1=81=D0=BD=D0=BE=D0=B9 =D1=85=D0=BE=D1=87=D0=B5=D1=82=D1=81=
+=D1=8F <span style=3D"white-space: nowrap;">=D1=87=D1=82=D0=BE-=D1=82=D0=BE=
+</span> =D0=BE=D0=B1=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8C. <span style=3D"wh=
+ite-space: nowrap;">=D0=94=D0=BE&nbsp;<a style=3D"color: #282828 !important=
+; text-decoration: none;"><span style=3D"color: #282828 !important; text-de=
+coration: none;" class=3D"apple-links-dark">21&nbsp;=D0=B0=D0=BF=D1=80=D0=
+=B5=D0=BB=D1=8F</span></a></span> <span style=3D"white-space: nowrap;">=D0=
+=B2&nbsp;=D0=91=D0=B8=D0=BB=D0=B0=D0=B9=D0=BD</span> =D0=B4=D0=B5=D0=B9=D1=
+=81=D1=82=D0=B2=D1=83=D1=8E=D1=82 =D1=81=D0=BF=D0=B5=D1=86=D0=B8=D0=B0=D0=
+=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=86=D0=B5=D0=BD=D1=8B <span style=3D"white-s=
+pace: nowrap;">=D0=BD=D0=B0&nbsp;=D1=81=D0=BC=D0=B0=D1=80=D1=82=D1=84=D0=BE=
+=D0=BD=D1=8B</span> Huawei.
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr>=
+</table><![endif]-->
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgc=
+olor=3D"#ffffff" style=3D"padding: 0px 0 35px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table wid=
+th=3D"256" height=3D"48" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><=
+tr><td width=3D"100%" height=3D"48" align=3D"center" valign=3D"middle" bgco=
+lor=3D"#fdc873" style=3D"color: #282828; font-family: Arial, sans-serif; fo=
+nt-size: 18px; white-space: nowrap; text-decoration: none; outline: none; p=
+adding: 0 20px; background-color: #fdc873;"><![endif]-->
+=09=09=09=09=09=09=09=09=09=09=09=09=09<a href=3D"https://www.beeline.ru/cu=
+stomers/products/mobile/bonus/premium-status/?utm_medium=3Demail&utm_source=
+=3Dcbm&utm_campaign=3D121586-partners-digest-apr2019_huawei-button&utm_cont=
+ent=3Dhuawei-button&item=3Ditem03#item03" target=3D"_blank" rel=3D"noopener=
+" style=3D"display: inline-block; min-width: 256px; padding: 12px 0 10px; c=
+olor: #282828; font-family: Arial, sans-serif; font-size: 18px; line-height=
+: 20px; white-space: nowrap; text-decoration: none; text-align: center; out=
+line: none; border-bottom: #f8c568 1px solid; box-sizing: border-box; backg=
+round: #fdc873; background: linear-gradient(to bottom, #f9c25a, #fdce66); b=
+ox-shadow: 0 4px 0 0 #ebb26a, 0 5px 0 0 #c88523, 0 5px 8px 0 rgba(116,52,0,=
+.4); -webkit-box-shadow: 0 4px 0 0 #ebb26a, 0 5px 0 0 #c88523, 0 5px 8px 0 =
+rgba(116,52,0,.4); border-radius: 19px;"><span style=3D"padding: 0 17px;">=
+=D0=9F=D0=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=D0=B5=D0=B5</span></a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr>=
+</table><![endif]-->
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</table>=09
+=09=09=09=09=09=09=09=09=09=09<!-- /item 3 -->
+=09=09=09=09=09=09=09=09=09=09<!-- item 4 -->
+=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0">
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgc=
+olor=3D"#ffffff" style=3D"font-size: 0; line-height: 0; padding: 0px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<a href=3D"https://www.beeline.ru/cu=
+stomers/products/mobile/bonus/premium-status/?utm_medium=3Demail&utm_source=
+=3Dcbm&utm_campaign=3D121586-partners-digest-apr2019_musick-pic&utm_content=
+=3Dmusick-pic&item=3Ditem04#item04" target=3D"_blank" rel=3D"noopener">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://cm.beeline.ru/=
+em/images/712196/images/pic04_121586.jpg" width=3D"580" height=3D"274" bord=
+er=3D"0" alt=3D"=D0=97=D0=B0=D1=81=D1=8B=D0=BF=D0=B0=D0=B9=D1=82=D0=B5 =D1=
+=81=C2=A0=D0=BA=D0=BE=D0=BC=D1=84=D0=BE=D1=80=D1=82=D0=BE=D0=BC =D0=BF=D0=
+=BE=D0=B4 =D0=BB=D1=8E=D0=B1=D0=B8=D0=BC=D1=83=D1=8E =D0=BC=D1=83=D0=B7=D1=
+=8B=D0=BA=D1=83! =D0=A1=D0=BA=D0=B8=D0=B4=D0=BA=D0=B0=C2=A015%!" title=3D""=
+ style=3D"width: 100%; height: auto;" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgc=
+olor=3D"#ffffff" style=3D"padding: 25px 20px 20px; color: #282828; font-fam=
+ily: Arial, sans-serif; font-size: 16px; line-height: 21px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table wid=
+th=3D"580" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=
+=3D"center" valign=3D"top" style=3D"color: #282828; font-family: Arial, san=
+s-serif; font-size: 16px; line-height: 21px;"><![endif]-->
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"max-width: 580px; Marg=
+in: 0 auto; text-align: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"Margin: 0px; padding:=
+ 0; color: #282828; font-family: Arial, sans-serif; font-size: 22px; line-h=
+eight: 28px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=D0=97=D0=B0=D1=81=D1=8B=D0=BF=
+=D0=B0=D0=B9=D1=82=D0=B5 <span style=3D"white-space: nowrap;">=D1=81&nbsp;=
+=D0=BA=D0=BE=D0=BC=D1=84=D0=BE=D1=80=D1=82=D0=BE=D0=BC</span> =D0=BF=D0=BE=
+=D0=B4 =D0=BB=D1=8E=D0=B1=D0=B8=D0=BC=D1=83=D1=8E =D0=BC=D1=83=D0=B7=D1=8B=
+=D0=BA=D1=83! <span style=3D"white-space: nowrap;">=D0=A1=D0=BA=D0=B8=D0=B4=
+=D0=BA=D0=B0&nbsp;15%!</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"padding: 0; Margin: 5=
+px 0 0; color: #282828; font-family: Arial, sans-serif; font-size: 16px; li=
+ne-height: 21px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"white-space: no=
+wrap;">SleepPhones&nbsp;&mdash;</span> =D0=BC=D1=8F=D0=B3=D0=BA=D0=B8=D0=B5=
+ =D0=BD=D0=B0=D1=83=D1=88=D0=BD=D0=B8=D0=BA=D0=B8, =D0=BA=D0=BE=D1=82=D0=BE=
+=D1=80=D1=8B=D0=B5 =D0=BF=D0=BE=D0=BC=D0=BE=D0=B3=D0=B0=D1=8E=D1=82 =D0=B7=
+=D0=B0=D1=81=D1=8B=D0=BF=D0=B0=D1=82=D1=8C <span style=3D"white-space: nowr=
+ap;">=D1=81&nbsp;=D0=BA=D0=BE=D0=BC=D1=84=D0=BE=D1=80=D1=82=D0=BE=D0=BC</sp=
+an> =D0=BF=D0=BE=D0=B4 =D0=BC=D1=83=D0=B7=D1=8B=D0=BA=D1=83, =D0=B0=D1=83=
+=D0=B4=D0=B8=D0=BE=D0=BA=D0=BD=D0=B8=D0=B3=D0=B8 =D0=B8=D0=BB=D0=B8 =D1=81=
+=D0=B5=D1=80=D0=B8=D0=B0=D0=BB=D1=8B. =D0=9E=D0=BD=D0=B8 =D1=81=D0=B4=D0=B5=
+=D0=BB=D0=B0=D0=BD=D1=8B <span style=3D"white-space: nowrap;">=D0=B8=D0=B7&=
+nbsp;=D1=8D=D0=BA=D0=BE=D0=BB=D0=BE=D0=B3=D0=B8=D1=87=D0=BD=D0=BE=D0=B3=D0=
+=BE</span> =D0=BC=D0=B0=D1=82=D0=B5=D1=80=D0=B8=D0=B0=D0=BB=D0=B0, <span st=
+yle=3D"white-space: nowrap;">=D0=BD=D0=B5&nbsp;=D1=81=D0=BA=D0=BE=D0=B2=D1=
+=8B=D0=B2=D0=B0=D1=8E=D1=82</span> <span style=3D"white-space: nowrap;">=D0=
+=B4=D0=B2=D0=B8=D0=B6=D0=B5=D0=BD=D0=B8=D0=B9&nbsp;&mdash;</span> <span sty=
+le=3D"white-space: nowrap;">=D0=B8&nbsp;=D0=BE=D0=B1=D0=BE=D1=80=D1=83=D0=
+=B4=D0=BE=D0=B2=D0=B0=D0=BD=D1=8B</span> =D0=B1=D0=B5=D0=B7=D0=BE=D0=BF=D0=
+=B0=D1=81=D0=BD=D1=8B=D0=BC=D0=B8 =D0=B4=D0=B8=D0=BD=D0=B0=D0=BC=D0=B8=D0=
+=BA=D0=B0=D0=BC=D0=B8. =D0=94=D0=B0=D1=80=D0=B8=D0=BC <span style=3D"white-=
+space: nowrap;">=D1=81=D0=BA=D0=B8=D0=B4=D0=BA=D1=83&nbsp;15%!</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr>=
+</table><![endif]-->
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgc=
+olor=3D"#ffffff" style=3D"padding: 0px 0 35px; border-radius: 0 0 8px 8px; =
+-ms-border-radius: 0 0 8px 8px; -moz-border-radius: 0 0 8px 8px; -webkit-bo=
+rder-radius: 0 0 8px 8px;" class=3D"no-border-radius">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table wid=
+th=3D"256" height=3D"48" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><=
+tr><td width=3D"100%" height=3D"48" align=3D"center" valign=3D"middle" bgco=
+lor=3D"#fdc873" style=3D"color: #282828; font-family: Arial, sans-serif; fo=
+nt-size: 18px; white-space: nowrap; text-decoration: none; outline: none; p=
+adding: 0 20px; background-color: #fdc873;"><![endif]-->
+=09=09=09=09=09=09=09=09=09=09=09=09=09<a href=3D"https://www.beeline.ru/cu=
+stomers/products/mobile/bonus/premium-status/?utm_medium=3Demail&utm_source=
+=3Dcbm&utm_campaign=3D121586-partners-digest-apr2019_musick-button&utm_cont=
+ent=3Dmusick-button&item=3Ditem04#item04" target=3D"_blank" rel=3D"noopener=
+" style=3D"display: inline-block; min-width: 256px; padding: 12px 0 10px; c=
+olor: #282828; font-family: Arial, sans-serif; font-size: 18px; line-height=
+: 20px; white-space: nowrap; text-decoration: none; text-align: center; out=
+line: none; border-bottom: #f8c568 1px solid; box-sizing: border-box; backg=
+round: #fdc873; background: linear-gradient(to bottom, #f9c25a, #fdce66); b=
+ox-shadow: 0 4px 0 0 #ebb26a, 0 5px 0 0 #c88523, 0 5px 8px 0 rgba(116,52,0,=
+.4); -webkit-box-shadow: 0 4px 0 0 #ebb26a, 0 5px 0 0 #c88523, 0 5px 8px 0 =
+rgba(116,52,0,.4); border-radius: 19px;"><span style=3D"padding: 0 17px;">=
+=D0=9F=D0=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=D0=B5=D0=B5</span></a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr>=
+</table><![endif]-->
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</table>=09
+=09=09=09=09=09=09=09=09=09=09<!-- /item 4 -->
+=09=09=09=09=09=09=09=09=09=09=20
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>=20
+=09=09=09=09=09=09=09=09<!-- /head: news -->
+=09=09=09=09=09=09=09</table>=20
+=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- head: news -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"padding: 20px 20px 20px; color: #282828; font-family: Arial, sans-s=
+erif; font-size: 0; line-height: 0;">
+=09=09=09=09=09=09=09<div style=3D"max-width: 460px; Margin: 0 auto; text-a=
+lign: center;">
+=09=09=09=09=09=09=09=09<p style=3D"Margin: 0 0 8px; padding: 0; font-size:=
+ 22px; line-height: 28px;">
+=09=09=09=09=09=09=09=09=09=D0=A1=D0=BF=D0=B5=D1=86=D0=BF=D1=80=D0=B5=D0=B4=
+=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F: =D1=80=D0=B0=D0=B7=D0=B2=D0=BB=
+=D0=B5=D1=87=D0=B5=D0=BD=D0=B8=D1=8F
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09</div>
+
+=09=09=09=09=09=09=09<table width=3D"80" height=3D"2" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td width=3D"80" height=3D"2" bgcolor=3D"#fdc873=
+" style=3D"font-size: 0; line-height: 0;"> </td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- /head: news -->
+=09=09=09=09=09<!-- item 6 -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"font-size: 0; line-height: 0; padding: 0px;">
+=09=09=09=09=09=09=09<a href=3D"https://www.beeline.ru/customers/products/m=
+obile/bonus/premium-status/?utm_medium=3Demail&utm_source=3Dcbm&utm_campaig=
+n=3D121586-partners-digest-apr2019_beelinetv-pic&utm_content=3Dbeelinetv-pi=
+c&item=3Ditem06#item06" target=3D"_blank" rel=3D"noopener">
+=09=09=09=09=09=09=09=09<img src=3D"http://cm.beeline.ru/em/images/712196/i=
+mages/pic06_121586.jpg" width=3D"640" height=3D"301" border=3D"0" alt=3D"=
+=D0=A1=D0=BC=D0=BE=D1=82=D1=80=D0=B8=D1=82=D0=B5 =D1=84=D0=B8=D0=BD=D0=B0=
+=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D1=81=D0=B5=D0=B7=D0=BE=D0=BD =C2=AB=D0=98=
+=D0=B3=D1=80=D1=8B =D0=9F=D1=80=D0=B5=D1=81=D1=82=D0=BE=D0=BB=D0=BE=D0=B2=
+=C2=BB =D0=B2=C2=A0=D0=91=D0=B8=D0=BB=D0=B0=D0=B9=D0=BD =D0=A2=D0=92!" titl=
+e=3D"" style=3D"width: 100%; height: auto;" />
+=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"padding: 25px 20px 20px; color: #282828; font-family: Arial, sans-s=
+erif; font-size: 16px; line-height: 21px;">
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"580" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"center" valign=
+=3D"top" style=3D"color: #282828; font-family: Arial, sans-serif; font-size=
+: 16px; line-height: 21px;"><![endif]-->
+=09=09=09=09=09=09=09<div style=3D"max-width: 580px; Margin: 0 auto; text-a=
+lign: center;">
+=09=09=09=09=09=09=09=09<p style=3D"Margin: 0px; padding: 0; color: #282828=
+; font-family: Arial, sans-serif; font-size: 22px; line-height: 28px;">
+=09=09=09=09=09=09=09=09=09=D0=A1=D0=BC=D0=BE=D1=82=D1=80=D0=B8=D1=82=D0=B5=
+ =D1=84=D0=B8=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D1=81=D0=B5=D0=B7=
+=D0=BE=D0=BD &laquo;=D0=98=D0=B3=D1=80=D1=8B =D0=9F=D1=80=D0=B5=D1=81=D1=82=
+=D0=BE=D0=BB=D0=BE=D0=B2&raquo; <span style=3D"white-space: nowrap;">=D0=B2=
+&nbsp;=D0=91=D0=B8=D0=BB=D0=B0=D0=B9=D0=BD&nbsp;=D0=A2=D0=92!</span>
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09<p style=3D"padding: 0; Margin: 5px 0 0; color: #28=
+2828; font-family: Arial, sans-serif; font-size: 16px; line-height: 21px;">
+=09=09=09=09=09=09=09=09=09=D0=92=D0=BE=D0=BA=D1=80=D1=83=D0=B3 =D1=82=D0=
+=BE=D0=BB=D1=8C=D0=BA=D0=BE <span style=3D"white-space: nowrap;">=D0=B8&nbs=
+p;=D1=80=D0=B0=D0=B7=D0=B3=D0=BE=D0=B2=D0=BE=D1=80=D0=BE=D0=B2,</span> =D1=
+=87=D1=82=D0=BE <span style=3D"white-space: nowrap;">=D0=BE&nbsp;=D1=84=D0=
+=B8=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=BC</span> =D1=81=D0=B5=D0=B7=D0=
+=BE=D0=BD=D0=B5 &laquo;=D0=98=D0=B3=D1=80=D1=8B =D0=BF=D1=80=D0=B5=D1=81=D1=
+=82=D0=BE=D0=BB=D0=BE=D0=B2&raquo;. =D0=95=D1=81=D0=BB=D0=B8 <span style=3D=
+"white-space: nowrap;">=D0=B2=D1=8B&nbsp;=D1=82=D0=BE=D0=B6=D0=B5</span> =
+=D0=B6=D0=B4=D1=91=D1=82=D0=B5 =D0=B2=D0=B5=D1=81=D0=B5=D0=BD=D0=BD=D0=B8=
+=D1=85 =D0=BF=D1=80=D0=B5=D0=BC=D1=8C=D0=B5=D1=80, =D0=BF=D0=BE=D0=B7=D0=BD=
+=D0=B0=D0=BA=D0=BE=D0=BC=D1=8C=D1=82=D0=B5=D1=81=D1=8C <span style=3D"white=
+-space: nowrap;">=D1=81&nbsp;=D0=91=D0=B8=D0=BB=D0=B0=D0=B9=D0=BD =D0=A2=D0=
+=92.</span> =D0=90=D0=BC=D0=B5=D0=B4=D0=B8=D0=B0=D1=82=D0=B5=D0=BA=D0=B0 <s=
+pan style=3D"white-space: nowrap;">=D0=B8&nbsp;=D0=BB=D1=83=D1=87=D1=88=D0=
+=B8=D0=B5</span> =D1=81=D0=B5=D1=80=D0=B8=D0=B0=D0=BB=D1=8B <span style=3D"=
+white-space: nowrap;">=D0=BF=D0=BB=D0=B0=D0=BD=D0=B5=D1=82=D1=8B&nbsp;&mdas=
+h;</span> <span style=3D"white-space: nowrap;">=D0=B2&nbsp;=D1=85=D0=BE=D1=
+=80=D0=BE=D1=88=D0=B5=D0=BC</span> =D0=BA=D0=B0=D1=87=D0=B5=D1=81=D1=82=D0=
+=B2=D0=B5 <span style=3D"white-space: nowrap;">=D0=B8&nbsp;=D0=B1=D0=B5=D0=
+=B7 =D1=80=D0=B5=D0=BA=D0=BB=D0=B0=D0=BC=D1=8B.</span>
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-=
+->
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"padding: 0px 0 35px;">
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"256" height=
+=3D"48" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td width=3D"1=
+00%" height=3D"48" align=3D"center" valign=3D"middle" bgcolor=3D"#fdc873" s=
+tyle=3D"color: #282828; font-family: Arial, sans-serif; font-size: 18px; wh=
+ite-space: nowrap; text-decoration: none; outline: none; padding: 0 20px; b=
+ackground-color: #fdc873;"><![endif]-->
+=09=09=09=09=09=09=09<a href=3D"https://www.beeline.ru/customers/products/m=
+obile/bonus/premium-status/?utm_medium=3Demail&utm_source=3Dcbm&utm_campaig=
+n=3D121586-partners-digest-apr2019_beelinetv-button&utm_content=3Dbeelinetv=
+-button&item=3Ditem06#item06" target=3D"_blank" rel=3D"noopener" style=3D"d=
+isplay: inline-block; min-width: 256px; padding: 12px 0 10px; color: #28282=
+8; font-family: Arial, sans-serif; font-size: 18px; line-height: 20px; whit=
+e-space: nowrap; text-decoration: none; text-align: center; outline: none; =
+border-bottom: #f8c568 1px solid; box-sizing: border-box; background: #fdc8=
+73; background: linear-gradient(to bottom, #f9c25a, #fdce66); box-shadow: 0=
+ 4px 0 0 #ebb26a, 0 5px 0 0 #c88523, 0 5px 8px 0 rgba(116,52,0,.4); -webkit=
+-box-shadow: 0 4px 0 0 #ebb26a, 0 5px 0 0 #c88523, 0 5px 8px 0 rgba(116,52,=
+0,.4); border-radius: 19px;"><span style=3D"padding: 0 17px;">=D0=9F=D0=BE=
+=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=D0=B5=D0=B5</span></a>
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-=
+->
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- /item 6 -->=20
+=09=09=09=09=09 =20
+=09=09=09=09=09<!-- item 8 -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"font-size: 0; line-height: 0; padding: 0px;">
+=09=09=09=09=09=09=09<a href=3D"https://www.beeline.ru/customers/products/m=
+obile/bonus/premium-status/?utm_medium=3Demail&utm_source=3Dcbm&utm_campaig=
+n=3D121586-partners-digest-apr2019_italy-pic&utm_content=3Ditaly-pic&item=
+=3Ditem08#item08" target=3D"_blank" rel=3D"noopener">
+=09=09=09=09=09=09=09=09<img src=3D"http://cm.beeline.ru/em/images/712196/i=
+mages/pic08_121586.jpg" width=3D"640" height=3D"301" border=3D"0" alt=3D"=
+=D0=A1=D0=BA=D0=B8=D0=B4=D0=BA=D0=B0=C2=A010% =D0=BD=D0=B0=C2=A0=D0=B0=D0=
+=B2=D1=82=D0=BE=D1=80=D1=81=D0=BA=D0=B8=D0=B9 =D1=82=D1=83=D1=80 =D0=B2=C2=
+=A0=D0=98=D1=82=D0=B0=D0=BB=D0=B8=D1=8E =D0=BD=D0=B0=C2=A0=D0=BC=D0=B0=D0=
+=B9=D1=81=D0=BA=D0=B8=D0=B5 =D0=BF=D1=80=D0=B0=D0=B7=D0=B4=D0=BD=D0=B8=D0=
+=BA=D0=B8!" title=3D"" style=3D"width: 100%; height: auto;" />
+=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"padding: 25px 20px 20px; color: #282828; font-family: Arial, sans-s=
+erif; font-size: 16px; line-height: 21px;">
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"580" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"center" valign=
+=3D"top" style=3D"color: #282828; font-family: Arial, sans-serif; font-size=
+: 16px; line-height: 21px;"><![endif]-->
+=09=09=09=09=09=09=09<div style=3D"max-width: 580px; Margin: 0 auto; text-a=
+lign: center;">
+=09=09=09=09=09=09=09=09<p style=3D"Margin: 0px; padding: 0; color: #282828=
+; font-family: Arial, sans-serif; font-size: 22px; line-height: 28px;">
+=09=09=09=09=09=09=09=09=09<span style=3D"white-space: nowrap;">=D0=A1=D0=
+=BA=D0=B8=D0=B4=D0=BA=D0=B0&nbsp;10%</span> <span style=3D"white-space: now=
+rap;">=D0=BD=D0=B0&nbsp;=D0=B0=D0=B2=D1=82=D0=BE=D1=80=D1=81=D0=BA=D0=B8=D0=
+=B9</span> =D1=82=D1=83=D1=80 <span style=3D"white-space: nowrap;">=D0=B2&n=
+bsp;=D0=98=D1=82=D0=B0=D0=BB=D0=B8=D1=8E</span> <span style=3D"white-space:=
+ nowrap;">=D0=BD=D0=B0&nbsp;=D0=BC=D0=B0=D0=B9=D1=81=D0=BA=D0=B8=D0=B5</spa=
+n> =D0=BF=D1=80=D0=B0=D0=B7=D0=B4=D0=BD=D0=B8=D0=BA=D0=B8!
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09<p style=3D"Margin:5px 0 0; padding: 0; font-size: =
+13px; line-height: 18px; color: #787878;">
+=09=09=09=09=09=09=09=09=09(=D0=9C=D0=BE=D1=81=D0=BA=D0=B2=D0=B0)
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09<p style=3D"padding: 0; Margin: 5px 0 0; color: #28=
+2828; font-family: Arial, sans-serif; font-size: 16px; line-height: 21px;">
+=09=09=09=09=09=09=09=09=09=D0=AD=D1=82=D0=BE=D1=82 =D1=82=D1=83=D1=80 =D0=
+=B4=D0=BB=D1=8F =D1=82=D0=B5=D1=85, =D0=BA=D1=82=D0=BE =D1=83=D0=B6=D0=B5 =
+=D0=BF=D0=BE=D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=B5=D0=BB =D0=9A=D0=BE=D0=BB=
+=D0=B8=D0=B7=D0=B5=D0=B9 <span style=3D"white-space: nowrap;">=D0=B8&nbsp;=
+=D0=BE=D1=82=D0=BC=D0=B5=D1=87=D0=B5=D0=BD</span> <span style=3D"white-spac=
+e: nowrap;">=D0=BD=D0=B0&nbsp;=D1=84=D0=BE=D1=82=D0=BE</span> <span style=
+=3D"white-space: nowrap;">=D1=83&nbsp;=D0=9F=D0=B8=D0=B7=D0=B0=D0=BD=D1=81=
+=D0=BA=D0=BE=D0=B9</span> =D0=B1=D0=B0=D1=88=D0=BD=D0=B8. =D0=94=D0=BB=D1=
+=8F =D1=82=D0=B5=D1=85, =D0=BA=D1=82=D0=BE =D1=85=D0=BE=D1=87=D0=B5=D1=82 =
+=D1=83=D0=B2=D0=B8=D0=B4=D0=B5=D1=82=D1=8C =D0=BD=D0=B0=D1=81=D1=82=D0=BE=
+=D1=8F=D1=89=D1=83=D1=8E =D0=98=D1=82=D0=B0=D0=BB=D0=B8=D1=8E: <span style=
+=3D"white-space: nowrap;">=D1=81&nbsp;=D1=80=D0=B0=D0=B7=D0=B2=D0=B5=D1=88=
+=D0=B5=D0=BD=D0=BD=D1=8B=D0=BC</span> =D0=BF=D0=BE=D1=81=D1=80=D0=B5=D0=B4=
+=D0=B8 =D1=83=D0=BB=D0=B8=D1=86=D1=8B =D0=B1=D0=B5=D0=BB=D1=8C=D1=91=D0=BC;=
+ <span style=3D"white-space: nowrap;">=D1=81&nbsp;=D0=B1=D1=80=D0=B0=D0=BD=
+=D1=8F=D1=89=D0=B5=D0=B9=D1=81=D1=8F</span> <span style=3D"white-space: now=
+rap;">=D0=B8&nbsp;=D0=BF=D0=BE=D1=82=D1=80=D1=8F=D1=81=D1=8B=D0=B2=D0=B0=D1=
+=8E=D1=89=D0=B5=D0=B9</span> =D0=BC=D0=BE=D0=BA=D1=80=D1=8B=D0=BC =D1=84=D0=
+=B0=D1=80=D1=82=D1=83=D0=BA=D0=BE=D0=BC =D0=B4=D0=BE=D0=BD=D0=BD=D0=BE=D0=
+=B9 =D0=A0=D0=BE=D0=B7=D0=BE=D0=B9, =D0=BE=D1=82=D1=87=D0=B8=D1=82=D1=8B=D0=
+=B2=D0=B0=D1=8E=D1=89=D0=B5=D0=B9 <span style=3D"white-space: nowrap;">47-=
+=D0=BB=D0=B5=D1=82=D0=BD=D0=B5=D0=B3=D0=BE</span> =D1=81=D1=8B=D0=BD=D0=B0.=
+ =D0=94=D0=B0=D1=80=D0=B8=D0=BC <span style=3D"white-space: nowrap;">=D1=81=
+=D0=BA=D0=B8=D0=B4=D0=BA=D1=83&nbsp;10%</span> <span style=3D"white-space: =
+nowrap;">=D0=BD=D0=B0&nbsp;=D0=B2=D0=BF=D0=B5=D1=87=D0=B0=D1=82=D0=BB=D0=B5=
+=D0=BD=D0=B8=D1=8F!</span>
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-=
+->
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" s=
+tyle=3D"padding: 0px 0 35px;">
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"256" height=
+=3D"48" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td width=3D"1=
+00%" height=3D"48" align=3D"center" valign=3D"middle" bgcolor=3D"#fdc873" s=
+tyle=3D"color: #282828; font-family: Arial, sans-serif; font-size: 18px; wh=
+ite-space: nowrap; text-decoration: none; outline: none; padding: 0 20px; b=
+ackground-color: #fdc873;"><![endif]-->
+=09=09=09=09=09=09=09<a href=3D"https://www.beeline.ru/customers/products/m=
+obile/bonus/premium-status/?utm_medium=3Demail&utm_source=3Dcbm&utm_campaig=
+n=3D121586-partners-digest-apr2019_italy-button&utm_content=3Ditaly-button&=
+item=3Ditem08#item08" target=3D"_blank" rel=3D"noopener" style=3D"display: =
+inline-block; min-width: 256px; padding: 12px 0 10px; color: #282828; font-=
+family: Arial, sans-serif; font-size: 18px; line-height: 20px; white-space:=
+ nowrap; text-decoration: none; text-align: center; outline: none; border-b=
+ottom: #f8c568 1px solid; box-sizing: border-box; background: #fdc873; back=
+ground: linear-gradient(to bottom, #f9c25a, #fdce66); box-shadow: 0 4px 0 0=
+ #ebb26a, 0 5px 0 0 #c88523, 0 5px 8px 0 rgba(116,52,0,.4); -webkit-box-sha=
+dow: 0 4px 0 0 #ebb26a, 0 5px 0 0 #c88523, 0 5px 8px 0 rgba(116,52,0,.4); b=
+order-radius: 19px;"><span style=3D"padding: 0 17px;">=D0=9F=D0=BE=D0=B4=D1=
+=80=D0=BE=D0=B1=D0=BD=D0=B5=D0=B5</span></a>
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-=
+->
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- /item 8 -->=20
+=09=09=09=09=09=09
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" bgcolor=3D"#f6f4f2" s=
+tyle=3D"padding: 28px 20px 24px; color: #282828; font-family: Arial, sans-s=
+erif; font-size: 16px; line-height: 21px; border-radius: 0 0 13px 13px; -ms=
+-border-radius: 0 0 13px 13px; -moz-border-radius: 0 0 13px 13px; -webkit-b=
+order-radius: 0 0 13px 13px;" class=3D"no-border-radius">
+=09=09=09=09=09=09=09<!--[if gte mso 10]><table width=3D"580" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"center" valign=3D"top"=
+ style=3D"font-family: Arial, sans-serif; font-size: 16px; line-height: 21p=
+x;"><![endif]-->
+=09=09=09=09=09=09=09<div style=3D"max-width: 580px; Margin: 0 auto; text-a=
+lign: center; font-size: 16px; line-height: 21px; color: #787878; font-fami=
+ly: Arial, sans-serif;">
+=09=09=09=09=09=09=09=09<p style=3D"Margin: 0 0 8px; padding: 0; text-align=
+: center; font-size: 16px; line-height: 21px; color: #787878; font-family: =
+Arial, sans-serif;">
+=09=09=09=09=09=09=09=09=09=D0=A1=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B8=
+=D0=B9 =D0=B2=D1=8B=D0=BF=D1=83=D1=81=D0=BA =D1=81=D0=BF=D0=B5=D1=86=D0=B8=
+=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D0=BF=D1=80=D0=B5=D0=B4=D0=BB=D0=BE=
+=D0=B6=D0=B5=D0=BD=D0=B8=D0=B9 =D0=B2=D1=8B=D0=B9=D0=B4=D0=B5=D1=82 <span s=
+tyle=3D"white-space: nowrap;">=D1=87=D0=B5=D1=80=D0=B5=D0=B7&nbsp;=D0=BC=D0=
+=B5=D1=81=D1=8F=D1=86!</span>
+=09=09=09=09=09=09=09=09</p>
+=09=09=09=09=09=09=09=09=D0=AD=D1=82=D0=BE=D1=82 =D0=B4=D0=B0=D0=B9=D0=B4=
+=D0=B6=D0=B5=D1=81=D1=82 =D0=BA=D0=B0=D0=B6=D0=B4=D1=8B=D0=B9 =D0=BC=D0=B5=
+=D1=81=D1=8F=D1=86 <span style=3D"white-space: nowrap;">=D1=87=D0=B8=D1=82=
+=D0=B0=D1=8E=D1=82</span> =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 <span style=3D"whi=
+te-space: nowrap;">3&nbsp;000&nbsp;000</span> =D0=B0=D0=B1=D0=BE=D0=BD=D0=
+=B5=D0=BD=D1=82=D0=BE=D0=B2 =D0=91=D0=B8=D0=BB=D0=B0=D0=B9=D0=BD. <span sty=
+le=3D"white-space: nowrap;">=D0=A3&nbsp;=D0=B2=D0=B0=D1=81</span> =D0=B5=D1=
+=81=D1=82=D1=8C =D0=B2=D1=8B=D0=B3=D0=BE=D0=B4=D0=BD=D0=BE=D0=B5 <span styl=
+e=3D"white-space: nowrap;">=D0=BF=D1=80=D0=B5=D0=B4=D0=BB=D0=BE=D0=B6=D0=B5=
+=D0=BD=D0=B8=D0=B5?</span> =D0=9D=D0=B0=D0=BF=D0=B8=D1=88=D0=B8=D1=82=D0=B5=
+ =D0=BD=D0=B0=D0=BC <span style=3D"white-space: nowrap;">=D0=BD=D0=B0&nbsp;=
+<a href=3D"mailto:partnership@beeline.ru" target=3D"_blank" rel=3D"noopener=
+" style=3D"color: #5e9fca; text-decoration: none; outline: none;">partnersh=
+ip@beeline.ru</a>.</span>
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09<!--[if gte mso 10]></td></tr></table><![endif]-->
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>=20
+=09=09=09=09</table>
+=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+=09=09=09</td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" borde=
+r=3D"0" style=3D"max-width: 640px; min-width: 320px;">
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" style=3D"padding: 5px=
+ 0px 23px; line-height: 0; font-size: 0;">
+=09=09=09=09=09=09=09<div style=3D"padding: 0px;">
+=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"640" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td width=3D"50%" align=3D=
+"left" valign=3D"top" style=3D"padding-top: 16px;"><table width=3D"158" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"left"><tr><td width=
+=3D"100%" valign=3D"top"><![endif]-->
+=09=09=09=09=09=09=09=09<div style=3D"display: inline-block; width: 50%; ve=
+rtical-align: top;">
+=09=09=09=09=09=09=09=09=09<div style=3D"display: inline-block; width: 30%;=
+ min-width: 156px; Margin: 20px 0 0;vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09<table cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" align=3D"center">
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<a target=3D"_blank" href=3D"https:/=
+/www.facebook.com/Beelinerus" border=3D"0" style=3D"outline: none; border: =
+none; text-decoration: none;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img alt=3D"Fb" title=3D"Fb" src=
+=3D"http://cm.beeline.ru/em/images/712196/images/icon_fb_d.png" width=3D"32=
+" height=3D"32" border=3D"0" style=3D"border: 0; Margin: 0;padding: 0;  ver=
+tical-align:bottom;"><br>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"10"> &nbsp; </td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<a target=3D"_blank" href=3D"https:/=
+/vk.com/beeline" border=3D"0" style=3D"outline: none; border: none; text-de=
+coration: none;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img alt=3D"Vk" title=3D"Vk" src=
+=3D"http://cm.beeline.ru/em/images/712196/images/icon_vk_d.png" width=3D"32=
+" height=3D"32" border=3D"0" style=3D"border: 0; Margin: 0;padding: 0; vert=
+ical-align:bottom;"><br>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"10"> &nbsp; </td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<a target=3D"_blank" href=3D"https:/=
+/twitter.com/Beeline_RUS" border=3D"0" style=3D"outline: none; border: none=
+; text-decoration: none;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img alt=3D"Tw" title=3D"Tw" src=
+=3D"http://cm.beeline.ru/em/images/712196/images/icon_tw_d.png" width=3D"32=
+" height=3D"32" border=3D"0" style=3D"border: 0; Margin: 0;padding: 0;  ver=
+tical-align:bottom;"><br>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"10"> &nbsp; </td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<a target=3D"_blank" href=3D"https:/=
+/odnoklassniki.ru/beeline" border=3D"0" style=3D"outline: none; border: non=
+e; text-decoration: none;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img alt=3D"Ok" title=3D"Ok" src=
+=3D"http://cm.beeline.ru/em/images/712196/images/icon_ok_d.png" width=3D"32=
+" height=3D"32" border=3D"0" style=3D"border: 0; Margin: 0;padding: 0; vert=
+ical-align:bottom;"><br>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</table>=20
+=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09<div style=3D"display: inline-block; width: 35%;=
+ min-width: 164px; height: 1px;"></div>=20
+=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table></td><t=
+d width=3D"50%" align=3D"right" style=3D"padding-top: 16px;"><table width=
+=3D"292" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"right"><=
+tr><td width=3D"100%" valign=3D"top"><![endif]-->
+=09=09=09=09=09=09=09=09<div style=3D"display: inline-block; width: 50%; mi=
+n-width: 320px; height: 34px; Margin: 19px 0 0; vertical-align: middle; tex=
+t-align: center;">
+=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"100%" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"right"><tr><td al=
+ign=3D"right" valign=3D"top"><![endif]-->
+=09=09=09=09=09=09=09=09=09<a href=3D"http://www.beeline.ru/customers/produ=
+cts/" target=3D"_blank" border=3D"0" class=3D"slogan__bottom" style=3D"outl=
+ine: none; border: none; text-decoration: none; display: inline-block; Marg=
+in: 0 0 0 150px;">
+=09=09=09=09=09=09=09=09=09=09<img src=3D"http://cm.beeline.ru/em/images/71=
+2196/images/slogan_top_b2=D1=81_d.png" width=3D"170" height=3D"15" alt=3D"=
+=D0=96=D0=B8=D0=B2=D0=B8 =D0=BD=D0=B0 =D1=8F=D1=80=D0=BA=D0=BE=D0=B9 =D1=81=
+=D1=82=D0=BE=D1=80=D0=BE=D0=BD=D0=B5!" title=3D"=D0=96=D0=B8=D0=B2=D0=B8 =
+=D0=BD=D0=B0 =D1=8F=D1=80=D0=BA=D0=BE=D0=B9 =D1=81=D1=82=D0=BE=D1=80=D0=BE=
+=D0=BD=D0=B5!" style=3D"border: 0; padding: 0; Margin: 0px;">
+=09=09=09=09=09=09=09=09=09</a><br />
+=09=09=09=09=09=09=09=09=09<a href=3D"http://www.beeline.ru/customers/produ=
+cts/" target=3D"_blank" border=3D"0" class=3D"slogan__bottom" style=3D"outl=
+ine: none; border: none; text-decoration: none; display: inline-block; Marg=
+in: 4px 0 0 263px;">
+=09=09=09=09=09=09=09=09=09=09<img src=3D"http://cm.beeline.ru/em/images/71=
+2196/images/slogan_bottom_d.png" width=3D"53" height=3D"12" alt=3D"=D0=91=
+=D0=B8=D0=BB=D0=B0=D0=B9=D0=BD"  title=3D"=D0=91=D0=B8=D0=BB=D0=B0=D0=B9=D0=
+=BD" style=3D"border: 0; Margin: 0; padding: 0;">
+=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![e=
+ndif]-->
+=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table></td></=
+tr></table><![endif]-->
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td align=3D"center" valign=3D"0" bgcolor=3D"#dfd9d6" style=3D"bac=
+kground: #dfd9d6;">
+=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"640" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0"><tr><td width=3D"100%" valign=3D"top"><![e=
+ndif]-->
+=09=09=09=09<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" borde=
+r=3D"0" style=3D"max-width: 680px; min-width: 320px;">=20
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"middle" style=3D"padding: =
+18px 20px; font-size: 11px; line-height: 13px; font-family: Arial, sans-ser=
+if; color: #787878;">
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]><table width=3D"640" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td align=3D"center" valign=
+=3D"top" style=3D"font-size: 11px; line-height: 13px; font-family: Arial, s=
+ans-serif; color: #787878;"><![endif]-->
+=09=09=09=09=09=09=09<div style=3D"max-width: 640px; Margin: 0 auto; text-a=
+lign: center;">
+=09=09=09=09=09=09=09=09<p style=3D"padding: 0; Margin: 0 0 5px;">
+=09=09=09=09=09=09=09=09<span style=3D"white-space: nowrap;">=D0=9F=D0=90=
+=D0=9E&nbsp;&laquo;=D0=92=D1=8B=D0=BC=D0=BF=D0=B5=D0=BB=D0=9A=D0=BE=D0=BC&r=
+aquo;,</span> <a style=3D"color: #787878 !important; text-decoration: none;=
+"><span style=3D"color: #787878 !important; text-decoration: none;" class=
+=3D"apple-links">=D0=A0=D0=A4, <span style=3D"color: #787878 !important; te=
+xt-decoration: none;">127083</span>, <span style=3D"white-space: nowrap;">=
+=D0=B3.&nbsp;=D0=9C=D0=BE=D1=81=D0=BA=D0=B2=D0=B0,</span> <span style=3D"wh=
+ite-space: nowrap;">=D1=83=D0=BB.&nbsp;=D0=92=D0=BE=D1=81=D1=8C=D0=BC=D0=BE=
+=D0=B3=D0=BE&nbsp;=D0=BC=D0=B0=D1=80=D1=82=D0=B0,</span> <span style=3D"whi=
+te-space: nowrap;">=D0=B4.&nbsp;10,</span> <span style=3D"white-space: nowr=
+ap;">=D1=81=D1=82=D1=80.&nbsp;14,</span></span></a> <span style=3D"white-sp=
+ace: nowrap;">=D0=9E=D0=93=D0=A0=D0=9D&nbsp;<a style=3D"color: #787878 !imp=
+ortant; text-decoration: none;"><span style=3D"color: #787878 !important; t=
+ext-decoration: none;" class=3D"apple-links">1027700166636</span></a></span=
+>.
+=09              =09=09=09=09</p>
+=09=09=09=09=09=09=09=09=D0=A1=D0=BF=D0=B5=D1=86=D0=B8=D0=B0=D0=BB=D1=8C=D0=
+=BD=D0=BE =D0=B4=D0=BB=D1=8F =D0=B2=D0=B0=D1=81 <span style=3D"white-space:=
+ nowrap;">=D0=BC=D1=8B&nbsp;=D0=BF=D0=BE=D0=B4=D0=B1=D0=B8=D1=80=D0=B0=D0=
+=B5=D0=BC</span> =D1=81=D0=B0=D0=BC=D1=83=D1=8E =D0=BF=D0=BE=D0=BB=D0=B5=D0=
+=B7=D0=BD=D1=83=D1=8E <span>=D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=
+=86=D0=B8=D1=8E</span> <span style=3D"white-space: nowrap;">=D0=BE=D0=B1&nb=
+sp;=D0=B0=D0=BA=D1=86=D0=B8=D1=8F=D1=85,</span> =D0=B2=D1=8B=D0=B3=D0=BE=D0=
+=B4=D0=BD=D1=8B=D1=85 =D1=82=D0=B0=D1=80=D0=B8=D1=84=D0=B0=D1=85 <span styl=
+e=3D"white-space: nowrap;">=D0=B8&nbsp;=D1=83=D1=81=D0=BB=D1=83=D0=B3=D0=B0=
+=D1=85&nbsp;=D0=91=D0=B8=D0=BB=D0=B0=D0=B9=D0=BD</span>. =D0=92=D1=8B&nbsp;=
+=D0=BC=D0=BE=D0=B6=D0=B5=D1=82=D0=B5 <a href=3D"http://cm.beeline.ru/unsubs=
+cribe/noxVHMhuZ8nconxNyuE92DrflnCvSICSXvUV54mBCmWaWTq6i4K4dcTi06afiqiPp3vgZ=
+wRwUy1IVY1dQg" style=3D"color: #5e9fca; text-decoration: none; outline: non=
+e;">=D0=BE=D1=82=D0=BA=D0=B0=D0=B7=D0=B0=D1=82=D1=8C=D1=81=D1=8F</a> <span =
+style=3D"white-space: nowrap;">=D0=BE=D1=82&nbsp;=D0=BF=D0=BE=D0=BB=D1=83=
+=D1=87=D0=B5=D0=BD=D0=B8=D1=8F</span> =D0=BF=D0=B8=D1=81=D0=B5=D0=BC <span =
+style=3D"white-space: nowrap;">=D1=81&nbsp;=D0=B2=D0=B0=D0=B6=D0=BD=D1=8B=
+=D0=BC=D0=B8</span> =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F=
+=D0=BC=D0=B8 <span style=3D"white-space: nowrap;">=D0=BE=D1=82&nbsp;=D0=91=
+=D0=B8=D0=BB=D0=B0=D0=B9=D0=BD</span>.
+=09
+=09=09=09=09=09=09=09=09<img height=3D"1" width=3D"1" src=3D"http://cm.beel=
+ine.ru/openMessagePic/noxVHMhuZ8nconxNyuE92DrflnCvSICSXvUV54mBCmWaWTq6i4K4d=
+cTi0w" border=3D"0" />
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-=
+->
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>=20
+=09=09=09=09</table>
+=09=09=09=09<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+=09=09=09</td>
+=09=09</tr>
+=09</table>
+</body>
+</html>
+------=_Part_13477972_1346026285.1554524383330--
+
+------=_Part_13477971_806709030.1554524383330--

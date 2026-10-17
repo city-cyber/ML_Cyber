@@ -1,0 +1,102 @@
+Received: from mxback17o.mail.yandex.net (localhost [127.0.0.1])
+	by mxback17o.mail.yandex.net with LMTP id TJrqLGGOzt-q9S5ojgg
+	for <microman@yandex.ru>; Thu, 11 Jun 2020 14:25:11 +0300
+Received: from mxback17o.mail.yandex.net (localhost.localdomain [127.0.0.1])
+	by mxback17o.mail.yandex.net (Yandex) with ESMTP id C9C232460010
+	for <microman@yandex.ru>; Thu, 11 Jun 2020 14:25:11 +0300 (MSK)
+X-Yandex-Internal: 1
+Received: from localhost (localhost [::1])
+	by mxback17o.mail.yandex.net (mxback/Yandex) with ESMTP id kauo5ofcVq-PBaSD1MD;
+	Thu, 11 Jun 2020 14:25:11 +0300
+X-Yandex-Front: mxback17o.mail.yandex.net
+X-Yandex-TimeMark: 1591874711.511
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yandex.ru; s=mail; t=1591874711;
+	bh=IchPM7VKgz/+0xBlNoBkL7Uj3412CHo0YiCtbHZJmVM=;
+	h=Message-Id:Date:Subject:To:From;
+	b=fqgobGaWjkpSw0yXq9JTA81ayviFA/mPmIb6yhaFejh2pCQE01VIKOkYaywhgcZ3U
+	 0RA708DVhPDsEmjYz9Za/gDQWsQsJRLf82xeIsVrTA2YEDyzCtT2F56W+xXRO4ICmN
+	 h6YuyXuljmUaSzQhDqrFSGTw/fQgVkp+SzOhlvIU=
+Authentication-Results: mxback17o.mail.yandex.net; dkim=pass header.i=@yandex.ru
+X-Yandex-MXCode: GRE
+X-Yandex-Suid-Status: 1 0,1 0
+X-Yandex-Spam: 1
+X-Yandex-Sender-Uid: 173473234
+Received: by myt5-7c065e56d126.qloud-c.yandex.net with HTTP;
+	Thu, 11 Jun 2020 14:25:11 +0300
+From: <microman@yandex.ru>
+To: <tea@mail.ru>
+Subject: =?utf-8?B?0J7RhtC10L3QutCw?=
+MIME-Version: 1.0
+X-Mailer: Yamail [ http://yandex.ru ] 5.0
+Date: Thu, 11 Jun 2020 14:25:11 +0300
+Message-Id: <88361591874220@mail.yandex.ru>
+Content-Type: multipart/mixed;
+	boundary="----==--bound.336275.myt5-7c065e56d126.qloud-c.yandex.net"
+Return-Path: microman@yandex.ru
+
+
+------==--bound.336275.myt5-7c065e56d126.qloud-c.yandex.net
+Content-Type: multipart/related;
+	boundary="----==--bound.336276.myt5-7c065e56d126.qloud-c.yandex.net"
+
+
+------==--bound.336276.myt5-7c065e56d126.qloud-c.yandex.net
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset=utf-8
+
+<div>Здравствуйте! Можно ли будет поговорить устно по теории? У меня все ошибки в тестовой части чисто по невнимательности...</div><div><img src="cid:3362741591874711@myt5-7c065e56d126.qloud-c.yandex.net" style="max-width:100%" /></div><div>С уважением, Петров К., М8О-204Б-18.</div>
+------==--bound.336276.myt5-7c065e56d126.qloud-c.yandex.net
+Content-Disposition: inline;
+	filename="=?US-ASCII?B?0LjQt9C+0LHRgNCw0LbQtdC90LjQtS5wbmc=?="
+Content-Id: <3362741591874711@myt5-7c065e56d126.qloud-c.yandex.net>
+Content-Transfer-Encoding: base64
+Content-Type: image/png;
+	name="=?US-ASCII?B?0LjQt9C+0LHRgNCw0LbQtdC90LjQtS5wbmc=?="
+
+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
+SUVORK5CYII=
+------==--bound.336276.myt5-7c065e56d126.qloud-c.yandex.net--
+
+------==--bound.336275.myt5-7c065e56d126.qloud-c.yandex.net--

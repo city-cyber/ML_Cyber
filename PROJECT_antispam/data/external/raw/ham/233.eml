@@ -1,0 +1,97 @@
+Return-Path: <postmaster@cio55018.roboflow.com>
+Received: from zimbra.avsw.ru (LHLO zimbra.avsw.ru) (192.168.80.26) by
+ zimbra.avsw.ru with LMTP; Mon, 14 Feb 2022 18:23:16 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by zimbra.avsw.ru (Postfix) with ESMTP id 3B9E3C1FD3
+	for <v.petrov@avsw.ru>; Mon, 14 Feb 2022 18:23:16 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at zimbra.avsw.ru
+X-Spam-Flag: NO
+X-Spam-Score: 0.705
+X-Spam-Level:
+X-Spam-Status: No, score=0.705 required=6.6 tests=[DKIM_SIGNED=0.1,
+	DKIM_VALID=-0.1, HTML_IMAGE_ONLY_20=0.7, HTML_MESSAGE=0.001,
+	RCVD_IN_MSPIKE_H3=0.001, RCVD_IN_MSPIKE_WL=0.001, SPF_HELO_NONE=0.001,
+	SPF_PASS=-0.001, UNPARSEABLE_RELAY=0.001, URIBL_BLOCKED=0.001]
+	autolearn=no autolearn_force=no
+Authentication-Results: zimbra.avsw.ru (amavisd-new); dkim=pass (1024-bit key)
+	header.d=cio55018.roboflow.com
+Received: from zimbra.avsw.ru ([127.0.0.1])
+	by localhost (zimbra.avsw.ru [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id emNJzbSMEIzN for <v.petrov@avsw.ru>;
+	Mon, 14 Feb 2022 18:23:15 +0000 (UTC)
+Received: from m193-2.mailgun.net (m193-2.mailgun.net [161.38.193.2])
+	by zimbra.avsw.ru (Postfix) with ESMTPS id E02BAC1E22
+	for <v.petrov@avsw.ru>; Mon, 14 Feb 2022 18:23:09 +0000 (UTC)
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=cio55018.roboflow.com;
+ q=dns/txt; s=pic; t=1644862995; h=Message-Id: To: From: Subject:
+ Content-Type: Mime-Version: Date;
+ bh=nH9MTXVHjA4uX98lpGlOPaJguUpg7rwlHfO7usWUo60=; b=jmR95hUD+06FEdUwBY1YpbvLWDUWVNc/+QYgB/ChZVfDhbxyg+iPr1+5Mkt2caUWuMRFG0Rm
+ PjryZpAplNqT1ZtgWoct8Wb8324cTLT4WC8W8Qpm06KtdSPT15NCuS6D4WZqcM1AWHgF8OF+
+ nlsKiWagOUUBDBqU7F/R9lZirGU=
+X-Mailgun-Sending-Ip: 161.38.193.2
+X-Mailgun-Sid: WyI4MzZkYiIsICJ2LmxhcmtpbkBhdnN3LnJ1IiwgIjY5Y2ZhMyJd
+Received: from <unknown> (<unknown> []) by
+ api-n06.prod.us-east-1.postgun.com with HTTP id 620a9dde110bf0c78174e398;
+ Mon, 14 Feb 2022 18:22:22 GMT
+Date: Mon, 14 Feb 2022 18:22:22 +0000
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary=8f9b8f38c572b60cc96169ab7be421fa90bbb623baa9c38c42d2dfe91ebc
+Subject: =?UTF-8?b?8J+Ri/CfkYsgIE5pY2UgdG8gbWVldCB5b3U=?=
+From: Joseph Nelson <joseph.nelson@roboflow.com>
+To: v.petrov@avsw.ru
+X-Mailgun-Dkim: true
+X-Mailgun-Native-Send: true
+X-Mailgun-Track-Clicks: false
+X-Mailgun-Track-Opens: false
+X-Mailer: Customer.io (RIDJBQAAAX75eK1zq41iUSmMQcK4eA==;
+ +https://whatis.customeriomail.com)
+X-Report-Abuse-To: badactor@customer.io
+X-Mailgun-Variables: {"email_id":"RIDJBQAAAX75eK1zq41iUSmMQcK4eA=="}
+Message-Id: <20220214182222.fb3beed4a9766ec3@cio55018.roboflow.com>
+
+--8f9b8f38c572b60cc96169ab7be421fa90bbb623baa9c38c42d2dfe91ebc
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=ascii
+
+Steve -- I'm Joseph, the founder and CEO of Roboflow. I saw you recently signed up and wanted to introduce myself.
+
+Thousands of developers from Fortune 500 companies to individuals alike use Roboflow; I'm interested to hear more about your specific project. What questions do you have as you've gotten started?
+
+Please don't hesitate to reach out if you encounter any issues. Also, our docs are here ( https://docs.roboflow.com?ref=welcome&utm_campaign=Onboarding&utm_content=Personal+Message+%28app%29&utm_medium=email_action&utm_source=email ).
+
+All the best,
+
+Joseph Nelson
+
+Founder, CEO
+
+Roboflow
+
+Transform raw images into a trained computer vision model in minutes.
+
+https://roboflow.com ( https://roboflow.com?utm_campaign=Onboarding&utm_content=Personal+Message+%28app%29&utm_medium=email_action&utm_source=email )
+--8f9b8f38c572b60cc96169ab7be421fa90bbb623baa9c38c42d2dfe91ebc
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html; charset=ascii
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><html><head></head><body>
+    Steve -- I&#39;m Joseph, the founder and CEO of Roboflow. I saw you recently signed up and wanted to introduce myself.
+<br/><br/>
+Thousands of developers from Fortune 500 companies to individuals alike use Roboflow; I&#39;m interested to hear more about your specific project. What questions do you have as you&#39;ve gotten started?<br/><br/>
+
+Please don&#39;t hesitate to reach out if you encounter any issues. Also, our docs are <a href="http://email.roboflow.com/e/c/eyJlbWFpbF9pZCI6IlJJREpCUUFBQVg3NWVLMXpxNDFpVVNtTVFjSzRlQT09IiwiaHJlZiI6Imh0dHBzOi8vZG9jcy5yb2JvZmxvdy5jb20_cmVmPXdlbGNvbWVcdTAwMjZ1dG1fY2FtcGFpZ249T25ib2FyZGluZ1x1MDAyNnV0bV9jb250ZW50PVBlcnNvbmFsK01lc3NhZ2UrJTI4YXBwJTI5XHUwMDI2dXRtX21lZGl1bT1lbWFpbF9hY3Rpb25cdTAwMjZ1dG1fc291cmNlPWVtYWlsIiwiaW50ZXJuYWwiOiI4MGM5MDUwMzhlNGQ5ZjhjMDYiLCJsaW5rX2lkIjoxMjN9/6bbfe825f350894190c24906f3f0bb40505c191332a75ae1a8dc679085246f68">here</a>.<br/><br/>
+
+
+All the best,<br/>
+Joseph Nelson <br/>
+<br/>
+Founder, CEO<br/>
+Roboflow<br/>
+<i>Transform raw images into a trained computer vision model in minutes.</i><br/>
+<a href="http://email.roboflow.com/e/c/eyJlbWFpbF9pZCI6IlJJREpCUUFBQVg3NWVLMXpxNDFpVVNtTVFjSzRlQT09IiwiaHJlZiI6Imh0dHBzOi8vcm9ib2Zsb3cuY29tP3V0bV9jYW1wYWlnbj1PbmJvYXJkaW5nXHUwMDI2dXRtX2NvbnRlbnQ9UGVyc29uYWwrTWVzc2FnZSslMjhhcHAlMjlcdTAwMjZ1dG1fbWVkaXVtPWVtYWlsX2FjdGlvblx1MDAyNnV0bV9zb3VyY2U9ZW1haWwiLCJpbnRlcm5hbCI6IjgwYzkwNTAzOGU0ZDlmOGMwNiIsImxpbmtfaWQiOjEyMn0/db6d148c09d6d941f7125e7e83e249a1905c1c90b43a1237a8693fa706837fcb">https://roboflow.com</a>
+
+  
+
+<img src="http://email.roboflow.com/e/o/eyJlbWFpbF9pZCI6IlJJREpCUUFBQVg3NWVLMXpxNDFpVVNtTVFjSzRlQT09In0=" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important; display: none !important;"/></body></html>
+--8f9b8f38c572b60cc96169ab7be421fa90bbb623baa9c38c42d2dfe91ebc--

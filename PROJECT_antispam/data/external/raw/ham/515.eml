@@ -1,0 +1,428 @@
+Received: from sas2-fc6b52564004.qloud-c.yandex.net (sas2-fc6b52564004.qloud-c.yandex.net [2a02:6b8:c08:b11f:0:640:fc6b:5256])
+	by sas2-045ac4210549.qloud-c.yandex.net with LMTP id 5sKYJjLZn0-bkOqti7v
+	for <macrofag@ya.ru>; Fri, 12 Mar 2021 15:22:22 +0300
+Received: from a27-35.smtp-out.us-west-2.amazonses.com (a27-35.smtp-out.us-west-2.amazonses.com [54.240.27.35])
+	by sas2-fc6b52564004.qloud-c.yandex.net (mxfront/Yandex) with ESMTPS id Wdt8hcjVcq-MK9u8pmG;
+	Fri, 12 Mar 2021 15:22:20 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-SHA256 (128/128 bits))
+	(Client certificate not present)
+Return-Path: 0101017826632d84-7f59311a-753c-4b21-a191-3e1051e44069-000000@us-west-2.amazonses.com
+X-Yandex-TimeMark: 1615551741.533
+Authentication-Results: sas2-fc6b52564004.qloud-c.yandex.net; spf=pass (sas2-fc6b52564004.qloud-c.yandex.net: domain of us-west-2.amazonses.com designates 54.240.27.35 as permitted sender, rule=[ip4:54.240.0.0/18]) smtp.mail=0101017826632d84-7f59311a-753c-4b21-a191-3e1051e44069-000000@us-west-2.amazonses.com; dkim=pass header.i=@lite-host.in
+X-Yandex-Suid-Status: 1 534897977
+X-Yandex-Spam: 1
+X-Yandex-Fwd: MTQyNDI0Njc1NTQxODc4MzgxNjcsNTYzNzA2NTA5MzM2NjYxMzk1NA==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=b4uab7u7gwxine6qdlvbxxbirktqq7ye; d=lite-host.in; t=1615551737;
+	h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=Iu5SKTjvCYe16ynMAJap4evzHd3h4ePJY3yWe3yrkD0=;
+	b=I3EJKe0eC9Uana+acETjnEOeQFvOtUVdMGLtxW3EQqvuHiLFu1NUoNnB721FGFSH
+	ECXncVHILcP8qQKoXdDScM95EyTB3Nzd52FM6M/4p1u4oGRxumQauWofQv+VY3DNQYd
+	KCsm+IIKfp9Q4qeBUhof195RNlomqDrBr1AV+J80=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=hsbnp7p3ensaochzwyq5wwmceodymuwv; d=amazonses.com; t=1615551737;
+	h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=Iu5SKTjvCYe16ynMAJap4evzHd3h4ePJY3yWe3yrkD0=;
+	b=V7CCpWEMay2dEMl+Q9YXEYza5InuJPHPxyWwMS9QbaudHvDRd7ftw05NK5SWZEhz
+	4cZ/A3f4XVY4K0Gn9ZuFyJE7Qc90c2mht84WEhMoNLdFTWx8VbqKkAW/n0igHPSINAH
+	yYOoG+l5RZii/qkJDl70fMSGy4LeU3dpBuHjbB+8=
+Date: Fri, 12 Mar 2021 12:22:17 +0000
+To: <macrofag@ya.ru>
+From: =?utf-8?B?0KXQvtGB0YLQuNC90LMgTElURS5IT1NU?= <sales@lite-host.in>
+Reply-To: =?utf-8?B?0KXQvtGB0YLQuNC90LMgTElURS5IT1NU?= <sales@lite-host.in>
+Subject: =?utf-8?B?0KPQstC10LTQvtC80LvQtdC90LjQtSDQviDRgdC60L7RgNC+0Lwg0YPQtNCw?=
+ =?utf-8?B?0LvQtdC90LjQuCDRg9GB0LvRg9Cz0Lg=?=
+Message-ID: <0101017826632d84-7f59311a-753c-4b21-a191-3e1051e44069-000000@us-west-2.amazonses.com>
+X-Mailer: Хостинг LITE.HOST
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_13b3794e6f4f901f20ee5cabecb49bb4"
+Content-Transfer-Encoding: 8bit
+X-SES-Outgoing: 2021.03.12-54.240.27.35
+Feedback-ID: 1.us-west-2.x5PEGmKrN9GutXVjUGWRbekTaAiHt+NfJhnvIfEiMSU=:AmazonSES
+X-Yandex-Forward: 5aae6b49c4f1900e2a489ee3046b6e0b
+
+This is a multi-part message in MIME format.
+
+--b1_13b3794e6f4f901f20ee5cabecb49bb4
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Steve
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Вы не заходили в панель управления услугой "Образовательный" для vlarkin.ru более 60 дней, согласно правилам предоставления образовательного тарифа, необходимо поддерживать активность и посещать панель управления не менее одного раза за 90 дней. Вам необходимо авторизироваться в панели управления хостингом, иначе услуга будет удалена через 30 дней.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://pandora.lite-host.in
+
+
+
+
+
+
+
+
+ 
+
+
+--b1_13b3794e6f4f901f20ee5cabecb49bb4
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<style>
+@media only screen {
+            html {
+                min-height: 100%;
+                background: 0 0
+            }
+        }
+        
+        @media only screen and (max-width:676px) {
+            .small-text-center {
+                text-align: center!important
+            }
+        }
+        
+        @media only screen and (max-width:676px) {
+            table.body img {
+                width: auto;
+                height: auto
+            }
+            table.body center {
+                min-width: 0!important
+            }
+            table.body .container {
+                width: 95%!important
+            }
+            table.body .columns {
+                height: auto!important;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                padding-left: 16px!important;
+                padding-right: 16px!important
+            }
+            th.small-12 {
+                display: inline-block!important;
+                width: 100%!important
+            }
+        }
+</style>
+<table class="body" style="Margin:0;background:0 0;border-collapse:collapse;border-spacing:0;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;height:100%;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;width:100%">
+        <tr style="padding:0;text-align:left;vertical-align:top">
+            <td class="center" align="center" valign="top" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                <center data-parsed="" style="min-width:660px;width:100%">
+                    <table class="spacer float-center" style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:100%">
+                        <tbody>
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                <td height="25px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:25px;font-weight:400;hyphens:auto;line-height:25px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table align="center" class="container float-center" style="Margin:0 auto;background:#FBFAEF;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:660px">
+                        <tbody>
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="wrapper-logotype small-12 large-12 columns first last" style="Margin:0 auto;background-color:#3F363C;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:644px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                                <a href="https://lite.host" style="Margin:0;color:#f66261;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">
+                                                                    <center data-parsed="" style="min-width:612px;width:100%"><img alt="LITE.HOST" src="https://lite.host/assets/images/logo.png" align="center" class="float-center" style="-ms-interpolation-mode:bicubic;Margin:0 auto;border:none;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;padding:20px 0!important;text-align:center;text-decoration:none;width:auto"></center>
+                                                                </a>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <td height="25px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:25px;font-weight:400;hyphens:auto;line-height:25px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+<!-- message header end --><table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<th class="small-12 large-12 columns first last" style="margin: 0 auto; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; padding-bottom: 0; padding-left: 16px; padding-right: 16px; text-align: left; width: 644px;">
+<table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<th style="margin: 0; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; text-align: left;">
+<p class="text-center text-heading" style="margin: 0; margin-bottom: 10px; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 24px; font-weight: bold; line-height: 1.3; padding: 0; text-align: center;">Steve</p>
+</th>
+<th class="expander" style="margin: 0; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0!important; text-align: left; visibility: hidden; width: 0;"> </th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+<table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<td style="-moz-hyphens: auto; -webkit-hyphens: auto; margin: 0; border-collapse: collapse!important; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;" height="15px"> </td>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<th class="small-12 large-12 columns first last" style="margin: 0 auto; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; padding-bottom: 0; padding-left: 16px; padding-right: 16px; text-align: left; width: 644px;">
+<table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<th style="margin: 0; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; text-align: left;">
+<p class="text-center text-medium" style="margin: 0; margin-bottom: 10px; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 1.3; padding: 0; text-align: center;">Вы не заходили в панель управления услугой "Образовательный" для <strong>vlarkin.ru</strong> более 60 дней, согласно правилам предоставления образовательного тарифа, необходимо поддерживать активность и посещать панель управления не менее одного раза за 90 дней. Вам необходимо авторизироваться в панели управления хостингом, иначе <strong>услуга будет удалена через 30 дней</strong>.</p>
+</th>
+<th class="expander" style="margin: 0; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0!important; text-align: left; visibility: hidden; width: 0;"> </th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+<table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<td style="-moz-hyphens: auto; -webkit-hyphens: auto; margin: 0; border-collapse: collapse!important; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;" height="15px"> </td>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<th class="small-12 large-12 columns first last" style="margin: 0 auto; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; padding-bottom: 0; padding-left: 16px; padding-right: 16px; text-align: left; width: 644px;">
+<table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<th style="margin: 0; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; text-align: left;"><center style="min-width: 612px; width: 100%;" data-parsed="">
+<table class="button more float-center" style="margin: 0; border-collapse: collapse; border-spacing: 0; float: none; padding: 0; text-align: center; vertical-align: top; width: auto;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<td style="-moz-hyphens: auto; -webkit-hyphens: auto; margin: 0; border-collapse: collapse!important; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+<table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<td style="-moz-hyphens: auto; -webkit-hyphens: auto; margin: 0; background: #F66261; border: 2px solid #F66261; border-collapse: collapse!important; color: #fefefe; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><a style="margin: 0; border: 0 solid #F66261; border-radius: 3px; color: #fefefe; display: inline-block; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 1.3; padding: 10px 25px 10px 25px; text-align: left; text-decoration: none; text-transform: uppercase;" href="https://pandora.lite-host.in">Перейти в панель</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</center></th>
+<th class="expander" style="margin: 0; color: #41373c; font-family: 'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0!important; text-align: left; visibility: hidden; width: 0;"> </th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table><!-- message footer start -->
+<table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <td height="25px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:25px;font-weight:400;hyphens:auto;line-height:25px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table align="center" class="container wrapper-footer float-center" style="Margin:0 auto;background:#FBFAEF;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:660px">
+                        <tbody>
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;background-color:#3F363C;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:20px;text-align:left;vertical-align:top;word-wrap:break-word">
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-7 columns first" style="Margin:0 auto;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:8px;text-align:left;width:369px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                            <td height="10px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;hyphens:auto;line-height:10px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <p class="text-uppercase text-bold text-light text-without-margin" style="Margin:0;Margin-bottom:10px;color:#ece3d5;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.3;margin:0!important;margin-bottom:10px;padding:0;text-align:left;text-transform:uppercase">Контакты</p>
+                                                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                            <td height="10px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;hyphens:auto;line-height:10px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <hr class="divider" style="background-color:#F66261;border-color:#F66261;border-style:solid;border-width:2px 0 0 0;height:0!important;margin:0!important;width:40px">
+                                                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                            <td height="10px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;hyphens:auto;line-height:10px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <p class="text-light text-without-margin" style="Margin:0;Margin-bottom:10px;color:#ece3d5;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0!important;margin-bottom:10px;padding:0;text-align:left">Хостинг <a href="https://lite.host" style="Margin:0;color:#f66261;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">LITE.HOST</a></p>
+                                                                <p class="text-light-gray text-without-margin" style="Margin:0;Margin-bottom:10px;color:#746368;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0!important;margin-bottom:10px;padding:0;text-align:left">Россия, Санкт-Петербург</p>
+                                                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                            <td height="10px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;hyphens:auto;line-height:10px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <p class="text-light text-without-margin" style="Margin:0;Margin-bottom:10px;color:#ece3d5;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0!important;margin-bottom:10px;padding:0;text-align:left">Отдел продаж: <a href="mailto:sales@lite-host.in" style="Margin:0;color:#f66261;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">sales@lite-host.in</a></p>
+                                                                <p class="text-light text-without-margin" style="Margin:0;Margin-bottom:10px;color:#ece3d5;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0!important;margin-bottom:10px;padding:0;text-align:left">Тех. поддержка: <a href="mailto:support@lite-host.in" style="Margin:0;color:#f66261;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">support@lite-host.in</a></p>
+                                                                <p class="text-light text-without-margin" style="Margin:0;Margin-bottom:10px;color:#ece3d5;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0!important;margin-bottom:10px;padding:0;text-align:left">Отдел жалоб: <a href="mailto:abuse@lite-host.in" style="Margin:0;color:#f66261;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">abuse@lite-host.in</a></p>
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                                <th class="small-12 large-5 columns last" style="Margin:0 auto;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:8px;padding-right:16px;text-align:left;width:259px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                            <td height="10px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;hyphens:auto;line-height:10px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <p class="text-uppercase text-bold text-light text-without-margin" style="Margin:0;Margin-bottom:10px;color:#ece3d5;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.3;margin:0!important;margin-bottom:10px;padding:0;text-align:left;text-transform:uppercase">Социальные сети</p>
+                                                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                            <td height="10px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;hyphens:auto;line-height:10px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <hr class="divider" style="background-color:#F66261;border-color:#F66261;border-style:solid;border-width:2px 0 0 0;height:0!important;margin:0!important;width:40px">
+                                                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                            <td height="10px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;hyphens:auto;line-height:10px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <p class="text-light socials text-without-margin" style="Margin:0;Margin-bottom:10px;color:#ece3d5;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0!important;margin-bottom:10px;padding:0;text-align:left">
+                                                                    <a href="https://lite.host/rss" style="Margin:0;color:#f66261;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;margin-right:5px;padding:0;text-align:left;text-decoration:underline"><img style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:inline;max-width:100%;outline:0;text-decoration:none;width:auto" width="40" height="40px" alt="RSS" src="https://lite.host/assets/images/presetns/ny2019/rss.png"></a>
+                                                                    <a href="https://twitter.com/lh_rus" style="Margin:0;color:#f66261;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;margin-right:5px;padding:0;text-align:left;text-decoration:underline"><img style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:inline;max-width:100%;outline:0;text-decoration:none;width:auto" width="40" height="40px" alt="Twitter" src="https://lite.host/assets/images/presetns/ny2019/tw.png"></a>
+                                                                    <a href="https://vk.com/public54441939" style="Margin:0;color:#f66261;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;margin-right:5px;padding:0;text-align:left;text-decoration:underline"><img style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:inline;max-width:100%;outline:0;text-decoration:none;width:auto" width="40" height="40px" alt="VK" src="https://lite.host/assets/images/presetns/ny2019/vk.png"></a>
+                                                                    <a href="https://t.me/litehost_bot" style="Margin:0;color:#f66261;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;margin-right:5px;padding:0;text-align:left;text-decoration:underline"><img style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:inline;max-width:100%;outline:0;text-decoration:none;width:auto" width="40" height="40px" alt="Telegram" src="https://lite.host/assets/images/presetns/ny2019/t.png"></a>
+                                                                </p>
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:16px;padding-right:16px;text-align:left;width:644px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                            <td height="20px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;hyphens:auto;line-height:20px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <p class="text-center text-light-gray text-without-margin" style="Margin:0;Margin-bottom:10px;color:#746368;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0!important;margin-bottom:10px;padding:0;text-align:center">Если Вы больше не хотите получать письма с нашими рекомендациями и спецпредложениями, <a href="https://billing.lite-host.in/index.php?rp=/subscription&action=optout&email=macrofag%40ya.ru&key=b0d632e4ce76212f35ec2200d15bafc797c4509a" style="Margin:0;color:#f66261;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:underline">перейдите по ссылке</a>.</p>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#41373c;font-family:'Open Sans','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <img alt="" width="1" height="1" src="https://billing.lite-host.in/modules/addons/analytics/mail_system_track.php?id=153269">
+    <!-- prevent Gmail on iOS font size manipulation -->
+    <div style="display:none;white-space:nowrap;font:15px courier;line-height:0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+
+
+
+--b1_13b3794e6f4f901f20ee5cabecb49bb4--
+

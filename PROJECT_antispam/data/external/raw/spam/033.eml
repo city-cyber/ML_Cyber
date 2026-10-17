@@ -1,0 +1,580 @@
+Return-path: <b2.534b2e23-7909-4d25-8691-55c1676b6805.1650358719228@email-connector.com>
+Original-recipient: rfc822;ivan.petrov@icloud.com
+Received: from ms11p00im-qufv17081001.me.com by p113-mailgateway-smtp-6f8d8b4c95-mgf76 (mailgateway 2213B145)
+	with SMTP id 12470ec2-da8b-4fd6-b2ee-3e4da826954b 
+	for <ivan.petrov@icloud.com>; Tue, 19 Apr 2022 08:59:21 GMT
+X-Apple-MoveToFolder: INBOX 
+X-Apple-Action: MOVE_TO_FOLDER/INBOX
+X-Apple-UUID: 12470ec2-da8b-4fd6-b2ee-3e4da826954b
+Received: from mta146.ix1.email-connector.com (mta146.ix1.email-connector.com [202.181.214.146])
+	by ms11p00im-qufv17081001.me.com (Postfix) with ESMTPS id 121ED4C614D
+	for <ivan.petrov@icloud.com>; Tue, 19 Apr 2022 08:59:16 +0000 (UTC)
+X-ICL-SCORE: 3.3320330300
+X-ICL-INFO: GAtbVUseBVFHSVVESAMGUldZCh4MXUMRSFsIVVhDQ19XFwkZHRIWBxFERBVKHgNRQRtUEkoDG1VM
+ SV9aTFQEV1hBUE5JHQNXFkhQQE5SAFpFTEhGTgUGUUBBUUZBAgRaNRwLFhFcGwEaFwgSG0RZEFsa
+ CRpaEFAGSFsPHhNZX0waCwFVWENfEkhbVEdKHgdaRFdURkweB1ZDW0YfHVxZX1cUEhZJBABMHAFX
+ WR1dVwsZVAUYFl5TAQEWFFkbX1tAVQkSBUUSWxYUSFJBVllOU1scCxYRXBsBGhcIEhtEWRBbGgka
+ WhBSBkhbAxoZWVpPFhYIGR1TQg0HVwUYFRIWDxwdW1VEUgRMQEpSFUpVBFFYTl9HQR0CBkdMS09O
+ CQdPQEwFRk4HAABDQVZCVgEAV0VKU09PAQ9QR0EmEhVRXw5YGgkZFlVVFhoLSBQXXQhAVQsFSlpZ
+ QAMbFhAoAUN2CxYVCQIcHlUNGFs=
+Authentication-Results: dmarc.icloud.com; dmarc=none header.from=iikii.org
+x-dmarc-info: pass=none; dmarc-policy=(nopolicy); s=u0; d=u0
+x-dmarc-policy: none
+Authentication-Results: dkim-verifier.icloud.com;
+	dkim=pass (1024-bit key) header.d=email-connector.com header.i=@email-connector.com header.b=hzxtcFkS
+Authentication-Results: spf.icloud.com; spf=pass (spf.icloud.com: domain of b2.534b2e23-7909-4d25-8691-55c1676b6805.1650358719228@email-connector.com designates 202.181.214.146 as permitted sender) smtp.mailfrom=b2.534b2e23-7909-4d25-8691-55c1676b6805.1650358719228@email-connector.com
+Received-SPF: pass (spf.icloud.com: domain of b2.534b2e23-7909-4d25-8691-55c1676b6805.1650358719228@email-connector.com designates 202.181.214.146 as permitted sender) receiver=spf.icloud.com; client-ip=202.181.214.146; helo=mta146.ix1.email-connector.com; envelope-from=b2.534b2e23-7909-4d25-8691-55c1676b6805.1650358719228@email-connector.com
+Received: from 202.181.214.146 (mta146.ix1.email-connector.com [202.181.214.146])
+	by mta146.ix1.email-connector.com (Postfix) with ESMTP id 41DCA3E082A
+	for <ivan.petrov@icloud.com>; Tue, 19 Apr 2022 16:59:15 +0800 (HKT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; t=1650358755; s=v2;
+	d=email-connector.com;
+	h=Date:From:Reply-To:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:List-Unsubscribe;
+	bh=c8f0cufhbAtAZXBTEpE1HjAZ2TuXpIhUmYStHJkA7Yc=;
+	b=hzxtcFkSe/YNoqTfDcQdsuaaTDj3/ayENuI6VKtIrrHUM2lozK9WJgWvaDdEJIYZ
+	lE3zIxrAcPKTYwLvslaqaGUyumMz9aqGimAlbbtpB7tDPhr5cl15c4fFcAv98eBplKS
+	VC+h4BZT8JnHyc6q285tIfD/IFYroMYHZY8zCxeY=
+Date: Tue, 19 Apr 2022 16:58:39 +0800 (HKT)
+From: ICKII 2022 <office@iikii.org>
+Reply-To: ICKII 2022 <office@iikii.org>
+To: "ivan.petrov@icloud.com" <ivan.petrov@icloud.com>
+Message-ID: <b2.534b2e23-7909-4d25-8691-55c1676b6805.1650358719228@email-connector.com>
+Subject: 5th IEEE ICKII 2022 Call for paper(EI, SCI, SSCI and Scopus
+ journals Submission)
+Errors-To: <b2.534b2e23-7909-4d25-8691-55c1676b6805.1650358719228@email-connector.com>
+MIME-Version: 1.0
+Content-Type: text/html;charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Content-ID: NkPtLEw5DKG57qCRw8qmYX3opu+AuzHrBpCgDMNEtWpEQqYAN0bQ1aJwLn3NDKrUphtX2uCUmpFBSSIJAeA5pJgAZIj+xoGwHBeKkbHuthhZAZxtAHbr0QI/hp4V+bFD1agEsZN1UWccdH+fwagZlL7HoiCZGtqMxvb27W9fPV0M0LaHUNuOpujx0P1QkMqZOlUHSW4eMROFR+YOq4mZF+sUpeOfaM8NBB59h2OtWKeq96MRIbmspl4d2E2tQnEwcxwYSgtYmN4=
+Feedback-ID: 884163913506673:856812476752002:696052198272338:email-connector.com
+List-Unsubscribe: <mailto:u2.534b2e23-7909-4d25-8691-55c1676b6805.1650358719228@email-connector.com?subject=unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-MANTSH: 1TEIXR1kbH1oaGkNHB1tfQEQYGxsZGhkaGBEKTEMXGxoEGxsYBBMSBBMTEBseGh8
+ aEQpMWRcHHB4RCllEF2ZvAQFpZG5Zf00BEQpZTRduS1hBEQpZSRcacRoQGncGBxwecRIQGRJ3B
+ hoGGhEKWV4XaG55EQpDThcZeFpjXWl8XHBaf3V8QkRQeR1ATGt+Wm9Jcx4HRmhZaxEKWFwXGQQ
+ aBB4cB0sfGxkbTB0bBRsaBBMEGx0EGBgcEBseGh8aEQpeWRdwRmgcaxEKTVwXGx8TEQpMWhdpb
+ GJNTXsRCkNaFxgaGAQbEhsEGBseBBseHBEKQl4XGxEKRF4XGBEKQkYXa319AUlrYFpiH0kRCkJ
+ HF2F8UGsffhhoWkJHEQpCRRdvSRplSXpBX21SExEKQk4XY31cXmJdHBN8X3IRCkJMF3pHeUJ8b
+ Rlce2tiEQpCbBdteF9lSVJTT3hgchEKQkAXZUVCZ395b20aRm4RCkJYF25oEnhkblh9fFobEQp
+ wZxdgc0ZoY09HYUJgbBAHGRoRCnBoF3plYh1/G1BaTGldEAcbEhEKcGgXbWgdbUJJH31ib34QB
+ xkaEQpwaBdvQkFseVtnf0xtYxAHGRoRCnBoF25+Ex1sSB5uekVPEAcbEhEKcGgXelttWWhAbVx
+ aHUMQBxkaEQpwfRdlW21rX05ZZlh+ZxAaEQpwfRdmY31SfFNkSXpOHxAaEQpwfRdmXh1jfGd8X
+ GdgEhAaEQpwfxdkf0h6BVl5H2BifxAHGRoRCnBfF3oTTmJBTGt9UkJ/EAcZGhEKcGwXZGkfG1h
+ FYm4ZeQUQBxkaEQptfhcaEQpYTRdLEQ==
+X-CLX-Shades: Dark
+X-Proofpoint-GUID: 3RpIwCVvZpU_VhnzS7jfATpEcY4-lBsA
+X-Proofpoint-ORIG-GUID: 3RpIwCVvZpU_VhnzS7jfATpEcY4-lBsA
+
+<!DOCTYPE html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"x-apple-disable-message-reformatting">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">
+<meta charset=3D"UTF-8">
+<style type=3D"text/css">
+@media only screen and (max-width: 480px) { .email-header { padding: 0 5px;=
+ } }=20
+.email-footer-ios-link a { color: #444444 !important; text-decoration: none=
+ !important; } @media only screen and (max-width: 480px) { .email-footer { =
+width: 100% !important; -moz-text-size-adjust: none; -webkit-text-size-adju=
+st: none; -ms-text-size-adjust: none; } .email-footer-column { vertical-ali=
+gn: top; } .email-footer-email-address { word-break: break-word; } }=20
+body { margin: 0; padding: 0; -moz-text-size-adjust: none; -ms-text-size-ad=
+just: none; -webkit-text-size-adjust: none; text-size-adjust: none; } table=
+ { border-collapse: collapse; mso-table-rspace: 0; mso-table-lspace: 0; mso=
+-cellspacing: 0; } td { font-family: initial; font-size: 16px; line-height:=
+ normal; word-break: normal; word-wrap: normal; mso-line-height-rule: at-le=
+ast; } div { mso-line-height-rule: exactly; } a[x-apple-data-detectors] { c=
+olor: inherit !important; text-decoration: none !important; font-size: inhe=
+rit !important; font-family: inherit !important; font-weight: inherit !impo=
+rtant; line-height: inherit !important; } sup, sub { line-height: 100%; mso=
+-line-height-rule: exactly; }
+@media screen and (max-width: 480px) { img:not(.xxs-fix-image-size) { float=
+: none !important; max-width: 100% !important; width: auto !important; heig=
+ht: auto !important; } .xxs-display-table-row { display: table-row !importa=
+nt; } .xxs-display-block { display: block !important; } .xxs-hide { display=
+: none !important; } .xxs-full-width { width: 100% !important; min-width: 0=
+ !important; } .xxs-full-height { height: 100% !important; min-height: 0 !i=
+mportant; } .xxs-auto-width { width: auto !important; min-width: 0 !importa=
+nt; } .xxs-auto-height { height: auto !important; min-height: 0 !important;=
+ } .xxs-clear-float { float: none; } .xxs-full-img img { width: 100% !impor=
+tant; } .xxs-margin-0 { margin: 0 !important; } .xxs-margin-10 { margin: 10=
+px !important; } .xxs-margin-20 { margin: 20px !important; } .xxs-margin-30=
+ { margin: 30px !important; } .xxs-margin-auto { margin: auto !important; }=
+ .xxs-margin-vertical-10 { margin: 10px 0 !important; } .xxs-margin-vertica=
+l-20 { margin: 20px 0 !important; } .xxs-margin-vertical-30 { margin: 30px =
+0 !important; } .xxs-margin-horizontal-10 { margin: 0 10px !important; } .x=
+xs-margin-horizontal-20 { margin: 0 20px !important; } .xxs-margin-horizont=
+al-30 { margin: 0 30px !important; } .xxs-margin-top-0 { margin-top: 0 !imp=
+ortant; } .xxs-margin-top-10 { margin-top: 10px !important; } .xxs-margin-t=
+op-20 { margin-top: 20px !important; } .xxs-margin-top-30 { margin-top: 30p=
+x !important; } .xxs-margin-top-40 { margin-top: 40px !important; } .xxs-ma=
+rgin-right-0 { margin-right: 0 !important; } .xxs-margin-right-10 { margin-=
+right: 10px !important; } .xxs-margin-right-20 { margin-right: 20px !import=
+ant; } .xxs-margin-right-30 { margin-right: 30px !important; } .xxs-margin-=
+bottom-0 { margin-bottom: 0 !important; } .xxs-margin-bottom-10 { margin-bo=
+ttom: 10px !important; } .xxs-margin-bottom-20 { margin-bottom: 20px !impor=
+tant; } .xxs-margin-bottom-30 { margin-bottom: 30px !important; } .xxs-marg=
+in-bottom-40 { margin-bottom: 40px !important; } .xxs-margin-left-0 { margi=
+n-left: 0 !important; } .xxs-margin-left-10 { margin-left: 10px !important;=
+ } .xxs-margin-left-20 { margin-left: 20px !important; } .xxs-margin-left-3=
+0 { margin-left: 30px !important; } .xxs-padding-0 { padding: 0 !important;=
+ } .xxs-padding-10 { padding: 10px !important; } .xxs-padding-20 { padding:=
+ 20px !important; } .xxs-padding-30 { padding: 30px !important; } .xxs-padd=
+ing-vertical-10 { padding: 10px 0 !important; } .xxs-padding-vertical-20 { =
+padding: 20px 0 !important; } .xxs-padding-vertical-30 { padding: 30px 0 !i=
+mportant; } .xxs-padding-horizontal-10 { padding: 0 10px !important; } .xxs=
+-padding-horizontal-20 { padding: 0 20px !important; } .xxs-padding-horizon=
+tal-30 { padding: 0 30px !important; } .xxs-padding-top-0 { padding-top: 0 =
+!important; } .xxs-padding-top-10 { padding-top: 10px !important; } .xxs-pa=
+dding-top-20 { padding-top: 20px !important; } .xxs-padding-top-30 { paddin=
+g-top: 30px !important; } .xxs-padding-right-0 { padding-right: 0 !importan=
+t; } .xxs-padding-right-10 { padding-right: 10px !important; } .xxs-padding=
+-right-20 { padding-right: 20px !important; } .xxs-padding-right-30 { paddi=
+ng-right: 30px !important; } .xxs-padding-bottom-0 { padding-bottom: 0 !imp=
+ortant; } .xxs-padding-bottom-10 { padding-bottom: 10px !important; } .xxs-=
+padding-bottom-20 { padding-bottom: 20px !important; } .xxs-padding-bottom-=
+30 { padding-bottom: 30px !important; } .xxs-padding-left-0 { padding-left:=
+ 0 !important; } .xxs-padding-left-10 { padding-left: 10px !important; } .x=
+xs-padding-left-20 { padding-left: 20px !important; } .xxs-padding-left-30 =
+{ padding-left: 30px !important; } .xxs-border-none { border: none !importa=
+nt; } .xxs-text-left { text-align: left !important; } .xxs-text-center { te=
+xt-align: center !important; } .xxs-text-right { text-align: right !importa=
+nt; } .xxs-text-justify { text-align: justify !important; } .xxs-button a {=
+ display: block; } }
+</style>
+<title>5th IEEE ICKII 2022 Call for paper(EI, SCI, SSCI and Scopus journals=
+ Submission)</title>
+<!--[if !mso]><!-- -->
+<!--<![endif]-->
+<!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPer=
+Inch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
+</head>
+<body>
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" alig=
+n=3D"center"><tr><td align=3D"center"><div class=3D"email-header" style=3D"=
+font-family: Verdana, sans-serif; font-size: 11px; line-height: 18px; color=
+: #444444;">Please add <a href=3D"mailto:office@iikii.org" style=3D"color: =
+#3399ff;">office@iikii.org</a> to your address book to ensure future email =
+delivery.</div>
+
+<br /></td></tr><tr><td align=3D"left"><div class=3D"email-template" data-t=
+emplate-definition=3D"design" data-template-index=3D"3" data-template-title=
+=3D"Design Template 03" data-template-type=3D"free" data-template-version=
+=3D"201908301200">=20
+ <div class=3D"email-template-background">=20
+  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"hide-bor=
+der xxs-full-width" style=3D"width:100%">=20
+   <tbody>=20
+    <tr>=20
+     <td align=3D"center" class=3D"email-template-background-properties" st=
+yle=3D"background-color:#eeeeee; padding:8px" valign=3D"top">=20
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"hide=
+-border" style=3D"min-width:320px">=20
+       <tbody>=20
+        <tr>=20
+         <td align=3D"center" valign=3D"top">=20
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+hide-border" style=3D"width:100%">=20
+           <tbody>=20
+            <tr>=20
+             <td align=3D"center" class=3D"email-template-body-properties x=
+xs-full-width" style=3D"border-style:none; border-width:2px; min-width:700p=
+x; width:700px" valign=3D"top">=20
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"hide-border xxs-full-width" style=3D"width:100%">=20
+               <tbody class=3D"email-template-sortable">=20
+                <tr>=20
+                 <td align=3D"center" style=3D"padding:0 0 10px 0" valign=
+=3D"top">=20
+                  <div class=3D"email-template-block">=20
+                   <div class=3D"email-template-block-content" data-content=
+editable=3D"true">=20
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"hide-border xxs-full-width" data-contenteditable=3D"false" style=
+=3D"width:100%">=20
+                     <tbody>=20
+                      <tr>=20
+                       <td align=3D"center" class=3D"email-template-block-p=
+roperties" data-contenteditable=3D"false" valign=3D"top">=20
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"hide-border xxs-full-width" data-contenteditable=3D"true" s=
+tyle=3D"width:100%">=20
+                         <tbody>=20
+                          <tr>=20
+                           <td align=3D"center" data-contenteditable=3D"fal=
+se" style=3D"padding:0 10px" valign=3D"top">=20
+                            <table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"hide-border xxs-full-width" data-contenteditable=3D"false=
+" style=3D"width:100%">=20
+                             <tbody>=20
+                              <tr>=20
+                               <td align=3D"center" data-contenteditable=3D=
+"false" valign=3D"top">=20
+                                <table align=3D"right" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" class=3D"not-allow-image xxs-auto-width xxs-cl=
+ear-float" data-contenteditable=3D"false">=20
+                                 <tbody>=20
+                                  <tr>=20
+                                   <td align=3D"left" data-contenteditable=
+=3D"true" style=3D"padding:4px" valign=3D"top">=20
+                                    <div style=3D"line-height: 16px;">=20
+                                     <span style=3D"font-family:Arial,Helve=
+tica,sans-serif"><span style=3D"font-size:12px"><span style=3D"color:#66666=
+6">Language:</span></span></span>=20
+                                    </div> </td>=20
+                                   <td align=3D"left" data-contenteditable=
+=3D"true" style=3D"padding:4px" valign=3D"top">=20
+                                    <div style=3D"line-height: 16px;">=20
+                                     <span style=3D"font-family:Arial,Helve=
+tica,sans-serif"><span style=3D"font-size:12px"><span style=3D"color:#66666=
+6">[lang]</span></span></span>=20
+                                    </div> </td>=20
+                                   <td align=3D"left" data-contenteditable=
+=3D"true" style=3D"padding:4px" valign=3D"top">=20
+                                    <div style=3D"line-height: 16px;">=20
+                                     <span style=3D"font-family:Arial,Helve=
+tica,sans-serif"><span style=3D"font-size:12px"><span style=3D"color:#66666=
+6">[lang]</span></span></span>=20
+                                    </div> </td>=20
+                                  </tr>=20
+                                 </tbody>=20
+                                </table> </td>=20
+                              </tr>=20
+                             </tbody>=20
+                            </table> </td>=20
+                          </tr>=20
+                         </tbody>=20
+                        </table> </td>=20
+                      </tr>=20
+                     </tbody>=20
+                    </table>=20
+                   </div>=20
+                  </div> </td>=20
+                </tr>=20
+                <tr>=20
+                 <td align=3D"center" valign=3D"top">=20
+                  <div class=3D"email-template-block">=20
+                   <div class=3D"email-template-block-content" data-content=
+editable=3D"true">=20
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"hide-border xxs-full-width" data-contenteditable=3D"false" style=
+=3D"width:100%">=20
+                     <tbody>=20
+                      <tr>=20
+                       <td align=3D"center" class=3D"email-template-block-p=
+roperties" data-contenteditable=3D"false" style=3D"background-color:#ffffff=
+" valign=3D"top">=20
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"hide-border xxs-full-width" data-contenteditable=3D"true" s=
+tyle=3D"width:100%">=20
+                         <tbody>=20
+                          <tr>=20
+                           <td align=3D"center" class=3D"xxs-padding-20" da=
+ta-contenteditable=3D"false" style=3D"padding:30px" valign=3D"top">=20
+                            <table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"hide-border xxs-full-width" data-contenteditable=3D"false=
+" style=3D"width:100%">=20
+                             <tbody>=20
+                              <tr>=20
+                               <td align=3D"center" data-contenteditable=3D=
+"false" valign=3D"top">=20
+                                <table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"not-allow-image xxs-full-width" data-contenteditable=
+=3D"false" style=3D"width:100%">=20
+                                 <tbody>=20
+                                  <tr>=20
+                                   <td align=3D"left" data-contenteditable=
+=3D"true" valign=3D"top">=20
+                                    <div style=3D"line-height: 40px; text-a=
+lign: center;">=20
+                                     <span style=3D"font-family:Times New R=
+oman,Times,serif"><span style=3D"color:#ff0000"><span style=3D"background-c=
+olor:#ffff00">Due to the epidemic of COVID-19, participants who are not abl=
+e to attend the conference, we accept oral and poster presentation online.<=
+/span><br><span style=3D"background-color:#ffff00">Please send an email to&=
+nbsp;<a href=3D"https://mta146.ix1.email-connector.com/da/daecs?token=3Dv36=
+wuwJPFfTFJIuxg89aaNXosLFPFJmgc7Q43JvvOaNpQzMPvctALl4VYNVDNTq3UYiMBWLGlMpbEB=
+yYOkbIQGG9ZkVAg%2BMyD8E%2B0Hnax1oaCcWkCmmmirAUG0KTi32XZnXs1aR0TeSom553HGUqK=
+Q%3D%3D" style=3D"text-decoration:none;">ickii.office@gmail.com</a>&nbsp;fo=
+r more details.</span></span></span>
+                                     <br>
+                                     <strong style=3D"font-family:&quot;Tim=
+es New Roman&quot;,Times,serif; font-size:28px"><span style=3D"color:#0b539=
+4">5th IEEE ICKII 2022 Call for Paper</span></strong>=20
+                                    </div>=20
+                                    <div style=3D"line-height: 40px; text-a=
+lign: center;">=20
+                                     <span style=3D"font-size:17px"><span s=
+tyle=3D"font-family:Times New Roman,Times,serif"><strong><span style=3D"col=
+or:#0b5394">5<sup>th</sup>&nbsp;IEEE&nbsp;International Conference on&nbsp;=
+Knowledge&nbsp;Innovation and Invention 2021<br>National Dong Hwa Universit=
+y,&nbsp;Hualien, Taiwan<br>July 22-24, 2022<br>URL:&nbsp;<a href=3D"https:/=
+/mta146.ix1.email-connector.com/da/daecs?token=3Dv36wuwJPFfTKFzU7HHE278l5CQ=
+udTUhIc7Q43JvvOaNpQzMPvctALl4VYNVDNTq3UYiMBWLGlMpbEByYOkbIQAV0dXw4yLPLnNL%2=
+BwtPKe24OJo%2BtXEcKwFIYR6x0n5%2BWq952%2F9jas70kRiTxZzcrbQ%3D%3D" style=3D"t=
+ext-decoration:none;">http://www.ickii.org/</a><br>Email:&nbsp;<a href=3D"h=
+ttps://mta146.ix1.email-connector.com/da/daecs?token=3Dv36wuwJPFfS5W%2BnVT9=
+vdMmuWJHK7kfznc7Q43JvvOaNpQzMPvctALl4VYNVDNTq3UYiMBWLGlMpbEByYOkbIQGG9ZkVAg=
+%2BMyD8E%2B0Hnax1oaCcWkCmmmirAUG0KTi32XZnXs1aR0TeSom553HGUqKQ%3D%3D" style=
+=3D"text-decoration:none;">ickii.office@gmail.com</a></span></strong></span=
+></span>=20
+                                    </div>=20
+                                    <div style=3D"line-height: 20px; text-a=
+lign: center;">=20
+                                     <span style=3D"font-size:14px"><span s=
+tyle=3D"font-family:Times New Roman,Times,serif">Organized by:<br>National =
+Dong Hwa University,&nbsp;Hualien, Taiwan<br>IEEE Tainan Section Sensors Co=
+uncil(IEEE TSSC)<br>International Institute of Knowledge Innovation and Inv=
+ention (IIKII)</span></span>=20
+                                    </div>=20
+                                    <div style=3D"line-height: 40px; text-a=
+lign: center;">=20
+                                     <span style=3D"font-size:17px"><span s=
+tyle=3D"font-family:Times New Roman,Times,serif"><strong><span style=3D"col=
+or:#0b5394">&nbsp;</span></strong></span></span>=20
+                                    </div>=20
+                                    <div style=3D"line-height: 28px; text-a=
+lign: justify;">=20
+                                     <span style=3D"font-size:18px"><span s=
+tyle=3D"font-family:Times New Roman,Times,serif">5<sup>th</sup>&nbsp;IEEE&n=
+bsp;International&nbsp;Conference on&nbsp;Knowledge&nbsp;Innovation and&nbs=
+p;Invention 2022&nbsp;(IEEE&nbsp;ICKII 2022) will be held in Hualien, Taiwa=
+n&nbsp;on July&nbsp;22-24,&nbsp;2022, and it will provide a unified communi=
+cation platform for researchers in the topics of information technology, in=
+novation design, communication science & engineering, industrial design, cr=
+eative design, applied mathematics, computer science, electrical & electron=
+ic engineering, mechanical & automation engineering, green technology & arc=
+hitecture engineering, material science and other related fields.&nbsp;Prof=
+essional practice in the information, innovation, communication, and engine=
+ering fields are welcome to participate in IEEE ICKII 2021. This conference=
+ enables interdisciplinary collaboration of science and engineering technol=
+ogists in the academic and industrial fields, as well as networking interna=
+tionally. During the conference, there will be substantial time for present=
+ation and discussion. Attendants will find various activities useful in bri=
+nging together a diverse group of engineers and technologists across the di=
+sciplines for the generation of new ideas, collaboration potential and busi=
+ness opportunities.</span></span>
+                                     <br>&nbsp;=20
+                                    </div>=20
+                                    <div style=3D"line-height: 32px; text-a=
+lign: justify;">=20
+                                     <span style=3D"font-size:18px"><span s=
+tyle=3D"font-family:Times New Roman,Times,serif">=E7=AC=AC=E4=BA=94=E5=B1=
+=86=E7=9F=A5=E8=AD=98=E5=89=B5=E6=96=B0=E8=88=87=E7=99=BC=E6=98=8E=E5=9C=8B=
+=E9=9A=9B=E7=A0=94=E8=A8=8E=E6=9C=83(IEEE ICKII 2022)=E5=B0=87=E6=96=BC2022=
+=E5=B9=B47=E6=9C=8822=E6=97=A5=E5=88=B024=E6=97=A5=E5=9C=A8=E5=8F=B0=E7=81=
+=A3=E8=8A=B1=E8=93=AE=E7=B8=A3=E6=9D=B1=E8=8F=AF=E5=A4=A7=E5=AD=B8=E8=88=89=
+=E8=A1=8C=EF=BC=8C=E6=AD=A1=E8=BF=8E=E9=80=9A=E4=BF=A1=E7=A7=91=E5=AD=B8=E8=
+=88=87=E5=B7=A5=E7=A8=8B=EF=BC=8C=E8=A8=88=E7=AE=97=E6=A9=9F=E7=A7=91=E5=AD=
+=B8=EF=BC=8C=E9=9B=BB=E6=A9=9F=E8=88=87=E9=9B=BB=E5=AD=90=E5=B7=A5=E7=A8=8B=
+=EF=BC=8C=E5=B7=A5=E6=A5=AD=E8=A8=AD=E8=A8=88=EF=BC=8C=E5=89=B5=E6=84=8F=E8=
+=A8=AD=E8=A8=88=EF=BC=8C=E6=87=89=E7=94=A8=E6=95=B8=E5=AD=B8=EF=BC=8C=E6=A9=
+=9F=E6=A2=B0=E8=88=87=E8=87=AA=E5=8B=95=E5=8C=96=E5=B7=A5=E7=A8=8B=EF=BC=8C=
+=E7=B6=A0=E8=89=B2=E6=8A=80=E8=A1=93=E8=88=87=E5=BB=BA=E7=AF=89=E5=B7=A5=E7=
+=A8=8B=EF=BC=8C=E6=9D=90=E6=96=99=E7=A7=91=E5=AD=B8=E7=AD=89=E7=9B=B8=E9=97=
+=9C=E9=A0=98=E5=9F=9F=E5=AD=B8=E8=80=85=E5=B0=88=E5=AE=B6=E6=8A=95=E7=A8=BF=
+=E5=8F=83=E5=8A=A0IEEE ICKII 2022=E3=80=82IEEE ICKII&nbsp;2022=E6=8E=A5=E5=
+=8F=97=E7=9A=84=E8=AB=96=E6=96=87=EF=BC=8C=E5=A6=82=E6=9E=9C=E7=AC=A6=E5=90=
+=88IEEE=E7=9A=84=E9=A0=98=E5=9F=9F=EF=BC=8C=E5=B0=87=E5=9C=A8IEEEXplore=C2=
+=AE=E4=B8=8A=E6=94=B6=E9=8C=84=EF=BC=8C=E4=B8=A6=E5=9C=A8Ei Compendex=E7=B4=
+=A2=E5=BC=95=E3=80=82=E5=85=B6=E4=BB=96=E9=A0=98=E5=9F=9F=E7=9A=84=E8=AB=96=
+=E6=96=87=E5=B0=87=E6=9C=83=E9=80=81=E8=87=B3Scopus=E5=AF=A9=E6=A0=B8=E5=BE=
+=8C=E7=B4=A2=E5=BC=95=EF=BC=8C=E5=84=AA=E7=A7=80=E7=9A=84=E8=AB=96=E6=96=87=
+=E5=B0=87=E6=8E=A8=E8=96=A6=E8=BD=89=E6=8A=9512=E7=A8=AE=E4=B8=8D=E5=90=8C=
+=E7=9A=84SCI=E6=9C=9F=E5=88=8A =E3=80=82</span></span>
+                                     <br>&nbsp;=20
+                                    </div>=20
+                                    <div style=3D"line-height: 24px; text-a=
+lign: justify;">=20
+                                     <span style=3D"font-size:18px"><span s=
+tyle=3D"font-family:Times New Roman,Times,serif">The conference proceedings=
+ will be submitted to the IEEE Xplore=C2=AE digital library if the papers f=
+it the scopes of IEEE (IEEE fields). Papers of other fields will be sent to=
+ Scopus for reviewed and indexed. To maintain a high quality of conference =
+proceedings, the English of full papers should be good enough. We will requ=
+est authors to send the full papers for English editing if the papers do no=
+t pass the review process by the Program Committees.<br><br>Excellent paper=
+s selected from IEEE ICKII&nbsp;2022&nbsp;will be recommended to be publish=
+ed on suitable&nbsp;12&nbsp;different SSCI, SCI and Scopus&nbsp;journals&nb=
+sp;after an additional review process and need extra publication charge.&nb=
+sp;&nbsp;&nbsp;</span></span>=20
+                                    </div>=20
+                                    <div style=3D"line-height: 34px; text-a=
+lign: left;">=20
+                                     <span style=3D"font-size:20px"><span s=
+tyle=3D"font-family:times new roman">(1)&nbsp;<a href=3D"https://mta146.ix1=
+.email-connector.com/da/daecs?token=3Dv36wuwJPFfT%2BpjDY%2B7EiMGs4YIhnONMSc=
+7Q43JvvOaNpQzMPvctALl4VYNVDNTq3UYiMBWLGlMpbEByYOkbIQAV0dXw4yLPLB9KAGVb%2Fvt=
+o0AM6kdMvVfka7AoSws0nt6rEaNSXtgS5xrfnkLBcRuVwnubbSZ49v" target=3D"_blank">J=
+ournal of Clinical Medicine</a>&nbsp;(SCI;&nbsp;ISSN 2077-0383; IF: 4.241)<=
+/span><br><span style=3D"font-family:times new roman">(2)&nbsp;<a href=3D"h=
+ttps://mta146.ix1.email-connector.com/da/daecs?token=3Dv36wuwJPFfSMOex6PpAH=
+vHHROcFpsXTcc7Q43JvvOaNpQzMPvctALl4VYNVDNTq3UYiMBWLGlMpbEByYOkbIQAV0dXw4yLP=
+LB9KAGVb%2Fvto0AM6kdMvVfka7AoSws0nt6rEaNSXtgS6%2FtYDvTlbG2Oxmt0%2BQ5cZb1XdH=
+NwZPShYkRiTxZzcrbQ%3D%3D" target=3D"_blank">Sustainability</a>&nbsp;(SCI an=
+d SSCI;&nbsp;ISSN&nbsp;2071-1050; IF: 3.251)</span><br><span style=3D"font-=
+family:times new roman">(3)&nbsp;<a href=3D"https://mta146.ix1.email-connec=
+tor.com/da/daecs?token=3Dv36wuwJPFfRSyqOno4GIDYagtzcMYX89c7Q43JvvOaNpQzMPvc=
+tALl4VYNVDNTq3UYiMBWLGlMpbEByYOkbIQAV0dXw4yLPLB9KAGVb%2Fvto0AM6kdMvVfka7AoS=
+ws0nt6rEaNSXtgS7iB%2BNhgZF47JljuDfCESdwCO6j1nfCHK0%3D">Materials</a>&nbsp;(=
+SCI; ISSN 1996-1944; IF: 3.623)</span><br><span style=3D"font-family:times =
+new roman">(4)&nbsp;<a href=3D"https://mta146.ix1.email-connector.com/da/da=
+ecs?token=3Dv36wuwJPFfRxat3NH88fFNgtqV1hPGVDc7Q43JvvOaNpQzMPvctALl4VYNVDNTq=
+3UYiMBWLGlMpbEByYOkbIQAV0dXw4yLPLB9KAGVb%2Fvto0AM6kdMvVfka7AoSws0nt6rEaNSXt=
+gS6Gj6YmQ%2FNppypZzu%2Fr10h2f9YoDwn0Q%2B0%3D">Coatings</a>&nbsp;(SCI; ISSN =
+2079-6412;&nbsp;IF: 2.881)</span><br><span style=3D"font-family:times new r=
+oman">(5)&nbsp;<a href=3D"https://mta146.ix1.email-connector.com/da/daecs?t=
+oken=3Dv36wuwJPFfQ1bSZNyJsodVpi0Rq2clRsc7Q43JvvOaNpQzMPvctALl4VYNVDNTq3UYiM=
+BWLGlMpbEByYOkbIQAV0dXw4yLPLnNL%2BwtPKe24Pt8Whu8v4D1phacczAc2AM396CIGQ58avT=
+BKkCzOHlbzdDqqGZvPDqJuedxxlKik%3D">Electronics</a>&nbsp;(SCI: ISSN: 2079-92=
+92=E2=80=8B; IF: 2.397)</span><br><span style=3D"font-family:times new roma=
+n">(6)&nbsp;<a href=3D"https://mta146.ix1.email-connector.com/da/daecs?toke=
+n=3Dv36wuwJPFfTP81atiZ%2Fc7g0ndYrlzbkec7Q43JvvOaNpQzMPvctALl4VYNVDNTq3UYiMB=
+WLGlMpbEByYOkbIQAV0dXw4yLPLB9KAGVb%2Fvto0AM6kdMvVfka7AoSws0nt6rEaNSXtgS5%2B=
+KSR%2B0tUO%2BngKcXZKId7m8Hu50Cdw2wQ%3D">Applied Sciences</a>&nbsp;&nbsp;(SC=
+I; ISSN&nbsp;2076-3417; IF: 2.679)</span><br><span style=3D"font-family:tim=
+es new roman">(7)&nbsp;<a href=3D"https://mta146.ix1.email-connector.com/da=
+/daecs?token=3Dv36wuwJPFfSRuSnqR2Ky%2FJDP1gr%2BrmrZc7Q43JvvOaNpQzMPvctALl4V=
+YNVDNTq3UYiMBWLGlMpbEByYOkbIQAV0dXw4yLPLnNL%2BwtPKe24%2BdakVWlmvYM%2B72Fcnn=
+Gv4mkAV5Xa009OZp170ca%2FkWEQnC0nLg9Nh%2BRuhifHHkQEj2gPTqkM9A4lwEnmV7WXrSnYv=
+MmiCeHyRJCPwycTMxLLbHYuFteaUy4xdHrmLQt2jYi5WQFpS4wcdzVURQzfARzc7OYB32EYhOqF=
+IwmcpHw7JXC2bpTBAu0Cgnlf6DwyVt20wjwHv2ZQJrzp7cZlZ63oBpi3kLGi%2FGO7jG7KSab4R=
+fRPGzH7apvHkbxdyWIBUIDORl4sy5rQEXJzg2pX7IzbdIWTwiYGom553HGUqKQ%3D%3D" targe=
+t=3D"_blank">Symmetry</a>&nbsp;(SCI; ISSN 2073-8994; IF: 2.713)</span><br><=
+span style=3D"font-family:times new roman">(8) <a href=3D"https://mta146.ix=
+1.email-connector.com/da/daecs?token=3Dv36wuwJPFfSkOPYrcXlIM%2FVlvK3kRVfec7=
+Q43JvvOaNpQzMPvctALl4VYNVDNTq3UYiMBWLGlMpbEByYOkbIQAV0dXw4yLPLB9KAGVb%2Fvto=
+0AM6kdMvVfka7AoSws0nt6rEaNSXtgS5p1fLvlWnmBFoM2pH6lPe68Hu50Cdw2wQ%3D" style=
+=3D"text-decoration:none;"><u>Sensors</u></a>&nbsp;(SCI; ISSN 1424-8220; IF=
+: 3.576)</span><br><span style=3D"font-family:times new roman">(9)&nbsp;<a =
+href=3D"https://mta146.ix1.email-connector.com/da/daecs?token=3Dv36wuwJPFfT=
+NzDtevY%2FrgL5o%2FPfqRSoTc7Q43JvvOaNpQzMPvctALl4VYNVDNTq3UYiMBWLGlMpbEByYOk=
+bIQAV0dXw4yLPLB9KAGVb%2Fvto0AM6kdMvVfka7AoSws0nt6rEaNSXtgS5nNV0cBQrq9kmZ5E%=
+2BtQFrvgDUIYII1uT4%3D" style=3D"text-decoration:none;"><u>Water&nbsp;</u></=
+a>(SCI; ISSN 2073-4441; IF: 3.103)</span><br><span style=3D"font-family:tim=
+es new roman">(10)&nbsp;<a href=3D"https://mta146.ix1.email-connector.com/d=
+a/daecs?token=3Dv36wuwJPFfSazd%2BJewHMg4%2Byx4%2Fp5jeKc7Q43JvvOaNpQzMPvctAL=
+l4VYNVDNTq3UYiMBWLGlMpbEByYOkbIQAV0dXw4yLPLB9KAGVb%2Fvto0AM6kdMvVfka7AoSws0=
+nt6rEaNSXtgS4jjcRoYRFPHFz1BzrA77N0f9YoDwn0Q%2B0%3D" style=3D"text-decoratio=
+n:none;"><u>Energies</u></a>&nbsp;(SCI; ISSN 1996-1073; IF: 3.004)</span><b=
+r><span style=3D"font-family:times new roman">(11)&nbsp;<a href=3D"https://=
+mta146.ix1.email-connector.com/da/daecs?token=3Dv36wuwJPFfQ9I%2FZgOstmblA4L=
+YIxDflNc7Q43JvvOaNpQzMPvctALl4VYNVDNTq3UYiMBWLGlMpbEByYOkbIQAV0dXw4yLPLB9KA=
+GVb%2FvtqW4yeNBgQdDb8ZtR%2FiRldQesGI5q3ZNliA9jTJCgBj2o63tpFYwGd7gDUIYII1uT4=
+%3D">Sensors and Materials</a>&nbsp;(SCI; ISSN: 0914-4935; IF: 0.599)</span=
+><br><span style=3D"font-family:times new roman">(12)&nbsp;<a href=3D"https=
+://mta146.ix1.email-connector.com/da/daecs?token=3Dv36wuwJPFfQDnbRjbJFEFbGX=
+ZjvOBgU1c7Q43JvvOaNpQzMPvctALl4VYNVDNTq3UYiMBWLGlMpbEByYOkbIQAV0dXw4yLPLB9K=
+AGVb%2Fvto0AM6kdMvVfka7AoSws0nt6rEaNSXtgS5F19UT0HdalFwnubbSZ49v">Applied Sy=
+stem Innovation</a>&nbsp;(ESCI, Scopus, ISSN 2571-5577)</span></span>
+                                     <br>&nbsp;=20
+                                    </div>=20
+                                    <div style=3D"line-height: 34px; text-a=
+lign: center;">=20
+                                     <strong><span style=3D"color:#ff0000">=
+<span style=3D"font-size:26px"><span style=3D"font-family:times new roman">=
+IMPORTANT DATES</span></span></span></strong>
+                                     <span style=3D"font-size:20px"><span s=
+tyle=3D"font-family:times new roman">&nbsp;<br>Abstract Submission Due: May=
+ 31, 2022<br>Acceptance of Abstract Date: &nbsp;June 15, 2022<br>Early Regi=
+stration Due: June 30, 2022<br>Submission of Full Paper&nbsp;Due: July 25, =
+2022<br>Conference: July 22&nbsp;- 24, 2022</span></span>=20
+                                    </div> </td>=20
+                                  </tr>=20
+                                 </tbody>=20
+                                </table> </td>=20
+                              </tr>=20
+                             </tbody>=20
+                            </table> </td>=20
+                          </tr>=20
+                         </tbody>=20
+                        </table> </td>=20
+                      </tr>=20
+                     </tbody>=20
+                    </table>=20
+                   </div>=20
+                  </div> </td>=20
+                </tr>=20
+               </tbody>=20
+              </table> </td>=20
+            </tr>=20
+           </tbody>=20
+          </table> </td>=20
+        </tr>=20
+       </tbody>=20
+      </table> </td>=20
+    </tr>=20
+   </tbody>=20
+  </table>=20
+ </div>=20
+</div>=20
+<div>
+  &nbsp;=20
+</div>
+</td></tr><tr><td align=3D"center">=20
+<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" class=3D"email-=
+footer" style=3D"background-color: #FFFFFF; width: 600px;">=20
+ <tbody>=20
+  <tr>=20
+   <td align=3D"left" style=3D"padding: 5px; border-color: #D0D0D0; border-=
+style: none; border-width: 0px;" valign=3D"top">=20
+    <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"width: 100%;">=20
+     <tbody>=20
+      <tr>=20
+       <td class=3D"email-footer-column" align=3D"left" valign=3D"top">=20
+        <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"width: 100%;">=20
+         <tbody>=20
+          <tr>=20
+           <td align=3D"left" style=3D"padding: 5px; font-family: Verdana, =
+sans-serif; font-size: 11px; line-height: 18px; color: #444444;" valign=3D"=
+top">This email was sent to: <a class=3D"email-footer-email-address" href=
+=3D"mailto:ivan.petrov@icloud.com" style=3D"color: #3399ff;"><strong>ivanov_y=
+s@icloud.com</strong></a> by <strong class=3D"email-footer-ios-link">Intern=
+ational Institute of Knowledge Innovation and Invention</strong><br /><span=
+ class=3D"email-footer-ios-link">No.12, Aly. 61, Ln. 174, Anchang St., Anna=
+n Dist., Tainan City 709, Taiwan (R.O.C.)</span>&nbsp;|&nbsp;Tel: <span cla=
+ss=3D"email-footer-ios-link">+886 6-3563061</span></td>=20
+          </tr>=20
+          <tr>=20
+           <td align=3D"left" style=3D"padding: 5px; font-family: Verdana, =
+sans-serif; font-size: 11px; line-height: 18px; color: #444444;" valign=3D"=
+bottom"><a id=3D"unsubscribe_link" href=3D"https://mta146.ix1.email-connect=
+or.com/da/umls?token=3DSQn53kQKl%2B4JBVo6uVdh8nWf2szSs%2B14LIlI5RzVpZwXuVRV=
+PlgNEb4t89O83KPcxGgbXl%2FCuNKqwovsjzcwG2c1YeIpb7KwgDUIYII1uT4%3D&lang=3Den"=
+ style=3D"color: #3399ff;">Unsubscribe Me</a>&nbsp;|&nbsp;Read <span class=
+=3D"email-footer-ios-link">SalesCatalysts</span> <a href=3D"https://mta146.=
+ix1.email-connector.com/documents/en/anti-spam-policy" style=3D"color: #339=
+9ff;">Email Marketing Policy</a></td>=20
+          </tr>=20
+         </tbody>=20
+        </table> </td>=20
+       <td class=3D"email-footer-column" align=3D"left" valign=3D"bottom" w=
+idth=3D"126">=20
+        <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"width: 100%;">=20
+         <tbody>=20
+          <tr>=20
+           <td align=3D"right" style=3D"padding: 5px; font-family: Verdana,=
+ sans-serif; font-size: 11px; line-height: 18px; color: #444444;" valign=3D=
+"bottom"><a href=3D"https://mta146.ix1.email-connector.com/email-marketing/=
+en/"><img alt=3D"Powered by SalesCatalysts Email Marketing & CRM" border=3D=
+"0" height=3D"70" src=3D"https://mta146.ix1.email-connector.com/da/daecs?to=
+ken=3DWaq%2BnGuei29ztDjcm%2B85o4rFz24Znan9umSgZkRJbo4BCaO4Hwwb6F4VYNVDNTq3U=
+YiMBWLGlMpbEByYOkbIQCtI6wrFI%2BMWf9yLQmVFOaKtpRbEGaKFLg%3D%3D" style=3D"dis=
+play: block" width=3D"126" /></a></td>=20
+          </tr>=20
+         </tbody>=20
+        </table> </td>=20
+      </tr>=20
+     </tbody>=20
+    </table> </td>=20
+  </tr>=20
+ </tbody>=20
+</table></td></tr></table>
+</body>
+</html>

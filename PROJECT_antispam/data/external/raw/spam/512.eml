@@ -1,0 +1,1342 @@
+Received: from iva5-8188665b893c.qloud-c.yandex.net (iva5-8188665b893c.qloud-c.yandex.net [2a02:6b8:c0c:7d80:0:640:8188:665b])
+	by iva4-c4158f6680a6.qloud-c.yandex.net with LMTP id k7YHoXBIs8-tozZaVdv
+	for <cool.mage@ya.ru>; Sat, 30 Apr 2022 13:50:16 +0300
+Received: from mta10.expertsender.com (mta10.expertsender.com [185.31.80.138])
+	by iva5-8188665b893c.qloud-c.yandex.net (mxfront/Yandex) with ESMTPS id Xfq3iWZRWm-oFe0qCIv;
+	Sat, 30 Apr 2022 13:50:15 +0300
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(Client certificate not present)
+Return-Path: 30725=e6177baf-b447-477d-82a4-7d0e239b6e0d=23=32336@e3.expertsender.com
+X-Yandex-Fwd: 1
+Authentication-Results: iva5-8188665b893c.qloud-c.yandex.net; spf=pass (iva5-8188665b893c.qloud-c.yandex.net: domain of e3.expertsender.com designates 185.31.80.138 as permitted sender, rule=[ip4:185.31.80.136/29]) smtp.mail=30725=e6177baf-b447-477d-82a4-7d0e239b6e0d=23=32336@e3.expertsender.com; dkim=pass header.i=@tochkalubvi.ru
+X-Yandex-Spam: 1
+X-Yandex-Uid-Status: 1 173473234
+Received: by mta10.expertsender.com id hdka6c2rlss4 for <cool.mage@ya.ru>; Sat, 30 Apr 2022 10:50:14 +0000 (envelope-from <30725=e6177baf-b447-477d-82a4-7d0e239b6e0d=23=32336@e3.expertsender.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; q=dns/txt;
+ d=tochkalubvi.ru; s=expertsender1k;
+ h=Date:Subject:From:To;
+ bh=69eDk7xVOqKOqQunqssvW3G8QBGVTrqWhZw7Xc5DqsM=;
+ b=VQd7gJcOX6a7MGq/FfkY/8UCTk3L3F6lv9o+1HCg8B9qB1dF8hYigaUXEs5VByGcNQHr
+ NMIyQPyNN3fTGGOOI2gZguM+ASCXWQxvr1+Nhx4z5QfvwWTbKOWpawB7d7H07IImJIabCc
+ 81/iePZb7jPHZ7Qjod7g7caLNYrBXLjuw=
+MIME-Version: 1.0
+Date: Sat, 30 Apr 2022 10:50:14 +0000
+Message-ID: <30725=e6177baf-b447-477d-82a4-7d0e239b6e0d=23=32336@links.tochkalubvi.ru>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Subject: =?utf-8?Q?=D0=9B=D1=83=D1=87=D1=88=D0=B8=D0=B9_=D1=8F=D0=B7=D1=8B=D0=BA_-?= 
+ =?utf-8?Q?_=D1=8D=D1=82=D0=BE=3F?=
+From: "=?utf-8?Q?=D0=AF=D0=BD=D0=B0_=D0=B8=D0=B7_=D0=A2=D0=BE=D1=87=D0=BA=D0=B8_=D0=9B=D1=8E=D0=B1=D0=B2=D0=B8_?=" <team@tochkalubvi.ru>
+Reply-To: =?utf-8?Q?=D0=AF=D0=BD=D0=B0_=D0=B8=D0=B7_=D0=A2=D0=BE=D1=87=D0=BA=D0=B8_=D0=9B=D1=8E=D0=B1=D0=B2=D0=B8?= <team@tochkalubvi.ru>
+To: =?utf-8?Q?=D0=92=D0=BB=D0=B0=D0=B4=D0=B8=D0=BC=D0=B8=D1=80?= <cool.mage@ya.ru>
+List-Unsubscribe: <mailto:nlu=xrx=6k1rl7jv267hh2u52xa1aym4=p=lsu=11eeee2a@f3.expertsender.com>,
+ <https://links.tochkalubvi.ru/u/iQo/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/78307733>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-id: "2022-04-29-lucsij-azyk-eto" <399>
+X-Message-Type: newsletter
+X-Yandex-Forward: 5aae6b49c4f1900e2a489ee3046b6e0b
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <title>=D0=A2=D0=BE=D1=87=D0=BA=D0=B0 =D0=9B=D1=8E=D0=B1=D0=B2=D0=B8</t=
+itle>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+"/>
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0"/>
+    <style type=3D"text/css">
+        a {
+            outline: none;
+            color: #000;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            text-decoration: none !important;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+
+        .active:hover {
+            opacity: 0.8;
+        }
+
+        .active {
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+
+        a img {
+            border: none;
+        }
+
+        table td {
+            mso-line-height-rule: exactly;
+        }
+
+        .ii a {
+            color: #15c !important;
+            text-decoration: underline !important;
+        }
+
+        .ExternalClass, .ExternalClass a, .ExternalClass span, .ExternalCla=
+ss b, .ExternalClass br, .ExternalClass p, .ExternalClass div {
+            line-height: inherit;
+        }
+
+        @media only screen and (max-width: 500px) {
+
+            table[class=3D"flexible"] {
+                width: 100% !important;
+            }
+
+            *[class~=3D"hide"] {
+                display: none !important;
+                width: 0 !important;
+                height: 0 !important;
+                padding: 0 !important;
+                font-size: 0 !important;
+                line-height: 0 !important;
+            }
+
+            td[class=3D"img-flex"] img {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            td[class=3D"aligncenter"] {
+                text-align: center !important;
+            }
+
+            th[class=3D"th-flex"] {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            tr[class=3D"table-holder"] {
+                display: table !important;
+                width: 100% !important;
+            }
+
+            th[class=3D"thead"] {
+                display: table-header-group !important;
+                width: 100% !important;
+            }
+
+            th[class=3D"tfoot"] {
+                display: table-footer-group !important;
+                width: 100% !important;
+            }
+
+            th[class=3D"tcap"] {
+                display: table-caption !important;
+                width: 100% !important;
+            }
+
+            td[class=3D"text-01"] {
+                font-size: 12px !important;
+            }
+
+            td[class=3D"alignright"] {
+                text-align: right !important;
+            }
+
+            td[class=3D"p-19"] {
+                padding-top: 0 !important;
+                padding-bottom: 10px !important;
+            }
+
+            td[class~=3D"pt-0"] {
+                padding-top: 0 !important;
+            }
+
+            td[class=3D"db1"] {
+                display: table-cell !important;
+                font-size: 11px !important;
+                line-height: 15px !important;
+            }
+
+            td[class=3D"p-01"] {
+                padding: 7px !important;
+            }
+
+            td[class~=3D"tar"] {
+                text-align: right !important;
+                padding: 0 5px 0 0;
+            }
+
+            td[class=3D"w5"] {
+                width: 5px !important;
+            }
+
+            td[class=3D"nav-list"] {
+                text-align: center !important;
+                margin: 0 auto !important;
+            }
+
+            td[class=3D"nav-list"] td[class=3D"active"] img {
+                height: 8px !important;
+                width: auto !important;
+            }
+
+            td[class=3D"logo-01"] {
+                padding-top: 25px !important;
+                padding-bottom: 15px !important;
+            }
+
+            td[class=3D"footer-imgs"] {
+                display: block !important;
+                padding: 10px 0 0;
+            }
+
+            td[class=3D"footer-nav"] {
+                display: block !important;
+                font-size: 16px !important;
+                line-height: 20px !important;
+                padding: 0 0 15px !important;
+            }
+
+            td[class=3D"footer-nav"] a {
+                display: block !important;
+                background: #eee !important;
+                border-bottom: 1px solid #fff;
+                padding: 10px 10px;
+            }
+
+            td[class=3D"visible"] {
+                display: block !important;
+                width: auto !important;
+                height: 100% !important;
+                max-height: 100% !important;
+                font-size: initial !important;
+                line-height: inherit !important;
+                float: none !important;
+                overflow: visible !important;
+            }
+
+            td[class=3D"holder"] {
+                padding-right: 10px !important;
+                padding-left: 10px !important;
+            }
+
+            td[class=3D"line"] {
+                vertical-align: top !important;
+                padding: 15px 0 0 !important;
+            }
+        }
+    </style>
+<style>.es-preheader { display:none !important; visibility:hidden; opacity:=
+0; color:transparent; height:0; width:0; max-height:0; overflow:hidden; } <=
+/style></head>
+<body style=3D"margin:0; padding:0; -webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%;" bgcolor=3D"#ffffff"><span class=3D"es-preheader" style=
+=3D"display:block !important;font-size:0px;font-color:#ffffff;">=D0=9F=D1=
+=80=D0=B8=D0=B2=D0=B5=D1=82, =D0=B2=D1=81=D0=B5=D0=BC =D0=B2=D0=BA=D1=83=D1=
+=81=D0=BD=D1=8B=D0=BC!  =D0=95=D1=81=D0=BB=D0=B8 =D0=B2=D1=8B =D0=B8=D1=89=
+=D0=B8=D1=82=D0=B5, =D0=BA=D0=B0=D0=BA =D1=83=D0=BB=D1=83=D1=87=D1=88=D0=B8=
+=D1=82=D1=8C =D1=81=D0=B2=D0=BE=D0=B9 =D0=BE=D1=80=D0=B0=D0=BB=D1=8C=D0=BD=
+=D1=8B=D0=B9 =D1=81=D0=B5=D0=BA=D1=81, =D1=8F =D0=BF=D1=80=D0=B8=D0=B3=D0=
+=BE=D1=82=D0=BE=D0=B2=D0=B8=D0=BB=D0=B0 =D1=81=D0=BE=D0=B2=D0=B5=D1=82=D1=
+=8B, =D0=BB=D0=B0=D0=B9=D1=84=D1=85=D0=B0=D0=BA=D0=B8 =D0=B8 =D0=BF=D0=BE=
+=D0=B7=D1=8B =D0=BE =D1=87=D0=B5=D0=BC =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D0=
+=BF=D0=BE=D0=BC=D0=BD=D0=B8=D1=82=D1=8C =D0=B2 =D1=8D=D1=82=D0=BE=D0=BC =D0=
+=BB=D1=8E=D0=B1=D0=BE=D0=B2=D0=BD=D0=BE=D0=BC =D0=B4=D0=B5=D0=BB=D0=B5!=F0=
+=9F=98=BC=F0=9F=92=A6&nbsp;&zwnj;</span>
+<div ems:preheader
+     style=3D"display:none!important;font-size:1px;color:#333;line-height:1=
+px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all">
+    =D0=91=D0=BE=D0=BB=D0=B5=D0=B5 50.000 =D0=98=D0=BD=D1=82=D0=B5=D1=80=D0=
+=B5=D1=81=D0=BD=D1=8B=D1=85 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=D0=B2! =D0=
+=91=D0=BE=D0=BB=D0=B5=D0=B5 280.000 =D0=A1=D1=87=D0=B0=D1=81=D1=82=D0=BB=D0=
+=B8=D0=B2=D1=8B=D1=85 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=BE=D0=B2! =D0=
+=91=D0=BE=D0=BB=D0=B5=D0=B5 250.000 =D0=92=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=
+=B5=D0=BD=D0=BD=D1=8B=D1=85 =D0=B7=D0=B0=D0=BA=D0=B0=D0=B7=D0=BE=D0=B2!
+</div>
+<table style=3D"min-width:320px;" width=3D"100%" cellspacing=3D"0" cellpadd=
+ing=3D"0" bgcolor=3D"#ffffff">
+    <!-- fix for gmail -->
+    <tr>
+        <td style=3D"line-height:0;">
+            <div style=3D"display:none; white-space:nowrap; font:15px/1px c=
+ourier;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp;
+            </div>
+        </td>
+    </tr>
+    <!-- /fix for gmail -->
+    <tr>
+        <td>
+            <table class=3D"flexible" width=3D"600" align=3D"center" style=
+=3D"margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0">
+                <!-- fix for gmail -->
+                <tr>
+                    <td style=3D"font:0/0 Arial, Helvetica, sans-serif; dis=
+play:none; visibility:hidden; width:0; height:0;"></td>
+                </tr>
+                <tr>
+                    <td class=3D"hide">
+                        <table width=3D"600" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"width:600px !important;">
+                            <tr>
+                                <td style=3D"min-width:600px; font-size:0; =
+line-height:0;">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table class=3D"flexible" width=3D"600" align=3D"center" style=
+=3D"margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0">
+                <tr>
+                    <td align=3D"center"
+                        style=3D"font:11px/16px Arial, Helvetica, sans-seri=
+f; color:#777; padding:2px 10px 10px;">
+                        =D0=95=D1=81=D0=BB=D0=B8 =D0=B2 =D0=BF=D0=B8=D1=81=
+=D1=8C=D0=BC=D0=B5 =D0=BD=D0=B5=D1=82 =D0=B8=D0=B7=D0=BE=D0=B1=D1=80=D0=B0=
+=D0=B6=D0=B5=D0=BD=D0=B8=D0=B9, <a href=3D"https://links.tochkalubvi.ru/c/i=
+Qo/bbY/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/25400ee8"                            =
+                               style=3D"text-decoration:underline; color:#7=
+77;"                                                           target=3D"_b=
+lank">=D0=BF=D0=BE=D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=B8=D1=82=D0=B5 =D0=B2=
+=D0=B5=D0=B1-=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8E</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- content -->
+    <tr>
+        <td>
+            <table class=3D"flexible" width=3D"600" align=3D"center" style=
+=3D"margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0">
+                <tr>
+                    <td class=3D"holder">
+                        <table cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"100%">
+                            <tr style=3D"border-bottom: 1px solid #e9e9e9;"=
+>
+                                <td align=3D"center" style=3D"padding: 0 0 =
+15px;">
+                                    <a href=3D"https://links.tochkalubvi.ru=
+/c/iQo/bbe/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/dce91d1b"                        =
+                target=3D"_blank" style=3D"text-decoration:none;">
+                                        <img src=3D"https://links.tochkalub=
+vi.ru/Content/i2/30725/HostedImages/399/main.jpg" width=3D"100%" alt=3D"" i=
+d=3D"mainImg"
+                                             style=3D"min-height:200px;vert=
+ical-align:top; width: 100%; max-width:600px;">
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr style=3D"border-bottom: 1px solid #e9e9e9;"=
+>
+                                <td align=3D"center" style=3D"padding: 0 0 =
+15px;">
+                                   <p style=3D"text-align: left;  margin: 0=
+; line-height: 1.45;">
+                                        <a href=3D"https://links.tochkalubv=
+i.ru/c/iQo/bbf/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/905a37b2"                    =
+                        target=3D"_blank" style=3D"text-decoration:none; co=
+lor:#333;">
+                                            =D0=9F=D1=80=D0=B8=D0=B2=D0=B5=
+=D1=82, =D0=B2=D1=81=D0=B5=D0=BC =D0=B2=D0=BA=D1=83=D1=81=D0=BD=D1=8B=D0=BC=
+!  </a>
+                                    </p>
+ <p style=3D"text-align: left;  margin: 0; line-height: 1.45;">
+                                        <a href=3D"https://links.tochkalubv=
+i.ru/c/iQo/bbu/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/65ca75d6"                    =
+                        target=3D"_blank" style=3D"text-decoration:none; co=
+lor:#333;">=D0=95=D1=81=D0=BB=D0=B8 =D0=B2=D1=8B =D0=B8=D1=89=D0=B8=D1=82=
+=D0=B5, =D0=BA=D0=B0=D0=BA =D1=83=D0=BB=D1=83=D1=87=D1=88=D0=B8=D1=82=D1=8C=
+ =D1=81=D0=B2=D0=BE=D0=B9 =D0=BE=D1=80=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =
+=D1=81=D0=B5=D0=BA=D1=81, =D1=8F =D0=BF=D1=80=D0=B8=D0=B3=D0=BE=D1=82=D0=BE=
+=D0=B2=D0=B8=D0=BB=D0=B0 =D1=81=D0=BE=D0=B2=D0=B5=D1=82=D1=8B =D0=B8 =D0=BB=
+=D0=B0=D0=B9=D1=84=D1=85=D0=B0=D0=BA=D0=B8, =D0=BE =D1=87=D0=B5=D0=BC =D0=
+=BD=D1=83=D0=B6=D0=BD=D0=BE =D0=BF=D0=BE=D0=BC=D0=BD=D0=B8=D1=82=D1=8C =D0=
+=B2 =D1=8D=D1=82=D0=BE=D0=BC =D0=B8=D1=81=D0=BA=D1=83=D1=81=D0=BD=D0=BE=D0=
+=BC =D0=BB=D1=8E=D0=B1=D0=BE=D0=B2=D0=BD=D0=BE=D0=BC =D0=B4=D0=B5=D0=BB=D0=
+=B5!=20
+  =D0=94=D0=BB=D1=8F =D1=82=D0=B5=D1=85 =D0=BA=D0=BE=D0=BC=D1=83 =D0=BD=D1=
+=80=D0=B0=D0=B2=D0=B8=D1=82=D1=81=D1=8F =D0=BE=D1=80=D0=B0=D0=BB=D1=8C=D0=
+=BD=D1=8B=D0=B9 =D1=81=D0=B5=D0=BA=D1=81, =D0=BA=D1=82=D0=BE =D0=B7=D0=B0=
+=D0=B8=D0=BD=D1=82=D0=B5=D1=80=D0=B5=D1=81=D0=BE=D0=B2=D0=B0=D0=BD =D0=B2 =
+=D1=80=D0=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=D1=82=D0=B5.</a>
+                                    </p>
+ <p style=3D"text-align: left;  margin: 0; line-height: 1.45;">
+                                        <a href=3D"https://links.tochkalubv=
+i.ru/c/iQo/bb0/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/3901a3da"                    =
+                        target=3D"_blank" style=3D"text-decoration:none; co=
+lor:#333;">=D0=A3=D1=81=D0=BB=D1=8B=D1=88=D0=B0=D0=BB=D0=B0 =D0=B2 =D0=BE=
+=D0=B4=D0=BD=D0=BE=D0=BC =D0=BF=D0=BE=D0=B4=D0=BA=D0=B0=D1=81=D1=82=D0=B5, =
+=D0=BA=D0=B0=D0=BA =D0=B4=D0=B5=D0=B2=D1=83=D1=88=D0=BA=D0=B0, =D1=81=D0=BE=
+=D0=B1=D0=BB=D0=B0=D0=B7=D0=BD=D1=8F=D1=8F =D0=BF=D0=B0=D1=80=D0=BD=D1=8F, =
+=D0=B4=D0=BE=D1=81=D1=82=D0=B0=D0=BB=D0=B0 =D0=B8=D0=B7=D0=BE =D1=80=D1=82=
+=D0=B0...                                        </a>
+                                    </p>
+<p><a href=3D"https://links.tochkalubvi.ru/c/iQo/boy/1945ZhADRIAc-iDE7ZWwma=
+/5/iZa/F/39c3ea4a">=D0=9F=D0=BE=D0=B4=D0=BF=D0=B8=D1=81=D1=8B=D0=B2=D0=B0=
+=D0=B9=D1=82=D0=B5=D1=81=D1=8C =D0=BD=D0=B0 =D0=BD=D0=B0=D1=88 Telegram, =
+=D1=87=D1=82=D0=BE=D0=B1=D1=8B =D0=BD=D0=B5 =D0=BF=D1=80=D0=BE=D0=BF=D1=83=
+=D1=81=D1=82=D0=B8=D1=82=D1=8C =D0=BC=D0=B0=D0=B9=D1=81=D0=BA=D0=B8=D0=B5 =
+=D0=B0=D0=BA=D1=86=D0=B8=D0=B8</a></p>
+                                    <a href=3D"https://links.tochkalubvi.ru=
+/c/iQo/boF/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/8cd9d310"                        =
+                target=3D"_blank" style=3D"text-decoration:none; color: #55=
+9ebf;">
+                                        =D0=A7=D0=B8=D1=82=D0=B0=D1=82=D1=
+=8C =D0=BF=D0=BE=D0=BB=D0=BD=D0=BE=D1=81=D1=82=D1=8C=D1=8E
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr style=3D"border-bottom: 1px solid #e9e9e9;"=
+>
+                                <td align=3D"center" style=3D"padding: 0 0 =
+15px;">
+                                    <table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                        <tr>
+                                            <td style=3D"width: 80px;">
+                                                <a href=3D"https://links.to=
+chkalubvi.ru/c/iQo/boc/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/f03b7b30"            =
+                                        target=3D"_blank" style=3D"text-dec=
+oration:none">
+                                                    <img src=3D"https://lin=
+ks.tochkalubvi.ru/Content/i2/30725/HostedImages/399/avatar.jpg" id=3D"avata=
+rImg"
+                                                         width=3D"80px" hei=
+ght=3D"80px"
+                                                         style=3D"height:80=
+px; width: 80px;">
+                                                </a>
+                                            </td>
+                                            <td style=3D"padding: 0 0 0 20p=
+x; width: 520px;">
+                                                <p style=3D"font-weight: bo=
+ld; text-align: left; margin: 0 0 5px 0;">
+                                                    <a href=3D"https://link=
+s.tochkalubvi.ru/c/iQo/bom/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/d8741924"        =
+                                                target=3D"_blank" style=3D"=
+text-decoration:none; color:#333;">
+                                                    =D0=AF=D0=BD=D0=B0     =
+                                               </a>
+                                                </p>
+                                                <p style=3D"text-align: lef=
+t;  margin: 0;">
+                                                    <a href=3D"https://link=
+s.tochkalubvi.ru/c/iQo/bob/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/7d7a9f68"        =
+                                                target=3D"_blank" style=3D"=
+text-decoration:none; color:#333;">
+                                                        =D0=9A=D0=BE=D0=BD=
+=D1=82=D0=B5=D0=BD=D1=82 =D0=BC=D0=B5=D0=BD=D0=B5=D0=B4=D0=B6=D0=B5=D1=80 =
+=D0=A2=D0=BE=D1=87=D0=BA=D0=B8 =D0=9B=D1=8E=D0=B1=D0=B2=D0=B8              =
+                                       </a>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                                                            <tr>
+                                    <td align=3D"center"
+                                        style=3D"font:22px/25px Arial, Helv=
+etica, sans-serif; color:#333; padding: 0 10px 30px;">
+                                        =D0=94=D0=B2=D0=BE=D0=B9=D0=BD=D0=
+=B0=D1=8F =D1=81=D1=82=D0=B8=D0=BC=D1=83=D0=BB=D1=8F=D1=86=D0=B8=D1=8F     =
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td style=3D"padding: 0;">
+                                        <table cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"100%">
+                                            <tr>
+                                                                           =
+                         <th class=3D"th-flex" width=3D"300" align=3D"left"
+                                                        style=3D"padding: 0=
+ 0 30px; vertical-align:top;">
+                                                        <table width=3D"100=
+%" cellpadding=3D"0" cellspacing=3D"0">
+                                                            <tr>
+                                                                           =
+                                                         <td width=3D"150" =
+valign=3D"top">
+                                                                        <ta=
+ble cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                                                           =
+ <tr>
+                                                                           =
+     <td class=3D"img-flex" align=3D"center"
+                                                                           =
+         style=3D"padding: 0 0 10px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/boo/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/1986d7d5"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">
+                                                                           =
+             <img src=3D"https://imagesv2.tochkalubvi.ru/kema-sex/57266.jpg=
+"
+                                                                           =
+                  width=3D"150" alt=3D""
+                                                                           =
+                  style=3D"vertical-align:top; width:150px;"/>
+                                                                           =
+         </a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:bold 14px/20px Arial, Helvetica, sans-serif; color:#=
+000; text-transform: uppercase; padding: 0 0 1px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/boL/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/fc022aa7"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">Miss Bi by Love Basix</a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:12px/20px Arial, Helvetica, sans-serif; color:#78787=
+8;">
+                                                                           =
+          =D1=81=D0=B8=D1=80=D0=B5=D0=BD=D0=B5=D0=B2=D1=8B=D0=B9           =
+                                                                     </td>
+                                                                           =
+ </tr>
+                                                                        </t=
+able>
+                                                                    </td>
+                                                                           =
+                                                         <td width=3D"150" =
+valign=3D"top">
+                                                                        <ta=
+ble cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                                                           =
+ <tr>
+                                                                           =
+     <td class=3D"img-flex" align=3D"center"
+                                                                           =
+         style=3D"padding: 0 0 10px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/boi/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/80e08287"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">
+                                                                           =
+             <img src=3D"https://imagesv2.tochkalubvi.ru/astkol-sex2/53870.=
+jpg"
+                                                                           =
+                  width=3D"150" alt=3D""
+                                                                           =
+                  style=3D"vertical-align:top; width:150px;"/>
+                                                                           =
+         </a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:bold 14px/20px Arial, Helvetica, sans-serif; color:#=
+000; text-transform: uppercase; padding: 0 0 1px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/bo7/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/989221a9"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">Satisfyer Mono Flex</a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:12px/20px Arial, Helvetica, sans-serif; color:#78787=
+8;">
+                                                                           =
+          =D0=BA=D1=80=D0=B0=D1=81=D0=BD=D1=8B=D0=B9                       =
+                                                         </td>
+                                                                           =
+ </tr>
+                                                                        </t=
+able>
+                                                                    </td>
+                                                                           =
+                                                 </tr>
+                                                        </table>
+                                                    </th>
+                                                                           =
+                         <th class=3D"th-flex" width=3D"300" align=3D"left"
+                                                        style=3D"padding: 0=
+ 0 30px; vertical-align:top;">
+                                                        <table width=3D"100=
+%" cellpadding=3D"0" cellspacing=3D"0">
+                                                            <tr>
+                                                                           =
+                                                         <td width=3D"150" =
+valign=3D"top">
+                                                                        <ta=
+ble cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                                                           =
+ <tr>
+                                                                           =
+     <td class=3D"img-flex" align=3D"center"
+                                                                           =
+         style=3D"padding: 0 0 10px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/bo2/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/4d475e52"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">
+                                                                           =
+             <img src=3D"https://imagesv2.tochkalubvi.ru/kazanova-sex2/5347=
+6.jpg"
+                                                                           =
+                  width=3D"150" alt=3D""
+                                                                           =
+                  style=3D"vertical-align:top; width:150px;"/>
+                                                                           =
+         </a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:bold 14px/20px Arial, Helvetica, sans-serif; color:#=
+000; text-transform: uppercase; padding: 0 0 1px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/boX/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/1db5d9c9"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">We-Vibe Nova 2</a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:12px/20px Arial, Helvetica, sans-serif; color:#78787=
+8;">
+                                                                           =
+          =D1=84=D0=B8=D0=BE=D0=BB=D0=B5=D1=82=D0=BE=D0=B2=D1=8B=D0=B9     =
+                                                                           =
+</td>
+                                                                           =
+ </tr>
+                                                                        </t=
+able>
+                                                                    </td>
+                                                                           =
+                                                         <td width=3D"150" =
+valign=3D"top">
+                                                                        <ta=
+ble cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                                                           =
+ <tr>
+                                                                           =
+     <td class=3D"img-flex" align=3D"center"
+                                                                           =
+         style=3D"padding: 0 0 10px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/bo6/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/15d3c5f1"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">
+                                                                           =
+             <img src=3D"https://imagesv2.tochkalubvi.ru/inspirit2/59355.jp=
+g"
+                                                                           =
+                  width=3D"150" alt=3D""
+                                                                           =
+                  style=3D"vertical-align:top; width:150px;"/>
+                                                                           =
+         </a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:bold 14px/20px Arial, Helvetica, sans-serif; color:#=
+000; text-transform: uppercase; padding: 0 0 1px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/bok/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/41124c76"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">Lelo Ina 3</a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:12px/20px Arial, Helvetica, sans-serif; color:#78787=
+8;">
+                                                                           =
+          =D0=B1=D0=B8=D1=80=D1=8E=D0=B7=D0=BE=D0=B2=D1=8B=D0=B9           =
+                                                                     </td>
+                                                                           =
+ </tr>
+                                                                        </t=
+able>
+                                                                    </td>
+                                                                           =
+                                                 </tr>
+                                                        </table>
+                                                    </th>
+                                                                           =
+                 </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align=3D"center"
+                                        style=3D"font:22px/25px Arial, Helv=
+etica, sans-serif; color:#333; padding: 0 10px 40px;"></td>
+                                </tr>
+                                                            <tr>
+                                    <td align=3D"center"
+                                        style=3D"font:22px/25px Arial, Helv=
+etica, sans-serif; color:#333; padding: 0 10px 30px;">
+                                        =D0=9F=D1=80=D0=B5=D0=B4=D0=B2=D0=
+=B0=D1=80=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE =D0=BF=D0=BE=D0=BC=D0=
+=B0=D1=81=D1=81=D0=B8=D1=80=D1=83=D0=B9 =D0=B5=D0=B9 =D1=81=D0=BF=D0=B8=D0=
+=BD=D0=BA=D1=83                                     </td>
+                                </tr>
+                                <tr>
+                                    <td style=3D"padding: 0;">
+                                        <table cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"100%">
+                                            <tr>
+                                                                           =
+                         <th class=3D"th-flex" width=3D"300" align=3D"left"
+                                                        style=3D"padding: 0=
+ 0 30px; vertical-align:top;">
+                                                        <table width=3D"100=
+%" cellpadding=3D"0" cellspacing=3D"0">
+                                                            <tr>
+                                                                           =
+                                                         <td width=3D"150" =
+valign=3D"top">
+                                                                        <ta=
+ble cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                                                           =
+ <tr>
+                                                                           =
+     <td class=3D"img-flex" align=3D"center"
+                                                                           =
+         style=3D"padding: 0 0 10px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/boH/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/a496b104"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">
+                                                                           =
+             <img src=3D"https://imagesv2.tochkalubvi.ru/astkol-sex/53114.j=
+pg"
+                                                                           =
+                  width=3D"150" alt=3D""
+                                                                           =
+                  style=3D"vertical-align:top; width:150px;"/>
+                                                                           =
+         </a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:bold 14px/20px Arial, Helvetica, sans-serif; color:#=
+000; text-transform: uppercase; padding: 0 0 1px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/boE/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/c06af9b9"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">YESforLOV Allover Delicious Massage Gel=
+ Peach Apricot</a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:12px/20px Arial, Helvetica, sans-serif; color:#78787=
+8;">
+                                                                           =
+          50 =D0=BC=D0=BB                                                  =
+                              </td>
+                                                                           =
+ </tr>
+                                                                        </t=
+able>
+                                                                    </td>
+                                                                           =
+                                                         <td width=3D"150" =
+valign=3D"top">
+                                                                        <ta=
+ble cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                                                           =
+ <tr>
+                                                                           =
+     <td class=3D"img-flex" align=3D"center"
+                                                                           =
+         style=3D"padding: 0 0 10px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/bor/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/c459f7a5"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">
+                                                                           =
+             <img src=3D"https://imagesv2.tochkalubvi.ru/inspirit/12942-1.j=
+pg"
+                                                                           =
+                  width=3D"150" alt=3D""
+                                                                           =
+                  style=3D"vertical-align:top; width:150px;"/>
+                                                                           =
+         </a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:bold 14px/20px Arial, Helvetica, sans-serif; color:#=
+000; text-transform: uppercase; padding: 0 0 1px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/boa/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/31c9b5c1"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">JO All-In-One Lavender Fields</a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:12px/20px Arial, Helvetica, sans-serif; color:#78787=
+8;">
+                                                                           =
+          120=D0=BC=D0=BB                                                  =
+                              </td>
+                                                                           =
+ </tr>
+                                                                        </t=
+able>
+                                                                    </td>
+                                                                           =
+                                                 </tr>
+                                                        </table>
+                                                    </th>
+                                                                           =
+                         <th class=3D"th-flex" width=3D"300" align=3D"left"
+                                                        style=3D"padding: 0=
+ 0 30px; vertical-align:top;">
+                                                        <table width=3D"100=
+%" cellpadding=3D"0" cellspacing=3D"0">
+                                                            <tr>
+                                                                           =
+                                                         <td width=3D"150" =
+valign=3D"top">
+                                                                        <ta=
+ble cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                                                           =
+ <tr>
+                                                                           =
+     <td class=3D"img-flex" align=3D"center"
+                                                                           =
+         style=3D"padding: 0 0 10px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/bon/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/94c7338d"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">
+                                                                           =
+             <img src=3D"https://imagesv2.tochkalubvi.ru/brands/pjur/27487.=
+jpg"
+                                                                           =
+                  width=3D"150" alt=3D""
+                                                                           =
+                  style=3D"vertical-align:top; width:150px;"/>
+                                                                           =
+         </a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:bold 14px/20px Arial, Helvetica, sans-serif; color:#=
+000; text-transform: uppercase; padding: 0 0 1px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/boj/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/cc53a82e"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">pjur SPA Scentouch Vanilla Seduction</a=
+>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:12px/20px Arial, Helvetica, sans-serif; color:#78787=
+8;">
+                                                                           =
+          200 =D0=BC=D0=BB                                                 =
+                               </td>
+                                                                           =
+ </tr>
+                                                                        </t=
+able>
+                                                                    </td>
+                                                                           =
+                                                         <td width=3D"150" =
+valign=3D"top">
+                                                                        <ta=
+ble cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                                                           =
+ <tr>
+                                                                           =
+     <td class=3D"img-flex" align=3D"center"
+                                                                           =
+         style=3D"padding: 0 0 10px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/bos/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/491813fd"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">
+                                                                           =
+             <img src=3D"https://imagesv2.tochkalubvi.ru/astkol-sex/25415.j=
+pg"
+                                                                           =
+                  width=3D"150" alt=3D""
+                                                                           =
+                  style=3D"vertical-align:top; width:150px;"/>
+                                                                           =
+         </a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:bold 14px/20px Arial, Helvetica, sans-serif; color:#=
+000; text-transform: uppercase; padding: 0 0 1px;">
+                                                                           =
+         <a href=3D"https://links.tochkalubvi.ru/c/iQo/boI/1945ZhADRIAc-iDE=
+7ZWwma/5/iZa/F/29d7555c"                                                   =
+                                     target=3D"_blank"                     =
+                                                                   style=3D=
+"text-decoration:none; color:#000;">Shunga Sparkling Strawberry Wine</a>
+                                                                           =
+     </td>
+                                                                           =
+ </tr>
+                                                                           =
+ <tr>
+                                                                           =
+     <td align=3D"center"
+                                                                           =
+         style=3D"font:12px/20px Arial, Helvetica, sans-serif; color:#78787=
+8;">
+                                                                           =
+          100 =D0=BC=D0=BB                                                 =
+                               </td>
+                                                                           =
+ </tr>
+                                                                        </t=
+able>
+                                                                    </td>
+                                                                           =
+                                                 </tr>
+                                                        </table>
+                                                    </th>
+                                                                           =
+                 </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align=3D"center"
+                                        style=3D"font:22px/25px Arial, Helv=
+etica, sans-serif; color:#333; padding: 0 10px 40px;"></td>
+                                </tr>
+                                                    </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- /content -->
+    <!-- footer nav -->
+    <!--[if (!mso) & (!IE)]><!-- -->
+    <tr>
+        <td class=3D"footer-imgs" style=3D"font:bold 0/0 Arial, Helvetica, =
+sans-serif; display:none;">
+            <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                <tr>
+                    <td class=3D"active" align=3D"center" bgcolor=3D"#eeeee=
+e"
+                        style=3D"border-bottom: 1px solid #fff; display: bl=
+ock;">
+                        <a href=3D"https://links.tochkalubvi.ru/c/iQo/boN/1=
+945ZhADRIAc-iDE7ZWwma/5/iZa/F/3df0e456"                            target=
+=3D"_blank"                            style=3D"text-decoration:none; color=
+:#3899d4; display: block;padding: 15px 10px; ">
+                            <img src=3D"https://static.condom-shop.ru/nav-t=
+ext-igrushki-with-defis.png" width=3D"112"
+                                 height=3D"11" alt=3D"=D0=A1=D0=B5=D0=BA=D1=
+=81-=D0=98=D0=B3=D1=80=D1=83=D1=88=D0=BA=D0=B8"
+                                 style=3D"vertical-align: top; width: 112px=
+; height: 11px;"/>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class=3D"active" align=3D"center" bgcolor=3D"#eeeee=
+e"
+                        style=3D"border-bottom: 1px solid #fff; display: bl=
+ock;">
+                        <a href=3D"https://links.tochkalubvi.ru/c/iQo/bog/1=
+945ZhADRIAc-iDE7ZWwma/5/iZa/F/a8afe093"                            target=
+=3D"_blank"                            style=3D"text-decoration:none; color=
+:#3899d4; display: block;padding: 15px 10px; ">
+                            <img src=3D"https://static.condom-shop.ru/nav-t=
+ext-dlya-zhenschin.png" width=3D"103"
+                                 height=3D"11" alt=3D"=D0=94=D0=BB=D1=8F =
+=D0=96=D0=B5=D0=BD=D1=89=D0=B8=D0=BD" style=3D"vertical-align: top; width:1=
+03px; height: 11px;"/>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class=3D"active" align=3D"center" bgcolor=3D"#eeeee=
+e"
+                        style=3D"border-bottom: 1px solid #fff; display: bl=
+ock;">
+                        <a href=3D"https://links.tochkalubvi.ru/c/iQo/bo5/1=
+945ZhADRIAc-iDE7ZWwma/5/iZa/F/5960ef58"                            target=
+=3D"_blank"                            style=3D"text-decoration:none; color=
+:#3899d4; display: block;padding: 15px 10px; ">
+                            <img src=3D"https://static.condom-shop.ru/nav-t=
+ext-dlya-muzhschin.png" width=3D"100"
+                                 height=3D"11" alt=3D"=D0=94=D0=BB=D1=8F =
+=D0=9C=D1=83=D0=B6=D1=87=D0=B8=D0=BD" style=3D"vertical-align: top; width:1=
+00px; height: 11px;"/>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class=3D"active" align=3D"center" bgcolor=3D"#eeeee=
+e"
+                        style=3D"border-bottom: 1px solid #fff; display: bl=
+ock;">
+                        <a href=3D"https://links.tochkalubvi.ru/c/iQo/bov/1=
+945ZhADRIAc-iDE7ZWwma/5/iZa/F/9ccd6c06"                            target=
+=3D"_blank"                            style=3D"text-decoration:none; color=
+:#3899d4; display: block;padding: 15px 10px; ">
+                            <img src=3D"https://static.condom-shop.ru/nav-t=
+ext-dlya-par.png" width=3D"63"
+                                 height=3D"11" alt=3D"=D0=94=D0=BB=D1=8F =
+=D0=9F=D0=B0=D1=80" style=3D"vertical-align: top; width:63px; height: 11px;=
+"/>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class=3D"active" align=3D"center" bgcolor=3D"#eeeee=
+e"
+                        style=3D"border-bottom: 1px solid #fff; display: bl=
+ock;">
+                        <a href=3D"https://links.tochkalubvi.ru/c/iQo/bot/1=
+945ZhADRIAc-iDE7ZWwma/5/iZa/F/5d3fa2f7"                            target=
+=3D"_blank"                            style=3D"text-decoration:none; color=
+:#3899d4; display: block;padding: 15px 10px; ">
+                            <img src=3D"https://static.condom-shop.ru/nav-t=
+ext-bdsm.png" width=3D"42"
+                                 height=3D"11" alt=3D"BDSM" style=3D"vertic=
+al-align: top; width:42px; height: 11px;"/>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class=3D"active" align=3D"center" bgcolor=3D"#eeeee=
+e"
+                        style=3D"border-bottom: 1px solid #fff; display: bl=
+ock;">
+                        <a href=3D"https://links.tochkalubvi.ru/c/iQo/boq/1=
+945ZhADRIAc-iDE7ZWwma/5/iZa/F/88eadd0c"                            target=
+=3D"_blank"                            style=3D"text-decoration:none; color=
+:#3899d4; display: block;padding: 15px 10px; ">
+                            <img src=3D"https://static.condom-shop.ru/nav-t=
+ext-skidki.png" width=3D"61"
+                                 height=3D"11" alt=3D"=D0=A1=D0=BA=D0=B8=D0=
+=B4=D0=BA=D0=B8" style=3D"vertical-align: top; width:61px; height: 11px;"/>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!--<![endif]-->
+    <!-- /footer nav -->
+    <!-- footer -->
+    <tr>
+        <td>
+            <table class=3D"flexible" width=3D"600" align=3D"center" style=
+=3D"margin:0 auto;" cellpadding=3D"0" cellspacing=3D"0">
+                <tr>
+                    <td class=3D"holder">
+                        <table cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"100%">
+                            <tr>
+                                <td class=3D"p-34" style=3D"border-top:1px =
+solid #ededed; padding:28px 0;">
+                                    <table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0">
+                                        <tr>
+                                            <td style=3D"padding:0 0 16px;"=
+>
+                                                <table width=3D"100%" cellp=
+adding=3D"0" cellspacing=3D"0">
+                                                    <tr>
+                                                        <th class=3D"th-fle=
+x" width=3D"200" align=3D"left"
+                                                            style=3D"vertic=
+al-align:top; padding:0;">
+                                                            <table width=3D=
+"100%" cellpadding=3D"0" cellspacing=3D"0">
+                                                                <tr>
+                                                                    <td cla=
+ss=3D"aligncenter"
+                                                                        sty=
+le=3D"font:12px/16px Arial, Helvetica, sans-serif; color:#6e6e6e; padding:0=
+ 0 19px;">
+                                                                        <a =
+style=3D"text-decoration:underline; color:#6e6e6e;"                        =
+                                                    target=3D"_blank"      =
+                                                                      href=
+=3D"https://links.tochkalubvi.ru/c/iQo/bod/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/e=
+41cca3a">=D0=9A=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D1=81=D0=BA=D0=B8=D0=B9
+                                                                           =
+ =D0=A1=D0=B5=D1=80=D0=B2=D0=B8=D1=81 24/7</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </th>
+                                                        <th class=3D"th-fle=
+x" width=3D"200" align=3D"left"
+                                                            style=3D"vertic=
+al-align:top; padding:0;">
+                                                            <table width=3D=
+"100%" cellpadding=3D"0" cellspacing=3D"0">
+                                                                <tr>
+                                                                    <td ali=
+gn=3D"center"
+                                                                        sty=
+le=3D"font:12px/16px Arial, Helvetica, sans-serif; color:#6e6e6e; padding:0=
+ 0 19px;">
+                                                                        <a =
+style=3D"text-decoration:underline; color:#6e6e6e;"                        =
+                                                    target=3D"_blank"      =
+                                                                      href=
+=3D"https://links.tochkalubvi.ru/c/iQo/box/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/b=
+4820e12">=D0=90=D0=BD=D0=BE=D0=BD=D0=B8=D0=BC=D0=BD=D0=BE
+                                                                           =
+ =D0=B8 =D0=9A=D0=BE=D0=BD=D1=84=D0=B8=D0=B4=D0=B5=D0=BD=D1=86=D0=B8=D0=B0=
+=D0=BB=D1=8C=D0=BD=D0=BE</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </th>
+                                                        <th class=3D"th-fle=
+x" width=3D"200" align=3D"left"
+                                                            style=3D"vertic=
+al-align:top; padding:0;">
+                                                            <table width=3D=
+"100%" cellpadding=3D"0" cellspacing=3D"0">
+                                                                <tr>
+                                                                    <td cla=
+ss=3D"aligncenter" align=3D"right"
+                                                                        sty=
+le=3D"font:12px/16px Arial, Helvetica, sans-serif; color:#6e6e6e; padding:0=
+ 0 19px;">
+                                                                        <a =
+style=3D"text-decoration:underline; color:#6e6e6e;"                        =
+                                                    target=3D"_blank"      =
+                                                                      href=
+=3D"https://links.tochkalubvi.ru/c/iQo/bol/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/5=
+535fd7c">=D0=91=D0=B5=D1=81=D0=BF=D0=BB=D0=B0=D1=82=D0=BD=D0=B0=D1=8F
+                                                                           =
+ =D0=94=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B0</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </th>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class=3D"ii" align=3D"cente=
+r"
+                                                style=3D"font:12px/16px Ari=
+al, Helvetica, sans-serif; color:#6e6e6e; padding:0 15px 4px;">
+                                                =D0=AD=D1=82=D0=BE =D0=BF=
+=D0=B8=D1=81=D1=8C=D0=BC=D0=BE =D0=B1=D1=8B=D0=BB=D0=BE =D0=BE=D1=82=D0=BF=
+=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE =D0=BD=D0=B0 email: <span
+                                                        style=3D"color:#15c=
+; text-decoration: underline;">cool.mage@ya.ru</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class=3D"ii" align=3D"cente=
+r"
+                                                style=3D"font:12px/16px Ari=
+al, Helvetica, sans-serif; color:#6e6e6e; padding:0 15px 6px;">
+                                                =D0=A7=D1=82=D0=BE=D0=B1=D1=
+=8B =D0=BD=D0=B5 =D0=BF=D1=80=D0=BE=D0=BF=D1=83=D1=81=D1=82=D0=B8=D1=82=D1=
+=8C =D0=BD=D0=B8 =D0=BE=D0=B4=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=D0=B8=D1=81=D1=
+=8C=D0=BC=D0=B0 =D0=BE=D1=82 =D0=BD=D0=B0=D1=81, =D0=B4=D0=BE=D0=B1=D0=B0=
+=D0=B2=D1=8C=D1=82=D0=B5 =D0=B0=D0=B4=D1=80=D0=B5=D1=81 <a                 =
+                                        style=3D"text-decoration:underline;=
+ color:#15c;" target=3D"_blank"                                            =
+             href=3D"https://links.tochkalubvi.ru/c/iQo/boA/1945ZhADRIAc-iD=
+E7ZWwma/5/iZa/F/98fe621a">team@tochkalubvi.ru</a> =D0=B2
+                                                =D0=B0=D0=B4=D1=80=D0=B5=D1=
+=81=D0=BD=D1=83=D1=8E
+                                                =D0=BA=D0=BD=D0=B8=D0=B3=D1=
+=83.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align=3D"center"
+                                                style=3D"font:12px/16px Ari=
+al, Helvetica, sans-serif; color:#6e6e6e; padding:0 15px 34px;">
+                                                =D0=92=D1=8B =D0=BF=D0=BE=
+=D0=BB=D1=83=D1=87=D0=B8=D0=BB=D0=B8 =D1=8D=D1=82=D0=BE =D0=BF=D0=B8=D1=81=
+=D1=8C=D0=BC=D0=BE, =D0=BF=D0=BE=D1=82=D0=BE=D0=BC=D1=83 =D1=87=D1=82=D0=BE=
+ =D1=8F=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D0=B5=D1=81=D1=8C =D1=83=D1=87=D0=B0=
+=D1=81=D1=82=D0=BD=D0=B8=D0=BA=D0=BE=D0=BC
+                                                =D0=BF=D1=80=D0=B8=D0=B2=D0=
+=B8=D0=BB=D0=B5=D0=B3=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D0=BE=D0=B9=
+ =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B8 =D0=BE=D1=82 =D0=A2=D0=BE=
+=D1=87=D0=BA=D0=B0 =D0=9B=D1=8E=D0=B1=D0=B2=D0=B8. =D0=92=D1=8B =D0=BF=D0=
+=B5=D1=80=D0=B2=D1=8B=D0=BC=D0=B8
+                                                =D1=83=D0=B7=D0=BD=D0=B0=D0=
+=B5=D1=82=D0=B5 =D0=BE
+                                                =D1=81=D0=BF=D0=B5=D1=86=D0=
+=B8=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D1=81=D0=BA=D0=B8=D0=B4=D0=BA=D0=
+=B0=D1=85 =D0=B8 =D0=B0=D0=BA=D1=86=D0=B8=D1=8F=D1=85! =D0=95=D1=81=D0=BB=
+=D0=B8 =D0=B2=D1=8B =D0=BD=D0=B5 =D1=85=D0=BE=D1=82=D0=B8=D1=82=D0=B5 =D1=
+=80=D0=B0=D0=BD=D1=8C=D1=88=D0=B5 =D0=BE=D1=81=D1=82=D0=B0=D0=BB=D1=8C=D0=
+=BD=D1=8B=D1=85
+                                                =D1=83=D0=B7=D0=BD=D0=B0=D0=
+=B2=D0=B0=D1=82=D1=8C =D0=BE =D0=BD=D0=B0=D1=88=D0=B8=D1=85 =D0=BD=D0=BE=D0=
+=B2=D0=B8=D0=BD=D0=BA=D0=B0=D1=85, =D0=B0 =D1=82=D0=B0=D0=BA=D0=B6=D0=B5
+                                                =D0=BF=D0=BE=D0=BB=D1=83=D1=
+=87=D0=B0=D1=82=D1=8C =D0=B0=D0=B2=D1=82=D0=BE=D1=80=D1=81=D0=BA=D0=B8=D0=
+=B5 =D0=BF=D0=BE=D0=B4=D0=B1=D0=BE=D1=80=D0=BA=D0=B8, =D0=BD=D0=B0=D0=B6=D0=
+=BC=D0=B8=D1=82=D0=B5 <a                                                   =
+      style=3D"text-decoration:underline; color:#6e6e6e;"                  =
+                                       href=3D"https://links.tochkalubvi.ru=
+/u/iQo/1945ZhADRIAc-iDE7ZWwma/5/iZa/F/78307733">=D0=B7=D0=B4=D0=B5=D1=81=D1=
+=8C</a>,
+                                                =D1=87=D1=82=D0=BE=D0=B1=D1=
+=8B =D0=BE=D1=82=D0=BF=D0=B8=D1=81=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=BE=D1=
+=82 =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B8.
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- /footer -->
+</table>
+<img src=3D"https://links.tochkalubvi.ru/o/iQo/1945ZhADRIAc-iDE7ZWwma/iZa/F=
+/54167a59" alt=3D""/></body>
+</html>

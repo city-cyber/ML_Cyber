@@ -1,0 +1,743 @@
+Return-Path: <dm@afi-d.ru>
+Received: from zimbra.mail.ru (LHLO zimbra.mail.ru) (192.168.80.26) by
+ zimbra.mail.ru with LMTP; Tue, 19 Apr 2022 12:23:42 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by zimbra.mail.ru (Postfix) with ESMTP id 04E56C220E;
+	Tue, 19 Apr 2022 12:23:42 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at zimbra.mail.ru
+X-Spam-Flag: NO
+X-Spam-Score: 2.599
+X-Spam-Level: **
+X-Spam-Status: No, score=2.599 required=6.6 tests=[BAYES_60=1.5,
+	DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1,
+	DKIM_VALID_EF=-0.1, DMARC_PASS_NONE=-0.6, HTML_MESSAGE=0.001,
+	MIXED_ES=1.896, SPF_HELO_NONE=0.001, SPF_PASS=-0.001,
+	UNPARSEABLE_RELAY=0.001, URIBL_BLOCKED=0.001]
+	autolearn=no autolearn_force=no
+Authentication-Results: zimbra.mail.ru (amavisd-new); dkim=pass (2048-bit key)
+	header.d=afi-d.ru
+Received: from zimbra.mail.ru ([127.0.0.1])
+	by localhost (zimbra.mail.ru [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id t5-yNQggpkfK; Tue, 19 Apr 2022 12:23:41 +0000 (UTC)
+Received: from mxout02.lancloud.ru (mxout02.lancloud.ru [45.84.86.82])
+	by zimbra.mail.ru (Postfix) with ESMTPS id 3C6BFC21FB
+	for <office@mail.ru>; Tue, 19 Apr 2022 12:23:41 +0000 (UTC)
+Received: from LanCloud
+DKIM-Filter: OpenDKIM Filter v2.11.0 mxout02.lancloud.ru D5FB822016D8
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=afi-d.ru; s=afi-d;
+	t=1650371014; bh=Oxw1ukEH+y301WK6jb2ZxlvuHzplqFV5xA8sGeJ4iY0=;
+	h=From:To:Subject:Date:From;
+	b=py5Ep3mYDj4JlsK+LTti4UlQqCMK2dsFAB8gHtg6yXXPK3VMLOxY3yG3Mjhy3Hn4k
+	 IjPpqyXhpbamcG7BEm/LkXjeWcbMwZAUejBk4bQR35yOhXmjCX4oZFJgrg8pikojLt
+	 d1gn0V9m2W2XE/TAcQPKFEGu+gIWDYMTrPqidcM7LCFa1tup6YBSYvdulMQ732s9rk
+	 cxYOJ4BsWuWz16CVLZwaVSKXkrPEKgPIyp1Yix3/XqxUYJ3BLOHp9F7kZUL3J/KfwF
+	 49fzXJXHrLerrZ8vyHrFg7M6qVVC2w8SeYMF/UtZsOstQCPAwJCtGlCEwwYAV54kko
+	 slJFJ3vpV5jFA==
+Received: from LanCloud
+Received: from LanCloud
+Received: from LanCloud
+From: =?koi8-r?B?7c/Sz9rP1yDkxc7J0w==?= <dm@afi-d.ru>
+To: "office@mail.ru" <office@mail.ru>
+Subject: =?koi8-r?B?7dXM2NTJxsHL1M/SIMkgyc3Qz9LUz9rBzcXdxc7JxSDTydPUxc0gxNfVyMbB?=
+ =?koi8-r?B?y9TP0s7PyiDB1dTFztTJxsnLwcPJyQ==?=
+Thread-Topic: =?koi8-r?B?7dXM2NTJxsHL1M/SIMkgyc3Qz9LUz9rBzcXdxc7JxSDTydPUxc0gxNfVyMbB?=
+ =?koi8-r?B?y9TP0s7PyiDB1dTFztTJxsnLwcPJyQ==?=
+Thread-Index: AQHYU+g7tO8t/RrZoEaMNzS7W3yEfA==
+Date: Tue, 19 Apr 2022 12:23:10 +0000
+Message-ID: <42a54c1f2d9e4993821b7558937e0cb8@LFEX06.lancloud.ru>
+Accept-Language: ru-RU, en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-exchange-transport-fromentityheader: Hosted
+x-originating-ip: [192.168.11.211]
+Content-Type: multipart/related;
+	boundary="_004_42a54c1f2d9e4993821b7558937e0cb8LFEX06lancloudru_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_004_42a54c1f2d9e4993821b7558937e0cb8LFEX06lancloudru_
+Content-Type: multipart/alternative;
+	boundary="_000_42a54c1f2d9e4993821b7558937e0cb8LFEX06lancloudru_"
+
+--_000_42a54c1f2d9e4993821b7558937e0cb8LFEX06lancloudru_
+Content-Type: text/plain; charset="koi8-r"
+Content-Transfer-Encoding: quoted-printable
+
+[AFI Distribution]<http://afi-d.ru/?mailtoplogo>        +7 495 223-35-33<te=
+l:74952233533>
+8 800 550-52-23<tel:88005505223>
+www.AFI-D.ru<http://afi-d.ru/?mailtoplink>
+fb/AFIDistribution<https://www.facebook.com/AFIDistribution/>
+
+
+
+=FA=C4=D2=C1=D7=D3=D4=D7=D5=CA=D4=C5!
+
+=F3=D2=C5=C4=C9 =CB=CF=CD=D0=C1=CE=C9=CA, =D0=CF=CB=C9=C4=C1=C0=DD=C9=C8 =
+=D2=CF=D3=D3=C9=CA=D3=CB=C9=CA =D2=D9=CE=CF=CB, =CF=CB=C1=DA=C1=CC=C9=D3=D8=
+ =C9 =D4=C5, =DE=D4=CF =D0=D2=C5=C4=CF=D3=D4=C1=D7=CC=D1=CC=C9 =D5=D3=CC=D5=
+=C7=D5 =C4=CF=D0=CF=CC=CE=C9=D4=C5=CC=D8=CE=CF=C7=CF =C6=C1=CB=D4=CF=D2=C1 =
+=C1=D5=D4=C5=CE=D4=C9=C6=C9=CB=C1=C3=C9=C9 =C9 =CF=D4=D0=D2=C1=D7=CB=C9 =CF=
+=C4=CE=CF=D2=C1=DA=CF=D7=D9=C8 SMS-=CB=CF=C4=CF=D7.
+
+=FC=D4=CF =CF=DA=CE=C1=DE=C1=C5=D4 =D0=D2=CF=C2=CC=C5=CD=D9 =D3 =D7=C8=CF=
+=C4=CF=CD =D7 =D3=C9=D3=D4=C5=CD=D9, =D0=D2=C5=C4=CF=D3=D4=C1=D7=CC=C5=CE=
+=C9=C5=CD =C4=CF=D3=D4=D5=D0=C1 =D3=CF=D4=D2=D5=C4=CE=C9=CB=C1=CD =C9 =D0=
+=CF=C4=D2=D1=C4=DE=C9=CB=C1=CD, =D3=CE=C9=D6=C5=CE=C9=C5 =D5=D2=CF=D7=CE=D1=
+ =DA=C1=DD=C9=DD=C5=CE=CE=CF=D3=D4=C9, =D2=CF=D3=D4 =CE=C1=C7=D2=D5=DA=CB=
+=C9 =CE=C1 =CF=D4=C4=C5=CC=D9 =D4=C5=C8=CE=C9=DE=C5=D3=CB=CF=CA =D0=CF=C4=
+=C4=C5=D2=D6=CB=C9 =C9 =D3=CF=D0=D5=D4=D3=D4=D7=D5=C0=DD=C9=C5 =D0=D2=CF=C2=
+=CC=C5=CD=D9.
+
+=E5=D3=CC=C9 =D7=D9 =C9=CC=C9 =D7=C1=DB=C9 =CB=CC=C9=C5=CE=D4=D9 =D3=D4=CF=
+=CC=CB=CE=D5=CC=C9=D3=D8 =D3 =D4=C1=CB=CF=CA =D0=D2=CF=C2=CC=C5=CD=CF=CA, =
+=D0=D2=C5=C4=CC=C1=C7=C1=C5=CD =D2=C1=D3=D3=CD=CF=D4=D2=C5=D4=D8 =D2=CF=D3=
+=D3=C9=CA=D3=CB=D5=C0 =D3=C9=D3=D4=C5=CD=D5 =C4=CC=D1 =C4=D7=D5=C8=C6=C1=CB=
+=D4=CF=D2=CE=CF=CA =C1=D5=D4=C5=CE=D4=C9=C6=C9=CB=C1=C3=C9=C9 =CF=D4 =CB=CF=
+=CD=D0=C1=CE=C9=C9 =ED=D5=CC=D8=D4=C9=C6=C1=CB=D4=CF=D2.
+
+
+
+=ED=D5=CC=D8=D4=C9=C6=C1=CB=D4=CF=D2 =CD=CF=D6=C5=D4 =DA=C1=CD=C5=CE=C9=D4=
+=D8:
+
+  *   Microsoft Azure MFA
+  *   Duo Security (Cisco)
+  *   SafeNet Trusted Access (STA)
+  *   SafeNet Private Cloud Edition (PCE)
+  *   ESET Secure Authentication (ESA)
+  *   Gemalto MFA
+
+
+
+=FE=D4=CF =D4=C1=CB=CF=C5 =ED=D5=CC=D8=D4=C9=C6=C1=CB=D4=CF=D2?
+
+=FC=D4=CF =D5=D3=CC=D5=C7=C1 =C4=CF=D0=CF=CC=CE=C9=D4=C5=CC=D8=CE=CF=C7=CF =
+=C6=C1=CB=D4=CF=D2=C1 =C4=CC=D1 =C1=D5=D4=C5=CE=D4=C9=C6=C9=CB=C1=C3=C9=C9 =
+=D3=CF=D4=D2=D5=C4=CE=C9=CB=CF=D7 =C9 =D0=CF=C4=D2=D1=C4=DE=C9=CB=CF=D7 =D7=
+ =D7=C1=DB=C9=C8 =D3=C9=D3=D4=C5=CD=C1=C8 =D7 =C4=CF=D0=CF=CC=CE=C5=CE=C9=
+=C5 =CB =C9=CD=C5=CE=C9 =D0=CF=CC=D8=DA=CF=D7=C1=D4=C5=CC=D1 =C9 =D0=C1=D2=
+=CF=CC=C0
+
+=F0=CF=C4=C4=C5=D2=D6=C9=D7=C1=C5=D4=D3=D1 =DB=C9=D2=CF=CB=C9=CA =CE=C1=C2=
+=CF=D2 =CD=C5=D4=CF=C4=CF=D7 =C1=D5=D4=C5=CE=D4=C9=C6=C9=CB=C1=C3=C9=C9:
+
+  *   =E2=C9=CF=CD=C5=D4=D2=C9=D1 (Face ID, =CF=D4=D0=C5=DE=C1=D4=CF=CB =D0=
+=C1=CC=D8=C3=C1, =D3=C5=D4=DE=C1=D4=CB=C1 =C7=CC=C1=DA=C1)
+  *   =F0=D2=C9=CC=CF=D6=C5=CE=C9=C5 Multifactor
+  *   =F4=C5=CC=C5=C7=D2=C1=CD=CD
+  *   OTP/U2F - =C1=D0=D0=C1=D2=C1=D4=CE=D9=C5 =CB=CC=C0=DE=C9
+  *   Google Authenticator / =F1=CE=C4=C5=CB=D3 =EB=CC=C0=DE
+  *   SMS
+  *   =FA=D7=CF=CE=CF=CB
+
+=F7=D9 =CD=CF=D6=C5=D4=C5 =C4=CF=C2=C1=D7=C9=D4=D8 =C4=CF=D0=CF=CC=CE=C9=D4=
+=C5=CC=D8=CE=D9=CA =C6=C1=CB=D4=CF=D2 =C4=CC=D1 =C4=CF=D3=D4=D5=D0=C1 =CB =
+=D0=D2=C1=CB=D4=C9=DE=C5=D3=CB=C9 =CC=C0=C2=CF=CA =D3=C9=D3=D4=C5=CD=C5 =D3=
+ =CD=C9=CE=C9=CD=C1=CC=D8=CE=D9=CD =CF=C2=D5=DE=C5=CE=C9=C5=CD =D3=CF=D4=D2=
+=D5=C4=CE=C9=CB=CF=D7.
+
+=F3=C5=D2=D7=C9=D3 =D2=C1=DA=CD=C5=DD=C5=CE =D7 =D3=C5=D2=D4=C9=C6=C9=C3=C9=
+=D2=CF=D7=C1=CE=CE=CF=CD =E3=EF=E4 =D7 =F2=CF=D3=D3=C9=C9, =C1 =C4=CF=D3=D4=
+=C1=D7=CB=C1 =CB=CF=C4=CF=D7 =C9 =CB=CF=CD=C1=CE=C4 =C4=CC=D1 =C1=D5=D4=C5=
+=CE=D4=C9=C6=C9=CB=C1=C3=C9=C9 =D0=D2=CF=C9=D3=C8=CF=C4=C9=D4 =D0=CF =D4=C5=
+=D2=D2=C9=D4=CF=D2=C9=C9 =D3=D4=D2=C1=CE=D9.
+
+
+
+=F0=CF=DE=C5=CD=D5 =ED=D5=CC=D8=D4=C9=C6=C1=CB=D4=CF=D2?
+
+  *   =F0=CF=CC=CE=CF=D3=D4=D8=C0 =D2=CF=D3=D3=C9=CA=D3=CB=CF=C5 =D2=C5=DB=
+=C5=CE=C9=C5, =C5=D3=D4=D8 =D7 =D2=C5=C5=D3=D4=D2=C5 =CF=D4=C5=DE=C5=D3=D4=
+=D7=C5=CE=CE=CF=C7=CF =F0=EF
+  *   =E9=CE=D4=C5=C7=D2=C9=D2=D5=C5=D4=D3=D1 =D0=D2=C1=CB=D4=C9=DE=C5=D3=
+=CB=C9 =D3 =CC=C0=C2=CF=CA =D3=C9=D3=D4=C5=CD=CF=CA
+  *   =F4=C5=C8=CE=C9=DE=C5=D3=CB=C1=D1 =D0=CF=C4=C4=C5=D2=D6=CB=C1 24\7 =
+=CE=C1 =D2=D5=D3=D3=CB=CF=CD =D1=DA=D9=CB=C5
+  *   =F2=C5=DB=C5=CE=C9=C5 =ED=D5=CC=D8=D4=C9=C6=C1=CB=D4=CF=D2 =D7 =D3=D2=
+=C5=C4=CE=C5=CD 4 =D2=C1=DA=C1 =C4=C5=DB=C5=D7=CC=C5 =C1=CE=C1=CC=CF=C7=CF=
+=D7
+
+=F7 =D5=D3=CC=CF=D7=C9=D1=C8, =CB=CF=C7=C4=C1 =D0=C1=D2=CF=CC=C9 =D3=CC=C9=
+=D7=C1=C0=D4=D3=D1 =CB=C1=D6=C4=D9=CA =C4=C5=CE=D8, =C1 =CB=CF=CC=C9=DE=C5=
+=D3=D4=D7=CF =C1=D4=C1=CB =CE=C1 =D2=CF=D3=D3=C9=CA=D3=CB=C9=C5 =D3=C5=D2=
+=D7=C5=D2=C1 =DA=CE=C1=DE=C9=D4=C5=CC=D8=CE=CF =D7=CF=DA=D2=CF=D3=CC=CF, =
+=C9=D3=D0=CF=CC=D8=DA=CF=D7=C1=CE=C9=C5 =C4=CF=D0=CF=CC=CE=C9=D4=C5=CC=D8=
+=CF=C7=CF =C6=C1=CB=D4=CF=D2=C1 =C4=CC=D1 =D7=C8=CF=C4=C1 =D7 =D3=C9=D3=D4=
+=C5=CD=D9 - =CE=C5=CF=C2=C8=CF=C4=C9=CD=CF=D3=D4=D8.
+
+
+
+=F0=D2=CF=D3=D4=CF =CE=C1=D0=C9=DB=C9=D4=C5 =D7 =CF=D4=D7=C5=D4 =CE=C1 =DC=
+=D4=CF =D0=C9=D3=D8=CD=CF, =C9 =CE=C1=DB=C9 =D3=D0=C5=C3=C9=C1=CC=C9=D3=D4=
+=D9 =D0=CF=CB=C1=D6=D5=D4 =D2=C5=DB=C5=CE=C9=C5 =D6=C9=D7=D8=C5=CD, =D0=CF=
+=CD=CF=C7=D5=D4 =D3 =D0=D2=CF=C2=CE=D9=CD =D0=CF=C4=CB=CC=C0=DE=C5=CE=C9=C5=
+=CD =CB =D5=D3=CC=D5=C7=C5 =C9 =D3=CF=D3=D4=C1=D7=CC=C5=CE=C9=C5=CD =D0=CC=
+=C1=CE=C1 =D0=C9=CC=CF=D4=C1 =C9 =C9=CE=D4=C5=C7=D2=C1=C3=C9=C9.
+
+
+
+
+=EF=EF=EF "=E1=E6=E9 =E4=C9=D3=D4=D2=C9=C2=D8=C0=DB=CE"
+=E5=D3=CC=C9 =D7=D9 =D3=DE=C9=D4=C1=C5=D4=C5, =DE=D4=CF =D0=CF=CC=D5=DE=C9=
+=CC=C9 =DC=D4=CF =D0=C9=D3=D8=CD=CF =D0=CF =CF=DB=C9=C2=CB=C5, =D0=CF=D6=C1=
+=CC=D5=CA=D3=D4=C1, =D3=CF=CF=C2=DD=C9=D4=C5 =CF=C2 =DC=D4=CF=CD =D7 =CF=D4=
+=D7=C5=D4 =CE=C1 =D0=C9=D3=D8=CD=CF.
+
+
+[X]
+
+--_000_42a54c1f2d9e4993821b7558937e0cb8LFEX06lancloudru_
+Content-Type: text/html; charset="koi8-r"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"=0A=
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dkoi8-r">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<!--[if mso]>=0A=
+  <style type=3D"text/css">=0A=
+    body,=0A=
+    table,=0A=
+    td {=0A=
+      font-family: Arial, Helvetica, sans-serif !important;=0A=
+    }=0A=
+  </style>=0A=
+  <![endif]--><!--[if gte mso 9]>=0A=
+  <xml>=0A=
+    <o:OfficeDocumentSettings>=0A=
+      <o:AllowPNG/>=0A=
+      <o:PixelsPerInch>96</o:PixelsPerInch>=0A=
+    </o:OfficeDocumentSettings>=0A=
+  </xml>=0A=
+  <![endif]--><style type=3D"text/css">=0A=
+    #outlook a {=0A=
+      padding: 0;=0A=
+    }=0A=
+=0A=
+    .ReadMsgBody {=0A=
+      width: 100%;=0A=
+    }=0A=
+=0A=
+    .ExternalClass {=0A=
+      width: 100%;=0A=
+    }=0A=
+=0A=
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass f=
+ont, .ExternalClass td, .ExternalClass div {=0A=
+      line-height: 100%;=0A=
+    }=0A=
+=0A=
+    table, td {=0A=
+      mso-table-lspace: 0pt;=0A=
+      mso-table-rspace: 0pt;=0A=
+    }=0A=
+=0A=
+    img {=0A=
+      -ms-interpolation-mode: bicubic;=0A=
+      vertical-align: top !important;=0A=
+    }=0A=
+=0A=
+    body {=0A=
+      font-size: 12pt;=0A=
+    }=0A=
+=0A=
+    html, body, #bodyTable, #bodyCell {=0A=
+      height: 100% !important;=0A=
+      width: 100% !important;=0A=
+      margin: 0;=0A=
+      border: 0 !important;=0A=
+    }=0A=
+=0A=
+    table {=0A=
+      border-collapse: collapse !important;=0A=
+    }=0A=
+=0A=
+    table[id=3DContentBody], table#ContentBody, #ContentBody {=0A=
+      width: 600px !important;=0A=
+    }=0A=
+=0A=
+    .msoFix {=0A=
+      mso-table-lspace: -1pt;=0A=
+      mso-table-rspace: -1pt;=0A=
+    }=0A=
+=0A=
+    @media only screen and (max-width: 480px) {=0A=
+      td[class=3DemailImage] img, td.emailImage img, img.emailImage {=0A=
+        height: auto !important;=0A=
+        max-width: 600px !important;=0A=
+        width: 100% !important;=0A=
+      }=0A=
+=0A=
+    }=0A=
+=0A=
+    @media only screen and (max-width: 480px) {=0A=
+      body {=0A=
+        width: 100% !important;=0A=
+        min-width: 100% !important;=0A=
+      }=0A=
+=0A=
+    }=0A=
+=0A=
+    @media only screen and (max-width: 480px) {=0A=
+      table[id=3DContentBody], table#ContentBody, #ContentBody {=0A=
+        width: 600px !important;=0A=
+      }=0A=
+=0A=
+    }=0A=
+=0A=
+    @media only screen and (max-width: 480px) {=0A=
+      td[id=3DbodyCell] {=0A=
+        padding: 0 0 !important;=0A=
+      }=0A=
+=0A=
+    }=0A=
+=0A=
+    * {=0A=
+      font-family: -apple-system, Helvetica, arial, freesans, clean, sans-s=
+erif;=0A=
+      font-size: 1em;=0A=
+      line-height: 1.5em;=0A=
+      color: #333;=0A=
+    }=0A=
+=0A=
+    td {=0A=
+      font-family: -apple-system, Helvetica, arial, freesans, clean, sans-s=
+erif;=0A=
+      font-size: 1em;=0A=
+      line-height: 1.5em;=0A=
+      color: #333;=0A=
+    }=0A=
+=0A=
+    div {=0A=
+      font-family: -apple-system, Helvetica, arial, freesans, clean, sans-s=
+erif;=0A=
+      font-size: 1em;=0A=
+      line-height: 1.5em;=0A=
+      color: #333;=0A=
+    }=0A=
+=0A=
+    center {=0A=
+      padding: 0 !important;=0A=
+      margin: 0 !important;=0A=
+    }=0A=
+=0A=
+    p {=0A=
+      font-family: -apple-system, Helvetica, arial, freesans, clean, sans-s=
+erif;=0A=
+      font-size: 1em;=0A=
+      line-height: 1.5em;=0A=
+      color: #333;=0A=
+      margin-top: 10px;=0A=
+      margin-bottom: 0;=0A=
+    }=0A=
+=0A=
+    h1, h1 * {=0A=
+      font-size: 1em !important;=0A=
+      margin: 0;=0A=
+      margin-bottom: 10pt;=0A=
+      color: #111;=0A=
+    }=0A=
+=0A=
+    h2, h2 * {=0A=
+      font-size: 1em !important;=0A=
+      color: #111;=0A=
+    }=0A=
+=0A=
+    div.article, div[class=3Darticle] {=0A=
+      margin-bottom: 10px;=0A=
+    }=0A=
+=0A=
+    ul li, ol li, li {=0A=
+      margin-bottom: 8px;=0A=
+      font-family: -apple-system, Helvetica, arial, freesans, clean, sans-s=
+erif;=0A=
+      font-size: 1em;=0A=
+      line-height: 1.5em;=0A=
+    }=0A=
+=0A=
+    ul {=0A=
+      color: #333;=0A=
+      margin-top: 8px;=0A=
+      margin-bottom: 30px;=0A=
+    }=0A=
+=0A=
+    ol {=0A=
+      color: #333;=0A=
+      margin-top: 20px;=0A=
+      margin-bottom: 30px;=0A=
+    }=0A=
+=0A=
+    li {=0A=
+      margin-bottom: 8px;=0A=
+      padding-left: 10px;=0A=
+    }=0A=
+=0A=
+    span.preheader {=0A=
+      display: none !important;=0A=
+    }=0A=
+=0A=
+=0A=
+    a[x-apple-data-detectors] {=0A=
+      color: inherit !important;=0A=
+      text-decoration: none !important;=0A=
+      font-size: inherit !important;=0A=
+      font-family: inherit !important;=0A=
+      font-weight: inherit !important;=0A=
+      line-height: inherit !important;=0A=
+    }=0A=
+=0A=
+    #outlook a {=0A=
+      padding: 0;=0A=
+    }=0A=
+=0A=
+    .yshortcuts a {=0A=
+      border-bottom: none !important;=0A=
+    }=0A=
+=0A=
+    .ExternalClass {=0A=
+      line-height: 100%;=0A=
+    }=0A=
+=0A=
+    .ExternalClass,=0A=
+    .ExternalClass p,=0A=
+    .ExternalClass span,=0A=
+    .ExternalClass font,=0A=
+    .ExternalClass td,=0A=
+    .ExternalClass div {=0A=
+      width: 100%;=0A=
+    }=0A=
+=0A=
+</style>
+<title></title>
+<title></title>
+<title></title>
+<title></title>
+<title></title>
+</head>
+<body style=3D"padding: 0%">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100%" wid=
+th=3D"100%" id=3D"bodyTable" style=3D"background-color:#eff1f0; margin:0; b=
+order:0;">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" id=3D"bodyCell" style=3D"padding:2%;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"ContentBody" =
+align=3D"center" style=3D"width:600px !important;">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"middle" style=3D"padding:3% 2%; background-col=
+or:#ffffff; border-top:3px solid #FF7000; font-size:80px;">
+<a href=3D"http://afi-d.ru/?mailtoplogo" target=3D"_blank" title=3D"AFI-D.r=
+u" style=3D"text-decoration:none; width:220px; height:79px;"><img alt=3D"AF=
+I Distribution" src=3D"cid:afilogo-text-220.png" width=3D"220" height=3D"79=
+" style=3D"border:0; width:220px; height:79px;"></a></td>
+<td align=3D"right" valign=3D"middle" style=3D"width:240px; padding:3% 2%; =
+background:#ffffff; border-top:3px solid #FF7000;font-size: 8pt; text-align=
+:right;">
+<a href=3D"tel:74952233533" style=3D"font-size: 10pt; color:#FF7000; text-d=
+ecoration:none">&#43;7 495 223-35-33</a><br>
+<a href=3D"tel:88005505223" style=3D"font-size: 10pt; color:#FF7000; text-d=
+ecoration:none">8 800 550-52-23</a><br>
+<a href=3D"http://afi-d.ru/?mailtoplink" style=3D"font-size: 10pt; color:#F=
+F7000; text-decoration:none">www.AFI-D.ru</a><br>
+<a href=3D"https://www.facebook.com/AFIDistribution/" style=3D"font-size: 1=
+0pt; color:#FF7000; text-decoration:none">fb/AFIDistribution</a><br>
+</td>
+</tr>
+<tr>
+<td style=3D"height:10px; padding:0; line-height: 0!important;" colspan=3D"=
+2"></td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" colspan=3D"2">
+<div style=3D"min-height:100px; width:600px !important; max-width:600px !im=
+portant;">
+<table id=3D"ContentBody" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" style=3D"clear:both; width:600px;">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"background:white; padding:2% 2% =
+2% 2%; font-family: -apple-system, Roboto, Verdana, sans-serif; font-weight=
+: normal;">
+<p>=FA=C4=D2=C1=D7=D3=D4=D7=D5=CA=D4=C5!</p>
+<p>=F3=D2=C5=C4=C9 =CB=CF=CD=D0=C1=CE=C9=CA, =D0=CF=CB=C9=C4=C1=C0=DD=C9=C8=
+ =D2=CF=D3=D3=C9=CA=D3=CB=C9=CA =D2=D9=CE=CF=CB, =CF=CB=C1=DA=C1=CC=C9=D3=
+=D8 =C9 =D4=C5, =DE=D4=CF =D0=D2=C5=C4=CF=D3=D4=C1=D7=CC=D1=CC=C9 =D5=D3=CC=
+=D5=C7=D5 =C4=CF=D0=CF=CC=CE=C9=D4=C5=CC=D8=CE=CF=C7=CF =C6=C1=CB=D4=CF=D2=
+=C1 =C1=D5=D4=C5=CE=D4=C9=C6=C9=CB=C1=C3=C9=C9 =C9 =CF=D4=D0=D2=C1=D7=CB=C9=
+ =CF=C4=CE=CF=D2=C1=DA=CF=D7=D9=C8 SMS-=CB=CF=C4=CF=D7.</p>
+<p>=FC=D4=CF =CF=DA=CE=C1=DE=C1=C5=D4 =D0=D2=CF=C2=CC=C5=CD=D9 =D3 =D7=C8=
+=CF=C4=CF=CD =D7 =D3=C9=D3=D4=C5=CD=D9, =D0=D2=C5=C4=CF=D3=D4=C1=D7=CC=C5=
+=CE=C9=C5=CD =C4=CF=D3=D4=D5=D0=C1 =D3=CF=D4=D2=D5=C4=CE=C9=CB=C1=CD =C9 =
+=D0=CF=C4=D2=D1=C4=DE=C9=CB=C1=CD, =D3=CE=C9=D6=C5=CE=C9=C5 =D5=D2=CF=D7=CE=
+=D1 =DA=C1=DD=C9=DD=C5=CE=CE=CF=D3=D4=C9, =D2=CF=D3=D4 =CE=C1=C7=D2=D5=DA=
+=CB=C9 =CE=C1 =CF=D4=C4=C5=CC=D9 =D4=C5=C8=CE=C9=DE=C5=D3=CB=CF=CA =D0=CF=
+=C4=C4=C5=D2=D6=CB=C9 =C9 =D3=CF=D0=D5=D4=D3=D4=D7=D5=C0=DD=C9=C5 =D0=D2=CF=
+=C2=CC=C5=CD=D9.</p>
+<p>=E5=D3=CC=C9 =D7=D9 =C9=CC=C9 =D7=C1=DB=C9 =CB=CC=C9=C5=CE=D4=D9 =D3=D4=
+=CF=CC=CB=CE=D5=CC=C9=D3=D8 =D3 =D4=C1=CB=CF=CA =D0=D2=CF=C2=CC=C5=CD=CF=CA=
+, =D0=D2=C5=C4=CC=C1=C7=C1=C5=CD =D2=C1=D3=D3=CD=CF=D4=D2=C5=D4=D8 =D2=CF=
+=D3=D3=C9=CA=D3=CB=D5=C0 =D3=C9=D3=D4=C5=CD=D5 =C4=CC=D1 =C4=D7=D5=C8=C6=C1=
+=CB=D4=CF=D2=CE=CF=CA =C1=D5=D4=C5=CE=D4=C9=C6=C9=CB=C1=C3=C9=C9 =CF=D4 =CB=
+=CF=CD=D0=C1=CE=C9=C9 =ED=D5=CC=D8=D4=C9=C6=C1=CB=D4=CF=D2.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"100%" styl=
+e=3D"width: 100% !important;">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" width=3D"600px" height=3D"10" style=3D"bo=
+rder-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-l=
+ine-height-rule: exactly; line-height: 10px;">
+<!--[if gte mso 15]>&nbsp;<![endif]--></td>
+</tr>
+</tbody>
+</table>
+<table id=3D"ContentBody" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" style=3D"clear:both; width:600px;">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"background:white; padding:2% 2% =
+2% 2%; font-family: -apple-system, Roboto, Verdana, sans-serif; font-weight=
+: normal;">
+<p><strong>=ED=D5=CC=D8=D4=C9=C6=C1=CB=D4=CF=D2 =CD=CF=D6=C5=D4 =DA=C1=CD=
+=C5=CE=C9=D4=D8:</strong></p>
+<ul>
+<li>Microsoft Azure MFA </li><li>Duo Security (Cisco) </li><li>SafeNet Trus=
+ted Access (STA) </li><li>SafeNet Private Cloud Edition (PCE) </li><li>ESET=
+ Secure Authentication (ESA) </li><li>Gemalto MFA </li></ul>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"100%" styl=
+e=3D"width: 100% !important;">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" width=3D"600px" height=3D"10" style=3D"bo=
+rder-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-l=
+ine-height-rule: exactly; line-height: 10px;">
+<!--[if gte mso 15]>&nbsp;<![endif]--></td>
+</tr>
+</tbody>
+</table>
+<table id=3D"ContentBody" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" style=3D"clear:both; width:600px;">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"background:white; padding:2% 2% =
+2% 2%; font-family: -apple-system, Roboto, Verdana, sans-serif; font-weight=
+: normal;">
+<p><strong>=FE=D4=CF =D4=C1=CB=CF=C5 =ED=D5=CC=D8=D4=C9=C6=C1=CB=D4=CF=D2?<=
+/strong></p>
+<p>=FC=D4=CF =D5=D3=CC=D5=C7=C1 =C4=CF=D0=CF=CC=CE=C9=D4=C5=CC=D8=CE=CF=C7=
+=CF =C6=C1=CB=D4=CF=D2=C1 =C4=CC=D1 =C1=D5=D4=C5=CE=D4=C9=C6=C9=CB=C1=C3=C9=
+=C9 =D3=CF=D4=D2=D5=C4=CE=C9=CB=CF=D7 =C9 =D0=CF=C4=D2=D1=C4=DE=C9=CB=CF=D7=
+ =D7 =D7=C1=DB=C9=C8 =D3=C9=D3=D4=C5=CD=C1=C8 =D7 =C4=CF=D0=CF=CC=CE=C5=CE=
+=C9=C5 =CB =C9=CD=C5=CE=C9 =D0=CF=CC=D8=DA=CF=D7=C1=D4=C5=CC=D1 =C9 =D0=C1=
+=D2=CF=CC=C0</p>
+<p>=F0=CF=C4=C4=C5=D2=D6=C9=D7=C1=C5=D4=D3=D1 =DB=C9=D2=CF=CB=C9=CA =CE=C1=
+=C2=CF=D2 =CD=C5=D4=CF=C4=CF=D7 =C1=D5=D4=C5=CE=D4=C9=C6=C9=CB=C1=C3=C9=C9:=
+</p>
+<ul>
+<li>=E2=C9=CF=CD=C5=D4=D2=C9=D1 (Face ID, =CF=D4=D0=C5=DE=C1=D4=CF=CB =D0=
+=C1=CC=D8=C3=C1, =D3=C5=D4=DE=C1=D4=CB=C1 =C7=CC=C1=DA=C1) </li><li>=F0=D2=
+=C9=CC=CF=D6=C5=CE=C9=C5 Multifactor </li><li>=F4=C5=CC=C5=C7=D2=C1=CD=CD <=
+/li><li>OTP/U2F - =C1=D0=D0=C1=D2=C1=D4=CE=D9=C5 =CB=CC=C0=DE=C9 </li><li>G=
+oogle Authenticator / =F1=CE=C4=C5=CB=D3 =EB=CC=C0=DE </li><li>SMS </li><li=
+>=FA=D7=CF=CE=CF=CB </li></ul>
+<p>=F7=D9 =CD=CF=D6=C5=D4=C5 =C4=CF=C2=C1=D7=C9=D4=D8 =C4=CF=D0=CF=CC=CE=C9=
+=D4=C5=CC=D8=CE=D9=CA =C6=C1=CB=D4=CF=D2 =C4=CC=D1 =C4=CF=D3=D4=D5=D0=C1 =
+=CB =D0=D2=C1=CB=D4=C9=DE=C5=D3=CB=C9 =CC=C0=C2=CF=CA =D3=C9=D3=D4=C5=CD=C5=
+ =D3 =CD=C9=CE=C9=CD=C1=CC=D8=CE=D9=CD =CF=C2=D5=DE=C5=CE=C9=C5=CD =D3=CF=
+=D4=D2=D5=C4=CE=C9=CB=CF=D7.</p>
+<p>=F3=C5=D2=D7=C9=D3 =D2=C1=DA=CD=C5=DD=C5=CE =D7 =D3=C5=D2=D4=C9=C6=C9=C3=
+=C9=D2=CF=D7=C1=CE=CE=CF=CD =E3=EF=E4 =D7 =F2=CF=D3=D3=C9=C9, =C1 =C4=CF=D3=
+=D4=C1=D7=CB=C1 =CB=CF=C4=CF=D7 =C9 =CB=CF=CD=C1=CE=C4 =C4=CC=D1 =C1=D5=D4=
+=C5=CE=D4=C9=C6=C9=CB=C1=C3=C9=C9 =D0=D2=CF=C9=D3=C8=CF=C4=C9=D4 =D0=CF =D4=
+=C5=D2=D2=C9=D4=CF=D2=C9=C9 =D3=D4=D2=C1=CE=D9.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"100%" styl=
+e=3D"width: 100% !important;">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" width=3D"600px" height=3D"10" style=3D"bo=
+rder-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-l=
+ine-height-rule: exactly; line-height: 10px;">
+<!--[if gte mso 15]>&nbsp;<![endif]--></td>
+</tr>
+</tbody>
+</table>
+<table id=3D"ContentBody" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" style=3D"clear:both; width:600px;">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"background:white; padding:2% 2% =
+2% 2%; font-family: -apple-system, Roboto, Verdana, sans-serif; font-weight=
+: normal;">
+<p><strong>=F0=CF=DE=C5=CD=D5 =ED=D5=CC=D8=D4=C9=C6=C1=CB=D4=CF=D2?</strong=
+></p>
+<ul>
+<li>=F0=CF=CC=CE=CF=D3=D4=D8=C0 =D2=CF=D3=D3=C9=CA=D3=CB=CF=C5 =D2=C5=DB=C5=
+=CE=C9=C5, =C5=D3=D4=D8 =D7 =D2=C5=C5=D3=D4=D2=C5 =CF=D4=C5=DE=C5=D3=D4=D7=
+=C5=CE=CE=CF=C7=CF =F0=EF </li><li>=E9=CE=D4=C5=C7=D2=C9=D2=D5=C5=D4=D3=D1 =
+=D0=D2=C1=CB=D4=C9=DE=C5=D3=CB=C9 =D3 =CC=C0=C2=CF=CA =D3=C9=D3=D4=C5=CD=CF=
+=CA </li><li>=F4=C5=C8=CE=C9=DE=C5=D3=CB=C1=D1 =D0=CF=C4=C4=C5=D2=D6=CB=C1 =
+24\7 =CE=C1 =D2=D5=D3=D3=CB=CF=CD =D1=DA=D9=CB=C5 </li><li>=F2=C5=DB=C5=CE=
+=C9=C5 =ED=D5=CC=D8=D4=C9=C6=C1=CB=D4=CF=D2 =D7 =D3=D2=C5=C4=CE=C5=CD 4 =D2=
+=C1=DA=C1 =C4=C5=DB=C5=D7=CC=C5 =C1=CE=C1=CC=CF=C7=CF=D7 </li></ul>
+<p>=F7 =D5=D3=CC=CF=D7=C9=D1=C8, =CB=CF=C7=C4=C1 =D0=C1=D2=CF=CC=C9 =D3=CC=
+=C9=D7=C1=C0=D4=D3=D1 =CB=C1=D6=C4=D9=CA =C4=C5=CE=D8, =C1 =CB=CF=CC=C9=DE=
+=C5=D3=D4=D7=CF =C1=D4=C1=CB =CE=C1 =D2=CF=D3=D3=C9=CA=D3=CB=C9=C5 =D3=C5=
+=D2=D7=C5=D2=C1 =DA=CE=C1=DE=C9=D4=C5=CC=D8=CE=CF =D7=CF=DA=D2=CF=D3=CC=CF,=
+ =C9=D3=D0=CF=CC=D8=DA=CF=D7=C1=CE=C9=C5 =C4=CF=D0=CF=CC=CE=C9=D4=C5=CC=D8=
+=CF=C7=CF =C6=C1=CB=D4=CF=D2=C1 =C4=CC=D1 =D7=C8=CF=C4=C1 =D7 =D3=C9=D3=D4=
+=C5=CD=D9 - =CE=C5=CF=C2=C8=CF=C4=C9=CD=CF=D3=D4=D8.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"100%" styl=
+e=3D"width: 100% !important;">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" width=3D"600px" height=3D"10" style=3D"bo=
+rder-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-l=
+ine-height-rule: exactly; line-height: 10px;">
+<!--[if gte mso 15]>&nbsp;<![endif]--></td>
+</tr>
+</tbody>
+</table>
+<table id=3D"ContentBody" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" style=3D"clear:both; width:600px;">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"background:white; padding:2% 2% =
+2% 2%; font-family: -apple-system, Roboto, Verdana, sans-serif; font-weight=
+: normal;">
+<p><strong>=F0=D2=CF=D3=D4=CF =CE=C1=D0=C9=DB=C9=D4=C5 =D7 =CF=D4=D7=C5=D4 =
+=CE=C1 =DC=D4=CF =D0=C9=D3=D8=CD=CF</strong>, =C9 =CE=C1=DB=C9 =D3=D0=C5=C3=
+=C9=C1=CC=C9=D3=D4=D9 =D0=CF=CB=C1=D6=D5=D4 =D2=C5=DB=C5=CE=C9=C5 =D6=C9=D7=
+=D8=C5=CD, =D0=CF=CD=CF=C7=D5=D4 =D3 =D0=D2=CF=C2=CE=D9=CD =D0=CF=C4=CB=CC=
+=C0=DE=C5=CE=C9=C5=CD =CB =D5=D3=CC=D5=C7=C5 =C9 =D3=CF=D3=D4=C1=D7=CC=C5=
+=CE=C9=C5=CD =D0=CC=C1=CE=C1 =D0=C9=CC=CF=D4=C1 =C9 =C9=CE=D4=C5=C7=D2=C1=
+=C3=C9=C9.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"100%" styl=
+e=3D"width: 100% !important;">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" width=3D"600px" height=3D"10" style=3D"bo=
+rder-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-l=
+ine-height-rule: exactly; line-height: 10px;">
+<!--[if gte mso 15]>&nbsp;<![endif]--></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"padding:2%">
+<div style=3D"font-size:8pt; font-family: Arial, Helvetica, sans-serif; col=
+or:#888888; text-align:center" align=3D"center">
+=EF=EF=EF &quot;=E1=E6=E9 =E4=C9=D3=D4=D2=C9=C2=D8=C0=DB=CE&quot;<br>
+=E5=D3=CC=C9 =D7=D9 =D3=DE=C9=D4=C1=C5=D4=C5, =DE=D4=CF =D0=CF=CC=D5=DE=C9=
+=CC=C9 =DC=D4=CF =D0=C9=D3=D8=CD=CF =D0=CF =CF=DB=C9=C2=CB=C5, =D0=CF=D6=C1=
+=CC=D5=CA=D3=D4=C1, =D3=CF=CF=C2=DD=C9=D4=C5 =CF=C2 =DC=D4=CF=CD =D7 =CF=D4=
+=D7=C5=D4 =CE=C1 =D0=C9=D3=D8=CD=CF.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<img>
+</body>
+</html>
+
+--_000_42a54c1f2d9e4993821b7558937e0cb8LFEX06lancloudru_--
+
+--_004_42a54c1f2d9e4993821b7558937e0cb8LFEX06lancloudru_
+Content-Type: image/png; name="afilogo-text-220.png"
+Content-Description: afilogo-text-220.png
+Content-Disposition: inline; filename="afilogo-text-220.png"; size=3181;
+	creation-date="Tue, 19 Apr 2022 12:23:10 GMT";
+	modification-date="Tue, 19 Apr 2022 12:23:10 GMT"
+Content-ID: <afilogo-text-220.png>
+Content-Transfer-Encoding: base64
+
+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
+
+--_004_42a54c1f2d9e4993821b7558937e0cb8LFEX06lancloudru_--

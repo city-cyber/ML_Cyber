@@ -1,0 +1,70 @@
+{
+  "base_url": "http://127.0.0.1:8000",
+  "health": {
+    "status": "ok",
+    "model_loaded": true,
+    "model_name": "ComplementNB alpha=1.0"
+  },
+  "model": {
+    "model_name": "ComplementNB alpha=1.0",
+    "threshold": 0.8629806122399415,
+    "score_kind": "probability_estimate",
+    "preprocessing_version": "1",
+    "model_sha256": "15078934f2829e97783f398ec11a1971469ce11ff56a1dade0eeef1e55777a2c",
+    "training_rows": 1726,
+    "created_at_utc": "2026-10-17T09:16:04.941022+00:00",
+    "packages": {
+      "scikit-learn": "1.9.1",
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "joblib": "1.6.0"
+    }
+  },
+  "prediction_checks": [
+    {
+      "dataset": "test",
+      "path": "easy_ham/easy_ham/0368.85ad0c76c076fbb624c7adfebc928d84",
+      "score_matches": true,
+      "prediction_matches": true
+    },
+    {
+      "dataset": "test",
+      "path": "spam_2/spam_2/00056.64a6ee24c0b7bf8bdba8340f0a3aafda",
+      "score_matches": true,
+      "prediction_matches": true
+    },
+    {
+      "dataset": "test",
+      "path": "spam_2/spam_2/00206.434bca9a9918edbdb04b93f6618adf90",
+      "score_matches": true,
+      "prediction_matches": true
+    },
+    {
+      "dataset": "external",
+      "path": "ham/000.eml",
+      "score_matches": true,
+      "prediction_matches": true
+    },
+    {
+      "dataset": "external",
+      "path": "spam/001.eml",
+      "score_matches": true,
+      "prediction_matches": true
+    },
+    {
+      "dataset": "external",
+      "path": "spam/000.eml",
+      "score_matches": true,
+      "prediction_matches": true
+    }
+  ],
+  "eml_upload": {
+    "label": "ham",
+    "is_spam": false,
+    "score": 0.22080266313494723,
+    "threshold": 0.8629806122399415,
+    "score_kind": "probability_estimate",
+    "model_name": "ComplementNB alpha=1.0"
+  },
+  "blank_text_rejected": true
+}

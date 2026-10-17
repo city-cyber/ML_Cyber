@@ -1,0 +1,496 @@
+Delivered-To: vasily@mail.ru
+Return-path: <promotion@aliexpress.com>
+Received-SPF: pass (mx241.i.mail.ru: domain of aliexpress.com designates 140.205.210.29 as permitted sender) client-ip=140.205.210.29; envelope-from=promotion@aliexpress.com; helo=out210-29.dm.aliyun.com;
+Received: from out210-29.dm.aliyun.com ([140.205.210.29]:51414)
+	by mx241.i.mail.ru with esmtp (envelope-from <promotion@aliexpress.com>)
+	id 1nWaOt-0002qD-32
+	for vasily@mail.ru; Tue, 22 Mar 2022 12:02:00 +0300
+X-AliDM-RcptTo: ZmF1c3RkYXJrYW5nZWxAbWFpbC5ydQ==
+Feedback-ID: default:promotion@aliexpress.com:batch:13
+DKIM-Signature:v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=aliexpress.com; s=s1024;
+	t=1647939716; h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=kHV4XhJiLIpdKwz64hxb0IKDSTwNDwfQTecgQuK8Yq8=;
+	b=tkyJOJhA5qWt8YUkbN2sIor3E2a//ddE1Za3Af/+DAyp9oSqGLPKRAi+x2t5DJShaB8cD4ODFBitlrEDvu2xpM24Qq5yhnpoHnePWPY6qCqk26qPJTQHZ8NUwPHM3APn7VhnGcgBs2gAHMcEiyZxZTxyzgmFZ5Mbzy0AIIR7Ijs=
+X-EnvId: 17870283557858230518
+Received: from ae-buyer-user9f743c6b2e14a1c8cf84f632d7fd277e-jfmx6(mailfrom:promotion@aliexpress.com fp:SMTPD_DU--1QBdA-P)
+          by smtp.aliyun-inc.com(127.0.0.1);
+          Tue, 22 Mar 2022 17:01:55 +0800
+Date: Tue, 22 Mar 2022 02:01:55 -0700 (PDT)
+From: AliExpress <promotion@aliexpress.com>
+To: vasily@mail.ru
+Message-ID: fausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3
+Subject: =?UTF-8?Q?=D0=94=D0=BE_-43%_=D0=BD=D0=B0_Infinix_?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_44464772_188457453.1647939715678"
+X-174C08C4: 5188C02AEC42908CA6948A72021C24DE96BBA28369E3F2D2713F3D5F7D406D31BCF678C7329BA986
+X-4EC0790: 10
+X-7564579A: 646B95376F6C166E
+X-77F55803: E822A06ED42C499A0F4A3991E881A9F59D0167D33CA1B4330ADD2AF432A30CA10BBDAAE39103F3638701F0628C4B95CB6778903E72D21BA949D7F1FED03BB553B0C81285DA70D3E1F8D9167951636F18
+X-7FA49CB5: FF5795518A3D127A4AD6D5ED66289B5278DA827A17800CE789805A6418246A1AEA1F7E6F0F101C67BD4B6F7A4D31EC0BCC500DACC3FED6E28638F802B75D45FF8AA50765F7900637F88016AB904663428638F802B75D45FF36EB9D2243A4F8B5A6FCA7DBDB1FC311F39EFFDF887939037866D6147AF826D820277787EFA3B8881B3D2C88FC321F52BDAD6C7F3747799A
+X-8FC586DF: A2602127D709D69B
+X-C1DE0DAB: 8BD88D57C5CADBC8B2710865C386751094C72BDDC9A8ED5CA3B1A56EE2B804F6B226C914C9968946C3C6F8E8E70EFD0313DBA38B3FB27C752D54844AF39947D516EB5DE968479BF54229701B94B053DC6BCC41370207E0FD17A6586CE9496FEC36DA1BED736F93287C6FB206A91F05B2B8AD95304A54ABBF613404E76F34EEB154E716B27BEDB08738CAC7F44FE29C962ACD6A79C4C2587B1E0A4E2319210D9B3983AF7A1CF96B1A296C473AB1E14218251A55D428191A2F85F6046F58D0CD6E474274129D6BCBA5BA7CCD254A1CF5E8481B2527B4305A68
+X-C8649E89: 4E36BF7865823D7055A7F0CF078B5EC49A30900B95165D3494FB0335DF05DC3ADA3B496A1FF6564FC953EF480EE08CE12D6C83D14B594F281C6CE3B632DA621F1D7E09C32AA3244C8946A0837A9162DCA16CAEFDD0719E6E97FE24653F78E6683EB3F6AD6EA9203E
+X-D57D3AED: 3ZO7eAau8CL7WIMRKs4sN3D3tLDjz0dLbV79QFUyzQ2Ujvy7cMT6pYYqY16iZVKkSc3dCLJ7zSJH7+u4VD18S7Vl4ZUrpaVfd2+vE6kuoey4m4VkSEu530nj6fImhcD4MUrOEAnl0W826KZ9Q+tr59cQFxbtK52nrsBwskjMlLbwTDbZjg0ktGWyd3ZwR5M2G0g+gzS0PKeJDOBrL//rLYldd2avYxhfs9M+DuXTOBSH/SnnzuO3dUdTEydar/8eFJ0Yov0iBYox8AmE5t7HHg==
+X-F696D7D5: 9pmkV2342xo/M7rGCVlNjjUvuNTMWyYp/vluNjukzTTf5vSyWOQtwwZ9wSxIBmlm
+X-Mailru-Dmarc-Auth: dmarc=pass header.from=promotion@aliexpress.com
+X-Mras: Ok
+X-Spam: undefined
+Authentication-Results: mxs.mail.ru; spf=pass (mx241.i.mail.ru: domain of aliexpress.com designates 140.205.210.29 as permitted sender) smtp.mailfrom=promotion@aliexpress.com smtp.helo=out210-29.dm.aliyun.com;
+	 dkim=pass header.d=aliexpress.com; dmarc=pass header.from=promotion@aliexpress.com
+X-UBL: Black
+X-Mailru-Intl-Transport: d,a397caa
+
+------=_Part_44464772_188457453.1647939715678
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!--edm_ru_tmall_SP_20220321#37256--><!DOCTYPE html><html><head><meta chars=
+et=3D"utf-8" /><meta http-equiv=3D"Content-Type" content=3D"text/html; char=
+set=3Dutf-8" /><meta name=3D"viewport" content=3D"width=3D400" /><title>edm=
+_ru_tmall_SP_20220321</title><link rel=3D"shortcut icon" href=3D"https://ti=
+lda.ws/img/tildafavicon.ico" /><style type=3D"text/css">=09.ExternalClass {=
+width:100%;}=09img{ border:0 none; height:auto; line-height:100%; outline:n=
+one; text-decoration:none; -ms-interpolation-mode: bicubic;=09}=09a img{ bo=
+rder:0 none;=09}=09#outlook a {padding:0;}=09#allrecords{ height:100% !impo=
+rtant; margin:0; padding:0; width:100% !important; -webkit-font-smoothing: =
+antialiased; line-height: 1.45;=09}=09#allrecords td{ margin:0; padding:0;=
+=09}=09#allrecords ul{-webkit-padding-start:30px;}=09.t-records ol,=09.t-re=
+cords ul{=09padding-left: 20px;=09margin-top: 0px;=09margin-bottom: 10px;=
+=09}=09@media only screen and (max-width: 600px) { .r{=09width:100% !import=
+ant;=09min-width:400px !important; }=09}=09@media only screen and (max-widt=
+h: 480px) { .t-emailBlock { display: block !important; padding-left: 0 !imp=
+ortant; padding-right: 0 !important; width: 100% !important; } .t-emailBloc=
+kPadding { padding-top: 15px !important; } .t-emailBlockPadding30 { padding=
+-top: 30px !important; } .t-emailAlignLeft { text-align: left !important; m=
+argin-left: 0 !important; } .t-emailAlignCenter { text-align: center !impor=
+tant; margin-left: auto !important; margin-right: auto !important; }=09}</s=
+tyle></head><body cellpadding=3D"0" cellspacing=3D"0" style=3D"padding: 0; =
+margin: 0; border: 0; width:100%; -webkit-text-size-adjust:100%; -ms-text-s=
+ize-adjust:100%; background-color: #efefef;"><!--allrecords--><table id=3D"=
+allrecords" class=3D"t-records" data-tilda-email=3D"yes" data-tilda-project=
+-id=3D"2150814" data-tilda-page-id=3D"24340429" data-tilda-page-alias=3D"" =
+cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%; border-collapse:co=
+llapse; border-spacing:0; padding:0; margin:0; border:0;"> <tr> <td style=
+=3D"background-color: #efefef; " ><!--record_mail--><table id=3D"rec3928680=
+10" style=3D"width:100%; border-collapse:collapse; border-spacing:0; margin=
+:0; border:0;" cellpadding=3D"0" cellspacing=3D"0" data-record-type=3D"619"=
+> <tr> <td style=3D"padding-left:15px; padding-right:15px; "> <table id=3D"=
+recin392868010" class=3D"r" style=3D"margin: 0 auto;border-spacing: 0;width=
+:600px;" align=3D"center"><tr><td style=3D"padding-top:0px;padding-bottom:0=
+px;padding-left:0;padding-right:0;"><table valign=3D"top" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fixed=
+;"> <tr> <td style=3D"height:30px;" height=3D"30px"></td> </tr> </table> </=
+td></tr></table> </td> </tr></table><!--/record--><!--record_mail--><table =
+id=3D"rec392868011" style=3D"width:100%; border-collapse:collapse; border-s=
+pacing:0; margin:0; border:0;" cellpadding=3D"0" cellspacing=3D"0" data-rec=
+ord-type=3D"622"> <tr> <td style=3D"padding-left:15px; padding-right:15px; =
+"> <table id=3D"recin392868011" class=3D"r" style=3D"margin: 0 auto;border-=
+spacing: 0;width:600px;" align=3D"center"><tr><td style=3D"padding-top:15px=
+;padding-bottom:15px;padding-left:0;padding-right:0;"> <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"> <tr> <td class=3D"t-ema=
+ilBlock" valign=3D"middle" style=3D"text-align: left; padding-right: 10px; =
+width: 50%;"> <a style=3D"text-decoration: none; font-weight: normal; font-=
+family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#222222;font-si=
+ze:12px;" href=3D"https://s.click.aliexpress.com/e/_AL6JKb?tracelog=3Drowan=
+&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3Dfau=
+sCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other">=D0=A3=D1=
+=81=D0=BA=D0=BE=D1=80=D0=B5=D0=BD=D0=BD=D0=B0=D1=8F =D0=B4=D0=BE=D1=81=D1=
+=82=D0=B0=D0=B2=D0=BA=D0=B0 =D0=B8=D0=B7 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=
+=B8 <br /><br /></a> </td> <td class=3D"t-emailBlock t-emailBlockPadding t-=
+emailAlignLeft" valign=3D"middle" style=3D"text-align: right; padding-left:=
+ 10px; width: 50%;"> <div style=3D" font-family: Helvetica Neue, Helvetica,=
+ Arial, sans-serif; color:#222222;font-size:12px;max-width:520px;">=D0=A1=
+=D0=BF=D0=B5=D1=86=D0=B8=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE =D0=B4=D0=BB=D1=8F f=
+austdarkangel@mail.ru</div> </td> </tr> </table></td></tr></table> </td> </=
+tr></table><!--/record--><!--record_mail--><table id=3D"rec392868012" style=
+=3D"width:100%; border-collapse:collapse; border-spacing:0; margin:0; borde=
+r:0;" cellpadding=3D"0" cellspacing=3D"0" data-record-type=3D"322"> <tr> <t=
+d style=3D"padding-left:15px; padding-right:15px; "> <table id=3D"recin3928=
+68012" class=3D"r" style=3D"margin: 0 auto;background-color:#ffffff;border-=
+spacing: 0;width:600px;" align=3D"center"><tr><td style=3D"padding-top:0px;=
+padding-bottom:0px;padding-left:0;padding-right:0;"><table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"width:100%;"> <tr>=
+ <td style=3D"width:100%; text-align: center;"> <a href=3D"https://s.click.=
+aliexpress.com/e/_AL6JKb?tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220=
+321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5=
+b1bb7f43cd3&ck=3Din_edm_other" target=3D"_blank"> <img width=3D"600" align=
+=3D"center" style=3D"width: 100%; height: auto;" src=3D"https://static.tild=
+acdn.com/tild3339-3564-4264-b066-316636666231/750x300-INFINIX.jpg" imgfield=
+=3D"img" > </a> </td> </tr> </table> </td></tr></table> </td> </tr></table>=
+<!--/record--><!--record_mail--><table id=3D"rec392868013" style=3D"width:1=
+00%; border-collapse:collapse; border-spacing:0; margin:0; border:0;" cellp=
+adding=3D"0" cellspacing=3D"0" data-record-type=3D"634"> <tr> <td style=3D"=
+padding-left:15px; padding-right:15px; "> <table id=3D"recin392868013" clas=
+s=3D"r" style=3D"margin: 0 auto;background-color:#ffffff;border-spacing: 0;=
+width:600px;" align=3D"center"><tr><td style=3D"padding-top:30px;padding-bo=
+ttom:30px;padding-left:30px;padding-right:30px;"> <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fixed;=
+"> <tr> <td class=3D"t-emailBlock " valign=3D"top" style=3D"width: 50%; pad=
+ding-right: 10px; "> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" width=3D"100%;"> <tr> <td> <a href=3D"https://aliexpress.ru/item/10050029=
+26755201.html?sku_id=3D12000022836510301&tracelog=3Drowan&rowan_id1=3Dedm_r=
+u_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e10=
+1b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other"> <img width=3D"260" style=3D=
+"display: block; width: 100%;" src=3D"https://static.tildacdn.com/tild6463-=
+6232-4635-a536-353833386165/1.jpg" > </a> </td> </tr> <tr> <td style=3D"tex=
+t-align: left; padding-top: 14px;"> <a href=3D"https://aliexpress.ru/item/1=
+005002926755201.html?sku_id=3D12000022836510301&tracelog=3Drowan&rowan_id1=
+=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_3725=
+6_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other" style=3D"text-decora=
+tion: none; color: #222222;"> <div style=3D"margin-right: auto; font-weight=
+: normal; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:=
+#222222;font-size:20px;line-height:1.2;padding-bottom:7px; padding: 0;">NOT=
+E 11 </div> </a> </td> </tr> <tr> <td style=3D"text-align: left; padding-to=
+p: 9px;"> <a href=3D"https://aliexpress.ru/item/1005002926755201.html?sku_i=
+d=3D12000022836510301&tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220321=
+_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1b=
+b7f43cd3&ck=3Din_edm_other" style=3D"display:inline-block;text-decoration: =
+none;"> <div style=3D"padding-right:5px;display:inline-block;font-weight: b=
+old; color: #212121; font-family: Helvetica Neue, Helvetica, Arial, sans-se=
+rif;color:#212121;font-size:14px; padding-top: 0;">20990 =D1=80=D1=83=D0=B1=
+.</div> </a> <a href=3D"https://aliexpress.ru/item/1005002926755201.html?sk=
+u_id=3D12000022836510301&tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220=
+321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5=
+b1bb7f43cd3&ck=3Din_edm_other" style=3D"display:inline-block;text-decoratio=
+n: none;"> <div style=3D"display:inline-block;font-weight: bold; color: #b5=
+b5b5; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#212=
+121;font-size:14px; padding-top: 0;"><del><del>35990=D1=80=D1=83=D0=B1.</de=
+l></del></div> </a> </td> </tr> </table> </td> <td class=3D"t-emailBlock t-=
+emailBlockPadding30" valign=3D"top" style=3D"width: 50%; padding-left: 10px=
+; "> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%;=
+"> <tr> <td> <a href=3D"https://aliexpress.ru/item/1005003439865328.html?sk=
+u_id=3D12000025798263103&tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220=
+321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5=
+b1bb7f43cd3&ck=3Din_edm_other"> <img width=3D"260" style=3D"display: block;=
+ width: 100%;" src=3D"https://static.tildacdn.com/tild6133-3566-4361-a632-3=
+93436653461/2.jpg" > </a> </td> </tr> <tr> <td style=3D"text-align: left; p=
+adding-top: 14px;"> <a href=3D"https://aliexpress.ru/item/1005003439865328.=
+html?sku_id=3D12000025798263103&tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_S=
+P_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d=
+8e891c5b1bb7f43cd3&ck=3Din_edm_other" style=3D"text-decoration: none; color=
+: #222222;"> <div style=3D"margin-right: auto; font-weight: normal; font-fa=
+mily: Helvetica Neue, Helvetica, Arial, sans-serif; color:#222222;font-size=
+:20px;line-height:1.2;padding-bottom:7px; padding: 0;">Note 10 pro </div> <=
+/a> </td> </tr> <tr> <td style=3D"text-align: left; padding-top: 9px;"> <a =
+href=3D"https://aliexpress.ru/item/1005003439865328.html?sku_id=3D120000257=
+98263103&tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022=
+-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=
+=3Din_edm_other" style=3D"display:inline-block;text-decoration: none;"> <di=
+v style=3D"padding-right:5px;display:inline-block;font-weight: bold; color:=
+ #212121; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;color:#=
+212121;font-size:14px; padding-top: 0;">22990 =D1=80=D1=83=D0=B1.</div> </a=
+> <a href=3D"https://aliexpress.ru/item/1005003439865328.html?sku_id=3D1200=
+0025798263103&tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU=
+_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3=
+&ck=3Din_edm_other" style=3D"display:inline-block;text-decoration: none;"> =
+<div style=3D"display:inline-block;font-weight: bold; color: #b5b5b5; font-=
+family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#212121;font-si=
+ze:14px; padding-top: 0;"><del><del>38990=D1=80=D1=83=D0=B1.</del></del></d=
+iv> </a> </td> </tr> </table> </td> </tr> </table></td></tr></table> </td> =
+</tr></table><!--/record--><!--record_mail--><table id=3D"rec392868014" sty=
+le=3D"width:100%; border-collapse:collapse; border-spacing:0; margin:0; bor=
+der:0;" cellpadding=3D"0" cellspacing=3D"0" data-record-type=3D"634"> <tr> =
+<td style=3D"padding-left:15px; padding-right:15px; "> <table id=3D"recin39=
+2868014" class=3D"r" style=3D"margin: 0 auto;background-color:#ffffff;borde=
+r-spacing: 0;width:600px;" align=3D"center"><tr><td style=3D"padding-top:30=
+px;padding-bottom:30px;padding-left:30px;padding-right:30px;"> <table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-l=
+ayout: fixed;"> <tr> <td class=3D"t-emailBlock " valign=3D"top" style=3D"wi=
+dth: 50%; padding-right: 10px; "> <table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" width=3D"100%;"> <tr> <td> <a href=3D"https://aliexpress.ru/=
+item/1005003595076102.html?sku_id=3D12000026480310368&tracelog=3Drowan&rowa=
+n_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS=
+_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other"> <img width=3D"=
+260" style=3D"display: block; width: 100%;" src=3D"https://static.tildacdn.=
+com/tild6432-3834-4638-b133-643633363235/3.jpg" > </a> </td> </tr> <tr> <td=
+ style=3D"text-align: left; padding-top: 14px;"> <a href=3D"https://aliexpr=
+ess.ru/item/1005003595076102.html?sku_id=3D12000026480310368&tracelog=3Drow=
+an&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3Df=
+ausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other" style=3D=
+"text-decoration: none; color: #222222;"> <div style=3D"margin-right: auto;=
+ font-weight: normal; font-family: Helvetica Neue, Helvetica, Arial, sans-s=
+erif; color:#222222;font-size:20px;line-height:1.2;padding-bottom:7px; padd=
+ing: 0;">HOT 11S 4+64&nbsp; </div> </a> </td> </tr> <tr> <td style=3D"text-=
+align: left; padding-top: 9px;"> <a href=3D"https://aliexpress.ru/item/1005=
+003595076102.html?sku_id=3D12000026480310368&tracelog=3Drowan&rowan_id1=3De=
+dm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d=
+4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other" style=3D"display:inline-=
+block;text-decoration: none;"> <div style=3D"padding-right:5px;display:inli=
+ne-block;font-weight: bold; color: #212121; font-family: Helvetica Neue, He=
+lvetica, Arial, sans-serif;color:#212121;font-size:14px; padding-top: 0;">1=
+6690 =D1=80=D1=83=D0=B1.</div> </a> <a href=3D"https://aliexpress.ru/item/1=
+005003595076102.html?sku_id=3D12000026480310368&tracelog=3Drowan&rowan_id1=
+=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_3725=
+6_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other" style=3D"display:inl=
+ine-block;text-decoration: none;"> <div style=3D"display:inline-block;font-=
+weight: bold; color: #b5b5b5; font-family: Helvetica Neue, Helvetica, Arial=
+, sans-serif; color:#212121;font-size:14px; padding-top: 0;"><del><del>2799=
+0=D1=80=D1=83=D0=B1.</del></del></div> </a> </td> </tr> </table> </td> <td =
+class=3D"t-emailBlock t-emailBlockPadding30" valign=3D"top" style=3D"width:=
+ 50%; padding-left: 10px; "> <table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%;"> <tr> <td> <a href=3D"https://aliexpress.ru/item/=
+1005002731895970.html?sku_id=3D12000021898701914&tracelog=3Drowan&rowan_id1=
+=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_3725=
+6_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other"> <img width=3D"260" =
+style=3D"display: block; width: 100%;" src=3D"https://static.tildacdn.com/t=
+ild3730-3364-4236-b133-356439396234/4.jpg" > </a> </td> </tr> <tr> <td styl=
+e=3D"text-align: left; padding-top: 14px;"> <a href=3D"https://aliexpress.r=
+u/item/1005002731895970.html?sku_id=3D12000021898701914&tracelog=3Drowan&ro=
+wan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCO=
+WS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other" style=3D"text=
+-decoration: none; color: #222222;"> <div style=3D"margin-right: auto; font=
+-weight: normal; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;=
+ color:#222222;font-size:20px;line-height:1.2;padding-bottom:7px; padding: =
+0;">Smart 6 </div> </a> </td> </tr> <tr> <td style=3D"text-align: left; pad=
+ding-top: 9px;"> <a href=3D"https://aliexpress.ru/item/1005002731895970.htm=
+l?sku_id=3D12000021898701914&tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_2=
+0220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e8=
+91c5b1bb7f43cd3&ck=3Din_edm_other" style=3D"display:inline-block;text-decor=
+ation: none;"> <div style=3D"padding-right:5px;display:inline-block;font-we=
+ight: bold; color: #212121; font-family: Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#212121;font-size:14px; padding-top: 0;">11290 =D1=80=D1=
+=83=D0=B1.</div> </a> <a href=3D"https://aliexpress.ru/item/100500273189597=
+0.html?sku_id=3D12000021898701914&tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall=
+_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a113=
+4d8e891c5b1bb7f43cd3&ck=3Din_edm_other" style=3D"display:inline-block;text-=
+decoration: none;"> <div style=3D"display:inline-block;font-weight: bold; c=
+olor: #b5b5b5; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; c=
+olor:#212121;font-size:14px; padding-top: 0;"><del><del>19990=D1=80=D1=83=
+=D0=B1.</del></del></div> </a> </td> </tr> </table> </td> </tr> </table></t=
+d></tr></table> </td> </tr></table><!--/record--><!--record_mail--><table i=
+d=3D"rec424951618" style=3D"width:100%; border-collapse:collapse; border-sp=
+acing:0; margin:0; border:0;" cellpadding=3D"0" cellspacing=3D"0" data-reco=
+rd-type=3D"634"> <tr> <td style=3D"padding-left:15px; padding-right:15px; "=
+> <table id=3D"recin424951618" class=3D"r" style=3D"margin: 0 auto;backgrou=
+nd-color:#ffffff;border-spacing: 0;width:600px;" align=3D"center"><tr><td s=
+tyle=3D"padding-top:30px;padding-bottom:30px;padding-left:30px;padding-righ=
+t:30px;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%" style=3D"table-layout: fixed;"> <tr> <td class=3D"t-emailBlock " vali=
+gn=3D"top" style=3D"width: 50%; padding-right: 10px; "> <table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%;"> <tr> <td> <a href=3D"=
+https://aliexpress.ru/item/1005003506775621.html?sku_id=3D12000026098544899=
+&tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&r=
+owan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_=
+other"> <img width=3D"260" style=3D"display: block; width: 100%;" src=3D"ht=
+tps://static.tildacdn.com/tild6638-6162-4638-b235-643063343863/5.jpg" > </a=
+> </td> </tr> <tr> <td style=3D"text-align: left; padding-top: 14px;"> <a h=
+ref=3D"https://aliexpress.ru/item/1005003506775621.html?sku_id=3D1200002609=
+8544899&tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-=
+03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3D=
+in_edm_other" style=3D"text-decoration: none; color: #222222;"> <div style=
+=3D"margin-right: auto; font-weight: normal; font-family: Helvetica Neue, H=
+elvetica, Arial, sans-serif; color:#222222;font-size:20px;line-height:1.2;p=
+adding-bottom:7px; padding: 0;">10 lite 2+32 </div> </a> </td> </tr> <tr> <=
+td style=3D"text-align: left; padding-top: 9px;"> <a href=3D"https://aliexp=
+ress.ru/item/1005003506775621.html?sku_id=3D12000026098544899&tracelog=3Dro=
+wan&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3D=
+fausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other" style=
+=3D"display:inline-block;text-decoration: none;"> <div style=3D"padding-rig=
+ht:5px;display:inline-block;font-weight: bold; color: #212121; font-family:=
+ Helvetica Neue, Helvetica, Arial, sans-serif;color:#212121;font-size:14px;=
+ padding-top: 0;">10790 =D1=80=D1=83=D0=B1.</div> </a> <a href=3D"https://a=
+liexpress.ru/item/1005003506775621.html?sku_id=3D12000026098544899&tracelog=
+=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_=
+id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other" st=
+yle=3D"display:inline-block;text-decoration: none;"> <div style=3D"display:=
+inline-block;font-weight: bold; color: #b5b5b5; font-family: Helvetica Neue=
+, Helvetica, Arial, sans-serif; color:#212121;font-size:14px; padding-top: =
+0;"><del><del>18990=D1=80=D1=83=D0=B1.</del></del></div> </a> </td> </tr> <=
+/table> </td> <td class=3D"t-emailBlock t-emailBlockPadding30" valign=3D"to=
+p" style=3D"width: 50%; padding-left: 10px; "> <table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"100%;"> <tr> <td> <a href=3D"https://a=
+liexpress.ru/item/1005003506812194.html?sku_id=3D12000026098461512&tracelog=
+=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_=
+id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other"> <=
+img width=3D"260" style=3D"display: block; width: 100%;" src=3D"https://sta=
+tic.tildacdn.com/tild3863-3966-4162-a130-376532343632/6.jpg" > </a> </td> <=
+/tr> <tr> <td style=3D"text-align: left; padding-top: 14px;"> <a href=3D"ht=
+tps://aliexpress.ru/item/1005003506812194.html?sku_id=3D12000026098461512&t=
+racelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&row=
+an_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_ot=
+her" style=3D"text-decoration: none; color: #222222;"> <div style=3D"margin=
+-right: auto; font-weight: normal; font-family: Helvetica Neue, Helvetica, =
+Arial, sans-serif; color:#222222;font-size:20px;line-height:1.2;padding-bot=
+tom:7px; padding: 0;">Zero X Pro 8+128 </div> </a> </td> </tr> <tr> <td sty=
+le=3D"text-align: left; padding-top: 9px;"> <a href=3D"https://aliexpress.r=
+u/item/1005003506812194.html?sku_id=3D12000026098461512&tracelog=3Drowan&ro=
+wan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCO=
+WS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other" style=3D"disp=
+lay:inline-block;text-decoration: none;"> <div style=3D"padding-right:5px;d=
+isplay:inline-block;font-weight: bold; color: #212121; font-family: Helveti=
+ca Neue, Helvetica, Arial, sans-serif;color:#212121;font-size:14px; padding=
+-top: 0;">33990 =D1=80=D1=83=D0=B1.</div> </a> <a href=3D"https://aliexpres=
+s.ru/item/1005003506812194.html?sku_id=3D12000026098461512&tracelog=3Drowan=
+&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3Dfau=
+sCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other" style=3D"d=
+isplay:inline-block;text-decoration: none;"> <div style=3D"display:inline-b=
+lock;font-weight: bold; color: #b5b5b5; font-family: Helvetica Neue, Helvet=
+ica, Arial, sans-serif; color:#212121;font-size:14px; padding-top: 0;"><del=
+><del>56990=D1=80=D1=83=D0=B1.</del></del></div> </a> </td> </tr> </table> =
+</td> </tr> </table></td></tr></table> </td> </tr></table><!--/record--><!-=
+-record_mail--><table id=3D"rec392868018" style=3D"width:100%; border-colla=
+pse:collapse; border-spacing:0; margin:0; border:0;" cellpadding=3D"0" cell=
+spacing=3D"0" data-record-type=3D"618"> <tr> <td style=3D"padding-left:15px=
+; padding-right:15px; "> <table id=3D"recin392868018" class=3D"r" style=3D"=
+margin: 0 auto;background-color:#ffffff;border-spacing: 0;width:600px;" ali=
+gn=3D"center"><tr><td style=3D"padding-top:45px;padding-bottom:60px;padding=
+-left:30px;padding-right:30px;"><!-- Workaround: Calculate border radius fo=
+r Outlook--> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" style=3D"width:100%;" style=3D"margin: 0 auto;table-layout: fixed=
+;"> <tr> <td> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"margin: 0 auto;" align=3D"center"> <tr> <td> <!--[if mso]> <v:roundrect=
+ xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft=
+-com:office:word" href=3D"https://s.click.aliexpress.com/e/_AL6JKb?tracelog=
+=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_=
+id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other" st=
+yle=3D"height:52px;v-text-anchor:middle;mso-wrap-style:none;mso-position-ho=
+rizontal:center;" arcsize=3D"9%" stroke=3D"f" fillcolor=3D"#0011ff"> <w:anc=
+horlock/> <center style=3D"text-decoration: none; padding: 15px 30px; font-=
+size: 15px; text-align: center; font-weight: bold; font-family:Helvetica Ne=
+ue, Helvetica, Arial, sans-serif; width: 100%;color:#ffffff;"> =D0=A1=D0=BC=
+=D0=BE=D1=82=D1=80=D0=B5=D1=82=D1=8C =D0=B2=D1=81=D0=B5 </center> </v:round=
+rect> <![endif]--> <!--[if !mso]--> <a style=3D"display: table-cell; text-d=
+ecoration: none; padding: 15px 30px; font-size: 15px; text-align: center; f=
+ont-weight: bold; font-family:Helvetica Neue, Helvetica, Arial, sans-serif;=
+ width: 100%;color:#ffffff; border:0px solid ; background-color:#0011ff; bo=
+rder-radius: 3px;" href=3D"https://s.click.aliexpress.com/e/_AL6JKb?tracelo=
+g=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg=
+_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other"> =
+=D0=A1=D0=BC=D0=BE=D1=82=D1=80=D0=B5=D1=82=D1=8C =D0=B2=D1=81=D0=B5 </a> <!=
+--[endif]--> </td> </tr> </table> </td> </tr> </table> </td></tr></table> <=
+/td> </tr></table><!--/record--><!--record_mail--><table id=3D"rec392868019=
+" style=3D"width:100%; border-collapse:collapse; border-spacing:0; margin:0=
+; border:0;" cellpadding=3D"0" cellspacing=3D"0" data-record-type=3D"632"> =
+<tr> <td style=3D"padding-left:15px; padding-right:15px; "> <table id=3D"re=
+cin392868019" class=3D"r" style=3D"margin: 0 auto;background-color:#f2f2f2;=
+border-spacing: 0;width:600px;" align=3D"center"><tr><td style=3D"padding-t=
+op:45px;padding-bottom:45px;padding-left:30px;padding-right:30px;"> <table =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"wi=
+dth:100%; margin: 0 auto;table-layout: fixed;"> <tr> <td> <table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin: 0 auto;table-layout=
+: fixed;" align=3D"center"> <tr> <td align=3D"center" style=3D"width: 34px;=
+ height: 34px; padding: 0 9px;"> <a style=3D"text-decoration: none;" href=
+=3D"https://www.facebook.com/aliexpress.russian?tracelog=3Drowan&rowan_id1=
+=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_3725=
+6_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other"> <img width=3D"34" s=
+tyle=3D"display: block; width: 34px; max-width: 34px;" src=3D"https://stati=
+c.tildacdn.com/img/soc/t_ico_fb.png"> </a> </td> <td align=3D"center" style=
+=3D"width: 34px; height: 34px; padding: 0 9px;"> <a style=3D"text-decoratio=
+n: none;" href=3D"https://twitter.com/aliexpress?tracelog=3Drowan&rowan_id1=
+=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_3725=
+6_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other"> <img width=3D"34" s=
+tyle=3D"display: block; width: 34px; max-width: 34px;" src=3D"https://stati=
+c.tildacdn.com/img/soc/t_ico_twitter.png"> </a> </td> <td align=3D"center" =
+style=3D"width: 34px; height: 34px; padding: 0 9px;"> <a style=3D"text-deco=
+ration: none;" href=3D"https://vk.com/aliexpress?tracelog=3Drowan&rowan_id1=
+=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_3725=
+6_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other"> <img width=3D"34" s=
+tyle=3D"display: block; width: 34px; max-width: 34px;" src=3D"https://stati=
+c.tildacdn.com/img/soc/t_ico_vk.png"> </a> </td> <td align=3D"center" style=
+=3D"width: 34px; height: 34px; padding: 0 9px;"> <a style=3D"text-decoratio=
+n: none;" href=3D"https://www.instagram.com/aliexpressru?tracelog=3Drowan&r=
+owan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausC=
+OWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other"> <img width=
+=3D"34" style=3D"display: block; width: 34px; max-width: 34px;" src=3D"http=
+s://static.tildacdn.com/img/soc/t_ico_instagram.png"> </a> </td> <td align=
+=3D"center" style=3D"width: 34px; height: 34px; padding: 0 9px;"> <a style=
+=3D"text-decoration: none;" href=3D"https://www.youtube.com/channel/UChQr9A=
+5-7MdpypJwxDGLKMQ?tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_r=
+u_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f4=
+3cd3&ck=3Din_edm_other"> <img width=3D"34" style=3D"display: block; width: =
+34px; max-width: 34px;" src=3D"https://static.tildacdn.com/img/soc/t_ico_yo=
+utube3.png"> </a> </td> </tr> </table> </td> </tr> <tr> <td style=3D"text-a=
+lign: center; padding: 50px 0 15px;"> <div style=3D"margin: 0 auto; font-we=
+ight: normal; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; co=
+lor:#222222;font-size:14px;line-height:1.5;">=D0=92=D1=8B =D0=BF=D0=BE=D0=
+=BB=D1=83=D1=87=D0=B8=D0=BB=D0=B8 =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE =D0=
+=BA=D0=B0=D0=BA =D0=B7=D0=B0=D1=80=D0=B5=D0=B3=D0=B8=D1=81=D1=82=D1=80=D0=
+=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D0=BF=D0=BE=D0=BB=D1=
+=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8C =D1=81=D0=B0=D0=B9=D1=
+=82=D0=B0 <a href=3D"https://aliexpress.ru?tracelog=3Drowan&rowan_id1=3Dedm=
+_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e=
+101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other">www.AliExpress.ru</a>. <br=
+ /> =D0=A7=D1=82=D0=BE=D0=B1=D1=8B =D0=BE=D1=82=D0=BF=D0=B8=D1=81=D0=B0=D1=
+=82=D1=8C=D1=81=D1=8F =D0=BE=D1=82 =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=
+=BA=D0=B8, =D0=BD=D0=B0=D0=B6=D0=BC=D0=B8=D1=82=D0=B5 <a href=3D"https://my=
+.aliexpress.com/subscription/edm_unsubscribe.htm?param=3D%2FpAUbBh2WWLWrThI=
+kAUkqWJgOHA18ItjNzzl1BNhyZdp1AReWG956lT0p9fsBzeeTXFscaRXawV62iPmsFRzTQ%3D%3=
+D&tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&=
+rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm=
+_other">=D1=81=D1=8E=D0=B4=D0=B0</a>.<br /></div> </td> </tr> <tr> <td styl=
+e=3D"text-align: center; padding: 0 0 50px;"> <div style=3D"margin: 0 auto;=
+ font-weight: normal; font-family: Helvetica Neue, Helvetica, Arial, sans-s=
+erif; color:#222222;font-size:14px;line-height:1.4;">=D0=9E=D0=B7=D0=BD=D0=
+=B0=D0=BA=D0=BE=D0=BC=D1=8C=D1=82=D0=B5=D1=81=D1=8C =D1=81 =D0=BD=D0=B0=D1=
+=88=D0=B5=D0=B9 <a href=3D"https://sell.aliexpress.com/ru/__pc/Zj6CxW2d6V.h=
+tm?spm=3D5261.ams_95368.0.0.7c9bAcT0AcT0n4&tracelog=3Drowan&rowan_id1=3Dedm=
+_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e=
+101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other">=D0=9F=D0=BE=D0=BB=D0=B8=
+=D1=82=D0=B8=D0=BA=D0=BE=D0=B9 =D0=BA=D0=BE=D0=BD=D1=84=D0=B8=D0=B4=D0=B5=
+=D0=BD=D1=86=D0=B8=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D0=B8</a> =D0=
+=B8 <a href=3D"https://sell.aliexpress.com/ru/__pc/bz78nPuHcW.htm?spm=3D526=
+1.ams_95368.0.0.7c9bEDemEDemG2&tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP=
+_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8=
+e891c5b1bb7f43cd3&ck=3Din_edm_other">=D0=9F=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=
+=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D1=81=D0=BA=D0=B8=D0=BC =D1=81=D0=BE=
+=D0=B3=D0=BB=D0=B0=D1=88=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC</a>. <br /></div> </=
+td> </tr> <tr> <td align=3D"center"> <a style=3D"text-decoration: none;" hr=
+ef=3D"https://aliexpress.ru?tracelog=3Drowan&rowan_id1=3Dedm_ru_tmall_SP_20=
+220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e89=
+1c5b1bb7f43cd3&ck=3Din_edm_other"> <img width=3D"200" style=3D"display: blo=
+ck; width: 200px;" src=3D"https://static.tildacdn.com/tild3735-3637-4363-b8=
+35-386238616337/logo-2.png" > </a> </td> </tr> <tr> <td style=3D"text-align=
+: center; padding: 25px 0 0;"> <div style=3D"margin: 0 auto; font-weight: n=
+ormal; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; color:#a1=
+a1a1;font-size:12px;line-height:1.5;">=D0=98=D0=BD=D1=84=D0=BE=D1=80=D0=BC=
+=D0=B0=D1=86=D0=B8=D1=8F =D0=BE =D1=86=D0=B5=D0=BD=D0=B0=D1=85 =D0=B8 =D1=
+=81=D0=BA=D0=B8=D0=B4=D0=BA=D0=B0=D1=85 =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=
+=B2=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=B0 =D0=BD=D0=B0 =D0=BC=D0=BE=D0=
+=BC=D0=B5=D0=BD=D1=82 =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=B8 =D0=
+=B4=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=
+=B0. =D0=9D=D0=B5 =D1=8F=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=8F =D0=BE=
+=D1=84=D0=B5=D1=80=D1=82=D0=BE=D0=B9.<br />=D0=90=D0=BA=D1=82=D1=83=D0=B0=
+=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=
+=D1=86=D0=B8=D1=8F =D0=BE =D1=86=D0=B5=D0=BD=D0=B5 =D0=B8 =D0=BD=D0=B0=D0=
+=BB=D0=B8=D1=87=D0=B8=D0=B8 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0 =D0=B4=D0=
+=BE=D1=81=D1=82=D1=83=D0=BF=D0=BD=D0=B0 =D0=BD=D0=B0 =D1=81=D0=B0=D0=B9=D1=
+=82=D0=B5 AliExpress.ru. =D0=A6=D0=B5=D0=BD=D0=B0 =D1=82=D0=BE=D0=B2=D0=B0=
+=D1=80=D0=B0 =D0=B8 =D0=B4=D1=80=D1=83=D0=B3=D0=B8=D0=B5 =D1=83=D1=81=D0=BB=
+=D0=BE=D0=B2=D0=B8=D1=8F =D0=B0=D0=BA=D1=86=D0=B8=D0=B8=D0=BC=D0=BE=D0=B3=
+=D1=83=D1=82 =D0=BE=D1=82=D0=BB=D0=B8=D1=87=D0=B0=D1=82=D1=8C=D1=81=D1=8F =
+=D0=B8\=D0=B8=D0=BB=D0=B8 =D0=B7=D0=B0=D0=B2=D0=B8=D1=81=D0=B5=D1=82=D1=8C =
+=D0=BE=D1=82 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=D0=BC=
+=D0=BE=D0=B9 =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B8 =D1=81=D0=B0=D0=B9=D1=82=
+=D0=B0 =D0=B8=D0=BB=D0=B8 =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=D0=BD=D0=BE=
+=D0=B3=D0=BE =D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F, =
+=D0=B4=D1=80=D1=83=D0=B3=D0=B8=D1=85 =D1=84=D0=B0=D0=BA=D1=82=D0=BE=D1=80=
+=D0=BE=D0=B2.=D0=9A=D0=BE=D0=BB=D0=B8=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=BE =
+=D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=D0=B2 =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=
+=D0=B8=D1=87=D0=B5=D0=BD=D0=BE. =D0=A0=D0=B5=D0=BA=D0=BE=D0=BC=D0=B5=D0=BD=
+=D0=B4=D1=83=D0=B5=D0=BC =D1=81=D0=B2=D0=B5=D1=80=D0=B8=D1=82=D1=8C=D1=81=
+=D1=8F =D1=81 =D1=81=D0=B0=D0=B9=D1=82=D0=BE=D0=BC =D0=B4=D0=BE =D1=81=D0=
+=BE=D0=B2=D0=B5=D1=80=D1=88=D0=B5=D0=BD=D0=B8=D1=8F =D0=B7=D0=B0=D0=BA=D0=
+=B0=D0=B7=D0=B0.<a href=3D"https://service.aliexpress.com/page/home?pageId=
+=3D18&amp;language=3Dru?tracelog=3Dnewsletter&tracelog=3Drowan&rowan_id1=3D=
+edm_ru_tmall_SP_20220321_1_ru_RU_2022-03-22&rowan_msg_id=3DfausCOWS_37256_$=
+d4e101b0a1134d8e891c5b1bb7f43cd3&ck=3Din_edm_other"><br />=D0=A1=D0=BB=D1=
+=83=D0=B6=D0=B1=D0=B0 =D0=BF=D0=BE=D0=B4=D0=B4=D0=B5=D1=80=D0=B6=D0=BA=D0=
+=B8 AliExpress</a><br />AliExpress Russia Holding PTE.LTD<br />8 Shenton Wa=
+y, #45-01 AXA Tower, Singapore 068811</div> </td> </tr> </table></td></tr><=
+/table> </td> </tr></table><!--/record--><!--record_mail--><table id=3D"rec=
+392868020" style=3D"width:100%; border-collapse:collapse; border-spacing:0;=
+ margin:0; border:0;" cellpadding=3D"0" cellspacing=3D"0" data-record-type=
+=3D"619"> <tr> <td style=3D"padding-left:15px; padding-right:15px; "> <tabl=
+e id=3D"recin392868020" class=3D"r" style=3D"margin: 0 auto;border-spacing:=
+ 0;width:600px;" align=3D"center"><tr><td style=3D"padding-top:0px;padding-=
+bottom:15px;padding-left:0;padding-right:0;"><table valign=3D"top" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;"> <tr> <td style=3D"height:30px;" height=3D"30px"></td> </tr> =
+</table> </td></tr></table> </td> </tr></table><!--/record--> </td> </tr></=
+table><!--/allrecords--></body></html><div style=3D"display:none"><img styl=
+e=3D"display:none" src=3D"http://ae.mmstat.com/ae.edm.edm_open?tracelog=3Dr=
+owan-ae-utp-memberservice-edm_ru_tmall_SP_20220321_1_ru_RU-2022-03-22&rowan=
+_msg_id=3DfausCOWS_37256_$d4e101b0a1134d8e891c5b1bb7f43cd3"/></div>
+------=_Part_44464772_188457453.1647939715678--

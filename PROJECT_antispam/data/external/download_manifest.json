@@ -1,0 +1,10 @@
+{
+  "public_url": "https://disk.yandex.ru/d/mJ_9zG3dX3eZgg",
+  "archive": "test_task_emails.tar.xz",
+  "sha256": "14ccf52ab11673a85acab7c9793effa2c8db72c61838ba1b15356bd22d9576ee",
+  "files": 1600,
+  "top_level": [
+    "ham",
+    "spam"
+  ]
+}

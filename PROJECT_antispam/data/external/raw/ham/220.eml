@@ -1,0 +1,452 @@
+Delivered-To: macrofag@gmail.com
+Received: by 10.80.151.7 with SMTP id c7csp467423edb;
+        Wed, 7 Dec 2016 12:40:10 -0800 (PST)
+X-Received: by 10.36.217.79 with SMTP id p76mr3873659itg.16.1481143210412;
+        Wed, 07 Dec 2016 12:40:10 -0800 (PST)
+Return-Path: <bounces+2153803-634d-macrofag=gmail.com@email.sololearn.com>
+Received: from o1.email.sololearn.com (o1.email.sololearn.com. [167.89.63.54])
+        by mx.google.com with ESMTPS id h200si6946073ita.91.2016.12.07.12.40.10
+        for <macrofag@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 07 Dec 2016 12:40:10 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+2153803-634d-macrofag=gmail.com@email.sololearn.com designates 167.89.63.54 as permitted sender) client-ip=167.89.63.54;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@sololearn.com;
+       dkim=pass header.i=@sendgrid.info;
+       spf=pass (google.com: domain of bounces+2153803-634d-macrofag=gmail.com@email.sololearn.com designates 167.89.63.54 as permitted sender) smtp.mailfrom=bounces+2153803-634d-macrofag=gmail.com@email.sololearn.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sololearn.com; 
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to:list-unsubscribe; 
+	s=s1; bh=xA90iABbLdkDl1SuF4L5ageR+p8=; b=Jiy03dFxC+Hu7v3/wTUppNi
+	O+/i0cquTPlfzGX5Dk+WnnnUQwwK5h38qMM2a2ZJh11kSC0ynEjcAeyxz+4y4Nzr
+	fs+84UFhFadKtqN2Y5UhsLUL2Shn3C3frLqqZsjEXxI+mnM1TMZnkIChTFJy0pdv
+	QDdplCD4lu6Qre1/48p4=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sendgrid.info; 
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to:list-unsubscribe:x-feedback-id; 
+	s=smtpapi; bh=xA90iABbLdkDl1SuF4L5ageR+p8=; b=eApY41Vq+/kcnv3+7R
+	YIM4mWhbpN3yF79RgSsY7YxEnfxojjEAlxILEU1q5RabZ/WBbKmkSXviiiOOHsw9
+	eqbPM4FW7sTlGKmqEgdi3xqUgRyXnHYaceGr5ob86RQp+9F2m8bBxP+4Y/hdevU+
+	x8bvaUbYZb5Ot42pYDjRb46cc=
+Received: by filter1099p1mdw1.sendgrid.net with SMTP id filter1099p1mdw1-25909-584873A9-1A
+        2016-12-07 20:40:09.601185233 +0000 UTC
+Received: from MjE1MzgwMw (unknown [168.61.10.153])
+	by ismtpd0031p1mdw1.sendgrid.net (SG) with HTTP id UUNCwZa0TVm6QY0c2hz7mA
+	for <info@sololearn.com>; Wed, 07 Dec 2016 20:40:09.515 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 07 Dec 2016 20:40:09 +0000
+From: "SoloLearn" <info@sololearn.com>
+Mime-Version: 1.0
+Subject: Welcome to SoloLearn!
+To: macrofag@gmail.com
+Message-ID: <UUNCwZa0TVm6QY0c2hz7mA@ismtpd0031p1mdw1.sendgrid.net>
+List-Unsubscribe: <http://l.sololearn.com/wf/unsubscribe?upn=1VYcT98m-2Fz5F7mgiYGgrK9qbyEwSPKKea35sUSgeLkWYL40OdfuhgNoqrhm4Vk3j3RW1FuD8VOuwJwlDhtL-2BR-2BAVDO1VvWAoRLQ6dWrOxT3ZOBtdaZPhfPv5YFVZ7-2FRelDMNfnAPDmceZH7dZMWKHmtCfSa6qOP-2BLX-2Fz1AF-2F-2FRMDmEmYOoidmC7CEs1CX6WYu8Tn84p1F1pL24XFWUJpkWGdZPhm6OiULr6nJDPZ0sU-3D>, <mailto:unsubscribe@email.sololearn.com?subject=http://l.sololearn.com/wf/unsubscribe*q*upn=1VYcT98m-2Fz5F7mgiYGgrK9qbyEwSPKKea35sUSgeLkWYL40OdfuhgNoqrhm4Vk3j3RW1FuD8VOuwJwlDhtL-2BR-2BAVDO1VvWAoRLQ6dWrOxT3ZOBtdaZPhfPv5YFVZ7-2FRelDMNfnAPDmceZH7dZMWKHmtCfSa6qOP-2BLX-2Fz1AF-2F-2FRMDmEmYOoidmC7CEs1CX6WYu8Tn84p1F1pL24XFWUJpkWGdZPhm6OiULr6nJDPZ0sU-3D>
+X-SG-EID: +6N/ZKWUECQ1w2nGU4GqazPw6rn83xWf7eMqPV4RHt/IpE2oSUxFyu4ZXUuhlvYKw9hQbBhqdt2vYD
+ xpboMXsJtrRrueUdVDXCIgdbTfOS+u5dIDMOQ02EFiDD4L3nrF7gtMRhIhfwJaLIwlYAEwgUXajCpO
+ +K0zzDeOL3iuBdgf3clIMgQD13MZ10nPdarEjxDngy6x4VI77R7Wx5hpEZqQC7Z69QEHcTQPL3XPn+
+ c=
+X-Feedback-ID: 2153803:ZBBLB13KZTCE21jjc/UpQDI5dGaqXJtoKIt+fhFIYyI=:ZBBLB13KZTCE21jjc/UpQDI5dGaqXJtoKIt+fhFIYyI=:SG
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+  <meta name=3D"generator" content=3D"HTML Tidy for HTML5 (experimental) fo=
+r Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width" />
+
+  <title>SoloLearn</title>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+/>
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0" />
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+  <meta name=3D"format-detection" content=3D"telephone=3Dno" />
+  <style type=3D"text/css">
+	/*<![CDATA[*/
+  /* RESET */=20
+  #outlook a {padding:0;} body {width:100% !important; -webkit-text-size-ad=
+just:100%; -ms-text-size-adjust:100%; margin:0; padding:0; mso-line-height-=
+rule:exactly;}
+  table td { border-collapse: collapse; }  .ExternalClass {width:100%;}  .E=
+xternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .=
+ExternalClass td, .ExternalClass div {line-height: 100%;}=20
+  table td {border-collapse: collapse;}  /* IMG */  img {outline:none; text=
+-decoration:none; -ms-interpolation-mode: bicubic;}  a img {border:none;}=
+=20=20
+
+  /* Becoming responsive */=20=20
+  @media only screen and (max-device-width: 480px)=20
+  {  table[id=3D"container_div"] {max-width: 480px !important;}=20
+  table[id=3D"container_table"], table[class=3D"image_container"], table[cl=
+ass=3D"image-group-contenitor"] {width: 100% !important; min-width: 320px !=
+important;}=20=20
+  table[class=3D"image-group-contenitor"] td, table[class=3D"mixed"] td, td=
+[class=3D"mix_image"], td[class=3D"mix_text"], td[class=3D"table-separator"=
+], td[class=3D"section_block"] {display: block !important;width:100% !impor=
+tant;}=20=20
+  table[class=3D"image_container"] img, td[class=3D"mix_image"] img, table[=
+class=3D"image-group-contenitor"] img {width: 100% !important;}
+  table[class=3D"image_container"] img[class=3D"natural-width"], td[class=
+=3D"mix_image"] img[class=3D"natural-width"], table[class=3D"image-group-co=
+ntenitor"] img[class=3D"natural-width"] {width: auto !important;}=20
+  a[class=3D"button-link justify"] {display: block !important;width:auto !i=
+mportant;}  td[class=3D"table-separator"] br {display: none;}=20
+  td[class=3D"cloned_td"]  table[class=3D"image_container"] {width: 100% !i=
+mportant; min-width: 0 !important;}=20
+   td[class=3D"img_cont"] img {width:30% !important;}
+  } table[class=3D"social_wrapp"]  {width: auto;}=20
+  /*]]>*/
+  </style>
+</head>
+
+<body bgcolor=3D"#E8E8E8">
+  <table id=3D"container_div" style=3D"text-align:center; background-color:=
+#e8e8e8; border-collapse: collapse" align=3D"center" bgcolor=3D
+  "#E8E8E8" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+    <tr>
+      <td align=3D"center">
+        <br />
+
+        <table id=3D"container_wrapper" cellpadding=3D"0" cellspacing=3D"0"=
+ border=3D"0">
+          <tbody>
+            <tr>
+              <td>
+                <table id=3D"container_table" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" bgcolor=3D"#FFFFFF" style=3D
+                "border-collapse: collapse; min-width: 600px;" width=3D"600=
+">
+                  <tbody>
+                    <tr>
+                      <td valign=3D"top" bgcolor=3D"#FFFFFF">
+                        <table cellpadding=3D"12" cellspacing=3D"0" border=
+=3D"0" style=3D
+                        "border-collapse: collapse; background-color: #ffff=
+ff" bgcolor=3D"#FFFFFF" width=3D"100%">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <table width=3D"100%" cellpadding=3D"0" cel=
+lspacing=3D"0" border=3D"0" style=3D"border-collapse: collapse">
+                                  <tbody>
+                                    <tr valign=3D"top">
+                                      <td valign=3D"top" class=3D"mix_image=
+" align=3D"center" width=3D"282">
+                                        <a href=3D"http://l.sololearn.com/w=
+f/click?upn=3DE056pM7i4ZFkLSESubYd7FhOt8vJYNpwywkfXqqRjpyK9JfEspI8NAFs0WDyD=
+VxV_1VYcT98m-2Fz5F7mgiYGgrK9qbyEwSPKKea35sUSgeLkWYL40OdfuhgNoqrhm4Vk3jUJBtV=
+OjyUJig8cuyhUPELYJcEFfMUEQHjK-2B4WwgubZw1TNnsNjcXjfW5uXsYaWCoG9E-2BvE4lszxo=
+EdbvBi0xvzPKUfdA8arxhLP9Tyc-2FAmNKV-2Fn-2BcO1-2BqaALKYi08hGQl3IsQZT8QtYi5b-=
+2Fvc-2FoxzwcBzEnKm77LbeS6Y29-2FxL4-3D" target=3D"_blank"><img data-embeded=
+=3D"auto" src=3D
+                                        "http://www.sololearn.com/images/lo=
+go.png" alt=3D""
+                                        class=3D"" style=3D
+                                        "height: auto; vertical-align: top;=
+ border: 0px none transparent; border-radius: 0px; width: 282px;"
+                                        width=3D"282" /></a>
+                                      </td>
+
+                                      <td class=3D"table-separator" width=
+=3D"12" height=3D"12"></td>
+
+                                      <td valign=3D"top" class=3D"mix_text"=
+ width=3D"282" style=3D"line-height: 130%;">
+                                        <div style=3D"text-align: right;">
+                                          <br />
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <table class=3D"image_container" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" width=3D"100%" style=3D
+                        "border-collapse: collapse; background-color: rgb(2=
+55, 255, 255);" bgcolor=3D"#FFFFFF">
+                          <tbody>
+                            <tr valign=3D"top">
+                              <td valign=3D"top" align=3D"center">
+                                <a href=3D"http://l.sololearn.com/wf/click?=
+upn=3D-2BBB0Z-2F8iXTQbHdPM9f8PBZyMAMTYc0G-2BJJ0KPdxjPfNZrZ-2BjrM3fmqJwPkdhA=
+e9v_1VYcT98m-2Fz5F7mgiYGgrK9qbyEwSPKKea35sUSgeLkWYL40OdfuhgNoqrhm4Vk3j9Bhe9=
+9wm-2BOyZY4jkwEXcmNZT2SMttVEMCRd2RG17NKkqT4e3H7aUMAvnoIkKJ-2FYGMqnhTafyWshl=
+0mTgAbNDDpKqOdAsymoFmHO-2FfOZFN1nwzW7EXC2fsG-2FTyiBJW-2BHVsX-2BKOs-2FmMUS0o=
+kfJ4md8lCuBvvkq56k72wNtl8UH9ao-3D" target=3D"_blank"><img data-embeded=3D"a=
+uto" src=3D
+                                "http://www.sololearn.com/images/email/vide=
+o_banner.jpg" alt=3D"" style=3D"height: auto; vertical-align: top; width: 6=
+00px;" width=3D"600" /></a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <table cellpadding=3D"12" cellspacing=3D"0" border=
+=3D"0" width=3D"100%" style=3D
+                        "border-collapse: collapse; background-color: rgb(2=
+55, 255, 255);" bgcolor=3D"#FFFFFF">
+                          <tbody>
+                            <tr valign=3D"top">
+                              <td valign=3D"top" style=3D"line-height: 150%=
+; color: rgb(79, 79, 79);">
+                                <div style=3D"color: rgb(79, 79, 79);">
+                                  <span style=3D"font-family: arial, helvet=
+ica, sans-serif; line-height: 150%;"><span style=3D
+                                  "color: rgb(79, 79, 79); line-height: 150=
+%;"><span style=3D
+                                  "font-size: 28px; color: rgb(79, 79, 79);=
+ line-height: 150%;"><span style=3D
+                                  "color: rgb(79, 79, 79); line-height: 150=
+%;"><span style=3D
+                                  "font-size: 22px; color: rgb(79, 79, 79);=
+ line-height: 150%;">Hi, Steve!</span><br /></span></span></span></span>
+                                </div>
+
+                                <p style=3D
+                                "color: rgb(79, 79, 79); border: 0px none r=
+gb(79, 79, 79); display: block; margin: 16px 0px; font-family: &#39;Times N=
+ew Roman&#39;; text-align: left; border-radius: 0px; outline: rgb(79, 79, 7=
+9) none 0px; padding: 0px; vertical-align: baseline; word-wrap: break-word;=
+ font-size: 16px; text-decoration: none; background-image: none; background=
+-color: rgba(0, 0, 0, 0); background-position: 0% 0%; background-repeat: re=
+peat;">
+                                <span style=3D
+                                "font-family: tahoma, geneva, sans-serif; c=
+olor: rgb(79, 79, 79); line-height: 150%;"><span style=3D
+                                "font-family: arial, helvetica, sans-serif;=
+ line-height: 150%;"><span style=3D
+                                "font-size: 16px; color: rgb(79, 79, 79); l=
+ine-height: 150%;">
+								Welcome to the <a href=3D"http://l.sololearn.com/wf/click?upn=3DE05=
+6pM7i4ZFkLSESubYd7FhOt8vJYNpwywkfXqqRjpw-3D_1VYcT98m-2Fz5F7mgiYGgrK9qbyEwSP=
+KKea35sUSgeLkWYL40OdfuhgNoqrhm4Vk3j5EBXjM9jCj02eu-2Bl5KiGsxJBRpvc6kLXI7tD6s=
+mSfdNgBZ-2FLh034w6FFqK2MpHrVw-2FwdJxsPVdbEWl2I5-2FQvwNeARySwIj4svqKgY0GelYm=
+MVn4Vb8YHQ2cOYBBjwuDC-2BWEpgc3EWF4jAOLiMresGSFHBsAxQMXBvGgybUvexuc-3D" targ=
+et=3D"_blank" style=3D"text-decoration: none; color: rgb(26, 188, 156);">So=
+loLearn</a> community - where anyone can code!=20
+								<br /><br />
+								<b>Learn</b> on the go; take fun quizzes; <b>code</b> in the app; <=
+b>compete</b> in code battles with fellow learners; and shine on the leader=
+board.
+								<br /><br />
+								Good luck and have fun!
+								<br />
+								</span></span></span></p>
+=09=09=09=09=09=09=09=09
+								<p style=3D
+                                "color: rgb(79, 79, 79); border: 0px none r=
+gb(79, 79, 79); display: block; margin: 16px 0px; font-family: &#39;Times N=
+ew Roman&#39;; text-align: left; border-radius: 0px; outline: rgb(79, 79, 7=
+9) none 0px; padding: 0px; vertical-align: baseline; word-wrap: break-word;=
+ font-size: 16px; text-decoration: none; background-image: none; background=
+-color: rgba(0, 0, 0, 0); background-position: 0% 0%; background-repeat: re=
+peat;">
+                                <span style=3D"font-family: tahoma, geneva,=
+ sans-serif; color: rgb(79, 79, 79); line-height: 150%;">
+									<span style=3D"font-family: arial, helvetica, sans-serif; line-hei=
+ght: 150%;">
+										<span style=3D"font-size: 16px; color: rgb(79, 79, 79); line-heig=
+ht: 150%;">
+								<br /><br />
+								Best Regards, <br />
+								The SoloLearn Team=09=09=09=09=09=09=09=09
+								</span></span></span></p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td valign=3D"top" bgcolor=3D"#FFFFFF">=09=09=09=09=
+=09=09
+
+                        <table cellpadding=3D"10" cellspacing=3D"0" border=
+=3D"0" width=3D"100%" style=3D
+                        "border-collapse: collapse; background-color: rgb(5=
+8, 70, 75);" bgcolor=3D"#3A464B">
+                          <tbody>
+                            <tr valign=3D"top">
+                              <td valign=3D"top" align=3D"center">
+                                <table class=3D"social_wrapp" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"192" style=3D
+                                "border-collapse: collapse;mso-table-lspace=
+: 0;mso-table-rspace: 0;">
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <table class=3D"SocialItemUnit" cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left"
+                                        style=3D"border-collapse: collapse;=
+mso-table-lspace: 0;mso-table-rspace: 0; display: block;"
+                                        width=3D"46">
+                                          <tbody>
+                                            <tr>
+                                              <td align=3D"left" valign=3D"=
+top" style=3D"text-decoration: none; padding: 4px 0px;" width=3D
+                                              "46"><span class=3D"social-fo=
+llow"><a href=3D"http://l.sololearn.com/wf/click?upn=3D-2BBB0Z-2F8iXTQbHdPM=
+9f8PBQAW7Ltf-2Frl0WmdwgKTSxbIHIyBKwptG1LR3DqSXSPm7_1VYcT98m-2Fz5F7mgiYGgrK9=
+qbyEwSPKKea35sUSgeLkWYL40OdfuhgNoqrhm4Vk3jTEMtDeqoNX-2Bne3y41V99PgkbUNXtOpY=
+KOgcv1PAzkAKoqZWdSopr-2FYyDK8bKpGn3l4wp-2Bh8annq1t8pdhp-2Bfh25NKb0u1Wx5Qi9I=
+Gdypv9Zh-2BlfipJdgwDYWZSMtqRcmajLOQ82N7dJqAM6gkniyqStiGm456SGFTjhl6xDMXVc-3=
+D" target=3D
+                                              "_blank" style=3D"text-decora=
+tion: none;"><img src=3D
+                                              "http://www.sololearn.com/ima=
+ges/email/36px_facebook.png" alt=3D"Facebook" style=3D
+                                              "display: block; border: 0; o=
+utline: none; padding-bottom: 0; vertical-align: top;" /></a></span></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+
+                                        <table class=3D"SocialItemUnit" cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left"
+                                        style=3D"border-collapse: collapse;=
+mso-table-lspace: 0;mso-table-rspace: 0; display: block;"
+                                        width=3D"46">
+                                          <tbody>
+                                            <tr>
+                                              <td align=3D"left" valign=3D"=
+top" style=3D"text-decoration: none; padding: 4px 0px;" width=3D
+                                              "46"><span class=3D"social-fo=
+llow"><a href=3D"http://l.sololearn.com/wf/click?upn=3D-2BBB0Z-2F8iXTQbHdPM=
+9f8PBZU7TBwkZJnnc1kp1XtNAzErbme-2B0oySC7bcEIcUDNDm_1VYcT98m-2Fz5F7mgiYGgrK9=
+qbyEwSPKKea35sUSgeLkWYL40OdfuhgNoqrhm4Vk3jrV96BYgsI2b9ALqbN2JgAQp9Kz-2FqGP0=
+ZuPjroX-2FqpeASTfVLPPZEv8vdrwkXZLF7DGruELxggf2r1mIctu4X9IHhnV5h-2FHa6-2FITN=
+2LhPVhyIjZRETIwhuIKUDqrLQN99czTMBMa2r6tTspioM-2FL9CBqZFIZBw5czANqoyeXLqNk-3=
+D" target=3D
+                                              "_blank" style=3D"text-decora=
+tion: none;"><img src=3D
+                                              "http://www.sololearn.com/ima=
+ges/email/36px_twitter.png" alt=3D"Twitter" style=3D
+                                              "display: block; border: 0; o=
+utline: none; padding-bottom: 0; vertical-align: top;" /></a></span></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+
+                                        <table class=3D"SocialItemUnit" cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left"
+                                        style=3D"border-collapse: collapse;=
+mso-table-lspace: 0;mso-table-rspace: 0; display: block;"
+                                        width=3D"46">
+                                          <tbody>
+                                            <tr>
+                                              <td align=3D"left" valign=3D"=
+top" style=3D"text-decoration: none; padding: 4px 0px;" width=3D
+                                              "46"><span class=3D"social-fo=
+llow"><a href=3D"http://l.sololearn.com/wf/click?upn=3D-2BBB0Z-2F8iXTQbHdPM=
+9f8PBbgp49cE11-2Bffqnqm52NN65RdwyTFkwh-2F5xMZDQ7PShV_1VYcT98m-2Fz5F7mgiYGgr=
+K9qbyEwSPKKea35sUSgeLkWYL40OdfuhgNoqrhm4Vk3jQ-2FzEahQjpEivGGddnHHRNgAjr9UDq=
+7pZJi8Jr24jbuNZSQeBIA-2FC5NmiVG07mqLMVKjs3BJLo4fNdJYewgRhCD0EFdzT2-2BGY-2FQ=
+yTf6o1GI6HjD3p0sjMSN8ELwPvp241E-2FWHnGZfNMqkQZ-2FUPpaG1q9mMLNDBeIHVMdkU2Lij=
+WA-3D"
+                                              target=3D"_blank" style=3D"te=
+xt-decoration: none;"><img src=3D
+                                              "http://www.sololearn.com/ima=
+ges/email/36px_google.png" alt=3D"Google+" style=3D
+                                              "display: block; border: 0; o=
+utline: none; padding-bottom: 0; vertical-align: top;" /></a></span></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+
+                                        <table class=3D"SocialItemUnit" cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left"
+                                        style=3D"border-collapse: collapse;=
+mso-table-lspace: 0;mso-table-rspace: 0; display: block;"
+                                        width=3D"46">
+                                          <tbody>
+                                            <tr>
+                                              <td align=3D"left" valign=3D"=
+top" style=3D"text-decoration: none; padding: 4px 0px;" width=3D
+                                              "46"><span class=3D"social-fo=
+llow"><a href=3D"http://l.sololearn.com/wf/click?upn=3DE056pM7i4ZFkLSESubYd=
+7FhOt8vJYNpwywkfXqqRjpw-3D_1VYcT98m-2Fz5F7mgiYGgrK9qbyEwSPKKea35sUSgeLkWYL4=
+0OdfuhgNoqrhm4Vk3jilJZbxxLqbEuTOXemkMwVwsx-2BdX4Mcyw-2BnATomWnpF1zsNkhixBoz=
+rk4ihR0Pxb5Z1YeoyuaNYhyXNdWfHMD-2Bf4akwY2B9nz3o0MN2dA6u3-2FKPB9QyAQWPb8K9sH=
+UmNSb-2BG6HTWk8dCgBKnk7sof-2FT3mUw1N06iIMN7exSz5aXs-3D" target=3D"_blank"
+                                              style=3D"text-decoration: non=
+e;"><img src=3D
+                                              "http://www.sololearn.com/ima=
+ges/email/36px_website.png" alt=3D"Website" style=3D
+                                              "display: block; border: 0; o=
+utline: none; padding-bottom: 0; vertical-align: top;" /></a></span></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <table cellpadding=3D"10" cellspacing=3D"0" border=
+=3D"0" width=3D"100%" style=3D
+                        "border-collapse: collapse; background-color: rgb(2=
+55, 255, 255);" bgcolor=3D"#FFFFFF">
+                          <tbody>
+                            <tr valign=3D"top">
+                              <td valign=3D"top" style=3D"line-height: 130%=
+; color: rgb(0, 0, 0);">
+                                <div>
+                                  <span style=3D"font-size: 12px; line-heig=
+ht: 130%;"><span style=3D
+                                  "font-family: Arial, Helvetica, sans-seri=
+f; color: rgb(102, 102, 102); line-height: 130%;">Copyright
+                                  =C2=A9 2016 SoloLearn Inc.,<br />
+                                  All rights reserved.<br />
+                                  <br />
+                                  SoloLearn Inc.<br />
+                                  5020 Franklin Drive, Suite 100<br />
+                                  Pleasanton, CA 94588</span></span><br />
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table><br />
+      </td>
+    </tr>
+  </table>
+
+<p>If you&#39;d like to unsubscribe and stop receiving these emails <a href=
+=3D"http://l.sololearn.com/wf/unsubscribe?upn=3D1VYcT98m-2Fz5F7mgiYGgrK9qby=
+EwSPKKea35sUSgeLkWYL40OdfuhgNoqrhm4Vk3j2OcQruG7Nd2wq43rRIyDY4MOfJ2ZFJmYYt0q=
+6eAdnMURHyVBwVwZE37aWHh7LwG7ilLw2jKlc-2BgkPHMMOAFoHKCzaLBNo7Y9UizQH00fC6gH-=
+2BLtP-2Ftt19jC8Fl-2BAlboHJc7x5lWDztVy6DUycVPZdDQl6qE1JS7CCcCKxMgV1BQ-3D">cl=
+ick here</a>.</p>
+
+<img src=3D"http://l.sololearn.com/wf/open?upn=3D1VYcT98m-2Fz5F7mgiYGgrK9qb=
+yEwSPKKea35sUSgeLkWYL40OdfuhgNoqrhm4Vk3jVaeI9saK56Od66kx3HaKVO84DAgUVg21-2F=
+OyjWQwMka1n8wvl0hjffRCXXfQRxkzQshc6mbr0k2nyt6dbu-2FWfNeX7Zf5KGiYUuWqOLDySbU=
+D-2Fuu306LJT-2BcRZaXNs4DgWXynF1D1ItRKhUMbw5wfiQaafN9VVoHmpuIhdbmKLjRM-3D" a=
+lt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !importan=
+t;width:1px !important;border-width:0 !important;margin-top:0 !important;ma=
+rgin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important=
+;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !impo=
+rtant;padding-left:0 !important;"/>
+</body>
+</html>
+

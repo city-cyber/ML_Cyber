@@ -1,0 +1,139 @@
+Return-Path: <0102017d73af4357-4f9f1802-f0ca-46d5-9af6-7b34e8408ae9-000000@mailer.jetbrains.com>
+Received: from relay.mail.ru (LHLO mail.mail.ru) (217.9.89.166)
+ by mail.mail.ru with LMTP; Wed, 1 Dec 2021 04:50:14 +0300 (MSK)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.mail.ru (Postfix) with ESMTP id 08B6D40347CF2
+	for <megaman@mail.ru>; Wed,  1 Dec 2021 04:50:14 +0300 (MSK)
+X-Virus-Scanned: amavisd-new at mail.mail.ru
+X-Spam-Flag: NO
+X-Spam-Score: -3.1
+X-Spam-Level:
+X-Spam-Status: No, score=-3.1 required=6.6 tests=[BAYES_00=-1.9,
+	DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1,
+	DKIM_VALID_EF=-0.1, DMARC_PASS_QUAR=-1, HTML_MESSAGE=0.001,
+	RCVD_IN_DNSWL_NONE=-0.0001, RCVD_IN_MSPIKE_H2=-0.001,
+	SPF_HELO_NONE=0.001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: mail.mail.ru (amavisd-new);
+	dkim=pass (1024-bit key) header.d=jetbrains.com header.b=CD1PV/f/;
+	dkim=pass (1024-bit key) header.d=amazonses.com header.b=CZCtjpP/
+Received: from mail.ru ([127.0.0.1])
+	by localhost (mail.mail.ru [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id i10KNGqyDYNY for <megaman@mail.ru>;
+	Wed,  1 Dec 2021 04:50:13 +0300 (MSK)
+Received: from b229-160.smtp-out.eu-west-1.amazonses.com (b229-160.smtp-out.eu-west-1.amazonses.com [69.169.229.160])
+	by mail.mail.ru (Postfix) with ESMTPS id 2EDFF40345FB8
+	for <megaman@mail.ru>; Wed,  1 Dec 2021 04:50:13 +0300 (MSK)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=zkgsaqiift4rcbn6jvpkg25sgiase5fg; d=jetbrains.com; t=1638323405;
+	h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=LxoMS6lSlaXGrWEoyF2sl0G+Zhq/W1EAZzTnkt7BXGo=;
+	b=CD1PV/f/omn/D55Eu3OofK2923jCQEGv+rXohQlLdt/GQoaWHva/LH1fh3/mbRf5
+	rp71DQpDx907EEkDZwWvGVY3CG7AYjEvanSTGMlxF6jvl89DDSQ0OntYIr01kKPqR0E
+	38hI177li61d1appbzRgzlVgviwIhPZ3qiN1tymk=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=uku4taia5b5tsbglxyj6zym32efj7xqv; d=amazonses.com; t=1638323405;
+	h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=LxoMS6lSlaXGrWEoyF2sl0G+Zhq/W1EAZzTnkt7BXGo=;
+	b=CZCtjpP/quGrXuclSrm1SesC/B4azqE74LKNJfWh58vfFn7raa89A2wtypK+O+yV
+	zXoYXlplYGhz0DLfLIWYzSpHRILzcu2KxKKa/zaEtLVex/uUvB7Zg+B2XaV9E7LdfQU
+	hCN8ZrpPyzRt6osib6RqQKS8zplx+ec+6XM9IlGk=
+Date: Wed, 1 Dec 2021 01:50:05 +0000
+From: JetBrains Account <no_reply@jetbrains.com>
+Reply-To: JetBrains Support Team <support-int@jetbrains.com>
+To: Steve R. <megaman@mail.ru>
+Message-ID: <0102017d73af4357-4f9f1802-f0ca-46d5-9af6-7b34e8408ae9-000000@eu-west-1.amazonses.com>
+Subject: Renew your JetBrains Educational Pack
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_15393_824308355.1638306057498"
+X-Auto-Response-Suppress: OOF, DR, RN, NRN, AutoReply
+X-JETBRAINS-MESSAGE-ID: 00095618E10E94906F7E12242C7683FF21F
+Feedback-ID: 1.eu-west-1.K6LWIgPGRxjLgtEMceertZJEgVBGmuh0N+qjhP3uBkQ=:AmazonSES
+X-SES-Outgoing: 2021.12.01-69.169.229.160
+
+------=_Part_15393_824308355.1638306057498
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Steve,
+
+We would like to just quickly remind you that your JetBrains Educational Pa=
+ck will expire in 2 weeks.
+
+Please  use this link [ https://www.jetbrains.com/shop/eform/students/prolo=
+ng?data=3D0062BD77EA3690C0E0F29225789FF6934D512AAB80A09A854CD904E1FAD205170=
+C1D1BBCBADBBA6D5344C0F475570091E84670ABAC6F3A24B953AF0617210005E55C668=
+B87201330749BB2B3E543F909D7BB0E91426221B7B64EABEF0A4EC3B9D59A8CC46CEB36=
+D90D95CE9A70B2CE45090E2F2E7915916326556989 ]to renew your license for fr=
+ee if you are still a student.
+
+If you have already graduated and would like to continue using JetBrains to=
+ols, you can get a 25% graduation discount on a personal subscription.  Cho=
+ose a product from this list [ https://www.jetbrains.com/community/educatio=
+n/?utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=3Dstudent#studen=
+ts/renewal ]to see how much you could save with the discount.
+
+If you have any questions, please email us =E2=80=94 we would be glad to he=
+lp.
+
+Kind regards,
+The JetBrains team
+www.jetbrains.com [ https://www.jetbrains.com ]
+The Drive to Develop
+
+=E2=80=94
+If you'd like to stop receiving notifications about the expiration of your =
+student license,  click here to unsubscribe. [ https://account.jetbrains.co=
+m/unsubscribe?address=3D006892EB2791DC3DB1AA5C49247A693D662B0841808402672AB=
+8D0AF3A61B981C6721DF42D8901CB3FD4D14A79636445799D809202E884BD61539650B8FA8F=
+C021&mutedGroup=3D0049A8B7D463DB0D215786D2395E5E813EA425BFDFA1E08272C88C3E2=
+343775038655DDE1A3E4E314CA03291D3EF02F5B652C079695BFF3995D6A44F1FDA58E697 ]=
+If you'd like to manage your privacy settings,  click here. [ https://accou=
+nt.jetbrains.com/profile-details/privacy?accountAuthToken=3D000725BC903E07B=
+560C3F6F394E6FADFB37000761257C2261D3A26CA2C4D7BB0E746B30000196E3CA155C9DE61=
+011FF5D639D621B000483CE1CD10444761A9F43E352D7DB05F ]
+------=_Part_15393_824308355.1638306057498
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <body><p>Hi Steve,</p>
+<p>We would like to just quickly remind you that your JetBrains Educational=
+ Pack will expire in 2 weeks.</p>
+<p>Please <a href=3D"https://www.jetbrains.com/shop/eform/students/prolong?=
+data=3D0062BD77EA3690C0E0F29225789FF6934D512AAB80A09A854CD904E1FAD205170C1D=
+1BBCBADBBA6D5344C0F475570091E84670ABAA22156B4B953AF0617210005E55C668B87=
+201330749BB2B3E543F909D7BB0E91426221B7B64EABEF81860A4EC3B9D59A8CC46CEB36D90=
+D95CE9A70B2CE45090E2F2E7F34915916326556989">use this link</a> to renew your=
+ license for free if you are still a student.</p>
+<p>If you have already graduated and would like to continue using JetBrains=
+ tools, you can get a 25% graduation discount on a personal subscription. <=
+a href=3D"https://www.jetbrains.com/community/education/?utm_source=3Dnewsl=
+etter&amp;utm_medium=3Demail&amp;utm_campaign=3Dstudent#students/renewal">C=
+hoose a product from this list</a> to see how much you could save with the =
+discount.</p>
+<p>If you have any questions, please email us =E2=80=94 we would be glad to=
+ help.</p>
+<p>Kind regards,
+<br/>The JetBrains team
+<br/><a href=3D"https://www.jetbrains.com">www.jetbrains.com</a>
+<br/>The Drive to Develop</p>
+</body>
+</html><p style=3D"font-size:small;-webkit-text-size-adjust:none;color:#666=
+;">
+&mdash;  <br/>
+  If you'd like to stop receiving notifications about the expiration of you=
+r student license,=20
+  <a href=3D"https://account.jetbrains.com/unsubscribe?address=3D006892EB27=
+91DC3DB1AA5C49247A693D662B0841808402672AB8D0AF3A61B981C6721DF42D8901CB3FD4D=
+14A79636445799D809202E884BD9650B8FA8FC021&amp;mutedGroup=3D0049A8B7D463=
+DB0D215786D2395E5E813EA425BFDFA1E08272C88C3E2343775038655DDE1A3E4E314CA0329=
+1D3EF02F5B652C079695BFF3995D6A44F1FDA58E697">click here to unsubscribe.</a>
+   If you'd like to manage your privacy settings,=20
+  <a href=3D"https://account.jetbrains.com/profile-details/privacy?accountA=
+uthToken=3D000725BC903E07B560C3F6F394E6FADFB37000761257C2261D3A26CA2C4D7BB0=
+E746B30000196E3CA155C9DE61011FF39D621B000483CE1CD10444761A9F43E352D7DB05=
+F">click here.</a>
+</p>
+------=_Part_15393_824308355.1638306057498--

@@ -1,0 +1,78 @@
+Return-Path: <pt@gutum.ru>
+Received: from zimbra.mail.ru (LHLO zimbra.mail.ru) (192.168.80.26) by
+ zimbra.mail.ru with LMTP; Tue, 19 Apr 2022 01:06:48 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by zimbra.mail.ru (Postfix) with ESMTP id 419C9C2214;
+	Tue, 19 Apr 2022 01:06:48 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at zimbra.mail.ru
+X-Spam-Flag: YES
+X-Spam-Score: 9.003
+X-Spam-Level: *********
+X-Spam-Status: Yes, score=9.003 required=6.6 tests=[BAYES_95=3,
+	DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1,
+	DKIM_VALID_EF=-0.1, DMARC_PASS_REJECT=-1.2,
+	RCVD_IN_BL_SPAMCOP_NET=1.347, RCVD_IN_MSPIKE_BL=0.001,
+	RCVD_IN_MSPIKE_L5=0.001, RCVD_IN_PSBL=2.7, RCVD_IN_VALIDITY_RPBL=1.31,
+	RDNS_NONE=0.793, SPF_HELO_NONE=0.001, SPF_PASS=-0.001,
+	URIBL_ABUSE_SURBL=1.25, URIBL_BLOCKED=0.001]
+	autolearn=no autolearn_force=no
+Authentication-Results: zimbra.mail.ru (amavisd-new); dkim=pass (1024-bit key)
+	header.d=gutum.ru
+Received: from zimbra.mail.ru ([127.0.0.1])
+	by localhost (zimbra.mail.ru [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id QcPifPsIUfmg; Tue, 19 Apr 2022 01:06:47 +0000 (UTC)
+Received: from mail.gutum.ru (unknown [46.8.19.126])
+	by zimbra.mail.ru (Postfix) with ESMTPS id AD75DC220E
+	for <buh@mail.ru>; Tue, 19 Apr 2022 01:06:47 +0000 (UTC)
+Message-ID: <8cf1325ca84236381ba33a9165a19cb7951938407d@gutum.ru>
+From: =?utf-8?B?0KHRgtC10L/QsNC9INCT0LvQvtGC0LrQvtCy?= <pt@gutum.ru>
+To: buh@mail.ru
+Subject: =?utf-8?B?0JfQsNC60LDQttC40YLQtSDRgNCw0YHRgdGL0LvQutGDINC4INC/0L4=?=
+	=?utf-8?B?0LvRg9GH0LjRgtC1INC+0YLQutC70LjQuiDRg9C20LUg0LfQsNCy0YI=?=
+	=?utf-8?B?0YDQsC4=?=
+Date: Tue, 19 Apr 2022 05:06:45 +0400
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8";
+Content-Transfer-Encoding: quoted-printable
+DKIM-Signature: v=1; c=relaxed/relaxed; a=rsa-sha256; s=mail; d=gutum.ru;
+	t=1650330405; h=message-id:from:to:subject:date:mime-version;
+	bh=mKCjY9UGyjIIckbQ1jk+77iM0P0glAZCj6Ue8++rKKk=;
+	b=QdRWRAD6vWTc1n8ejmTgPhr7fQp58RyEHZajsPVRN2XGwUmFp3fwsvN4/8kL2COmdKaf
+	ho9/2UG+Fkl/X0Xm0qlNEUeFrq3fSNiZJK1y5t+9qGQd7tESGerM89bXAu2bvnUnz6Oywa
+	Lm5m1T+rT7ndQTuXDZp4D72dQWFC/2kzA=
+
+=D0=A0=D0=B5=D0=B0=D0=BB=D0=B8=D0=B8 =D1=82=D0=B0=D0=BA=D0=BE=D0=B2=D1=8B=
+, =D1=87=D1=82=D0=BE =D0=BF=D0=BE=D0=BF=D1=83=D0=BB=D1=8F=D1=80=D0=BD=D1=8B=
+=D0=B5 =D1=81=D0=BE=D1=86=D0=B8=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=81=
+=D0=B5=D1=82=D0=B8 =D0=B7=D0=B0=D0=B1=D0=BB=D0=BE=D0=BA=D0=B8=D1=80=D0=BE=
+=D0=B2=D0=B0=D0=BD=D1=8B.
+=D0=A7=D0=B5=D0=BC =D0=B7=D0=B0=D0=BC=D0=B5=D0=BD=D0=B8=D1=82=D1=8C =D0=B8=
+=D1=85 =D1=80=D0=B5=D0=BA=D0=BB=D0=B0=D0=BC=D0=BD=D1=8B=D0=B5 =D0=B2=D0=BE=
+=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D0=B8? - Email =D1=80=D0=
+=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B0 =D0=92=D0=B0=D0=BC =D0=B2 =D0=BF=D0=
+=BE=D0=BC=D0=BE=D1=89=D1=8C.
+
+=D0=97=D0=B0=D0=BA=D0=B0=D0=B6=D0=B8=D1=82=D0=B5 =D1=80=D0=B0=D1=81=D1=81=
+=D1=8B=D0=BB=D0=BA=D1=83 =D0=B8 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=82=
+=D0=B5 =D0=BE=D1=82=D0=BA=D0=BB=D0=B8=D0=BA =D1=83=D0=B6=D0=B5 =D0=B7=D0=B0=
+=D0=B2=D1=82=D1=80=D0=B0.
+=D0=9F=D0=BE=D0=BC=D0=BD=D0=B8=D1=82=D0=B5, =D0=B2=D1=8B=D0=B6=D0=B8=D0=B2=
+=D0=B0=D0=B5=D1=82 =D0=BD=D0=B5 =D1=81=D0=B0=D0=BC=D1=8B=D0=B9 =D1=81=D0=B8=
+=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9, =D0=B0 =D1=82=D0=BE=D1=82, =D0=BA=D1=82=D0=
+=BE =D1=83=D0=BC=D0=B5=D0=B5=D1=82 =D0=B1=D1=8B=D1=81=D1=82=D1=80=D0=BE =D0=
+=B0=D0=B4=D0=B0=D0=BF=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C=D1=81=
+=D1=8F.
+
+=D0=9E=D1=80=D0=B3=D0=B0=D0=BD=D0=B8=D0=B7=D1=83=D0=B5=D0=BC =D1=80=D0=B5=
+=D0=BA=D0=BB=D0=B0=D0=BC=D0=BD=D1=83=D1=8E =D0=BA=D0=B0=D0=BC=D0=BF=D0=B0=
+=D0=BD=D0=B8=D1=8E =D0=B7=D0=B0 1 =D1=80=D0=B0=D0=B1=D0=BE=D1=87=D0=B8=D0=
+=B9 =D0=B4=D0=B5=D0=BD=D1=8C.=20
+=D0=A1=D1=82=D0=BE=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D1=8C =D1=80=D0=B0=D1=81=
+=D1=81=D1=8B=D0=BB=D0=BA=D0=B8 =D0=BD=D0=B0 1 =D0=B3=D0=BE=D1=80=D0=BE=D0=
+=B4  - 4000=D1=80.
+=D0=9F=D0=BE =D0=B2=D1=81=D0=B5=D0=B9 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B8=
+ - 12900=D1=80.=20
+=D0=9F=D0=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=B8=
+ =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =D0=B2=D1=8B=D0=B3=D0=BE=D0=B4=D0=BD=D1=8B=
+=D0=B5 =D1=82=D0=B0=D1=80=D0=B8=D1=84=D1=8B =D0=BD=D0=B0 =D1=81=D0=B0=D0=B9=
+=D1=82=D0=B5 http://legalaport.ru/e85cixh1/wfa3n8bk/

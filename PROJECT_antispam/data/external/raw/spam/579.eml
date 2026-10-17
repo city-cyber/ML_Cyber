@@ -1,0 +1,879 @@
+Delivered-To: megaman@mail.ru
+Return-path: <bounces+5337917-8246-megaman=mail.ru@email.community.blablacar.com>
+Received-SPF: pass (mx238.i.mail.ru: domain of email.community.blablacar.com designates 167.89.0.254 as permitted sender) client-ip=167.89.0.254; envelope-from=bounces+5337917-8246-megaman=mail.ru@email.community.blablacar.com; helo=xtrwhhfz.outbound-mail.sendgrid.net;
+Received: from xtrwhhfz.outbound-mail.sendgrid.net ([167.89.0.254]:46010)
+	by mx238.i.mail.ru with esmtp (envelope-from <bounces+5337917-8246-megaman=mail.ru@email.community.blablacar.com>)
+	id 1mvI9R-0000KI-Jd
+	for megaman@mail.ru; Thu, 09 Dec 2021 15:03:54 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=community.blablacar.com;
+	h=content-type:from:mime-version:subject:reply-to:list-unsubscribe:to;
+	s=s1; bh=Hxh36Sr9HC65yQwbGllu2q0ZLSvlKRVeuKKvcluVloA=;
+	b=JyftQ5A3v31g7OOGoaaSgjEiKaHM5yc+NAJvKZK04QcQ2W6iTXPqdTd3xFHW0EhQVg0v
+	0yefRJ7jz+zYk8PmdJSRFmb5xU8awRt5AKWfpcodmMj/BvFcaT8VDN8iqTdz3ipsr9J3zy
+	T7AFLv8+RZD82Q8pnCiyyUbv2LSO9OxAqz36Vhct6cNsj3to9HcA1QdJkn/jiAUdrmBTcb
+	kFJGpbPRoETRIpyr2MxkQ9AIiT+Xt2xDoce+a5Ay3nBkMsx02WFQMdFpYmvU9TLcjwiRxZ
+	mmygeJUEo5XdDyYvkks/p9Pd98QRn2XZa4nH8Jde+/Mi3dT5IEADoG8zszyQuuoA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-type:from:mime-version:subject:reply-to:list-unsubscribe:to;
+	s=smtpapi; bh=Hxh36Sr9HC65yQwbGllu2q0ZLSvlKRVeuKKvcluVloA=;
+	b=sUCWJxO/jTZDg718JOfk18N+KY4k+Qdy6hC2/Wi6kCbRmyYSP1P2X3U8Kw06bavc6NGO
+	fVoHhRkipk9w9mLWppWHVHUGOus5AimM6CWldhhWCDlYuFwTD3BXkr90xuRpj28hZfMHr+
+	WwCygQw9zJQY2Fc/aSCxg4x1qIiJ1mq38=
+Received: by filterdrecv-766cf57cc-gd4rm with SMTP id filterdrecv-766cf57cc-gd4rm-1-61B1F088-75
+        2021-12-09 12:03:21.082669986 +0000 UTC m=+8516549.681142156
+Received: from NTMzNzkxNw (unknown)
+	by geopod-ismtpd-3-1 (SG) with HTTP
+	id Z2fG9BqrQNujDcEOZrQIww
+	Thu, 09 Dec 2021 12:03:20.820 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=ed485c2ea9aed4edb18689b3d3582d93ac71d76d766a24455355a63ea7f1
+Date: Thu, 09 Dec 2021 12:03:21 +0000 (UTC)
+From:
+	=?utf-8?q?=D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B5=D0=B9_=D0=B8=D0=B7_=D0=BA?=
+	=?utf-8?q?=D0=BE=D0=BC=D0=B0=D0=BD=D0=B4=D1=8B_BlaBlaCar?=
+	<hello@community.blablacar.com>
+Mime-Version: 1.0
+Message-ID: <Z2fG9BqrQNujDcEOZrQIww@geopod-ismtpd-3-1>
+Subject: =?UTF-8?B?0JIg0JzQvtGB0LrQstGDISDQkiDQnNC+0YHQutCy0YMh?=
+ =?UTF-8?B?INCh0LrQuNC00LrQuCDQvdCwINC/0L7Qv9GD0LvRj9GA0L3Ri9C1?=
+ =?UTF-8?B?INCw0LLRgtC+0LHRg9GB0L3Ri9C1?=
+ =?UTF-8?B?INC90LDQv9GA0LDQstC70LXQvdC40Y8g8J+ajA==?= !
+Reply-To: hello@community.blablacar.com
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Cmailto=3A4=5Fm4m5dx325ce7odl9m2e1qn5rrri0hcg9gf407u2v22ret0fcmlh3?=
+ =?us-ascii?Q?d6=40unsubscribe=2Eemailinboundprocessing=2Ee?=
+ =?us-ascii?Q?u=3Fsubject=3DUnsubscribe&body=3DDO=5FNOT=5FDELET?=
+ =?us-ascii?Q?E-14e2jyghxyjbynx0dib1jltt2pdblasok1pvz?=
+ =?us-ascii?Q?hmdg7vcz8zqxfu0b90al4lxylopsipqtmnap144?=
+ =?us-ascii?Q?27791-DO=5FNOT=5FDELETE=3E?=
+X-SG-EID: 
+ =?us-ascii?Q?0RdqDeb5V6KqEhd9hrKKC8p8n4UkOp4Or5o8rglhxj+08BAgC0hbBQDkLz39p8?=
+ =?us-ascii?Q?sTr1kkLwVFrTLk8Fw8nkp5jALW4ELCjtZTARdrD?=
+ =?us-ascii?Q?CJqYGlPJYWoP7=2FFFmCXBbMIr2wVFbUoPlTnkoEO?=
+ =?us-ascii?Q?nwJZSsoBEdT=2FZh+6bdI8y4ZlFvEEBNbftKn7u6E?=
+ =?us-ascii?Q?YCe2oMLN3ydxhbpEg8vP+LVX1wSRpmd7TXhPdjw?=
+ =?us-ascii?Q?HGuJNCjgHn1E=2FuG85JV+FebOaQGq1zU=2FEPM6NPN?=
+ =?us-ascii?Q?mnyE9hVOkxlVOCCgYgP+Kb8CnBt3hBclI+SuWD9?= =?us-ascii?Q?Qko=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FKvUYPFb2vwyNNeBc9bJi?=
+ =?us-ascii?Q?ChBYLWQ2uqEIvrXpB3ZnrtAOI5CHCAxmlQnxVxD?=
+ =?us-ascii?Q?ZgcXWcl953Iqbf=2FGt+BkNsD=2FKXiYJ9B6hgwobzl?=
+ =?us-ascii?Q?PIPCaOFoyrpOOUe5QwxrVUdlHLpbkZS7jBJMbbz?=
+ =?us-ascii?Q?91VPWCTi=2Ftsp2BhxNftJdI0oQqiBFgp8IcFS68w?=
+ =?us-ascii?Q?OE9tfzRX=2FnGYU8M+5VaZqTWMVT7o=2F7Pu6O5xzDh?=
+ =?us-ascii?Q?UzLMkmkowxy=2Fg3LIJF0MgI8xLGOqY=2Fsd9yqX0f=2F?=
+ =?us-ascii?Q?GUyXJI8D8s5PNcJ7vxTHNnf69eJNWADFduEx0oo?=
+ =?us-ascii?Q?lDb8KrSlqJ2OCOOF2RVLaB+ehFoaQffv6dJuxdU?=
+ =?us-ascii?Q?H+nzj1yZTqoi3s0HDJmAQX2ebxIdCvcylBQSBJg?=
+ =?us-ascii?Q?gT3S46e4zSb9tpbHTE3BfI68rfbMCp6TmYKGig4?=
+ =?us-ascii?Q?jExsFKr+gzrpkxbulnMzMJUE08m4KhlhpDWHfo4?= =?us-ascii?Q?=3D?=
+To: megaman@mail.ru
+X-Entity-ID: oAg65ho4aUYyj6bcl9vY0g==
+X-174C08C4: 5188C02AEC42908C481ED7ADC579193296BBA28369E3F2D2713F3D5F7D406D31BCF678C7329BA986
+X-4EC0790: 10
+X-6b629377: 1
+X-7564579A: B8F34718100C35BD
+X-77F55803: E822A06ED42C499A227EF3391318FB56FB38963DBFC6799597FDA9EE17C32DE00BBDAAE39103F3638701F0628C4B95CB58D16F6E9C29B5AF8ECA7CF252FBDE5532EFAFBA4F2D400B224C9A2F61B97637
+X-7FA49CB5: FF5795518A3D127A4AD6D5ED66289B5278DA827A17800CE7811C3E343B302E2EEA1F7E6F0F101C67BD4B6F7A4D31EC0BCC500DACC3FED6E28638F802B75D45FF8AA50765F79006376473F174BDE74BA48638F802B75D45FF914D58D5BE9E6BC1A93B80C6DEB9DEE97C6FB206A91F05B2DE306DB1C03A6050FC0DC4C1845B5DC879373A8315E4CF65D2E47CDBA5A96583C09775C1D3CA48CFCA5A41EBD8A3A0199FA2833FD35BB23D2EF20D2F80756B5F868A13BD56FB6657A471835C12D1D977725E5C173C3A84C3CA5A41EBD8A3A0199FA2833FD35BB23DF004C906525384304E67EC04B7B460DE32756F8456974DD05F5C1EE8F4F765FCA450EAEE8C90D0E59C1989B85EA75BBD2EF20D2F80756B5FB1C7FCF04FE66852520BB28E76B93C092DBA43225CD8A89F9E2C8583869C85779FB5E5149752382237578E637FB275F4D66C9A62375021E0CB5012B2E24CD356
+X-C1DE0DAB: 8BD88D57C5CADBC8B2710865C386751069B88F6A3A664A5EA3B1A56EE2B804F6B226C914C9968946FB33A4C64A409D0113DBA38B3FB27C752D54844AF39947D516EB5DE968479BF51D936C321A1456B4C148254AEA258DF3D99A6476B3ADF6B44DCC8C77FBA9901322D2CEDE4E95CF1BD99A6476B3ADF6B4A9D420A4CFB5DD3E2F4092F1BBF2D5E2FDC4BCBD4445F95D83052D2AB8174CE3D59269BC5F550898E1710831EB1D58E47008B74DF8BB9EF764AA3646932BF312B3E143BED0B685A56FC43C45D3E35E8FA71A35648BE338CEAA817B2FB80CBF9E1E618B5D5F965AFD9297A5D7D184950EF696055C93C84B0201E345B3086847E1
+X-C8649E89: 4E36BF7865823D7055A7F0CF078B5EC49A30900B95165D341776B9FDE05FBA7A23DA2C336FCA2EFEA055B05B378B91D6F964DB22DBFA42D9FFCF66FA88BF768A1D7E09C32AA3244C36AD74295149C6B37F4C0C4D2D129B92D9ADFF0C0BDB8D1F3EB3F6AD6EA9203E
+X-D57D3AED: 3ZO7eAau8CL7WIMRKs4sN3D3tLDjz0dLbV79QFUyzQ2Ujvy7cMT6pYYqY16iZVKkSc3dCLJ7zSJH7+u4VD18S7Vl4ZUrpaVfd2+vE6kuoey4m4VkSEu530nj6fImhcD4MUrOEAnl0W826KZ9Q+tr59cQFxbtK52nntMKog2zW1LwTDbZjg0ktGWyd3ZwR5M2G0g+gzS0PKeJDOBrL//rLYldd2avYxhfPEAyJmjlxm1ee7lKKPtFTg==
+X-F696D7D5: 5HQs+8jQdLZ4icbWoBVuPxAgxjvVE4Y8/5qzoqVQHDGl50n1wXmGpQ==
+X-Mailru-Dmarc-Auth: dmarc=pass header.from=hello@community.blablacar.com
+X-Mras: Ok
+X-Spam: undefined
+Authentication-Results: mxs.mail.ru; spf=pass (mx238.i.mail.ru: domain of email.community.blablacar.com designates 167.89.0.254 as permitted sender) smtp.mailfrom=bounces+5337917-8246-megaman=mail.ru@email.community.blablacar.com smtp.helo=xtrwhhfz.outbound-mail.sendgrid.net;
+	 dkim=pass header.d=community.blablacar.com;
+	 dkim=pass header.d=sendgrid.info; dmarc=pass header.from=hello@community.blablacar.com
+X-Mailru-Intl-Transport: d,5c510db
+
+--ed485c2ea9aed4edb18689b3d3582d93ac71d76d766a24455355a63ea7f1
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+=D0=9D=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, =D0=B0=D0=B2=D1=82=D0=BE=
+=D0=B1=D1=83=D1=81=D0=BD=D0=BE=D0=B5 =D0=BF=D1=83=D1=82=D0=B5=D1=88=D0=B5=
+=D1=81=D1=82=D0=B2=D0=B8=D0=B5 =D0=B8=D0=B7 =D0=9F=D0=B5=D1=82=D0=B5=D1=80=
+=D0=B1=D1=83=D1=80=D0=B3=D0=B0 =D0=B2 =D0=9C=D0=BE=D1=81=D0=BA=D0=B2=D1=83 =
+=D0=BF=D1=80=D0=B8
+=D0=B1=D1=80=D0=BE=D0=BD=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B8 =
+=D0=B1=D0=B8=D0=BB=D0=B5=D1=82=D0=BE=D0=B2 =D1=81=D0=BE =D1=81=D0=BA=D0=B8=
+=D0=B4=D0=BA=D0=BE=D0=B9 BlaBlaCar =D0=BE=D0=B1=D0=BE=D0=B9=D0=B4=D0=B5=D1=
+=82=D1=81=D1=8F =D0=B2=D0=B0=D0=BC =D0=B2=D1=81=D0=B5=D0=B3=D0=BE =D0=B2
+750 =D1=80=D1=83=D0=B1=D0=BB=D0=B5=D0=B9!**                BlaBlaCar=20
+( https://link.community.blablacar.com/ls/click?upn=3D9v58Y93UoKfVdq3QfqorY=
+WrD-2F0-2B8teaRd-2Bc48q-2BZ5oC3NjI78MIgENoeCzUtYn4XYrqfP43BG0dtCk6QfizEBX4G=
+EKZD6z3l7xSgQ3w25BM-3DahLx_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZRXOsUB3FkFQaHxt1TeU=
+kilgCRh-2FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-2F-2Fgz1JSOoHDRXVt=
+k-2FaMJIZ9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX43rQOm4I2RXkOf4XGnXYafahcoA=
+zod8lvy5bQnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwXkgWXFtXvd4fCcF9U-2BTPzMkblL=
+JJRtOGtdfA4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlzVO2E88BxiG4MGK35zN3zmBiqKdt=
+s-2FboGlR1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqslKBvUSKrzBWHZiUP0ahFgcEqe8p=
+XuqxE0oNaVLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW6JryWKr-2BzwN9u7SK=
+Hiq34glhX3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb1KJApgt9xA7DoPBMqANjVAZCQ4h=
+EUFxxegPcEwscsQnrYlaXJovYfUS2wqqAesjRT0wIRpWNimBgVxFOLIElSomxjuLr5lVkWNLQTN=
+8nBYIgAdRXWk8WHHMNby0LuNOKzT8NBtISa17-2F3hjr8ZZt-2BkqWeg-3D-3D )
+                 BlaBlaCar ( https://link.community.blablacar.com/ls/click?=
+upn=3D9v58Y93UoKfVdq3QfqorYfn5z1f5V-2FhjX4XnUleuYglXRCl2o59e5El-2BuDWNQGLrA=
+VC9_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZRXOsUB3FkFQaHxt1TeUkilgCRh-2FuUMPrhHhGKnAp=
+pTS9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-2F-2Fgz1JSOoHDRXVtk-2FaMJIZ9QP6anRF3pVIZ4=
+recpsXQsH2imufKIx-2BVtoxX43rQOm4I2RXkOf4XGnXYafahcoAzod8lvy5bQnN7A8DfL-2F1c=
+BwRaNRorZ-2FdDazu7axOWLwXkgWXFtXvd4fCcF9U-2BTPzMkblLJJRtOGtdfA4sFUowXMpCcer=
+KCH6ChkCQs9oYgbDzIf-2FDlzVO2E88BxiG4MGK35zN3zmBiqKdts-2FboGlR1FjrdWO7HOQuNb=
+iHJhGH39-2FpQPwo5hAaeuwqslKBvUSKrzBWHZiUP0ahFgcEqe8pXuqxE0oNaVLVPx4lKhnRvCx=
+1wTmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW6JryWKr-2BzwN9u7SKHiq34glhX3N-2BDglK3VKSO=
+LD1GYrSndj2-2BjkfnmevV2vb1KJARl1ZEHUhh65-2FIq9l2-2FMrpHtbCgZT8xSURRTAmmMWwT=
+NgujQMsp09At5JP5vH8IHEadTIYI3xDx-2F7OejY-2BoA3XR7jD-2FOcySwOHvMSs4Uf-2FgLgf=
+pMI3UbxKKzjF1o855-2FSk6KB2WyZg022kMPRWIP3-2Bg-3D-3D )
+=D0=9F=D0=BB=D0=B0=D0=BD=D0=B8=D1=80=D1=83=D0=B5=D1=82=D0=B5 =D0=B2 =D1=81=
+=D0=BA=D0=BE=D1=80=D0=BE=D0=BC =D0=B2=D1=80=D0=B5=D0=BC=D0=B5=D0=BD=D0=B8 =
+=D0=BF=D0=BE=D0=B2=D0=B8=D0=B4=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D1=81 =D1=80=
+=D0=BE=D0=B4=D0=BD=D1=8B=D0=BC=D0=B8 =D0=B8=D0=BB=D0=B8
+=D0=B4=D1=80=D1=83=D0=B7=D1=8C=D1=8F=D0=BC=D0=B8?
+=D0=A7=D1=82=D0=BE =D0=B1=D1=8B =D0=BD=D0=B8 =D0=B2=D0=BB=D0=B5=D0=BA=D0=BB=
+=D0=BE =D0=B2=D0=B0=D1=81 =D0=B2 =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=B9 =D0=
+=B3=D0=BE=D1=80=D0=BE=D0=B4: =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=B0, =D1=81=
+=D0=B5=D0=BC=D0=B5=D0=B9=D0=BD=D1=8B=D0=B5 =D0=B4=D0=B5=D0=BB=D0=B0 =D0=B8=
+=D0=BB=D0=B8
+=D0=B4=D0=BE=D0=BB=D0=B3=D0=BE=D0=B6=D0=B4=D0=B0=D0=BD=D0=BD=D0=B0=D1=8F =
+=D0=B2=D1=81=D1=82=D1=80=D0=B5=D1=87=D0=B0 =D1=81 =D0=B4=D1=80=D1=83=D0=B7=
+=D1=8C=D1=8F=D0=BC=D0=B8, =D0=BD=D0=B0=D1=81=D1=82=D0=B0=D0=BB=D0=BE =D1=81=
+=D0=B0=D0=BC=D0=BE=D0=B5 =D0=B2=D1=80=D0=B5=D0=BC=D1=8F =D1=80=D0=B5=D0=B0=
+=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C
+=D0=B2=D0=B0=D1=88=D0=B8 =D0=BF=D0=BB=D0=B0=D0=BD=D1=8B. =D0=92 =D1=82=D0=
+=B5=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=
+=87=D0=B5=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D0=B2=D1=80=D0=B5=D0=BC=D0=B5=D0=
+=BD=D0=B8 =D0=BD=D0=B0 BlaBlaCar =D0=B1=D1=83=D0=B4=D1=83=D1=82
+=D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D1=81=
+=D0=BA=D0=B8=D0=B4=D0=BA=D0=B8 =D0=B4=D0=BE 25% =D0=BD=D0=B0 =D0=BC=D0=BD=
+=D0=BE=D0=B3=D0=B8=D0=B5 =D0=BF=D0=BE=D0=BF=D1=83=D0=BB=D1=8F=D1=80=D0=BD=
+=D1=8B=D0=B5 =D0=B0=D0=B2=D1=82=D0=BE=D0=B1=D1=83=D1=81=D0=BD=D1=8B=D0=B5 =
+=F0=9F=9A=8C
+=D0=BC=D0=B0=D1=80=D1=88=D1=80=D1=83=D1=82=D1=8B =E2=8C=9B. =D0=A3=D1=81=D0=
+=BF=D0=B5=D0=B9=D1=82=D0=B5 =D0=BA=D1=83=D0=BF=D0=B8=D1=82=D1=8C =D0=B1=D0=
+=B8=D0=BB=D0=B5=D1=82=D1=8B =F0=9F=8E=AB =D1=81=D0=B5=D0=B9=D1=87=D0=B0=D1=
+=81 =D0=B8 =D0=BF=D1=83=D1=82=D0=B5=D1=88=D0=B5=D1=81=D1=82=D0=B2=D1=83=D0=
+=B9=D1=82=D0=B5
+=D0=B0=D0=B2=D1=82=D0=BE=D0=B1=D1=83=D1=81=D0=BE=D0=BC =D0=BF=D0=BE =D1=81=
+=D0=B0=D0=BC=D1=8B=D0=BC =D0=BF=D1=80=D0=B8=D0=B2=D0=BB=D0=B5=D0=BA=D0=B0=
+=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=BC =D1=86=D0=B5=D0=BD=D0=B0=D0=BC!
+=D0=97=D0=B0=D0=B1=D1=80=D0=BE=D0=BD=D0=B8=D1=80=D1=83=D0=B9=D1=82=D0=B5 =
+=D0=B1=D0=B8=D0=BB=D0=B5=D1=82 =D0=BF=D0=BE =D0=BB=D1=83=D1=87=D1=88=D0=B5=
+=D0=B9 =D1=86=D0=B5=D0=BD=D0=B5 =D0=BD=D0=B0 BlaBlaCar=20
+( https://link.community.blablacar.com/ls/click?upn=3D9v58Y93UoKfVdq3QfqorY=
+fn5z1f5V-2FhjX4XnUleuYglXRCl2o59e5El-2BuDWNQGLrnGxk_ZZ-2FdeVdetDNx6HMmNR-2F=
+iS-2BZRXOsUB3FkFQaHxt1TeUkilgCRh-2FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSRQv=
+BVxHT1-2F-2Fgz1JSOoHDRXVtk-2FaMJIZ9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX43=
+rQOm4I2RXkOf4XGnXYafahcoAzod8lvy5bQnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwXkg=
+WXFtXvd4fCcF9U-2BTPzMkblLJJRtOGtdfA4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlzVO=
+2E88BxiG4MGK35zN3zmBiqKdts-2FboGlR1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqslK=
+BvUSKrzBWHZiUP0ahFgcEqe8pXuqxE0oNaVLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-2B=
+lH9S4EW6JryWKr-2BzwN9u7SKHiq34glhX3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb1K=
+JApkb7klk0qbKBmvIQoawFL9WIlaw8EU62Wp-2BRiwU83mKdGKhBTzgsEH806L05PpdJV-2Bako=
+IoEzZjCq0dGoE34PVsd5zs1FMSvC2BsXIXnhKCyqoMGOVbzc7lxFVNZ0UIQooR-2Bjt5zElquVf=
+7fA460zA-3D-3D )               * =D0=A0=D0=B0=D0=B7=D0=BC=D0=B5=D1=80 =D1=
+=81=D0=BA=D0=B8=D0=B4=D0=BA=D0=B8
+=D0=B7=D0=B0=D0=B2=D0=B8=D1=81=D0=B8=D1=82 =D0=BE=D1=82 =D0=BD=D0=B0=D0=BF=
+=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8 =D0=BD=D0=B0=D0=BB=
+=D0=B8=D1=87=D0=B8=D1=8F =D0=BF=D0=BE=D0=B5=D0=B7=D0=B4=D0=BA=D0=B8.
+** =D0=9F=D0=BE =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D0=BC =D0=B8=D1=81=D1=81=D0=
+=BB=D0=B5=D0=B4=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=9D=D0=90=D0=A4=D0=
+=98 05.2021, =D0=B2 80% =D1=80=D0=B0=D1=81=D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=
+=B5=D0=BD=D0=BD=D1=8B=D1=85
+=D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B5=D0=B2 =D1=86=D0=B5=D0=BD=D1=8B =D0=BD=
+=D0=B8=D0=B6=D0=B5 =D0=B2 =D1=81=D1=80=D0=B0=D0=B2=D0=BD=D0=B5=D0=BD=D0=B8=
+=D0=B8 =D1=81 5 =D0=BA=D1=80=D1=83=D0=BF=D0=BD=D0=B5=D0=B9=D1=88=D0=B8=D0=
+=BC=D0=B8 =D0=B0=D0=B3=D1=80=D0=B5=D0=B3=D0=B0=D1=82=D0=BE=D1=80=D0=B0=D0=
+=BC=D0=B8 =D0=BF=D0=BE
+=D0=BF=D1=80=D0=BE=D0=B4=D0=B0=D0=B6=D0=B5 =D0=B0=D0=B2=D1=82=D0=BE=D0=B1=
+=D1=83=D1=81=D0=BD=D1=8B=D1=85 =D0=B1=D0=B8=D0=BB=D0=B5=D1=82=D0=BE=D0=B2. =
+=D0=92=D1=80=D0=B5=D0=BC=D1=8F =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=
+=D1=8F =D0=BF=D1=80=D0=B5=D0=B4=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F =
+=D0=B7=D0=B0=D0=B2=D0=B8=D1=81=D0=B8=D1=82 =D0=BE=D1=82
+=D0=BD=D0=B0=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=
+=D0=BE=D0=B5=D0=B7=D0=B4=D0=BA=D0=B8. =D0=A6=D0=B5=D0=BD=D0=B0 =D0=BF=D1=80=
+=D0=B8=D0=BC=D0=B5=D0=BD=D1=8F=D0=B5=D1=82=D1=81=D1=8F =D0=BF=D1=80=D0=B8 =
+=D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D0=B8 =D0=B1=D0=B8=D0=BB=D0=B5=D1=82=
+=D0=BE=D0=B2 / =D0=BC=D0=B5=D1=81=D1=82
+=D0=BD=D0=B0 =D0=B2=D1=8B=D0=B1=D1=80=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D1=80=
+=D0=B5=D0=B9=D1=81 =D1=83 =D0=BA=D0=BE=D0=BD=D0=BA=D1=80=D0=B5=D1=82=D0=BD=
+=D0=BE=D0=B3=D0=BE =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B7=D1=87=D0=B8=
+=D0=BA=D0=B0. =D0=9A=D0=BE=D0=BB=D0=B8=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=BE =
+=D0=B1=D0=B8=D0=BB=D0=B5=D1=82=D0=BE=D0=B2
+=D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=BE. =D0=9E=D0=9E=
+=D0=9E =E2=80=9C=D0=9A=D0=BE=D0=BC=D1=8C=D1=8E=D1=82=D0=BE =D0=A0=D1=83=D1=
+=81=E2=80=9D =D0=B8 =D0=9E=D0=9E=D0=9E =E2=80=9C=D0=91=D0=B0=D1=81=D1=84=D0=
+=BE=D1=80=E2=80=9D =D0=BD=D0=B5 =D1=8F=D0=B2=D0=BB=D1=8F=D1=8E=D1=82=D1=81=
+=D1=8F
+=D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B7=D1=87=D0=B8=D0=BA=D0=B0=D0=BC=D0=
+=B8. =D0=9F=D1=80=D0=B8 =D0=B2=D0=BE=D0=B7=D0=B2=D1=80=D0=B0=D1=82=D0=B5 =
+=D0=B1=D0=B8=D0=BB=D0=B5=D1=82=D0=B0 =D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D0=BF=
+=D1=80=D0=B8=D0=BC=D0=B5=D0=BD=D1=8F=D1=82=D1=8C=D1=81=D1=8F =D1=83=D0=B4=
+=D0=B5=D1=80=D0=B6=D0=B0=D0=BD=D0=B8=D1=8F
+=D1=81=D0=BE=D0=B3=D0=BB=D0=B0=D1=81=D0=BD=D0=BE =D1=83=D1=81=D0=BB=D0=BE=
+=D0=B2=D0=B8=D1=8F=D0=BC =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B7=D1=87=
+=D0=B8=D0=BA=D0=B0. =D0=9F=D0=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=D0=B5=D0=B5 =
+=D0=BD=D0=B0 blablacar.ru=20
+( https://link.community.blablacar.com/ls/click?upn=3D1QGll7Gr3gBgt3E5LO6pz=
+0tx5IfvJ6d-2FEzsTmAWU7F0-3DdjbV_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZRXOsUB3FkFQaHx=
+t1TeUkilgCRh-2FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-2F-2Fgz1JSOoH=
+DRXVtk-2FaMJIZ9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX43rQOm4I2RXkOf4XGnXYaf=
+ahcoAzod8lvy5bQnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwXkgWXFtXvd4fCcF9U-2BTPz=
+MkblLJJRtOGtdfA4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlzVO2E88BxiG4MGK35zN3zmB=
+iqKdts-2FboGlR1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqslKBvUSKrzBWHZiUP0ahFgc=
+Eqe8pXuqxE0oNaVLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW6JryWKr-2BzwN=
+9u7SKHiq34glhX3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb1KJAOmpcGaqmDASc-2FHsz=
+WM9bIYrGg7a5c-2B3l1IaBt-2FccP4aHNsm3TjnPBVqgBcTpb6rDL344wrzlk8PxPuT5hPixQi7=
+yyP42Cdo0bfg5mTss7sF4j31ynxG6C6w8Dii09Xbj9dY-2F3I-2BIhdNhGPs5hVnDXQ-3D-3D )=
+.
+
+
+BlaBlaCarBlaBlaCarBlaBlaCarBlaBlaCarBlaBlaCarBlaBlaCarBlaBlaCarBlaBlaCarBla=
+BlaCarBlaBlaCarBlaBlaCar
+
+( https://link.community.blablacar.com/ls/click?upn=3D9v58Y93UoKfVdq3QfqorY=
+WrD-2F0-2B8teaRd-2Bc48q-2BZ5oAusdbzHTxrCF-2BTO-2BBwgZ3J5OApGpKyyZJCYm4QbHLq=
+BPbKdo7W5H8C0yM3qE7YqvddXQG5lVfmDWVUypB4hrD91u9ShAwPA9xZoJVq0VuYVw-3D-3DORI=
+S_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZRXOsUB3FkFQaHxt1TeUkilgCRh-2FuUMPrhHhGKnAppT=
+S9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-2F-2Fgz1JSOoHDRXVtk-2FaMJIZ9QP6anRF3pVIZ4re=
+cpsXQsH2imufKIx-2BVtoxX43rQOm4I2RXkOf4XGnXYafahcoAzod8lvy5bQnN7A8DfL-2F1cBw=
+RaNRorZ-2FdDazu7axOWLwXkgWXFtXvd4fCcF9U-2BTPzMkblLJJRtOGtdfA4sFUowXMpCcerKC=
+H6ChkCQs9oYgbDzIf-2FDlzVO2E88BxiG4MGK35zN3zmBiqKdts-2FboGlR1FjrdWO7HOQuNbiH=
+JhGH39-2FpQPwo5hAaeuwqslKBvUSKrzBWHZiUP0ahFgcEqe8pXuqxE0oNaVLVPx4lKhnRvCx1w=
+TmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW6JryWKr-2BzwN9u7SKHiq34glhX3N-2BDglK3VKSOLD=
+1GYrSndj2-2BjkfnmevV2vb1KJAe2MQSwEA9LZUEUDIHsivXFUp913-2F01AXiHS7rSuCCnpMsN=
+k2oGC-2FAzq5wY4vrHSfuqpYGazB-2FBErhFGYSiDMcpV8XuHctRwC-2B-2Bda-2BODXzCq9ipx=
+kPIrhGVG-2BVy81YSAHcRlHbBJvYRKj48sMxvJdsg-3D-3D )
+
+BlaBlaCar=20
+( https://link.community.blablacar.com/ls/click?upn=3D9v58Y93UoKfVdq3QfqorY=
+WrD-2F0-2B8teaRd-2Bc48q-2BZ5oC3NjI78MIgENoeCzUtYn4XYrqfP43BG0dtCk6QfizEBdP-=
+2BKj9HrOEjN25aLmfNqHU-3DRPAP_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZRXOsUB3FkFQaHxt1T=
+eUkilgCRh-2FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-2F-2Fgz1JSOoHDRX=
+Vtk-2FaMJIZ9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX43rQOm4I2RXkOf4XGnXYafahc=
+oAzod8lvy5bQnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwXkgWXFtXvd4fCcF9U-2BTPzMkb=
+lLJJRtOGtdfA4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlzVO2E88BxiG4MGK35zN3zmBiqK=
+dts-2FboGlR1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqslKBvUSKrzBWHZiUP0ahFgcEqe=
+8pXuqxE0oNaVLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW6JryWKr-2BzwN9u7=
+SKHiq34glhX3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb1KJAHBEyElwd2-2BEpQCi9q5e=
+PD-2FLu2KbRgEJrA8FHfW9FLsIYRHoXMcWzPzyg-2FSzEFWBL7iH2gti7NvCS2J6boyIC0jRJm7=
+7CPBEua8lEUM2GjPHYVUwrgo1BbP-2BKRuyOBJj9T11MGgAvaAPP2rJ2WfpmYA-3D-3D )
+
+=D0=A1=D0=BA=D0=B0=D1=87=D0=B0=D1=82=D1=8C =D0=BF=D1=80=D0=B8=D0=BB=D0=BE=
+=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5
+=20
+( https://link.community.blablacar.com/ls/click?upn=3D9v58Y93UoKfVdq3QfqorY=
+dI-2BKUJVgDXd1gtk0387CmwCB-2FA2wT10lCZ6kvj0ZHXoxMfXuY1CpTU5xk9SSn8a2NEhfm1p=
+uIvTbdKNmyiSOUqwo-2BDOuWDsOiThBkkdOwATcqw5ACJA3XhD1ZVVnDvFNg-3D-3Deg_N_ZZ-2=
+FdeVdetDNx6HMmNR-2FiS-2BZRXOsUB3FkFQaHxt1TeUkilgCRh-2FuUMPrhHhGKnAppTS9pvSn=
+6p0NFNQOUjdw6UOSRQvBVxHT1-2F-2Fgz1JSOoHDRXVtk-2FaMJIZ9QP6anRF3pVIZ4recpsXQs=
+H2imufKIx-2BVtoxX43rQOm4I2RXkOf4XGnXYafahcoAzod8lvy5bQnN7A8DfL-2F1cBwRaNRor=
+Z-2FdDazu7axOWLwXkgWXFtXvd4fCcF9U-2BTPzMkblLJJRtOGtdfA4sFUowXMpCcerKCH6ChkC=
+Qs9oYgbDzIf-2FDlzVO2E88BxiG4MGK35zN3zmBiqKdts-2FboGlR1FjrdWO7HOQuNbiHJhGH39=
+-2FpQPwo5hAaeuwqslKBvUSKrzBWHZiUP0ahFgcEqe8pXuqxE0oNaVLVPx4lKhnRvCx1wTmDiSU=
+RLmAc7Mfj-2FbGC8-2BlH9S4EW6JryWKr-2BzwN9u7SKHiq34glhX3N-2BDglK3VKSOLD1GYrSn=
+dj2-2BjkfnmevV2vb1KJAeG1UhAoVTzgDZ1zT3yJ0GJ5lfdBLN2wl2xoLFZ3pa5TXgYKc3C3PFf=
+etVbhqmtILCGK-2BhUra3gYQfDihYeeF6VeSejOjd0r-2BqMMBbZ3WqtpWpICBXtoDlVFiH9WRe=
+YzRlIHNXAbjunXbhi9YmNGi0A-3D-3D )
+ |  =D0=92=D0=BE=D0=BF=D1=80=D0=BE=D1=81=D1=8B
+
+
+( https://link.community.blablacar.com/ls/click?upn=3D9v58Y93UoKfVdq3QfqorY=
+fn5z1f5V-2FhjX4XnUleuYgln-2BrvSFh2f-2B520QdRFogLd_tCV_ZZ-2FdeVdetDNx6HMmNR-=
+2FiS-2BZRXOsUB3FkFQaHxt1TeUkilgCRh-2FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSR=
+QvBVxHT1-2F-2Fgz1JSOoHDRXVtk-2FaMJIZ9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX=
+43rQOm4I2RXkOf4XGnXYafahcoAzod8lvy5bQnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwX=
+kgWXFtXvd4fCcF9U-2BTPzMkblLJJRtOGtdfA4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlz=
+VO2E88BxiG4MGK35zN3zmBiqKdts-2FboGlR1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqs=
+lKBvUSKrzBWHZiUP0ahFgcEqe8pXuqxE0oNaVLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-=
+2BlH9S4EW6JryWKr-2BzwN9u7SKHiq34glhX3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb=
+1KJAKYOlhlHBrFs6GRmrobuR1o2iAdnxCCr529qh02WUOXD7HtNotm9tlXDm-2F4GzPYrVRnhlS=
+sCdjrY9ijLrwb7wsSpCH8WJvS4f63LfYXEnCYWXuYWttCFyzEaPrvGEDLFRiUw8FXzBUaza10Bx=
+zP3kyA-3D-3D )
+
+
+=D0=AD=D1=82=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 =
+=D0=B1=D1=8B=D0=BB=D0=BE =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=
+=D0=BD=D0=BE
+=D0=9E=D0=B1=D1=89=D0=B5=D1=81=D1=82=D0=B2=D0=BE=D0=BC =D1=81 =D0=BE=D0=B3=
+=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=BD=D0=BE=D0=B9 =D0=BE=D1=82=
+=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D1=
+=8C=D1=8E "=D0=9A=D0=BE=D0=BC=D1=8C=D1=8E=D1=82=D0=BE =D0=A0=D1=83=D1=81". =
+=D0=95=D1=81=D0=BB=D0=B8 =D0=B2=D1=8B
+=D0=B1=D0=BE=D0=BB=D1=8C=D1=88=D0=B5 =D0=BD=D0=B5 =D1=85=D0=BE=D1=82=D0=B8=
+=D1=82=D0=B5 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B0=D1=82=D1=8C =D0=BF=D0=B8=
+=D1=81=D1=8C=D0=BC=D0=B0 =D0=BE=D1=82 =D0=BD=D0=B0=D1=81, =D0=B2=D1=8B =D0=
+=BC=D0=BE=D0=B6=D0=B5=D1=82=D0=B5 =D0=BE=D1=82=D0=BF=D0=B8=D1=81=D0=B0=D1=
+=82=D1=8C=D1=81=D1=8F (
+https://link.community.blablacar.com/ls/click?upn=3D9v58Y93UoKfVdq3QfqorYYH=
+fIavDR-2Ft0Gc4Bq42wHW6OCvkU-2BEMqX52NEao7enAWvtKN8ZL4d2xlIVrZV-2F9quUOdcwGS=
+N4tt7GtXXW6LCHs-2B4mUJrtuoPTAZIvulbfydFR7jniLhK60ToJpyXfBxpwORhlUpdswcDsY-2=
+BUaU7yVnl2sg4p4Ay09Dl-2FnhGC6McOYJNaVPngR-2BoU3D8oOfrEuwsOAjf7c7Z1IByyL1uLA=
+D7UHKJhqczyEiSGiumAkDFWFgmZJe23yCgi1hh0KGBTXAxFlOPd5Sz2RrY0VfdXRKF-2B7z60w5=
+wNEJnO-2FMTRHEvuy6x13h9LG1zDQNlGqG0163gvCF5cUQohuuWto-2BYAuD0Vp95vCrX7iGG4H=
+S0Vjubx-2B47c-2F-2FyamzY2802l9dzvPPnoI1vm1R3xM-2BOFzEWW1xdJGGr4XzJlvUbTWT9d=
+AbtowKkVE8eFs9hFTWs5ynHD591o0wKfYIDYfL35Tj0QcaFpL0EKYto-2FXrYY66nJ32-2BU5Xl=
+EEClJ5TXUQ3WvWREYuVt0eOFW6AKAcS9Ouu0CpTC6FPDDBAqxu6QF51H0-2BQciglvE9hOs0p-2=
+FirsulLxStw-3D-3DCaiP_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZRXOsUB3FkFQaHxt1TeUkilgC=
+Rh-2FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-2F-2Fgz1JSOoHDRXVtk-2Fa=
+MJIZ9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX43rQOm4I2RXkOf4XGnXYafahcoAzod8l=
+vy5bQnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwXkgWXFtXvd4fCcF9U-2BTPzMkblLJJRtO=
+GtdfA4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlzVO2E88BxiG4MGK35zN3zmBiqKdts-2Fb=
+oGlR1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqslKBvUSKrzBWHZiUP0ahFgcEqe8pXuqxE=
+0oNaVLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW6JryWKr-2BzwN9u7SKHiq34=
+glhX3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb1KJA0WazPNzfDfa98OPRBKJQqzCrf4jO=
+zfMUUeyaQqMV5Q8rHQoEyo2eyc626I1ky8kQMwbOT8A88fq6EkhKLaSCw41TmJ-2FZkw3bBbU26=
+j659m4vBAwGR9yA8qrAGcCMZfC0BNQAxb0c0J-2FNmlfECBPhsA-3D-3D ).
+
+--ed485c2ea9aed4edb18689b3d3582d93ac71d76d766a24455355a63ea7f1
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0, maximum-scale=3D1.0, user-scalable=3Dno">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+	<title>BlaBlaNews</title>
+=09
+<style>@media only screen and (max-width: 500px) {
+  img[class=3Dfluid] {
+    width: 100% !important; height: auto;
+  }
+  span[class=3Dkey-number] {
+    font-size: 130% !important;
+  }
+  span[class=3Dadress] {
+    color: #727272 !important; text-decoration: none !important;
+  }
+  span[class=3Demail-link] {
+    color: #0086bf !important; text-decoration: underline !important;
+  }
+  table[class=3Dbtn] {
+    width: 100% !important;
+  }
+  table[class=3Dprice-offer] {
+    width: 100% !important;
+  }
+  table[class=3Demail-subject] {
+    width: 100% !important;
+  }
+  table[class=3Dlogo] {
+    width: 100% !important;
+  }
+  table[class=3Dintro-img] {
+    width: 100% !important;
+  }
+  table[class=3Dintro-text] {
+    width: 100% !important;
+  }
+  table[class=3Dcontent-img] {
+    width: 100% !important;
+  }
+  table[class=3Dtrip-to] {
+    width: 100% !important;
+  }
+  table[class=3Dtrip-to-btn] {
+    width: 100% !important;
+  }
+  table[class=3Dcolumn] {
+    width: 100% !important;
+  }
+  table[class=3Dfooter-container] {
+    width: 100% !important;
+  }
+  table[class=3Dcontent-text] {
+    width: 100% !important;
+  }
+  td[class=3Dcolumns] {
+    text-align: center !important;
+  }
+  td[class=3Dcontainer-wrap] {
+    width: 100% !important;
+  }
+  td[class=3D"header container"] {
+    width: 100% !important;
+  }
+  table[class=3D"head-wrap"] {
+    width: 100% !important;
+  }
+  td[class=3Dsubject-text] {
+    text-align: center !important;
+  }
+}
+@font-face {
+font-family: "gt-eesti"; src: url("https://www.blablacar.fr/fonts/gt-eesti/=
+GT-Eesti-Pro-Display-Regular.woff") format("woff"); font-weight: 400; font-=
+style: normal;
+}
+@font-face {
+font-family: "gt-eesti"; src: url("https://www.blablacar.fr/fonts/gt-eesti/=
+GT-Eesti-Pro-Display-Regular-Italic.woff") format("woff"); font-weight: 400=
+; font-style: italic;
+}
+@font-face {
+font-family: "gt-eesti"; src: url("https://www.blablacar.fr/fonts/gt-eesti/=
+GT-Eesti-Pro-Display-Medium.woff") format("woff"); font-weight: 700; font-s=
+tyle: normal;
+}
+@font-face {
+font-family: "gt-eesti"; src: url("https://www.blablacar.fr/fonts/gt-eesti/=
+GT-Eesti-Pro-Display-Medium-Italic.woff") format("woff"); font-weight: 700;=
+ font-style: italic;
+}
+body {
+font-family: gt-eesti, Helvetica, Arial, sans-serif;
+}
+</style>
+</head>
+<body bgcolor=3D"#ffffff" data-gr-ext-installed=3D"" data-new-gr-c-s-check-=
+loaded=3D"14.1024.0" style=3D"font-family: gt-eesti, Helvetica, Arial, sans=
+-serif; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none=
+; height: 100%; width: 100%; font-size: 100%; margin: 0; padding: 0;">
+<div style=3D"display:none !important;visibility:hidden;mso-hide:all;font-s=
+ize:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:=
+0;overflow:hidden;">=D0=9D=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, =D0=
+=B0=D0=B2=D1=82=D0=BE=D0=B1=D1=83=D1=81=D0=BD=D0=BE=D0=B5 =D0=BF=D1=83=D1=
+=82=D0=B5=D1=88=D0=B5=D1=81=D1=82=D0=B2=D0=B8=D0=B5 =D0=B8=D0=B7 =D0=9F=D0=
+=B5=D1=82=D0=B5=D1=80=D0=B1=D1=83=D1=80=D0=B3=D0=B0 =D0=B2 =D0=9C=D0=BE=D1=
+=81=D0=BA=D0=B2=D1=83 =D0=BF=D1=80=D0=B8 =D0=B1=D1=80=D0=BE=D0=BD=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B8 =D0=B1=D0=B8=D0=BB=D0=B5=D1=82=D0=
+=BE=D0=B2 =D1=81=D0=BE =D1=81=D0=BA=D0=B8=D0=B4=D0=BA=D0=BE=D0=B9 BlaBlaCar=
+ =D0=BE=D0=B1=D0=BE=D0=B9=D0=B4=D0=B5=D1=82=D1=81=D1=8F =D0=B2=D0=B0=D0=BC =
+=D0=B2=D1=81=D0=B5=D0=B3=D0=BE =D0=B2 750 =D1=80=D1=83=D0=B1=D0=BB=D0=B5=D0=
+=B9!**</div>
+<center>
+<div style=3D"background-color: #ffffff !important;">
+<!-- Start of MAIN CONTENT SECTION -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"body-wrap"=
+ style=3D"font-family: gt-eesti, Helvetica, Arial, sans-serif; margin: 0; p=
+adding: 0;">
+	<tbody>
+		<tr>
+			<td align=3D"center" bgcolor=3D"#ffffff" class=3D"container-wrap" style=
+=3D"font-family: gt-eesti, Helvetica, Arial, sans-serif; display: block; ma=
+x-width: 500px; clear: both; margin: 0px auto; padding: 0px;" width=3D"500"=
+>
+			<!-- START OF LOGO -->
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"white-c=
+ontainer" style=3D"font-family: gt-eesti, Helvetica, Arial, sans-serif; bor=
+der: none;" width=3D"500" bgcolor=3D"#ffffff">
+				<tbody>
+					<tr>
+						<td>
+						<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"20" class=3D"email-subject" style=3D"max-width: 500px=
+; border-radius: 0px 0px 0 0;" width=3D"500">
+							<tbody>
+								<tr>
+									<td align=3D"left" class=3D"edit_link_img" valign=3D"top" width=3D=
+"100%"><a href=3D"https://link.community.blablacar.com/ls/click?upn=3D9v58Y=
+93UoKfVdq3QfqorYWrD-2F0-2B8teaRd-2Bc48q-2BZ5oC3NjI78MIgENoeCzUtYn4XYrqfP43B=
+G0dtCk6QfizEBX4GEKZD6z3l7xSgQ3w25BM-3Dsdg-_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZRXO=
+sUB3FkFQaHxt1TeUkilgCRh-2FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-2F=
+-2Fgz1JSOoHDRXVtk-2FaMJIZ9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX43rQOm4I2RX=
+kOf4XGnXYafahcoAzod8lvy5bQnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwXkgWXFtXvd4f=
+CcF9U-2BTPzMkblLJJRtOGtdfA4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlzVO2E88BxiG4=
+MGK35zN3zmBiqKdts-2FboGlR1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqslKBvUSKrzBW=
+HZiUP0ahFgcEqe8pXuqxE0oNaVLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW6J=
+ryWKr-2BzwN9u7SKHiq34glhX3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb1KJAYjaMDQf=
+JzAKeVdXPe5cVvXlJaKKd22DuwYoj6J8-2Buz6bG5IzQ0IkxkNEtklMvVOHAkt-2F9pRAwsD-2F=
+We0YArGg1YNGaOEBfLmHY6p4GiCQ5Za-2F68-2FsEwg6kn3sCganzgsutL3uwXCGUxCEIOOfvdv=
+b2g-3D-3D" title=3D"BlaBlaCar"><img alt=3D"BlaBlaCar" src=3D"https://cdn.br=
+aze.eu/appboy/communication/assets/image_assets/images/61694df578b9fa3b6064=
+a37c/original.png?1634291189" style=3D"color: rgb(65, 61, 53); background-c=
+olor: rgb(255, 255, 255); font-family: Helvetica, Arial, sans-serif; width:=
+ 120px; height: 27px; border: none;" title=3D"BlaBlaCar"></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- END OF LOGO -->
+			<!--START OF TOP BANNER IMAGE -->
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"white-container" style=3D"font-family: gt-eesti, Helvetica, Ar=
+ial, sans-serif; border: none;" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"content-img" style=3D"max-width: 500px;">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"edit_link_img" valign=3D"top" width=
+=3D"100%"><a href=3D"https://link.community.blablacar.com/ls/click?upn=3D9v=
+58Y93UoKfVdq3QfqorYfn5z1f5V-2FhjX4XnUleuYglXRCl2o59e5El-2BuDWNQGLr-EHv_ZZ-2=
+FdeVdetDNx6HMmNR-2FiS-2BZRXOsUB3FkFQaHxt1TeUkilgCRh-2FuUMPrhHhGKnAppTS9pvSn=
+6p0NFNQOUjdw6UOSRQvBVxHT1-2F-2Fgz1JSOoHDRXVtk-2FaMJIZ9QP6anRF3pVIZ4recpsXQs=
+H2imufKIx-2BVtoxX43rQOm4I2RXkOf4XGnXYafahcoAzod8lvy5bQnN7A8DfL-2F1cBwRaNRor=
+Z-2FdDazu7axOWLwXkgWXFtXvd4fCcF9U-2BTPzMkblLJJRtOGtdfA4sFUowXMpCcerKCH6ChkC=
+Qs9oYgbDzIf-2FDlzVO2E88BxiG4MGK35zN3zmBiqKdts-2FboGlR1FjrdWO7HOQuNbiHJhGH39=
+-2FpQPwo5hAaeuwqslKBvUSKrzBWHZiUP0ahFgcEqe8pXuqxE0oNaVLVPx4lKhnRvCx1wTmDiSU=
+RLmAc7Mfj-2FbGC8-2BlH9S4EW6JryWKr-2BzwN9u7SKHiq34glhX3N-2BDglK3VKSOLD1GYrSn=
+dj2-2BjkfnmevV2vb1KJAD19MNiwWuvoZv5Hm2iLy4htPcFnIbDMDT2tvT-2B6dx7py5c1PcfTM=
+RIODwFZT3SZRVAgKlb73iShsJEKe9gd5WvO2xQhHqEfn0-2FsxkVf44NpVEFKg2VSrL-2FK4s8q=
+TPFoNrdIgaHKiDki4kcaaMG3VWg-3D-3D" title=3D"BlaBlaCar"><img alt=3D"BlaBlaCa=
+r" src=3D"https://cdn.braze.eu/appboy/communication/assets/image_assets/ima=
+ges/61a0b64d9b94d578c0a27e6d/original.png?1637922381" style=3D"max-width: 5=
+00px; width: 500px;" title=3D"BlaBlaCar"></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- END OF TOP BANNER IMAGE --><br>
+			<!-- START OF SUB HEADLINE -->
+
+			<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"white-container" style=3D"border-bottom-width=
+: 0px; border-bottom-color: #dfdddf; border-bottom-style: solid; font-famil=
+y: Helvetica, Arial, sans-serif; padding-left: 24px; padding-right: 24px; p=
+adding-bottom: 16px;" width=3D"500px">
+				<tbody>
+					<tr>
+					</tr>
+				</tbody>
+			</table>
+			<!-- END OF SUB HEADLINE --><!-- START OF MAIN PARAGRAPH -->
+
+			<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"white-container" style=3D"font-family: gt-ees=
+ti, Helvetica, Arial, sans-serif; padding-left: 24px; padding-right: 24px; =
+text-decoration: none;" width=3D"500px">
+				<tbody>
+					<tr>
+						<td style=3D"font-size: 16px; line-height: 22px; color: #708c91;">=D0=
+=9F=D0=BB=D0=B0=D0=BD=D0=B8=D1=80=D1=83=D0=B5=D1=82=D0=B5 =D0=B2 =D1=81=D0=
+=BA=D0=BE=D1=80=D0=BE=D0=BC =D0=B2=D1=80=D0=B5=D0=BC=D0=B5=D0=BD=D0=B8 =D0=
+=BF=D0=BE=D0=B2=D0=B8=D0=B4=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D1=81 =D1=80=D0=
+=BE=D0=B4=D0=BD=D1=8B=D0=BC=D0=B8 =D0=B8=D0=BB=D0=B8 =D0=B4=D1=80=D1=83=D0=
+=B7=D1=8C=D1=8F=D0=BC=D0=B8?
+						<div style=3D"" align=3D"center"></div>
+
+					=09
+						<br>
+						=D0=A7=D1=82=D0=BE =D0=B1=D1=8B =D0=BD=D0=B8 =D0=B2=D0=BB=D0=B5=D0=BA=
+=D0=BB=D0=BE =D0=B2=D0=B0=D1=81 =D0=B2 =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=B9=
+ =D0=B3=D0=BE=D1=80=D0=BE=D0=B4: =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=B0, =D1=
+=81=D0=B5=D0=BC=D0=B5=D0=B9=D0=BD=D1=8B=D0=B5 =D0=B4=D0=B5=D0=BB=D0=B0 =D0=
+=B8=D0=BB=D0=B8 =D0=B4=D0=BE=D0=BB=D0=B3=D0=BE=D0=B6=D0=B4=D0=B0=D0=BD=D0=
+=BD=D0=B0=D1=8F =D0=B2=D1=81=D1=82=D1=80=D0=B5=D1=87=D0=B0 =D1=81 =D0=B4=D1=
+=80=D1=83=D0=B7=D1=8C=D1=8F=D0=BC=D0=B8, =D0=BD=D0=B0=D1=81=D1=82=D0=B0=D0=
+=BB=D0=BE =D1=81=D0=B0=D0=BC=D0=BE=D0=B5 =D0=B2=D1=80=D0=B5=D0=BC=D1=8F =D1=
+=80=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=B2=D0=
+=B0=D1=88=D0=B8 =D0=BF=D0=BB=D0=B0=D0=BD=D1=8B.=20
+=D0=92 =D1=82=D0=B5=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE=D0=B3=D1=80=D0=B0=
+=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D0=B2=D1=80=D0=B5=
+=D0=BC=D0=B5=D0=BD=D0=B8 =D0=BD=D0=B0 BlaBlaCar =D0=B1=D1=83=D0=B4=D1=83=D1=
+=82 =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D1=
+=81=D0=BA=D0=B8=D0=B4=D0=BA=D0=B8 =D0=B4=D0=BE 25% =D0=BD=D0=B0 =D0=BC=D0=
+=BD=D0=BE=D0=B3=D0=B8=D0=B5 =D0=BF=D0=BE=D0=BF=D1=83=D0=BB=D1=8F=D1=80=D0=
+=BD=D1=8B=D0=B5 =D0=B0=D0=B2=D1=82=D0=BE=D0=B1=D1=83=D1=81=D0=BD=D1=8B=D0=
+=B5 =F0=9F=9A=8C  =D0=BC=D0=B0=D1=80=D1=88=D1=80=D1=83=D1=82=D1=8B =E2=8C=
+=9B.=20
+=D0=A3=D1=81=D0=BF=D0=B5=D0=B9=D1=82=D0=B5 =D0=BA=D1=83=D0=BF=D0=B8=D1=82=
+=D1=8C =D0=B1=D0=B8=D0=BB=D0=B5=D1=82=D1=8B =F0=9F=8E=AB  =D1=81=D0=B5=D0=
+=B9=D1=87=D0=B0=D1=81 =D0=B8 =D0=BF=D1=83=D1=82=D0=B5=D1=88=D0=B5=D1=81=D1=
+=82=D0=B2=D1=83=D0=B9=D1=82=D0=B5 =D0=B0=D0=B2=D1=82=D0=BE=D0=B1=D1=83=D1=
+=81=D0=BE=D0=BC =D0=BF=D0=BE =D1=81=D0=B0=D0=BC=D1=8B=D0=BC =D0=BF=D1=80=D0=
+=B8=D0=B2=D0=BB=D0=B5=D0=BA=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=BC=
+ =D1=86=D0=B5=D0=BD=D0=B0=D0=BC!
+</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- END Of MAIN PARAGRAPH --><!-- START OF CTA -->
+
+			<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"=
+36" cellspacing=3D"0" class=3D"template-columns" style=3D"border-right-widt=
+h: 0px; border-bottom-width: 0px; border-bottom-color: #dfdddf; border-bott=
+om-style: solid; font-family: gt-eesti, Helvetica, Arial, sans-serif;" widt=
+h=3D"500">
+				<tbody>
+					<tr>
+						<td align=3D"center" valign=3D"top">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+							<tbody>
+								<tr>
+									<td valign=3D"top">
+									<div style=3D"width: 100%;"><a class=3D"edit_link" href=3D"https:/=
+/link.community.blablacar.com/ls/click?upn=3D9v58Y93UoKfVdq3QfqorYfn5z1f5V-=
+2FhjX4XnUleuYglXRCl2o59e5El-2BuDWNQGLrsJDW_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZRXO=
+sUB3FkFQaHxt1TeUkilgCRh-2FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-2F=
+-2Fgz1JSOoHDRXVtk-2FaMJIZ9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX43rQOm4I2RX=
+kOf4XGnXYafahcoAzod8lvy5bQnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwXkgWXFtXvd4f=
+CcF9U-2BTPzMkblLJJRtOGtdfA4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlzVO2E88BxiG4=
+MGK35zN3zmBiqKdts-2FboGlR1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqslKBvUSKrzBW=
+HZiUP0ahFgcEqe8pXuqxE0oNaVLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW6J=
+ryWKr-2BzwN9u7SKHiq34glhX3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb1KJAAHfQsui=
+Q7RPolQuIfeUkTf1IQw6QPImxTQBciUdCzV2jHKwUjUNWoqbEPKSoICVfxzXF13C-2FCKHGJKt6=
+-2FCDVXJcfl-2B2rcrokQQ6P4YHN2RNXQDAbebZjUz-2Bt489OtdVLdN4BrLT-2BOXpQ5AYnKhU=
+yFg-3D-3D" style=3D"text-decoration: none; border-radius: 43px; font-size: =
+16px; color: #ffffff; background-color: #2DBEFF; display: block; font-famil=
+y: gt-eesti, Helvetica, Arial, sans-serif; box-sizing: border-box; padding:=
+ 14px 24px;" title=3D"=D0=97=D0=B0=D0=B1=D1=80=D0=BE=D0=BD=D0=B8=D1=80=D1=
+=83=D0=B9=D1=82=D0=B5 =D0=B1=D0=B8=D0=BB=D0=B5=D1=82 =D0=BF=D0=BE =D0=BB=D1=
+=83=D1=87=D1=88=D0=B5=D0=B9 =D1=86=D0=B5=D0=BD=D0=B5 =D0=BD=D0=B0 BlaBlaCar
+">=D0=97=D0=B0=D0=B1=D1=80=D0=BE=D0=BD=D0=B8=D1=80=D1=83=D0=B9=D1=82=D0=B5 =
+=D0=B1=D0=B8=D0=BB=D0=B5=D1=82 =D0=BF=D0=BE =D0=BB=D1=83=D1=87=D1=88=D0=B5=
+=D0=B9 =D1=86=D0=B5=D0=BD=D0=B5 =D0=BD=D0=B0 BlaBlaCar
+</a></div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- END OF CTA -->
+			<!-- End of Main Content top text -->
+			<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"white-container" style=3D"font-family: gt-ees=
+ti, Helvetica, Arial, sans-serif; padding-left: 24px; padding-right: 24px;"=
+ width=3D"500px">
+				<tbody>
+					<tr>
+						<td style=3D"font-size: 10px; line-height: 22px; color: #708c91;">
+						<p>* =D0=A0=D0=B0=D0=B7=D0=BC=D0=B5=D1=80 =D1=81=D0=BA=D0=B8=D0=B4=D0=
+=BA=D0=B8 =D0=B7=D0=B0=D0=B2=D0=B8=D1=81=D0=B8=D1=82 =D0=BE=D1=82 =D0=BD=D0=
+=B0=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8 =D0=BD=D0=
+=B0=D0=BB=D0=B8=D1=87=D0=B8=D1=8F =D0=BF=D0=BE=D0=B5=D0=B7=D0=B4=D0=BA=D0=
+=B8.<br>
+** =D0=9F=D0=BE =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D0=BC =D0=B8=D1=81=D1=81=D0=
+=BB=D0=B5=D0=B4=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=9D=D0=90=D0=A4=D0=
+=98 05.2021, =D0=B2 80% =D1=80=D0=B0=D1=81=D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=
+=B5=D0=BD=D0=BD=D1=8B=D1=85 =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B5=D0=B2 =D1=
+=86=D0=B5=D0=BD=D1=8B =D0=BD=D0=B8=D0=B6=D0=B5 =D0=B2 =D1=81=D1=80=D0=B0=D0=
+=B2=D0=BD=D0=B5=D0=BD=D0=B8=D0=B8 =D1=81 5 =D0=BA=D1=80=D1=83=D0=BF=D0=BD=
+=D0=B5=D0=B9=D1=88=D0=B8=D0=BC=D0=B8 =D0=B0=D0=B3=D1=80=D0=B5=D0=B3=D0=B0=
+=D1=82=D0=BE=D1=80=D0=B0=D0=BC=D0=B8 =D0=BF=D0=BE =D0=BF=D1=80=D0=BE=D0=B4=
+=D0=B0=D0=B6=D0=B5 =D0=B0=D0=B2=D1=82=D0=BE=D0=B1=D1=83=D1=81=D0=BD=D1=8B=
+=D1=85 =D0=B1=D0=B8=D0=BB=D0=B5=D1=82=D0=BE=D0=B2. =D0=92=D1=80=D0=B5=D0=BC=
+=D1=8F =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D1=8F =D0=BF=D1=80=D0=B5=
+=D0=B4=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F =D0=B7=D0=B0=D0=B2=D0=B8=
+=D1=81=D0=B8=D1=82 =D0=BE=D1=82 =D0=BD=D0=B0=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=
+=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE=D0=B5=D0=B7=D0=B4=D0=BA=D0=B8. =D0=A6=
+=D0=B5=D0=BD=D0=B0 =D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D0=BD=D1=8F=D0=B5=D1=82=
+=D1=81=D1=8F =D0=BF=D1=80=D0=B8 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D0=B8 =
+=D0=B1=D0=B8=D0=BB=D0=B5=D1=82=D0=BE=D0=B2 / =D0=BC=D0=B5=D1=81=D1=82 =D0=
+=BD=D0=B0 =D0=B2=D1=8B=D0=B1=D1=80=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D1=80=D0=
+=B5=D0=B9=D1=81 =D1=83 =D0=BA=D0=BE=D0=BD=D0=BA=D1=80=D0=B5=D1=82=D0=BD=D0=
+=BE=D0=B3=D0=BE =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B7=D1=87=D0=B8=D0=
+=BA=D0=B0. =D0=9A=D0=BE=D0=BB=D0=B8=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=BE =D0=
+=B1=D0=B8=D0=BB=D0=B5=D1=82=D0=BE=D0=B2 =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=
+=B8=D1=87=D0=B5=D0=BD=D0=BE. =D0=9E=D0=9E=D0=9E =E2=80=9C=D0=9A=D0=BE=D0=BC=
+=D1=8C=D1=8E=D1=82=D0=BE =D0=A0=D1=83=D1=81=E2=80=9D =D0=B8 =D0=9E=D0=9E=D0=
+=9E =E2=80=9C=D0=91=D0=B0=D1=81=D1=84=D0=BE=D1=80=E2=80=9D =D0=BD=D0=B5 =D1=
+=8F=D0=B2=D0=BB=D1=8F=D1=8E=D1=82=D1=81=D1=8F =D0=BF=D0=B5=D1=80=D0=B5=D0=
+=B2=D0=BE=D0=B7=D1=87=D0=B8=D0=BA=D0=B0=D0=BC=D0=B8. =D0=9F=D1=80=D0=B8 =D0=
+=B2=D0=BE=D0=B7=D0=B2=D1=80=D0=B0=D1=82=D0=B5 =D0=B1=D0=B8=D0=BB=D0=B5=D1=
+=82=D0=B0 =D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D0=
+=BD=D1=8F=D1=82=D1=8C=D1=81=D1=8F =D1=83=D0=B4=D0=B5=D1=80=D0=B6=D0=B0=D0=
+=BD=D0=B8=D1=8F =D1=81=D0=BE=D0=B3=D0=BB=D0=B0=D1=81=D0=BD=D0=BE =D1=83=D1=
+=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F=D0=BC =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=
+=BE=D0=B7=D1=87=D0=B8=D0=BA=D0=B0. =D0=9F=D0=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=
+=BD=D0=B5=D0=B5 =D0=BD=D0=B0 <a href=3D"https://link.community.blablacar.co=
+m/ls/click?upn=3D1QGll7Gr3gBgt3E5LO6pz0tx5IfvJ6d-2FEzsTmAWU7F0-3Dkjpk_ZZ-2F=
+deVdetDNx6HMmNR-2FiS-2BZRXOsUB3FkFQaHxt1TeUkilgCRh-2FuUMPrhHhGKnAppTS9pvSn6=
+p0NFNQOUjdw6UOSRQvBVxHT1-2F-2Fgz1JSOoHDRXVtk-2FaMJIZ9QP6anRF3pVIZ4recpsXQsH=
+2imufKIx-2BVtoxX43rQOm4I2RXkOf4XGnXYafahcoAzod8lvy5bQnN7A8DfL-2F1cBwRaNRorZ=
+-2FdDazu7axOWLwXkgWXFtXvd4fCcF9U-2BTPzMkblLJJRtOGtdfA4sFUowXMpCcerKCH6ChkCQ=
+s9oYgbDzIf-2FDlzVO2E88BxiG4MGK35zN3zmBiqKdts-2FboGlR1FjrdWO7HOQuNbiHJhGH39-=
+2FpQPwo5hAaeuwqslKBvUSKrzBWHZiUP0ahFgcEqe8pXuqxE0oNaVLVPx4lKhnRvCx1wTmDiSUR=
+LmAc7Mfj-2FbGC8-2BlH9S4EW6JryWKr-2BzwN9u7SKHiq34glhX3N-2BDglK3VKSOLD1GYrSnd=
+j2-2BjkfnmevV2vb1KJAh59WssEXwB3y6jEduRe5n0Lz3-2BFbkAVyQcsrpqBGXDmyZ2b1qNDpv=
+7xvk-2F5uKenL32c76iMGwOlyHHFd9CX8-2BBKfyGi4WnjbztimcO4VOp3Me1IytSIAWf3u-2FE=
+KXVWEbawPbmO6GyNygIwrAljzm6A-3D-3D" style=3D"text-decoration: none;" title=
+=3D"BlaBlaCar"><span style=3D"color: #2dbeff;">blablacar.ru</span></a>.
+<!-- START OF LINE / BOTTOM --></p>
+
+						<hr color=3D"#dddddd" size=3D"1" width=3D"452">
+						<table style=3D"padding-bottom: 36px;">
+						</table>
+						<!-- END OF LINE / BOTTOM -->
+<!--START OF PSGR SAFETY MEASURES BANNER IMAGE -->
+
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"white-container" style=3D"font-family: gt-eesti, Helvetica, Ar=
+ial, sans-serif; padding-bottom: 36px; border: none;" width=3D"100%">
+				<tbody>
+					<tr>
+						<td>
+						<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"content-img" style=3D"max-width: 500px;">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"edit_link_img" valign=3D"top" width=
+=3D"100%"><a href=3D"https://link.community.blablacar.com/ls/click?upn=3D9v=
+58Y93UoKfVdq3QfqorYWrD-2F0-2B8teaRd-2Bc48q-2BZ5oAusdbzHTxrCF-2BTO-2BBwgZ3J5=
+OApGpKyyZJCYm4QbHLqBPbKdo7W5H8C0yM3qE7YqvddXQG5lVfmDWVUypB4hrD91u9ShAwPA9xZ=
+oJVq0VuYVw-3D-3DSdxd_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZRXOsUB3FkFQaHxt1TeUkilgCR=
+h-2FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-2F-2Fgz1JSOoHDRXVtk-2FaM=
+JIZ9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX43rQOm4I2RXkOf4XGnXYafahcoAzod8lv=
+y5bQnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwXkgWXFtXvd4fCcF9U-2BTPzMkblLJJRtOG=
+tdfA4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlzVO2E88BxiG4MGK35zN3zmBiqKdts-2Fbo=
+GlR1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqslKBvUSKrzBWHZiUP0ahFgcEqe8pXuqxE0=
+oNaVLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW6JryWKr-2BzwN9u7SKHiq34g=
+lhX3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb1KJAHk9VEqKTTosuz2W56eMpWrClNh1xO=
+MSI-2BCOrYeekEX1buvMO-2BqHEVbQoGqDqAyBQr6ILtmkTyXh-2FxlN0RaVxQ-2BgLLBoq3Kie=
+qUAccFRgA0KTYSZ6suaLiBP1va5wtYxYDFzJPkc0gz-2B-2ByKndBBUdCQ-3D-3D" title=3D"=
+BlaBlaCar"><img alt=3D"BlaBlaCar" src=3D"https://cdn.braze.eu/appboy/commun=
+ication/assets/image_assets/images/604a1a92504ac501a9bbd9ff/original.jpg?16=
+15469202"  style=3D"max-width: 500px; width: 100%; max-height: 110px;"></a>=
+</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+<!--END OF PSGR SAFETY MEASURES BANNER IMAGE -->
+<!-- instead of the footer -->
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"email-subject" style=3D"max-width: 500px; border=
+-radius: 0px 0px 0 0;" width=3D"500">
+	<tbody>
+		<tr>
+			<td align=3D"center" class=3D"edit_link_img" valign=3D"top" width=3D"100=
+%"><a href=3D"https://link.community.blablacar.com/ls/click?upn=3D9v58Y93Uo=
+KfVdq3QfqorYWrD-2F0-2B8teaRd-2Bc48q-2BZ5oC3NjI78MIgENoeCzUtYn4XYrqfP43BG0dt=
+Ck6QfizEBdP-2BKj9HrOEjN25aLmfNqHU-3Dw8KF_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZRXOsU=
+B3FkFQaHxt1TeUkilgCRh-2FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-2F-2=
+Fgz1JSOoHDRXVtk-2FaMJIZ9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX43rQOm4I2RXkO=
+f4XGnXYafahcoAzod8lvy5bQnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwXkgWXFtXvd4fCc=
+F9U-2BTPzMkblLJJRtOGtdfA4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlzVO2E88BxiG4MG=
+K35zN3zmBiqKdts-2FboGlR1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqslKBvUSKrzBWHZ=
+iUP0ahFgcEqe8pXuqxE0oNaVLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW6Jry=
+WKr-2BzwN9u7SKHiq34glhX3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb1KJAvMwlAvboT=
+Gc6G3ecYYXRc1jKJxC9X7qVTY7PlO9MQ68F0dSWGu9uYRFN-2F7LZHAwKZetKfM90MNPlc9ApPd=
+sBuTuFEj2Zw96HFaqP2w8SNhplvn-2FptfNcSj7vZaIKZ6nAIx-2BOp2KQRBQ4uslgH-2BuCUQ-=
+3D-3D" title=3D"BlaBlaCar"><img alt=3D"BlaBlaCar" src=3D"https://cdn.appboy=
+.eu/appboy/communication/assets/image_assets/images/5a057b2b18dd6f50afe88e3=
+2/original.?1510308651" style=3D"color: rgb(65, 61, 53); background-color: =
+rgb(255, 255, 255); font-family: Helvetica, Arial, sans-serif; border: none=
+;" title=3D"BlaBlaCar"></a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"24"=
+ cellspacing=3D"0" class=3D"email-subject" width=3D"500px">
+	<tbody>
+		<tr>
+			<td align=3D"center" class=3D"edit_link" valign=3D"middle">
+<!-- APP DOWNLOAD TITLE -->
+			<p style=3D"color: #708c91; font-family: Helvetica, Arial, sans-serif; t=
+ext-decoration: none; font-size: 16px;"><a href=3D"https://link.community.b=
+lablacar.com/ls/click?upn=3D9v58Y93UoKfVdq3QfqorYdI-2BKUJVgDXd1gtk0387CmwCB=
+-2FA2wT10lCZ6kvj0ZHXoxMfXuY1CpTU5xk9SSn8a2NEhfm1puIvTbdKNmyiSOUqwo-2BDOuWDs=
+OiThBkkdOwATcqw5ACJA3XhD1ZVVnDvFNg-3D-3D3hQj_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZR=
+XOsUB3FkFQaHxt1TeUkilgCRh-2FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-=
+2F-2Fgz1JSOoHDRXVtk-2FaMJIZ9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX43rQOm4I2=
+RXkOf4XGnXYafahcoAzod8lvy5bQnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwXkgWXFtXvd=
+4fCcF9U-2BTPzMkblLJJRtOGtdfA4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlzVO2E88Bxi=
+G4MGK35zN3zmBiqKdts-2FboGlR1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqslKBvUSKrz=
+BWHZiUP0ahFgcEqe8pXuqxE0oNaVLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW=
+6JryWKr-2BzwN9u7SKHiq34glhX3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb1KJAMaeMl=
+JozOonFo4NNhxNvbTwDISlmx03Dw2C0o8F1Zf9sUEjkTB6jhHkfKl-2FiioFGK0iKO7s5r3o9Rl=
+ybHq7ZTl5cBAlXVUcMwBa-2BRFEQPzmL7rJeMu7FsIL-2BIwmV-2FafS2m21kvkvS404acRSJUr=
+XYg-3D-3D" style=3D"text-decoration: none; color: #2DBEFF;" title=3D"
+						=D0=A1=D0=BA=D0=B0=D1=87=D0=B0=D1=82=D1=8C =D0=BF=D1=80=D0=B8=D0=BB=
+=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5
+						"><!-- APP DOWNLOAD TEXT CONTENT --> =D0=A1=D0=BA=D0=B0=D1=87=D0=B0=
+=D1=82=D1=8C =D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 <=
+/a> | <!-- FAQ URL FOLLOWED BY TITLE --> <a href=3D"https://link.community.=
+blablacar.com/ls/click?upn=3D9v58Y93UoKfVdq3QfqorYfn5z1f5V-2FhjX4XnUleuYgln=
+-2BrvSFh2f-2B520QdRFogLdyIMB_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZRXOsUB3FkFQaHxt1T=
+eUkilgCRh-2FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-2F-2Fgz1JSOoHDRX=
+Vtk-2FaMJIZ9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX43rQOm4I2RXkOf4XGnXYafahc=
+oAzod8lvy5bQnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwXkgWXFtXvd4fCcF9U-2BTPzMkb=
+lLJJRtOGtdfA4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlzVO2E88BxiG4MGK35zN3zmBiqK=
+dts-2FboGlR1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqslKBvUSKrzBWHZiUP0ahFgcEqe=
+8pXuqxE0oNaVLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW6JryWKr-2BzwN9u7=
+SKHiq34glhX3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb1KJAFqLhZcUcgY-2BrUoz47rK=
+QScs7VQHvxhO5Kr6-2F50FM9atTdG7FrkHVhb7MFJtuX-2BuevlliWp7bk7-2FC44-2BnrckHu5=
+EAL23cjrZKfNZgqcIJ5tq09z7WB8ozwmUcG9V4NFUIQU4DYuV16MwpNU-2BptqoS0A-3D-3D" s=
+tyle=3D"text-decoration: none; color: #2DBEFF;" title=3D"
+						=D0=92=D0=BE=D0=BF=D1=80=D0=BE=D1=81=D1=8B
+						"> =D0=92=D0=BE=D0=BF=D1=80=D0=BE=D1=81=D1=8B </a></p>
+
+			<p style=3D"color: #708c91; font-family: Helvetica, Arial, sans-serif; t=
+ext-decoration: none; font-size: 12px;">=D0=AD=D1=82=D0=BE =D1=81=D0=BE=D0=
+=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B1=D1=8B=D0=BB=D0=BE =D0=BE=D1=
+=82=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE =D0=9E=D0=B1=D1=89=D0=
+=B5=D1=81=D1=82=D0=B2=D0=BE=D0=BC =D1=81 =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=
+=B8=D1=87=D0=B5=D0=BD=D0=BD=D0=BE=D0=B9 =D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=
+=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D1=8C=D1=8E "=D0=9A=D0=
+=BE=D0=BC=D1=8C=D1=8E=D1=82=D0=BE =D0=A0=D1=83=D1=81". =D0=95=D1=81=D0=BB=
+=D0=B8 =D0=B2=D1=8B =D0=B1=D0=BE=D0=BB=D1=8C=D1=88=D0=B5 =D0=BD=D0=B5 =D1=
+=85=D0=BE=D1=82=D0=B8=D1=82=D0=B5 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B0=D1=
+=82=D1=8C =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=B0 =D0=BE=D1=82 =D0=BD=D0=B0=D1=
+=81, =D0=B2=D1=8B =D0=BC=D0=BE=D0=B6=D0=B5=D1=82=D0=B5=C2=A0<a href=3D"http=
+s://link.community.blablacar.com/ls/click?upn=3D9v58Y93UoKfVdq3QfqorYYHfIav=
+DR-2Ft0Gc4Bq42wHW6OCvkU-2BEMqX52NEao7enAWvtKN8ZL4d2xlIVrZV-2F9quUOdcwGSN4tt=
+7GtXXW6LCHs-2B4mUJrtuoPTAZIvulbfydFR7jniLhK60ToJpyXfBxpwORhlUpdswcDsY-2BUaU=
+7yVnl2sg4p4Ay09Dl-2FnhGC6McOYJNaVPngR-2BoU3D8oOfrEuwsOAjf7c7Z1IByyL1uLAD7UH=
+KJhqczyEiSGiumAkDFWFgmZJe23yCgi1hh0KGBTXAxFlOPd5Sz2RrY0VfdXRKF-2B7z60w5wNEJ=
+nO-2FMTRHEvuy6x13h9LG1zDQNlGqG0163gvCF5cUQohuuWto-2BYAuD0Vp95vCrX7iGG4HS0Vj=
+ubx-2B47c-2F-2FyamzY2802l9dzvPPnoI1vm1R3xM-2BOFzEWW1xdJGGr4XzJlvUbTWT9dAbto=
+wKkVE8eFs9hFTWs5ynHD591o0wKfYIDYfL35Tj0QcaFpL0EKYto-2FXrYY66nJ32-2BU5XlEECl=
+J5TXUQ3WvWREYuVt0eOFW6AKAcS9Ouu0CpTC6FPDDBAqxu6QF51H0-2BQciglvE9hOs0p-2Firs=
+ulLxStw-3D-3Dq80n_ZZ-2FdeVdetDNx6HMmNR-2FiS-2BZRXOsUB3FkFQaHxt1TeUkilgCRh-2=
+FuUMPrhHhGKnAppTS9pvSn6p0NFNQOUjdw6UOSRQvBVxHT1-2F-2Fgz1JSOoHDRXVtk-2FaMJIZ=
+9QP6anRF3pVIZ4recpsXQsH2imufKIx-2BVtoxX43rQOm4I2RXkOf4XGnXYafahcoAzod8lvy5b=
+QnN7A8DfL-2F1cBwRaNRorZ-2FdDazu7axOWLwXkgWXFtXvd4fCcF9U-2BTPzMkblLJJRtOGtdf=
+A4sFUowXMpCcerKCH6ChkCQs9oYgbDzIf-2FDlzVO2E88BxiG4MGK35zN3zmBiqKdts-2FboGlR=
+1FjrdWO7HOQuNbiHJhGH39-2FpQPwo5hAaeuwqslKBvUSKrzBWHZiUP0ahFgcEqe8pXuqxE0oNa=
+VLVPx4lKhnRvCx1wTmDiSURLmAc7Mfj-2FbGC8-2BlH9S4EW6JryWKr-2BzwN9u7SKHiq34glhX=
+3N-2BDglK3VKSOLD1GYrSndj2-2BjkfnmevV2vb1KJAVTGzTAye3-2B8SeDG-2FtqfjRdJee1uF=
+FkaLu3RWes9n6a54QRBPB8IGWCu5LfA7DUOw8iSjmcG6Xs0BqcOYkaZcNAFiRgB68M-2BNsAuna=
+Y9gQtF8cNjs2d85W5xYCoR0ORMKkRmzg-2Bn3bx0nlLES52-2FebQ-3D-3D" style=3D"text-=
+decoration: none; color: #2DBEFF;" title=3D"=D0=BE=D1=82=D0=BF=D0=B8=D1=81=
+=D0=B0=D1=82=D1=8C=D1=81=D1=8F">=D0=BE=D1=82=D0=BF=D0=B8=D1=81=D0=B0=D1=82=
+=D1=8C=D1=81=D1=8F</a>. </p>
+			<!-- End of Email Subject Link -->
+</td>
+		</tr>
+	</tbody>
+</table>
+ <!-- END OF footer -->
+</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</center>
+<grammarly-desktop-integration data-grammarly-shadow-root=3D"true"></gramma=
+rly-desktop-integration>
+<img src=3D"https://link.community.blablacar.com/wf/open?upn=3D-2FJ568W9oAw=
+vSAcCh5mLX2zCyDUlLQKmRVhE1B0rxs0HmVRJxdzYlb-2FZEXDsljkvCoFUJ3yOwgLHUbCg6w6T=
+x5LUe9eTF-2BEbVnXgHNXfreKYg65zx4xJgl3YzFSUxeUVipXfFhzkqWwCmheVvNNWMVgu4TSsY=
+-2Bvl5iugtPdSzahB1rR9Jr3S6PYypkaXNC3nDjwCDeyEcGJCZp7gxXs5dSje3ZvKNHXPj9xKFb=
+inwyqlinVQHeHxqxQUK5rl2TR3T7bYNzhkrAd8mIJ1PyRiYfMV77qSuufQXsmdCTAfHYPmB0m8s=
+-2B6QE8UoVQFXi8m-2FW91zjds4b5cH9sGLWZXsAh1iStJAyFQ-2BBPg3ffmlmX-2FsGeIkGAj7=
+ID8uQPztS58wVUxjsZkmrPJgOwMZdf7GM2QQ5CJzu1B51f0DZrDgqe03okZ-2FwPOpwCDToDCwE=
+cO0x5syxpxf-2FMy4xI9UCanB5L9BXqh0C-2FbUJ42KaWhaqAaD7TMNn3J2U-2Bea7wY9LhiMYZ=
+PUv1SZ8Jlw2Ad5DQqafZj2vJqI2B4V9eYO5-2B9dB9BqQ7Oxm2-2Fd5dC7gWkKXKsgbNS3xVobZ=
+RPwrq2UpTXNmoARG06uFPTQTeoTJmrJ-2FHOB-2FpFk189k0RU0gqpu7hnDDN3tSKY8f7ykPSuF=
+8-2Bn5adQ-3D-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"he=
+ight:1px !important;width:1px !important;border-width:0 !important;margin-t=
+op:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin=
+-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;pad=
+ding-right:0 !important;padding-left:0 !important;"/></body>
+</html>
+
+--ed485c2ea9aed4edb18689b3d3582d93ac71d76d766a24455355a63ea7f1--

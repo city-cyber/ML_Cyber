@@ -1,0 +1,96 @@
+﻿[
+    {
+        "Id": "sha256:7d25a965829cb71cc6f8015cfdec5f1501d8db0d62bcbfe9f2732c27d4475652",
+        "RepoTags": [
+            "project-antispam:latest"
+        ],
+        "RepoDigests": [
+            "project-antispam@sha256:7d25a965829cb71cc6f8015cfdec5f1501d8db0d62bcbfe9f2732c27d4475652"
+        ],
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2026-10-17T09:23:13.769979824Z",
+        "Config": {
+            "User": "10001:10001",
+            "ExposedPorts": {
+                "8000/tcp": {}
+            },
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "PYTHON_VERSION=3.14.8",
+                "PYTHON_SHA256=c2215904f02b175596dc49351585104f4bc20341e1c47378b26a2c274360ce73",
+                "PYTHONDONTWRITEBYTECODE=1",
+                "PYTHONUNBUFFERED=1",
+                "PIP_NO_CACHE_DIR=1",
+                "OMP_NUM_THREADS=1",
+                "OPENBLAS_NUM_THREADS=1",
+                "MODEL_DIR=/app/microservice/app/model"
+            ],
+            "Cmd": [
+                "python",
+                "-m",
+                "uvicorn",
+                "microservice.app.main:app",
+                "--host",
+                "0.0.0.0",
+                "--port",
+                "8000",
+                "--workers",
+                "1"
+            ],
+            "WorkingDir": "/app",
+            "Labels": {
+                "com.docker.compose.project": "project-antispam",
+                "com.docker.compose.service": "antispam",
+                "com.docker.compose.version": "5.0.2"
+            },
+            "ArgsEscaped": true,
+            "Healthcheck": {
+                "Test": [
+                    "CMD",
+                    "python",
+                    "-c",
+                    "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3).read()"
+                ],
+                "Interval": 15000000000,
+                "Timeout": 5000000000,
+                "StartPeriod": 30000000000,
+                "Retries": 3
+            }
+        },
+        "Architecture": "arm64",
+        "Os": "linux",
+        "Size": 129847149,
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:258ba1f62b513e7bb7492d3cc8ce445e4ef176a14980f193f789b6d7270ae61c",
+                "sha256:0d28c26ef7cf7daacc169805bfd261c0d18106a4388ccc6b91f79fdc47c38828",
+                "sha256:54d103c61570dcb43cbb7f20991a504ec35d806ec1cbb544d0ba472e888a5775",
+                "sha256:c98323d9894a33597651071801dfd1f045981fece77bea5118e89efaa5ca6d2b",
+                "sha256:84b78f3fc891d4dec4e5c9f6cd0df211f93c31207d53d3031195e5733e4e5229",
+                "sha256:5a58ce66d0cdf383ca1f7c9606479dff106d06e4875a5d66ac554e561af06c9a",
+                "sha256:12e4d38e9d0977774e4c9d774f3fe586aa751d24b918c57bdf2a20d61c75a00f",
+                "sha256:9fdf05b40484ba0062bea03fb7ce0d79fabc4023f9ab34d4deca4a7fd1cd304c",
+                "sha256:61b8d395f6b8d59e4ef5937dcf987d49d4e548def87a0cc5183246b683ad01e7",
+                "sha256:e2066d7cc1574992c4a7962ad061be02b111b5359724b5bcde6aa50d96d8b55e",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2026-10-17T09:23:14.080325425Z"
+        },
+        "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:7d25a965829cb71cc6f8015cfdec5f1501d8db0d62bcbfe9f2732c27d4475652",
+            "size": 856
+        },
+        "Identity": {
+            "Build": [
+                {
+                    "Ref": "xm7ikt23lrrgmpynfovjd28xr",
+                    "CreatedAt": "2026-10-17T09:23:14.183639214Z"
+                }
+            ]
+        }
+    }
+]

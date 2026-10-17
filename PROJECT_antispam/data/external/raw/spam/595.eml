@@ -1,0 +1,847 @@
+Return-path: <bounce.29c10a000040319200000222@s1.mbx-sender-01.ru>
+Original-recipient: rfc822;megaman@icloud.com
+Received: from pv33p00im-smtpin011.me.com by p13-mailgateway-smtp-5696bc7d6c-crffb (mailgateway 2212B226)
+	with SMTP id aa680df6-38e7-4298-a1a3-e78bae2dda07 
+	for <megaman@icloud.com>; Tue, 12 Apr 2022 06:27:34 GMT
+X-Apple-MoveToFolder: Junk 
+X-Apple-Action: CLXJUNK/Junk
+X-Apple-UUID: aa680df6-38e7-4298-a1a3-e78bae2dda07
+Received: from s1.mbx-sender-01.ru (s1.mbx-sender-01.ru [185.99.9.136])
+	by pv33p00im-smtpin011.me.com (Postfix) with ESMTPS id D08D82E0AF8
+	for <megaman@icloud.com>; Tue, 12 Apr 2022 06:27:30 +0000 (UTC)
+X-ICL-SCORE: 4.3330340300
+X-ICL-INFO: GAtbVUweBVFGSVVDSAMGUldZCh4MXUMRSFsIVVhDQ19XGgoPWhBTBkhbBBgNXlUHW0tfFEkAV1JF
+ SVZDSAMHW0dJVkdIAARQRzkVRlZdVBpYCgMZHFVET0VISAUNEhYEEUREBAhfRBYTFgkTTAAYEABb
+ RgQRQAtAREFTWUEJGFtbSFVBWhBeBxkWW1ULARgPFwFLBB1eUgcHVFZGVkJDQFUJEgVFEkVTWxQE
+ D1VDUwwRHBRaSAEYEABbRhMcDRQRBRYUAx5fWQZBSUgFDRxFU1sUBA9VQ1MMERwUWkgBGBAAW0Ya
+ EVQLQElLXxRJAFdSRUlWQ0gDB1tHSVZHSAAEUEc5FUZWXVQaWAoDGRxVRE9FSEgFDQ4UQgcaW1UR
+ RlcMGg85DgtwXwEZFhMTVlNZD1c=
+x-spam-flag: yes
+x-suspected-spam: true
+Authentication-Results: dmarc.icloud.com; dmarc=pass header.from=sportfood40.ru
+x-dmarc-info: pass=pass; dmarc-policy=none; s=r0; d=r1
+x-dmarc-policy: v=DMARC1; p=none; aspf=r; sp=none
+Authentication-Results:dkim-verifier.icloud.com;
+	dkim=pass (1024-bit key) header.d=sportfood40.ru header.i=@sportfood40.ru header.b=dEGcvlUc
+Authentication-Results:dkim-verifier.icloud.com;
+	dkim=pass (1024-bit key) header.d=s1.mbx-sender-01.ru header.i=@s1.mbx-sender-01.ru header.b=fb3raZxP
+Authentication-Results: spf.icloud.com; spf=pass (spf.icloud.com: domain of bounce.29c10a000040319200000222@s1.mbx-sender-01.ru designates 185.99.9.136 as permitted sender) smtp.mailfrom=bounce.29c10a000040319200000222@s1.mbx-sender-01.ru
+Received-SPF: pass (spf.icloud.com: domain of bounce.29c10a000040319200000222@s1.mbx-sender-01.ru designates 185.99.9.136 as permitted sender) receiver=spf.icloud.com; client-ip=185.99.9.136; helo=s1.mbx-sender-01.ru; envelope-from=bounce.29c10a000040319200000222@s1.mbx-sender-01.ru
+Content-Type: text/html;
+ charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Date: Tue, 12 Apr 2022 09:27:30 +0300
+Message-ID: <29c10a000040319200000222@s1.mbx-sender-01.ru>
+Subject: =?utf-8?B?0J/QsNC00LXQvdC40LUg0YbQtdC9IPCfmYIrMzAg0LHRgNC10L3QtNC+?=
+ =?utf-8?B?0LIg0LTQviAtNzAlIPCfkYk=?=
+From: "SPORTFOOD40.RU" <no-reply@sportfood40.ru>
+To: <megaman@icloud.com>
+Reply-To: "SPORTFOOD40.RU" <no-reply@sportfood40.ru>
+Precedence: bulk
+List-Unsubscribe: <mailto:list.29c10a000040319200000222@s1.mbx-sender-01.ru>
+X-xsMessageId: 29c10a000040319200000222
+X-xsMailingId: 704809
+X-Mailru-Msgtype: 704809
+List-ID: <batch704809.list-id.sportfood40.ru>
+Feedback-ID: 704809:770:mindbox
+DKIM-Signature: v=1;
+ a=rsa-sha256;
+ s=mindbox;
+ d=sportfood40.ru;
+ c=relaxed/relaxed;
+ q=dns/txt;
+ h=From:To:Subject;
+ bh=Tz1OqlsuruIzIGiJiEd0SqIWdLzmEZxd2G4Y9I8u1Zs=;
+ b=dEGcvlUcUoaGoqIVIO35Di9ILevhWyPqtvs9uS969ldh+Nq6mhQxRXzuiQtD21Y4/thBUP8ZCCeze7ok+WsZ8JA7J+wdmNjIa49Qrb2XCeKeGo21BtBfZTkcLd6nNjP5lIC75h5iqmVAmhAQn9B5oh4Zu5/NYi9IF33HFMdjDyw=
+DKIM-Signature: v=1;
+ a=rsa-sha256;
+ s=mindbox;
+ d=s1.mbx-sender-01.ru;
+ c=relaxed/relaxed;
+ q=dns/txt;
+ h=From:To:Subject;
+ bh=Tz1OqlsuruIzIGiJiEd0SqIWdLzmEZxd2G4Y9I8u1Zs=;
+ b=fb3raZxPr/9cTt2bZw0BYNAuZHcxpYHRyridO07JPtZ74nEProOZkQ53mEQ1WfdgAbyd8P9pgIW3nhRj/rwxr8G0Qf8fLH9wRkvteHwG5W9bqpzzdasJ2MAGTowlZmS2PjzOWpzxv39lt7FZUTpSaA8Qj5qtBC0zKfXcWP1+TGU=
+X-MANTSH: 1TEIXWlwZHFoaGkNHB0tNT0ReQ0QeHBsdEQpMQxcbGgQbGxgEHBMEGBgfEBseGh8
+ aEQpMWRcHGxgdEQpZRBdnX2R5SQVlU0FrRBEKWU0XYF9EQREKWUkXGnEaEBp3BgcbGh1xGBAZH
+ ncGBxgaBhoRClleF2xseREKQ04XB1xTTXJLXGZ7GxobSR9+YmwZYHt/Ux5HZWllHXJbExwRClh
+ cFxkEGgQeHAdLHxsZG0wdGwUbHQQbHhgEGxMTBBsaGBAbHhofGhEKXlkXcENZaF8RCk1cFxscG
+ xEKTFoXbmxiTU1dEQpMRhdNTWsRCkNaFxsSHwQTEwQTBBsZHBEKQl4XGxEKQkYXZ1pvWh58bFo
+ YWGcRCkJHF2Vca2VvE2JhZlpPEQpCXBcbEQpeThcbEQpCSxd6c2hlcAVSGHBoYREKQkkXenNoZ
+ XAFUhhwaGERCkJFF24eUl5QXVtHE0V/EQpCThd6c2hlcAVSGHBoYREKQkwXbEJtHEVrSG8ae2g
+ RCkJsF2NbHnpARmhPUGJuEQpCQBdmQVIZX1xZY1kYbBEKQlgXbmgSeGRuWH18WhsRClpYFx8RC
+ nBoF2hGfG8bHAFBGmNpEAcbEhEKcGgXb3xpQ0hAY2dgRhMQBxITEQpwaBdiS25pU0l5WktHQhA
+ HEhgRCnBoF2xvcnkYeXxYW09oEAcSGhEKcGgXZB1mWBgFRGVNYR4QBxIaEQpwfRdsHGsTRE9HY
+ n8fHxAaEQpwfRdtGnNSYRtaHl9IbBAaEQpwfRdsBX9wHX5DXFt7ExAHGRoRCnB9F2dtX0ZBfmV
+ NHlpAEBoRCnB9F2sBYWBBTxpwGVlkEBoRCnB9F2x9T1pAHnBBSGlAEBoRCnB9F24cGGNZbVpFZ
+ GMSEBoRCnB9F2hbYRJTSRJcSxxrEBoRCnB9F2hGTW1PSUZHAWdlEBoRCnB/F2FQSFB6cEVGW2t
+ gEAcYGBEKcF8XZG4BbXhaT1AeU1MQBxkaEQpwXxdiTB1CaH9ze1hCWxAHGRoRCnB/F2BIS1h/T
+ G5eYEJ5EAceHREKcF8XbltkbWJZQF8caWIQBx4aEQpwXxdoGl1ua1N4a31HZhAHGRoRCnBfF21
+ dHVNTbGlzGU1bEAcZGhEKcF8XYG9Sc0RGfX1EBWgQBxkaEQpwXxdlQ1J7ZhNQHll+UxAHGRoRC
+ nBfF2QcYmdrQxx7c25OEAcZGhEKcF8XbFxvXlgeUmVuGEIQBxkaEQpwbBdobHwBUn9lYFp/axA
+ HGRoRCm1+FxoRClhNF0sR
+X-CLX-Shades: Junk
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www=
+.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=0A<html xmlns=3D"http://www=
+.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"ur=
+n:schemas-microsoft-com:office:office">=0A=0A<head>=0A	<!--[if gte mso 9]><=
+xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPer=
+Inch></o:OfficeDocumentSettings></xml><![endif]-->=0A	<meta http-equiv=3D"C=
+ontent-Type" content=3D"text/html; charset=3Dutf-8">=0A	<meta name=3D"viewp=
+ort" content=3D"width=3Ddevice-width">=0A	<!--[if !mso]><!-->=0A	<meta http=
+-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=0A	<!--<![endif]-->=0A	<t=
+itle></title>=0A	<!--[if !mso]><!-->=0A	<!--<![endif]-->=0A	<style type=3D"=
+text/css">=0A		body {=0A			margin: 0;=0A			padding: 0;=0A		}=0A=0A		table,=
+=0A		td,=0A		tr {=0A			vertical-align: top;=0A			border-collapse: collapse;=
+=0A		}=0A=0A		* {=0A			line-height: inherit;=0A		}=0A=0A		a[x-apple-data-de=
+tectors=3Dtrue] {=0A			color: inherit !important;=0A			text-decoration: non=
+e !important;=0A		}=0A	</style>=0A	<style type=3D"text/css" id=3D"media-que=
+ry">=0A		@media (max-width: 690px) {=0A=0A			.block-grid,=0A			.col {=0A			=
+	min-width: 320px !important;=0A				max-width: 100% !important;=0A				displ=
+ay: block !important;=0A			}=0A=0A			.block-grid {=0A				width: 100% !impor=
+tant;=0A			}=0A=0A			.col {=0A				width: 100% !important;=0A			}=0A=0A			.c=
+ol_cont {=0A				margin: 0 auto;=0A			}=0A=0A			img.fullwidth,=0A			img.full=
+widthOnMobile {=0A				width: 100% !important;=0A			}=0A=0A			.no-stack .col=
+ {=0A				min-width: 0 !important;=0A				display: table-cell !important;=0A	=
+		}=0A=0A			.no-stack.two-up .col {=0A				width: 50% !important;=0A			}=0A=
+=0A			.no-stack .col.num2 {=0A				width: 16.6% !important;=0A			}=0A=0A			.=
+no-stack .col.num3 {=0A				width: 25% !important;=0A			}=0A=0A			.no-stack =
+.col.num4 {=0A				width: 33% !important;=0A			}=0A=0A			.no-stack .col.num5=
+ {=0A				width: 41.6% !important;=0A			}=0A=0A			.no-stack .col.num6 {=0A		=
+		width: 50% !important;=0A			}=0A=0A			.no-stack .col.num7 {=0A				width: =
+58.3% !important;=0A			}=0A=0A			.no-stack .col.num8 {=0A				width: 66.6% !=
+important;=0A			}=0A=0A			.no-stack .col.num9 {=0A				width: 75% !important=
+;=0A			}=0A=0A			.no-stack .col.num10 {=0A				width: 83.3% !important;=0A		=
+	}=0A=0A			.video-block {=0A				max-width: none !important;=0A			}=0A=0A			=
+.mobile_hide {=0A				min-height: 0px;=0A				max-height: 0px;=0A				max-widt=
+h: 0px;=0A				display: none;=0A				overflow: hidden;=0A				font-size: 0px;=
+=0A			}=0A=0A			.desktop_hide {=0A				display: block !important;=0A				max-=
+height: none !important;=0A			}=0A=0A			.img-container.big img {=0A				widt=
+h: auto !important;=0A			}=0A		}=0A	</style>=0A</head>=0A=0A<body class=3D"=
+clean-body" style=3D"margin: 0; padding: 0; -webkit-text-size-adjust: 100%;=
+ background-color: #FFFFFF;">=0A	<!--[if IE]><div class=3D"ie-browser"><![e=
+ndif]-->=0A	<table class=3D"nl-container" style=3D"table-layout: fixed; ver=
+tical-align: top; min-width: 320px; border-spacing: 0; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #FFF=
+FFF; width: 100%;" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation=
+" width=3D"100%" bgcolor=3D"#FFFFFF" valign=3D"top">=0A		<tbody>=0A			<tr s=
+tyle=3D"vertical-align: top;" valign=3D"top">=0A				<td style=3D"word-break=
+: break-word; vertical-align: top;" valign=3D"top">=0A					<!--[if (mso)|(I=
+E)]><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=
+<tr><td align=3D"center" style=3D"background-color:#FFFFFF"><![endif]-->=0A=
+					<div style=3D"background-color:transparent;">=0A						<div class=3D"bl=
+ock-grid " style=3D"min-width: 320px; max-width: 670px; overflow-wrap: brea=
+k-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; back=
+ground-color: transparent;">=0A							<div style=3D"border-collapse: collap=
+se;display: table;width: 100%;background-color:transparent;">=0A								<!-=
+-[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" style=3D"background-color:transparent;"><tr><td align=3D"cente=
+r"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:6=
+70px"><tr class=3D"layout-full-width" style=3D"background-color:transparent=
+"><![endif]-->=0A								<!--[if (mso)|(IE)]><td align=3D"center" width=3D"=
+670" style=3D"background-color:transparent;width:670px; border-top: 0px dot=
+ted transparent; border-left: 0px dotted transparent; border-bottom: 0px do=
+tted transparent; border-right: 0px dotted transparent;" valign=3D"top"><ta=
+ble width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td=
+ style=3D"padding-right: 0px; padding-left: 0px; padding-top:0px; padding-b=
+ottom:0px;"><![endif]-->=0A								<div class=3D"col num12" style=3D"min-wi=
+dth: 320px; max-width: 670px; display: table-cell; vertical-align: top; wid=
+th: 670px;">=0A									<div class=3D"col_cont" style=3D"width:100% !import=
+ant;">=0A										<!--[if (!mso)&(!IE)]><!-->=0A										<div style=3D"bo=
+rder-top:0px dotted transparent; border-left:0px dotted transparent; border=
+-bottom:0px dotted transparent; border-right:0px dotted transparent; paddin=
+g-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;">=0A	=
+										<!--<![endif]-->=0A											<div class=3D"html_block" style=3D"=
+font-size:16px;text-align:center;font-family:Arial, Helvetica Neue, Helveti=
+ca, sans-serif">=0A												<style>=0A													html {=0A												=
+		-webkit-text-size-adjust: none;=0A														-ms-text-size-adjust: non=
+e;=0A													}=0A=0A													@media only screen and (min-device-wi=
+dth: 640px) {=0A														.table640 {=0A															width: 640px !im=
+portant;=0A														}=0A													}=0A=0A													@media only s=
+creen and (max-device-width: 640px),=0A													only screen and (max-wi=
+dth: 640px) {=0A														table[class=3D"table640"] {=0A															=
+width: 100% !important;=0A														}=0A=0A														td[class=3D"mo=
+b-center"],=0A														td.mob-center {=0A															text-align: ce=
+nter !important;=0A														}=0A=0A														table[class=3D"mob-ce=
+nter"],=0A														table.mob-center {=0A															margin: 0 auto =
+!important;=0A														}=0A=0A														div[class=3D"mob-hide"],=
+=0A														.mob-hide {=0A															display: none !important;=0A	=
+													}=0A													}=0A=0A													.table640 {=0A											=
+			width: 640px;=0A													}=0A												</style>=0A=0A=0A										=
+		<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" st=
+yle=3D"font-size: 1px; line-height: normal;">=0A													<tr>=0A							=
+							<td align=3D"center" bgcolor=3D"#ffffff" style=3D"background-color: =
+#ffffff;">=0A=0A															<table cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" border=3D"0" class=3D"table640" style=3D"max-width: 640px; mi=
+n-width: 320px; width: 100%;">=0A=0A																<tr>=0A																=
+	<td align=3D"center" height=3D"100%" valign=3D"top" width=3D"100%" style=
+=3D" padding: 0 10px; padding-left: 10px; padding-right: 10px; border-botto=
+m: 1px solid #e4e4e4">=0A=0A																		<table align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"max-wid=
+th:590px;">=0A																			<tr>=0A																				<td height=3D"7=
+" colspan=3D"2" style=3D"line-height: 7px; font-size: 0;">=C2=A0</td>=0A			=
+																</tr>=0A																			<tr>=0A																				<td a=
+lign=3D"left" style=3D"font-family: Arial, sans-serif; font-size: 11px; col=
+or: #f36415; line-height: 24px;">=0A																					=D0=98=D0=BD=D1=82=
+=D0=B5=D1=80=D0=BD=D0=B5=D1=82-=D0=BC=D0=B0=D0=B3=D0=B0=D0=B7=D0=B8=D0=BD =
+=D1=81=D0=BF=D0=BE=D1=80=D1=82=D0=B8=D0=B2=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=
+=D0=B8=D1=82=D0=B0=D0=BD=D0=B8=D1=8F=0A																				</td>=0A								=
+												<td align=3D"right" style=3D"font-family: Arial, sans-serif; fo=
+nt-size: 11px; color: #000000; line-height: 24px;">=0A																					=
+<a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/jx0SAg/TrbI_uRxXrKOYcA=
+v/?u=3Dhttps%3A%2F%2F33a376.mck1.ru%2Fv%2FKcEKAABAMZIAAAIi%2F2s12csqHJFsyBp=
+hP%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassy=
+lka-2022.04.12" target=3D"_blank" style=3D"color: #f36415;">=D0=92=D0=B5=D0=
+=B1-=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F</a>=0A																				</td>=0A=
+																			</tr>=0A																			<tr>=0A																				<t=
+d height=3D"7" colspan=3D"2" style=3D"line-height: 7px; font-size: 0;">=C2=
+=A0</td>=0A																			</tr>=0A																		</table>=0A=0A					=
+												</td>=0A																</tr>=0A=0A=0A=0A																<tr>=
+=0A																	<td align=3D"center" height=3D"100%" valign=3D"top" wid=
+th=3D"100%" style=3D" padding: 0 10px; padding-left: 10px; padding-right: 1=
+0px;">=0A=0A																		<table align=3D"center" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"max-width:590px;">=0A		=
+																	<tr>=0A																				<td height=3D"35" style=3D"line=
+-height: 35px; font-size: 0;">=C2=A0</td>=0A																			</tr>=0A				=
+															<tr>=0A																				<td align=3D"left" height=3D"100%=
+" valign=3D"top" style=3D"padding: 0 20px 0 0; padding-right: 20px;">=0A=0A=
+																					<table align=3D"left" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"100%" style=3D"max-width:188px;">=0A													=
+									<tr>=0A																							<td align=3D"left">=0A														=
+										<a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/kB0SAg/N6_bM=
+V0995mwYR2n/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2F%3Futm_source%3Dmindbox=
+%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" target=3D=
+"_blank" style=3D"outline: none; border: 0;">=0A																									<i=
+mg src=3D"https://email-images.mindbox.ru/704809/4741575/6" width=3D"100%" =
+height=3D"auto" style=3D"width: 100%; height: auto; outline: none; border: =
+0;" />=0A																								</a>=0A																							</td>=0A				=
+																		</tr>=0A																					</table>=0A=0A														=
+						</td>=0A																				<td align=3D"right" height=3D"100%" valig=
+n=3D"middle">=0A=0A																					<table align=3D"right" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"max-width:181p=
+x;">=0A																						<tr>=0A																							<td align=3D"rig=
+ht" style=3D"font-family: Arial, sans-serif; font-size: 18px; color: #231f2=
+0; line-height: 20px; font-weight: bold;">=0A																								<a hre=
+f=3D"tel:74993993160" target=3D"_blank" style=3D"color: #231f20; text-decor=
+ation: none; white-space: nowrap;">=0A																									<span style=
+=3D"color: #231f20;">+7 (499) 399-31-60</span>=0A																								</=
+a>=0A																							</td>=0A																						</tr>=0A									=
+													<tr>=0A																							<td align=3D"right" style=3D"fon=
+t-family: Arial, sans-serif; font-size: 12px; color: #000000; line-height: =
+20px;">=0A																								=D0=95=D0=B6=D0=B5=D0=B4=D0=BD=D0=B5=D0=
+=B2=D0=BD=D0=BE =D1=81 9:30 =D0=B4=D0=BE 20:00=0A																							</t=
+d>=0A																						</tr>=0A																					</table>=0A=0A					=
+															</td>=0A																			</tr>=0A																			<tr>=
+=0A																				<td height=3D"23" style=3D"line-height: 23px; font-s=
+ize: 0;">=C2=A0</td>=0A																			</tr>=0A																		</table=
+>=0A=0A																	</td>=0A																</tr>=0A=0A=0A													=
+			<tr>=0A																	<td bgcolor=3D"#f4f4f4" align=3D"center" height=
+=3D"100%" valign=3D"top" width=3D"100%" style=3D"padding: 0;">=0A=0A							=
+											<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"100%" style=3D"max-width:600px;">=0A																			<t=
+r>=0A																				<td height=3D"5" style=3D"line-height: 5px; font-s=
+ize: 0;">=C2=A0</td>=0A																			</tr>=0A																			<tr>=
+=0A																				<td align=3D"center" valign=3D"top" style=3D"font-si=
+ze:0;">=0A=0A																					<div style=3D"display:inline-block; max-w=
+idth:300px; vertical-align:top; width:100%;">=0A																						<tabl=
+e align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%" style=3D"max-width:340px;">=0A																							<tr>=0A									=
+															<td height=3D"10" colspan=3D"3" style=3D"line-height: 10px; =
+font-size: 0;">=C2=A0</td>=0A																							</tr>=0A															=
+								<tr>=0A																								<td align=3D"center" style=3D"font-f=
+amily: Arial, sans-serif; font-size: 12px; color: #34495e; line-height: 20p=
+x;">=0A																									<a href=3D"https://33a376.mck1.ru/c/KcEKAAB=
+AMZIAAAIi/kR0SAg/iTgc1EmHqIxT6MiS/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fc=
+atalog%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopi=
+yaRassylka-2022.04.12" target=3D"_blank" style=3D"color: #34495e; text-deco=
+ration: none;">=D0=9A=D0=90=D0=A2=D0=90=D0=9B=D0=9E=D0=93</a>=0A											=
+													</td>=0A																								<td align=3D"center" style=3D"=
+font-family: Arial, sans-serif; font-size: 12px; color: #34495e; line-heigh=
+t: 20px;">=0A																									<a href=3D"https://33a376.mck1.ru/c/K=
+cEKAABAMZIAAAIi/kh0SAg/P_5WH0oxHWdwpUOW/?u=3Dhttps%3A%2F%2Fwww.sportfood40.=
+ru%2Fdiscounts%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaig=
+n%3DKopiyaRassylka-2022.04.12" target=3D"_blank" style=3D"color: #34495e; t=
+ext-decoration: none;">=D0=90=D0=9A=D0=A6=D0=98=D0=98 =D0=98 =D0=A1=D0=9A=
+=D0=98=D0=94=D0=9A=D0=98</a>=0A																								</td>=0A												=
+												<td align=3D"center" style=3D"font-family: Arial, sans-serif; f=
+ont-size: 12px; color: #34495e; line-height: 20px;">=0A																				=
+					<a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/kx0SAg/_8TLY9t_Ew=
+siNjrA/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fsales%2F%3Futm_source%3Dmind=
+box%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" target=
+=3D"_blank" style=3D"color: #34495e; text-decoration: none;">=D0=A0=D0=90=
+=D0=A1=D0=9F=D0=A0=D0=9E=D0=94=D0=90=D0=96=D0=90</a>=0A																				=
+				</td>=0A																							</tr>=0A																						</table>=
+=0A																					</div>=0A=0A																					<div style=3D"disp=
+lay:inline-block; max-width:300px; vertical-align:top; width:100%;">=0A				=
+																		<table align=3D"left" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"100%" style=3D"max-width:300px;">=0A																=
+							<tr>=0A																								<td height=3D"10" colspan=3D"2" style=
+=3D"line-height: 10px; font-size: 0;">=C2=A0</td>=0A																							=
+</tr>=0A																							<tr>=0A																								<td align=3D"=
+center" style=3D"font-family: Arial, sans-serif; font-size: 12px; color: #3=
+4495e; line-height: 20px;">=0A																									<a href=3D"https://3=
+3a376.mck1.ru/c/KcEKAABAMZIAAAIi/lB0SAg/uOWbLEBWdibDYA6i/?u=3Dhttps%3A%2F%2=
+Fwww.sportfood40.ru%2Fmanufacturers%2F%3Futm_source%3Dmindbox%26utm_medium%=
+3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" target=3D"_blank" style=
+=3D"color: #34495e; text-decoration: none;">=D0=9F=D0=A0=D0=9E=D0=98=D0=97=
+=D0=92=D0=9E=D0=94=D0=98=D0=A2=D0=95=D0=9B=D0=98</a>=0A																				=
+				</td>=0A																								<td align=3D"center" style=3D"font-fami=
+ly: Arial, sans-serif; font-size: 12px; color: #34495e; line-height: 20px;"=
+>=0A																									<a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZ=
+IAAAIi/lR0SAg/ul10HlBofmkDgPbH/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fshop=
+s%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRas=
+sylka-2022.04.12" target=3D"_blank" style=3D"color: #34495e; text-decoratio=
+n: none;">=D0=9C=D0=90=D0=93=D0=90=D0=97=D0=98=D0=9D=D0=AB</a>=0A										=
+														</td>=0A																								<td align=3D"center" style=3D=
+"font-family: Arial, sans-serif; font-size: 12px; color: #34495e; line-heig=
+ht: 20px;">=0A																									<a href=3D"https://33a376.mck1.ru/c/=
+KcEKAABAMZIAAAIi/lh0SAg/mKXBThWyXHgsW_XT/?u=3Dhttps%3A%2F%2Fwww.sportfood40=
+.ru%2Fnews%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3D=
+KopiyaRassylka-2022.04.12" target=3D"_blank" style=3D"color: #34495e; text-=
+decoration: none;">=D0=9D=D0=9E=D0=92=D0=9E=D0=A1=D0=A2=D0=98</a>=0A							=
+																	</td>=0A																							</tr>=0A																			=
+			</table>=0A																					</div>=0A=0A																				</td>=0A=
+																			</tr>=0A																			<tr>=0A																				<t=
+d height=3D"15" style=3D"line-height: 15px; font-size: 0;">=C2=A0</td>=0A		=
+																	</tr>=0A																		</table>=0A=0A																	<=
+/td>=0A																</tr>=0A															</table>=0A														</td=
+>=0A													</tr>=0A												</table>=0A											</div>=0A							=
+				<!--[if (!mso)&(!IE)]><!-->=0A										</div>=0A										<!--<![endif=
+]-->=0A									</div>=0A								</div>=0A								<!--[if (mso)|(IE)]></td>=
+</tr></table><![endif]-->=0A								<!--[if (mso)|(IE)]></td></tr></table><=
+/td></tr></table><![endif]-->=0A							</div>=0A						</div>=0A					</div>=
+=0A					<div style=3D"background-color:transparent;">=0A						<div class=3D=
+"block-grid " style=3D"min-width: 320px; max-width: 670px; overflow-wrap: b=
+reak-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; b=
+ackground-color: transparent;">=0A							<div style=3D"border-collapse: col=
+lapse;display: table;width: 100%;background-color:transparent;">=0A								=
+<!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" style=3D"background-color:transparent;"><tr><td align=3D"ce=
+nter"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"widt=
+h:670px"><tr class=3D"layout-full-width" style=3D"background-color:transpar=
+ent"><![endif]-->=0A								<!--[if (mso)|(IE)]><td align=3D"center" width=
+=3D"670" style=3D"background-color:transparent;width:670px; border-top: 0px=
+ solid transparent; border-left: 0px solid transparent; border-bottom: 0px =
+solid transparent; border-right: 0px solid transparent;" valign=3D"top"><ta=
+ble width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td=
+ style=3D"padding-right: 0px; padding-left: 0px; padding-top:5px; padding-b=
+ottom:5px;"><![endif]-->=0A								<div class=3D"col num12" style=3D"min-wi=
+dth: 320px; max-width: 670px; display: table-cell; vertical-align: top; wid=
+th: 670px;">=0A									<div class=3D"col_cont" style=3D"width:100% !import=
+ant;">=0A										<!--[if (!mso)&(!IE)]><!-->=0A										<div style=3D"bo=
+rder-top:0px solid transparent; border-left:0px solid transparent; border-b=
+ottom:0px solid transparent; border-right:0px solid transparent; padding-to=
+p:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">=0A					=
+						<!--<![endif]-->=0A											<!--[if mso]><table width=3D"100%" cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td style=3D"padding-right=
+: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-f=
+amily: Arial, sans-serif"><![endif]-->=0A											<div class=3D"text_bloc=
+k" style=3D"color:#555555;font-family:Arial, &#39;Helvetica Neue&#39;, Helv=
+etica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;paddi=
+ng-bottom:10px;padding-left:10px;">=0A												<div class=3D"txtTinyMce-=
+wrapper" style=3D"line-height: 1.2; font-size: 12px; color: #555555; font-f=
+amily: Arial, &#39;Helvetica Neue&#39;, Helvetica, sans-serif; mso-line-hei=
+ght-alt: 14px;">=0A													<p style=3D"margin: 0; font-size: 14px; lin=
+e-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; margin-to=
+p: 0; margin-bottom: 0;"><span style=3D"font-size: 14px;"><strong>=D0=A6=D0=
+=B5=D0=BD=D1=8B =D1=82=D0=B0=D1=8E=D1=82 =D0=BD=D0=B0 =D0=B3=D0=BB=D0=B0=D0=
+=B7=D0=B0=D1=85! =D0=A3=D1=81=D0=BF=D0=B5=D0=B9=D1=82=D0=B5 =D0=B7=D0=B0 =
+=D1=81=D0=BA=D0=B8=D0=B4=D0=BA=D0=B0=D0=BC=D0=B8.</strong></span></p>=0A			=
+										<p style=3D"margin: 0; font-size: 14px; line-height: 1.2; word-br=
+eak: break-word; mso-line-height-alt: 17px; margin-top: 0; margin-bottom: 0=
+;">&nbsp;</p>=0A													<p style=3D"margin: 0; font-size: 14px; line-h=
+eight: 1.2; word-break: break-word; mso-line-height-alt: 17px; margin-top: =
+0; margin-bottom: 0;"><span style=3D"font-size: 14px;">=D0=94=D0=BE -70% =
+=D0=BD=D0=B0 30 =D0=B1=D1=80=D0=B5=D0=BD=D0=B4=D0=BE=D0=B2 =D1=82=D0=BE=D0=
+=BB=D1=8C=D0=BA=D0=BE =D1=81=D0=B5=D0=B9=D1=87=D0=B0=D1=81:</span></p>=0A		=
+											<ul>=0A														<li style=3D"line-height: 1.2; font-size: 1=
+4px; mso-line-height-alt: 17px;"><span style=3D"font-size: 14px;"><a href=
+=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/lx0SAg/5THczHIdBflbPBFu/?u=3D=
+https%3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fbootybar%2F%3Futm_source=
+%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12"=
+ style=3D"color: #0068A5;">BootyBar -20%</a></span></li>=0A														<l=
+i style=3D"line-height: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><=
+span style=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAAB=
+AMZIAAAIi/mB0SAg/dh-ZlQREmUa-pEyg/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fm=
+anufacturers%2Fbombbar%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm=
+_campaign%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">BOMBBAR -2=
+0%</a></span></li>=0A														<li style=3D"line-height: 1.2; font-size=
+: 14px; mso-line-height-alt: 17px;"><span style=3D"font-size: 14px;"><a hre=
+f=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/mR0SAg/rPoVxqG2B1CKoXOV/?u=
+=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fcobra-labs%2F%3Futm_s=
+ource%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.0=
+4.12" style=3D"color: #0068A5;">Cobra Labs -20%</a></span></li>=0A									=
+					<li style=3D"line-height: 1.2; font-size: 14px; mso-line-height-alt: 1=
+7px;"><span style=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/=
+KcEKAABAMZIAAAIi/mh0SAg/kwdWgGCfwgH2_CyN/?u=3Dhttps%3A%2F%2Fwww.sportfood40=
+.ru%2Fmanufacturers%2Fdex-nutrition%2F%3Futm_source%3Dmindbox%26utm_medium%=
+3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5=
+;">DEX -20%</a></span></li>=0A														<li style=3D"line-height: 1.2; =
+font-size: 14px; mso-line-height-alt: 17px;"><span style=3D"font-size: 14px=
+;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/mx0SAg/e0CBlan_xOjI=
+rRLd/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Ffitkit%2F%3Fut=
+m_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-202=
+2.04.12" style=3D"color: #0068A5;">Fit kit -20%</a></span></li>=0A									=
+					<li style=3D"line-height: 1.2; font-size: 14px; mso-line-height-alt: 1=
+7px;"><span style=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/=
+KcEKAABAMZIAAAIi/nB0SAg/yp8Lnc-KEE12ycl6/?u=3Dhttps%3A%2F%2Fwww.sportfood40=
+.ru%2Fmanufacturers%2Fironman%2F%3Futm_source%3Dmindbox%26utm_medium%3Demai=
+l%26utm_campaign%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">Iro=
+n Man -20%</a></span></li>=0A														<li style=3D"line-height: 1.2; f=
+ont-size: 14px; mso-line-height-alt: 17px;"><span style=3D"font-size: 14px;=
+"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/nR0SAg/GiEtc3rWrxS4o=
+xdX/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fmad-max%2F%3Fut=
+m_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-202=
+2.04.12" style=3D"color: #0068A5;">Mad Max -20%</a></span></li>=0A									=
+					<li style=3D"line-height: 1.2; font-size: 14px; mso-line-height-alt: 1=
+7px;"><span style=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/=
+KcEKAABAMZIAAAIi/nh0SAg/PI4GHKKBcoOtfkDH/?u=3Dhttps%3A%2F%2Fwww.sportfood40=
+.ru%2Fmanufacturers%2Fmagic%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%=
+26utm_campaign%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">Magic=
+ Elements-16%</a></span></li>=0A														<li style=3D"line-height: 1.2=
+; font-size: 14px; mso-line-height-alt: 17px;"><span style=3D"font-size: 14=
+px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/nx0SAg/B74XJX7WuB=
+Xe2KpD/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fmaxler%2F%3F=
+utm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2=
+022.04.12" style=3D"color: #0068A5;">Maxler -12%</a></span></li>=0A								=
+						<li style=3D"line-height: 1.2; font-size: 14px; mso-line-height-alt: =
+17px;"><span style=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c=
+/KcEKAABAMZIAAAIi/oB0SAg/Vi8kq5vhNIQk1PgH/?u=3Dhttps%3A%2F%2Fwww.sportfood4=
+0.ru%2Fmanufacturers%2Fnatrol%2F%3Futm_source%3Dmindbox%26utm_medium%3Demai=
+l%26utm_campaign%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">Nat=
+rol -16%</a></span></li>=0A														<li style=3D"line-height: 1.2; fon=
+t-size: 14px; mso-line-height-alt: 17px;"><span style=3D"font-size: 14px;">=
+<a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/oR0SAg/pzIm_XsEQWA0aUh=
+c/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fnow%2F%3Futm_sour=
+ce%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.1=
+2" style=3D"color: #0068A5;">Now -16%</a></span></li>=0A														<li s=
+tyle=3D"line-height: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><spa=
+n style=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZ=
+IAAAIi/oh0SAg/4XvTaEzLrlryZEaf/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanu=
+facturers%2Fmutant%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_cam=
+paign%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">Mutant -15%</a=
+></span></li>=0A														<li style=3D"line-height: 1.2; font-size: 14p=
+x; mso-line-height-alt: 17px;"><span style=3D"font-size: 14px;"><a href=3D"=
+https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/ox0SAg/o_d_sXd5U4THxkDw/?u=3Dhttp=
+s%3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fnutrex%2F%3Futm_source%3Dmin=
+dbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" style=
+=3D"color: #0068A5;">Nutrex -12%</a></span></li>=0A														<li style=
+=3D"line-height: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><span st=
+yle=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAA=
+Ii/pB0SAg/76i77OkozOoiVWZQ/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanufact=
+urers%2Foptimum-nutrition%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26=
+utm_campaign%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">Optimum=
+ Nutrition -12%</a></span></li>=0A														<li style=3D"line-height: 1=
+.2; font-size: 14px; mso-line-height-alt: 17px;"><span style=3D"font-size: =
+14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/pR0SAg/c6sLL97p=
+MIK1bhJ_/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fscitec-nut=
+rition%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopi=
+yaRassylka-2022.04.12" style=3D"color: #0068A5;">Scitec Nutrition -20%</a><=
+/span></li>=0A														<li style=3D"line-height: 1.2; font-size: 14px;=
+ mso-line-height-alt: 17px;"><span style=3D"font-size: 14px;"><a href=3D"ht=
+tps://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/ph0SAg/bK9LZ4nuUj3AZJ6H/?u=3Dhttps%=
+3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fsportline-nutrition%2F%3Futm_s=
+ource%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.0=
+4.12" style=3D"color: #0068A5;">Sportline Nutrition -16%</a></span></li>=0A=
+														<li style=3D"line-height: 1.2; font-size: 14px; mso-line-heig=
+ht-alt: 17px;"><span style=3D"font-size: 14px;"><a href=3D"https://33a376.m=
+ck1.ru/c/KcEKAABAMZIAAAIi/px0SAg/TlAZE0pqmj6SbnnQ/?u=3Dhttps%3A%2F%2Fwww.sp=
+ortfood40.ru%2Fmanufacturers%2Fnpo-sportivnye-texnologii%2F%3Futm_source%3D=
+mindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" st=
+yle=3D"color: #0068A5;">SPORTTECH -16%</a></span></li>=0A														<li =
+style=3D"line-height: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><sp=
+an style=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAM=
+ZIAAAIi/qB0SAg/wjShm4q7xJ3pZqIK/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fman=
+ufacturers%2Fspw%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campa=
+ign%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">Spw -12%</a></sp=
+an></li>=0A														<li style=3D"line-height: 1.2; font-size: 14px; ms=
+o-line-height-alt: 17px;"><span style=3D"font-size: 14px;"><a href=3D"https=
+://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/qR0SAg/Dipg7wLCzlCRBIHr/?u=3Dhttps%3A%=
+2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fstacker2-europe%2F%3Futm_source%3=
+Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" s=
+tyle=3D"color: #0068A5;">Stacker -14%</a></span></li>=0A														<li s=
+tyle=3D"line-height: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><spa=
+n style=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZ=
+IAAAIi/qh0SAg/5ms54Og1aFvf3xD-/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanu=
+facturers%2Fs-a-n%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_camp=
+aign%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">San -14%</a></s=
+pan></li>=0A														<li style=3D"line-height: 1.2; font-size: 14px; m=
+so-line-height-alt: 17px;"><span style=3D"font-size: 14px;"><a href=3D"http=
+s://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/qx0SAg/9I9A4JIdActvZ2_o/?u=3Dhttps%3A=
+%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fstrimex%2F%3Futm_source%3Dmindbo=
+x%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" style=3D=
+"color: #0068A5;">Strimex -15%</a></span></li>=0A														<li style=3D=
+"line-height: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><span style=
+=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/=
+rB0SAg/iirqOIqxzIXSSgPg/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanufacture=
+rs%2Ftwinlab%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%=
+3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">Twinlab -15%</a></sp=
+an></li>=0A														<li style=3D"line-height: 1.2; font-size: 14px; ms=
+o-line-height-alt: 17px;"><span style=3D"font-size: 14px;"><a href=3D"https=
+://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/rR0SAg/seYj2H5raYuYAx6k/?u=3Dhttps%3A%=
+2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fsyntrax%2F%3Futm_source%3Dmindbox=
+%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" style=3D"=
+color: #0068A5;">Syntax -12%</a></span></li>=0A														<li style=3D"l=
+ine-height: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><span style=
+=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/=
+rh0SAg/RQVHRrGRB0TySrOj/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanufacture=
+rs%2Fultravit%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign=
+%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">Ultra vit -25%</a><=
+/span></li>=0A														<li style=3D"line-height: 1.2; font-size: 14px;=
+ mso-line-height-alt: 17px;"><span style=3D"font-size: 14px;"><a href=3D"ht=
+tps://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/rx0SAg/KBP9WUVWLkmOpAft/?u=3Dhttps%=
+3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fvplab-nutrition%2F%3Futm_sourc=
+e%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12=
+" style=3D"color: #0068A5;">Vplab -15%</a></span></li>=0A														<li =
+style=3D"line-height: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><sp=
+an style=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAM=
+ZIAAAIi/sB0SAg/sX_DO6glwGenWQjP/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fman=
+ufacturers%2Fyummy-jam%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm=
+_campaign%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">=D0=AE=D0=
+=BC=D0=B8 =D0=B4=D0=B6=D0=B5=D0=BC -25%</a></span></li>=0A														<li=
+ style=3D"line-height: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><s=
+pan style=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABA=
+MZIAAAIi/sR0SAg/hj6KFmFj0L0duX1l/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fma=
+nufacturers%2Frline%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_ca=
+mpaign%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">RLine -12%</a=
+></span></li>=0A														<li style=3D"line-height: 1.2; font-size: 14p=
+x; mso-line-height-alt: 17px;"><span style=3D"font-size: 14px;"><a href=3D"=
+https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/sh0SAg/nl2QL4tAx3fgHZqW/?u=3Dhttp=
+s%3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fpower-pro%2F%3Futm_source%3D=
+mindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" st=
+yle=3D"color: #0068A5;">Power pro -15%</a></span></li>=0A														<li =
+style=3D"line-height: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><sp=
+an style=3D"font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAM=
+ZIAAAIi/sx0SAg/RNP7CYf_2q7fREBK/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fman=
+ufacturers%2Fliquid-amp-liquid%2F%3Futm_source%3Dmindbox%26utm_medium%3Dema=
+il%26utm_campaign%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">Li=
+quid&amp;liquid -25%</a></span></li>=0A														<li style=3D"line-heig=
+ht: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><span style=3D"font-s=
+ize: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/tB0SAg/B_W=
+x7dQVBIfuXg-B/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fred-s=
+tar-labs%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKo=
+piyaRassylka-2022.04.12" style=3D"color: #0068A5;">Redstar labs -15%</a></s=
+pan></li>=0A														<li style=3D"line-height: 1.2; font-size: 14px; m=
+so-line-height-alt: 17px;"><span style=3D"font-size: 14px;"><a href=3D"http=
+s://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/tR0SAg/WKZKG_AX0EUOXsVy/?u=3Dhttps%3A=
+%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fqnt%2F%3Futm_source%3Dmindbox%26=
+utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" style=3D"col=
+or: #0068A5;">QNT -15%</a></span></li>=0A														<li style=3D"line-he=
+ight: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><span style=3D"font=
+-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/th0SAg/7=
+ifzU3bNGYZrZy2k/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2Flab=
+ellamafia%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopi=
+yaRassylka-2022.04.12" style=3D"color: #0068A5;">LabellaMafia -50%</a></spa=
+n></li>=0A														<li style=3D"line-height: 1.2; font-size: 14px; mso=
+-line-height-alt: 17px;"><span style=3D"font-size: 14px;"><a href=3D"https:=
+//33a376.mck1.ru/c/KcEKAABAMZIAAAIi/tx0SAg/ZEaaLy8VlJkK_0RU/?u=3Dhttps%3A%2=
+F%2Fwww.sportfood40.ru%2Fmanufacturers%2Fnebbia%2F%3Futm_source%3Dmindbox%2=
+6utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" style=3D"co=
+lor: #0068A5;">NEBBIA -50%</a></span></li>=0A														<li style=3D"lin=
+e-height: 1.2; font-size: 14px; mso-line-height-alt: 17px;"><span style=3D"=
+font-size: 14px;"><a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/uB0S=
+Ag/YjruHO-S5O_cNkkk/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2Fmanufacturers%2=
+F6-pack-fitness%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campai=
+gn%3DKopiyaRassylka-2022.04.12" style=3D"color: #0068A5;">6 Pack Fitness =
+=D1=80=D1=8E=D0=BA=D0=B7=D0=B0=D0=BA=D0=B8 -70%</a></span></li>=0A									=
+				</ul>=0A													<p style=3D"margin: 0; font-size: 14px; line-heigh=
+t: 1.2; word-break: break-word; mso-line-height-alt: 17px; margin-top: 0; m=
+argin-bottom: 0;"><span style=3D"font-size: 14px;">=D0=90=D0=BA=D1=86=D0=B8=
+=D1=8F =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D1=83=D0=B5=D1=82 =D0=BF=D1=80=
+=D0=B8 =D0=BF=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B5 =D0=B2 =D0=98=D0=9C Sport=
+food =D1=81 10 =D0=B0=D0=BF=D1=80=D0=B5=D0=BB=D1=8F =D0=BF=D0=BE 17 =D0=B0=
+=D0=BF=D1=80=D0=B5=D0=BB=D1=8F 2022=D0=B3.</span></p>=0A												</div>=
+=0A											</div>=0A											<!--[if mso]></td></tr></table><![endif]-=
+->=0A											<!--[if (!mso)&(!IE)]><!-->=0A										</div>=0A										=
+<!--<![endif]-->=0A									</div>=0A								</div>=0A								<!--[if (mso)=
+|(IE)]></td></tr></table><![endif]-->=0A								<!--[if (mso)|(IE)]></td></=
+tr></table></td></tr></table><![endif]-->=0A							</div>=0A						</div>=0A=
+					</div>=0A					<div style=3D"background-color:transparent;">=0A						<d=
+iv class=3D"block-grid " style=3D"min-width: 320px; max-width: 670px; overf=
+low-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin=
+: 0 auto; background-color: transparent;">=0A							<div style=3D"border-co=
+llapse: collapse;display: table;width: 100%;background-color:transparent;">=
+=0A								<!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0" style=3D"background-color:transparent;"><tr><td =
+align=3D"center"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" st=
+yle=3D"width:670px"><tr class=3D"layout-full-width" style=3D"background-col=
+or:transparent"><![endif]-->=0A								<!--[if (mso)|(IE)]><td align=3D"cen=
+ter" width=3D"670" style=3D"background-color:transparent;width:670px; borde=
+r-top: 0px solid transparent; border-left: 0px solid transparent; border-bo=
+ttom: 0px solid transparent; border-right: 0px solid transparent;" valign=
+=3D"top"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0"><tr><td style=3D"padding-right: 0px; padding-left: 0px; padding-top:=
+5px; padding-bottom:5px;"><![endif]-->=0A								<div class=3D"col num12" s=
+tyle=3D"min-width: 320px; max-width: 670px; display: table-cell; vertical-a=
+lign: top; width: 670px;">=0A									<div class=3D"col_cont" style=3D"widt=
+h:100% !important;">=0A										<!--[if (!mso)&(!IE)]><!-->=0A										<d=
+iv style=3D"border-top:0px solid transparent; border-left:0px solid transpa=
+rent; border-bottom:0px solid transparent; border-right:0px solid transpare=
+nt; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: =
+0px;">=0A											<!--<![endif]-->=0A											<div class=3D"img-contain=
+er center autowidth big" align=3D"center" style=3D"padding-right: 0px;paddi=
+ng-left: 0px;">=0A												<!--[if mso]><table width=3D"100%" cellpaddin=
+g=3D"0" cellspacing=3D"0" border=3D"0"><tr style=3D"line-height:0px"><td st=
+yle=3D"padding-right: 0px;padding-left: 0px;" align=3D"center"><![endif]-->=
+<a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/uR0SAg/KG6G9lngYBAK1Wm=
+8/?u=3Dhttps%3A%2F%2Fwww.sportfood40.ru%2F%3Futm_source%3Dmindbox%26utm_med=
+ium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" target=3D"_blank" s=
+tyle=3D"outline:none" tabindex=3D"-1"><img class=3D"center autowidth" align=
+=3D"center" border=3D"0" src=3D"https://email-images.mindbox.ru/704809/4741=
+575/7.jpg" style=3D"text-decoration: none; -ms-interpolation-mode: bicubic;=
+ height: auto; border: 0; width: 670px; max-width: 100%; display: block;" w=
+idth=3D"670"></a>=0A												<!--[if mso]></td></tr></table><![endif]-->=
+=0A											</div>=0A											<!--[if (!mso)&(!IE)]><!-->=0A										<=
+/div>=0A										<!--<![endif]-->=0A									</div>=0A								</div>=0A			=
+					<!--[if (mso)|(IE)]></td></tr></table><![endif]-->=0A								<!--[if (=
+mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->=0A							</div>=
+=0A						</div>=0A					</div>=0A					<div style=3D"background-color:transpa=
+rent;">=0A						<div class=3D"block-grid " style=3D"min-width: 320px; max-w=
+idth: 670px; overflow-wrap: break-word; word-wrap: break-word; word-break: =
+break-word; Margin: 0 auto; background-color: transparent;">=0A							<div =
+style=3D"border-collapse: collapse;display: table;width: 100%;background-co=
+lor:transparent;">=0A								<!--[if (mso)|(IE)]><table width=3D"100%" cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"background-color:tran=
+sparent;"><tr><td align=3D"center"><table cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" style=3D"width:670px"><tr class=3D"layout-full-width" style=
+=3D"background-color:transparent"><![endif]-->=0A								<!--[if (mso)|(IE)=
+]><td align=3D"center" width=3D"670" style=3D"background-color:transparent;=
+width:670px; border-top: 0px solid transparent; border-left: 0px solid tran=
+sparent; border-bottom: 0px solid transparent; border-right: 0px solid tran=
+sparent;" valign=3D"top"><table width=3D"100%" cellpadding=3D"0" cellspacin=
+g=3D"0" border=3D"0"><tr><td style=3D"padding-right: 0px; padding-left: 0px=
+; padding-top:5px; padding-bottom:5px;"><![endif]-->=0A								<div class=
+=3D"col num12" style=3D"min-width: 320px; max-width: 670px; display: table-=
+cell; vertical-align: top; width: 670px;">=0A									<div class=3D"col_con=
+t" style=3D"width:100% !important;">=0A										<!--[if (!mso)&(!IE)]><!--=
+>=0A										<div style=3D"border-top:0px solid transparent; border-left:0=
+px solid transparent; border-bottom:0px solid transparent; border-right:0px=
+ solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px=
+; padding-left: 0px;">=0A											<!--<![endif]-->=0A											<div clas=
+s=3D"button-container" align=3D"center" style=3D"padding-top:10px;padding-r=
+ight:10px;padding-bottom:10px;padding-left:10px;">=0A												<!--[if ms=
+o]><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" s=
+tyle=3D"border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt;=
+ mso-table-rspace:0pt;"><tr><td style=3D"padding-top: 10px; padding-right: =
+10px; padding-bottom: 10px; padding-left: 10px" align=3D"center"><v:roundre=
+ct xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microso=
+ft-com:office:word" href=3D"https://www.sportfood40.ru/" style=3D"height:28=
+.5pt;width:104.25pt;v-text-anchor:middle;" arcsize=3D"11%" strokeweight=3D"=
+1.5pt" strokecolor=3D"#F17304" fillcolor=3D"#F17304"><w:anchorlock/><v:text=
+box inset=3D"0,0,0,0"><center style=3D"color:#ffffff; font-family:Arial, sa=
+ns-serif; font-size:12px"><![endif]--><a href=3D"https://33a376.mck1.ru/c/K=
+cEKAABAMZIAAAIi/uh0SAg/k8zqq7CcRzU3wz09/?u=3Dhttps%3A%2F%2Fwww.sportfood40.=
+ru%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRa=
+ssylka-2022.04.12" target=3D"_blank" style=3D"-webkit-text-size-adjust: non=
+e; text-decoration: none; display: inline-block; color: #ffffff; background=
+-color: #F17304; border-radius: 4px; -webkit-border-radius: 4px; -moz-borde=
+r-radius: 4px; width: auto; width: auto; border-top: 1px solid #F17304; bor=
+der-right: 1px solid #F17304; border-bottom: 1px solid #F17304; border-left=
+: 1px solid #F17304; padding-top: 5px; padding-bottom: 5px; font-family: Ar=
+ial, Helvetica Neue, Helvetica, sans-serif; text-align: center; mso-border-=
+alt: none; word-break: keep-all;"><span style=3D"padding-left:20px;padding-=
+right:20px;font-size:12px;display:inline-block;letter-spacing:undefined;"><=
+span style=3D"font-size: 12px; line-height: 2; word-break: break-word; mso-=
+line-height-alt: 24px;">=D0=9F=D0=B5=D1=80=D0=B5=D0=B9=D1=82=D0=B8 =D0=BD=
+=D0=B0 =D1=81=D0=B0=D0=B9=D1=82&nbsp;</span></span></a>=0A												<!--[=
+if mso]></center></v:textbox></v:roundrect></td></tr></table><![endif]-->=
+=0A											</div>=0A											<!--[if (!mso)&(!IE)]><!-->=0A										<=
+/div>=0A										<!--<![endif]-->=0A									</div>=0A								</div>=0A			=
+					<!--[if (mso)|(IE)]></td></tr></table><![endif]-->=0A								<!--[if (=
+mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->=0A							</div>=
+=0A						</div>=0A					</div>=0A					<div style=3D"background-color:transpa=
+rent;">=0A						<div class=3D"block-grid " style=3D"min-width: 320px; max-w=
+idth: 670px; overflow-wrap: break-word; word-wrap: break-word; word-break: =
+break-word; Margin: 0 auto; background-color: transparent;">=0A							<div =
+style=3D"border-collapse: collapse;display: table;width: 100%;background-co=
+lor:transparent;">=0A								<!--[if (mso)|(IE)]><table width=3D"100%" cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"background-color:tran=
+sparent;"><tr><td align=3D"center"><table cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" style=3D"width:670px"><tr class=3D"layout-full-width" style=
+=3D"background-color:transparent"><![endif]-->=0A								<!--[if (mso)|(IE)=
+]><td align=3D"center" width=3D"670" style=3D"background-color:transparent;=
+width:670px; border-top: 0px solid transparent; border-left: 0px solid tran=
+sparent; border-bottom: 0px solid transparent; border-right: 0px solid tran=
+sparent;" valign=3D"top"><table width=3D"100%" cellpadding=3D"0" cellspacin=
+g=3D"0" border=3D"0"><tr><td style=3D"padding-right: 0px; padding-left: 0px=
+; padding-top:0px; padding-bottom:0px;"><![endif]-->=0A								<div class=
+=3D"col num12" style=3D"min-width: 320px; max-width: 670px; display: table-=
+cell; vertical-align: top; width: 670px;">=0A									<div class=3D"col_con=
+t" style=3D"width:100% !important;">=0A										<!--[if (!mso)&(!IE)]><!--=
+>=0A										<div style=3D"border-top:0px solid transparent; border-left:0=
+px solid transparent; border-bottom:0px solid transparent; border-right:0px=
+ solid transparent; padding-top:0px; padding-bottom:0px; padding-right: 0px=
+; padding-left: 0px;">=0A											<!--<![endif]-->=0A											<!--[if m=
+so]><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=
+<tr><td style=3D"padding-right: 10px; padding-left: 10px; padding-top: 10px=
+; padding-bottom: 10px; font-family: Arial, sans-serif"><![endif]-->=0A				=
+							<div class=3D"text_block" style=3D"color:#555555;font-family:Arial, =
+Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padd=
+ing-right:10px;padding-bottom:10px;padding-left:10px;">=0A												<div =
+class=3D"txtTinyMce-wrapper" style=3D"font-size: 14px; line-height: 1.2; fo=
+nt-family: Arial, Helvetica Neue, Helvetica, sans-serif; color: #555555; ms=
+o-line-height-alt: 17px;">=0A													<p style=3D"margin: 0; line-heigh=
+t: 1.2; word-break: break-word; font-size: 16px; mso-line-height-alt: 19px;=
+ margin-top: 0; margin-bottom: 0;"><span style=3D"font-size: 16px;">=D0=9F=
+=D1=80=D0=B8 =D0=BE=D0=BF=D0=BB=D0=B0=D1=82=D0=B5 =D0=B8=D1=81=D0=BF=D0=BE=
+=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=D0=B5 =D0=B1=D0=B5=D1=81=D0=BA=D0=BE=
+=D0=BD=D1=82=D0=B0=D0=BA=D1=82=D0=BD=D1=8B=D0=B5 =D0=BF=D0=BB=D0=B0=D1=82=
+=D0=B5=D0=B6=D0=B8.</span></p>=0A													<p style=3D"margin: 0; line-h=
+eight: 1.2; word-break: break-word; font-size: 16px; mso-line-height-alt: 1=
+9px; margin-top: 0; margin-bottom: 0;"><span style=3D"font-size: 16px;">=D0=
+=92=D0=BE =D0=B2=D1=80=D0=B5=D0=BC=D1=8F =D0=BE=D0=B6=D0=B8=D0=B4=D0=B0=D0=
+=BD=D0=B8=D1=8F =D0=B2 =D0=BC=D0=B0=D0=B3=D0=B0=D0=B7=D0=B8=D0=BD=D0=B5 =D1=
+=81=D0=BE=D0=B1=D0=BB=D1=8E=D0=B4=D0=B0=D0=B9=D1=82=D0=B5 =D0=B1=D0=B5=D0=
+=B7=D0=BE=D0=BF=D0=B0=D1=81=D0=BD=D0=BE=D0=B5 =D1=80=D0=B0=D1=81=D1=81=D1=
+=82=D0=BE=D1=8F=D0=BD=D0=B8=D0=B5 =D0=B2 1,5 =D0=BC=D0=B5=D1=82=D1=80=D0=B0=
+.&nbsp;</span></p>=0A													<p style=3D"margin: 0; line-height: 1.2; =
+word-break: break-word; mso-line-height-alt: 17px; margin-top: 0; margin-bo=
+ttom: 0;">&nbsp;</p>=0A													<p style=3D"margin: 0; text-align: cent=
+er; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; ma=
+rgin-top: 0; margin-bottom: 0;"><em><strong><span style=3D"font-size: 16px;=
+">=D0=91=D1=83=D0=B4=D1=8C=D1=82=D0=B5 =D0=B7=D0=B4=D0=BE=D1=80=D0=BE=D0=B2=
+=D1=8B!&nbsp;</span></strong></em></p>=0A													<p style=3D"margin: 0=
+; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; marg=
+in-top: 0; margin-bottom: 0;">&nbsp;</p>=0A													<p style=3D"margin:=
+ 0; text-align: right; line-height: 1.2; word-break: break-word; mso-line-h=
+eight-alt: 17px; margin-top: 0; margin-bottom: 0;"><strong><span style=3D"f=
+ont-size: 16px;">=D0=92=D0=B0=D1=88=D0=B0 =D0=BA=D0=BE=D0=BC=D0=B0=D0=BD=D0=
+=B4=D0=B0 SPORTFOOD!</span></strong></p>=0A													<p style=3D"margin:=
+ 0; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; ma=
+rgin-top: 0; margin-bottom: 0;">&nbsp;</p>=0A												</div>=0A									=
+		</div>=0A											<!--[if mso]></td></tr></table><![endif]-->=0A							=
+				<div class=3D"html_block" style=3D"font-size:16px;text-align:center;fon=
+t-family:Arial, Helvetica Neue, Helvetica, sans-serif">=0A												<div =
+style=3D"background-color:transparent;">=0A													<div class=3D"block=
+-grid " style=3D"Margin: 0 auto; min-width: 320px; max-width: 700px; overfl=
+ow-wrap: break-word; word-wrap: break-word; word-break: break-word; backgro=
+und-color: transparent;;">=0A														<div style=3D"border-collapse: c=
+ollapse;display: table;width: 100%;background-color:transparent;">=0A						=
+									<!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0" cellsp=
+acing=3D"0" border=3D"0" style=3D"background-color:transparent;"><tr><td al=
+ign=3D"center"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" styl=
+e=3D"width:640px"><tr class=3D"layout-full-width" style=3D"background-color=
+:transparent"><![endif]-->=0A															<!--[if (mso)|(IE)]><td align=
+=3D"center" width=3D"640" style=3D"background-color:transparent;width:640px=
+; border-top: 0px solid transparent; border-left: 0px solid transparent; bo=
+rder-bottom: 0px solid transparent; border-right: 0px solid transparent;" v=
+align=3D"top"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0"><tr><td style=3D"padding-right: 0px; padding-left: 0px; padding-t=
+op:0px; padding-bottom:0px;"><![endif]-->=0A															<div class=3D"co=
+l num12" style=3D"min-width: 320px; max-width: 700px; display: table-cell; =
+vertical-align: top;;">=0A																<div style=3D"width:100% !importa=
+nt;">=0A																	<!--[if (!mso)&(!IE)]><!-->=0A																	<di=
+v style=3D"border-top:0px solid transparent; border-left:0px solid transpar=
+ent; border-bottom:0px solid transparent; border-right:0px solid transparen=
+t; padding-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0=
+px;">=0A																		<!--<![endif]-->=0A																		<div style=
+=3D"font-size:16px;text-align:center;font-family:Arial, &#39;Helvetica Neue=
+&#39;, Helvetica, sans-serif">=0A																			<table width=3D"100%">=
+=0A																				<tr>=0A																					<td bgcolor=3D"#f5f5f5" =
+align=3D"center" height=3D"100%" valign=3D"top" width=3D"100%">=0A=0A						=
+																<table align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"100%" style=3D"max-width:600px;">=0A																=
+							<tr>=0A																								<td height=3D"30" style=3D"line-heigh=
+t: 30px; font-size: 0;"> </td>=0A																							</tr>=0A											=
+												<tr>=0A																								<td align=3D"center">=0A								=
+																	<table width=3D"220" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0">=0A																										<tr>=0A																											=
+<td align=3D"center">=0A																												<a href=3D"https://33a3=
+76.mck1.ru/c/KcEKAABAMZIAAAIi/ux0SAg/otB8sWK6MJoIiqcJ/?u=3Dhttps%3A%2F%2Fvk=
+.com%2Fclub12686221%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campa=
+ign%3DKopiyaRassylka-2022.04.12" target=3D"_blank" style=3D"outline: none; =
+border: 0;">=0A																													<img src=3D"https://email-image=
+s.mindbox.ru/704809/4741575/2" width=3D"33" height=3D"33" style=3D"outline:=
+ none; border: 0;" />=0A																												</a>=0A																=
+											</td>=0A																											<td align=3D"center">=0A					=
+																							<a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi=
+/vB0SAg/y7t-KZNabPEQvC_f/?u=3Dhttps%3A%2F%2Fwww.facebook.com%2FSportfood40%=
+2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassy=
+lka-2022.04.12" target=3D"_blank" style=3D"outline: none; border: 0;">=0A		=
+																											<img src=3D"https://email-images.mindbox.ru/7048=
+09/4741575/4" width=3D"33" height=3D"33" style=3D"outline: none; border: 0;=
+" />=0A																												</a>=0A																											</td>=
+=0A																											<td align=3D"center">=0A																					=
+							<a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/vR0SAg/LLhp-5Ep=
+lyHboHav/?u=3Dhttps%3A%2F%2Fwww.instagram.com%2Fsportfood40ru%2F%3Futm_sour=
+ce%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.1=
+2" target=3D"_blank" style=3D"outline: none; border: 0;">=0A															=
+														<img src=3D"https://email-images.mindbox.ru/704809/4741575/5"=
+ width=3D"33" height=3D"33" style=3D"outline: none; border: 0;" />=0A						=
+																						</a>=0A																											</td>=0A											=
+																<td align=3D"center">=0A																												<a href=
+=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/vh0SAg/dpmjkYEEQIZf63PP/?u=3D=
+https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCgdfg2--TZ7-O5IiHzMlbBw%3Futm_so=
+urce%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04=
+.12" target=3D"_blank" style=3D"outline: none; border: 0;">=0A													=
+																<img src=3D"https://email-images.mindbox.ru/704809/4741575/=
+1" width=3D"33" height=3D"33" style=3D"outline: none; border: 0;" />=0A				=
+																								</a>=0A																											</td>=0A									=
+																		<td align=3D"center">=0A																												<a hr=
+ef=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAAIi/vx0SAg/x8lAa-9sj9DkDPgG/?u=
+=3Dhttps%3A%2F%2Fplus.google.com%2Fb%2F102075943954882550011%2F%2BSportfood=
+40Russia%2F%3Futm_source%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKo=
+piyaRassylka-2022.04.12" target=3D"_blank" style=3D"outline: none; border: =
+0;">=0A																													<img src=3D"https://email-images.mindbo=
+x.ru/704809/4741575/3" width=3D"33" height=3D"33" style=3D"outline: none; b=
+order: 0;" />=0A																												</a>=0A																								=
+			</td>=0A																										</tr>=0A																									</tab=
+le>=0A																								</td>=0A																							</tr>=0A						=
+																	<tr>=0A																								<td height=3D"20" style=3D"=
+line-height: 20px; font-size: 0;"> </td>=0A																							</tr>=0A	=
+																						<tr>=0A																								<td align=3D"center" s=
+tyle=3D"font-family: Arial, sans-serif; font-size: 11px; color: #9c9c9c; li=
+ne-height: 18px; font-weight: normal;">=0A																									<strong>=
+=E2=9C=85 =D0=90=D0=BA=D1=86=D0=B8=D1=8F =C2=AB=D0=A1=D0=BF=D0=B0=D1=81=D0=
+=B8=D0=B1=D0=BE, =D1=87=D1=82=D0=BE =D0=92=D1=8B =D1=81 =D0=BD=D0=B0=D0=BC=
+=D0=B8=C2=BB =E2=80=94 =D0=B2 =D0=BD=D0=B0=D1=87=D0=B0=D0=BB=D0=B5 =D0=BA=
+=D0=B0=D0=B6=D0=B4=D0=BE=D0=B3=D0=BE =D0=BC=D0=B5=D1=81=D1=8F=D1=86=D0=B0 =
+=D0=B2=D0=BE=D0=B7=D0=B2=D1=80=D0=B0=D1=89=D0=B0=D0=B5=D0=BC 150 =D0=B1=D0=
+=B0=D0=BB=D0=BB=D0=BE=D0=B2&nbsp; =D0=BF=D0=BE=D0=B4=D0=BF=D0=B8=D1=81=D1=
+=87=D0=B8=D0=BA=D0=B0=D0=BC.</strong>=0A																									<br />=0A	=
+																								<br />=0A																								</td>=0A										=
+													</tr>=0A																							<tr>=0A																								=
+<td align=3D"center" style=3D"font-family: Arial, sans-serif; font-size: 11=
+px; color: #9c9c9c; line-height: 18px; font-weight: normal;">=0A											=
+														=D0=92=D1=8B =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D0=BB=D0=B8=
+ =D1=8D=D1=82=D0=BE =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE =D0=BD=D0=B0 ivano=
+v_ys@icloud.com, =D0=BF=D0=BE=D1=82=D0=BE=D0=BC=D1=83 =D1=87=D1=82=D0=BE =
+=D0=BF=D0=BE=D0=B4=D0=BF=D0=B8=D1=81=D0=B0=D0=BB=D0=B8=D1=81=D1=8C =D0=BD=
+=D0=B0 =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D1=83 =D0=BD=D0=B0 =D1=81=
+=D0=B0=D0=B9=D1=82=D0=B5 <a href=3D"https://33a376.mck1.ru/c/KcEKAABAMZIAAA=
+Ii/wB0SAg/Z4tla0do3OmVzsbf/?u=3Dhttp%3A%2F%2Fsportfood40.ru%2F%3Futm_source=
+%3Dmindbox%26utm_medium%3Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12"=
+ target=3D"_blank" style=3D"color: #9c9c9c;">sportfood40.ru</a>=0A									=
+																<br /> =D0=95=D1=81=D0=BB=D0=B8 =D0=92=D1=8B =D0=BF=D0=BE=
+=D0=BB=D1=83=D1=87=D0=B8=D0=BB=D0=B8 =D1=8D=D1=82=D0=BE =D0=BF=D0=B8=D1=81=
+=D1=8C=D0=BC=D0=BE =D0=BF=D0=BE =D0=BE=D1=88=D0=B8=D0=B1=D0=BA=D0=B5, =D0=
+=BF=D1=80=D0=BE=D0=B8=D0=B3=D0=BD=D0=BE=D1=80=D0=B8=D1=80=D1=83=D0=B9=D1=82=
+=D0=B5 =D0=B5=D0=B3=D0=BE. =D0=A7=D1=82=D0=BE=D0=B1=D1=8B =D0=BE=D1=82=D0=
+=BF=D0=B8=D1=81=D0=B0=D1=82=D1=8C=D1=81=D1=8F, =D0=BF=D1=80=D0=BE=D0=B9=D0=
+=B4=D0=B8=D1=82=D0=B5 =D0=BF=D0=BE <a href=3D"https://33a376.mck1.ru/c/KcEK=
+AABAMZIAAAIi/wR0SAg/ilcKTpw_kr6QheEz/?u=3Dhttps%3A%2F%2F33a376.mck1.ru%2Fu%=
+2FKcEKAABAMZIAAAIi%2F2s12csqHJFsyBphP%3Futm_source%3Dmindbox%26utm_medium%3=
+Demail%26utm_campaign%3DKopiyaRassylka-2022.04.12" target=3D"_blank" style=
+=3D"color: #9c9c9c;">=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B5</a>.=0A										=
+															<br />=0A																									<br /> =C2=A9 2009-2022 SP=
+ORTFOOD=0A																								</td>=0A																							</tr>=0A		=
+																					<tr>=0A																								<td height=3D"40" style=
+=3D"line-height: 40px; font-size: 0;"> </td>=0A																							</tr>=
+=0A																						</table>=0A=0A																					</td>=0A							=
+													</tr>=0A																			</table>=0A																		</div>=
+=0A																		<!--[if (!mso)&(!IE)]><!-->=0A																	</div>=
+=0A																	<!--<![endif]-->=0A																</div>=0A											=
+				</div>=0A															<!--[if (mso)|(IE)]></td></tr></table><![endif]=
+-->=0A															<!--[if (mso)|(IE)]></td></tr></table></td></tr></tabl=
+e><![endif]-->=0A														</div>=0A													</div>=0A												<=
+/div>=0A											</div>=0A											<!--[if (!mso)&(!IE)]><!-->=0A						=
+				</div>=0A										<!--<![endif]-->=0A									</div>=0A								</div>=
+=0A								<!--[if (mso)|(IE)]></td></tr></table><![endif]-->=0A								<!-=
+-[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->=0A							=
+</div>=0A						</div>=0A					</div>=0A					<!--[if (mso)|(IE)]></td></tr></=
+table><![endif]-->=0A				</td>=0A			</tr>=0A		</tbody>=0A	</table>=0A	<!--[=
+if (IE)]></div><![endif]-->=0A<img src=3D"https://33a376.mck1.ru/o/KcEKAABA=
+MZIAAAIi/2s12csqHJFsyBphP" width=3D"1" height=3D"1" alt=3D"" border=3D"0" s=
+tyle=3D"display:block;"/></body>=0A=0A</html>

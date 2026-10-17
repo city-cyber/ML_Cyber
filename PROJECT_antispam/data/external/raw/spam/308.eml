@@ -1,0 +1,380 @@
+Delivered-To: vasily@ya.su
+Received: by 2002:a02:cf1b:0:b0:328:5eba:eda1 with SMTP id q27csp155600jar;
+        Fri, 15 Apr 2022 07:13:02 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJzGW6IHeOR85dEYJdojb6CIlPtocm9jMbBt6M+JzdTxJVGdWo3Ka+tKVj+XmlXcDgFKDjYX
+X-Received: by 2002:a05:6402:51c6:b0:41d:196a:27a9 with SMTP id r6-20020a05640251c600b0041d196a27a9mr8535698edd.55.1650031982844;
+        Fri, 15 Apr 2022 07:13:02 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1650031982; cv=none;
+        d=google.com; s=arc-20160816;
+        b=MJwwVUt7nTbtMCefyXP30X2Cg7uqFIxmd+6/dSX+6in0XD/p280SaEhIYPVZKQqt0I
+         J73IgKTK7eT3V5t6OCjXpmi5n+Y0PEI1b5ZUJyEZtUIjpb2zKSw/Os2kGDvhvMX+Jpor
+         hIh8DkgGeiVy8hgEXCmaOZBrlMYcl+IW4gIrDmd2TlLc2lck/B10xhIiua3jx3Tob6En
+         Fw5mYG3v3Ru8zGL1q6G3AKbZMUZdgPWJ0A7DK1V9lTqO6ihiim/IYW5TUoG/ok8aenQz
+         c6BUM+yHtCWJonhpnMydKE6r1nGyGWbEjxsP+tQMvoDwcoKnWptf5QdZRXVmgalru8F6
+         LQ8g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:message-id:list-unsubscribe-post:list-unsubscribe:list-id
+         :mime-version:from:subject:to:dkim-signature:dkim-signature;
+        bh=KoJoWZzN7sY9m16ARXdB91lizfexv2uQ8lB3VZa8OTM=;
+        b=B82Uh1PXto1jEAFgKrE58e38MqAuoY+BkdVdUrBOmc1ouKclXFk1lR3qvHMeyqkK/C
+         V71+iK6ljeeVLdNV+jpSIwORlenQ+mXVqYF5q90rgqSaj6Umre3RpPWiixt86ll6Z7g0
+         A0ku7nv+6ywKgjveMTy0TYe1lKDLL8C5LetAhNHHKKDaWiCmeL8aHEogLzO3gcIv+o7I
+         p9Mjy5SoatNpDPTDtXcGSdBddVftCLhdkivXeMFGPN24iFvgDAesoFUVv7tvqDidpxsB
+         gfCYwud4wwr7G3IbJjFm80XFkpeEBPe4OeyhgTtxPhqZA1hiFg7Ms73lPvFq57aECXj1
+         TeUg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@e.geekbrains.ru header.s=key2 header.b=CW+HOfPZ;
+       dkim=pass header.i=@emarsys.net header.s=key2 header.b=C0zBnYEH;
+       spf=pass (google.com: domain of suite17@xpressus.emsmtp.us designates 45.86.117.252 as permitted sender) smtp.mailfrom=suite17@xpressus.emsmtp.us;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=e.geekbrains.ru
+Return-Path: <suite17@xpressus.emsmtp.us>
+Received: from mta-2d5675fc.ip4.emsmtp.us (mta-2d5675fc.ip4.emsmtp.us. [45.86.117.252])
+        by mx.google.com with ESMTPS id k8-20020a170906970800b006e8ae1fb36fsi1011672ejx.287.2022.04.15.07.13.02
+        for <vasily@ya.su>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 15 Apr 2022 07:13:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of suite17@xpressus.emsmtp.us designates 45.86.117.252 as permitted sender) client-ip=45.86.117.252;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@e.geekbrains.ru header.s=key2 header.b=CW+HOfPZ;
+       dkim=pass header.i=@emarsys.net header.s=key2 header.b=C0zBnYEH;
+       spf=pass (google.com: domain of suite17@xpressus.emsmtp.us designates 45.86.117.252 as permitted sender) smtp.mailfrom=suite17@xpressus.emsmtp.us;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=e.geekbrains.ru
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=key2; d=e.geekbrains.ru;
+ h=To:Subject:From:MIME-Version:List-Id:List-Unsubscribe:List-Unsubscribe-Post:
+ Content-Type:Message-ID:Date; i=hello@e.geekbrains.ru;
+ bh=KoJoWZzN7sY9m16ARXdB91lizfexv2uQ8lB3VZa8OTM=;
+ b=CW+HOfPZc7bY72b0fcvbcpr4LKY09EpmWCyejqWbnEMicJzQpO/kdH21uAGA2a5prWQbbPbX5xDp
+   Q5GQYZ6cANIiXiW0AREcDBjHgj/gR8/Vn8eJ2t89Gp95RqlqT6emrSRIoPfcRf5bjPs9n5Oc8ITb
+   STIxIg+j4+VefYvTvRc=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=key2; d=emarsys.net;
+ h=To:Subject:From:MIME-Version:List-Id:List-Unsubscribe:List-Unsubscribe-Post:
+ Content-Type:Message-ID:Date;
+ bh=KoJoWZzN7sY9m16ARXdB91lizfexv2uQ8lB3VZa8OTM=;
+ b=C0zBnYEHatLLVNs6w+yIgC8opNsWHfiZVM3dxn8C4aYYsjS6p8kMYdj/X1+EA2bGRJqhncuciu4W
+   xzXWcKu7TvcN88AE7GETFQxVtsiRCMtqkPIMP47IhfQn5SDrs+5jcllaMDx65QIKYDjB6JuvQ65N
+   phTZykdSAlYJ/yGsGhc=
+To: vasily@ya.su
+Subject: =?UTF-8?B?0KMg0JLQsNGBINC90L7QstC+0LUg0LvQuNGH0L3QvtC1INGB0L7QvtCx0Yk=?=
+ =?UTF-8?B?0LXQvdC40LUgW0dlZWsgQnJhaW5zXQ==?=
+X-Mailer: class SMTPMail
+From: "GeekBrains" <hello@e.geekbrains.ru>
+MIME-Version: 1.0
+List-Id: 767761541 <GeekBrains>
+X-EMarSys-Identify: 767761541_3703023_12355635_TRANSACTIONAL
+X-EMarSys-Environment: suite17
+X-Report-Abuse: Please report abuse here: abuse-report@emarsys.com
+List-Unsubscribe: <mailto:list-unsubscribe+767761541_3703023_12355635_357ufnIMzN@emarsys.net>, <https://list-unsubscribe.eservice.emarsys.net/api/unsubscribe/767761541_3703023_12355635_357ufnIMzN>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Type: multipart/alternative;
+ boundary="--=_---NextPart--=_-0zOxco1K6o"
+Message-ID: <0.0.EF.EB2.1D850D2EB034BDC.0@mta-2d5675fc.ip4.emsmtp.us>
+Date: Fri, 15 Apr 2022 16:13:02 +0200
+
+
+----=_---NextPart--=_-0zOxco1K6o
+Content-Type: text/plain; charset=utf-8
+Content-transfer-encoding: quoted-printable
+
+
+----=_---NextPart--=_-0zOxco1K6o
+Content-Type: text/html; charset=utf-8
+Content-transfer-encoding: quoted-printable
+
+<html>
+<head>
+</head>
+<body>
+<div ems:preheader style=3D"display:none!important;font-size:1px;color:#333=
+333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;=
+mso-hide:all">
+</div>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<style type=3D"text/css">body[class=3D"mailer"]{max-width:600px;width:100%}=
+body[class=3D"mailer"] div[class=3D"content"]{padding:0 17px}body[class=3D"=
+mailer"] div[class=3D"content"] section[class=3D"header"]{background:#614AE=
+E;border-radius:11px;padding:11px;margin:20px 0 20px 0}body[class=3D"mailer=
+"] div[class=3D"content"] section[class=3D"header"] a img{max-width:200px;d=
+isplay:block}body[class=3D"mailer"] div[class=3D"content"] section[class=3D=
+"body"]{margin-bottom:20px;border-radius:11px}body[class=3D"mailer"] div[cl=
+ass=3D"content"] section[class=3D"body"] img{margin:0 !important;width:100%=
+}body[class=3D"mailer"] div[class=3D"content"] section[class=3D"body"]>:fir=
+st-child{font-weight:bold;font-size:24px;line-height:32px;color:#121621}bod=
+y[class=3D"mailer"] div[class=3D"content"] section[class=3D"footer"]{width:=
+100%;height:100%;border-radius:11px;background:#fff}body[class=3D"mailer"] =
+div[class=3D"content"] div[class=3D"footer-social-text"]{color:#8C8E93;font=
+-size:11px;line-height:18px;padding:20px;border-top:1px solid #DDDEE4;margi=
+n:20px}body[class=3D"mailer"] div[class=3D"content"] a[class=3D"btn"]{backg=
+round:#614AEE;border:#614AEE}body[class=3D"mailer"] div[class=3D"content"] =
+a[class=3D"btn red"]{background:#614AEE;border:#614AEE}body[class=3D"mailer=
+"] div[class=3D"content"] span[class=3D"mailer-btn"]{padding:10px}</style>
+<style>body {
+height: 100%; min-height: 100%; position: relative; box-shadow: none !impor=
+tant; border: none !important; margin: 0 auto; font-family: Roboto,San Fran=
+cisco,Helvetica Neue,Helvetica,Arial; font-weight: 400; font-size: 15px; li=
+ne-height: 24px; color: #2c2d30;
+}
+body.mailer {
+width: 600px; background-color: rgba(164,175,221,.2);
+}
+body[class=3D"mailer"] {
+max-width: 600px; width: 100%;
+}
+body[class=3D"mailer"] div[class=3D"content"] {
+padding: 0 17px;
+}
+body[class=3D"mailer"] div[class=3D"content"] section[class=3D"header"] {
+background: #614AEE; border-radius: 11px; padding: 11px; margin: 20px 0 20p=
+x 0;
+}
+body[class=3D"mailer"] div[class=3D"content"] section[class=3D"header"] a i=
+mg {
+max-width: 200px; display: block;
+}
+body[class=3D"mailer"] div[class=3D"content"] section[class=3D"body"] {
+margin-bottom: 20px; border-radius: 11px;
+}
+body[class=3D"mailer"] div[class=3D"content"] section[class=3D"body"] img {
+margin: 0 !important; width: 100%;
+}
+body[class=3D"mailer"] div[class=3D"content"] section[class=3D"body"]>:firs=
+t-child {
+font-weight: bold; font-size: 24px; line-height: 32px; color: #121621;
+}
+body[class=3D"mailer"] div[class=3D"content"] section[class=3D"footer"] {
+width: 100%; height: 100%; border-radius: 11px; background: #fff;
+}
+body[class=3D"mailer"] div[class=3D"content"] div[class=3D"footer-social-te=
+xt"] {
+color: #8C8E93; font-size: 11px; line-height: 18px; padding: 20px; border-t=
+op: 1px solid #DDDEE4; margin: 20px;
+}
+body[class=3D"mailer"] div[class=3D"content"] a[class=3D"btn"] {
+background: #614AEE; border: #614AEE;
+}
+body[class=3D"mailer"] div[class=3D"content"] a[class=3D"btn red"] {
+background: #614AEE; border: #614AEE;
+}
+body[class=3D"mailer"] div[class=3D"content"] span[class=3D"mailer-btn"] {
+padding: 10px;
+}
+</style>
+</head>
+<body class=3D"mailer" style=3D"height: 100%; min-height: 100%; position: r=
+elative; box-shadow: none !important; font-family: Roboto,San Francisco,Hel=
+vetica Neue,Helvetica,Arial; font-weight: 400; font-size: 15px; line-height=
+: 24px; color: #2c2d30; width: 100%; max-width: 600px; margin: 0 auto; bord=
+er: none;" bgcolor=3D"rgba(164,175,221,.2)"><div class=3D"content" style=3D=
+"padding: 0 17px;">
+<section class=3D"header" style=3D"background-color: #614AEE; border-radius=
+: 11px; margin: 20px 0; padding: 11px;"><a href=3D"https://l.geekbrains.ru/=
+u/nrd.php?p=3D357ufnIMzN_12355635_3703023_-2_1&ems_l=3D5414206&l=3D1~~9_mEE=
+0VQ-aEla~6S_8a-WYBY6U-_e_wa~6S6YX2a6BY6U25wa~6SWU69U207BY6U-_e_SY6U25S%D1%8=
+2%D0%B5%D1%81%D1%82S%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B5%=
+D0%BD%D0%BD%D1%8B%D0%B5S%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B0S%D0%B5%D0%BC%D=
+0%B0%D1%80%D1%81%D0%B8%D1%81SSIwa~6S~Y-6B%7B%7BW87~UW~QIJNKN%7CXYZUa5~%28%2=
+7787Y%27%29%7D%7Dwa~6SW87~Y7~B%24WU69U207SWU~Y08-e%24w_WS_-WBY6U25S%24W2X%2=
+4w_WS52XB%24W52742X%24w_WSa2XB%24a_Y-2X%24w_WS552XB%24552X%24w_WSWa_~86Y-B%=
+249Y-_SJKGK%24&s=3DC_2G-MFP0UKewZ-TR3w4ltLoV_M&_esuh=3D_11_ba669a044c6a0b8d=
+fa974ad3d0f2c58aa129e93772d845d090805be46e290385" style=3D"color: #3f9dff; =
+text-decoration: none;"><img src=3D"https://gbcdn.mrgcdn.ru/uploads/assets/=
+mailers/gb-logo-2bf50b7b2f41a74b1e4530c928057d69fc9d49032e04162dae926f71ef9=
+6febb.png" style=3D"max-width: 200px; display: block;"></a></section><secti=
+on class=3D"body" style=3D"background-color: #fff; border-radius: 11px; tex=
+t-align: left; margin-bottom: 20px; padding: 24px;"><p style=3D"margin-top:=
+ 0; font-weight: bold; font-size: 24px; line-height: 32px; color: #121621;"=
+>=D0=92=D0=B0=D0=BC =D0=BF=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=B8=D0=BB=D0=BE =
+=D0=BD=D0=BE=D0=B2=D0=BE=D0=B5 =D0=BB=D0=B8=D1=87=D0=BD=D0=BE=D0=B5 =D1=81=
+=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE=D1=82 =D0=BF=D0=BE=
+=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8F
+Geek Brains =D0=BD=D0=B0 =D0=BF=D0=BE=D1=80=D1=82=D0=B0=D0=BB=D0=B5
+<a href=3D"https://l.geekbrains.ru/u/nrd.php?p=3D357ufnIMzN_12355635_370302=
+3_-2_1&ems_l=3D5414206&l=3D1~~9_mEE0VQ-aEla~6S_8a-WYBY6U-_e_wa~6S6YX2a6BY6U=
+25wa~6SWU69U207BY6U-_e_SY6U25S%D1%82%D0%B5%D1%81%D1%82S%D0%BF%D0%BB%D0%B0%D=
+1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5S%D0%BF%D0%B8%D1%=
+81%D1%8C%D0%BC%D0%B0S%D0%B5%D0%BC%D0%B0%D1%80%D1%81%D0%B8%D1%81SSIwa~6S~Y-6=
+B%7B%7BW87~UW~QIJNKN%7CXYZUa5~%28%27787Y%27%29%7D%7Dwa~6SW87~Y7~B%24WU69U20=
+7SWU~Y08-e%24w_WS_-WBY6U25S%24W2X%24w_WS52XB%24W52742X%24w_WSa2XB%24a_Y-2X%=
+24w_WS552XB%24552X%24w_WSWa_~86Y-B%249Y-_SJKGK%24&s=3DC_2G-MFP0UKewZ-TR3w4l=
+tLoV_M&_esuh=3D_11_ba669a044c6a0b8dfa974ad3d0f2c58aa129e93772d845d090805be4=
+6e290385" style=3D"color: #3f9dff; text-decoration: none;">GeekBrains</a>:<=
+/p>
+<p style=3D"margin-top: 0;"></p>
+<p style=3D"margin-top: 0;">=F0=9F=9A=80 =D0=9D=D0=B0=D1=87=D0=BD=D0=B8=D1=
+=82=D0=B5 =D1=83=D1=87=D0=B8=D1=82=D1=8C=D1=81=D1=8F =D0=BF=D0=BE =D0=BF=D1=
+=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B5 =C2=AB=D0=A0=D0=B0=D0=B7=D1=
+=80=D0=B0=D0=B1=D0=BE=D1=82=D1=87=D0=B8=D0=BA=C2=BB 16 =D0=B0=D0=BF=D1=80=
+=D0=B5=D0=BB=D1=8F! =D0=A3=D0=B6=D0=B5 =D0=B2 =D1=8D=D1=82=D1=83 =D1=81=D1=
+=83=D0=B1=D0=B1=D0=BE=D1=82=D1=83 =D0=BD=D0=BE=D0=B2=D1=8B=D0=B9 =D0=BF=D0=
+=BE=D1=82=D0=BE=D0=BA =D1=81=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82=D0=BE=D0=
+=B2 =D0=BD=D0=B0=D1=87=D0=BD=D1=91=D1=82 =D1=83=D1=87=D1=91=D0=B1=D1=83 =D0=
+=BD=D0=B0 =D1=81=D0=B0=D0=BC=D0=BE=D0=B9 =D0=BF=D0=BE=D0=BF=D1=83=D0=BB=D1=
+=8F=D1=80=D0=BD=D0=BE=D0=B9 =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=
+=BC=D0=B5 GeekBrains =E2=80=94 =C2=AB=D0=A0=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=
+=D0=BE=D1=82=D1=87=D0=B8=D0=BA=C2=BB. <br>
+=E2=A0=80<br>
+=D0=AD=D1=82=D0=B0 =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B0 =
+=D0=B4=D0=BB=D1=8F =D0=B2=D0=B0=D1=81, =D0=B5=D1=81=D0=BB=D0=B8 =D0=B2=D1=
+=8B:<br>
+=E2=9C=94=EF=B8=8F =D0=BD=D0=B5 =D0=BC=D0=BE=D0=B6=D0=B5=D1=82=D0=B5 =D0=BF=
+=D0=BE=D0=BD=D1=8F=D1=82=D1=8C, =D0=BA=D0=B0=D0=BA=D0=B0=D1=8F =D0=B8=D0=B7=
+ =D0=B2=D0=BE=D1=81=D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=
+=D1=8B=D1=85 =D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D1=8B=D1=85 =D0=BF=D1=80=
+=D0=BE=D1=84=D0=B5=D1=81=D1=81=D0=B8=D0=B9 =D0=B2=D0=B0=D0=BC =D0=BF=D0=BE=
+=D0=B4=D1=85=D0=BE=D0=B4=D0=B8=D1=82;<br>
+=E2=9C=94=EF=B8=8F =D0=BD=D0=B5 =D0=B7=D0=BD=D0=B0=D0=B5=D1=82=D0=B5, =D1=
+=81 =D1=87=D0=B5=D0=B3=D0=BE =D0=BD=D0=B0=D1=87=D0=B0=D1=82=D1=8C =D0=BA=D0=
+=B0=D1=80=D1=8C=D0=B5=D1=80=D1=83 =D0=B2 IT.<br>
+=E2=A0=80<br>
+=F0=9F=91=89 =D0=97=D0=B0=D0=B1=D1=80=D0=BE=D0=BD=D0=B8=D1=80=D0=BE=D0=B2=
+=D0=B0=D1=82=D1=8C =D0=BC=D0=B5=D1=81=D1=82=D0=BE: <a href=3D"https://gb.ru=
+/link/Oqy3SE" target=3D"_blank" ems:notrack=3D"true" e:do-not-track=3D"true=
+" style=3D"color: #3f9dff; text-decoration: none;">https://gb.ru/link/Oqy3S=
+E</a><br>
+=E2=A0=80<br>
+=E2=9D=97=EF=B8=8F =D0=92=D0=B0=D0=BC =D0=BD=D0=B5 =D0=BD=D0=B0=D0=B4=D0=BE=
+ =D0=BF=D1=80=D1=8F=D0=BC=D0=BE =D1=81=D0=B5=D0=B9=D1=87=D0=B0=D1=81 =D0=B2=
+=D1=8B=D0=B1=D0=B8=D1=80=D0=B0=D1=82=D1=8C =D1=8F=D0=B7=D1=8B=D0=BA =D0=BF=
+=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=
+=BD=D0=B8=D1=8F, =D1=81=D1=82=D0=B5=D0=BA =D1=82=D0=B5=D1=85=D0=BD=D0=BE=D0=
+=BB=D0=BE=D0=B3=D0=B8=D0=B9 =D0=B8 =D0=B4=D0=B0=D0=B6=D0=B5 =D0=BD=D0=B0=D0=
+=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE=D0=B1=D1=83=D1=
+=87=D0=B5=D0=BD=D0=B8=D1=8F. =D0=92=D0=BD=D0=B0=D1=87=D0=B0=D0=BB=D0=B5 =D0=
+=B2=D1=8B =D0=B8=D0=B7=D1=83=D1=87=D0=B8=D1=82=D0=B5 =D1=84=D1=83=D0=BD=D0=
+=B4=D0=B0=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=
+=BE=D1=81=D0=BD=D0=BE=D0=B2=D1=8B IT, =D0=BF=D0=BE=D0=BF=D1=80=D0=BE=D0=B1=
+=D1=83=D0=B5=D1=82=D0=B5 =D1=81=D0=B5=D0=B1=D1=8F =D0=B2 =D1=80=D0=B0=D0=B7=
+=D0=BD=D1=8B=D1=85 =D0=BF=D1=80=D0=BE=D1=84=D0=B5=D1=81=D1=81=D0=B8=D1=8F=
+=D1=85 =D0=B8 =D1=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=BF=D0=BE=D1=82=D0=BE=
+=D0=BC =D1=83=D0=B3=D0=BB=D1=83=D0=B1=D0=B8=D1=82=D0=B5 =D0=B7=D0=BD=D0=B0=
+=D0=BD=D0=B8=D1=8F =D0=B2 =D0=BD=D0=B0=D0=B8=D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =
+=D0=BF=D0=BE=D0=B4=D1=85=D0=BE=D0=B4=D1=8F=D1=89=D0=B5=D0=B9 =D1=81=D1=84=
+=D0=B5=D1=80=D0=B5. <br>
+=E2=A0=80<br>
+=F0=9F=8E=81 =D0=94=D0=BB=D1=8F =D1=81=D1=82=D1=83=D0=B4=D0=B5=D0=BD=D1=82=
+=D0=BE=D0=B2, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=BD=D0=B0=D1=87=
+=D0=B8=D0=BD=D0=B0=D1=8E=D1=82 =D1=83=D1=87=D0=B8=D1=82=D1=8C=D1=81=D1=8F 1=
+6 =D0=B0=D0=BF=D1=80=D0=B5=D0=BB=D1=8F, =D1=81=D0=BE=D0=B3=D0=BB=D0=B0=D1=
+=81=D0=BE=D0=B2=D0=B0=D0=BD =D0=B3=D1=80=D0=B0=D0=BD=D1=82 =D0=BD=D0=B0 =D1=
+=81=D1=83=D0=BC=D0=BC=D1=83 50 000 =D1=80=D1=83=D0=B1=D0=BB=D0=B5=D0=B9. =
+=D0=93=D1=80=D0=B0=D0=BD=D1=82=D0=BE=D0=BC =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =
+=D0=BE=D0=BF=D0=BB=D0=B0=D1=82=D0=B8=D1=82=D1=8C =D0=B4=D0=BE =D0=BF=D0=BE=
+=D0=BB=D0=BE=D0=B2=D0=B8=D0=BD=D1=8B =D1=81=D1=82=D0=BE=D0=B8=D0=BC=D0=BE=
+=D1=81=D1=82=D0=B8 =D0=BE=D0=B1=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=
+=D0=BE =D0=BB=D1=8E=D0=B1=D0=BE=D0=BC=D1=83 =D1=82=D0=B0=D1=80=D0=B8=D1=84=
+=D1=83.<br>
+=E2=A0=80<br>
+=F0=9F=91=89 =D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=82=D1=8C =D0=B3=D1=80=
+=D0=B0=D0=BD=D1=82: <a href=3D"https://gb.ru/link/Oqy3SE" target=3D"_blank"=
+ ems:notrack=3D"true" e:do-not-track=3D"true" style=3D"color: #3f9dff; text=
+-decoration: none;">https://gb.ru/link/Oqy3SE</a></p>
+<p style=3D"margin-top: 0;"><a href=3D"https://l.geekbrains.ru/u/nrd.php?p=
+=3D357ufnIMzN_12355635_3703023_-2_1&ems_l=3D5414206&l=3DiuuqtHZZhc-svZGdibu=
+~sppn~jeW3528425Rvun~tpvsdfWfnbstztRvun~nfejvnWfnbjmRvun~dbnqbjhoWfnbstzt~f=
+nbjm~%D1%82%D0%B5%D1%81%D1%82~%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0=
+%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5~%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B0~%D0%=
+B5%D0%BC%D0%B0%D1%80%D1%81%D0%B8%D1%81~~3Rvun~ufsnW%7B%7Bdpoubdu-34858%7Cef=
+gbvmu%28%27opof%27%29%7D%7DRvun~dpoufouW%24dbnqbjho~dbufhpsz%24Rtd~tsdWfnbj=
+m~%24dje%24Rtd~mjeW%24dmjolje%24Rtd~vjeW%24vtfsje%24Rtd~mmjeW%24mmje%24Rtd~=
+dvtupnfsW%24qfst~4515%24&s=3DyQx4c9A1XxxIZ96Djb3yfIhdgv0&_esuh=3D_11_f518e3=
+a7d1fa125aed84580e0678b6800879d2fa38a72d4e5ef1b61c6b46a571" style=3D"color:=
+ #3f9dff; text-decoration: none;">=D0=9E=D1=82=D0=B2=D0=B5=D1=82=D0=B8=D1=
+=82=D1=8C</a></p></section><section class=3D"footer" style=3D"padding-top: =
+16px; text-align: center; width: 100%; height: 100%; border-radius: 11px; b=
+ackground-color: #fff;">=D0=9E=D1=81=D1=82=D0=B0=D0=BB=D0=B8=D1=81=D1=8C =
+=D0=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81=D1=8B? =D0=A1=D0=BC=D0=B5=D0=BB=D0=BE =
+=D0=B7=D0=B2=D0=BE=D0=BD=D0=B8=D1=82=D0=B5 =D0=BD=D0=B0=D0=BC =D0=BF=D0=BE =
+=D0=B1=D0=B5=D1=81=D0=BF=D0=BB=D0=B0=D1=82=D0=BD=D0=BE=D0=BC=D1=83 =D0=BD=
+=D0=BE=D0=BC=D0=B5=D1=80=D1=83 <b>8 800 700 96 85</b><br>=D0=B8=D0=BB=D0=B8=
+ =D0=BD=D0=B0=D0=BF=D0=B8=D1=88=D0=B8=D1=82=D0=B5 =D0=BD=D0=B0 <a href=3D"m=
+ailto:support@geekbrains.ru" style=3D"color: #3f9dff; text-decoration: none=
+;">support@geekbrains.ru</a><br><br><a href=3D"https://l.geekbrains.ru/u/nr=
+d.php?p=3D357ufnIMzN_12355635_3703023_-2_1&ems_l=3D5414206&l=3DdpploCUUc-6n=
+qUlnkbeha%23oappejcoBqpi8okqn_aRai.nouoMqpi8ia~eqiRai.ehMqpi8_.il.ecjRai.no=
+uo8ai.eh8%D1%82%D0%B5%D1%81%D1%828%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%8=
+0%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B58%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B08=
+%D0%B5%D0%BC%D0%B0%D1%80%D1%81%D0%B8%D1%8188YMqpi8paniR%7B%7B_kjp._p6YZ303%=
+7C~ab.qhp%28%27jkja%27%29%7D%7DMqpi8_kjpajpR%24_.il.ecj8_.packnu%24Mo_8on_R=
+ai.eh8%24_e~%24Mo_8he~R%24_hejge~%24Mo_8qe~R%24qoane~%24Mo_8hhe~R%24hhe~%24=
+Mo_8_qopkianR%24lano8Z0W0%24&s=3D-Xo0wXdxRnQrmWEDSE6En-Yi5aA&_esuh=3D_11_6c=
+0a67d963ea17b097f7256a4bec2380a36d5e284a4221af1ed4644fe4f69512" style=3D"co=
+lor: #3f9dff; text-decoration: none;">=D0=98=D0=B7=D0=BC=D0=B5=D0=BD=D0=B8=
+=D1=82=D1=8C =D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=B8 =D1=80=
+=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B8</a><div class=3D"footer-social" =
+style=3D"width: auto;">
+<a class=3D"footer-social-item" href=3D"https://l.geekbrains.ru/u/nrd.php?p=
+=3D357ufnIMzN_12355635_3703023_-2_1&ems_l=3D5414206&l=3DammilzRRod39hfR~--d=
+8k7bglknynmf5lhnk9-O-f7klrlJnmf5f-.bnfO-f7beJnmf597fi7b~gO-f7klrl5-f7be5%D1=
+%82%D0%B5%D1%81%D1%825%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B=
+5%D0%BD%D0%BD%D1%8B%D0%B55%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B05%D0%B5%D0%BC=
+%D0%B0%D1%80%D1%81%D0%B8%D1%8155VJnmf5m-kfO%7B%7B9hgm79m3VW0X0%7C.-_7nem%28=
+%27ghg-%27%29%7D%7DJnmf59hgm-gmO%2497fi7b~g597m-~hkr%24Jl95lk9O-f7be5%249b.=
+%24Jl95eb.O%249ebgdb.%24Jl95nb.O%24nl-kb.%24Jl95eeb.O%24eeb.%24Jl959nlmhf-k=
+O%24i-kl5WXTX%24&s=3Dn2aZmEI5jDuv9eYRDSEBWjmz7lI&_esuh=3D_11_ce541c5dfacd1b=
+2eb68655b607cbc797360065c196693882a9a9ea08aaca3b6e" style=3D"color: #3f9dff=
+; text-decoration: none; margin-right: 8px;"><img src=3D"https://gbcdn.mrgc=
+dn.ru/uploads/assets/social/vk-b73a25da87247ae26e584dd26a4c8fde1ef5ebf8a2ce=
+bd3ce80d0a6febe0b9ee.png"></a><a class=3D"footer-social-item" href=3D"https=
+://l.geekbrains.ru/u/nrd.php?p=3D357ufnIMzN_12355635_3703023_-2_1&ems_l=3D5=
+414206&l=3DnzzvyM44CCCcotyzgmxgscius4mkkqhxgotycxA4LAzseyuAxik1ksgxyEyWAzse=
+skjoAs1ksgorWAzseigsvgomt1ksgxyEyeksgore%D1%82%D0%B5%D1%81%D1%82e%D0%BF%D0%=
+BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5e%D0%BF=
+%D0%B8%D1%81%D1%8C%D0%BC%D0%B0e%D0%B5%D0%BC%D0%B0%D1%80%D1%81%D0%B8%D1%81ee=
+8WAzsezkxs1%7B%7Biutzgizc89~.~%7CjklgArz%28%27tutk%27%29%7D%7DWAzseiutzktz1=
+%24igsvgomteigzkmuxE%24Wyieyxi1ksgore%24ioj%24Wyieroj1%24irotqoj%24WyieAoj1=
+%24Aykxoj%24Wyierroj1%24rroj%24WyieiAyzuskx1%24vkxye9.6.%24&s=3DDaqJioi4t-a=
+oudPhdbjsRAriGIk&_esuh=3D_11_73113ecb652757ff2b7433feb7509d63e96bcd02fda6ce=
+5ffff7c723cb4aae88" style=3D"color: #3f9dff; text-decoration: none; margin-=
+right: 8px;"><img src=3D"https://gbcdn.mrgcdn.ru/uploads/assets/social/inst=
+agram-e5a85c5155123d7b3b4597613697ab50caed29f57ebe38ab242ddbe7fbcadd61.png"=
+></a><a class=3D"footer-social-item" href=3D"https://l.geekbrains.ru/u/nrd.=
+php?p=3D357ufnIMzN_12355635_3703023_-2_1&ems_l=3D5414206&l=3DDPPLO2ggSSSsUK=
+QPQxAsyKIgyDwJJAHgcY9oCA%3Fu8O7Z0Ln4aT%40%2BCW%3F%261QPIuOKQNyAdAIwNOUO_QPI=
+uIAzEQIdAIwEH_QPIuywILwECJdAIwNOUOuAIwEHu%D1%82%D0%B5%D1%81%D1%82u%D0%BF%D0=
+%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5u%D0%B=
+F%D0%B8%D1%81%D1%8C%D0%BC%D0%B0u%D0%B5%D0%BC%D0%B0%D1%80%D1%81%D0%B8%D1%81u=
+uk_QPIuPANId%7B%7ByKJPwyPsklpmp%7CzABwQHP%28%27JKJA%27%29%7D%7D_QPIuyKJPAJP=
+d%24ywILwECJuywPACKNU%24_OyuONydAIwEHu%24yEz%24_OyuHEzd%24yHEJGEz%24_OyuQEz=
+d%24QOANEz%24_OyuHHEzd%24HHEz%24_OyuyQOPKIANd%24LANOulmim%24&s=3Dx9VLSq419a=
+8IURnvFdZtSyAT3LM&_esuh=3D_11_884a5018d6c46700a802715fbf0e9085debd64dfaf1ea=
+f0f11403ab157b6a685" style=3D"color: #3f9dff; text-decoration: none; margin=
+-right: 8px;"><img src=3D"https://gbcdn.mrgcdn.ru/uploads/assets/social/you=
+tube-158cba6f4fbcd244fe2f9f7f04f9982cd8c53b4bea5a4b77948317a8fc07ef73.png">=
+</a><a class=3D"footer-social-item" href=3D"https://l.geekbrains.ru/u/nrd.p=
+hp?p=3D357ufnIMzN_12355635_3703023_-2_1&ems_l=3D5414206&l=3DgssorFXXsdkdfq~=
+l9ldXfddjaq~hmr-qtEtsl-rntqbdUdl~qrxrPtsl-ldchtlUdl~hkPtsl-b~lo~hfmUdl~qrxr=
+-dl~hk-%D1%82%D0%B5%D1%81%D1%82-%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%=
+D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B0-%D=
+0%B5%D0%BC%D0%B0%D1%80%D1%81%D0%B8%D1%81--1Ptsl-sdqlU%7B%7Bbnms~bs912636%7C=
+cde~tks%28%27mnmd%27%29%7D%7DPtsl-bnmsdmsU%24b~lo~hfm-b~sdfnqx%24Prb-rqbUdl=
+~hk-%24bhc%24Prb-khcU%24bkhmjhc%24Prb-thcU%24trdqhc%24Prb-kkhcU%24kkhc%24Pr=
+b-btrsnldqU%24odqr-23Z3%24&s=3Dtf9lOMARgxiBm7LVAV_fopYmUiM&_esuh=3D_11_bb7a=
+00dc3ea2cbcd5fe53f78c835eb1ee0eb167c4e0c4d4c31a58cc8e812d790" style=3D"colo=
+r: #3f9dff; text-decoration: none;"><img src=3D"https://gbcdn.mrgcdn.ru/upl=
+oads/assets/social/telegram-119dedc50c53d48757f710f1b9b5683275451d353484dca=
+b4597dfda0d15ccf1.png"></a>
+</div>
+<div class=3D"footer-social-text" style=3D"color: #8C8E93; font-size: 11px;=
+ line-height: 18px; border-top-width: 1px; border-top-color: #DDDEE4; borde=
+r-top-style: solid; margin: 20px; padding: 20px;">=D0=9E=D0=B1=D1=89=D0=B5=
+=D1=81=D1=82=D0=B2=D0=BE =D1=81 =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=
+=D0=B5=D0=BD=D0=BD=D0=BE=D0=B9 =D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=
+=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D1=8C=D1=8E =C2=AB=D0=93=D0=B8=
+=D0=BA=D0=91=D1=80=D0=B5=D0=B8=D0=BD=D1=81=C2=BB.=D0=9E=D0=93=D0=A0=D0=9D: =
+1167746654569. =D0=AE=D1=80=D0=B8=D0=B4=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=
+=D0=B9 =D0=B0=D0=B4=D1=80=D0=B5=D1=81: 125167,=D0=B3. =D0=9C=D0=BE=D1=81=D0=
+=BA=D0=B2=D0=B0,=D0=9B=D0=B5=D0=BD=D0=B8=D0=BD=D0=B3=D1=80=D0=B0=D0=B4=D1=
+=81=D0=BA=D0=B8=D0=B9 =D0=BF=D1=80-=D0=BA=D1=82, =D0=B4. 39 =D1=81=D1=82=D1=
+=80. 79, =D1=8D=D1=82=D0=B0=D0=B6, =D0=BF=D0=BE=D0=BC=D0=B5=D1=89=D0=B5=D0=
+=BD=D0=B8=D0=B5, =D1=87=D0=B0=D1=81=D1=82=D1=8C =D0=BA=D0=BE=D0=BC=D0=BD=D0=
+=B0=D1=82=D1=8B 23, XXXIV, 1.=D0=A2=D0=B5=D0=BB=D0=B5=D1=84=D0=BE=D0=BD 8-8=
+00-700-68-41.</div></section>
+</div></body>
+</html>
+
+<img src=3D"https://l.geekbrains.ru/mo/357ufnIMzN_767761541_3703023_1235563=
+5_5414206.gif" height=3D"2" width=3D"2" border=3D"0" alt=3D""></body>
+</html>
+----=_---NextPart--=_-0zOxco1K6o--

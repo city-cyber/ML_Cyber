@@ -1,0 +1,226 @@
+Received: from myt5-ce512177d51b.qloud-c.yandex.net (myt5-ce512177d51b.qloud-c.yandex.net [2a02:6b8:c12:3e19:0:640:ce51:2177])
+	by myt6-cee85e9acbcb.qloud-c.yandex.net with LMTP id KjcyAqLJp2-SNJvyu2f
+	for <gjuse@yandex.ru>; Tue, 26 Apr 2022 20:32:26 +0300
+Received: from im.coursehunter.net (im.coursehunter.net [62.113.116.190])
+	by myt5-ce512177d51b.qloud-c.yandex.net (mxfront/Yandex) with ESMTPS id fWsCY56VeY-WPdmPneg;
+	Tue, 26 Apr 2022 20:32:25 +0300
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(Client certificate not present)
+Return-Path: info@coursehunter.net
+X-Yandex-Fwd: 1
+Authentication-Results: myt5-ce512177d51b.qloud-c.yandex.net; spf=pass (myt5-ce512177d51b.qloud-c.yandex.net: domain of coursehunter.net designates 62.113.116.190 as permitted sender, rule=[mx]) smtp.mail=info@coursehunter.net; dkim=pass header.i=@coursehunter.net
+X-Yandex-Spam: 4
+X-Yandex-Uid-Status: 4 228115479
+Received: from [127.0.0.1] (coursehunter.net [95.215.205.251])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by im.coursehunter.net (Postfix) with ESMTPSA id 332658A11A
+	for <coolchel308@yandex.ru>; Tue, 26 Apr 2022 20:26:26 +0300 (MSK)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=coursehunter.net;
+	s=im; t=1650993986; bh=a3guq+4evPvPrmi3orv4MOfOiFKhibHqoUGCPl1PDCs=;
+	h=Date:Subject:From:Reply-To:To:List-Unsubscribe;
+	b=yvj0UhhHvuBiOVQo0f1tJ8+1qFMuwyg5Sh05GaLW8zSAqlsY7OzZxzkp6qBo+4wNL
+	 HNOov/Ca7H0KoC0tyD2j8P/Fu4mAX2nMnUH2l9K/MYhOHPubQLy9PGksnw1jde58m4
+	 amlfIL2LcqjRxhIwLwMFlGLly0Wg6EGIYQmJJUvM=
+Message-ID: <4fca3ae12977f963a5521da5eec715db@swift.generated>
+Date: Tue, 26 Apr 2022 20:26:26 +0300
+Subject: -50% =?utf-8?Q?=D0=BD=D0=B0_=D0=B2=D1=81=D0=B5_=D0=BF?=
+ =?utf-8?Q?=D0=B0=D0=BA=D0=B5=D1=82=D1=8B?= CH, 25-28
+ =?utf-8?Q?=D0=90=D0=BF=D1=80=D0=B5=D0=BB=D1=8F=2C?= 1
+ =?utf-8?Q?=D0=B4=D0=B5=D0=BD=D1=8C_=D0=BF=D0=BE=D0=BB?=
+ =?utf-8?Q?=D0=BD=D0=BE=D1=81=D1=82=D1=8C=D1=8E_=D0=B2_=D0=BF=D0=BE=D0=B4?=
+ =?utf-8?Q?=D0=B4=D0=B5=D1=80=D0=B6=D0=BA=D1=83_=D0=A3?=
+ =?utf-8?Q?=D0=BA=D1=80=D0=B0=D0=B8=D0=BD=D1=8B?=
+From: Course Hunter mail service <info@coursehunter.net>
+Reply-To: Course Hunter info service <info@coursehunter.net>
+To: coolchel308@yandex.ru
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1650993986_c452c2dcb7278274d772569a4fa80a58_=_"
+List-Unsubscribe: <mailto:info@coursehunter.net>
+X-Yandex-Forward: ff070beb4a2451a121ab09d305103a90
+
+
+--_=_swift_v4_1650993986_c452c2dcb7278274d772569a4fa80a58_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=D0=97=D0=B4=D1=80=D0=B0=D0=B2=D1=81=D1=82=D0=B2=D1=83=D0=B9=D1=82=D0=B5!=
+
+C=D0=BA=D0=B8=D0=B4=D0=BA=D0=B8 =D0=BA=D0=BE =D0=94=D0=BD=D1=8E =D0=
+=A0=D0=BE=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D0=B0=D0=B9=D1=82=
+=D0=B0 =D1=83=D0=B6=D0=B5 =D1=81=D1=82=D0=B0=D1=80=D1=82=D0=BE=D0=B2=D0=
+=B0=D0=BB=D0=B8. -50% =D0=BD=D0=B0 =D0=B2=D1=81=D0=B5 =D0=BF=D0=B0=D0=BA=
+=D0=B5=D1=82=D1=8B CH =D1=81 25-=D0=B3=D0=BE =D0=B4=D0=BE 28-=D0=B3=D0=
+=BE =D0=90=D0=BF=D1=80=D0=B5=D0=BB=D1=8F =D0=B2=D0=BA=D0=BB=D1=8E=D1=87=
+=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE.
+=D0=92=D1=81=D1=8E =D0=BF=
+=D1=80=D0=B8=D0=B1=D1=8B=D0=BB=D1=8C =D0=BA=D0=B0=D0=BA =D0=BC=D0=B8=D0=
+=BD=D0=B8=D0=BC=D1=83=D0=BC =D0=BE=D0=B4=D0=BD=D0=BE=D0=B3=D0=BE =D0=B8=
+=D0=B7 =D1=82=D1=80=D0=B5=D1=85 =D0=B4=D0=BD=D0=B5=D0=B9 =D0=B0=D0=BA=D1=
+=86=D0=B8=D0=B8, =D0=BC=D1=8B =D0=BF=D0=B5=D1=80=D0=B5=D0=B4=D0=B0=D0=B4=
+=D0=B8=D0=BC =D0=B2 =D0=A3=D0=BA=D1=80=D0=B0=D0=B8=D0=BD=D1=81=D0=BA=D0=
+=B8=D0=B9 =D0=A4=D0=BE=D0=BD=D0=B4 =D0=BF=D0=BE=D0=B4=D0=B4=D0=B5=D1=80=
+=D0=B6=D0=BA=D0=B8 (=D0=BA=D0=B0=D0=BA=D0=BE=D0=B9 =D0=B8=D0=BC=D0=B5=D0=
+=BD=D0=BD=D0=BE, =D0=B5=D1=89=D0=B5 =D0=BD=D0=B5 =D1=80=D0=B5=D1=88=D0=
+=B8=D0=BB=D0=B8). =D0=A1=D0=BB=D0=B0=D0=B2=D0=B0 =D0=A3=D0=BA=D1=80=D0=
+=B0=D0=B8=D0=BD=D0=B5!
+
+--_=_swift_v4_1650993986_c452c2dcb7278274d772569a4fa80a58_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.=
+w3.org/1999/xhtml" lang=3D"ru">
+
+<head>
+    <meta http-equiv=3D"Conte=
+nt-Type" content=3D"text/html; charset=3DUTF-8" />
+    <title>-50% =D0=
+=BD=D0=B0 =D0=B2=D1=81=D0=B5 =D0=BF=D0=B0=D0=BA=D0=B5=D1=82=D1=8B CH, 25-28=
+ =D0=90=D0=BF=D1=80=D0=B5=D0=BB=D1=8F, 1 =D0=B4=D0=B5=D0=BD=D1=8C =D0=BF=
+=D0=BE=D0=BB=D0=BD=D0=BE=D1=81=D1=82=D1=8C=D1=8E =D0=B2 =D0=BF=D0=BE=D0=
+=B4=D0=B4=D0=B5=D1=80=D0=B6=D0=BA=D1=83 =D0=A3=D0=BA=D1=80=D0=B0=D0=B8=
+=D0=BD=D1=8B</title>
+    <meta name=3D"viewport" content=3D"width=3Ddevic=
+e-width, initial-scale=3D1.0" />
+    <style type=3D"text/css">
+        =
+a[x-apple-data-detectors] {
+            color: inherit !important;
+    =
+    }
+    </style>
+</head>
+
+<body style=3D"margin: 0; padding: 0;">=
+
+    <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%">
+        <tr>
+            <td style=3D"padding=
+: 1.3rem 0 1.3rem 0;">
+
+                <table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"border-co=
+llapse: collapse; border: 1px solid #cccccc;">
+                    <tr>=
+
+                        <td align=3D"center" bgcolor=3D"#7F00AC" style=
+=3D"padding: 2.5rem 0 1.9rem 0;">
+                            <span bgcol=
+or=3D"#7F00AC" style=3D"background-color: #7F00AC; color: #ffffff; font-fam=
+ily: '-apple-system',BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; font-s=
+ize: 2.5rem; line-height: 1; font-weight: 700; display:inline-block; text-d=
+ecoration: none;">ch.</span>
+                        </td>
+            =
+        </tr>
+                    <tr>
+                        <td bgco=
+lor=3D"#ffffff" style=3D"padding: 2.5rem 1.9rem 2.5rem 1.9rem;">
+        =
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%" style=3D"border-collapse: collapse;">
+                   =
+             <tr>
+                                    <td style=3D"font-f=
+amily: '-apple-system',BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;">
+=
+                                        <h1 style=3D"font-size: 1.5rem; mar=
+gin: 0;">=D0=97=D0=B4=D1=80=D0=B0=D0=B2=D1=81=D1=82=D0=B2=D1=83=D0=B9=D1=
+=82=D0=B5!</h1>
+                                    </td>
+             =
+                   </tr>
+                                <tr>
+         =
+                           <td style=3D"font-family: '-apple-system',BlinkM=
+acSystemFont,'Segoe UI',Arial,sans-serif; font-size: 1rem; line-height: 1.6=
+;">
+                                    <p>C=D0=BA=D0=B8=D0=B4=D0=BA=
+=D0=B8 =D0=BA=D0=BE =D0=94=D0=BD=D1=8E =D0=A0=D0=BE=D0=B6=D0=B4=D0=B5=D0=
+=BD=D0=B8=D1=8F =D1=81=D0=B0=D0=B9=D1=82=D0=B0 =D1=83=D0=B6=D0=B5 =D1=81=
+=D1=82=D0=B0=D1=80=D1=82=D0=BE=D0=B2=D0=B0=D0=BB=D0=B8. <strong>-50% =D0=
+=BD=D0=B0 =D0=B2=D1=81=D0=B5 =D0=BF=D0=B0=D0=BA=D0=B5=D1=82=D1=8B CH =D1=
+=81 25-=D0=B3=D0=BE =D0=B4=D0=BE 28-=D0=B3=D0=BE =D0=90=D0=BF=D1=80=D0=
+=B5=D0=BB=D1=8F</strong> =D0=B2=D0=BA=D0=BB=D1=8E=D1=87=D0=B8=D1=82=D0=
+=B5=D0=BB=D1=8C=D0=BD=D0=BE.<br><br>
+
+<i>=D0=92=D1=81=D1=8E =D0=BF=
+=D1=80=D0=B8=D0=B1=D1=8B=D0=BB=D1=8C =D0=BA=D0=B0=D0=BA =D0=BC=D0=B8=D0=
+=BD=D0=B8=D0=BC=D1=83=D0=BC =D0=BE=D0=B4=D0=BD=D0=BE=D0=B3=D0=BE =D0=B8=
+=D0=B7 =D1=82=D1=80=D0=B5=D1=85 =D0=B4=D0=BD=D0=B5=D0=B9 =D0=B0=D0=BA=D1=
+=86=D0=B8=D0=B8, =D0=BC=D1=8B =D0=BF=D0=B5=D1=80=D0=B5=D0=B4=D0=B0=D0=B4=
+=D0=B8=D0=BC =D0=B2 =D0=A3=D0=BA=D1=80=D0=B0=D0=B8=D0=BD=D1=81=D0=BA=D0=
+=B8=D0=B9 =D0=A4=D0=BE=D0=BD=D0=B4 =D0=BF=D0=BE=D0=B4=D0=B4=D0=B5=D1=80=
+=D0=B6=D0=BA=D0=B8 (=D0=BA=D0=B0=D0=BA=D0=BE=D0=B9 =D0=B8=D0=BC=D0=B5=D0=
+=BD=D0=BD=D0=BE, =D0=B5=D1=89=D0=B5 =D0=BD=D0=B5 =D1=80=D0=B5=D1=88=D0=
+=B8=D0=BB=D0=B8). =D0=A1=D0=BB=D0=B0=D0=B2=D0=B0 =D0=A3=D0=BA=D1=80=D0=
+=B0=D0=B8=D0=BD=D0=B5! </i> <br>
+</p>
+                                 =
+   </td>
+                                </tr>
+                        =
+        <tr>
+                                    <td>
+                 =
+                       <a bgcolor=3D"#7F00AC" href=3D"https://coursehunter.=
+net/pricing" target=3D"_blank" style=3D"background-color: #7F00AC; color: #=
+ffffff; font-family: '-apple-system',BlinkMacSystemFont,'Segoe UI',Arial,sa=
+ns-serif; font-size: 0.9rem; line-height: 1.3rem; padding: 0.6rem 1.3rem 0.=
+6rem 1.3rem; display:inline-block; text-decoration: none;">=D0=9D=D0=B0 =
+=D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D1=83 =D0=BF=D0=B0=D0=BA=D0=
+=B5=D1=82=D0=BE=D0=B2</a>
+                                               =
+                        =20
+
+                                    </td>
+=
+                                </tr>
+                            </table=
+>
+                        </td>
+                    </tr>
+           =
+         <tr>
+                        <td style=3D"padding: 1.8rem 0.6rem=
+ 1.8rem 0.6rem; border-top: 1px solid #D8D8D8;">
+                        =
+    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" =
+style=3D"border-collapse: collapse;">
+                                <tr=
+>
+                                    <td style=3D"color: #999999; font-f=
+amily: '-apple-system',BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; font=
+-size: 0.8rem; line-height: 1.5;" align=3D"center">
+                     =
+                   <p style=3D"margin: 0;">=C2=A9 CourseHunter<br>
+      =
+                                      <a href=3D"https://coursehunter.net" =
+style=3D"color: #999999; font-family: '-apple-system',BlinkMacSystemFont,'S=
+egoe UI',Arial,sans-serif;">coursehunter.net</a>
+                        =
+                </p>
+                                    </td>
+        =
+                        </tr>
+                            </table>
+    =
+                    </td>
+                    </tr>
+                </t=
+able>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</h=
+tml>
+
+--_=_swift_v4_1650993986_c452c2dcb7278274d772569a4fa80a58_=_--
+

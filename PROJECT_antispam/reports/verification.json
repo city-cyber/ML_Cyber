@@ -1,0 +1,21 @@
+{
+  "notebook_cells": 55,
+  "executed_code_cells": 25,
+  "embedded_figures": 10,
+  "unit_tests_passed": 20,
+  "notebook_schema_valid": true,
+  "export_verified": true,
+  "docker_api_verified": true,
+  "docker_image": {
+    "tag": "project-antispam:latest",
+    "id": "sha256:7d25a965829cb71cc6f8015cfdec5f1501d8db0d62bcbfe9f2732c27d4475652",
+    "os": "linux",
+    "architecture": "arm64",
+    "size_bytes": 129847149
+  },
+  "container": {
+    "name": "project-antispam-antispam-1",
+    "health": "healthy",
+    "url": "http://127.0.0.1:8000"
+  }
+}

@@ -1,0 +1,146 @@
+Delivered-To: megaman@gmail.com
+Received: by 10.80.139.167 with SMTP id m36csp1461075edm;
+        Fri, 12 Jan 2018 03:19:45 -0800 (PST)
+X-Google-Smtp-Source: ACJfBosWh3P5EdjXfqHP1Hmwh3YHTYgeII7PUUhg2n2yv339tsP1V0evMOGBssL50S71oBzi+0c8
+X-Received: by 10.200.50.41 with SMTP id x38mr16742872qta.221.1515755984942;
+        Fri, 12 Jan 2018 03:19:44 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1515755984; cv=none;
+        d=google.com; s=arc-20160816;
+        b=n6hGUZNZIi8nFX1EsjWvmkKw+HCLbGLf5PmTKjknxVUxmNUO8jjGidy7y9NTg2qxdI
+         4xCR7XNwXJJPceYW0CaPro/FVChAoNy9HAM5/Cep/J9LY+VoMJI6uxduj2YyOuZo063r
+         J46WMMOs3gOGg2y7u1ZXwIaDWLc3HQmKg7RxA4q2X9MooKuGKe1+KTJbr+hbQgYJYNlP
+         LKnmEvqmQY0vYQkHELi4XaBz1mUUSAAjYI+AJ2Oq5e/Ytw5FQBslvpN4ZrKAyM0iQN+f
+         yNeAB0awZ10+w/lXYmFatV6U9MMs2unYcTg2BFYT2567iE4bMs+D4paOy4AWEu36Z/YK
+         Ss/Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:message-id:date:to:from:subject:mime-version
+         :dkim-signature:arc-authentication-results;
+        bh=L3U+nDmWCxqvhU8LniqX4gFwEUNwn9wWUjZDd+EhJ6g=;
+        b=C45lNfbOeKGE68UvU6WEhfqQ+BktGTZBsCAggh0rp56ca+b4YImqAO34lUIaDN/Vuy
+         ltX0QZjUY0ZhVXF+eklOBwGpCJdD2HCbo958VN0GxJ4kvKN/r9gyvta1EUfOrjUwOE6Z
+         bhhzefSUjxjQHnLn/2ThqPLfBWAp7UcB/kCqx0ELFQV5I08+qR27Uy32FC7CE2oizmBH
+         87FnRWyGGvSaHpw5wk3hgHbtLo6/xFOGv2fVznB4EBsCnTSzi1Be9hZP8zw80Jn02H3p
+         aRzp05y1T/GXWEdDX1KHGnwzXBW9PxMlGqg9SK3oW7pThTF0ifrK0Sk1Uiqmn1fay19o
+         WINw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=TZyNkN/P;
+       spf=pass (google.com: domain of 01000160ea18d55d-da6fa607-6c9c-4a77-a56d-6c30b0826153-000000@amazonses.com designates 54.240.9.115 as permitted sender) smtp.mailfrom=01000160ea18d55d-da6fa607-6c9c-4a77-a56d-6c30b0826153-000000@amazonses.com
+Return-Path: <01000160ea18d55d-da6fa607-6c9c-4a77-a56d-6c30b0826153-000000@amazonses.com>
+Received: from a9-115.smtp-out.amazonses.com (a9-115.smtp-out.amazonses.com. [54.240.9.115])
+        by mx.google.com with ESMTPS id u37si2352521qtj.406.2018.01.12.03.19.44
+        for <megaman@gmail.com>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 12 Jan 2018 03:19:44 -0800 (PST)
+Received-SPF: pass (google.com: domain of 01000160ea18d55d-da6fa607-6c9c-4a77-a56d-6c30b0826153-000000@amazonses.com designates 54.240.9.115 as permitted sender) client-ip=54.240.9.115;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=TZyNkN/P;
+       spf=pass (google.com: domain of 01000160ea18d55d-da6fa607-6c9c-4a77-a56d-6c30b0826153-000000@amazonses.com designates 54.240.9.115 as permitted sender) smtp.mailfrom=01000160ea18d55d-da6fa607-6c9c-4a77-a56d-6c30b0826153-000000@amazonses.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1515755984;
+	h=Content-Type:MIME-Version:Subject:From:To:Date:Message-ID:Feedback-ID;
+	bh=2C5TTF2dz0Xf8NpYbsQuigZXEuLNauCLehnN0HWqTNo=;
+	b=TZyNkN/P8csfukzOA84Eznlq1a29pskjp6qFqjQNyHEnANubgwZXeDThX/Kb9vyB
+	LQc23YTp690/LoCuuurUjYe+r34KSO3F5nanrvwEb/y2wrqx/+Ho+BEZpuBwVMXSmKt
+	0CJXyYw/oyiVww5cNI5kbLqwXtOYdb/b+rMELhRc=
+Content-Type: multipart/alternative;
+ boundary="===============3073994562434133632=="
+MIME-Version: 1.0
+Subject: PythonAnywhere: confirm your email address
+From: support@pythonanywhere.com
+To: megaman@gmail.com
+Date: Fri, 12 Jan 2018 11:19:44 +0000
+Message-ID: <01000160ea18d55d-da6fa607-6c9c-4a77-a56d-6c30b0826153-000000@email.amazonses.com>
+X-SES-Outgoing: 2018.01.12-54.240.9.115
+Feedback-ID: 1.us-east-1.aqqnUrZmkJIrlKHtYGlEE4aeMYQu5NC3dm604Ru5da8=:AmazonSES
+
+--===============3073994562434133632==
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi man,
+
+Thanks for signing up for PythonAnywhere!
+
+Please click on the following link to confirm your email address:
+
+https://www.pythonanywhere.com/registration/confirm_email/6a8c369a953feef327d6af3862980a7708cc262f2c593ad4d9065b75/
+
+This means you will be able to reset your password if you forget it
+later, which is especially important if you have a paid account!
+
+If you can't click the link from your email program, please copy the
+URL and paste it into your web browser.
+
+If you don't want to use PythonAnywhere, just ignore this message
+and we won't bother you again.
+
+
+Cheers,
+
+The PythonAnywhere team
+--
+PythonAnywhere: Develop and host Python from your browser
+https://www.pythonanywhere.com/
+
+A product from PythonAnywhere LLP
+17a Clerkenwell Road, London EC1M 5RD, UK
+VAT No.: GB 893 5643 79
+Registered in England and Wales as company number OC378414.
+Registered address: 28 Ely Place, 3rd Floor, London EC1N 6TD, UK
+
+
+--===============3073994562434133632==
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<p>
+    Hi nicecasts,
+</p>
+
+<p>
+    Thanks for signing up for PythonAnywhere!
+</p>
+
+<p>
+    Please 
+    <a href="https://www.pythonanywhere.com/registration/confirm_email/6a8c369a953feef327d6af3862980a7708cc262f2c593ad4d9065b75/">click this link</a>
+    to confirm your email address.  This means you will be able to reset your 
+    password if you forget it later, which is especially important if you have a paid account!
+</p>
+
+<p>
+    If you can't click the link from your email program, please copy this
+    URL and paste it into your web browser:
+</p>
+
+<pre>
+    https://www.pythonanywhere.com/registration/confirm_email/6a8c369a953feef327d6af3862980a7708cc262f2c593ad4d9065b75/
+</pre>
+
+<p>
+    If you don't want to use PythonAnywhere, just ignore this message
+    and we won't bother you again.
+</p>
+
+<p>
+    Cheers,
+</p>
+
+<p>
+    The PythonAnywhere team
+</p>
+
+<p style="color: grey">
+    PythonAnywhere: Develop and host Python from your browser<br/>
+    <a href="http://www.pythonanywhere.com/">http://www.pythonanywhere.com/</a><br/>
+    <br/>
+    A product from PythonAnywhere LLP<br/>
+    17a Clerkenwell Road, London EC1M 5RD, UK<br/>
+    VAT No.: GB 893 5643 79<br/>
+    Registered in England and Wales as company number OC378414.<br/>
+    Registered address: 28 Ely Place, 3rd Floor, London EC1N 6TD, UK<br/>
+</p>
+
+--===============3073994562434133632==--

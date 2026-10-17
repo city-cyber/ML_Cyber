@@ -1,0 +1,814 @@
+Delivered-To: faustdarkangel@mail.ru
+Return-path: <suite16@nl.utair.ru>
+Received-SPF: softfail (mx195.i.mail.ru: transitioning domain of nl.utair.ru does not designate 17.58.63.184 as permitted sender) client-ip=17.58.63.184; envelope-from=suite16@nl.utair.ru; helo=st43p00im-ztbu10073601.me.com;
+Received: from st43p00im-ztbu10073601.me.com ([17.58.63.184]:37934)
+	by mx195.i.mail.ru with esmtp (envelope-from <suite16@nl.utair.ru>)
+	id 1nZ7j7-0006wu-A8
+	for faustdarkangel@mail.ru; Tue, 29 Mar 2022 12:01:22 +0300
+Received: from st43p00im-ztbu10073601.me.com (st43p00im-ztbu10073601.me.com [17.58.63.184])
+	by st43p00im-ztbu10073601.me.com (Postfix) with ESMTPS id 7E788C81254
+	for <faustdarkangel@mail.ru>; Tue, 29 Mar 2022 09:01:19 +0000 (UTC)
+Received: from unknown (st43p00im.dlb-asmtpoutvip.me.com [10.76.196.233])
+	by st43p00im-ztbu10073601.me.com (Postfix) with SMTP id 60B74C81210
+	for <faustdarkangel@mail.ru>; Tue, 29 Mar 2022 09:01:19 +0000 (UTC)
+Received: from pv33p00im-smtpin041.me.com by p13-mailgateway-smtp-dd79d9ddd-hvk4r (mailgateway 2211B241)
+	with SMTP id 395967bb-236d-4fc0-8e8d-b456bd3a646e 
+	for <vasily@icloud.com>; Tue, 29 Mar 2022 09:01:19 GMT
+X-ICLOUD-MAIL-BWL: 0
+X-Apple-Action: FORWARD/faustdarkangel@mail.ru
+Original-Recipient: rfc822;vasily@icloud.com
+x-apple-request-uuid: 395967bb-236d-4fc0-8e8d-b456bd3a646e
+Received: from suitepmta022213.emsmtp.us (suitepmta022213.emsmtp.us [185.90.22.213])
+	by pv33p00im-smtpin041.me.com (Postfix) with ESMTPS id 71E8AA02D22
+	for <vasily@icloud.com>; Tue, 29 Mar 2022 09:01:12 +0000 (UTC)
+X-ICL-SCORE: 3.3330332300
+X-ICL-INFO: GAtbVUseBVFGSVVESgMGUldZCh4MXUMRSFsIVVhDQ19XFwkZHRIWBxFERAQNWUIHRE8mGRQeQxYU
+ EBRZCkUUQhMdW1UWXBgXARgPBVZCQ0BVCg8HRRIHWkBXX0dWAgRMR0hVVVhYUw4aREQEDVlCBwUU
+ EhZIAgRQREpIEhVDWxYFVxMEWhBGFgdERAQNWUIHBRQSFkgCBFBESkgSFUNbFgVXEwRaEFIGSFsI
+ G1ZFQgMcC0gFDRxTDxQLFQ4LHlgHAVtGGhFUC0BJSUhHVnUYITdXVzNABAVWN0FeMkoAD1QwV1Y3
+ C0VfFhAJCwMZAARQR0hVWR1dRQ8BCUgCCw4UQgcaW1UxRlcMGg85DgtwXwEZFhMTVlNZD1c=
+x-dmarc-info: pass=pass; dmarc-policy=reject; s=r1; d=s1
+x-dmarc-policy: v=DMARC1; p=reject; adkim=s; aspf=r; rf=afrf; pct=100;
+Received-SPF: pass (spf.icloud.com: domain of suite16@nl.utair.ru designates 185.90.22.213 as permitted sender) receiver=spf.icloud.com; client-ip=185.90.22.213; helo=suitepmta022213.emsmtp.us; envelope-from=suite16@nl.utair.ru
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=key2; d=nl.utair.ru;
+ h=To:Subject:From:MIME-Version:List-Id:List-Unsubscribe:List-Unsubscribe-Post:
+ Content-Type:Message-ID:Date; i=news@nl.utair.ru;
+ bh=raaJrcu+DutOCJUzWA9Tk37G1gXPjVybNjCkBqz5bzk=;
+ b=PwNxOwFUF9WK/gMxgb4E3UCVnhCMZ9sQGdRqbZTBtxb2ngyL1ESAlClxaiIK0Asw5cMKDcEpci7H
+   8fMIqwk3QiO9wURYRcPRcfaZIGHs91PVCn8aNnRU+EAPjn/P8A7DvNrs3x0cdlYn/TNHG4Jr2Qik
+   t0WGJ2wH8CIC+wx6rPY=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=key2; d=emarsys.net;
+ h=To:Subject:From:MIME-Version:List-Id:List-Unsubscribe:List-Unsubscribe-Post:
+ Content-Type:Message-ID:Date;
+ bh=raaJrcu+DutOCJUzWA9Tk37G1gXPjVybNjCkBqz5bzk=;
+ b=UwXyvCfGU+aWtcy798ln+JOj0uFWtGtjht92ZfV4NC2ash21GaI1Ifv1YRNJTvPrPdbhIpxqSzU6
+   NVvrv7efCrUn1/9SlXOqqyAePH8hKHdVmdpUIR+cGtYK6NSHGwV51YAz0TtS6jiht0MTw4qbMLWr
+   Jfj0Lo9thaW5u70pjYI=
+To: vasily@icloud.com
+Subject: =?UTF-8?B?8J+UiiDQmtCw0Log0LIgMjMg0LjRgdC/0L7Qu9C90LjRgtGMINC80LXRh9GC?=
+ =?UTF-8?B?0YMg0Lgg0YHRgtCw0YLRjCDQv9C40LvQvtGC0LXRgdGB0L7QuSDQstC10YA=?=
+ =?UTF-8?B?0YLQvtC70LXRgtCw?=
+X-Mailer: class SMTPMail
+From: "Utair" <news@nl.utair.ru>
+MIME-Version: 1.0
+List-Id: 765481719 <Utair>
+X-EMarSys-Identify: 765481719_8038288_150953
+X-EMarSys-Environment: suite16
+X-Report-Abuse: Please report abuse here: abuse-report@emarsys.com
+List-Unsubscribe: <mailto:list-unsubscribe+765481719_8038288_150953_NlnXgOl5Cx@emarsys.net>, <https://list-unsubscribe.eservice.emarsys.net/api/unsubscribe/765481719_8038288_150953_NlnXgOl5Cx>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Type: multipart/alternative;
+ boundary="--=_---NextPart--=_-vn2Lm3YfzU"
+Message-ID: <0.0.E.CB.1D8434B88E2096E.0@suitepmta022213.emsmtp.us>
+Date: Tue, 29 Mar 2022 11:01:10 +0200
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.138,18.0.572,17.0.605.474.0000000_definitions?=
+ =?UTF-8?Q?=3D2020-02-14=5F11:2020-02-14=5F02,2020-02-14=5F11,2020-01-23?=
+ =?UTF-8?Q?=5F02_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 mlxlogscore=951 adultscore=0
+ spamscore=0 bulkscore=0 phishscore=0 clxscore=1030 malwarescore=0
+ suspectscore=0 mlxscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2009150000 definitions=main-2203290053
+X-174C08C4: 5188C02AEC42908CA6948A72021C24DE96BBA28369E3F2D2713F3D5F7D406D31BCF678C7329BA986
+X-6b629377: 1
+X-7564579A: 646B95376F6C166E
+X-77F55803: E822A06ED42C499AA353DFAE02CC96B2ADD5903EE014FD56491F1A069802C73A0BBDAAE39103F3638701F0628C4B95CBA8612BA48295E04C103C745D309ACBF0D5D06A957273359835AA1534FA60CA86
+X-7FA49CB5: A9FCD207E66530D8A18204E546F3947CC3CB39E6F810A2E8CEA83A4A5FB14F47C8A9BA7A39EFB766B5ADA063E363F6F9CEA83A4A5FB14F47D5E8D9A59859A8B60298F0EF62FC509971492C2D3FF63AF69449624AB7ADAF37DC4E05CD521E2718277E793F4B08E884C3CB39E6F810A2E8CEA83A4A5FB14F47BD9CCCA9EDD067B198DBA445DD7FD1CE4E1E7243831EC1F578DA827A17800CE7D03BCAD681A5667E6320D30F47244B79B5ADA063E363F6F9922FDBD9EBA3C5B4B287FD4696A6DC2F5F5C1EE8F4F765FC7BFB7CE6679DFBB48638F802B75D45FFCF19DD082D7633A0E7DDDDC251EA7DABBFD28B28ED45787327C277FBC8AE2E8B02B6BDC1B5FAA2C5BFD28B28ED457873F004C9065253843040AFE8DEDB3B89069295C2E9FA3191EE7F16E2233F764B129ECD01F8117BC8BED8AC5874FC5B34B36355398AEDF52F167C6FB206A91F05B2FAF98F1810ECEF0936124F9359383494801339A757AB1A5B02ED4CEA229C1FA827C277FBC8AE2E8B2EE5AD8F952D28FBA471835C12D1D9774AD6D5ED66289B5259CC434672EE6371117882F4460429724CE54428C33FAD30A8DF7F3B2552694AC26CFBAC0749D213D2E47CDBA5A9658359CC434672EE6371117882F4460429728AD0CFFFB425014E2AD698C25BAAB09B
+X-8FC586DF: FAD8C8E441FBC0376B75B6D116DE55FA
+X-C1DE0DAB: 8BD88D57C5CADBC8B2710865C386751094C72BDDC9A8ED5CA3B1A56EE2B804F6B226C914C99689469F8A05A732C1519F13DBA38B3FB27C752D54844AF39947D5D137639923C070AB2AD81B831F8266C1C148254AEA258DF3DBE8DEE28BC9005C981475D0F017B771BCD7F0A0C361E1167EBAD7E00A735C6D650CFC82840596C7EBC5CAB6D411FFA6E679D4B4552E0FC9E4B09D1ED8025D0B589120F7DAE46353205367B2BCC23E5BBF01DF27239040A7AB2E45C8F0B57EFAC6892FA466091E6075AB54B5E07853B7C66B2B37046EC955277AA237ED671D4372AF3B35EA4094CC0CABCCA60F52D7EB9C5DF10A05D560A96486A44BEBF81F6136CC4ED2C73D526FF82AFBE2A3133F9B29A1D76069652C34535571D14F44ED41
+X-C8649E89: 4E36BF7865823D7055A7F0CF078B5EC49A30900B95165D349FD10E01B3CDC9E206D6B10BBD2D464A96E9727C03F3BC8AC38488D48874407A66B31586B6AAD0051D7E09C32AA3244C74A9EFB1D0DF49E640C3C107083EC9823C6EB905E3A8056B3EB3F6AD6EA9203E
+X-D57D3AED: 3ZO7eAau8CL7WIMRKs4sN3D3tLDjz0dLbV79QFUyzQ2Ujvy7cMT6pYYqY16iZVKkSc3dCLJ7zSJH7+u4VD18S7Vl4ZUrpaVfd2+vE6kuoey4m4VkSEu530nj6fImhcD4MUrOEAnl0W826KZ9Q+tr59cQFxbtK52nlS5dXYHM/vGJPPyhnCcOsWxjvstlFwfLDmG3SyZat9J5NbkWIjxq932/b2BQGyWkRn3AgzCpU/iMtBVD51WbvH0GkMdp0FX1YB//7MgRjFJ3VpzW5WUucfRcFWU87Kfi
+X-F696D7D5: 9pmkV2342xo/M7rGCVlNjjUvuNTMWyYp/vluNjukzTR3VpzW5WUucfRcFWU87Kfi
+X-Mailru-Dmarc-Auth: dmarc=pass header.from=news@nl.utair.ru
+X-Mras: Ok
+X-Spam: undefined
+Authentication-Results: mxs.mail.ru; spf=softfail (mx195.i.mail.ru: transitioning domain of nl.utair.ru does not designate 17.58.63.184 as permitted sender) smtp.mailfrom=suite16@nl.utair.ru smtp.helo=st43p00im-ztbu10073601.me.com;
+	 dkim=pass header.d=nl.utair.ru;
+	 dkim=pass header.i=news@nl.utair.ru;
+	 dkim=pass header.d=emarsys.net; dmarc=pass header.from=news@nl.utair.ru
+X-UBL: Black
+X-Mailru-Intl-Transport: d,a397caa
+
+
+----=_---NextPart--=_-vn2Lm3YfzU
+Content-Type: text/plain; charset=utf-8
+Content-transfer-encoding: quoted-printable
+
+Skyeng =D0=B8 Utair =D0=B4=D0=B0=D1=80=D1=8F=D1=82 3 =D0=BC=D0=B5=D1=81=D1=
+=8F=D1=86=D0=B0 =D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F =D0=B2
+=D1=80=D0=B0=D0=B7=D0=B3=D0=BE=D0=B2=D0=BE=D1=80=D0=BD=D0=BE=D0=BC
+=D0=BE=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD-=D0=BA=D0=BB=D1=83=D0=B1=D0=B5 =D0=BD=
+=D0=B0 =D0=B0=D0=BD=D0=B3=D0=BB=D0=B8=D0=B9=D1=81=D0=BA=D0=BE=D0=BC =D1=8F=
+=D0=B7=D1=8B=D0=BA=D0=B5!
+
+* =D0=9E=D0=BF=D0=BB=D0=B0=D1=82=D0=B8=D1=82=D0=B5 =D0=BB=D1=8E=D0=B1=D0=BE=
+=D0=B9 =D0=BA=D1=83=D1=80=D1=81 =D0=BE=D0=B1=D1=83=D1=87=D0=B5=D0=BD=D0=B8=
+=D1=8F =D1=81
+=D0=BF=D1=80=D0=BE=D0=BC=D0=BE=D0=BA=D0=BE=D0=B4=D0=BE=D0=BC UTAIR.
+* =D0=92=D0=BC=D0=B5=D1=81=D1=82=D0=B5 =D1=81 =D0=BA=D1=83=D1=80=D1=81=D0=
+=BE=D0=BC =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=82=D0=B5 =D0=B4=D0=BE=D1=
+=81=D1=82=D1=83=D0=BF =D0=BA
+=D1=80=D0=B0=D0=B7=D0=B3=D0=BE=D0=B2=D0=BE=D1=80=D0=BD=D0=BE=D0=BC=D1=83 =
+=D0=BE=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD-=D0=BA=D0=BB=D1=83=D0=B1=D1=83:
+=D0=B2=D1=8B=D0=B1=D0=B8=D1=80=D0=B0=D0=B9=D1=82=D0=B5 =D1=84=D0=BE=D1=80=
+=D0=BC=D0=B0=D1=82, =D1=83=D1=80=D0=BE=D0=B2=D0=B5=D0=BD=D1=8C, =D1=82=D0=
+=B5=D0=BC=D1=83 =D0=B8
+=D1=83=D0=B4=D0=BE=D0=B1=D0=BD=D0=BE=D0=B5 =D0=B2=D1=80=D0=B5=D0=BC=D1=8F =
+=D0=B2=D1=81=D1=82=D1=80=D0=B5=D1=87=D0=B8.
+* =D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=82=D0=B5 =D0=B4=D0=BE 3500 =D0=BC=
+=D0=B8=D0=BB=D1=8C =D0=BD=D0=B0 =D0=B1=D1=83=D0=B4=D1=83=D1=89=D0=B8=D0=B5 =
+=D0=BF=D0=BE=D0=BB=D0=B5=D1=82=D1=8B
+(=D0=B2 =D0=B7=D0=B0=D0=B2=D0=B8=D1=81=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =
+=D0=BE=D1=82
+=D0=B2=D1=8B=D0=B1=D1=80=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D0=BA=D1=83=
+=D1=80=D1=81=D0=B0) =D0=B8 4 =D1=83=D1=80=D0=BE=D0=BA=D0=B0 =D0=B2 =D0=BF=
+=D0=BE=D0=B4=D0=B0=D1=80=D0=BE=D0=BA =D0=BA
+=D0=BA=D1=83=D1=80=D1=81=D1=83.
+
+=D0=90=D0=BA=D1=86=D0=B8=D1=8F =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D1=83=
+=D0=B5=D1=82 =D1=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=B4=D0=BB=D1=8F =D0=BD=
+=D0=BE=D0=B2=D1=8B=D1=85
+=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=BA=D0=BE=D0=B2 Skyeng.
+
+=D0=9E=D0=B1=D1=89=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=BA=D0=B0=D0=BA =D0=B2 =
+=D0=BF=D1=83=D1=82=D0=B5=D1=88=D0=B5=D1=81=D1=82=D0=B2=D0=B8=D0=B8 (
+https://www.utair.ru/information/aktualnaya-informatsiya-o-reysakh-v-berlin=
+-i-milan/?utm_source=3Dnotification
+)
+
+=D0=98=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D1=80=D0=B0=
+=D1=81=D0=BF=D1=80=D0=BE=D1=81=D1=82=D1=80=D0=B0=D0=BD=D1=8F=D0=B5=D1=82=D1=
+=81=D1=8F =D0=BD=D0=B0 =D0=BF=D1=80=D0=B0=D0=B2=D0=B0=D1=85
+=D1=80=D0=B5=D0=BA=D0=BB=D0=B0=D0=BC=D1=8B.
+=D0=A3=D1=81=D0=BB=D1=83=D0=B3=D0=B8 =D0=BE=D0=BA=D0=B0=D0=B7=D1=8B=D0=B2=
+=D0=B0=D0=B5=D1=82 =D0=9B=D0=AD=D0=9D=D0=93=D0=A0=D0=A3=D0=9C =D0=9B=D0=A2=
+=D0=94 (LANGROOM LTD),
+=D1=80=D0=B5=D0=B3=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=86=D0=B8=D0=BE=D0=BD=D0=
+=BD=D1=8B=D0=B9
+=D0=BD=D0=BE=D0=BC=D0=B5=D1=80: HE330757, VAT =D0=BD=D0=BE=D0=BC=D0=B5=D1=
+=80: CY10330757M. =D0=9F=D0=90=D0=9E
+"=D0=90=D0=B2=D0=B8=D0=B0=D0=BA=D0=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D1=8F
+"=D0=AE=D0=A2=D1=8D=D0=B9=D1=80" =D0=BA=D0=B0=D0=BA =D1=80=D0=B5=D0=BA=D0=
+=BB=D0=B0=D0=BC=D0=BE=D1=80=D0=B0=D1=81=D0=BF=D1=80=D0=BE=D1=81=D1=82=D1=80=
+=D0=B0=D0=BD=D0=B8=D1=82=D0=B5=D0=BB=D1=8C =D0=BD=D0=B5
+=D0=BD=D0=B5=D1=81=D0=B5=D1=82 =D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=
+=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=B7=D0=B0
+=D0=B4=D0=BE=D1=81=D1=82=D0=BE=D0=B2=D0=B5=D1=80=D0=BD=D0=BE=D1=81=D1=82=D1=
+=8C, =D1=8F=D1=81=D0=BD=D0=BE=D1=81=D1=82=D1=8C, =D0=BF=D0=BE=D0=BB=D0=BD=
+=D0=BE=D1=82=D1=83
+=D0=BF=D1=80=D0=B5=D0=B4=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=
+=BD=D0=BE=D0=B9 =D1=80=D0=B5=D0=BA=D0=BB=D0=B0=D0=BC=D0=BE=D0=B4=D0=B0=D1=
+=82=D0=B5=D0=BB=D1=8F=D0=BC=D0=B8
+=D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D0=B8 =D0=BE =D1=82=
+=D0=BE=D0=B2=D0=B0=D1=80=D0=B0=D1=85, =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=B0=
+=D1=85, =D1=83=D1=81=D0=BB=D1=83=D0=B3=D0=B0=D1=85
+=D1=80=D0=B5=D0=BA=D0=BB=D0=B0=D0=BC=D0=BE=D0=B4=D0=B0=D1=82=D0=B5=D0=BB=D0=
+=B5=D0=B9, =D0=B0 =D1=82=D0=B0=D0=BA=D0=B6=D0=B5 =D0=B7=D0=B0
+=D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=
+=8B=D0=B5 =D1=85=D0=B0=D1=80=D0=B0=D0=BA=D1=82=D0=B5=D1=80=D0=B8=D1=81=D1=
+=82=D0=B8=D0=BA=D0=B8 =D1=82=D0=B0=D0=BA=D0=B8=D1=85
+=D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=D0=B2, =D1=80=D0=B0=D0=B1=D0=BE=D1=82,=
+ =D1=83=D1=81=D0=BB=D1=83=D0=B3, =D0=B2 =D1=82=D0=BE=D0=BC
+=D1=87=D0=B8=D1=81=D0=BB=D0=B5, =D0=BD=D0=BE =D0=BD=D0=B5 =D0=BE=D0=B3=D1=
+=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B8=D0=B2=D0=B0=D1=8F=D1=81=D1=8C, =D0=B7=D0=
+=B0 =D0=B8=D1=85
+=D0=B1=D0=B5=D0=B7=D0=BE=D0=BF=D0=B0=D1=81=D0=BD=D0=BE=D1=81=D1=82=D1=8C, =
+=D0=BA=D0=B0=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=BE =D0=B8
+=D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D0=B8=D0=B5 =
+=D0=B7=D0=B0=D1=8F=D0=B2=D0=BB=D0=B5=D0=BD=D0=BD=D0=BE=D0=B9 =D0=B2 =D1=80=
+=D0=B5=D0=BA=D0=BB=D0=B0=D0=BC=D0=B5
+=D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D0=B8 =D0=B4=D0=B5=
+=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=BC
+=D1=81=D0=B2=D0=BE=D0=B9=D1=81=D1=82=D0=B2=D0=B0=D0=BC =D1=82=D0=BE=D0=B2=
+=D0=B0=D1=80=D0=BE=D0=B2, =D1=80=D0=B0=D0=B1=D0=BE=D1=82, =D1=83=D1=81=D0=
+=BB=D1=83=D0=B3 =D0=B8 =D0=B2=D1=81=D0=B5
+=D0=B8=D0=BD=D1=8B=D0=B5 =D0=BF=D0=BE=D1=81=D0=BB=D0=B5=D0=B4=D1=81=D1=82=
+=D0=B2=D0=B8=D1=8F
+=D0=BF=D1=80=D0=B8=D0=BE=D0=B1=D1=80=D0=B5=D1=82=D0=B5=D0=BD=D0=B8=D1=8F =
+=D0=B8 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=
+=D0=B8=D1=8F =D1=82=D0=B0=D0=BA=D0=B8=D1=85
+=D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=D0=B2, =D1=80=D0=B0=D0=B1=D0=BE=D1=82,=
+ =D1=83=D1=81=D0=BB=D1=83=D0=B3.
+
+=D0=92=D0=B0=D1=88 Utair
+
+=D0=9E=D1=82=D0=BF=D0=B8=D1=81=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=BE=D1=82 =
+=D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B8 (
+https://suite16.emarsys.net/u/un.php?par=3DNlnXgOl5Cx_8038288_150953_1&_esu=
+h=3D_11_11d75b654926c031598059cab203fb3603e09902c1bf4efbb7a82dc774c436fd
+)
+
+=D0=9F=D0=BE=D0=BB=D0=B8=D1=82=D0=B8=D0=BA=D0=B0 =D0=BA=D0=BE=D0=BD=D1=84=
+=D0=B8=D0=B4=D0=B5=D0=BD=D1=86=D0=B8=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=
+=82=D0=B8 (
+https://www.utair.ru/about/politics/ )
+
+=D0=92=D0=B5=D0=B1-=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F =D0=BF=D0=B8=D1=81=
+=D1=8C=D0=BC=D0=B0 (
+https://suite16.emarsys.net/u/gm.php?prm=3DNlnXgOl5Cx_765481719_8038288_150=
+953&_esuh=3D_11_e913161f0a8775514a9d76b3f6018e608f1a904f50c90f1731733e8491c=
+1ea3a
+)
+
+=C2=A9 2020, =D0=9F=D0=90=D0=9E =C2=AB=D0=90=D0=B2=D0=B8=D0=B0=D0=BA=D0=BE=
+=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D1=8F =C2=AB=D0=AE=D0=A2=D1=8D=D0=B9=D1=80=
+=C2=BB
+
+=D0=9F=D0=BE=D0=B6=D0=B0=D0=BB=D1=83=D0=B9=D1=81=D1=82=D0=B0, =D0=BD=D0=B5 =
+=D0=BE=D1=82=D0=B2=D0=B5=D1=87=D0=B0=D0=B9=D1=82=D0=B5 =D0=BD=D0=B0 =D1=8D=
+=D1=82=D0=BE =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE.
+=D0=97=D0=B0=D0=B4=D0=B0=D0=B2=D0=B0=D0=B9=D1=82=D0=B5
+=D0=B2=D0=B0=D1=88=D0=B8 =D0=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81=D1=8B =D0=B2 =
+=D0=9E=D0=B1=D1=80=D0=B0=D1=82=D0=BD=D1=83=D1=8E =D1=81=D0=B2=D1=8F=D0=B7=
+=D1=8C (
+https://www.utair.ru/information/feedback/ ).
+
+=D0=9E=D1=82=D0=B2=D0=B5=D1=82=D1=8B =D0=BD=D0=B0 =D1=87=D0=B0=D1=81=D1=82=
+=D0=BE =D0=B7=D0=B0=D0=B4=D0=B0=D0=B2=D0=B0=D0=B5=D0=BC=D1=8B=D0=B5 =D0=B2=
+=D0=BE=D0=BF=D1=80=D0=BE=D1=81=D1=8B (
+https://www.utair.ru/information/faq/ )
+
+----=_---NextPart--=_-vn2Lm3YfzU
+Content-Type: text/html; charset=utf-8
+Content-transfer-encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:sch=
+emas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"=
+>
+<head>
+<meta charset=3D"utf-8"> <!-- utf-8 works for most cases -->
+<meta name=3D"viewport" content=3D"width=3Ddevice-width"> <!-- Forcing init=
+ial-scale shouldn't be necessary -->
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"> <!-- Use the la=
+test (edge) version of IE rendering engine -->
+<meta name=3D"x-apple-disable-message-reformatting"> <!-- Disable auto-scal=
+e in iOS 10 Mail entirely -->
+<meta name=3D"format-detection" content=3D"telephone=3Dno,address=3Dno,emai=
+l=3Dno,date=3Dno,url=3Dno"> <!-- Tell iOS not to automatically link certain=
+ text strings. -->
+<meta name=3D"color-scheme" content=3D"light">
+<meta name=3D"supported-color-schemes" content=3D"light">
+<link rel=3D"shortcut icon" href=3D"https://suite16.emarsys.net/custloads/7=
+66301119/md_1020265.png" ems:notrack=3D"true" >
+<title>=D0=9A=D0=B0=D0=BA =D0=B2 23 =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D0=BD=D0=
+=B8=D1=82=D1=8C =D0=BC=D0=B5=D1=87=D1=82=D1=83 =D0=B8 =D1=81=D1=82=D0=B0=D1=
+=82=D1=8C =D0=BF=D0=B8=D0=BB=D0=BE=D1=82=D0=B5=D1=81=D1=81=D0=BE=D0=B9 =D0=
+=B2=D0=B5=D1=80=D1=82=D0=BE=D0=BB=D0=B5=D1=82=D0=B0</title> <!-- The title =
+tag shows in email notifications, like Android 4.4. -->
+<!-- What it does: Makes background images in 72ppi Outlook render at corre=
+ct size. -->
+<!--[if gte mso 9]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!-- Web Font / @font-face : BEGIN -->
+<!-- NOTE: If web fonts are not required, lines 23 - 41 can be safely remov=
+ed. -->
+<!-- Desktop Outlook chokes on web font references and defaults to Times Ne=
+w Roman, so we force a safe fallback font. -->
+<!--[if mso]>
+<style>
+* {
+font-family: Arial !important;
+}
+</style>
+<![endif]-->
+<!-- All other clients get the webfont reference; some will render the font=
+ and others will silently fail to the fallbacks. More on that here: http://=
+stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
+<!--[if !mso]><!-->
+<!-- insert web font reference, eg: <link href=3D'https://fonts.googleapis.=
+com/css?family=3DRoboto:400,700' rel=3D'stylesheet' type=3D'text/css'> -->
+<!--<![endif]-->
+<!-- Web Font / @font-face : END -->
+<!-- CSS Reset : BEGIN -->
+<style>
+
+:root {
+color-scheme: light;
+supported-color-schemes: light;
+}
+
+
+html,
+body {
+margin: 0 auto !important;
+padding: 0 !important;
+height: 100% !important;
+width: 100% !important;
+}
+
+* {
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+center {
+margin:0 !important;
+padding:0 !important;
+}
+
+div[style*=3D"margin: 16px 0"] {
+margin: 0 !important;
+}
+
+#MessageViewBody, #MessageWebViewDiv{
+width: 100% !important;
+}
+
+table,
+td {
+mso-table-lspace: 0pt !important;
+mso-table-rspace: 0pt !important;
+}
+
+table {
+border-spacing: 0 !important;
+border-collapse: collapse !important;
+table-layout: fixed !important;
+margin: 0 auto !important;
+}
+
+img {
+-ms-interpolation-mode:bicubic;
+}
+
+a {
+text-decoration: none;
+}
+
+a[x-apple-data-detectors],=20
+.unstyle-auto-detected-links a,
+.aBn {
+border-bottom: 0 !important;
+cursor: default !important;
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+}
+
+.im {
+color: inherit !important;
+}
+
+.a6S {
+display: none !important;
+opacity: 0.01 !important;
+}
+
+img.g-img + div {
+display: none !important;
+}
+
+
+</style>
+<!-- CSS Reset : END -->
+<!-- Progressive Enhancements : BEGIN -->
+<style>
+
+.button-td,
+.button-a {
+transition: all 100ms ease-in;
+}
+.button-td:hover,
+.button-a:hover {
+background: #002a76 !important;
+border-color: #002a76 !important;
+}
+
+@media screen and (min-width: 566px) {
+.text p, .button-a, .text ul {
+font-size:16px !important;
+line-height: 24px !important;
+}
+.text h1 {
+font-size:24px !important;
+line-height: 32px !important;
+}
+.block {
+padding-left:4% !important;
+padding-right:4% !important;
+}
+.min-left {
+text-align:right !important;
+}
+.footer {
+background-color: #e5e5e5 !important;
+}
+.not-mobile {
+display: table-cell !important;
+}
+.mobile {
+display: none !important;
+}
+}
+@media screen and (max-width: 566px) {
+body center {
+min-width: 360px !important;
+} .text p, .button a, .text ul {
+font-size:14px !important;
+line-height: 22px !important;
+}
+.text h1 {
+font-size:21px !important;
+line-height: 28px !important;
+}
+
+.stack-column,
+.stack-column-center {
+display: block !important;
+width: 100% !important;
+direction: ltr !important;
+}
+
+.stack-column-center {
+text-align: center !important;
+}
+.stack-column .min-left {
+text-align: left !important;
+}
+
+.center-on-narrow {
+text-align: center !important;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+.block {
+padding-left:1% !important;
+padding-right:1% !important;
+}
+.footer {
+background-color: #ffffff !important;
+}
+.not-mobile {
+display: none !important;
+}
+.mobile {
+display: table-cell !important;
+}
+}
+</style>
+<!-- Progressive Enhancements : END -->
+</head>
+<!--
+The email background color (#222222) is defined in three places:
+1. body tag: for most email clients
+2. center tag: for Gmail and Inbox mobile apps and web versions of Gmail, G=
+Suite, Inbox, Yahoo, AOL, Libero, Comcast, freenet, Mail.ru, Orange.fr
+3. mso conditional: For Windows 10 Mail
+-->
+<body width=3D"100%" style=3D"margin: 0; padding: 0 !important; mso-line-he=
+ight-rule: exactly; background-color: #ffffff;">
+<center role=3D"article" aria-roledescription=3D"email" lang=3D"en" style=
+=3D"width: 100%; background-color: #e5e5e5;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"100%" style=3D"background-color: #e5e5e5;">
+<tr>
+<td>
+<![endif]-->
+<!-- Visually Hidden Preheader Text : BEGIN -->
+<div style=3D"max-height:0; overflow:hidden; mso-hide:all;" aria-hidden=3D"=
+true">
+</div>
+<!-- Visually Hidden Preheader Text : END -->
+<!-- Create white space after the desired preview text so email clients don=
+=E2=80=99t pull other distracting text into the inbox preview. Extend as ne=
+cessary. -->
+<!-- Preview Text Spacing Hack : BEGIN -->
+<div style=3D"display: none; font-size: 1px; line-height: 1px; max-height: =
+0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-fami=
+ly: Arial;">
+</div>
+<!-- Preview Text Spacing Hack : END -->
+<!--
+Set the email width. Defined in two places:
+1. max-width for all clients except Desktop Windows Outlook, allowing the e=
+mail to squish on narrow but never go wider than 680px.
+2. MSO tags for Desktop Windows Outlook enforce a 680px width.
+Note: The Fluid and Responsive templates have a different width (600px). Th=
+e hybrid grid is more "fragile", and I've found that 680px is a good width.=
+ Change with caution.
+-->
+<div style=3D"max-width: 600px; margin: 0 auto;" class=3D"email-container">
+<!--[if mso]>
+<table align=3D"center" role=3D"presentation" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" width=3D"600">
+<tr>
+<td>
+<![endif]-->
+<!-- Email Body : BEGIN -->
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"100%" style=3D"margin: auto;">
+<!-- Header : BEGIN -->
+<tr>
+<td class=3D"block" align=3D"center" valign=3D"top" style=3D"font-size:0; p=
+adding: 20px 4% 24px; background-color: #ffffff;">
+<!--[if mso]>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"552">
+<tr>
+<td valign=3D"top" width=3D"552">
+<![endif]-->
+<div style=3D"display:inline-block; margin: 0 -1px; width:100%; min-width:2=
+52px; max-width:552px; vertical-align:top;" class=3D"stack-column">
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"100%">
+<tr>
+<td>
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"100%">
+<tr>
+<td style=3D"text-align: left; width: 6.5%;">
+<img src=3D"https://suite16.emarsys.net/custloads/766301119/md_796025.png" =
+width=3D"35" height=3D"32" border=3D"0" alt=3D"" style=3D"width: 100%; max-=
+width: 35px; height: auto;">
+</td>
+<td style=3D"width: 60%;"></td>
+<td style=3D"text-align: right; width: 16.5%;">
+<img src=3D"https://suite16.emarsys.net/custloads/766301119/md_164808.png" =
+width=3D"90" height=3D"32" border=3D"0" alt=3D"" style=3D"width: 100%; max-=
+width: 90px; height: auto;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+<!-- Header : END -->
+<!-- Hero Image, Flush : BEGIN -->
+<tr>
+<td style=3D"background-color: #ffffff; padding: 0;">
+<img src=3D"https://suite16.emarsys.net/custloads/765481719/md_1273922.png"=
+ width=3D"600" height=3D"" alt=3D"" border=3D"0" style=3D"width: 100%; max-=
+width: 600px; height: auto; margin: auto; display: block;" class=3D"g-img">
+</td>
+</tr>
+<!-- Hero Image, Flush : END -->
+<!-- 1 Column Text : BEGIN -->
+<tr>
+<td style=3D"background-color: #ffffff;">
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"100%">
+<tr>
+<td class=3D"block text" style=3D"padding: 24px 4%; font-family: Arial; fon=
+t-size: 14px; line-height: 22px; color: #111820;">
+<h1 style=3D"margin: 0 0 16px; font-size: 21px; line-height: 28px; color: #=
+111820; font-weight: normal;">=D0=97=D0=B4=D1=80=D0=B0=D0=B2=D1=81=D1=82=D0=
+=B2=D1=83=D0=B9=D1=82=D0=B5!</h1>
+<p style=3D"margin: 0 0 16px;">
+=D0=9A=D0=B0=D0=BA =D0=B2=D1=81=D1=91 =D1=83=D1=81=D1=82=D1=80=D0=BE=D0=B5=
+=D0=BD=D0=BE =D0=B2 =D0=B2=D0=B5=D1=80=D1=82=D0=BE=D0=BB=D0=B5=D1=82=D0=B5 =
+=D0=B8 =D0=BA=D0=B0=D0=BA=D0=B8=D0=B5 =D0=B7=D0=B0=D0=B4=D0=B0=D0=BD=D0=B8=
+=D1=8F =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D1=8F=D1=8E=D1=82 =D0=BD=D0=B0 =
+=D0=9C=D0=B8-8? =D0=9A=D1=83=D0=B4=D0=B0 =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D1=
+=83=D0=BB=D0=B5=D1=82=D0=B5=D1=82=D1=8C =D0=B8 =D0=BA=D0=B0=D0=BA =D0=BF=D0=
+=B0=D1=81=D1=81=D0=B0=D0=B6=D0=B8=D1=80=D1=8B =D1=80=D0=B5=D0=B0=D0=B3=D0=
+=B8=D1=80=D1=83=D1=8E=D1=82 =D0=BD=D0=B0 =D0=BC=D0=BE=D0=BB=D0=BE=D0=B4=D1=
+=83=D1=8E =D0=B4=D0=B5=D0=B2=D1=83=D1=88=D0=BA=D1=83 =D0=B2 =D1=8D=D0=BA=D0=
+=B8=D0=BF=D0=B0=D0=B6=D0=B5? =D0=9C=D0=BD=D0=BE=D0=B3=D0=BE =D0=BB=D0=B8 =
+=D0=B2 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B8 =D0=B4=D0=B5=D0=B2=D1=83=D1=88=
+=D0=B5=D0=BA =E2=80=93 =D0=BF=D0=B8=D0=BB=D0=BE=D1=82=D0=BE=D0=B2 =D0=B8 =
+=D0=B3=D0=B4=D0=B5 =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=BF=D0=BE=D0=BB=D1=83=
+=D1=87=D0=B8=D1=82=D1=8C =D1=8D=D1=82=D1=83 =D0=B8=D0=BD=D1=82=D0=B5=D1=80=
+=D0=B5=D1=81=D0=BD=D1=83=D1=8E =D0=BF=D1=80=D0=BE=D1=84=D0=B5=D1=81=D1=81=
+=D0=B8=D1=8E?
+</p>
+<p style=3D"margin: 0 0 16px;">
+=D0=9A=D0=B0=D0=BA =D1=83=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D1=8F=D1=82=D1=8C =
+=D0=B2=D0=B5=D1=80=D1=82=D0=BE=D0=BB=D0=B5=D1=82=D0=BE=D0=BC =D0=B8 =D0=B5=
+=D1=81=D1=82=D1=8C =D0=BB=D0=B8 =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=
+=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE =D0=BF=D0=BE=D0=B3=D0=BE=D0=B4=D0=B5 =
+=D0=B4=D0=BB=D1=8F =D0=B2=D0=B7=D0=BB=D0=B5=D1=82=D0=B0? =D0=9F=D0=BE=D1=87=
+=D0=B5=D0=BC=D1=83 =D0=BF=D1=80=D0=B8=D1=80=D0=BE=D0=B4=D0=B0 =D0=BB=D1=83=
+=D1=87=D1=88=D0=B5 =D0=B3=D0=BE=D1=80=D0=BE=D0=B4=D0=BE=D0=B2 =D0=B8 =D1=87=
+=D0=B5=D0=BC =D0=B2 =D1=81=D0=B2=D0=BE=D0=B1=D0=BE=D0=B4=D0=BD=D0=BE=D0=B5 =
+=D0=B2=D1=80=D0=B5=D0=BC=D1=8F =D0=B7=D0=B0=D0=BD=D0=B8=D0=BC=D0=B0=D0=B5=
+=D1=82=D1=81=D1=8F =D1=8D=D0=BA=D0=B8=D0=BF=D0=B0=D0=B6? </p>
+<p style=3D"margin: 0 0 20px;">
+=D0=9E =D0=BB=D1=8E=D0=B1=D0=B8=D0=BC=D1=8B=D1=85 =D0=B2=D0=B5=D1=80=D1=82=
+=D0=BE=D0=BB=D0=B5=D1=82=D0=B0=D1=85 =D0=B8 =D1=80=D0=B0=D0=B1=D0=BE=D1=82=
+=D0=B5 =D0=BC=D0=B5=D1=87=D1=82=D1=8B =D0=BF=D0=BE=D0=B3=D0=BE=D0=B2=D0=BE=
+=D1=80=D0=B8=D0=BB=D0=B8 =D1=81 =D0=9F=D0=BE=D0=BB=D0=B8=D0=BD=D0=BE=D0=B9 =
+=D0=91=D0=BE=D0=BB=D0=BE=D0=B1=D0=BE=D0=BD=D0=BE=D0=B2=D0=BE=D0=B9, =D0=B2=
+=D1=82=D0=BE=D1=80=D1=8B=D0=BC =D0=BF=D0=B8=D0=BB=D0=BE=D1=82=D0=BE=D0=BC =
+=C2=AB=D0=AE=D0=A2=D1=8D=D0=B9=D1=80-=D0=92=D0=B5=D1=80=D1=82=D0=BE=D0=BB=
+=D0=B5=D1=82=D0=BD=D1=8B=D0=B5 =D1=83=D1=81=D0=BB=D1=83=D0=B3=D0=B8=C2=BB, =
+=D0=B2 =D0=BD=D0=BE=D0=B2=D0=BE=D0=BC =D0=B2=D1=8B=D0=BF=D1=83=D1=81=D0=BA=
+=D0=B5 =D0=BF=D0=BE=D0=B4=D0=BA=D0=B0=D1=81=D1=82=D0=B0 =C2=AB=D0=9F=D1=80=
+=D0=B8=D1=81=D1=82=D0=B5=D0=B3=D0=BD=D0=B8=D1=82=D0=B5 =D1=80=D0=B5=D0=BC=
+=D0=BD=D0=B8=C2=BB.
+</p>
+<!-- Button : BEGIN -->
+<table align=3D"center" role=3D"presentation" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" class=3D"center-on-narrow" style=3D"margin:0 auto;">
+<tr>
+<td align=3D"center" class=3D"button-td button-td-primary" style=3D"border-=
+radius: 4px; background: #003594;border-spacing: 0; box-shadow: 0 9px 8px 0=
+ rgba(17, 24, 32, 0.1), 0 9px 20px 0 rgba(0, 53, 148, 0.08), 0 24px 15px 3p=
+x rgba(0, 53, 148, 0.06);">
+<a class=3D"button-a button-a-primary" href=3D"https://suite16.emarsys.net/=
+u/nrd.php?p=3DNlnXgOl5Cx_150953_8038288_1_1&ems_l=3D10007749&i=3D1&d=3DJUQw=
+JTlGJUQwJUJFJUQwJUI0JUQwJUJBJUQwJUIwJUQxJTgxJUQxJTgyKyUyODI5LjAzJTI5%7CNTAw=
+MDA1OTA0%7CTmxuWGdPbDVDeA%3D%3D%7CNWIxY2MxZDc5ZjdjYTM4YTE%3D%7CMTAyNzk3MjU4=
+NQ%3D%3D%7C&_esuh=3D_11_d9fa7ad3546e64b4704c7a6aa6c42d357fe6b723e5ea8a462c5=
+a2c57fbf70578" style=3D"background: #003594; border: 2px solid #003594; fon=
+t-family: Arial; font-size: 14px; line-height: 22px; text-decoration: none;=
+ display:block; padding: 10px 22px; color: #ffffff; border-radius: 4px; mar=
+gin:0 auto;">=D0=9F=D0=BE=D1=81=D0=BB=D1=83=D1=88=D0=B0=D1=82=D1=8C</a>
+</td>
+</tr>
+</table>
+<!-- Button : END -->
+<p style=3D"margin: 25px 0 0;">
+=D0=A1=D0=BA=D0=B0=D1=87=D0=B8=D0=B2=D0=B0=D0=B9=D1=82=D0=B5 =D1=8D=D0=BF=
+=D0=B8=D0=B7=D0=BE=D0=B4=D1=8B =D0=BD=D0=B0 =D0=BF=D0=BB=D0=B0=D1=82=D1=84=
+=D0=BE=D1=80=D0=BC=D0=B0=D1=85: <a style=3D"color: #003594 !important; text=
+-decoration:underline;" href=3D"https://podcasts.apple.com/ru/podcast/%D0%B=
+F%D1%80%D0%B8%D1%81%D1%82%D0%B5%D0%B3%D0%BD%D0%B8%D1%82%D0%B5-%D1%80%D0%B5%=
+D0%BC%D0%BD%D0%B8/id1498911924" >Apple</a>, <a style=3D"color: #003594 !imp=
+ortant; text-decoration:underline;" href=3D"https://podcasts.google.com/fee=
+d/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS8yTG5FTzNpTA" >Google</a>, <a style=
+=3D"color: #003594 !important; text-decoration:underline;" href=3D"https://=
+castbox.fm/channel/id2635457?country=3Dru" >Castbox</a>, <a style=3D"color:=
+ #003594 !important; text-decoration:underline;" href=3D"https://soundcloud=
+.com/qvp7gjyibrxa" >SoundCloud</a>, <a style=3D"color: #003594 !important; =
+text-decoration:underline;" href=3D"https://vk.com/pristegniteremni" >=D0=
+=92=D0=9A=D0=BE=D0=BD=D1=82=D0=B0=D0=BA=D1=82=D0=B5</a> =D0=B8=D0=BB=D0=B8 =
+<a style=3D"color: #003594 !important; text-decoration:underline;" href=3D"=
+https://music.yandex.ru/album/9959697" >=D0=AF=D0=BD=D0=B4=D0=B5=D0=BA=D1=
+=81</a> =D0=B8 =D1=81=D0=BB=D1=83=D1=88=D0=B0=D0=B9=D1=82=D0=B5 =D0=B2 =D1=
+=80=D0=B5=D0=B6=D0=B8=D0=BC=D0=B5 =D0=BF=D0=BE=D0=BB=D0=B5=D1=82=D0=B0 =D0=
+=BD=D0=B0 =D0=B1=D0=BE=D1=80=D1=82=D1=83 =D0=B8 =D0=B2 =D0=BB=D1=8E=D0=B1=
+=D0=BE=D0=B5 =D1=83=D0=B4=D0=BE=D0=B1=D0=BD=D0=BE=D0=B5 =D0=B2=D1=80=D0=B5=
+=D0=BC=D1=8F.
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- 1 Column Text : END -->
+<!-- hr-->
+<tr><td style=3D"padding: 0; border-bottom: 1px solid #d6d9de; border-left:=
+ 0; border-right: 0; border-top: 0; background-color: #ffffff;"></td></tr>
+<!--/hr-->
+<!-- Footer : BEGIN -->
+<tr>
+<td class=3D"block" align=3D"left" valign=3D"top" style=3D"font-size:0; pad=
+ding: 20px 4%; background-color: #ffffff;">
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"100%">
+<tr>
+<td class=3D"text" style=3D"font-family: Arial; font-size: 14px; line-heigh=
+t: 22px; color: #111820; text-align: right;">
+<p style=3D"margin: 0 0 24px;">=D0=92=D0=B0=D1=88 Utair</p>
+</td>
+</tr>
+</table>
+<!--[if mso]>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"600">
+<tr>
+<td valign=3D"top" width=3D"275">
+<![endif]-->
+<div style=3D"display:inline-block; margin: 0 -1px; width:57.2%; min-width:=
+200px; vertical-align:top;" class=3D"stack-column">
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"100%">
+<tr>
+<td>
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"100%" style=3D"font-size: 14px; text-align: left;">
+<tr>
+<td style=3D"font-family: Arial; font-size: 13px; line-height: 27px; color:=
+ #737576;" class=3D"stack-column">
+<a style=3D"text-decoration: underline; color: #737576;" href=3D"https://su=
+ite16.emarsys.net/u/un.php?par=3DNlnXgOl5Cx_8038288_150953_1&_esuh=3D_11_11=
+d75b654926c031598059cab203fb3603e09902c1bf4efbb7a82dc774c436fd" >=D0=9E=D1=
+=82=D0=BF=D0=B8=D1=81=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=BE=D1=82 =D1=80=D0=
+=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B8</a>
+</td>
+</tr>
+<tr>
+<td style=3D"font-family: Arial; font-size: 13px; line-height: 27px; color:=
+ #737576;" class=3D"stack-column">
+<a style=3D"text-decoration: underline; color: #737576;" href=3D"https://su=
+ite16.emarsys.net/u/nrd.php?p=3DNlnXgOl5Cx_150953_8038288_1_2&ems_l=3D10007=
+749&i=3D1&d=3DJUQwJTlGJUQwJUJFJUQwJUI0JUQwJUJBJUQwJUIwJUQxJTgxJUQxJTgyKyUyO=
+DI5LjAzJTI5%7CNTAwMDA1OTA1%7CTmxuWGdPbDVDeA%3D%3D%7CNWIxY2MxZDc5ZjdjYTM4YTE=
+%3D%7CMTAyNzk3MjU4NQ%3D%3D%7C&_esuh=3D_11_24f18941709b772c779f0f8ff2acc6402=
+48471a1b484defed84b16f4c1e76641">=D0=9F=D0=BE=D0=BB=D0=B8=D1=82=D0=B8=D0=BA=
+=D0=B0 =D0=BA=D0=BE=D0=BD=D1=84=D0=B8=D0=B4=D0=B5=D0=BD=D1=86=D0=B8=D0=B0=
+=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D0=B8</a>
+</td>
+</tr>
+<tr>
+<td style=3D"font-family: Arial; font-size: 13px; line-height: 27px; color:=
+ #737576;" class=3D"stack-column">
+<a style=3D"text-decoration: underline; color: #737576;" href=3D"https://su=
+ite16.emarsys.net/u/gm.php?prm=3DNlnXgOl5Cx_765481719_8038288_150953&_esuh=
+=3D_11_e913161f0a8775514a9d76b3f6018e608f1a904f50c90f1731733e8491c1ea3a" >=
+=D0=92=D0=B5=D0=B1-=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F =D0=BF=D0=B8=D1=81=
+=D1=8C=D0=BC=D0=B0</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<!--[if mso]>
+</td>
+<td valign=3D"top" width=3D"275">
+<![endif]-->
+<div style=3D"display:inline-block; margin: 0 -1px; width:236px; vertical-a=
+lign:top;" class=3D"stack-column">
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"100%">
+<tr>
+<td>
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"100%" style=3D"font-size: 14px;text-align: left;" class=3D"min-=
+left">
+<tr>
+<td style=3D"font-family: Arial; line-height: 27px; font-size: 13px; color:=
+ #737576;" class=3D"stack-column">
+<p style=3D"margin: 0;">=C2=A9 2022, =D0=9F=D0=90=D0=9E =C2=AB=D0=90=D0=B2=
+=D0=B8=D0=B0=D0=BA=D0=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D1=8F =C2=AB=D0=AE=
+=D0=A2=D1=8D=D0=B9=D1=80=C2=BB</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+<!-- -->
+<!-- hr-->
+<tr><td class=3D"mobile" style=3D"padding: 0; border-bottom: 1px solid #d6d=
+9de; border-left: 0; border-right: 0; border-top: 0; background-color: #fff=
+fff;"></td></tr>
+<!--/hr-->
+<!-- -->
+<tr>
+<td class=3D"footer" align=3D"center" valign=3D"top" style=3D"font-size:0; =
+padding: 16px 1%; background-color: #ffffff;">
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"100%">
+<tr>
+<td style=3D"font-family: Arial; line-height: 22px; color: #737576; font-si=
+ze: 13px; text-align: center;">
+<p style=3D"margin: 0;">=D0=9F=D0=BE=D0=B6=D0=B0=D0=BB=D1=83=D0=B9=D1=81=D1=
+=82=D0=B0, =D0=BD=D0=B5 =D0=BE=D1=82=D0=B2=D0=B5=D1=87=D0=B0=D0=B9=D1=82=D0=
+=B5 =D0=BD=D0=B0 =D1=8D=D1=82=D0=BE =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE. =
+=D0=97=D0=B0=D0=B4=D0=B0=D0=B2=D0=B0=D0=B9=D1=82=D0=B5 =D0=B2=D0=B0=D1=88=
+=D0=B8 =D0=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81=D1=8B =D0=B2 <a style=3D"text-d=
+ecoration: underline; color: #003594;" href=3D"https://suite16.emarsys.net/=
+u/nrd.php?p=3DNlnXgOl5Cx_150953_8038288_1_3&ems_l=3D10007749&i=3D1&d=3DJUQw=
+JTlGJUQwJUJFJUQwJUI0JUQwJUJBJUQwJUIwJUQxJTgxJUQxJTgyKyUyODI5LjAzJTI5%7CNTAw=
+MDA1OTA2%7CTmxuWGdPbDVDeA%3D%3D%7CNWIxY2MxZDc5ZjdjYTM4YTE%3D%7CMTAyNzk3MjU4=
+NQ%3D%3D%7C&_esuh=3D_11_456c2db7b2844c68ae454ca401e77149daeb89e0b301b00aba3=
+6cbe9bb9ae4a4">=D0=9E=D0=B1=D1=80=D0=B0=D1=82=D0=BD=D1=83=D1=8E&nbsp;=D1=81=
+=D0=B2=D1=8F=D0=B7=D1=8C</a>.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Footer : END -->
+</table>
+</div>
+<!-- Email Body : END -->
+<!--[if mso | IE]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</center>
+<img src=3D"https://suite16.emarsys.net/mo/NlnXgOl5Cx_765481719_8038288_150=
+953_10007749.gif" height=3D"2" width=3D"2" border=3D"0" alt=3D""></body>
+</html>
+----=_---NextPart--=_-vn2Lm3YfzU--

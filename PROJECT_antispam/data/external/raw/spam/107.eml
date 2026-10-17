@@ -1,0 +1,1323 @@
+Delivered-To: megaman@mail.ru
+Return-path: <mail-14633541-490514288505548387@devinosender.com>
+Received-SPF: pass (mx285.i.mail.ru: domain of devinosender.com designates 185.205.66.140 as permitted sender) client-ip=185.205.66.140; envelope-from=mail-14633541-490514288505548387@devinosender.com; helo=mta66140.devinosender.com;
+Received: from mta66140.devinosender.com ([185.205.66.140]:38786)
+	by mx285.i.mail.ru with esmtp (envelope-from <mail-14633541-490514288505548387@devinosender.com>)
+	id 1nYtTw-0003FL-JI
+	for megaman@mail.ru; Mon, 28 Mar 2022 20:48:45 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=clubeldoradokey01; d=club.eldorado.ru;
+ h=From:Date:Subject:Message-Id:To:List-Unsubscribe:List-Id:MIME-Version:
+ Content-Type:Content-Id:Content-Transfer-Encoding; i=eldorado@club.eldorado.ru;
+ bh=CsI6FkIZ2OGmdXIBU7f8FfOXzTHw1TcU0kaicL37pr8=;
+ b=Jo78y9A11yTyFxqUkbgWS/2Xztqn/UaJmoqK6ZqFHYw7y95fgq7+NG5K5zKKxvA16dUbEszbq2uC
+   WYUR/fXKNGMrw8ixQUnNpUBnoCiLCk11wWCHnZsi+Y+OAKU/hGSGsl6YrQXDlDODh799xiR8fbh7
+   n+0II8oWZ/+YIzDBt7oUa9VYqpcCborhyYPNWDHBN+rCiN82xTfHPiFpOAvavEZTBWZGGpZ9EG4e
+   l0O17a/qWYgTaSs1JM7A1uO3NqECoTNsQbwxfQINWoWYZOjqiY9CJXgTMu5iOSuBFxegRXDTp97G
+   xjPvRssdegE8mortxuovPdz35mJ5JA0g8N0B9g==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=key1; d=devinosender.com;
+ h=From:Date:Subject:Message-Id:To:List-Unsubscribe:List-Id:MIME-Version:
+ Content-Type:Content-Id:Content-Transfer-Encoding;
+ bh=CsI6FkIZ2OGmdXIBU7f8FfOXzTHw1TcU0kaicL37pr8=;
+ b=UYmpOP0Rg/lcXsKN78yALC0X0NJ+1OH2Cdkb2w0AXjm+9JY5bOGlxvta8S3/tEhmo0T8rYt/ECow
+   lbjBrlvrWa79K79/YNkQEjUQQhcJBxQAD0oBeRPmvK+evnw7/rzwi5kP3sIjTNssnosSHbFCOBpu
+   jzdnOVVMAqpH2mM3q+g=
+From: =?utf-8?b?0K3Qu9GM0LTQvtGA0LDQtNC+?= <eldorado@club.eldorado.ru>
+Date: Mon, 28 Mar 2022 20:21:12 +0300
+Subject: =?UTF-8?B?0JzQvtGA0L7QtyDQv9C+INGG0LXQvdCw0Lwg4p2E77iPCg==?=
+Message-Id: <dgPbyqiIq2l@devinosender.com>
+To: megaman@mail.ru
+List-Unsubscribe: 
+ <http://newsletter.eldorado.ru//Unsubscribe?messageId=dgPbyqiIq2l>
+Precedence: bulk
+List-Id: <14633541>
+X-Feedback-ID: dgPbyqiIq2l:14633541:devinosender.com
+X-Mailru-Msgtype: 14633541
+X-Report-Abuse-To: abuse@devinosender.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Id: <GI8VWBYQFGU4.JY0EW6IGD80B2@app-server04>
+Content-Transfer-Encoding: quoted-printable
+X-174C08C4: 5188C02AEC42908CA6948A72021C24DE96BBA28369E3F2D2713F3D5F7D406D31BCF678C7329BA986
+X-6b629377: 1
+X-7564579A: EEAE043A70213CC8
+X-77F55803: E822A06ED42C499AA353DFAE02CC96B2ADD5903EE014FD56380ED4C092ABD6830BBDAAE39103F3638701F0628C4B95CBC0147395AE7298121F03270F2E1137B1810AF527EFE73C1F8472923344694FB0
+X-7FA49CB5: FF5795518A3D127A4AD6D5ED66289B5278DA827A17800CE7C2204D4F9A221771EA1F7E6F0F101C67BD4B6F7A4D31EC0BCC500DACC3FED6E28638F802B75D45FF8AA50765F79006376A27C8034CCD05E58638F802B75D45FF36EB9D2243A4F8B5A6FCA7DBDB1FC311F39EFFDF887939037866D6147AF826D89F3F4CB73782A1F6DE809A2C6EFB3FDF117882F4460429724CE54428C33FAD305F5C1EE8F4F765FCAA867293B0326636D2E47CDBA5A96583BD4B6F7A4D31EC0BC014FD901B82EE079FA2833FD35BB23D27C277FBC8AE2E8BAA867293B0326636D2E47CDBA5A96583BA9C0B312567BB23E28BB29C1A12B5624AD6D5ED66289B5278DA827A17800CE730A6FB9C7318F0CF4AF75897E43B5B30CF19DD082D7633A0B4C007B5FC2F226DE28BB29C1A12B562725E5C173C3A84C313DA39D219B953CB520BB28E76B93C0943847C11F186F3C5B4C007B5FC2F226DBDAD6C7F3747799A
+X-8FC586DF: F800E010A7C485C1
+X-C1DE0DAB: 8BD88D57C5CADBC8B2710865C386751094C72BDDC9A8ED5CA3B1A56EE2B804F6B226C914C996894656F38DE8B4F50C9313DBA38B3FB27C752D54844AF39947D516EB5DE968479BF514F749A5E30D975C55922863DF79E1E50927717DE21679599132269E12B6BE3A9C2B6934AE262D3EE7EAB7254005DCEDDD97F0F5F6882BA01E0A4E2319210D9B3983AF7A1CF96B1A296C473AB1E142187FF6DF7F8AE7C7A685F6046F58D0CD6E474274129D6BCBA5BA7CCD254A1CF5E855009B0FE002D7ED
+X-C8649E89: 4E36BF7865823D7055A7F0CF078B5EC49A30900B95165D346B71C4B0698719D740F85B3EC08816BBBEFD8AA2B2D39F325474D6E18E43623BC57F1BE16085CFDD1D7E09C32AA3244C04E2F7642FE89724E977710DD7C7F9EC81560E2432555DBB3EB3F6AD6EA9203E
+X-D57D3AED: 3ZO7eAau8CL7WIMRKs4sN3D3tLDjz0dLbV79QFUyzQ2Ujvy7cMT6pYYqY16iZVKkSc3dCLJ7zSJH7+u4VD18S7Vl4ZUrpaVfd2+vE6kuoey4m4VkSEu530nj6fImhcD4MUrOEAnl0W826KZ9Q+tr59cQFxbtK52nntMKog2zW1LwTDbZjg0ktGWyd3ZwR5M2G0g+gzS0PKeJDOBrL//rLYldd2avYxhfPEAyJmjlxm1fDKl3nC72VQ==
+X-F696D7D5: 9pmkV2342xo/M7rGCVlNjjUvuNTMWyYp/vluNjukzTRzHCavqCaSBeXbNm5JzbhZ
+X-Mailru-Dmarc-Auth: dmarc=pass header.from=eldorado@club.eldorado.ru
+X-Mras: Ok
+X-Spam: undefined
+Authentication-Results: mxs.mail.ru; spf=pass (mx285.i.mail.ru: domain of devinosender.com designates 185.205.66.140 as permitted sender) smtp.mailfrom=mail-14633541-490514288505548387@devinosender.com smtp.helo=mta66140.devinosender.com;
+	 dkim=pass header.d=club.eldorado.ru;
+	 dkim=pass header.i=eldorado@club.eldorado.ru;
+	 dkim=pass header.d=devinosender.com; dmarc=pass header.from=eldorado@club.eldorado.ru
+X-UBL: Black
+X-Mailru-Intl-Transport: d,a397caa
+
+<!DOCTYPE HTML><head><meta http-equiv=3D"Content-Type" content=3D"text=
+/html; charset=3Dutf-8"><meta name=3D"viewport" content=3D"width=3Ddev=
+ice-width, initial-scale=3D1.0"><meta name=3D"color-scheme" content=3D=
+"light dark"><meta name=3D"x-apple-disable-message-reformatting"><meta=
+ name=3D"supported-color-schemes" content=3D"light dark"><meta name=3D=
+"format-detection" content=3D"telephone=3Dno,address=3Dno,email=3Dno,d=
+ate=3Dno,url=3Dno"><title>=D0=9C=D0=BE=D1=80=D0=BE=D0=B7 =D0=BF=D0=BE =
+=D1=86=D0=B5=D0=BD=D0=B0=D0=BC =E2=9D=84=EF=B8=8F</title>
+<!--[if gte mso 9]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]--><!--[if mso]>
+<style type=3D=E2=80=9Dtext/css=E2=80=9D>td{font-family:Arial,sans-ser=
+if}a{text-decoration:underline!important}</style>
+<![endif]-->
+<style type=3D"text/css">:root{color-scheme:light dark;supported-color=
+-schemes:light dark}.shild-alt,.shild-alt a{font-family:Arial,sans-ser=
+if;font-size:10px;color:#393e42;line-height:15px}.alt-img,.alt-img a{f=
+ont-family:Arial,sans-serif;font-size:12px;line-height:16px;color:#393=
+e42;text-decoration:none}html{-webkit-text-size-adjust:none;-ms-text-s=
+ize-adjust:none}img{-ms-interpolation-mode:bicubic}table{mso-table-lsp=
+ace:0;mso-table-rspace:0;border-collapse:collapse}table td{border-coll=
+apse:collapse}a,td{mso-line-height-rule:exactly}.no-link,.no-link a,.n=
+o-link a[href^=3D"tel"],.no-link a[href^=3D"sms"]{color:inherit;cursor=
+:default;text-decoration:none}#MessageViewBody a,.no-link a[x-apple-da=
+ta-detectors]{color:inherit!important;text-decoration:none!important;f=
+ont-size:inherit!important;font-family:inherit!important;font-weight:i=
+nherit!important;line-height:inherit!important}span.Object{color:inher=
+it!important}span.Object-hover{color:inherit!important;text-decoration=
+:none!important}a,td,body,table{-ms-text-size-adjust:100%;-webkit-text=
+-size-adjust:100%}.table724{width:724px}@media only screen and (min-de=
+vice-width:724px){.table724{width:724px!important}}@media only screen =
+and (max-device-width:724px),only screen and (max-width:724px){table[c=
+lass=3D"table724"]{width:100%!important}.fs_20{font-size:20px!importan=
+t;line-height:26px!important}.fs_16{font-size:16px!important;line-heig=
+ht:24px!important}.pdt_18{padding-top:18px!important;padding:18px 0 0 =
+0!important}.t_center{text-align:center!important}.m_auto{margin:0 aut=
+o!important}.i_center{display:inline-block!important}.mob-hide{display=
+:none!important;mso-hide:all!important}.full_wd,.full_wd table{width:1=
+00%!important;max-width:100%!important}.full_im{width:100%!important;h=
+eight:auto!important}.ind_15{padding-left:15px!important;padding-right=
+:15px!important;padding:0 15px!important}}.link a{color:#9C9FA0!import=
+ant;text-decoration:underline!important}.view{display:none!important}@=
+media only screen and (max-device-width:470px),only screen and (max-wi=
+dth:470px){.footer .full_wd,.footer .full_wd table,.footer .full_wd di=
+v{width:100%!important;max-width:100%!important}}.link a{color:#b0b2b3=
+!important;text-decoration:underline!important}@media(prefers-color-sc=
+heme:dark){.white,.white a{color:#ffffff!important}.dark{background-co=
+lor:#1C1C1E!important;background-image:url('https://static.eldorado.ru=
+/promo/_mail/21/130721_refrigerators_w28/dark.jpg')!important}.hide{di=
+splay:none!important;opacity:0!important}.view{display:block!important=
+}.card_bg{background-color:#242424!important}.title_bg{background-colo=
+r:#484848!important}.title,.title a{color:#ffffff!important}.bunce{col=
+or:#76BC21!important}.btn{background-color:#76BC21!important}[data-ogs=
+c] .white,[data-ogsc] .white a{color:#ffffff!important}[data-ogsc] .da=
+rk{background-color:#1C1C1E!important;background-image:url('https://st=
+atic.eldorado.ru/promo/_mail/21/130721_refrigerators_w28/dark.jpg')!im=
+portant}[data-ogsc] .white-bg{background-color:#ffffff!important;backg=
+round-image:url('https://static.eldorado.ru/promo/_mail/21/130721_refr=
+igerators_w28/bg.jpg')!important}[data-ogsc] .hide{display:none!import=
+ant;opacity:0!important}[data-ogsc] .view{display:block!important}[dat=
+a-ogsc] .card_bg{background-color:#242424!important}[data-ogsc] .title=
+_bg{background-color:#484848!important}[data-ogsc] .title,[data-ogsc] =
+.title a{color:#ffffff!important}[data-ogsc] .bunce{color:#76BC21!impo=
+rtant}[data-ogsc] .btn{background-color:#76BC21!important}}</style></h=
+ead><body style=3D"margin: 0px; padding: 0px;"><form align=3D"center">=
+</form><table width=3D"100%" align=3D"center" style=3D"width: 100%; mi=
+n-width: 360px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbo=
+dy><tr><td align=3D"center" class=3D"bg_wt dark" bgcolor=3D"#f5f9fa"><=
+table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=
+<tbody><tr><td align=3D"center" style=3D"font: 0px/0px Verdana, Arial,=
+ sans-serif; color: rgb(247, 247, 247); font-size-adjust: none; font-s=
+tretch: normal;"></td></tr><tr><td class=3D"ac" style=3D'font: 0px/0px=
+ "Myriad Pro", Verdana, Arial, Helvetica, sans-serif; color: rgb(136, =
+136, 136); font-size-adjust: none; font-stretch: normal;'>=D0=A3=D0=B4=
+=D0=B5=D1=80=D0=B6=D0=B8=D0=B2=D0=B0=D0=B5=D0=BC =D1=81=D1=82=D0=BE=D0=
+=B8=D0=BC=D0=BE=D1=81=D1=82=D1=8C =D0=B2=D0=B0=D0=B6=D0=BD=D1=8B=D1=85=
+ =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=D0=B2&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbs=
+p;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbs=
+p;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp; =
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbs=
+p;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp; &nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbs=
+p;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp; &nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbs=
+p; &nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbs=
+p;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;</td></tr><tr><td a=
+lign=3D"center" class=3D"dark" background=3D"https://static.eldorado.r=
+u/promo/_mail/21/130721_refrigerators_w28/bg.jpg" style=3D'background-=
+position: top; background-image: url("https://static.eldorado.ru/promo=
+/_mail/21/130721_refrigerators_w28/bg.jpg"); background-size: cover; b=
+ackground-color: rgb(255, 255, 255);' bgcolor=3D"#ffffff"><table width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>=
+<td width=3D"100%" height=3D"100%" align=3D"center" valign=3D"top" sty=
+le=3D"padding: 13px 0px; line-height: 0; font-size: 0px;"><!--[if mso]=
+><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"724" style=3D"width:724px"><tr><td><![endif]--><table wid=
+th=3D"100%" align=3D"center" style=3D"max-width: 724px;" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"left"><tab=
+le border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td ali=
+gn=3D"left" style=3D"padding: 0px 10px 0px 0px;"><a style=3D"outline: =
+0px; border: 0px currentColor; border-image: none;" href=3D"http://new=
+sletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Dcedb832204e0451=
+5a036d19acb93212f&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2f%3futm_source=
+%3dcrm%26utm_medium%3demail%26utm_content%3dhomepage%26utm_campaign%3d=
+280322_frozen_w13" target=3D"_blank"><img width=3D"34" height=3D"34" c=
+lass=3D"alt-img" style=3D"outline: 0px; border: 0px currentColor; bord=
+er-image: none; display: block;" alt=3D"=D0=AD=D0=BB=D1=8C=D0=B4=D0=BE=
+=D1=80=D0=B0=D0=B4=D0=BE" src=3D"https://static.eldorado.ru/promo/_mai=
+l/21/130721_refrigerators_w28/header/logo.png"></a></td><td align=3D"l=
+eft" style=3D"padding: 0px 10px 0px 0px;"><a style=3D"outline: 0px; bo=
+rder: 0px currentColor; border-image: none;" href=3D"http://newsletter=
+.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D5b3feeb5ac8d4b39a3153c=
+eac26f6d5a&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fcat%2f%3futm_source%=
+3dcrm%26utm_medium%3demail%26utm_content%3dpersonal%26utm_campaign%3d2=
+80322_frozen_w13" target=3D"_blank"><img width=3D"55" height=3D"14" cl=
+ass=3D"alt-img hide" style=3D"outline: 0px; border: 0px currentColor; =
+border-image: none; display: block;" alt=3D"=D0=9A=D0=B0=D1=82=D0=B0=D0=
+=BB=D0=BE=D0=B3" src=3D"https://static.eldorado.ru/promo/_mail/21/1307=
+21_refrigerators_w28/header/m1.png"><!--[if !mso]><! --><img width=3D"=
+55" height=3D"14" class=3D"alt-img view" style=3D"outline: 0px; border=
+: 0px currentColor; border-image: none; display: none; mso-hide: all;"=
+ alt=3D"=D0=9A=D0=B0=D1=82=D0=B0=D0=BB=D0=BE=D0=B3" src=3D"https://sta=
+tic.eldorado.ru/promo/_mail/21/130721_refrigerators_w28/header/m1_1.pn=
+g"><!--<![endif]--></a></td><td align=3D"left" style=3D"padding: 0px 1=
+0px 0px 0px;"><a style=3D"outline: 0px; border: 0px currentColor; bord=
+er-image: none;" href=3D"http://newsletter.eldorado.ru//Link?messageId=
+=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D60e4a540256c483ca5fe3c83106d89dc&args=3Dhttps%3a%2=
+f%2fwww.eldorado.ru%2factions.php%3ftype%3donline%26utm_source%3dcrm%2=
+6utm_medium%3demail%26utm_content%3dhomepage%26utm_campaign%3d280322_f=
+rozen_w13" target=3D"_blank"><img width=3D"43" height=3D"14" class=3D"=
+alt-img hide" style=3D"outline: 0px; border: 0px currentColor; border-=
+image: none; display: block;" alt=3D"=D0=90=D0=BA=D1=86=D0=B8=D0=B8" s=
+rc=3D"https://static.eldorado.ru/promo/_mail/21/130721_refrigerators_w=
+28/header/m2.png"><!--[if !mso]><! --><img width=3D"43" height=3D"14" =
+class=3D"alt-img view" style=3D"outline: 0px; border: 0px currentColor=
+; border-image: none; display: none; mso-hide: all;" alt=3D"=D0=90=D0=BA=
+=D1=86=D0=B8=D0=B8" src=3D"https://static.eldorado.ru/promo/_mail/21/1=
+30721_refrigerators_w28/header/m2_2.png"><!--<![endif]--></a></td><td =
+align=3D"left" style=3D"padding: 0px 10px 0px 0px;"><a style=3D"outlin=
+e: 0px; border: 0px currentColor; border-image: none;" href=3D"http://=
+newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D34eebb106f0c=
+48c48a18f95aac793121&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fpromo%2fkr=
+edit-10-10-10%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content=
+%3dpromo%26utm_campaign%3d280322_frozen_w13" target=3D"_blank"><img wi=
+dth=3D"50" height=3D"14" class=3D"alt-img hide" style=3D"outline: 0px;=
+ border: 0px currentColor; border-image: none; display: block;" alt=3D=
+"=D0=9A=D1=80=D0=B5=D0=B4=D0=B8=D1=82" src=3D"https://static.eldorado.=
+ru/promo/_mail/22/280322_frozen_w13/m_new.png"><!--[if !mso]><! --><im=
+g width=3D"50" height=3D"14" class=3D"alt-img view" style=3D"outline: =
+0px; border: 0px currentColor; border-image: none; display: none; mso-=
+hide: all;" alt=3D"=D0=9A=D1=80=D0=B5=D0=B4=D0=B8=D1=82" src=3D"https:=
+//static.eldorado.ru/promo/_mail/22/280322_frozen_w13/m_new_2.png"><!-=
+-<![endif]--></a></td><td align=3D"left"><a style=3D"outline: 0px; bor=
+der: 0px currentColor; border-image: none;" href=3D"http://newsletter.=
+eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D1618353c1fa74e2493539ad=
+8c3326038&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fpromo%2fkredit-10-10-=
+10%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3dpromo%26=
+utm_campaign%3d280322_frozen_w13" target=3D"_blank"><img width=3D"53" =
+height=3D"12" class=3D"alt-img" style=3D"outline: 0px; border: 0px cur=
+rentColor; border-image: none; display: block;" alt=3D"10=E2=80=A210=E2=
+=80=A210" src=3D"https://static.eldorado.ru/promo/_mail/22/280322_froz=
+en_w13/m2_new.png"></a></td></tr></tbody></table></td><td width=3D"28"=
+ align=3D"right"><a style=3D"color: rgb(118, 188, 33); line-height: 17=
+px; font-family: Verdana,Geneva,sans-serif; font-size: 12px; text-deco=
+ration: none;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3D=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Dce853072844c4e4ba4107c8a3dba6b26&args=3Dhttps%3a%2f%2=
+fwww.eldorado.ru%2fauth.php%3futm_source%3dcrm%26utm_medium%3demail%26=
+utm_content%3dauth%26utm_campaign%3d280322_frozen_w13" target=3D"_blan=
+k"><img width=3D"28" height=3D"34" style=3D"display: block;" alt=3D"=D0=
+=9A=D0=B0=D0=B1=D0=B8=D0=BD=D0=B5=D1=82" src=3D"https://static.eldorad=
+o.ru/promo/_mail/21/130721_refrigerators_w28/header/cabinet.png"></a><=
+/td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]--></=
+td></tr><tr><td width=3D"100%" height=3D"100%" align=3D"center" valign=
+=3D"top" style=3D"padding: 4px 0px 4px 20px; line-height: 0; font-size=
+: 0px;" bgcolor=3D"#e4f6cd"><!--[if mso]><table align=3D"center" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"724" style=3D"wid=
+th:724px"><tr><td align=3D"center" valign=3D"top" width=3D"724" style=3D=
+"width:724px"><![endif]--><table width=3D"100%" align=3D"center" style=
+=3D"max-width: 724px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+"><tbody><tr><td align=3D"right" style=3D"padding: 0px 2px 0px 0px;"><=
+table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td =
+align=3D"left" valign=3D"middle" style=3D"padding: 0px 6px 0px 0px; co=
+lor: rgb(118, 188, 33); line-height: 14px; font-family: Verdana,Arial,=
+sans-serif; font-size: 10px; font-weight: normal; white-space: nowrap;=
+">=E2=84=96 <span class=3D"no-link"><a class=3D"white" style=3D"color:=
+ rgb(118, 188, 33); text-decoration: none;">=
+9643780106387807</a></span></td><td align=3D"left" valign=3D"middle"><table border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td width=3D"17"=
+ align=3D"left" valign=3D"middle"><img width=3D"17" height=3D"9" style=
+=3D"display: block;" alt=3D"" src=3D"https://static.eldorado.ru/promo/=
+_mail/22/280322_frozen_w13/bonus.png"></td><td align=3D"right" valign=3D=
+"middle" style=3D"padding: 0px 0px 0px 4px; color: rgb(118, 188, 33); =
+line-height: 14px; font-family: Verdana,Arial,sans-serif; font-size: 1=
+0px; font-weight: bold; white-space: nowrap;"><span style=3D"white-spa=
+ce: nowrap;">0 =D0=B1=D0=BE=D0=BD=D1=83=D1=81=D0=BE=D0=B2</span></td></tr></tbody></ta=
+ble></td></tr></tbody></table></td></tr></tbody></table><!--[if mso]><=
+/td></tr></table><![endif]--></td></tr></tbody></table></td></tr><tr><=
+td width=3D"100%" height=3D"100%" align=3D"center" valign=3D"top" styl=
+e=3D"padding: 0px 14px; line-height: 0; font-size: 0px;"><!--[if mso]>=
+<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"724" style=3D"width:724px"><tr><td align=3D"center" valign=
+=3D"top" width=3D"724" style=3D"width:724px"><![endif]--><table width=3D=
+"100%" align=3D"center" style=3D"max-width: 724px;" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0"><tbody><tr><td height=3D"40" style=3D"l=
+ine-height: 40px; font-size: 0px;">&nbsp;</td></tr><tr><td align=3D"ce=
+nter"><a style=3D"outline: 0px; border: 0px currentColor; border-image=
+: none;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3D=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Dddc9ede1ba9d41c2a77081aa9e365835&args=3Dhttps%3a%2f%2fwww.=
+eldorado.ru%2fpromo%2fprm-frozen-prices%2f%3futm_source%3dcrm%26utm_me=
+dium%3demail%26utm_content%3dpromo%26utm_campaign%3d280322_frozen_w13"=
+ target=3D"_blank"><img width=3D"724" height=3D"auto" class=3D"alt-img=
+" style=3D"outline: 0px; border: 0px currentColor; border-image: none;=
+ width: 100%; height: auto; display: block; min-width: 100%;" alt=3D"=D0=
+=9C=D1=8B =D0=B7=D0=B0=D0=BC=D0=BE=D1=80=D0=BE=D0=B7=D0=B8=D0=BB=D0=B8=
+ =D1=86=D0=B5=D0=BD=D1=8B =D0=BD=D0=B0 =D1=81=D0=B0=D0=BC=D0=BE=D0=B5 =
+=D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE=D0=B5" sr=
+c=3D"https://static.eldorado.ru/promo/_mail/22/280322_frozen_w13/bn.pn=
+g"></a></td></tr></tbody></table><!--[if mso]></td></tr></table><!=
+[endif]--></td></tr><tr><td width=3D"100%" height=3D"100%" align=3D"center=
+" valign=3D"top" style=3D"padding: 0px 6px; line-height: 0; font-size:=
+ 0px;"><!--[if mso]><table align=3D"center" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"696" style=3D"width:696px"><tr><td alig=
+n=3D"center" valign=3D"top" width=3D"696" style=3D"width:696px"><!=
+[endif]--><table width=3D"100%" align=3D"center" style=3D"max-width: 697px=
+;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td hei=
+ght=3D"40" style=3D"line-height: 40px; font-size: 0px;">&nbsp;</td></t=
+r><tr><td width=3D"100%" height=3D"100%" align=3D"center" valign=3D"to=
+p" style=3D"padding: 0px 20px; line-height: 0; font-size: 0px;"><!--[i=
+f mso]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" width=3D"600" style=3D"width:600px"><tr><td align=3D"center"=
+ valign=3D"top" width=3D"600" style=3D"width:600px"><![endif]--><table=
+ width=3D"100%" align=3D"center" style=3D"max-width: 600px;" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td width=3D"100%" =
+height=3D"100%" align=3D"center" class=3D"card_bg" valign=3D"top" styl=
+e=3D"padding: 0px 20px; border-radius: 20px; line-height: 0; font-size=
+: 0px;" bgcolor=3D"#ffffff"><!--[if mso]><table align=3D"center" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"540" style=3D"wid=
+th:540px"><tr><td align=3D"center" valign=3D"top" width=3D"540" style=3D=
+"width:540px"><![endif]--><table width=3D"100%" align=3D"center" style=
+=3D"max-width: 540px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+"><tbody><tr><td height=3D"30" style=3D"line-height: 30px; font-size: =
+0px;">&nbsp;</td></tr><tr><td align=3D"center" class=3D"fs_16 white" s=
+tyle=3D"color: rgb(57, 62, 66); line-height: 24px; font-family: Verdan=
+a,sans-serif; font-size: 18px; font-weight: normal;">=D0=A5=D0=BE=D1=80=
+=D0=BE=D1=88=D0=B0=D1=8F =D0=BD=D0=BE=D0=B2=D0=BE=D1=81=D1=82=D1=8C: =D1=
+=82=D1=8B&nbsp;=D0=BC=D0=BE=D0=B6=D0=B5=D1=88=D1=8C =D0=BD=D0=B5&nbsp;=
+=D0=BF=D0=B5=D1=80=D0=B5=D0=B6=D0=B8=D0=B2=D0=B0=D1=82=D1=8C =D0=B8=D0=
+=B7-=D0=B7=D0=B0 =D0=BF=D0=BE=D0=B2=D1=8B=D1=88=D0=B5=D0=BD=D0=B8=D1=8F=
+ =D1=86=D0=B5=D0=BD =D0=BD=D0=B0&nbsp;=D1=82=D0=B5=D1=85=D0=BD=D0=B8=D0=
+=BA=D1=83. =D0=A1=D0=B2=D0=BE=D0=B8 =D1=86=D0=B5=D0=BD=D1=8B =D0=BD=D0=
+=B0&nbsp;=D1=81=D0=B0=D0=BC=D1=8B=D0=B5 =D0=BD=D1=83=D0=B6=D0=BD=D1=8B=
+=D0=B5 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D1=8B =D0=BC=D1=8B&nbsp;=D0=B7=D0=
+=B0=D0=BC=D0=BE=D1=80=D0=BE=D0=B7=D0=B8=D0=BB=D0=B8. =D0=9F=D0=BE=D0=BA=
+=D1=83=D0=BF=D0=B0=D0=B9 =D1=81=D0=BF=D0=BE=D0=BA=D0=BE=D0=B9=D0=BD=D0=
+=BE, =D0=BD=D0=BE&nbsp;=D0=BD=D0=B5&nbsp;=D0=BE=D1=82=D0=BA=D0=BB=D0=B0=
+=D0=B4=D1=8B=D0=B2=D0=B0=D0=B9, =D0=B2=D0=B5=D1=81=D0=BD=D0=B0 =D0=BD=D0=
+=B0&nbsp;=D0=BF=D0=BE=D1=80=D0=BE=D0=B3=D0=B5&nbsp;=E2=80=94 =D1=80=D0=
+=B0=D1=81=D1=82=D0=B0=D1=8E=D1=82 =D0=B2=D0=B5=D0=B4=D1=8C!</td></tr><=
+tr><td height=3D"30" style=3D"line-height: 30px; font-size: 0px;">&nbs=
+p;</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]--=
+></td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->=
+</td></tr><tr><td height=3D"40" style=3D"line-height: 40px; font-size:=
+ 0px;">&nbsp;</td></tr><tr><td align=3D"center"><a style=3D"outline: 0=
+px; border: 0px currentColor; border-image: none;" href=3D"http://news=
+letter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Ddd44c9128f8b40a1=
+b8eb85fa052eb724&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fpromo%2fprm-fr=
+ozen-prices%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3=
+dpromo%26utm_campaign%3d280322_frozen_w13" target=3D"_blank"><img widt=
+h=3D"174" height=3D"auto" class=3D"alt-img" style=3D"outline: 0px; bor=
+der: 0px currentColor; border-image: none; height: auto; display: bloc=
+k;" alt=3D"=D0=9D=D0=B8=D0=B6=D0=B5 =D0=BD=D1=83=D0=BB=D1=8F" src=3D"h=
+ttps://static.eldorado.ru/promo/_mail/22/280322_frozen_w13/b1.png"></a=
+></td></tr><tr><td height=3D"20" style=3D"line-height: 20px; font-size=
+: 0px;">&nbsp;</td></tr><tr><td align=3D"center" valign=3D"top" style=3D=
+"padding: 0px 10px; font-size: 0px;"><!--[if (gte mso 9)|[IE]><table a=
+lign=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"620" style=3D"width:620px"><tr><td dir=3D"ltr" align=3D"left" vali=
+gn=3D"top" width=3D"310" style=3D"width:310px"><![endif]--><div class=3D=
+"full_wd" style=3D"width: 100%; vertical-align: top; display: inline-b=
+lock !important; max-width: 310px;" dir=3D"ltr"><table width=3D"100%" =
+align=3D"left" style=3D"max-width: 310px;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0"><tbody><tr><td height=3D"40" style=3D"line-heigh=
+t: 40px; font-size: 0px;">&nbsp;</td></tr><tr><td align=3D"center"><ta=
+ble width=3D"290" style=3D"width: 290px !important;" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"center" class=3D=
+"card_bg" style=3D"border-radius: 20px;" bgcolor=3D"#ffffff"><table wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><=
+tr><td align=3D"center" style=3D"padding: 10px 0px;"><a style=3D"outli=
+ne: 0px; border: 0px currentColor; border-image: none;" href=3D"http:/=
+/newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Ded8d4a7bda6=
+64d27b6df12a4139a3a30&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fcat%2fdet=
+ail%2f71511055%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_conten=
+t%3dcat%26utm_campaign%3d280322_frozen_w13" target=3D"_blank"><img wid=
+th=3D"270" height=3D"auto" class=3D"alt-img" style=3D"outline: 0px; bo=
+rder: 0px currentColor; border-image: none; height: auto; display: blo=
+ck;" alt=3D"" src=3D"https://static.eldorado.ru/promo/_mail/22/280322_=
+frozen_w13/t1.png"></a></td></tr><tr><td align=3D"center" style=3D"pad=
+ding: 0px 10px 10px;"><table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0"><tbody><tr><td align=3D"center" class=3D"title_b=
+g" style=3D"padding: 0px 25px; border-radius: 10px;" bgcolor=3D"#f6fce=
+f"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0"><tbody><tr><td height=3D"25" style=3D"line-height: 25px; font-size=
+: 0px;">&nbsp;</td></tr><tr><td align=3D"left" class=3D"fs_16 title" s=
+tyle=3D"color: rgb(0, 0, 0); line-height: 20px; font-family: Verdana,s=
+ans-serif; font-size: 16px; font-weight: normal;"><a class=3D"title" s=
+tyle=3D"color: rgb(0, 0, 0); text-decoration: none;" href=3D"http://ne=
+wsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D15c348285b664a=
+37a1de5d0fd10c7c61&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fcat%2fdetail=
+%2f71511055%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3=
+dcat%26utm_campaign%3d280322_frozen_w13" target=3D"_blank">LED =D1=82=D0=
+=B5=D0=BB=D0=B5=D0=B2=D0=B8=D0=B7=D0=BE=D1=80 32"<br>=D0=92=D0=B8=D1=82=
+=D1=8F=D0=B7=D1=8C 32LH0202</a></td></tr><tr><td height=3D"24" style=3D=
+"line-height: 24px; font-size: 0px;">&nbsp;</td></tr><tr><td align=3D"=
+center"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0"><tbody><tr><td align=3D"left" class=3D"title" style=3D"color:=
+ rgb(0, 0, 0); line-height: 20px; font-family: Verdana,sans-serif; fon=
+t-size: 16px; font-weight: normal; white-space: nowrap;"><s>16 799 =E2=
+=82=BD</s></td><td align=3D"right" class=3D"title" style=3D"color: rgb=
+(118, 188, 33); line-height: 20px; font-family: Verdana,sans-serif; fo=
+nt-size: 16px; font-weight: normal; white-space: nowrap;">=D0=92=D1=8B=
+=D0=B3=D0=BE=D0=B4=D0=B0 2 800 =E2=82=BD</td></tr></tbody></table></td=
+></tr><tr><td height=3D"14" style=3D"line-height: 14px; font-size: 0px=
+;">&nbsp;</td></tr><tr><td align=3D"center" class=3D"btn" style=3D"bor=
+der-radius: 40px; color: rgb(255, 255, 255); line-height: 24px; font-f=
+amily: Verdana,sans-serif; font-size: 16px; font-weight: normal; white=
+-space: nowrap; background-color: rgb(118, 188, 33); mso-padding-alt: =
+10px 22px;" bgcolor=3D"#76bc21"><a class=3D"title" style=3D"padding: 1=
+0px 22px; color: rgb(255, 255, 255); text-decoration: none; display: b=
+lock;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I=
+&linkId=3D1a0c57132c984294be5d0c98fdef043e&args=3Dhttps%3a%2f%2fwww.el=
+dorado.ru%2fcat%2fdetail%2f71511055%2f%3futm_source%3dcrm%26utm_medium=
+%3demail%26utm_content%3dcat%26utm_campaign%3d280322_frozen_w13" targe=
+t=3D"_blank">=D0=9A=D1=83=D0=BF=D0=B8=D1=82=D1=8C =D0=B7=D0=B0 <b>13 9=
+99 =E2=82=BD</b></a></td></tr><tr><td height=3D"25" style=3D"line-heig=
+ht: 25px; font-size: 0px;">&nbsp;</td></tr></tbody></table></td></tr><=
+/tbody></table></td></tr></tbody></table></td></tr></tbody></table></t=
+d></tr></tbody></table></div><!--[if (gte mso 9)|[IE]></td><td dir=3D"=
+ltr" align=3D"left" valign=3D"top" width=3D"310" style=3D"width:310px"=
+><![endif]--><div class=3D"full_wd" style=3D"width: 100%; vertical-ali=
+gn: top; display: inline-block !important; max-width: 310px;" dir=3D"l=
+tr"><table width=3D"100%" align=3D"left" style=3D"max-width: 310px;" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td height=3D=
+"40" style=3D"line-height: 40px; font-size: 0px;">&nbsp;</td></tr><tr>=
+<td align=3D"center"><table width=3D"290" style=3D"width: 290px !impor=
+tant;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td=
+ align=3D"center" class=3D"card_bg" style=3D"border-radius: 20px;" bgc=
+olor=3D"#ffffff"><table width=3D"100%" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0"><tbody><tr><td align=3D"center" style=3D"padding: 10=
+px 0px;"><a style=3D"outline: 0px; border: 0px currentColor; border-im=
+age: none;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3D=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D74ea0a657cb9431bb5ddc94100e7c80f&args=3Dhttps%3a%2f%2fw=
+ww.eldorado.ru%2fcat%2fdetail%2f71632918%2f%3futm_source%3dcrm%26utm_m=
+edium%3demail%26utm_content%3dcat%26utm_campaign%3d280322_frozen_w13" =
+target=3D"_blank"><img width=3D"270" height=3D"auto" class=3D"alt-img"=
+ style=3D"outline: 0px; border: 0px currentColor; border-image: none; =
+height: auto; display: block;" alt=3D"" src=3D"https://static.eldorado=
+.ru/promo/_mail/22/280322_frozen_w13/t2.png"></a></td></tr><tr><td ali=
+gn=3D"center" style=3D"padding: 0px 10px 10px;"><table width=3D"100%" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D=
+"center" class=3D"title_bg" style=3D"padding: 0px 25px; border-radius:=
+ 10px;" bgcolor=3D"#f6fcef"><table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0"><tbody><tr><td height=3D"25" style=3D"lin=
+e-height: 25px; font-size: 0px;">&nbsp;</td></tr><tr><td align=3D"left=
+" class=3D"fs_16 title" style=3D"color: rgb(0, 0, 0); line-height: 20p=
+x; font-family: Verdana,sans-serif; font-size: 16px; font-weight: norm=
+al;"><a class=3D"title" style=3D"color: rgb(0, 0, 0); text-decoration:=
+ none;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3D=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D33a9211ed5bf4722a7d2aff3493c0f6d&args=3Dhttps%3a%2f%2fwww.e=
+ldorado.ru%2fcat%2fdetail%2f71632918%2f%3futm_source%3dcrm%26utm_mediu=
+m%3demail%26utm_content%3dcat%26utm_campaign%3d280322_frozen_w13" targ=
+et=3D"_blank">=D0=A1=D0=BC=D0=B0=D1=80=D1=82=D1=84=D0=BE=D0=BD ZTE Bla=
+de<br>A51 2+32GB Blue</a></td></tr><tr><td height=3D"24" style=3D"line=
+-height: 24px; font-size: 0px;">&nbsp;</td></tr><tr><td align=3D"cente=
+r"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0"><tbody><tr><td align=3D"left" class=3D"title" style=3D"color: rgb(=
+0, 0, 0); line-height: 20px; font-family: Verdana,sans-serif; font-siz=
+e: 16px; font-weight: normal; white-space: nowrap;"><s>8 999 =E2=82=BD=
+</s></td><td align=3D"right" class=3D"title" style=3D"color: rgb(118, =
+188, 33); line-height: 20px; font-family: Verdana,sans-serif; font-siz=
+e: 16px; font-weight: normal; white-space: nowrap;">=D0=92=D1=8B=D0=B3=
+=D0=BE=D0=B4=D0=B0 1 000 =E2=82=BD</td></tr></tbody></table></td></tr>=
+<tr><td height=3D"14" style=3D"line-height: 14px; font-size: 0px;">&nb=
+sp;</td></tr><tr><td align=3D"center" class=3D"btn" style=3D"border-ra=
+dius: 40px; color: rgb(255, 255, 255); line-height: 24px; font-family:=
+ Verdana,sans-serif; font-size: 16px; font-weight: normal; white-space=
+: nowrap; background-color: rgb(118, 188, 33); mso-padding-alt: 10px 2=
+2px;" bgcolor=3D"#76bc21"><a class=3D"title" style=3D"padding: 10px 22=
+px; color: rgb(255, 255, 255); text-decoration: none; display: block;"=
+ href=3D"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkI=
+d=3D325b16b78fcc4604acaa26b2e4bceedd&args=3Dhttps%3a%2f%2fwww.eldorado=
+.ru%2fcat%2fdetail%2f71632918%2f%3futm_source%3dcrm%26utm_medium%3dema=
+il%26utm_content%3dcat%26utm_campaign%3d280322_frozen_w13" target=3D"_=
+blank">=D0=9A=D1=83=D0=BF=D0=B8=D1=82=D1=8C =D0=B7=D0=B0 <b>7 999 =E2=82=
+=BD</b></a></td></tr><tr><td height=3D"25" style=3D"line-height: 25px;=
+ font-size: 0px;">&nbsp;</td></tr></tbody></table></td></tr></tbody></=
+table></td></tr></tbody></table></td></tr></tbody></table></td></tr></=
+tbody></table></div><!--[if (gte mso 9)|[IE]></td></tr></table><!=
+[endif]--></td></tr><tr><td align=3D"center" valign=3D"top" style=3D"paddin=
+g: 0px 10px; font-size: 0px;"><!--[if (gte mso 9)|[IE]><table align=3D=
+"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"620=
+" style=3D"width:620px"><tr><td dir=3D"ltr" align=3D"left" valign=3D"t=
+op" width=3D"310" style=3D"width:310px"><![endif]--><div class=3D"full=
+_wd" style=3D"width: 100%; vertical-align: top; display: inline-block =
+!important; max-width: 310px;" dir=3D"ltr"><table width=3D"100%" align=
+=3D"left" style=3D"max-width: 310px;" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0"><tbody><tr><td height=3D"40" style=3D"line-height: 40=
+px; font-size: 0px;">&nbsp;</td></tr><tr><td align=3D"center"><table w=
+idth=3D"290" style=3D"width: 290px !important;" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"center" class=3D"ca=
+rd_bg" style=3D"border-radius: 20px;" bgcolor=3D"#ffffff"><table width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>=
+<td align=3D"center" style=3D"padding: 10px 0px;"><a style=3D"outline:=
+ 0px; border: 0px currentColor; border-image: none;" href=3D"http://ne=
+wsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D5e5d927c018549=
+69985b2fc97c010965&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fcat%2fdetail=
+%2f71560635%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3=
+dcat%26utm_campaign%3d280322_frozen_w13" target=3D"_blank"><img width=3D=
+"270" height=3D"auto" class=3D"alt-img" style=3D"outline: 0px; border:=
+ 0px currentColor; border-image: none; height: auto; display: block;" =
+alt=3D"" src=3D"https://static.eldorado.ru/promo/_mail/22/280322_froze=
+n_w13/t3.png"></a></td></tr><tr><td align=3D"center" style=3D"padding:=
+ 0px 10px 10px;"><table width=3D"100%" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0"><tbody><tr><td align=3D"center" class=3D"title_bg" s=
+tyle=3D"padding: 0px 25px; border-radius: 10px;" bgcolor=3D"#f6fcef"><=
+table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=
+<tbody><tr><td height=3D"25" style=3D"line-height: 25px; font-size: 0p=
+x;">&nbsp;</td></tr><tr><td align=3D"left" class=3D"fs_16 title" style=
+=3D"color: rgb(0, 0, 0); line-height: 20px; font-family: Verdana,sans-=
+serif; font-size: 16px; font-weight: normal;"><a class=3D"title" style=
+=3D"color: rgb(0, 0, 0); text-decoration: none;" href=3D"http://newsle=
+tter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D602f60d1a70044cc8a=
+dce51181e6416c&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fcat%2fdetail%2f7=
+1560635%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3dcat=
+%26utm_campaign%3d280322_frozen_w13" target=3D"_blank">=D0=9F=D0=BB=D0=
+=B0=D0=BD=D1=88=D0=B5=D1=82<br>Lenovo M10 FHD Plus<br>TB-X606X (ZA5V02=
+61RU)</a></td></tr><tr><td height=3D"24" style=3D"line-height: 24px; f=
+ont-size: 0px;">&nbsp;</td></tr><tr><td align=3D"center"><table width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td=
+ align=3D"left" class=3D"title" style=3D"color: rgb(0, 0, 0); line-hei=
+ght: 20px; font-family: Verdana,sans-serif; font-size: 16px; font-weig=
+ht: normal; white-space: nowrap;"><s>20 999 =E2=82=BD</s></td><td alig=
+n=3D"right" class=3D"title" style=3D"color: rgb(118, 188, 33); line-he=
+ight: 20px; font-family: Verdana,sans-serif; font-size: 16px; font-wei=
+ght: normal; white-space: nowrap;">=D0=92=D1=8B=D0=B3=D0=BE=D0=B4=D0=B0=
+ 1 000 =E2=82=BD</td></tr></tbody></table></td></tr><tr><td height=3D"=
+14" style=3D"line-height: 14px; font-size: 0px;">&nbsp;</td></tr><tr><=
+td align=3D"center" class=3D"btn" style=3D"border-radius: 40px; color:=
+ rgb(255, 255, 255); line-height: 24px; font-family: Verdana,sans-seri=
+f; font-size: 16px; font-weight: normal; white-space: nowrap; backgrou=
+nd-color: rgb(118, 188, 33); mso-padding-alt: 10px 22px;" bgcolor=3D"#=
+76bc21"><a class=3D"title" style=3D"padding: 10px 22px; color: rgb(255=
+, 255, 255); text-decoration: none; display: block;" href=3D"http://ne=
+wsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D3e39fb15382a46=
+4a884d9e51bfe20420&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fcat%2fdetail=
+%2f71560635%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3=
+dcat%26utm_campaign%3d280322_frozen_w13" target=3D"_blank">=D0=9A=D1=83=
+=D0=BF=D0=B8=D1=82=D1=8C =D0=B7=D0=B0 <b>19 999 =E2=82=BD</b></a></td>=
+</tr><tr><td height=3D"25" style=3D"line-height: 25px; font-size: 0px;=
+">&nbsp;</td></tr></tbody></table></td></tr></tbody></table></td></tr>=
+</tbody></table></td></tr></tbody></table></td></tr></tbody></table></=
+div><!--[if (gte mso 9)|[IE]></td><td dir=3D"ltr" align=3D"left" valig=
+n=3D"top" width=3D"310" style=3D"width:310px"><![endif]--><div class=3D=
+"full_wd" style=3D"width: 100%; vertical-align: top; display: inline-b=
+lock !important; max-width: 310px;" dir=3D"ltr"><table width=3D"100%" =
+align=3D"left" style=3D"max-width: 310px;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0"><tbody><tr><td height=3D"40" style=3D"line-heigh=
+t: 40px; font-size: 0px;">&nbsp;</td></tr><tr><td align=3D"center"><ta=
+ble width=3D"290" style=3D"width: 290px !important;" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"center" class=3D=
+"card_bg" style=3D"border-radius: 20px;" bgcolor=3D"#ffffff"><table wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><=
+tr><td align=3D"center" style=3D"padding: 10px 0px;"><a style=3D"outli=
+ne: 0px; border: 0px currentColor; border-image: none;" href=3D"http:/=
+/newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Da40eda3cd0c=
+e4e29aacab0e64ca919b2&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fcat%2fdet=
+ail%2f71515581%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_conten=
+t%3dcat%26utm_campaign%3d280322_frozen_w13" target=3D"_blank"><img wid=
+th=3D"270" height=3D"auto" class=3D"alt-img" style=3D"outline: 0px; bo=
+rder: 0px currentColor; border-image: none; height: auto; display: blo=
+ck;" alt=3D"" src=3D"https://static.eldorado.ru/promo/_mail/22/280322_=
+frozen_w13/t4.png"></a></td></tr><tr><td align=3D"center" style=3D"pad=
+ding: 0px 10px 10px;"><table width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0"><tbody><tr><td align=3D"center" class=3D"title_b=
+g" style=3D"padding: 0px 25px; border-radius: 10px;" bgcolor=3D"#f6fce=
+f"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0"><tbody><tr><td height=3D"25" style=3D"line-height: 25px; font-size=
+: 0px;">&nbsp;</td></tr><tr><td align=3D"left" class=3D"fs_16 title" s=
+tyle=3D"color: rgb(0, 0, 0); line-height: 20px; font-family: Verdana,s=
+ans-serif; font-size: 16px; font-weight: normal;"><a class=3D"title" s=
+tyle=3D"color: rgb(0, 0, 0); text-decoration: none;" href=3D"http://ne=
+wsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D1780776c006045=
+8c997c16617e7a8102&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fcat%2fdetail=
+%2f71515581%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3=
+dcat%26utm_campaign%3d280322_frozen_w13" target=3D"_blank">=D0=9C=D0=B8=
+=D0=BA=D1=80=D0=BE=D0=B2=D0=BE=D0=BB=D0=BD=D0=BE=D0=B2=D0=B0=D1=8F =D0=
+=BF=D0=B5=D1=87=D1=8C<br>Gorenje MO20A4W<br class=3D"mob-hide">&nbsp;<=
+/a></td></tr><tr><td height=3D"24" style=3D"line-height: 24px; font-si=
+ze: 0px;">&nbsp;</td></tr><tr><td align=3D"center"><table width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td ali=
+gn=3D"left" class=3D"title" style=3D"color: rgb(0, 0, 0); line-height:=
+ 20px; font-family: Verdana,sans-serif; font-size: 16px; font-weight: =
+normal; white-space: nowrap;"><s>9 999 =E2=82=BD</s></td><td align=3D"=
+right" class=3D"title" style=3D"color: rgb(118, 188, 33); line-height:=
+ 20px; font-family: Verdana,sans-serif; font-size: 16px; font-weight: =
+normal; white-space: nowrap;">=D0=92=D1=8B=D0=B3=D0=BE=D0=B4=D0=B0 1 0=
+00 =E2=82=BD</td></tr></tbody></table></td></tr><tr><td height=3D"14" =
+style=3D"line-height: 14px; font-size: 0px;">&nbsp;</td></tr><tr><td a=
+lign=3D"center" class=3D"btn" style=3D"border-radius: 40px; color: rgb=
+(255, 255, 255); line-height: 24px; font-family: Verdana,sans-serif; f=
+ont-size: 16px; font-weight: normal; white-space: nowrap; background-c=
+olor: rgb(118, 188, 33); mso-padding-alt: 10px 22px;" bgcolor=3D"#76bc=
+21"><a class=3D"title" style=3D"padding: 10px 22px; color: rgb(255, 25=
+5, 255); text-decoration: none; display: block;" href=3D"http://newsle=
+tter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Dadc0d08a884049a687=
+863dae104b15ef&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fcat%2fdetail%2f7=
+1515581%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3dcat=
+%26utm_campaign%3d280322_frozen_w13" target=3D"_blank">=D0=9A=D1=83=D0=
+=BF=D0=B8=D1=82=D1=8C =D0=B7=D0=B0 <b>8 999 =E2=82=BD</b></a></td></tr=
+><tr><td height=3D"25" style=3D"line-height: 25px; font-size: 0px;">&n=
+bsp;</td></tr></tbody></table></td></tr></tbody></table></td></tr></tb=
+ody></table></td></tr></tbody></table></td></tr></tbody></table></div>=
+<!--[if (gte mso 9)|[IE]></td></tr></table><![endif]--></td></tr><tr><=
+td align=3D"center" valign=3D"top" style=3D"padding: 0px 10px; font-si=
+ze: 0px;"><!--[if (gte mso 9)|[IE]><table align=3D"center" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" width=3D"620" style=3D"width:620=
+px"><tr><td dir=3D"ltr" align=3D"left" valign=3D"top" width=3D"310" st=
+yle=3D"width:310px"><![endif]--><div class=3D"full_wd" style=3D"width:=
+ 100%; vertical-align: top; display: inline-block !important; max-widt=
+h: 310px;" dir=3D"ltr"><table width=3D"100%" align=3D"left" style=3D"m=
+ax-width: 310px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tb=
+ody><tr><td height=3D"40" style=3D"line-height: 40px; font-size: 0px;"=
+>&nbsp;</td></tr><tr><td align=3D"center"><table width=3D"290" style=3D=
+"width: 290px !important;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0"><tbody><tr><td align=3D"center" class=3D"card_bg" style=3D"border-=
+radius: 20px;" bgcolor=3D"#ffffff"><table width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"center" st=
+yle=3D"padding: 10px 0px;"><a style=3D"outline: 0px; border: 0px curre=
+ntColor; border-image: none;" href=3D"http://newsletter.eldorado.ru//L=
+ink?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Dbf34a818d3204de5af60ff58c6bc5f4a&args=
+=3Dhttps%3a%2f%2fwww.eldorado.ru%2fcat%2fdetail%2f71371137%2f%3futm_so=
+urce%3dcrm%26utm_medium%3demail%26utm_content%3dcat%26utm_campaign%3d2=
+80322_frozen_w13" target=3D"_blank"><img width=3D"270" height=3D"auto"=
+ class=3D"alt-img" style=3D"outline: 0px; border: 0px currentColor; bo=
+rder-image: none; height: auto; display: block;" alt=3D"" src=3D"https=
+://static.eldorado.ru/promo/_mail/22/280322_frozen_w13/t5.png"></a></t=
+d></tr><tr><td align=3D"center" style=3D"padding: 0px 10px 10px;"><tab=
+le width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tb=
+ody><tr><td align=3D"center" class=3D"title_bg" style=3D"padding: 0px =
+25px; border-radius: 10px;" bgcolor=3D"#f6fcef"><table width=3D"100%" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td height=
+=3D"25" style=3D"line-height: 25px; font-size: 0px;">&nbsp;</td></tr><=
+tr><td align=3D"left" class=3D"fs_16 title" style=3D"color: rgb(0, 0, =
+0); line-height: 20px; font-family: Verdana,sans-serif; font-size: 16p=
+x; font-weight: normal;"><a class=3D"title" style=3D"color: rgb(0, 0, =
+0); text-decoration: none;" href=3D"http://newsletter.eldorado.ru//Lin=
+k?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D1b4a9a2e7bad4ba68ad9b4bc660c2429&args=3D=
+https%3a%2f%2fwww.eldorado.ru%2fcat%2fdetail%2f71371137%2f%3futm_sourc=
+e%3dcrm%26utm_medium%3demail%26utm_content%3dcat%26utm_campaign%3d2803=
+22_frozen_w13" target=3D"_blank">=D0=9F=D0=BE=D0=B3=D1=80=D1=83=D0=B6=D0=
+=BD=D0=BE=D0=B9 =D0=B1=D0=BB=D0=B5=D0=BD=D0=B4=D0=B5=D1=80<br>Bosch Cl=
+everMixx<br>MSM2650B</a></td></tr><tr><td height=3D"24" style=3D"line-=
+height: 24px; font-size: 0px;">&nbsp;</td></tr><tr><td align=3D"center=
+"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0"><tbody><tr><td align=3D"left" class=3D"title" style=3D"color: rgb(0=
+, 0, 0); line-height: 20px; font-family: Verdana,sans-serif; font-size=
+: 16px; font-weight: normal; white-space: nowrap;"><s>4 199 =E2=82=BD<=
+/s></td><td align=3D"right" class=3D"title" style=3D"color: rgb(118, 1=
+88, 33); line-height: 20px; font-family: Verdana,sans-serif; font-size=
+: 16px; font-weight: normal; white-space: nowrap;">=D0=92=D1=8B=D0=B3=D0=
+=BE=D0=B4=D0=B0 800 =E2=82=BD</td></tr></tbody></table></td></tr><tr><=
+td height=3D"14" style=3D"line-height: 14px; font-size: 0px;">&nbsp;</=
+td></tr><tr><td align=3D"center" class=3D"btn" style=3D"border-radius:=
+ 40px; color: rgb(255, 255, 255); line-height: 24px; font-family: Verd=
+ana,sans-serif; font-size: 16px; font-weight: normal; white-space: now=
+rap; background-color: rgb(118, 188, 33); mso-padding-alt: 10px 22px;"=
+ bgcolor=3D"#76bc21"><a class=3D"title" style=3D"padding: 10px 22px; c=
+olor: rgb(255, 255, 255); text-decoration: none; display: block;" href=
+=3D"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D4=
+e50fdf79d1b436b9c553cac822dc299&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2=
+fcat%2fdetail%2f71371137%2f%3futm_source%3dcrm%26utm_medium%3demail%26=
+utm_content%3dcat%26utm_campaign%3d280322_frozen_w13" target=3D"_blank=
+">=D0=9A=D1=83=D0=BF=D0=B8=D1=82=D1=8C =D0=B7=D0=B0 <b>3 399 =E2=82=BD=
+</b></a></td></tr><tr><td height=3D"25" style=3D"line-height: 25px; fo=
+nt-size: 0px;">&nbsp;</td></tr></tbody></table></td></tr></tbody></tab=
+le></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbo=
+dy></table></div><!--[if (gte mso 9)|[IE]></td><td dir=3D"ltr" align=3D=
+"left" valign=3D"top" width=3D"310" style=3D"width:310px"><![endif]-->=
+<div class=3D"full_wd" style=3D"width: 100%; vertical-align: top; disp=
+lay: inline-block !important; max-width: 310px;" dir=3D"ltr"><table wi=
+dth=3D"100%" align=3D"left" style=3D"max-width: 310px;" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td height=3D"40" style=3D=
+"line-height: 40px; font-size: 0px;">&nbsp;</td></tr><tr><td align=3D"=
+center"><table width=3D"290" style=3D"width: 290px !important;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"cen=
+ter" class=3D"card_bg" style=3D"border-radius: 20px;" bgcolor=3D"#ffff=
+ff"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0"><tbody><tr><td align=3D"center" style=3D"padding: 10px 0px;"><a st=
+yle=3D"outline: 0px; border: 0px currentColor; border-image: none;" hr=
+ef=3D"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D=
+0e1198b1d7164922b0dde42d19af5267&args=3Dhttps%3a%2f%2fwww.eldorado.ru%=
+2fcat%2fdetail%2f71564026%2f%3futm_source%3dcrm%26utm_medium%3demail%2=
+6utm_content%3dcat%26utm_campaign%3d280322_frozen_w13" target=3D"_blan=
+k"><img width=3D"270" height=3D"auto" class=3D"alt-img" style=3D"outli=
+ne: 0px; border: 0px currentColor; border-image: none; height: auto; d=
+isplay: block;" alt=3D"" src=3D"https://static.eldorado.ru/promo/_mail=
+/22/280322_frozen_w13/t6.png"></a></td></tr><tr><td align=3D"center" s=
+tyle=3D"padding: 0px 10px 10px;"><table width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"center" clas=
+s=3D"title_bg" style=3D"padding: 0px 25px; border-radius: 10px;" bgcol=
+or=3D"#f6fcef"><table width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0"><tbody><tr><td height=3D"25" style=3D"line-height: 25p=
+x; font-size: 0px;">&nbsp;</td></tr><tr><td align=3D"left" class=3D"fs=
+_16 title" style=3D"color: rgb(0, 0, 0); line-height: 20px; font-famil=
+y: Verdana,sans-serif; font-size: 16px; font-weight: normal;"><a class=
+=3D"title" style=3D"color: rgb(0, 0, 0); text-decoration: none;" href=3D=
+"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D4f6f=
+cc6d966a43ff8db31388215fa36f&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fca=
+t%2fdetail%2f71564026%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm=
+_content%3dcat%26utm_campaign%3d280322_frozen_w13" target=3D"_blank">=D0=
+=AD=D0=BB=D0=B5=D0=BA=D1=82=D1=80=D0=BE=D1=87=D0=B0=D0=B9=D0=BD=D0=B8=D0=
+=BA<br>Hi EK-18S03<br class=3D"mob-hide">&nbsp;</a></td></tr><tr><td h=
+eight=3D"24" style=3D"line-height: 24px; font-size: 0px;">&nbsp;</td><=
+/tr><tr><td align=3D"center"><table width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"left" class=3D"t=
+itle" style=3D"color: rgb(0, 0, 0); line-height: 20px; font-family: Ve=
+rdana,sans-serif; font-size: 16px; font-weight: normal; white-space: n=
+owrap;"><s>799 =E2=82=BD</s></td><td align=3D"right" class=3D"title" s=
+tyle=3D"color: rgb(118, 188, 33); line-height: 20px; font-family: Verd=
+ana,sans-serif; font-size: 16px; font-weight: normal; white-space: now=
+rap;">=D0=92=D1=8B=D0=B3=D0=BE=D0=B4=D0=B0 200 =E2=82=BD</td></tr></tb=
+ody></table></td></tr><tr><td height=3D"14" style=3D"line-height: 14px=
+; font-size: 0px;">&nbsp;</td></tr><tr><td align=3D"center" class=3D"b=
+tn" style=3D"border-radius: 40px; color: rgb(255, 255, 255); line-heig=
+ht: 24px; font-family: Verdana,sans-serif; font-size: 16px; font-weigh=
+t: normal; white-space: nowrap; background-color: rgb(118, 188, 33); m=
+so-padding-alt: 10px 22px;" bgcolor=3D"#76bc21"><a class=3D"title" sty=
+le=3D"padding: 10px 22px; color: rgb(255, 255, 255); text-decoration: =
+none; display: block;" href=3D"http://newsletter.eldorado.ru//Link?mes=
+sageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D8aa8d14af857459a9642d4c70e316056&args=3Dhttp=
+s%3a%2f%2fwww.eldorado.ru%2fcat%2fdetail%2f71564026%2f%3futm_source%3d=
+crm%26utm_medium%3demail%26utm_content%3dcat%26utm_campaign%3d280322_f=
+rozen_w13" target=3D"_blank">=D0=9A=D1=83=D0=BF=D0=B8=D1=82=D1=8C =D0=B7=
+=D0=B0 <b>599 =E2=82=BD</b></a></td></tr><tr><td height=3D"25" style=3D=
+"line-height: 25px; font-size: 0px;">&nbsp;</td></tr></tbody></table><=
+/td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody><=
+/table></td></tr></tbody></table></div><!--[if (gte mso 9)|[IE]></td><=
+/tr></table><![endif]--></td></tr><tr><td height=3D"40" style=3D"line-=
+height: 40px; font-size: 0px;">&nbsp;</td></tr><tr><td align=3D"center=
+"><a style=3D"outline: 0px; border: 0px currentColor; border-image: no=
+ne;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&l=
+inkId=3D2e5b2f4b57e04bf29c47505e2f854b74&args=3Dhttps%3a%2f%2fwww.eldo=
+rado.ru%2fpromo%2fprm-frozen-prices%2f%3futm_source%3dcrm%26utm_medium=
+%3demail%26utm_content%3dpromo%26utm_campaign%3d280322_frozen_w13" tar=
+get=3D"_blank"><img width=3D"280" height=3D"auto" class=3D"alt-img" st=
+yle=3D"outline: 0px; border: 0px currentColor; border-image: none; hei=
+ght: auto; display: block;" alt=3D"=D0=92=D1=81=D1=91, =D1=87=D1=82=D0=
+=BE =D0=B7=D0=B0=D0=BC=D0=BE=D1=80=D0=BE=D0=B6=D0=B5=D0=BD=D0=BE" src=3D=
+"https://static.eldorado.ru/promo/_mail/22/280322_frozen_w13/b2.png"><=
+/a></td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-=
+-></td></tr><tr><td height=3D"60" style=3D"line-height: 60px; font-siz=
+e: 0px;">&nbsp;</td></tr><tr><td width=3D"100%" height=3D"100%" align=3D=
+"center" valign=3D"top" style=3D"padding: 0px 14px; line-height: 0; fo=
+nt-size: 0px;"><!--[if mso]><table align=3D"center" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" width=3D"724" style=3D"width:724px"><tr=
+><td align=3D"center" valign=3D"top" width=3D"724" style=3D"width:724p=
+x"><![endif]--><table width=3D"100%" align=3D"center" style=3D"max-wid=
+th: 724px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><t=
+r><td align=3D"center"><a style=3D"outline: 0px; border: 0px currentCo=
+lor; border-image: none;" href=3D"http://newsletter.eldorado.ru//Link?=
+messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Db95f78879a844ff19a382cba8dffbb33&args=3Dh=
+ttps%3a%2f%2fwww.eldorado.ru%2fpromo%2fskidki-na-nedele-krasoty-ot-row=
+enta%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3dpromo%=
+26utm_campaign%3d280322_frozen_w13" target=3D"_blank"><img width=3D"72=
+4" height=3D"auto" class=3D"alt-img" style=3D"outline: 0px; border: 0p=
+x currentColor; border-image: none; width: 100%; height: auto; display=
+: block; min-width: 100%;" alt=3D"=D0=A1=D0=BA=D0=B8=D0=B4=D0=BA=D0=B8=
+ =D0=BD=D0=B0 =D0=BD=D0=B5=D0=B4=D0=B5=D0=BB=D0=B5 =D0=BA=D1=80=D0=B0=D1=
+=81=D0=BE=D1=82=D1=8B =D0=BE=D1=82 Rowenta" src=3D"https://static.eldo=
+rado.ru/promo/_mail/22/280322_frozen_w13/bn3.png"></a></td></tr><tr><t=
+d height=3D"40" style=3D"line-height: 40px; font-size: 0px;">&nbsp;</t=
+d></tr><tr><td align=3D"center"><a style=3D"outline: 0px; border: 0px =
+currentColor; border-image: none;" href=3D"http://newsletter.eldorado.=
+ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D8ed0a4bbd8964e1d883f45457f66d5ed=
+&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fpromo%2fkredit-10-10-10%2f%3fu=
+tm_source%3dcrm%26utm_medium%3demail%26utm_content%3dpromo%26utm_campa=
+ign%3d280322_frozen_w13" target=3D"_blank"><img width=3D"724" height=3D=
+"auto" class=3D"alt-img" style=3D"outline: 0px; border: 0px currentCol=
+or; border-image: none; width: 100%; height: auto; display: block; min=
+-width: 100%;" alt=3D"=D0=9A=D1=80=D0=B5=D0=B4=D0=B8=D1=82 10-10-10" s=
+rc=3D"https://static.eldorado.ru/promo/_mail/22/280322_frozen_w13/bn4.=
+png"></a></td></tr></tbody></table><!--[if mso]></td></tr></table><!=
+[endif]--></td></tr><tr><td height=3D"50" style=3D"line-height: 50px; fo=
+nt-size: 0px;">&nbsp;</td></tr><tr><td align=3D"center" valign=3D"top"=
+ style=3D"padding: 0px 0px 20px; font-size: 0px;"><!--[if (gte mso 9)|=
+[IE]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"684" style=3D"width:684px"><tr><td dir=3D"ltr" align=3D=
+"left" valign=3D"top" width=3D"342" style=3D"width:342px"><![endif]-->=
+<div class=3D"full_wd" style=3D"width: 100%; vertical-align: top; disp=
+lay: inline-block !important; max-width: 342px;" dir=3D"ltr"><table wi=
+dth=3D"100%" align=3D"left" style=3D"max-width: 342px;" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"center" sty=
+le=3D"padding: 9px 0px 0px;"><a style=3D"outline: 0px; border: 0px cur=
+rentColor; border-image: none;" href=3D"http://newsletter.eldorado.ru/=
+/Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D4ccba28f81dd40ce9bdc6b56995edca0&ar=
+gs=3Dhttps%3a%2f%2fwww.eldorado.ru%2fd%2ftelevizory-audio-video%2f%3fu=
+tm_source%3dcrm%26utm_medium%3demail%26utm_content%3dd%26utm_campaign%=
+3d280322_frozen_w13" target=3D"_blank"><img width=3D"48" height=3D"48"=
+ class=3D"alt-img" style=3D"outline: 0px; border: 0px currentColor; bo=
+rder-image: none; display: block;" alt=3D"=D0=A2=D0=B5=D0=BB=D0=B5=D0=B2=
+=D0=B8=D0=B7=D0=BE=D1=80=D1=8B, =D0=B0=D1=83=D0=B4=D0=B8=D0=BE, =D0=B2=
+=D0=B8=D0=B4=D0=B5=D0=BE" src=3D"https://static.eldorado.ru/promo/_mai=
+l/22/280322_frozen_w13/ic1.png"></a></td><td align=3D"center" style=3D=
+"padding: 9px 0px 0px;"><a style=3D"outline: 0px; border: 0px currentC=
+olor; border-image: none;" href=3D"http://newsletter.eldorado.ru//Link=
+?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Db8a5c042d7b64adca8082ab116f15547&args=3D=
+https%3a%2f%2fwww.eldorado.ru%2fd%2fsmartfony-i-gadzhety%2f%3futm_sour=
+ce%3dcrm%26utm_medium%3demail%26utm_content%3dd%26utm_campaign%3d28032=
+2_frozen_w13" target=3D"_blank"><img width=3D"48" height=3D"48" class=3D=
+"alt-img" style=3D"outline: 0px; border: 0px currentColor; border-imag=
+e: none; display: block;" alt=3D"=D0=A1=D0=BC=D0=B0=D1=80=D1=82=D1=84=D0=
+=BE=D0=BD=D1=8B =D0=B8 =D0=B3=D0=B0=D0=B4=D0=B6=D0=B5=D1=82=D1=8B" src=
+=3D"https://static.eldorado.ru/promo/_mail/22/280322_frozen_w13/ic2.pn=
+g"></a></td><td align=3D"center" style=3D"padding: 9px 0px 0px;"><a st=
+yle=3D"outline: 0px; border: 0px currentColor; border-image: none;" hr=
+ef=3D"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D=
+ddf9a9e8e696432290948794bcb860fd&args=3Dhttps%3a%2f%2fwww.eldorado.ru%=
+2fd%2fkompyutery-i-noutbuki%2f%3futm_source%3dcrm%26utm_medium%3demail=
+%26utm_content%3dd%26utm_campaign%3d280322_frozen_w13" target=3D"_blan=
+k"><img width=3D"48" height=3D"48" class=3D"alt-img" style=3D"outline:=
+ 0px; border: 0px currentColor; border-image: none; display: block;" a=
+lt=3D"=D0=9A=D0=BE=D0=BC=D0=BF=D1=8C=D1=8E=D1=82=D0=B5=D1=80=D1=8B =D0=
+=B8 =D0=BD=D0=BE=D1=83=D1=82=D0=B1=D1=83=D0=BA=D0=B8" src=3D"https://s=
+tatic.eldorado.ru/promo/_mail/22/280322_frozen_w13/ic3.png"></a></td><=
+td align=3D"center" style=3D"padding: 9px 0px 0px;"><a style=3D"outlin=
+e: 0px; border: 0px currentColor; border-image: none;" href=3D"http://=
+newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Db975c5df40c9=
+4dfabf4703519b5b00a1&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fd%2ftekhni=
+ka-dlya-doma%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%=
+3dd%26utm_campaign%3d280322_frozen_w13" target=3D"_blank"><img width=3D=
+"48" height=3D"48" class=3D"alt-img" style=3D"outline: 0px; border: 0p=
+x currentColor; border-image: none; display: block;" alt=3D"=D0=A2=D0=B5=
+=D1=85=D0=BD=D0=B8=D0=BA=D0=B0 =D0=B4=D0=BB=D1=8F =D0=B4=D0=BE=D0=BC=D0=
+=B0" src=3D"https://static.eldorado.ru/promo/_mail/22/280322_frozen_w1=
+3/ic4.png"></a></td><td align=3D"center" style=3D"padding: 9px 0px 0px=
+;"><a style=3D"outline: 0px; border: 0px currentColor; border-image: n=
+one;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&=
+linkId=3D8798761c86354a95b044332ec2431c21&args=3Dhttps%3a%2f%2fwww.eld=
+orado.ru%2fd%2ftekhnika-dlya-kukhni%2f%3futm_source%3dcrm%26utm_medium=
+%3demail%26utm_content%3dd%26utm_campaign%3d280322_frozen_w13" target=3D=
+"_blank"><img width=3D"48" height=3D"48" class=3D"alt-img" style=3D"ou=
+tline: 0px; border: 0px currentColor; border-image: none; display: blo=
+ck;" alt=3D"=D0=A2=D0=B5=D1=85=D0=BD=D0=B8=D0=BA=D0=B0 =D0=B4=D0=BB=D1=
+=8F =D0=BA=D1=83=D1=85=D0=BD=D0=B8" src=3D"https://static.eldorado.ru/=
+promo/_mail/22/280322_frozen_w13/ic5.png"></a></td><td align=3D"center=
+" style=3D"padding: 9px 0px 0px;"><a style=3D"outline: 0px; border: 0p=
+x currentColor; border-image: none;" href=3D"http://newsletter.eldorad=
+o.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D97f4884b49f94bf1b54c35abda69be=
+2e&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fd%2figry-soft-razvlecheniya%=
+2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3dd%26utm_cam=
+paign%3d280322_frozen_w13" target=3D"_blank"><img width=3D"48" height=3D=
+"48" class=3D"alt-img" style=3D"outline: 0px; border: 0px currentColor=
+; border-image: none; display: block;" alt=3D"=D0=98=D0=B3=D1=80=D1=8B=
+, =D1=81=D0=BE=D1=84=D1=82, =D1=80=D0=B0=D0=B7=D0=B2=D0=BB=D0=B5=D1=87=
+=D0=B5=D0=BD=D0=B8=D1=8F" src=3D"https://static.eldorado.ru/promo/_mai=
+l/22/280322_frozen_w13/ic6.png"></a></td></tr></tbody></table></div><!=
+--[if (gte mso 9)|[IE]></td><td dir=3D"ltr" align=3D"left" valign=3D"t=
+op" width=3D"342" style=3D"width:342px"><![endif]--><div class=3D"full=
+_wd" style=3D"width: 100%; vertical-align: top; display: inline-block =
+!important; max-width: 342px;" dir=3D"ltr"><table width=3D"100%" align=
+=3D"left" style=3D"max-width: 342px;" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0"><tbody><tr><td align=3D"center" style=3D"padding: 9px=
+ 0px 0px;"><a style=3D"outline: 0px; border: 0px currentColor; border-=
+image: none;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3D=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D89d0cfccf3d449b59f55c6d1f52bd569&args=3Dhttps%3a%2f%2=
+fwww.eldorado.ru%2fd%2ffoto-i-video%2f%3futm_source%3dcrm%26utm_medium=
+%3demail%26utm_content%3dd%26utm_campaign%3d280322_frozen_w13" target=3D=
+"_blank"><img width=3D"48" height=3D"48" class=3D"alt-img" style=3D"ou=
+tline: 0px; border: 0px currentColor; border-image: none; display: blo=
+ck;" alt=3D"=D0=A4=D0=BE=D1=82=D0=BE =D0=B8 =D0=B2=D0=B8=D0=B4=D0=B5=D0=
+=BE" src=3D"https://static.eldorado.ru/promo/_mail/22/280322_frozen_w1=
+3/ic7.png"></a></td><td align=3D"center" style=3D"padding: 9px 0px 0px=
+;"><a style=3D"outline: 0px; border: 0px currentColor; border-image: n=
+one;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&=
+linkId=3Dd933e9a6187949ccb3c44d8ad954e67a&args=3Dhttps%3a%2f%2fwww.eld=
+orado.ru%2fd%2favtotovary%2f%3futm_source%3dcrm%26utm_medium%3demail%2=
+6utm_content%3dd%26utm_campaign%3d280322_frozen_w13" target=3D"_blank"=
+><img width=3D"48" height=3D"48" class=3D"alt-img" style=3D"outline: 0=
+px; border: 0px currentColor; border-image: none; display: block;" alt=
+=3D"=D0=A2=D0=BE=D0=B2=D0=B0=D1=80=D1=8B =D0=B4=D0=BB=D1=8F =D0=B0=D0=B2=
+=D1=82=D0=BE" src=3D"https://static.eldorado.ru/promo/_mail/22/280322_=
+frozen_w13/ic8.png"></a></td><td align=3D"center" style=3D"padding: 9p=
+x 0px 0px;"><a style=3D"outline: 0px; border: 0px currentColor; border=
+-image: none;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3D=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D26db3f65883a4e7ba4363e0e5393c9e9&args=3Dhttps%3a%2f%2=
+fwww.eldorado.ru%2fd%2fkrasota-i-zdorove%2f%3futm_source%3dcrm%26utm_m=
+edium%3demail%26utm_content%3dd%26utm_campaign%3d280322_frozen_w13" ta=
+rget=3D"_blank"><img width=3D"48" height=3D"48" class=3D"alt-img" styl=
+e=3D"outline: 0px; border: 0px currentColor; border-image: none; displ=
+ay: block;" alt=3D"=D0=9A=D1=80=D0=B0=D1=81=D0=BE=D1=82=D0=B0 =D0=B8 =D0=
+=B7=D0=B4=D0=BE=D1=80=D0=BE=D0=B2=D1=8C=D0=B5" src=3D"https://static.e=
+ldorado.ru/promo/_mail/22/280322_frozen_w13/ic9.png"></a></td><td alig=
+n=3D"center" style=3D"padding: 9px 0px 0px;"><a style=3D"outline: 0px;=
+ border: 0px currentColor; border-image: none;" href=3D"http://newslet=
+ter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D09d3e0acffa346fabda=
+7e46f11862c16&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fd%2fsad-i-remont%=
+2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3dd%26utm_cam=
+paign%3d280322_frozen_w13" target=3D"_blank"><img width=3D"48" height=3D=
+"48" class=3D"alt-img" style=3D"outline: 0px; border: 0px currentColor=
+; border-image: none; display: block;" alt=3D"=D0=A1=D0=B0=D0=B4 =D0=B8=
+ =D1=80=D0=B5=D0=BC=D0=BE=D0=BD=D1=82" src=3D"https://static.eldorado.=
+ru/promo/_mail/22/280322_frozen_w13/ic10.png"></a></td><td align=3D"ce=
+nter" style=3D"padding: 9px 0px 0px;"><a style=3D"outline: 0px; border=
+: 0px currentColor; border-image: none;" href=3D"http://newsletter.eld=
+orado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Dad8e02febad046fd952d36f631=
+fd902e&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fd%2ftovary-dlya-detey%2f=
+%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3dd%26utm_campa=
+ign%3d280322_frozen_w13" target=3D"_blank"><img width=3D"48" height=3D=
+"48" class=3D"alt-img" style=3D"outline: 0px; border: 0px currentColor=
+; border-image: none; display: block;" alt=3D"=D0=A2=D0=BE=D0=B2=D0=B0=
+=D1=80=D1=8B =D0=B4=D0=BB=D1=8F =D0=B4=D0=B5=D1=82=D0=B5=D0=B9" src=3D=
+"https://static.eldorado.ru/promo/_mail/22/280322_frozen_w13/ic11.png"=
+></a></td><td align=3D"center" style=3D"padding: 9px 0px 0px;"><a styl=
+e=3D"outline: 0px; border: 0px currentColor; border-image: none;" href=
+=3D"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Df=
+9d2853e3a914673ae5986dee8453127&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2=
+fd%2fsport-i-aktivnyy-otdykh%2f%3futm_source%3dcrm%26utm_medium%3demai=
+l%26utm_content%3dd%26utm_campaign%3d280322_frozen_w13" target=3D"_bla=
+nk"><img width=3D"48" height=3D"48" class=3D"alt-img" style=3D"outline=
+: 0px; border: 0px currentColor; border-image: none; display: block;" =
+alt=3D"=D0=A1=D0=BF=D0=BE=D1=80=D1=82 =D0=B8 =D0=B0=D0=BA=D1=82=D0=B8=D0=
+=B2=D0=BD=D1=8B=D0=B9 =D0=BE=D1=82=D0=B4=D1=8B=D1=85" src=3D"https://s=
+tatic.eldorado.ru/promo/_mail/22/280322_frozen_w13/ic12.png"></a></td>=
+</tr></tbody></table></div><!--[if (gte mso 9)|[IE]></td></tr></table>=
+<![endif]--></td></tr><tr><td width=3D"100%" height=3D"100%" align=3D"=
+center" class=3D"footer" background=3D"https://static.eldorado.ru/prom=
+o/_mail/21/130721_refrigerators_w28/footer/bg3.jpg" valign=3D"top" sty=
+le=3D'background-position: top; padding: 0px 12px; background-image: u=
+rl("https://static.eldorado.ru/promo/_mail/21/130721_refrigerators_w28=
+/footer/bg3.jpg"); background-size: cover;' bgcolor=3D"#76bc21"><!--[i=
+f (gte mso 9)|[IE]><table align=3D"center" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"724" style=3D"width:724px"><tr><td alig=
+n=3D"center" valign=3D"top" width=3D"724" style=3D"width:724px"><!=
+[endif]--><table width=3D"100%" align=3D"center" style=3D"max-width: 725px=
+;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td ali=
+gn=3D"left" valign=3D"top" style=3D"font-size: 0px;"><!--[if (gte mso =
+9)|[IE]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" width=3D"724" style=3D"width:724px"><tr><td dir=3D"ltr" ali=
+gn=3D"left" valign=3D"top" width=3D"344" style=3D"width:344px"><!=
+[endif]--><div class=3D"full_wd" style=3D"width: 100%; vertical-align: top;=
+ display: inline-block !important; max-width: 344px;" dir=3D"ltr"><tab=
+le width=3D"100%" align=3D"left" style=3D"max-width: 344px;" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td height=3D"22" s=
+tyle=3D"line-height: 22px; font-size: 0px;">&nbsp;</td></tr><tr><td al=
+ign=3D"left"><a style=3D"outline: 0px; border: 0px currentColor; borde=
+r-image: none;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3D=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Dc5480c8e46cf46048c9b5a4c5134212a&args=3Dhttps%3a%2f%2=
+fwww.eldorado.ru%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_cont=
+ent%3dhomepage%26utm_campaign%3d280322_frozen_w13" target=3D"_blank"><=
+img width=3D"230" height=3D"28" class=3D"alt-img" style=3D"outline: 0p=
+x; border: 0px currentColor; border-image: none; display: block;" alt=3D=
+"=D0=AD=D0=BB=D1=8C=D0=B4=D0=BE=D1=80=D0=B0=D0=B4=D0=BE" src=3D"https:=
+//static.eldorado.ru/promo/_mail/e21_2/footer/logo.png"></a></td></tr>=
+</tbody></table></div><!--[if (gte mso 9)|[IE]></td><td dir=3D"ltr" al=
+ign=3D"left" valign=3D"top" width=3D"380" style=3D"width:380px"><!=
+[endif]--><div class=3D"full_wd" style=3D"width: 100%; vertical-align: top=
+; display: inline-block !important; max-width: 380px;" dir=3D"ltr"><ta=
+ble width=3D"100%" align=3D"left" style=3D"max-width: 380px;" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td height=3D"22" s=
+tyle=3D"line-height: 22px; font-size: 0px;" colspan=3D"2">&nbsp;</td><=
+/tr><tr><td align=3D"left" valign=3D"top" style=3D"padding: 0px 22px 0=
+px 0px; font-size: 0px;"><!--[if (gte mso 9)|[IE]><table align=3D"cent=
+er" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"73" styl=
+e=3D"width:73px"><tr><td dir=3D"ltr" align=3D"left" valign=3D"top" wid=
+th=3D"28" style=3D"width:28px"><![endif]--><div style=3D"width: 100%; =
+vertical-align: top; display: inline-block !important; max-width: 28px=
+;" dir=3D"ltr"><table width=3D"100%" align=3D"left" style=3D"max-width=
+: 28px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><=
+td align=3D"left"><a style=3D"outline: 0px; border: 0px currentColor; =
+border-image: none;" href=3D"http://newsletter.eldorado.ru//Link?messa=
+geId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Dc5cefec3592b451684c6fcd959bb4c9d&args=3Dhttps%=
+3a%2f%2fwww.eldorado.ru%2fpromo%2fprm-taxi-express-delivery%2f%3futm_s=
+ource%3dcrm%26utm_medium%3demail%26utm_content%3dpromo%26utm_campaign%=
+3d280322_frozen_w13" target=3D"_blank"><img width=3D"20" height=3D"20"=
+ class=3D"alt-img" style=3D"outline: 0px; border: 0px currentColor; bo=
+rder-image: none; display: block;" alt=3D"" src=3D"https://static.eldo=
+rado.ru/promo/_mail/e21_2/footer/m3-icon.png"></a></td></tr></tbody></=
+table></div><!--[if (gte mso 9)|[IE]></td><td dir=3D"ltr" align=3D"lef=
+t" valign=3D"top" width=3D"54" style=3D"width:54px"><![endif]--><div s=
+tyle=3D"width: 100%; vertical-align: top; display: inline-block !impor=
+tant; max-width: 54px;" dir=3D"ltr"><table width=3D"100%" align=3D"lef=
+t" style=3D"max-width: 54px;" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0"><tbody><tr><td align=3D"left"><a style=3D"outline: 0px; borde=
+r: 0px currentColor; border-image: none;" href=3D"http://newsletter.el=
+dorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D0a6bf5bd74d746429752420bc=
+79ba2d0&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fpromo%2fprm-taxi-expres=
+s-delivery%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%3d=
+promo%26utm_campaign%3d280322_frozen_w13" target=3D"_blank"><img width=
+=3D"54" height=3D"auto" class=3D"alt-img" style=3D"outline: 0px; borde=
+r: 0px currentColor; border-image: none; height: auto; display: block;=
+" alt=3D"=D0=AD=D0=BA=D1=81=D0=BF=D1=80=D0=B5=D1=81=D1=81-=D0=B4=D0=BE=
+=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B0 =D0=B7=D0=B0 2 =D1=87=D0=B0=D1=81=
+=D0=B0" src=3D"https://static.eldorado.ru/promo/_mail/21/130721_refrig=
+erators_w28/m3.png"></a></td></tr></tbody></table></div><!--[if (gte m=
+so 9)|[IE]></td></tr></table><![endif]--></td><td align=3D"left" valig=
+n=3D"top" style=3D"padding: 0px 22px 0px 0px; font-size: 0px;"><!--[if=
+ (gte mso 9)|[IE]><table align=3D"center" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" width=3D"73" style=3D"width:73px"><tr><td dir=3D"=
+ltr" align=3D"left" valign=3D"top" width=3D"28" style=3D"width:28px"><=
+![endif]--><div style=3D"width: 100%; vertical-align: top; display: in=
+line-block !important; max-width: 28px;" dir=3D"ltr"><table width=3D"1=
+00%" align=3D"left" style=3D"max-width: 28px;" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"left"><a style=3D"ou=
+tline: 0px; border: 0px currentColor; border-image: none;" href=3D"htt=
+p://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D99a5c071=
+e4354549b21c41dc1dff18c1&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fpromo%=
+2f110-uverennosti-v-tsene%2f%3futm_source%3dcrm%26utm_medium%3demail%2=
+6utm_content%3dpromo%26utm_campaign%3d280322_frozen_w13" target=3D"_bl=
+ank"><img width=3D"20" height=3D"20" class=3D"alt-img" style=3D"outlin=
+e: 0px; border: 0px currentColor; border-image: none; display: block;"=
+ alt=3D"" src=3D"https://static.eldorado.ru/promo/_mail/e21_2/footer/m=
+2-icon.png"></a></td></tr></tbody></table></div><!--[if (gte mso 9)|=
+[IE]></td><td dir=3D"ltr" align=3D"left" valign=3D"top" width=3D"45" sty=
+le=3D"width:45px"><![endif]--><div style=3D"width: 100%; vertical-alig=
+n: top; display: inline-block !important; max-width: 45px;" dir=3D"ltr=
+"><table width=3D"100%" align=3D"left" style=3D"max-width: 45px;" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"l=
+eft"><a style=3D"outline: 0px; border: 0px currentColor; border-image:=
+ none;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3D=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D1d95ae37c09e4ed1a11b33f20c47454b&args=3Dhttps%3a%2f%2fwww.e=
+ldorado.ru%2fpromo%2f110-uverennosti-v-tsene%2f%3futm_source%3dcrm%26u=
+tm_medium%3demail%26utm_content%3dpromo%26utm_campaign%3d280322_frozen=
+_w13" target=3D"_blank"><img width=3D"45" height=3D"35" class=3D"alt-i=
+mg" style=3D"outline: 0px; border: 0px currentColor; border-image: non=
+e; display: block;" alt=3D"=D0=93=D0=B0=D1=80=D0=B0=D0=BD=D1=82=D0=B8=D1=
+=8F =D0=BD=D0=B8=D0=B7=D0=BA=D0=BE=D0=B9 =D1=86=D0=B5=D0=BD=D1=8B" src=
+=3D"https://static.eldorado.ru/promo/_mail/e21_2/footer/m2.png"></a></=
+td></tr></tbody></table></div><!--[if (gte mso 9)|[IE]></td></tr></tab=
+le><![endif]--></td><td align=3D"left" valign=3D"top" style=3D"font-si=
+ze: 0px;"><!--[if (gte mso 9)|[IE]><table align=3D"center" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" width=3D"93" style=3D"width:93px=
+"><tr><td dir=3D"ltr" align=3D"left" valign=3D"top" width=3D"28" style=
+=3D"width:28px"><![endif]--><div style=3D"width: 100%; vertical-align:=
+ top; display: inline-block !important; max-width: 28px;" dir=3D"ltr">=
+<table width=3D"100%" align=3D"left" style=3D"max-width: 28px;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"lef=
+t"><a style=3D"outline: 0px; border: 0px currentColor; border-image: n=
+one;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&=
+linkId=3Db56262088497471a9daf7758c444e70c&args=3Dhttps%3a%2f%2fwww.eld=
+orado.ru%2fpromo%2fprm-gift-card%2f%3futm_source%3dcrm%26utm_medium%3d=
+email%26utm_content%3dclub%26utm_campaign%3d280322_frozen_w13" target=3D=
+"_blank"><img width=3D"20" height=3D"20" class=3D"alt-img" style=3D"ou=
+tline: 0px; border: 0px currentColor; border-image: none; display: blo=
+ck;" alt=3D"" src=3D"https://static.eldorado.ru/promo/_mail/22/200122_=
+delivery_w3/m4-icon.png"></a></td></tr></tbody></table></div><!--[if (=
+gte mso 9)|[IE]></td><td dir=3D"ltr" align=3D"left" valign=3D"top" wid=
+th=3D"65" style=3D"width:65px"><![endif]--><div style=3D"width: 100%; =
+vertical-align: top; display: inline-block !important; max-width: 65px=
+;" dir=3D"ltr"><table width=3D"100%" align=3D"left" style=3D"max-width=
+: 65px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><=
+td align=3D"left"><a style=3D"outline: 0px; border: 0px currentColor; =
+border-image: none;" href=3D"http://newsletter.eldorado.ru//Link?messa=
+geId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D7dab5ef8631a4f53a3e9c311586315bc&args=3Dhttps%=
+3a%2f%2fwww.eldorado.ru%2fpromo%2fprm-gift-card%2f%3futm_source%3dcrm%=
+26utm_medium%3demail%26utm_content%3dclub%26utm_campaign%3d280322_froz=
+en_w13" target=3D"_blank"><img width=3D"65" height=3D"35" class=3D"alt=
+-img" style=3D"outline: 0px; border: 0px currentColor; border-image: n=
+one; display: block;" alt=3D"=D0=92=D0=B8=D1=80=D1=82=D1=83=D0=B0=D0=BB=
+=D1=8C=D0=BD=D1=8B=D0=B5 =D0=BF=D0=BE=D0=B4=D0=B0=D1=80=D0=BE=D1=87=D0=
+=BD=D1=8B=D0=B5 =D0=BA=D0=B0=D1=80=D1=82=D1=8B" src=3D"https://static.=
+eldorado.ru/promo/_mail/22/280322_frozen_w13/m4.png"></a></td></tr></t=
+body></table></div><!--[if (gte mso 9)|[IE]></td></tr></table><!=
+[endif]--></td></tr></tbody></table></div><!--[if (gte mso 9)|[IE]></td></tr=
+></table><![endif]--></td></tr><tr><td height=3D"14" style=3D"line-hei=
+ght: 14px; font-size: 0px;">&nbsp;</td></tr></tbody></table><!--[if (g=
+te mso 9)|[IE]></td></tr></table><![endif]--></td></tr><tr><td align=3D=
+"center" style=3D"padding: 0px 12px;" bgcolor=3D"#393e42"><table width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>=
+<td width=3D"100%" height=3D"100%" align=3D"center" valign=3D"top" sty=
+le=3D"padding: 0px;"><!--[if mso]><table align=3D"center" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" width=3D"724" style=3D"width:724p=
+x"><tr><td align=3D"center" valign=3D"top" width=3D"724" style=3D"widt=
+h:724px"><![endif]--><table width=3D"100%" align=3D"center" style=3D"m=
+ax-width: 724px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tb=
+ody><tr><td align=3D"left" valign=3D"top" style=3D"padding: 12px 0px 0=
+px; font-size: 0px;"><!--[if (gte mso 9)|[IE]><table align=3D"center" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"724" style=3D=
+"width:724px"><tr><td align=3D"left" valign=3D"top" width=3D"268" styl=
+e=3D"width:268px"><![endif]--><div style=3D"width: 100%; vertical-alig=
+n: top; display: inline-block !important; max-width: 268px;"><table wi=
+dth=3D"100%" align=3D"left" style=3D"max-width: 268px;" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"left" style=
+=3D"padding: 12px 0px 10px; color: rgb(118, 188, 33); line-height: 18p=
+x; font-family: Verdana,Arial,sans-serif; font-size: 14px; font-weight=
+: normal;">=D0=9C=D1=8B =D0=B2=D1=81=D0=B5=D0=B3=D0=B4=D0=B0 =D0=BD=D0=
+=B0 =D1=81=D0=B2=D1=8F=D0=B7=D0=B8</td></tr><tr><td align=3D"left"><ta=
+ble width=3D"233" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tb=
+ody><tr><td width=3D"117" align=3D"left" valign=3D"top"><table width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td=
+ width=3D"32" align=3D"left" style=3D"padding: 0px 8px 0px 0px;"><a st=
+yle=3D"outline: 0px; border: 0px currentColor; border-image: none;" hr=
+ef=3D"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D=
+b3f5b370d92e4e2291e6f0345ecde6dc&args=3Dhttps%3a%2f%2ft.me%2fEldorado_=
+official_bot" target=3D"_blank"><img width=3D"32" height=3D"auto" clas=
+s=3D"alt-img" style=3D"outline: 0px; border: 0px currentColor; border-=
+image: none; height: auto; display: block;" alt=3D"" src=3D"https://st=
+atic.eldorado.ru/promo/_mail/21/130721_refrigerators_w28/tg.png"></a><=
+/td><td align=3D"left" style=3D"color: rgb(156, 159, 160); line-height=
+: 18px; font-family: Verdana,Arial,sans-serif; font-size: 14px; font-w=
+eight: normal;"><a style=3D"color: rgb(156, 159, 160); text-decoration=
+: none;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3D=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Db88246f814964f15b42eaeedc7396cd7&args=3Dhttps%3a%2f%2ft.me=
+%2fEldorado_official_bot" target=3D"_blank">Telegram</a></td></tr></tb=
+ody></table></td><td align=3D"left" valign=3D"top"><table width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td wid=
+th=3D"32" align=3D"left" style=3D"padding: 0px 8px 0px 0px;"><a style=3D=
+"outline: 0px; border: 0px currentColor; border-image: none;" href=3D"=
+http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D41173=
+a4b1908457f80bafa8cdfa27e72&args=3Dhttp%3a%2f%2fwww.viber.com%2feldora=
+do_stores" target=3D"_blank"><img width=3D"32" height=3D"auto" class=3D=
+"alt-img" style=3D"outline: 0px; border: 0px currentColor; border-imag=
+e: none; height: auto; display: block;" alt=3D"" src=3D"https://static=
+.eldorado.ru/promo/_mail/22/280322_frozen_w13/vb.png"></a></td><td ali=
+gn=3D"left" style=3D"color: rgb(156, 159, 160); line-height: 18px; fon=
+t-family: Verdana,Arial,sans-serif; font-size: 14px; font-weight: norm=
+al;"><a style=3D"color: rgb(156, 159, 160); text-decoration: none;" hr=
+ef=3D"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D=
+fbb50eb7217543a0991af3cff599170f&args=3Dhttp%3a%2f%2fwww.viber.com%2fe=
+ldorado_stores" target=3D"_blank">Viber</a></td></tr></tbody></table><=
+/td></tr><tr><td height=3D"25" style=3D"line-height: 25px; font-size: =
+0px;">&nbsp;</td></tr></tbody></table></td></tr></tbody></table></div>=
+<!--[if (gte mso 9)|[IE]></td><td align=3D"left" valign=3D"top" width=3D=
+"268" style=3D"width:268px"><![endif]--><div style=3D"width: 100%; ver=
+tical-align: top; display: inline-block !important; max-width: 268px;"=
+><table width=3D"100%" align=3D"left" style=3D"max-width: 268px;" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"l=
+eft" style=3D"padding: 12px 0px 10px; color: rgb(118, 188, 33); line-h=
+eight: 18px; font-family: Verdana,Arial,sans-serif; font-size: 14px; f=
+ont-weight: normal;" colspan=3D"2">=D0=9C=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=
+=D0=BD=D0=BE=D0=B5 =D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=
+=B8=D0=B5</td></tr><tr><td width=3D"32" align=3D"left" style=3D"paddin=
+g: 0px 8px 0px 0px;"><a style=3D"outline: 0px; border: 0px currentColo=
+r; border-image: none;" href=3D"http://newsletter.eldorado.ru//Link?me=
+ssageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Df9978170f3a24880a555465092f9c751&args=3Dhtt=
+ps%3a%2f%2feldorado.onelink.me%2fVby8%3fpid%3dEmail%26utm_source%3dcrm=
+%26utm_medium%3demail%26utm_content%3donelink%26utm_campaign%3d280322_=
+frozen_w13" target=3D"_blank"><img width=3D"32" height=3D"auto" class=3D=
+"alt-img" style=3D"outline: 0px; border: 0px currentColor; border-imag=
+e: none; height: auto; display: block;" alt=3D"" src=3D"https://static=
+.eldorado.ru/promo/_mail/21/250921_kitchenpromocode2_w38/icon-app.png"=
+></a></td><td align=3D"left" style=3D"color: rgb(156, 159, 160); line-=
+height: 18px; font-family: Verdana,Arial,sans-serif; font-size: 14px; =
+font-weight: normal;"><a style=3D"color: rgb(156, 159, 160); text-deco=
+ration: none;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3D=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Dd89a00b5a52e43db8fb72b526ebb871d&args=3Dhttps%3a%2f%2=
+feldorado.onelink.me%2fVby8%3fpid%3dEmail%26utm_source%3dcrm%26utm_med=
+ium%3demail%26utm_content%3donelink%26utm_campaign%3d280322_frozen_w13=
+" target=3D"_blank">=D0=A1=D0=BA=D0=B0=D1=87=D0=B0=D1=82=D1=8C =D0=B4=D0=
+=BB=D1=8F&nbsp;iOS =D0=B8&nbsp;Android</a></td></tr></tbody></table></=
+div><!--[if (gte mso 9)|[IE]></td><td align=3D"left" valign=3D"top" wi=
+dth=3D"184" style=3D"width:184px"><![endif]--><div style=3D"width: 100=
+%; vertical-align: top; display: inline-block !important; max-width: 1=
+84px;"><table width=3D"100%" align=3D"left" style=3D"max-width: 184px;=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td alig=
+n=3D"left" style=3D"padding: 12px 0px 14px; color: rgb(118, 188, 33); =
+line-height: 18px; font-family: Verdana,Arial,sans-serif; font-size: 1=
+4px; font-weight: normal;">=D0=A1=D0=BB=D0=B5=D0=B4=D0=B8 =D0=B7=D0=B0=
+ =D0=BD=D0=BE=D0=B2=D0=BE=D1=81=D1=82=D1=8F=D0=BC=D0=B8</td></tr><tr><=
+td align=3D"left"><table width=3D"104" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0"><tbody><tr><td width=3D"40" align=3D"left" valign=3D=
+"middle" style=3D"width: 40px;"><a style=3D"outline: 0px; border: 0px =
+currentColor; border-image: none;" href=3D"http://newsletter.eldorado.=
+ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D5f8a004af0254723b7cf90abd60de56a=
+&args=3Dhttps%3a%2f%2fok.ru%2feldorado.stores" target=3D"_blank"><img =
+width=3D"24" height=3D"24" style=3D"outline: 0px; border: 0px currentC=
+olor; border-image: none; display: block;" alt=3D"" src=3D"https://sta=
+tic.eldorado.ru/promo/_mail/e21_2/footer/ok.png"></a></td><td width=3D=
+"40" align=3D"left" valign=3D"middle" style=3D"width: 40px;"><a style=3D=
+"outline: 0px; border: 0px currentColor; border-image: none;" href=3D"=
+http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Dd5381=
+f014e3347e29c9263bde7dda96d&args=3Dhttps%3a%2f%2fvk.com%2feldorado_sto=
+res" target=3D"_blank"><img width=3D"24" height=3D"24" style=3D"outlin=
+e: 0px; border: 0px currentColor; border-image: none; display: block;"=
+ alt=3D"" src=3D"https://static.eldorado.ru/promo/_mail/e21_2/footer/v=
+k.png"></a></td><td align=3D"left" valign=3D"middle"><a style=3D"outli=
+ne: 0px; border: 0px currentColor; border-image: none;" href=3D"http:/=
+/newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Df9010764944=
+94831a6c787787a86a857&args=3Dhttps%3a%2f%2fwww.youtube.com%2fuser%2fel=
+doradovideo" target=3D"_blank"><img width=3D"24" height=3D"24" style=3D=
+"outline: 0px; border: 0px currentColor; border-image: none; display: =
+block;" alt=3D"" src=3D"https://static.eldorado.ru/promo/_mail/e21_2/f=
+ooter/tube.png"></a></td></tr></tbody></table></td></tr><tr><td height=
+=3D"18" style=3D"line-height: 18px; font-size: 0px;">&nbsp;</td></tr><=
+/tbody></table></div><!--[if (gte mso 9)|[IE]></td></tr></table><!=
+[endif]--></td></tr><tr><td align=3D"left" style=3D"color: rgb(118, 188, 3=
+3); line-height: 18px; font-family: Verdana,Arial,sans-serif; font-siz=
+e: 14px; font-weight: normal;">=D0=9D=D0=B0=D1=88=D0=B8 <a style=3D"co=
+lor: rgb(118, 188, 33);" href=3D"http://newsletter.eldorado.ru//Link?m=
+essageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D458eef8992db4ea9a525afdd8494c384&args=3Dht=
+tps%3a%2f%2fwww.eldorado.ru%2finfo%2fshops%2f%3futm_source%3dcrm%26utm=
+_medium%3demail%26utm_content%3dinfo%26utm_campaign%3d280322_frozen_w1=
+3" target=3D"_blank">=D0=BC=D0=B0=D0=B3=D0=B0=D0=B7=D0=B8=D0=BD=D1=8B<=
+/a> =D0=B8&nbsp;<a style=3D"color: rgb(118, 188, 33);" href=3D"http://=
+newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Da14a9038daeb=
+4abea8a5265a1734af3c&args=3Dhttps%3a%2f%2fwww.eldorado.ru%2fpromo%2fpr=
+m-pickup-new%2f%3futm_source%3dcrm%26utm_medium%3demail%26utm_content%=
+3dpromo%26utm_campaign%3d280322_frozen_w13" target=3D"_blank">=D0=BF=D1=
+=83=D0=BD=D0=BA=D1=82=D1=8B =D1=81=D0=B0=D0=BC=D0=BE=D0=B2=D1=8B=D0=B2=
+=D0=BE=D0=B7=D0=B0</a></td></tr><tr><td align=3D"center" class=3D"pdt_=
+18" style=3D"padding: 10px 0px 0px;"><table width=3D"100%" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"left" st=
+yle=3D"padding: 0px 0px 4px; color: rgb(156, 159, 160); line-height: 1=
+4px; font-family: Verdana,Arial,sans-serif; font-size: 10px; font-weig=
+ht: normal;">=D0=AD=D1=82=D0=BE =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE =D0=
+=BF=D0=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B0=D0=B5=D1=82 =
+=D1=82=D0=B2=D0=BE=D1=8E =D0=BF=D0=BE=D0=B4=D0=BF=D0=B8=D1=81=D0=BA=D1=
+=83 =D0=BD=D0=B0&nbsp;=D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D1=83=
+ =D0=BE=D1=82&nbsp;=D0=9E=D0=9E=D0=9E&nbsp;"=D0=9C=D0=92=D0=9C". =D0=A7=
+=D1=82=D0=BE=D0=B1=D1=8B =D0=BD=D0=B5&nbsp;=D0=BF=D1=80=D0=BE=D0=BF=D1=
+=83=D1=81=D0=BA=D0=B0=D1=82=D1=8C =D0=BD=D0=B0=D1=88=D0=B8 =D0=B0=D0=BA=
+=D1=86=D0=B8=D0=B8 =D0=B8&nbsp;=D1=81=D0=BA=D0=B8=D0=B4=D0=BA=D0=B8, =D0=
+=B4=D0=BE=D0=B1=D0=B0=D0=B2=D1=8C =D0=B0=D0=B4=D1=80=D0=B5=D1=81 <a st=
+yle=3D"color: rgb(156, 159, 160); text-decoration: underline;" href=3D=
+"http://newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D8ed1=
+0b6d963a4d50b017637b32fca178&args=3Dmailto%3aeldorado%40club.eldorado.=
+ru" target=3D"_blank">eldorado@club.eldorado.ru</a> =D0=B2&nbsp;=D0=B0=
+=D0=B4=D1=80=D0=B5=D1=81=D0=BD=D1=83=D1=8E =D0=BA=D0=BD=D0=B8=D0=B3=D1=
+=83. =D0=A2=D1=8B&nbsp;=D0=BC=D0=BE=D0=B6=D0=B5=D1=88=D1=8C <a style=3D=
+"color: rgb(156, 159, 160); text-decoration: underline;" href=3D"http:=
+//newsletter.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D80c32e13f8=
+1044b7aa055dc94199de18&args=3Dhttp%3a%2f%2fwww.eldorado.ru%2fpersonal%=
+2fclick.php%3fTRC%3d005056BF6CA51EE49AB3131EDC5522AE%26CP%3d005056B65A121EECABD4CF8654256483%26BPID%=
+3d0830912904%26RC%3dUNSUBSCRIBE%26utm_source%3dcrm%26utm_medium%3demai=
+l%26utm_content%3ddel_subscriber%26utm_campaign%3d280322_frozen_w13" t=
+arget=3D"_blank">=D0=BE=D1=82=D0=BF=D0=B8=D1=81=D0=B0=D1=82=D1=8C=D1=81=
+=D1=8F</a>, =D0=BD=D0=BE&nbsp;=D0=BC=D1=8B&nbsp;=D0=B1=D1=83=D0=B4=D0=B5=
+=D0=BC =D1=81=D0=BA=D1=83=D1=87=D0=B0=D1=82=D1=8C :(</td></tr><tr><td =
+align=3D"left" style=3D"padding: 0px 0px 4px; color: rgb(156, 159, 160=
+); line-height: 14px; font-family: Verdana,Arial,sans-serif; font-size=
+: 10px; font-weight: normal;">=D0=A6=D0=B5=D0=BD=D1=8B =D0=B4=D0=B5=D0=
+=B9=D1=81=D1=82=D0=B2=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B =D0=BD=
+=D0=B0&nbsp;=D0=B4=D0=B0=D1=82=D1=83 =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=
+=B2=D0=BA=D0=B8 =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=B0, 28.03.2022, =D0=B8=
+&nbsp;=D0=BC=D0=BE=D0=B3=D1=83=D1=82 =D1=80=D0=B0=D0=B7=D0=BB=D0=B8=D1=
+=87=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=B2&nbsp;=D0=B7=D0=B0=D0=B2=D0=B8=
+=D1=81=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =D0=BE=D1=82&nbsp;=D1=80=D0=
+=B5=D0=B3=D0=B8=D0=BE=D0=BD=D0=B0 =D0=BF=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=
+=D0=B8.&nbsp;=D0=9F=D0=BE=D0=B6=D0=B0=D0=BB=D1=83=D0=B9=D1=81=D1=82=D0=
+=B0,&nbsp;=D0=BE=D0=B7=D0=BD=D0=B0=D0=BA=D0=BE=D0=BC=D1=8C=D1=81=D1=8F=
+ =D1=81&nbsp;<a style=3D"color: rgb(156, 159, 160); text-decoration: u=
+nderline;" href=3D"http://newsletter.eldorado.ru//Link?messageId=3D=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3D4c7348d218f547878bff50262b9c7c66&args=3Dhttps%3a%2f%2fww=
+w.eldorado.ru%2fpromo%2fprm-frozen-prices%2f%3futm_source%3dcrm%26utm_=
+medium%3demail%26utm_content%3dpromo%26utm_campaign%3d280322_frozen_w1=
+3" target=3D"_blank">=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D0=BB=D0=B0=D0=BC=D0=
+=B8 =D0=B0=D0=BA=D1=86=D0=B8=D0=B8</a>.</td></tr><tr><td align=3D"left=
+"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0"><tbody><tr><td align=3D"left" class=3D"link" valign=3D"top" style=3D=
+"color: rgb(156, 159, 160); line-height: 14px; font-family: Verdana,Ar=
+ial,sans-serif; font-size: 10px; font-weight: normal;">=D0=92=D0=B5=D0=
+=B1-=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D1=8F =D0=BF=D0=BE <a href=3D"http://newsletter.eldorado.ru/WebVersion?messageId=3DeyJ0eX=
+AiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3fQ.AAGm=
+s_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I">=D1=81=D1=81=D1=8B=D0=BB=D0=BA=
+=D0=B5</a> <=
+span style=3D"white-space: nowrap;">=C2=A9&nbsp;=D0=AD=D0=BB=D1=8C=D0=B4=
+=D0=BE=D1=80=D0=B0=D0=B4=D0=BE, 2022</span></td><td align=3D"right" cl=
+ass=3D"link" valign=3D"top" style=3D"color: rgb(118, 188, 33); line-he=
+ight: 14px; font-family: Verdana,Arial,sans-serif; font-size: 10px; fo=
+nt-weight: normal;"><span style=3D"white-space: nowrap;">=D0=A2=D0=B5=D0=
+=BB=D0=B5=D1=84=D0=BE=D0=BD&nbsp;=D0=B4=D0=BB=D1=8F&nbsp;=D1=81=D0=BF=D1=
+=80=D0=B0=D0=B2=D0=BE=D0=BA</span> <span style=3D"white-space: nowrap;=
+"><span class=3D"no-link"><a style=3D"color: rgb(156, 159, 160); text-=
+decoration: none !important; cursor: pointer;" href=3D"http://newslett=
+er.eldorado.ru//Link?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&linkId=3Dfd8411ab830c4b12ac55=
+4eaa68f1a171&args=3Dtel%3a88002502525" target=3D"_blank">8&nbsp;800&nb=
+sp;250&nbsp;25&nbsp;25</a></span></span></td></tr></tbody></table></td=
+></tr></tbody></table></td></tr><tr><td height=3D"35" style=3D"line-he=
+ight: 35px; font-size: 0px;">&nbsp;</td></tr></tbody></table><!--[if m=
+so]></td></tr></table><![endif]--></td></tr></tbody></table></td></tr>=
+</tbody></table></td></tr></tbody></table><p>&nbsp;</p></body>
+<img src=3D"http://newsletter.eldorado.ru//Track?messageId=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDkwNTE0Mjg4NTA1NTQ4Mzg3f=
+Q.AAGms_Y2l4pdk5SThErfCMIdSGwy1PO0a7FTRTK0G9I&a=
+rgs=3D0372e650b44645ca9682ce43bc300809" height=3D"1" width=3D"1" />
+

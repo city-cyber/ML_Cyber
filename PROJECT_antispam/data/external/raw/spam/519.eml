@@ -1,0 +1,1668 @@
+Delivered-To: megaman@mail.ru
+Return-path: <info@site.hh.ru>
+Received-SPF: pass (mx290.i.mail.ru: domain of site.hh.ru designates 94.124.201.132 as permitted sender) client-ip=94.124.201.132; envelope-from=info@site.hh.ru; helo=mrelay-bulk5.hh.ru;
+Received: from mrelay-bulk5.hh.ru ([94.124.201.132]:45056)
+	by mx290.i.mail.ru with esmtp (envelope-from <info@site.hh.ru>)
+	id 1n1CBp-0000Xm-3L
+	for megaman@mail.ru; Sat, 25 Dec 2021 21:54:45 +0300
+Received: from docker58.prod (balancer5.prod [172.16.36.22])
+	by mrelay-bulk5.hh.ru (Postfix) with SMTP id 4JLtQY07Lqz7PP2
+	for <megaman@mail.ru>; Sat, 25 Dec 2021 21:54:45 +0300 (MSK)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=site.hh.ru; s=mail;
+	t=1640458485; bh=QPykZB2aCQbcIREJWiDbxP1zM2r7yelt7OO8AaNQgzY=;
+	h=Subject:From:List-Unsubscribe:To:Date:From;
+	b=imlg9ts1642pesdLELBm+u1XSIom2azV7SqLcTkcyqWgZIdn9P7udWdVHMqyDQMmU
+	 SIjvRICkZz58U20XWLfGd1wyLIF1Q5tIrFCMByJTwzjfoyTd0Z+PT54e4Y1xEu9h1J
+	 rwfbRVaUzwhagYWEQ+lfq0Nnu5jgYYZiJaqkJ80o=
+X-HH-TEMPLATE-CODE: mailingFTL
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Subject: =?UTF-8?B?=?=
+ =?UTF-8?B?0LLRi9C5INCz0L7QtCDQv9GA0L7QtNGD0LrRgtC40LLQvdC+?=
+From: "hh.ru" <info@site.hh.ru>
+MIME-Version: 1.0
+List-Unsubscribe: <https://hh.ru/unsubscribe/e4dde1df-a64b-4626-b9b9-2a9aa06bf3ad?date=2021-12-25&t=hhapplicant_digest&s=9260914dbff21365ce2be7cfd32ac88ae5129d6f1c7057ec421564940e9a059d&direct=true>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+To: <megaman@mail.ru>
+X-HH-TAGS:
+ [utm_campaign=misc_app_ex_251221][mailing_id=15630][sender=hh-as][mailing_type=mass_mailing][subject_general_part=???????
+ ????? ??? ???????????][hhid=105387392][mailing_date=2021-12-25]
+X-Postmaster-Msgtype: mass_mailing
+Message-Id: <4JLtQY07Lqz7PP2@mrelay-bulk5.hh.ru>
+Date: Sat, 25 Dec 2021 21:54:45 +0300 (MSK)
+X-174C08C4: 5188C02AEC42908C481ED7ADC579193296BBA28369E3F2D2713F3D5F7D406D31BCF678C7329BA986
+X-4EC0790: 10
+X-7564579A: 646B95376F6C166E
+X-77F55803: E822A06ED42C499A01572549E177C9B7EC88E0894A4E66A89627E0A9044D54290BBDAAE39103F3638701F0628C4B95CB53978AD84C2F67773198FD48F662A33567CB090C0428ADD1E8A5C135F8BDED31
+X-7FA49CB5: FF5795518A3D127A4AD6D5ED66289B5278DA827A17800CE779AAD18609327F83EA1F7E6F0F101C67BD4B6F7A4D31EC0BCC500DACC3FED6E28638F802B75D45FF8AA50765F7900637D24CDE3D695BBBC6EA1F7E6F0F101C6723150C8DA25C47586E58E00D9D99D84E1BDDB23E98D2D38BEBC5CAB6D411FFA6C70DD1D8EC522F54A4107BF1C32BBC5E
+X-C1DE0DAB: 8BD88D57C5CADBC8B2710865C3867510EFE219C7ADEFF13FA3B1A56EE2B804F6B226C914C9968946A94DD676A9E0063B13DBA38B3FB27C752D54844AF39947D516EB5DE968479BF53990EBC7CC075D9E6BCC41370207E0FD17A6586CE9496FEC824D8352A08E58BC5B1EC9170548837200E519CCFF3B060C2B5DBC8DC00C119E9C2B6934AE262D3EE7EAB7254005DCED5021E953F62B91E3FB49A07228E4FB299D95FB302C96D9F8E753FA5741D1AD029C5DF10A05D560A97E15B380B3B81456F2DBB7B6E8D169884964A708C60C975ABDAD6C7F3747799A
+X-C8649E89: 4E36BF7865823D7055A7F0CF078B5EC49A30900B95165D3475FE4AA98865E235CFA8FE2B0943F6C4B8DBE8002316AE550A61AC4CEC7807809EF2B9E5CFC859451D7E09C32AA3244C54B5D8A1A3C3347F86AD52884C2A6E6724AF4FAF06DA24FD3EB3F6AD6EA9203E
+X-D57D3AED: 3ZO7eAau8CL7WIMRKs4sN3D3tLDjz0dLbV79QFUyzQ2Ujvy7cMT6pYYqY16iZVKkSc3dCLJ7zSJH7+u4VD18S7Vl4ZUrpaVfd2+vE6kuoey4m4VkSEu530nj6fImhcD4MUrOEAnl0W826KZ9Q+tr59cQFxbtK52nrsBwskjMlLbwTDbZjg0ktGWyd3ZwR5M2G0g+gzS0PKeJDOBrL//rLYldd2avYxhfs9M+DuXTOBSH/SnnzuO3dUdTEydar/8eFJ0Yov0iBYpROOo1ABJLkA==
+X-F696D7D5: 5HQs+8jQdLZ4icbWoBVuPxAgxjvVE4Y8EPwgojCARjKw+XyEeyUPiw==
+X-Mailru-Dmarc-Auth: dmarc=pass header.from=info@site.hh.ru
+X-Mras: Ok
+X-Spam: undefined
+Authentication-Results: mxs.mail.ru; spf=pass (mx290.i.mail.ru: domain of site.hh.ru designates 94.124.201.132 as permitted sender) smtp.mailfrom=info@site.hh.ru smtp.helo=mrelay-bulk5.hh.ru;
+	 dkim=pass header.d=site.hh.ru; dmarc=pass header.from=info@site.hh.ru
+X-Mailru-Intl-Transport: d,5c510db
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.or=
+g/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/=
+1999/xhtml">
+
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/=
+html; charset=3Dutf-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevi=
+ce-width, initial-scale=3D1.0">
+    <title>=D0=9F=D0=B8=D1=81=D1=8C=D0=BC=
+=D0=BE</title>
+    <style type=3D"text/css">
+        .ReadMsgBody {
+  width=
+: 100%;
+  background-color: #ffffff;
+  color: #333333; }
+
+.ExternalClass {
+=
+  width: 100%;
+  background-color: #ffffff;
+  color: #333333; }
+
+#outlook a=
+ {
+  padding: 0; }
+
+body {
+  width: 100% !important;
+  margin: 0;
+  padding=
+: 0;
+  background-color: #ffffff;
+  color: #333333;
+  font-family: Arial, s=
+ans-serif;
+  -webkit-font-smoothing: antialiased;
+  -ms-text-size-adjust: 1=
+00%;
+  -webkit-text-size-adjust: 100%; }
+
+.ExternalClass {
+  width: 100%; }=
+
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass fon=
+t,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%; }
+
+@media s=
+creen and (max-width: 1023px) {
+  .device-width {
+    width: 99.9% !importa=
+nt;
+    width: 100% !important; }
+  .device-clear {
+    float: none !import=
+ant;
+    width: 99.9% !important;
+    width: 100% !important; }
+  .g-h1 {
+ =
+   font-size: 16px !important;
+    line-height: 22px !important; }
+  .g-h2 =
+{
+    font-size: 15px !important;
+    line-height: 18px !important; }
+  .g-=
+paragraph {
+    font-size: 14px !important;
+    line-height: 20px !importan=
+t; }
+  .l-wrapper {
+    background: #fff !important; }
+  .l-content {
+    p=
+adding-top: 0 !important; }
+  .l-footer {
+    background: #eeeeee !importan=
+t; }
+  .logo {
+    width: 99.9% !important;
+    width: 100% !important;
+   =
+ padding-right: 0 !important;
+    padding-left: 0 !important;
+    text-alig=
+n: left !important; }
+  .logo__table {
+    width: 99.9% !important;
+    wid=
+th: 100% !important;
+    padding-right: 0 !important;
+    padding-left: 0 !=
+important;
+    text-align: left !important; }
+  .header__logo-mobile {
+    =
+width: 115px !important;
+    height: 40px !important; }
+  .navi {
+    displ=
+ay: none !important; }
+  .nav {
+    width: 50% !important; }
+  .nav-item {
+=
+    float: none !important;
+    width: 100% !important;
+    max-width: 100%=
+ !important; }
+  .nav-item-text {
+    font-size: 14px !important; }
+  .foot=
+er-menu {
+    float: none !important;
+    margin: 0 auto !important;
+    te=
+xt-align: center !important; }
+  .footer-copyright-text {
+    text-align: c=
+enter !important; }
+  .footer-hint {
+    margin-top: 2px !important; }
+  .f=
+ooter-hint-text {
+    text-align: center !important;
+    font-size: 11px !i=
+mportant;
+    line-height: 18px !important; }
+  .info {
+    margin-top: 15p=
+x !important;
+    font-size: 14px !important;
+    line-height: 21px !import=
+ant; }
+  .info_last {
+    margin-top: 20px !important; }
+  .button-box {
+  =
+  width: 100% !important; }
+  .socials {
+    padding-top: 20px !important;
+=
+    text-align: center !important; }
+  .adaptive-col {
+    float: none !imp=
+ortant;
+    width: 99.9% !important;
+    width: 100% !important;
+    max-wi=
+dth: 100% !important; }
+  .adaptive-padding {
+    padding-right: 9% !import=
+ant;
+    padding-left: 9% !important; }
+  .adaptive-no-aflat-shift {
+    pa=
+dding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right=
+: 0 !important;
+    margin-left: 0 !important; }
+  .adaptive-no-vert-shift =
+{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    marg=
+in-top: 0 !important;
+    margin-bottom: 0 !important; }
+  .adaptive-col__i=
+nner {
+    padding-top: 20px !important; }
+  .adaptive-bottom-padding {
+   =
+ padding-bottom: 30px !important; }
+  .adaptive-separator {
+    display: bl=
+ock !important;
+    width: auto !important;
+    height: auto !important;
+  =
+  max-height: none !important; }
+  .adaptive-block {
+    display: block !im=
+portant;
+    max-width: none !important;
+    width: auto !important; }
+  .a=
+daptive-image {
+    width: 99.9% !important;
+    width: 100% !important;
+  =
+  max-width: 100% !important; }
+  .header_logo .header__info {
+    display:=
+ none; }
+  .header_logo .header__logo {
+    text-align: center; }
+  .footer=
+-row {
+    display: block;
+    padding-bottom: 0 !important; }
+  .footer-ro=
+w-item {
+    display: block !important;
+    max-width: 100% !important; }
+ =
+ .footer-row__table {
+    float: none !important; }
+  .footer-row__body {
+ =
+   display: table;
+    width: 99.9%;
+    width: 100%; }
+  .footer-row__info=
+ {
+    display: table-cell;
+    vertical-align: top; } }
+
+@media screen and=
+ (max-width: 374px) {
+  .footer-menu-link {
+    font-size: 11px !important;=
+
+    line-height: 12px !important; } }
+
+img {
+  outline: none;
+  text-decor=
+ation: none;
+  -ms-interpolation-mode: bicubic; }
+
+a img {
+  border: none; =
+}
+
+.image_fix {
+  display: block; }
+
+p {
+  margin: 0.2em 0; }
+
+h1,
+h2,
+h3,
+=
+h4,
+h5,
+h6 {
+  color: #333333 !important; }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+=
+h6 a {
+  color: #0099ff !important; }
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+=
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  text-decoration: underline; }
+
+h1 a:=
+active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h5 a:active,
+h6 a:active {
+ =
+ color: #0099ff !important; }
+
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4=
+ a:visited,
+h5 a:visited,
+h6 a:visited {
+  color: #0099ff !important; }
+
+ta=
+ble td {
+  border-collapse: collapse; }
+
+table {
+  border-collapse: collaps=
+e;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt; }
+
+a {
+  color: #0099f=
+f;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none !important=
+; }
+
+.button-box:hover {
+  color: #ffffff !important;
+  background: #0f8fee=
+ !important; }
+
+.button-box:hover .button-label {
+  color: #ffffff !importa=
+nt;
+  background: #0f8fee !important; }
+
+.button-label:hover {
+  text-decor=
+ation: none !important; }
+
+    </style>
+</head>
+
+<body class=3D"layout" lef=
+tmargin=3D"0" topmargin=3D"0" marginwidth=3D"0" marginheight=3D"0" style=3D=
+"-webkit-text-size-adjust: 100%; background: #f5f5f5; color: #333333; font-=
+family: Arial, sans-serif;">
+    <table class=3D"layout-wrap" width=3D"100%=
+" bgcolor=3D"#f5f5f5" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" alig=
+n=3D"center" style=3D"background: #f5f5f5;">
+        <tr>
+            <td c=
+lass=3D"layout-wrap-row l-wrapper" valign=3D"top" style=3D"vertical-align: =
+top;">
+                <div class=3D"layout-wrap-container device-width" st=
+yle=3D"background: #fff; margin: 0 auto; max-width: 780px; width: 100%;">
+ =
+                   <!--[if mso]>
+                <table width=3D"780" style=
+=3D"width:780px;margin-bottom: 24.5px;" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" align=3D"center">
+                <![endif]-->
+              =
+      <!--[if !mso]><!-->
+                    <table width=3D"100%" class=
+=3D"fullwidth" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"ce=
+nter" style=3D"width: 100%;">
+                        <!--<![endif]-->
+    =
+                    <tr>
+                            <td class=3D"layout-bo=
+dy" valign=3D"top" align=3D"left" style=3D"background: #fff; vertical-align=
+: top;">
+                                <div class=3D"header device-width"=
+ style=3D"margin: 0 auto; max-width: 660px; width: 100%;">
+                =
+                  <!--[if mso]>
+                                      <tabl=
+e width=3D"660" style=3D"width:660px;" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" align=3D"center">
+                                    <![endif=
+]-->
+                                  <!--[if !mso]><!-->
+                =
+                  <table class=3D"fullwidth" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" style=3D"width: 100%;">
+                 =
+                   <!--<![endif]-->
+                                    <tr=
+>
+                                      <td class=3D"individual-logo-wrap" =
+valign=3D"middle" align=3D"left" style=3D"background: #fff; padding: 35px 2=
+0px 25px; vertical-align: middle;">
+                                       =
+ <table class=3D"individual-logo" width=3D"100%" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"left" style=3D"text-align: left; width: 100%;">
+        =
+                                  <tr>
+                                    =
+        <td class=3D"individual-logo-raw header__logo" valign=3D"middle" al=
+ign=3D"left" style=3D"text-align: left; vertical-align: middle;">
+         =
+                                     <a class=3D"logo-link" href=3D"https:/=
+/hh.ru/?utm_source=3Demail&amp;utm_medium=3Demail&amp;utm_campaign=3Dmisc_a=
+pp_ex_251221&amp;sent_date=3D2021_12_25&amp;utm_content=3Dlogo" target=3D"_=
+blank" style=3D"text-decoration: none;">
+                                  =
+              <img class=3D"logo-img" width=3D"50" border=3D"0" src=3D"http=
+s://i.hh.ru/mailing/hh.ru/mass/logo.png?h=3Db28dfb433afd95095d32802cc3a3e75=
+8&amp;i=3D105387392&amp;e=3Dmegaman@mail.ru&amp;utm_source=3Demail&amp;ut=
+m_medium=3Demail&amp;utm_campaign=3Dmisc_app_ex_251221&amp;sent_date=3D2021=
+_12_25&amp;utm_content=3Dlogo" alt style=3D"max-width: 50px !important; ver=
+tical-align: top; width: 50px !important;">
+                               =
+               </a>
+                                            </td>
+     =
+                                     </tr>
+                                =
+        </table>
+                                      </td>
+              =
+                      </tr>
+                                  </table>
+    =
+                            </div>
+                                <div cla=
+ss=3D"body device-width" style=3D"margin: 0 auto; max-width: 660px; width: =
+100%;">
+                                  <!--[if mso]>
+                   =
+                 <table width=3D"660" style=3D"width:660px;" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+                      =
+            <![endif]-->
+                                  <!--[if !mso]><!=
+-->
+                                  <table class=3D"fullwidth" width=3D"1=
+00%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" styl=
+e=3D"width: 100%;">
+                                    <!--<![endif]-->
+  =
+                                  <tr>
+                                    =
+  <td class=3D"body-layout" valign=3D"top" style=3D"padding: 10px 20px 70px=
+; text-align: left; vertical-align: top;">
+                                =
+        <table class=3D"fullwidth" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"left" style=3D"width: 100%;">
+           =
+                               <tr>
+                                       =
+     <td class=3D"text-top" valign=3D"top" align=3D"left" style=3D"vertical=
+-align: top;">
+                                              <table class=
+=3D"fullwidth" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" align=3D"left" style=3D"width: 100%;">
+                                =
+                <tr>
+                                    <td>
+             =
+                           <table class=3D"fullwidth" width=3D"100%" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width: 100%;">
+        =
+                                    <tr>
+                                  =
+              <td class=3D"block-text-wrap" valign=3D"top" data-qa=3D"mail_=
+_block" style=3D"background: #fff; padding: 0 0 30px; text-align: left; ver=
+tical-align: top;">
+                                                    <ta=
+ble class=3D"fullwidth" width=3D"100%" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"width: 100%;">
+                                      =
+                  <tr>
+                                                    =
+        <td class=3D"block-text" valign=3D"top" style=3D"padding: 0; text-a=
+lign: left; vertical-align: top;">
+                                        =
+                        <a class=3D"no-decoration" target=3D"_blank" href=
+=3D"https://hh.ru/article/23880?utm_source=3Demail&utm_medium=3Demail&utm_c=
+ampaign=3Dmisc_app_ex_251221&utm_content=3Darticle23880&sent_date=3D2021_12=
+_25&mid=3D15630&id=3D105387392" style=3D"text-decoration: none;">
+         =
+                                                           <img class=3D"ad=
+aptive-col block-img-full" width=3D"100%" border=3D"0" alt src=3D"https://h=
+hcdn.ru/file/17186972.png" style=3D"vertical-align: top; width: 100%;">
+   =
+                                                                 
+         =
+                                                       </a>
+               =
+                                             </td>
+                        =
+                                </tr>
+                                     =
+                   <tr>
+                                                   =
+         <td class=3D"block-simple-text" valign=3D"top" style=3D"background=
+: #fff; padding: 12px 0 0; text-align: left; vertical-align: top;">
+       =
+                                                         <p class=3D"g-h1 b=
+lock-title" style=3D"color: #333333; font: bold 20px/24px Arial, sans-serif=
+; margin: 0;">
+                                    <a class=3D"block-title-=
+link" target=3D"_blank" href=3D"https://hh.ru/article/23880?utm_source=3Dem=
+ail&utm_medium=3Demail&utm_campaign=3Dmisc_app_ex_251221&utm_content=3Darti=
+cle23880&sent_date=3D2021_12_25&mid=3D15630&id=3D105387392" style=3D"color:=
+ #333333; text-decoration: none;">
+                                        =
+=D0=92=D0=BE=D0=B9=D0=B4=D0=B8=D1=82=D0=B5 =D0=B2=C2=A0=D1=80=D0=B0=D0=B1=
+=D0=BE=D1=87=D0=B8=D0=B9 =D1=80=D0=B8=D1=82=D0=BC
+                         =
+           </a>
+                                </p>
+                      =
+          <p class=3D"g-paragraph block-anounce" style=3D"color: #8e939b; f=
+ont: 14px/20px Arial, sans-serif; margin: 8px 0 0;">
+                      =
+              <a class=3D"block-anounce-link" target=3D"_blank" href=3D"htt=
+ps://hh.ru/article/23880?utm_source=3Demail&utm_medium=3Demail&utm_campaign=
+=3Dmisc_app_ex_251221&utm_content=3Darticle23880&sent_date=3D2021_12_25&mid=
+=3D15630&id=3D105387392" style=3D"color: #8e939b; text-decoration: none;">
+=
+                                        =D0=9F=D1=80=D0=BE=D1=87=D0=B8=D1=
+=82=D0=B0=D0=B9=D1=82=D0=B5 =D1=81=D0=B5=D0=B9=D1=87=D0=B0=D1=81 =D0=B8=C2=
+=A0=D0=BF=D0=B5=D1=80=D0=B5=D1=87=D0=B8=D1=82=D0=B0=D0=B9=D1=82=D0=B5 =D0=
+=B2=C2=A0=D0=BA=D0=BE=D0=BD=D1=86=D0=B5 =D0=BD=D0=BE=D0=B2=D0=BE=D0=B3=D0=
+=BE=D0=B4=D0=BD=D0=B8=D1=85 =D0=BF=D1=80=D0=B0=D0=B7=D0=B4=D0=BD=D0=B8=D0=
+=BA=D0=BE=D0=B2: =D1=81=D0=BE=D0=B1=D1=80=D0=B0=D0=BB=D0=B8 =D1=80=D0=B5=D0=
+=BA=D0=BE=D0=BC=D0=B5=D0=BD=D0=B4=D0=B0=D1=86=D0=B8=D0=B8, =D0=BA=D0=B0=D0=
+=BA =D0=BF=D0=BE=D0=BC=D0=BE=D1=87=D1=8C =D1=81=D0=B5=D0=B1=D0=B5 =D0=B8=C2=
+=A0=D0=BA=D0=BE=D0=BB=D0=BB=D0=B5=D0=B3=D0=B0=D0=BC =D0=BD=D0=B0=D1=81=D1=
+=82=D1=80=D0=BE=D0=B8=D1=82=D1=8C=D1=81=D1=8F =D0=BD=D0=B0=C2=A0=D0=B4=D0=
+=B5=D0=BB=D0=BE=D0=B2=D0=BE=D0=B9=C2=A0=D0=BB=D0=B0=D0=B4.
+                =
+                    </a>
+                                </p>
+             =
+                   
+                                                       =
+     </td>
+                                                        </tr>
+  =
+                                                  </table>
+                =
+                                </td>
+                                     =
+       </tr>
+                                        </table>
+             =
+                       </td>
+                                </tr>
+        =
+                        <tr>
+                                    <td>
+     =
+                                   <table class=3D"fullwidth" width=3D"100%=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width: 100%;">
+=
+                                            <tr>
+                          =
+                      <td class=3D"block-project-wrap" valign=3D"top" data-=
+qa=3D"mail__advert-block" style=3D"padding: 0 0 20px; vertical-align: top;"=
+>
+                                                    <table class=3D"fullw=
+idth" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"width: 100%;">
+                                                        =
+<tr>
+                                                            <!--[if !m=
+so]><!-->
+                                                            <td c=
+lass=3D"block-project-wrap-1" valign=3D"top" style=3D"color: #fff; padding:=
+ 0; vertical-align: top;">
+                                                =
+                <table class=3D"adaptive-col" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" align=3D"left">
+                                       =
+                             <tr>
+                                         =
+                               <!--<![endif]-->
+                           =
+                                             <td class=3D"adaptive-no-aflat=
+-shift block-project-wrap-2" valign=3D"top" style=3D"color: #fff; max-width=
+: 220px !important; padding: 0 20px 10px 0; vertical-align: top;">
+        =
+                                                                    <a clas=
+s=3D"no-decoration" target=3D"_blank" href=3D"https://hh.ru/article/302110?=
+utm_source=3Demail&utm_medium=3Demail&utm_campaign=3Dmisc_app_ex_251221&utm=
+_content=3Darticle302110&sent_date=3D2021_12_25&mid=3D15630&id=3D105387392"=
+ style=3D"text-decoration: none;">
+                                        =
+                                        <img class=3D"adaptive-col block-pr=
+oject-img" width=3D"220" border=3D"0" alt src=3D"https://hhcdn.ru/file/1718=
+6977.png" style=3D"max-width: 220px; vertical-align: top; width: 100%;">
+  =
+                                                                          <=
+/a>
+                                                                       =
+ </td>
+                                                                    =
+    <!--[if !mso]><!-->
+                                                   =
+                 </tr>
+                                                    =
+            </table>
+                                                      =
+          <table class=3D"adaptive-col" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" align=3D"left">
+                                             =
+                       <tr>
+                                               =
+                         <!--<![endif]-->
+                                 =
+                                       <td class=3D"adaptive-col adaptive-n=
+o-aflat-shift block-project-text" valign=3D"top" style=3D"color: #fff; padd=
+ing: 0 0 10px; vertical-align: top;">
+                                     =
+                                       <table class=3D"adaptive-col" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"left">
+                =
+                                                                <tr>
+      =
+                                                                           =
+   <td class=3D"adaptive-col block-project-text-wrap" width=3D"380" valign=
+=3D"top" style=3D"padding: 0; vertical-align: top;">
+                      =
+                                                                  <p class=
+=3D"g-h1 block-title" style=3D"color: #333333; font: bold 20px/24px Arial, =
+sans-serif; margin: 0;">
+                                    <a class=3D"bl=
+ock-title-link" target=3D"_blank" href=3D"https://hh.ru/article/302110?utm_=
+source=3Demail&utm_medium=3Demail&utm_campaign=3Dmisc_app_ex_251221&utm_con=
+tent=3Darticle302110&sent_date=3D2021_12_25&mid=3D15630&id=3D105387392" sty=
+le=3D"color: #333333; text-decoration: none;">
+                            =
+            =D0=9E=D1=80=D0=B3=D0=B0=D0=BD=D0=B8=D0=B7=D1=83=D0=B9=D1=82=D0=
+=B5 =D0=B8=D0=B4=D0=B5=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B5 =D1=80=D0=B0=D0=
+=B1=D0=BE=D1=87=D0=B5=D0=B5 =D0=BF=D1=80=D0=BE=D1=81=D1=82=D1=80=D0=B0=D0=
+=BD=D1=81=D1=82=D0=B2=D0=BE
+                                    </a>
+      =
+                          </p>
+                                <p class=3D"=
+g-paragraph block-anounce" style=3D"color: #8e939b; font: 14px/20px Arial, =
+sans-serif; margin: 8px 0 0;">
+                                    <a class=
+=3D"block-anounce-link" target=3D"_blank" href=3D"https://hh.ru/article/302=
+110?utm_source=3Demail&utm_medium=3Demail&utm_campaign=3Dmisc_app_ex_251221=
+&utm_content=3Darticle302110&sent_date=3D2021_12_25&mid=3D15630&id=3D105387=
+392" style=3D"color: #8e939b; text-decoration: none;">
+                    =
+                    =D0=95=D1=81=D1=82=D1=8C =D1=85=D0=BE=D1=80=D0=BE=D1=88=
+=D0=B0=D1=8F =D0=BD=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE=D0=B4=D0=BD=D1=8F=D1=8F =
+=D1=82=D1=80=D0=B0=D0=B4=D0=B8=D1=86=D0=B8=D1=8F=C2=A0=E2=80=94 =D1=83=D0=
+=B1=D0=B8=D1=80=D0=B0=D1=82=D1=8C =D0=B8=D0=B7=C2=A0=D0=B6=D0=B8=D0=B7=D0=
+=BD=D0=B8 =D1=81=D1=82=D0=B0=D1=80=D0=BE=D0=B5 =D0=B8=C2=A0=D0=BB=D0=B8=D1=
+=88=D0=BD=D0=B5=D0=B5. =D0=A0=D0=B0=D1=81=D1=81=D0=BA=D0=B0=D0=B7=D1=8B=D0=
+=B2=D0=B0=D0=B5=D0=BC, =D0=BE=D1=82=C2=A0=D1=87=D0=B5=D0=B3=D0=BE =D0=B8=D0=
+=B7=D0=B1=D0=B0=D0=B2=D0=B8=D1=82=D1=8C=D1=81=D1=8F, =D0=B3=D0=B4=D0=B5=C2=
+=A0=D0=B1=D1=8B =D0=B2=D1=8B=C2=A0=D0=BD=D0=B8=C2=A0=D1=80=D0=B0=D0=B1=D0=
+=BE=D1=82=D0=B0=D0=BB=D0=B8=C2=A0=E2=80=94 =D0=B4=D0=BE=D0=BC=D0=B0 =D0=B8=
+=D0=BB=D0=B8 =D0=B2=C2=A0=D0=BE=D1=84=D0=B8=D1=81=D0=B5.
+                  =
+                  </a>
+                                </p>
+               =
+                 
+                                                         =
+                           </td>
+                                          =
+                                      </tr>
+                               =
+                                             </table>
+                     =
+                                                   </td>
+                  =
+                                                      <!--[if !mso]><!-->
+ =
+                                                                   </tr>
+  =
+                                                              </table>
+    =
+                                                        </td>
+             =
+                                               <!--<![endif]-->
+           =
+                                             </tr>
+                        =
+                            </table>
+                                      =
+          </td>
+                                            </tr>
+         =
+                               </table>
+                                   =
+ </td>
+                                </tr>
+                              =
+  <tr>
+                                    <td>
+                           =
+             <table class=3D"fullwidth" width=3D"100%" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" style=3D"width: 100%;">
+                      =
+                      <tr>
+                                                =
+<td class=3D"block-project-wrap" valign=3D"top" data-qa=3D"mail__advert-blo=
+ck" style=3D"padding: 0 0 20px; vertical-align: top;">
+                    =
+                                <table class=3D"fullwidth" width=3D"100%" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width: 100%;">
+   =
+                                                     <tr>
+                 =
+                                           <!--[if !mso]><!-->
+            =
+                                                <td class=3D"block-project-=
+wrap-1" valign=3D"top" style=3D"color: #fff; padding: 0; vertical-align: to=
+p;">
+                                                                <table=
+ class=3D"adaptive-col" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" al=
+ign=3D"left">
+                                                             =
+       <tr>
+                                                               =
+         <!--<![endif]-->
+                                                 =
+                       <td class=3D"adaptive-no-aflat-shift block-project-w=
+rap-2" valign=3D"top" style=3D"color: #fff; max-width: 220px !important; pa=
+dding: 0 20px 10px 0; vertical-align: top;">
+                              =
+                                              <a class=3D"no-decoration" ta=
+rget=3D"_blank" href=3D"https://hh.ru/article/25406?utm_source=3Demail&utm_=
+medium=3Demail&utm_campaign=3Dmisc_app_ex_251221&utm_content=3Darticle25406=
+&sent_date=3D2021_12_25&mid=3D15630&id=3D105387392" style=3D"text-decoratio=
+n: none;">
+                                                                =
+                <img class=3D"adaptive-col block-project-img" width=3D"220"=
+ border=3D"0" alt src=3D"https://hhcdn.ru/file/17186978.png" style=3D"max-w=
+idth: 220px; vertical-align: top; width: 100%;">
+                          =
+                                                  </a>
+                    =
+                                                    </td>
+                 =
+                                                       <!--[if !mso]><!-->
+=
+                                                                    </tr>
+ =
+                                                               </table>
+   =
+                                                             <table class=
+=3D"adaptive-col" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D=
+"left">
+                                                                   =
+ <tr>
+                                                                     =
+   <!--<![endif]-->
+                                                       =
+                 <td class=3D"adaptive-col adaptive-no-aflat-shift block-pr=
+oject-text" valign=3D"top" style=3D"color: #fff; padding: 0 0 10px; vertica=
+l-align: top;">
+                                                           =
+                 <table class=3D"adaptive-col" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" align=3D"left">
+                                      =
+                                          <tr>
+                            =
+                                                        <td class=3D"adapti=
+ve-col block-project-text-wrap" width=3D"380" valign=3D"top" style=3D"paddi=
+ng: 0; vertical-align: top;">
+                                             =
+                                           <p class=3D"g-h1 block-title" st=
+yle=3D"color: #333333; font: bold 20px/24px Arial, sans-serif; margin: 0;">=
+
+                                    <a class=3D"block-title-link" target=
+=3D"_blank" href=3D"https://hh.ru/article/25406?utm_source=3Demail&utm_medi=
+um=3Demail&utm_campaign=3Dmisc_app_ex_251221&utm_content=3Darticle25406&sen=
+t_date=3D2021_12_25&mid=3D15630&id=3D105387392" style=3D"color: #333333; te=
+xt-decoration: none;">
+                                        =D0=A1=D0=BE=
+=D1=81=D1=82=D0=B0=D0=B2=D1=8C=D1=82=D0=B5 =D0=BA=D0=B0=D1=80=D1=8C=D0=B5=
+=D1=80=D0=BD=D1=8B=D0=B9 =D0=BF=D0=BB=D0=B0=D0=BD
+                         =
+           </a>
+                                </p>
+                      =
+          <p class=3D"g-paragraph block-anounce" style=3D"color: #8e939b; f=
+ont: 14px/20px Arial, sans-serif; margin: 8px 0 0;">
+                      =
+              <a class=3D"block-anounce-link" target=3D"_blank" href=3D"htt=
+ps://hh.ru/article/25406?utm_source=3Demail&utm_medium=3Demail&utm_campaign=
+=3Dmisc_app_ex_251221&utm_content=3Darticle25406&sent_date=3D2021_12_25&mid=
+=3D15630&id=3D105387392" style=3D"color: #8e939b; text-decoration: none;">
+=
+                                        =D0=9F=D0=BE=D1=81=D0=B2=D1=8F=D1=
+=82=D0=B8=D1=82=D0=B5 =D0=BD=D0=B0=D1=81=D1=82=D1=83=D0=BF=D0=B0=D1=8E=D1=
+=89=D0=B8=D0=B9 =D0=B3=D0=BE=D0=B4 =D0=BE=D1=81=D0=BE=D0=B7=D0=BD=D0=B0=D0=
+=BD=D0=BD=D0=BE=D0=BC=D1=83 =D1=83=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=
+=BD=D0=B8=D1=8E =D0=BA=D0=B0=D1=80=D1=8C=D0=B5=D1=80=D0=BE=D0=B9=C2=A0=E2=
+=80=94 =D1=81=D1=84=D0=BE=D1=80=D0=BC=D0=B8=D1=80=D1=83=D0=B9=D1=82=D0=B5 =
+=D0=BF=D0=BB=D0=B0=D0=BD =D0=B5=D0=B5=C2=A0=D1=80=D0=B0=D0=B7=D0=B2=D0=B8=
+=D1=82=D0=B8=D1=8F. =D0=9A=D0=B0=D0=BA? =D0=A7=D0=B8=D1=82=D0=B0=D0=B9=D1=
+=82=D0=B5 =D0=B2=C2=A0=D0=BD=D0=B0=D1=88=D0=B5=D0=B9 =D1=81=D1=82=D0=B0=D1=
+=82=D1=8C=D0=B5.
+                                    </a>
+                 =
+               </p>
+                                
+                      =
+                                                              </td>
+       =
+                                                                         </=
+tr>
+                                                                       =
+     </table>
+                                                             =
+           </td>
+                                                          =
+              <!--[if !mso]><!-->
+                                         =
+                           </tr>
+                                          =
+                      </table>
+                                            =
+                </td>
+                                                     =
+       <!--<![endif]-->
+                                                   =
+     </tr>
+                                                    </table>
+   =
+                                             </td>
+                        =
+                    </tr>
+                                        </table>
+=
+                                    </td>
+                                <=
+/tr>
+                                <tr>
+                                 =
+   <td>
+                                        <table class=3D"fullwidth" =
+width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"wi=
+dth: 100%;">
+                                            <tr>
+             =
+                                   <td class=3D"block-project-wrap" valign=
+=3D"top" data-qa=3D"mail__advert-block" style=3D"padding: 0 0 20px; vertica=
+l-align: top;">
+                                                    <table =
+class=3D"fullwidth" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" style=3D"width: 100%;">
+                                          =
+              <tr>
+                                                        =
+    <!--[if !mso]><!-->
+                                                   =
+         <td class=3D"block-project-wrap-1" valign=3D"top" style=3D"color: =
+#fff; padding: 0; vertical-align: top;">
+                                  =
+                              <table class=3D"adaptive-col" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" align=3D"left">
+                         =
+                                           <tr>
+                           =
+                                             <!--<![endif]-->
+             =
+                                                           <td class=3D"ada=
+ptive-no-aflat-shift block-project-wrap-2" valign=3D"top" style=3D"color: #=
+fff; max-width: 220px !important; padding: 0 20px 10px 0; vertical-align: t=
+op;">
+                                                                     =
+       <a class=3D"no-decoration" target=3D"_blank" href=3D"https://hh.ru/a=
+rticle/26058?utm_source=3Demail&utm_medium=3Demail&utm_campaign=3Dmisc_app_=
+ex_251221&utm_content=3Darticle26058&sent_date=3D2021_12_25&mid=3D15630&id=
+=3D105387392" style=3D"text-decoration: none;">
+                           =
+                                                     <img class=3D"adaptive=
+-col block-project-img" width=3D"220" border=3D"0" alt src=3D"https://hhcdn=
+.ru/file/17186979.png" style=3D"max-width: 220px; vertical-align: top; widt=
+h: 100%;">
+                                                                =
+            </a>
+                                                          =
+              </td>
+                                                       =
+                 <!--[if !mso]><!-->
+                                      =
+                              </tr>
+                                       =
+                         </table>
+                                         =
+                       <table class=3D"adaptive-col" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" align=3D"left">
+                                =
+                                    <tr>
+                                  =
+                                      <!--<![endif]-->
+                    =
+                                                    <td class=3D"adaptive-c=
+ol adaptive-no-aflat-shift block-project-text" valign=3D"top" style=3D"colo=
+r: #fff; padding: 0 0 10px; vertical-align: top;">
+                        =
+                                                    <table class=3D"adaptiv=
+e-col" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"left">
+   =
+                                                                           =
+  <tr>
+                                                                    =
+                <td class=3D"adaptive-col block-project-text-wrap" width=3D=
+"380" valign=3D"top" style=3D"padding: 0; vertical-align: top;">
+          =
+                                                                           =
+   <p class=3D"g-h1 block-title" style=3D"color: #333333; font: bold 20px/2=
+4px Arial, sans-serif; margin: 0;">
+                                    <a =
+class=3D"block-title-link" target=3D"_blank" href=3D"https://hh.ru/article/=
+26058?utm_source=3Demail&utm_medium=3Demail&utm_campaign=3Dmisc_app_ex_2512=
+21&utm_content=3Darticle26058&sent_date=3D2021_12_25&mid=3D15630&id=3D10538=
+7392" style=3D"color: #333333; text-decoration: none;">
+                   =
+                     =D0=9D=D0=B0=D0=BF=D0=BE=D0=BC=D0=BD=D0=B8=D1=82=D0=B5=
+ =D1=80=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=D1=82=D0=B2=D1=83 =D0=BE=
+=C2=A0=D1=81=D0=B5=D0=B1=D0=B5
+                                    </a>
+   =
+                             </p>
+                                <p class=
+=3D"g-paragraph block-anounce" style=3D"color: #8e939b; font: 14px/20px Ari=
+al, sans-serif; margin: 8px 0 0;">
+                                    <a c=
+lass=3D"block-anounce-link" target=3D"_blank" href=3D"https://hh.ru/article=
+/26058?utm_source=3Demail&utm_medium=3Demail&utm_campaign=3Dmisc_app_ex_251=
+221&utm_content=3Darticle26058&sent_date=3D2021_12_25&mid=3D15630&id=3D1053=
+87392" style=3D"color: #8e939b; text-decoration: none;">
+                  =
+                      =D0=97=D0=B0=D0=B3=D0=B0=D0=B4=D0=B0=D0=B9=D1=82=D0=
+=B5 =D0=BF=D0=BE=D0=B4 =D0=B1=D0=BE=D0=B9 =D0=BA=D1=83=D1=80=D0=B0=D0=BD=D1=
+=82=D0=BE=D0=B2 =D0=BF=D0=BE=D0=B2=D1=8B=D1=88=D0=B5=D0=BD=D0=B8=D0=B5 =D0=
+=B4=D0=BE=D0=BB=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=B8=D0=BB=D0=B8 =D0=
+=B7=D0=B0=D1=80=D0=BF=D0=BB=D0=B0=D1=82=D1=8B. =D0=90=C2=A0=D0=BA=D0=B0=D0=
+=BA =D0=B4=D0=BE=D0=BD=D0=B5=D1=81=D1=82=D0=B8 =D1=81=D0=B2=D0=BE=D1=8E =D0=
+=BC=D0=B5=D1=87=D1=82=D1=83 =D0=B4=D0=BE=C2=A0=D1=80=D1=83=D0=BA=D0=BE=D0=
+=B2=D0=BE=D0=B4=D1=81=D1=82=D0=B2=D0=B0=C2=A0=E2=80=94 =D0=BF=D0=BE=D0=B4=
+=D1=81=D0=BA=D0=B0=D0=B6=D0=B5=D1=82 =D0=BD=D0=B0=D1=88 =D0=BC=D0=B0=D1=82=
+=D0=B5=D1=80=D0=B8=D0=B0=D0=BB.
+                                    </a>
+  =
+                              </p>
+                                
+       =
+                                                                           =
+  </td>
+                                                                   =
+             </tr>
+                                                        =
+                    </table>
+                                              =
+                          </td>
+                                           =
+                             <!--[if !mso]><!-->
+                          =
+                                          </tr>
+                           =
+                                     </table>
+                             =
+                               </td>
+                                      =
+                      <!--<![endif]-->
+                                    =
+                    </tr>
+                                                 =
+   </table>
+                                                </td>
+         =
+                                   </tr>
+                                  =
+      </table>
+                                    </td>
+                  =
+              </tr>
+                                
+                      =
+                        </table>
+                                          =
+  </td>
+                                          </tr>
+                   =
+                     </table>
+                                      </td>
+ =
+                                   </tr>
+                                  =
+</table>
+                                </div>
+                           =
+     <table class=3D"nav-wrap" width=3D"100%" bgcolor=3D"#333333" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" style=3D"backgroun=
+d: #333333; width: 100%;">
+                                    <tr>
+       =
+                                 <td class=3D"nav-container" valign=3D"top"=
+ align=3D"left" style=3D"background: #333333; vertical-align: top;">
+      =
+                                      <div class=3D"nav-wrap-1 device-width=
+" style=3D"margin: 0 auto; max-width: 660px; width: 100%;">
+               =
+                                 <!--[if mso]>
+                            =
+            <table width=3D"660" style=3D"width:660px;" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" align=3D"center">
+                           =
+             <![endif]-->
+                                                <=
+!--[if !mso]><!-->
+                                                <table c=
+lass=3D"fullwidth" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" align=3D"center" style=3D"width: 100%;">
+                          =
+                          <!--<![endif]-->
+                                =
+                    <tr>
+                                                  =
+      <td class=3D"nav-wrap-2" valign=3D"top" style=3D"color: #ffffff; font=
+: 14px/16px Arial, sans-serif; padding: 16px 20px 8px; vertical-align: top;=
+">
+                                                            <table class=
+=3D"text-left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"le=
+ft" width=3D"100%" style=3D"text-align: left;">
+                           =
+                                     <tbody>
+                              =
+                                      <tr>
+                                =
+                                        <td class=3D"nav-wrap-3" valign=3D"=
+top" style=3D"padding: 0; vertical-align: top;">
+                          =
+                                                  <!--[if !mso]><!-->
+     =
+                                                                       <tab=
+le class=3D"nav text-left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ align=3D"left" style=3D"text-align: left;">
+                              =
+                                                  <tbody>
+                 =
+                                                                   <tr>
+   =
+                                                                           =
+          <td class=3D"nav-wrap-3" valign=3D"top" style=3D"padding: 0; vert=
+ical-align: top;">
+                                                        =
+                                    <!--<![endif]-->
+                      =
+                                                                      <tabl=
+e class=3D"nav-item text-left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" align=3D"left" style=3D"text-align: left;">
+                        =
+                                                                        <tb=
+ody>
+                                                                      =
+                              <tr>
+                                        =
+                                                                <td class=
+=3D"nav-item-text-wrap" valign=3D"middle" style=3D"color: #ffffff; padding:=
+ 0 20px 10px 0; text-align: left; vertical-align: middle;">
+               =
+                                                                           =
+                  <a class=3D"nav-item-text" target=3D"_blank" href=3D"http=
+s://hh.ru/search/vacancy/advanced?utm_source=3Demail&amp;utm_medium=3Demail=
+&amp;utm_campaign=3Dmisc_app_ex_251221&amp;sent_date=3D2021_12_25&amp;utm_c=
+ontent=3Dsearch_vacancy" style=3D"color: #ffffff; font: 14px/16px Arial, sa=
+ns-serif; text-decoration: none;">
+                                        =
+                                                                        =D0=
+=9F=D0=BE=D0=B8=D1=81=D0=BA&nbsp;=D0=B2=D0=B0=D0=BA=D0=B0=D0=BD=D1=81=D0=B8=
+=D0=B9
+                                                                    =
+                                        </a>
+                              =
+                                                                          <=
+/td>
+                                                                      =
+                              </tr>
+                                       =
+                                                         </tbody>
+         =
+                                                                           =
+        </table>
+                                                          =
+                                  <table class=3D"nav-item text-left" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"left" style=3D"text-al=
+ign: left;">
+                                                              =
+                                  <tbody>
+                                 =
+                                                                   <tr>
+   =
+                                                                           =
+                          <td class=3D"nav-item-text-wrap" valign=3D"middle=
+" style=3D"color: #ffffff; padding: 0 20px 10px 0; text-align: left; vertic=
+al-align: middle;">
+                                                       =
+                                                     <a class=3D"nav-item-t=
+ext" target=3D"_blank" href=3D"https://hh.ru/applicant/negotiations?utm_sou=
+rce=3Demail&amp;utm_medium=3Demail&amp;utm_campaign=3Dmisc_app_ex_251221&am=
+p;sent_date=3D2021_12_25&amp;utm_content=3Dnegotiations" style=3D"color: #f=
+fffff; font: 14px/16px Arial, sans-serif; text-decoration: none;">
+        =
+                                                                           =
+                             =D0=9C=D0=BE=D0=B8&nbsp;=D0=BE=D1=82=D0=BA=D0=
+=BB=D0=B8=D0=BA=D0=B8
+                                                     =
+                                                       </a>
+               =
+                                                                           =
+              </td>
+                                                       =
+                                             </tr>
+                        =
+                                                                        </t=
+body>
+                                                                     =
+                       </table>
+                                           =
+                                                 <!--[if !mso]><!-->
+      =
+                                                                           =
+       </td>
+                                                              =
+                      </tr>
+                                               =
+                                 </tbody>
+                                 =
+                                           </table>
+                       =
+                                                     <table class=3D"nav te=
+xt-left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"left" st=
+yle=3D"text-align: left;">
+                                                =
+                                <tbody>
+                                   =
+                                                 <tr>
+                     =
+                                                                   <td clas=
+s=3D"nav-wrap-3" valign=3D"top" style=3D"padding: 0; vertical-align: top;">=
+
+                                                                          =
+                  <!--<![endif]-->
+                                        =
+                                                    <table class=3D"nav-ite=
+m text-left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"left=
+" style=3D"text-align: left;">
+                                            =
+                                                    <tbody>
+               =
+                                                                           =
+          <tr>
+                                                            =
+                                            <td class=3D"nav-item-text-wrap=
+" valign=3D"middle" style=3D"color: #ffffff; padding: 0 20px 10px 0; text-a=
+lign: left; vertical-align: middle;">
+                                     =
+                                                                       <a c=
+lass=3D"nav-item-text" target=3D"_blank" href=3D"https://hh.ru/mobile?from=
+=3Ddg_m_2021_12_25" style=3D"color: #ffffff; font: 14px/16px Arial, sans-se=
+rif; text-decoration: none;">
+                                             =
+                                                                   =D0=9C=
+=D1=8B&nbsp;=D0=BD=D0=B0&nbsp;=D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=D0=BD=D1=
+=8B=D1=85
+                                                                 =
+                                           </a>
+                           =
+                                                                           =
+  </td>
+                                                                   =
+                                 </tr>
+                                    =
+                                                            </tbody>
+      =
+                                                                           =
+           </table>
+                                                       =
+                                     <table class=3D"nav-item text-left" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"left" style=3D"text=
+-align: left;">
+                                                           =
+                                     <tbody>
+                              =
+                                                                      <tr>
+=
+                                                                           =
+                             <td class=3D"nav-item-text-wrap" valign=3D"mid=
+dle" style=3D"color: #ffffff; padding: 0 20px 10px 0; text-align: left; ver=
+tical-align: middle;">
+                                                    =
+                                                        <a class=3D"nav-ite=
+m-text" target=3D"_blank" href=3D"https://hh.ru/applicant/services?utm_sour=
+ce=3Demail&amp;utm_medium=3Demail&amp;utm_campaign=3Dmisc_app_ex_251221&amp=
+;sent_date=3D2021_12_25&amp;utm_content=3Dservices" style=3D"color: #ffffff=
+; font: 14px/16px Arial, sans-serif; text-decoration: none;">
+             =
+                                                                           =
+                        =D0=9F=D1=80=D0=BE=D0=B4=D0=B2=D0=B8=D0=B6=D0=B5=D0=
+=BD=D0=B8=D0=B5 =D1=80=D0=B5=D0=B7=D1=8E=D0=BC=D0=B5
+                      =
+                                                                           =
+           </a>
+                                                           =
+                                             </td>
+                        =
+                                                                           =
+ </tr>
+                                                                    =
+                            </tbody>
+                                      =
+                                                      </table>
+            =
+                                                                           =
+     <!--[if !mso]><!-->
+                                                  =
+                                      </td>
+                               =
+                                                     </tr>
+                =
+                                                                </tbody>
+  =
+                                                                          <=
+/table>
+                                                                   =
+         <!--<![endif]-->
+                                                 =
+                       </td>
+                                              =
+                      </tr>
+                                               =
+                 </tbody>
+                                                 =
+           </table>
+                                                       =
+ </td>
+                                                    </tr>
+          =
+                                      </table>
+                            =
+                </div>
+                                        </td>
+      =
+                              </tr>
+                                </table=
+>
+                                <table class=3D"footer" width=3D"100%" bg=
+color=3D"#eeeeee" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D=
+"center" style=3D"background: #eeeeee; width: 100%;">
+                     =
+               <tr>
+                                        <td class=3D"fo=
+oter-container" valign=3D"top" align=3D"left" style=3D"background: #eeeeee;=
+ vertical-align: top;">
+                                            <div cl=
+ass=3D"footer-wrap-1 device-width" style=3D"margin: 0 auto; max-width: 660p=
+x; width: 100%;">
+                                                <!--[if m=
+so]>
+                                          <table width=3D"660" style=
+=3D"width:660px;" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D=
+"center">
+                                        <![endif]-->
+            =
+                                    <!--[if !mso]><!-->
+                   =
+                             <table class=3D"fullwidth" width=3D"100%" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" style=3D"widt=
+h: 100%;">
+                                                    <!--<![endif=
+]-->
+                                                    <tr>
+             =
+                                           <td class=3D"footer-layout" vali=
+gn=3D"top" style=3D"padding: 46px 20px 67px; vertical-align: top;">
+       =
+                                                     <table class=3D"fullwi=
+dth device-clear" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D=
+"center" style=3D"width: 100%;">
+                                          =
+                      <tr>
+                                                =
+                    <td class=3D"footer-manage" valign=3D"top" style=3D"col=
+or: #333333; font: 14px/22px Arial, sans-serif; padding: 0 0 32px; vertical=
+-align: top;">
+                                                            =
+            <table class=3D"text-left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" align=3D"left" width=3D"100%" style=3D"text-align: left;">
+   =
+                                                                         <t=
+body>
+                                                                     =
+           <tr>
+                                                           =
+                         <td class=3D"footer-manage-link-wrap" valign=3D"mi=
+ddle" style=3D"padding: 0 0 4px 0; text-align: left; vertical-align: middle=
+;">
+                                                                       =
+                 <a class=3D"footer-link" target=3D"_blank" href=3D"https:/=
+/hh.ru/unsubscribe/e4dde1df-a64b-4626-b9b9-2a9aa06bf3ad?date=3D2021-12-25&t=
+=3Dhhapplicant_digest&s=3D9260914dbff21365ce2be7cfd32ac88ae5129d6f1c7057ec4=
+21564940e9a059d&amp;utm_source=3Demail&amp;utm_medium=3Demail&amp;utm_campa=
+ign=3Dmisc_app_ex_251221&amp;sent_date=3D2021_12_25&amp;utm_content=3Dunsub=
+scribe" style=3D"color: #0096ff; font: 14px/22px Arial, sans-serif; text-de=
+coration: none;">
+                                                         =
+                                   =D0=A3=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=
+=B5=D0=BD=D0=B8=D0=B5 =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=BE=D0=
+=B9
+                                                                       =
+                 </a>
+                                                     =
+                               </td>
+                                      =
+                                          </tr>
+                           =
+                                                     <tr>
+                 =
+                                                                   <td clas=
+s=3D"footer-qa-link-wrap" valign=3D"middle" style=3D"padding: 0 20px 0 0; t=
+ext-align: left; vertical-align: middle;">
+                                =
+                                                        <a class=3D"footer-=
+link" target=3D"_blank" href=3D"https://hh.ru/feedback?utm_source=3Demail&a=
+mp;utm_medium=3Demail&amp;utm_campaign=3Dmisc_app_ex_251221&amp;sent_date=
+=3D2021_12_25&amp;utm_content=3Dfeedback" style=3D"color: #0096ff; font: 14=
+px/22px Arial, sans-serif; text-decoration: none;">
+                       =
+                                                                     =D0=92=
+=D0=BE=D0=BF=D1=80=D0=BE=D1=81=D1=8B =D0=B8&nbsp;=D0=BE=D1=82=D0=B2=D0=B5=
+=D1=82=D1=8B
+                                                              =
+                          </a>
+                                            =
+                                        </td>
+                             =
+                                                   </tr>
+                  =
+                                                          </tbody>
+        =
+                                                                </table>
+  =
+                                                                  </td>
+   =
+                                                             </tr>
+        =
+                                                        <tr>
+              =
+                                                      <td class=3D"footer-r=
+ow" valign=3D"top" style=3D"color: #333333; font: 14px/22px Arial, sans-ser=
+if; vertical-align: top;">
+                                                =
+                        <!--[if mso]>
+                                     =
+                   <table width=3D"100%" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0">
+                                                          <=
+tr>
+                                                            <td width=
+=3D"330" valign=3D"top">
+                                                  =
+  <![endif]-->
+                                                            =
+            <span class=3D"footer-row-item" style=3D"display: inline-block;=
+ max-width: 325px; vertical-align: top; width: 100%;">
+                    =
+                                                        <table class=3D"foo=
+ter-row__table adaptive-col" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" align=3D"left">
+                                         =
+                                       <tbody class=3D"footer-row__body">
+ =
+                                                                           =
+        <tr>
+                                                              =
+                          <td class=3D"footer-social" valign=3D"top" style=
+=3D"padding: 0 0 30px; text-align: left; vertical-align: top;">
+           =
+                                                                           =
+      <table class=3D"text-left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" align=3D"left" style=3D"text-align: left;">
+                        =
+                                                                        <tb=
+ody>
+                                                                      =
+                              <tr>
+                                        =
+                                                                <td class=
+=3D"footer-social-item" valign=3D"middle" style=3D"padding: 0 10px 0 0; tex=
+t-align: left; vertical-align: middle;">
+                                  =
+                                                                          <=
+a class=3D"no-decoration" href=3D"https://vk.com/headhunter" target=3D"_bla=
+nk" style=3D"text-decoration: none;">
+                                     =
+                                                                           =
+<img class=3D"footer-social-img" src=3D"https://hhcdn.ru/icms/10115345.png"=
+ border=3D"0" width=3D"40" alt style=3D"border: none !important; max-width:=
+ 40px !important; vertical-align: top; width: 40px !important;">
+          =
+                                                                           =
+                       </a>
+                                               =
+                                                         </td>
+            =
+                                                                           =
+                 <td class=3D"footer-social-item" valign=3D"middle" style=
+=3D"padding: 0 10px 0 0; text-align: left; vertical-align: middle;">
+      =
+                                                                           =
+                           <a class=3D"no-decoration" href=3D"https://www.f=
+acebook.com/headhuntergroup" target=3D"_blank" style=3D"text-decoration: no=
+ne;">
+                                                                     =
+                                           <img class=3D"footer-social-img"=
+ src=3D"https://hhcdn.ru/icms/10115346.png" border=3D"0" width=3D"40" alt s=
+tyle=3D"border: none !important; max-width: 40px !important; vertical-align=
+: top; width: 40px !important;">
+                                          =
+                                                                  </a>
+    =
+                                                                           =
+                         </td>
+                                            =
+                                                            <td class=3D"fo=
+oter-social-item" valign=3D"middle" style=3D"padding: 0 10px 0 0; text-alig=
+n: left; vertical-align: middle;">
+                                        =
+                                                                    <a clas=
+s=3D"no-decoration" href=3D"https://www.instagram.com/hh_ru/" target=3D"_bl=
+ank" style=3D"text-decoration: none;">
+                                    =
+                                                                           =
+ <img class=3D"footer-social-img" src=3D"https://hhcdn.ru/icms/10115347.png=
+" border=3D"0" width=3D"40" alt style=3D"border: none !important; max-width=
+: 40px !important; vertical-align: top; width: 40px !important;">
+         =
+                                                                           =
+                        </a>
+                                              =
+                                                          </td>
+           =
+                                                                           =
+              </tr>
+                                                       =
+                                         </tbody>
+                         =
+                                                                   </table>=
+
+                                                                          =
+              </td>
+                                                       =
+                             </tr>
+                                        =
+                                        </tbody>
+                          =
+                                                  </table>
+                =
+                                                        </span>
+           =
+                                                             <!--[if mso]>
+=
+                                                      </td><td width=3D"290=
+" valign=3D"top">
+                                                    <![en=
+dif]-->
+                                                                   =
+     <span class=3D"footer-row-apps" style=3D"display: inline-block; max-wi=
+dth: 290px; vertical-align: top; width: 100%;">
+                           =
+                                                 <table class=3D"footer-row=
+__table adaptive-col" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" align=3D"left">
+                                                =
+                                <tbody class=3D"footer-row__body">
+        =
+                                                                           =
+ <tr>
+                                                                     =
+                   <td class=3D"footer-apps" style=3D"padding: 0 0 30px; te=
+xt-align: left; vertical-align: top;">
+                                    =
+                                                        <table class=3D"tex=
+t-left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"left" sty=
+le=3D"text-align: left;">
+                                                 =
+                                               <tbody>
+                    =
+                                                                           =
+     <tr>
+                                                                 =
+                                       <td class=3D"footer-app-item" valign=
+=3D"middle" style=3D"padding: 0 10px 0 0; text-align: left; vertical-align:=
+ middle;">
+                                                                =
+                                            <a class=3D"no-decoration" href=
+=3D"https://hh.ru/mobile?from=3Ddg_b_2021_12_25" target=3D"_blank" style=3D=
+"text-decoration: none;">
+                                                 =
+                                                               <img class=
+=3D"footer-apps-img" src=3D"https://hhcdn.ru/icms/10199320.png" border=3D"0=
+" width=3D"140" alt style=3D"border: none !important; max-width: 140px !imp=
+ortant; vertical-align: middle; width: 140px !important;">
+                =
+                                                                           =
+                 </a>
+                                                     =
+                                                   </td>
+                  =
+                                                                           =
+           <td class=3D"footer-app-item" valign=3D"middle" style=3D"padding=
+: 0 10px 0 0; text-align: left; vertical-align: middle;">
+                 =
+                                                                           =
+                <a class=3D"no-decoration" href=3D"https://hh.ru/mobile?fro=
+m=3Ddg_b_2021_12_25" target=3D"_blank" style=3D"text-decoration: none;">
+  =
+                                                                           =
+                                   <img class=3D"footer-apps-img" src=3D"ht=
+tps://hhcdn.ru/icms/10199319.png" border=3D"0" width=3D"140" alt style=3D"b=
+order: none !important; max-width: 140px !important; vertical-align: middle=
+; width: 140px !important;">
+                                              =
+                                                              </a>
+        =
+                                                                           =
+                     </td>
+                                                =
+                                                    </tr>
+                 =
+                                                                           =
+    </tbody>
+                                                              =
+                              </table>
+                                    =
+                                                    </td>
+                 =
+                                                                   </tr>
+  =
+                                                                           =
+   </tbody>
+                                                               =
+             </table>
+                                                     =
+                   </span>
+                                                =
+                        <!--[if mso]>
+                                     =
+                   </td>
+                                                  =
+      </tr>
+                                                        </table=
+>
+                                                        <![endif]-->
+    =
+                                                                </td>
+     =
+                                                           </tr>
+          =
+                                                      <tr>
+                =
+                                                    <td class=3D"footer-bot=
+tom" valign=3D"top" style=3D"border-top: 1px solid #cccccc; color: #333333;=
+ font: 14px/22px Arial, sans-serif; padding: 23px 0 0; vertical-align: top;=
+">
+                                                                        =
+<p class=3D"footer-bottom-text" style=3D"margin-bottom: 0; margin-top: 0;">=
+=D0=92=D1=8B =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D0=BB=D0=B8 =D1=8D=D1=82=
+=D0=BE =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE, =D0=BF=D0=BE=D1=81=D0=BA=D0=BE=
+=D0=BB=D1=8C=D0=BA=D1=83 =D0=B7=D0=B0=D1=80=D0=B5=D0=B3=D0=B8=D1=81=D1=82=
+=D1=80=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D1=8B
+                          =
+                                                  =D0=BD=D0=B0 hh.ru
+      =
+                                                                  </p>
+    =
+                                                                    <p clas=
+s=3D"footer-bottom-text" style=3D"margin-bottom: 0; margin-top: 0;">&copy;&=
+nbsp;=D0=93=D1=80=D1=83=D0=BF=D0=BF=D0=B0 =D0=BA=D0=BE=D0=BC=D0=BF=D0=B0=D0=
+=BD=D0=B8=D0=B9 HeadHunter,
+                                               =
+                             2000&ndash;2021</p>
+                          =
+                                          </td>
+                           =
+                                     </tr>
+                                =
+                            </table>
+                                      =
+                  </td>
+                                                   =
+ </tr>
+                                                </table>
+           =
+                                 </div>
+                                   =
+     </td>
+                                    </tr>
+                      =
+          </table>
+                            </td>
+                      =
+  </tr>
+                    </table>
+                </div>
+            </t=
+d>
+        </tr>
+        <!--=D0=A0=D0=B0=D1=81=D1=82=D1=8F=D0=B6=D0=BA=D0=
+=B0 =D0=B4=D0=BB=D1=8F outlook-->
+        <tr>
+            <td class=3D"lay=
+out-clearfix" style=3D"padding: 0 300px 0 0;"></td>
+        </tr>
+        <=
+!--/=D0=A0=D0=B0=D1=81=D1=82=D1=8F=D0=B6=D0=BA=D0=B0 =D0=B4=D0=BB=D1=8F out=
+look-->
+    </table>
+</body>
+
+</html>
+

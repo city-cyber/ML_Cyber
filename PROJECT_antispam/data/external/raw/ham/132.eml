@@ -1,0 +1,104 @@
+X-Account-Key: account6
+X-UIDL: 00000a2058244418
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <MAILER-DAEMON>
+Delivered-To: ivanov.ys@email.fdgjuhrueisg.ru
+Received: from smtp.email.fdgjuhrueisg.ru (localhost [127.0.0.1])
+	by smtp.email.fdgjuhrueisg.ru (Postfix) with ESMTP id 11542A21F8
+	for <ivanov.ys@email.fdgjuhrueisg.ru>; Wed,  2 Feb 2022 10:53:39 +1000 (+10)
+X-Virus-Scanned: Debian amavisd-new at smtp.email.fdgjuhrueisg.ru
+Authentication-Results: smtp.email.fdgjuhrueisg.ru (amavisd-new); dkim=neutral
+	reason="invalid (public key: OpenSSL error: too long)"
+	header.d=fdgjuhrueisg.ru
+Received: from smtp.email.fdgjuhrueisg.ru ([127.0.0.1])
+	by smtp.email.fdgjuhrueisg.ru (smtp.email.fdgjuhrueisg.ru [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id OPEfdSB4wFpt for <ivanov.ys@email.fdgjuhrueisg.ru>;
+	Wed,  2 Feb 2022 10:53:37 +1000 (+10)
+Received: from ns.fdgjuhrueisg.ru (ns.fdgjuhrueisg.ru [188.64.218.34])
+	by smtp.email.fdgjuhrueisg.ru (Postfix) with ESMTPS id 5E93EA1AC1
+	for <everyone@email.fdgjuhrueisg.ru>; Wed,  2 Feb 2022 10:51:17 +1000 (+10)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/relaxed; d=fdgjuhrueisg.ru;
+	s=MDaemon; t=1643763059; i=Everyone@fdgjuhrueisg.ru; q=dns/txt; h=Precedence:
+	Sender:Date:From:Reply-To:Organization:Message-ID:To:Subject:
+	In-Reply-To:References:MIME-Version:Content-Type:List-ID:
+	List-Post; bh=KGoNXUytynsWAmzb9wVVmJvEm4bFrY+g29oTo1iy6xw=; b=XG
+	e7xSPdzLDuE/6YAenj6f1wR67x7UfT+55RwInAd7Mv7Vmz2Kr8kbmqmPK6w1NpXN
+	+Auqk86M4Dp502fHHJKLsd6YOlShUpeKHDj8d4Rr8f6rQ6ec6CW8tCc88lDplIlt
+	pOBEdYgXTupZowmhW+lQUbr6KvFGDeNgZPOKqm1qkvPg6PPtrusZEW7TRK51aKMT
+	RQQ1HRs2olN6wHJj0LPcO7aUXCv4VyZb8wGJ2KihKEWcF+MbrwL/UKBTSOTPnDY4
+	YKJCdWbV0ZVMpLs8qegKaYfnpLYdaKjvhwNsZsUsBWsTDNGwWWVC97EXhcTkgYhS
+	F+BFE46o2+jKynQppqaA==
+X-MDAV-Result: clean
+X-MDAV-Processed: ns.fdgjuhrueisg.ru, Wed, 02 Feb 2022 10:50:59 +1000
+Authentication-Results: ns.fdgjuhrueisg.ru;
+	iprev=pass reason="white listed" policy.iprev=1.1.1.31 (MAIL fdgjuhrueisg@fdgjuhrueisg.ru)
+Received: from 3k133m01.corp.fdgjuhrueisg.ru [(1.1.1.31)] by ns.fdgjuhrueisg.ru (188.64.218.34) 
+	with ESMTPS id md5001005531331.msg; Wed, 02 Feb 2022 10:50:50 +1000
+X-Spam-Processed: ns.fdgjuhrueisg.ru, Wed, 02 Feb 2022 10:50:50 +1000
+	(not processed: message from trusted or authenticated source)
+X-MDRemoteIP: 1.1.1.31
+X-MDArrival-Date: Wed, 02 Feb 2022 10:50:50 +1000
+X-Rcpt-To: everyone@fdgjuhrueisg.ru
+X-MDRcpt-To: everyone@fdgjuhrueisg.ru
+X-Envelope-From: fdgjuhrueisg@fdgjuhrueisg.ru
+X-MDDontArchive: true
+X-MDMailing-List: Everyone@fdgjuhrueisg.ru
+Precedence: bulk
+Sender: Everyone@fdgjuhrueisg.ru
+Date: Wed, 2 Feb 2022 10:50:49 +1000
+From: =?windows-1251?B?yu3Aw9M=?= <fdgjuhrueisg@fdgjuhrueisg.ru>
+Reply-To: fdgjuhrueisg@fdgjuhrueisg.ru
+Organization: =?windows-1251?B?yu3Aw9M=?=
+Message-ID: <MDAEMON-F202202021050.AA5048473md5001000086227@ns.fdgjuhrueisg.ru>
+To: "everyone@fdgjuhrueisg.ru" <everyone@fdgjuhrueisg.ru>
+Subject: [Everyone] =?windows-1251?B?zvLv8ODi6uA6IM/w6Org5yC5IDM3Lc4gziDt4Oft4Pfl7ejoIOvo9iwg7vLi5fLx8uLl7e379SDn4CDv8O7i5eTl7ejlIOLi7uTt7uPuIOjt8fLw8+ry4Obg?=
+In-Reply-To: <a075dfa5-321b-5eab-1170-1d36a4968b92@fdgjuhrueisg.ru>
+References: <a075dfa5-321b-5eab-1170-1d36a4968b92@fdgjuhrueisg.ru>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="----------00911305D165AA2C4"
+List-ID: <Everyone.fdgjuhrueisg.ru>
+List-Post: <mailto:Everyone@fdgjuhrueisg.ru>
+X-MDCFSigsAdded: fdgjuhrueisg.ru
+X-MDRedirect: 1
+X-MDRedirect_From: initall@fdgjuhrueisg.ru
+X-Return-Path: <>
+X-MDaemon-Deliver-To: <everyone@email.fdgjuhrueisg.ru>
+
+------------00911305D165AA2C4
+Content-Type: text/plain; charset=windows-1251
+Content-Transfer-Encoding: quoted-printable
+
+=0D=0A
+
+=CE=F2:                  =D1=E5=EA=F2=EE=F0 =E4=E5=EB=EE=EF=F0=EE=E8=E7=E2=
+=EE=E4=F1=F2=E2=E0 =F3=EF=F0=E0=E2=EB=E5=ED=E8=FF =EA=E0=E4=F0=E0=EC=E8 =E8=
+ =E4=E5=EB=E0=EC=E8 <office@fdgjuhrueisg.ru>
+=C2=F0=E5=EC=FF =F1=EE=E7=E4=E0=ED=E8=FF:      Wed, 02 Feb 2022 10:44:05 +1=
+000
+=D2=E5=EC=E0:                =CE=F2=EF=F0=E0=E2=EA=E0: =CF=F0=E8=EA=E0=E7 =
+=B9 37-=CE =CE =ED=E0=E7=ED=E0=F7=E5=ED=E8=E8 =EB=E8=F6, =EE=F2=E2=E5=F2=F1=
+=F2=E2=E5=ED=ED=FB=F5 =E7=E0 =EF=F0=EE=E2=E5=E4=E5=ED=E8=E5 =E2=E2=EE=E4=ED=
+=EE=E3=EE =E8=ED=F1=F2=F0=F3=EA=F2=E0=E6=E0
+=CF=F0=E8=EA=F0=E5=EF=EB=E5=ED=ED=FB=E5 =F4=E0=E9=EB=FB: 37-=CE.pdf
+
+=D1=EE=EE=E1=F9=E5=ED=E8=E5 =E3=EE=F2=EE=E2=EE =EA =EE=F2=EF=F0=E0=E2=EA=E5=
+ =F1=EE =F1=EB=E5=E4=F3=FE=F9=E8=EC =E2=EB=EE=E6=E5=ED=ED=FB=EC =F4=E0=E9=
+=EB=EE=EC =E8=EB=E8 =F1=F1=FB=EB=EA=EE=E9:
+37-=CE
+
+--=20
+=D1 =F3=E2=E0=E6=E5=ED=E8=E5=EC,
+=D4=C3=C1=CE=D3 =C2=CE "=CA=ED=C0=C3=D3"
+=D1=E5=EA=F2=EE=F0 =E4=E5=EB=EE=EF=F0=EE=E8=E7=E2=EE=E4=F1=F2=E2=E0 =D3=CA=
+=C4
+
+
+
+--=20
+=CD=E5  =ED=F3=E6=ED=EE =EE=F2=E2=E5=F7=E0=F2=FC =ED=E0 =FD=F2=EE =EF=E8=F1=
+=FC=EC=EE. =CD=E0=EF=E8=F8=E8=F2=E5 =ED=EE=E2=EE=E5 =ED=E0 =E0=E4=F0=E5=F1 =
+=F3=EA=E0=E7=E0=ED=ED=FB=E9  =E2
+=EF=E8=F1=FC=EC=E5. 

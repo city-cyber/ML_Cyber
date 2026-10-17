@@ -1,0 +1,1315 @@
+Delivered-To: vasily@mail.ru
+Return-path: <bounce+ff1a4a.0735d5-vasily=mail.ru@tanuki.ru>
+Received-SPF: temperror (mx273.i.mail.ru: encountered temporary error during SPF processing of domain of tanuki.ru) client-ip=69.72.38.45; envelope-from=bounce+ff1a4a.0735d5-vasily=mail.ru@tanuki.ru; helo=m38-45.mailgun.net;
+Received: from m38-45.mailgun.net ([69.72.38.45]:39970)
+	by mx273.i.mail.ru with esmtp (envelope-from <bounce+ff1a4a.0735d5-vasily=mail.ru@tanuki.ru>)
+	id 1nWGvS-0007ia-Ly
+	for vasily@mail.ru; Mon, 21 Mar 2022 15:14:21 +0300
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=tanuki.ru; q=dns/txt; s=mailo;
+ t=1647864858; h=Content-Type: Content-Transfer-Encoding: Message-Id:
+ List-Unsubscribe: To: To: From: From: Subject: Subject: Mime-Version:
+ Date: Sender: Sender; bh=Mpah5amtjNNvrubmJ0lIkg3fRcaXMNmLSfYPOc/GPxU=;
+ b=v9dKi4mzT7cbQKdw3/XatOon2onDhyJeNZknzLajZ0f5A5E8Qfz61ssKmwdPiWYl/kzNTtjQ
+ g9ayfokbHN548ENmhGKPQFUqwB07RCVwDhl1b8mEbgv6vQpaeRfKvEwGFqswf1ZFejfwCFF6
+ QejVnQw761vE8aAc3akiIcqR9k4=
+X-Mailgun-Sending-Ip: 69.72.38.45
+X-Mailgun-Sid: WyIyNWNmMSIsICJmYXVzdGRhcmthbmdlbEBtYWlsLnJ1IiwgIjA3MzVkNSJd
+Received: from <unknown> (<unknown> []) by
+ api-n18.prod.us-west-2.postgun.com with HTTP id 62386b6fea5f8dddb58d41f9;
+ Mon, 21 Mar 2022 12:11:27 GMT
+Sender: hotline@tanuki.ru
+Date: Mon, 21 Mar 2022 12:11:27 +0000
+Mime-Version: 1.0
+Subject: =?UTF-8?b?0JXRgdC70Lgg0L/QvtC00LDRgNC60LgsINGC0L4g0YLQvtC70YzQutC+INCy?=
+ =?UTF-8?b?0LrRg9GB0L3Ri9C1ISDwn5ic?=
+From: =?utf-8?b?0KLQsNC90YPQutC4?= <hotline@tanuki.ru>
+To: vasily@mail.ru
+List-Unsubscribe: <https://sailplay.ru/sender/unsubscribe/?uid=175162766&pid=1800&key=43f015e9b24f6477c0c241b9cfd62fa288594196f4e8066d470282068e1123f3&atype=2&aid=68418>
+Message-Id: <20220321121127.eaf77a880d1cef69@tanuki.ru>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=ascii
+X-174C08C4: 5188C02AEC42908C481ED7ADC579193296BBA28369E3F2D2713F3D5F7D406D31BCF678C7329BA986
+X-6b629377: 2
+X-7564579A: EEAE043A70213CC8
+X-77F55803: E822A06ED42C499A0F4A3991E881A9F59D0167D33CA1B43345C1E5720EF302810BBDAAE39103F3638701F0628C4B95CB6E7C177705A678BA06F298A60F767317F51240909140CD73E5719F5EA8C3A75A
+X-7FA49CB5: FF5795518A3D127A4AD6D5ED66289B5259CC434672EE6371C2A783ECEC0211AD4AD6D5ED66289B524E70A05D1297E1BBAC83A81C8FD4AD239742502CCDD46D0DD23BF7408B3F9022AC83A81C8FD4AD23D82A6BABE6F325ACD2706015D7A263A7C38EE81DF43BD05AC6CDE5D1141D2B1C0323E441E339DE290220D94316ADCE64641AC56D49DF5F199FA2833FD35BB23D9E625A9149C048EE33AC447995A7AD18CB629EEF1311BF91D2E47CDBA5A96583BD4B6F7A4D31EC0BC014FD901B82EE079FA2833FD35BB23D27C277FBC8AE2E8B2EE5AD8F952D28FBA471835C12D1D977C4224003CC836476BF60670F1CBF0E0BA54B52C917363A33C09775C1D3CA48CF8008CB598D03BF3D520BB28E76B93C0993EC92FD9297F6719449624AB7ADAF379E6134C5FEE109DEA54B52C917363A3378DA827A17800CE7A8A8B569576E4AE84AF75897E43B5B309449624AB7ADAF3713217B6B383121D5
+X-8FC586DF: A4CE3C8CD9C9DDDCD4892E548DD12978
+X-C1DE0DAB: 8BD88D57C5CADBC8B2710865C386751094C72BDDC9A8ED5CA3B1A56EE2B804F6B226C914C996894645FD9D8A29397D6E13DBA38B3FB27C752D54844AF39947D53A4AFAF3EA6BDC44D802A039A83A96556BCC41370207E0FD17A6586CE9496FEC6C63C934229680FE7C6FB206A91F05B2D98D084FECE616DC922622DEE974DDF5F9D5E14F4E973E6438CAC7F44FE29C961E5BC8177C84E05EB4F8F956E2B00345FB49A07228E4FB299D95FB302C96D9F8B166060CB9566E2E9C5DF10A05D560A97E15B380B3B81456F2DBB7B6E8D1698890BCC82C2C62A6D1BDAD6C7F3747799A
+X-C8649E89: 4E36BF7865823D7055A7F0CF078B5EC49A30900B95165D346C409ABC5F9C579B0F467DCC2F0D7C55941EC809F1C269879D11C4872B733C18571CDBED73678AF61D7E09C32AA3244C24C21AA8DBC35BD89D561E802C475687D08D48398F32B4A63EB3F6AD6EA9203E
+X-D57D3AED: 3ZO7eAau8CL7WIMRKs4sN3D3tLDjz0dLbV79QFUyzQ2Ujvy7cMT6pYYqY16iZVKkSc3dCLJ7zSJH7+u4VD18S7Vl4ZUrpaVfd2+vE6kuoey4m4VkSEu530nj6fImhcD4MUrOEAnl0W826KZ9Q+tr59cQFxbtK52nIZkuGRxn/t9t7V/qpiG8u60oWJJ3ph3vI+luKJn93kGzEiMrSMZCAIdQzdHLYu3YbcwOQxq4feHR0F1AaP4EH+I/NBiHtdLfb1+C77++cOHT6Y/vxxKSs9WbvVHzF1GM
+X-F696D7D5: 9pmkV2342xo/M7rGCVlNjjUvuNTMWyYp/vluNjukzTQYsk1Oc0kkanYh2lCgGIOP
+X-Mailru-Dmarc-Auth: dmarc=pass header.from=hotline@tanuki.ru
+X-Mras: Ok
+X-Spam: undefined
+Authentication-Results: mxs.mail.ru; spf=temperror (mx273.i.mail.ru: encountered temporary error during SPF processing of domain of tanuki.ru) smtp.mailfrom=bounce+ff1a4a.0735d5-vasily=mail.ru@tanuki.ru smtp.helo=m38-45.mailgun.net;
+	 dkim=pass header.d=tanuki.ru; dmarc=pass header.from=hotline@tanuki.ru
+X-UBL: Black
+X-Mailru-Intl-Transport: d,a397caa
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+=20
+ <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+=2E0">
+ <meta name=3D"x-apple-disable-message-reformatting">
+ <meta content=3D"telephone=3Dno" name=3D"format-detection">
+ <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+ <!--[if mso]>
+ <xml>
+  <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+ </xml>
+ <![endif]-->
+ <title>&#1045;&#1089;&#1083;&#1080; &#1087;&#1086;&#1076;&#1072;&#1088;&#1=
+082;&#1080;, &#1090;&#1086; &#1090;&#1086;&#1083;&#1100;&#1082;&#1086; &#10=
+74;&#1082;&#1091;&#1089;&#1085;&#1099;&#1077;! &#128540;</title>
+ <!--[if mso]>
+ <style type=3D"text/css">
+  a { text-decoration: none; }
+ </style>
+ <![endif]-->
+
+ <style type=3D"text/css">
+
+   @media only screen and (max-device-width: 600px),
+      only screen and (max-width: 600px) {=20
+
+   .mob_100 {
+    width: 100% !important;
+    max-width: 100% !important;
+   }
+
+  }
+
+ </style>
+</head>
+
+<body style=3D"padding: 0px; margin: 0px;">
+
+<!-- body -->
+<div align=3D"center" style=3D"line-height: normal; word-break: normal; -we=
+bkit-text-size-adjust: none; -ms-text-size-adjust: none;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"line-height: normal;">
+<tr><td align=3D"center" bgcolor=3D"#ffffff" style=3D"padding: 20px 10px; b=
+ox-sizing: border-box; min-width: 375px;">
+
+ <!-- preheader -->
+ <!--[if !mso]><!-->
+ <div style=3D"font-size: 0px; line-height: 0px; color: transparent;">&#104=
+0; &#1091; &#1085;&#1072;&#1089; &#1090;&#1086;&#1083;&#1100;&#1082;&#1086;=
+ &#1090;&#1072;&#1082;&#1080;&#1077;.</div>
+ <div style=3D"font-size: 0px; line-height: 0px; color: transparent;">&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;</div>
+ <!--<![endif]-->
+ <!-- preheader END -->
+
+ <!-- logo -->
+ <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"width: 600px; width: 100% !important; max-width: 600px !important;">
+ <tr><td align=3D"left" style=3D"padding: 0px 0 12px;">
+=20
+ 	<!-- img -->
+ 	<img src=3D"https://cdn.letteros.com/letterUploads/13966/mf17f_ico.gif" w=
+idth=3D"160" height=3D"36" alt=3D"&#1044;&#1072;&#1081;&#1076;&#1078;&#1077=
+;&#1089;&#1090;" border=3D"0" style=3D"display: block;">
+ 	<!-- img END -->
+ =09
+ </td></tr>
+ <tr><td align=3D"left" style=3D"padding: 30px 0px;">
+=20
+ 	<!-- img -->
+ 	<a style=3D"text-decoration: none; color: #E22E28; font-family: Arial, sa=
+ns-serif; font-size: 18px; line-height: 20px;">
+ 	<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/logo.png" =
+width=3D"215" height=3D"30" alt=3D"TanukiFamily" border=3D"0" style=3D"disp=
+lay: block;"></a>
+ 	<!-- img END -->
+ =20
+ </td></tr>
+ </table>
+ <!-- logo END -->=20
+
+ <!-- tanuki -->
+ <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"width: 600px; width: 100% !important; max-width: 600px !important;">
+ <tr><td align=3D"center">
+=20
+ 	<!-- img -->
+ 	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 	<tr><td align=3D"center">
+ 	 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYyN=
+zY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpLm9uZWxpbmsubWUvUlkyUy9Qcm9tb0VtYWlsVGFu=
+dWtpIiwgInBhcnRuZXJfaWQiOiAxODAwLCAibGlua19pZCI6ICI2MjQ4MDMiLCAidHlwZSI6IDI=
+sICJhY3Rpb25faWQiOiA2ODQxOH0=3D" target=3D"_blank" style=3D"text-decoration=
+: none; color: #ffffff;" data-link=3D"624803">
+ 	 <img src=3D"https://cdn.letteros.com/letterUploads/13966/mf69b_creative0=
+1.png" width=3D"600" alt=3D"" border=3D"0" style=3D"display: block; width: =
+100%; height: auto;"></a>
+ 	</td></tr>
+ 	</table>
+ 	<!-- img END -->
+
+ 	<!-- container -->
+ 	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 	<tr><td align=3D"center" style=3D"border-radius: 0 0 28px 28px; overflow:=
+ hidden; border: 1px solid #f4f4f4; border-top: none;">
+ =09
+ 		<!-- 560 -->
+ 		<table width=3D"560" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"width: 560px; width: 100% !important; max-width: 560px !important;">
+ 		<tr><td align=3D"left" style=3D"padding: 28px 10px 45px;">
+ 	=09
+ 			<!-- title -->
+ 			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 			<tr><td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-ser=
+if; font-size: 34px; line-height: 38px; color: #1f1f1f; mso-line-height-rul=
+e: exactly; font-weight: bold; padding-bottom: 8px;">
+ 		=09
+ 			 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTY=
+yNzY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpLm9uZWxpbmsubWUvUlkyUy9Qcm9tb0VtYWlsVG=
+FudWtpIiwgInBhcnRuZXJfaWQiOiAxODAwLCAibGlua19pZCI6ICI2MjQ4MDQiLCAidHlwZSI6I=
+DIsICJhY3Rpb25faWQiOiA2ODQxOH0=3D" target=3D"_blank" style=3D"color: #1f1f1=
+f; text-decoration: none;" data-link=3D"624804">&#1055;&#1086;&#1076;&#1072=
+;&#1088;&#1086;&#1082; &#1086;&#1090;&#160;&#171;&#1058;&#1072;&#1085;&#109=
+1;&#1082;&#1080;&#187;!</a>
+ 			=20
+ 			</td></tr>
+ 			</table>
+ 			<!-- title END -->
+
+ 			<!-- button -->
+ 			<table width=3D"165" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" s=
+tyle=3D"width: 165px;">
+ 			<tr><td nowrap align=3D"center" valign=3D"middle" height=3D"36" style=
+=3D"height: 36px; display: block; mso-padding-alt: 0 15px; border-radius: 4=
+0px; border: 1px solid #DFDFDF;">
+ 			 <span style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 1=
+8px; line-height: 36px; white-space: nowrap; color: #000000; text-decoratio=
+n: none; display: block; padding: 0 15px;">
+ 			 <img src=3D"https://cdn.letteros.com/letterUploads/13966/mf57d_ico.png=
+" width=3D"16" height=3D"20" style=3D"vertical-align: middle;">&#160;&#160;=
+<span style=3D"mso-text-raise: 3px;">&#1076;&#1086;&#160;21&#160;&#1084;&#1=
+072;&#1088;&#1090;&#1072;</span>
+ 			 </span>
+ 			</td></tr>
+ 			</table>
+ 			<!-- button END -->
+
+ 			<!-- padding -->
+ 			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 			<tr><td height=3D"20" style=3D"font-size: 0; line-height: 20px; height:=
+ 20px;">
+ 			</td></tr>
+ 			</table>
+ 			<!-- padding END --> =20
+
+ 			<!-- text -->
+ 			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 			<tr><td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-ser=
+if; font-size: 18px; line-height: 27px; color: #000000; mso-line-height-rul=
+e: exactly; padding-bottom: 12px;">
+ 		=09
+ 			 &#1047;&#1072;&#160;&#1079;&#1072;&#1082;&#1072;&#1079; &#1076;&#1086;=
+&#1089;&#1090;&#1072;&#1074;&#1082;&#1080; &#1086;&#1090;&#160;990 &#1088;&=
+#1091;&#1073;&#1083;&#1077;&#1081; &#1087;&#1086;&#1083;&#1091;&#1095;&#108=
+0; &#1088;&#1086;&#1083;&#1083; &#171;&#1050;&#1091;&#1088;&#1072;&#1081;&#=
+187;.=20
+ 			 &#1042;&#160;&#1089;&#1086;&#1089;&#1090;&#1072;&#1074;&#1077; &#1090;=
+&#1074;&#1086;&#1077;&#1075;&#1086; &#1087;&#1086;&#1076;&#1072;&#1088;&#10=
+82;&#1072;&#160;&#8212; &#1086;&#1089;&#1086;&#1073;&#1099;&#1081; &#1086;&=
+#1089;&#1090;&#1088;&#1099;&#1081; &#1089;&#1086;&#1091;&#1089;, &#1072;&#1=
+60;&#1077;&#1097;&#1077; &#1083;&#1086;&#1089;&#1086;&#1089;&#1100;, &#1091=
+;&#1075;&#1086;&#1088;&#1100; &#1080;&#160;&#1089;&#1083;&#1080;&#1074;&#10=
+86;&#1095;&#1085;&#1099;&#1081; &#1089;&#1099;&#1088;.
+
+ 			</td></tr>
+
+ 			<tr><td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-ser=
+if; font-size: 18px; line-height: 27px; color: #000000; mso-line-height-rul=
+e: exactly; padding-bottom: 10px;">
+ 		=09
+ 			 &#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;:
+ 			=20
+ 			</td></tr>
+ 			</table>
+ 			<!-- text END -->
+
+ 			<!-- responsive_block -->
+ 			<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 			<tr><td align=3D"left" valign=3D"top" style=3D"font-size: 0px; line-hei=
+ght: 0px;">
+ 		=09
+ 				<!-- left -->
+ 				<div style=3D"display: inline-block; vertical-align: top;">
+ 				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"border-collapse: collapse;">
+ 				<tr><td align=3D"left" valign=3D"top" style=3D"padding-bottom: 12px; p=
+adding-right: 20px;">
+ 		=09
+ 					<!-- promocode -->
+ 					<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+">
+ 					<tr><td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-s=
+erif; font-size: 44px; line-height: 44px; color: #1f1f1f; mso-line-height-r=
+ule: exactly; font-weight: bold;">
+ 				=09
+ 					 &#1082;&#1091;&#1088;&#1072;&#1081;
+ 					=20
+ 					</td></tr>
+ 					</table>
+ 					<!-- promocode END -->
+ 		=09
+ 				</td></tr>
+ 				</table>
+ 				</div>
+ 				<!-- left END-->
+ 		=09
+ 				<!-- right -->
+ 				<!--[if mso]>
+ 				</td><td valign=3D"top">
+ 				<![endif]-->
+ 				<div style=3D"display: inline-block; vertical-align: top;">
+ 				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"border-collapse: collapse;">
+ 				<tr><td align=3D"left" valign=3D"top" style=3D"padding-bottom: 12px;">
+ 		=09
+ 					<!-- button -->
+ 					<table width=3D"185" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"width: 185px;">
+ 					<tr><td nowrap align=3D"center" bgcolor=3D"#EA1D27" valign=3D"middle"=
+ height=3D"60" style=3D"height: 60px; display: block; mso-padding-alt: 0 20=
+px; background-color: #EA1D27; border-radius: 50px;">
+ 					 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1M=
+TYyNzY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpLm9uZWxpbmsubWUvUlkyUy9Qcm9tb0VtYWls=
+VGFudWtpIiwgInBhcnRuZXJfaWQiOiAxODAwLCAibGlua19pZCI6ICI2MjQ4MDUiLCAidHlwZSI=
+6IDIsICJhY3Rpb25faWQiOiA2ODQxOH0=3D" target=3D"_blank" style=3D"font-family=
+: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 60px; white-s=
+pace: nowrap; color: #ffffff; text-decoration: none; display: block; paddin=
+g: 0 20px; font-weight: bold;" data-link=3D"624805">
+ 					 &#1047;&#1072;&#1082;&#1072;&#1079;&#1072;&#1090;&#1100;
+ 					 </a>
+ 					</td></tr>
+ 					</table>
+ 					<!-- button END -->
+ 		=09
+ 				</td></tr>
+ 				</table>
+ 				</div>
+ 				<!-- right END-->
+ 			=09
+ 			</td></tr>
+ 			</table>
+ 			<!-- responsive_block END -->
+ 		=20
+ 		</td></tr>
+ 		</table>
+ 		<!-- 560 END -->
+ 	=20
+ 	</td></tr>
+ 	</table>
+ 	<!-- container END -->
+ =20
+ </td></tr>
+ </table>
+ <!-- tanuki END -->
+
+ <!-- padding -->
+ <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr><td height=3D"20" style=3D"font-size: 0; line-height: 20px; height: 20=
+px;">
+ </td></tr>
+ </table>
+ <!-- padding END --> =20
+
+  <!-- ersh -->
+ <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"width: 600px; width: 100% !important; max-width: 600px !important;">
+ <tr><td align=3D"center">
+=20
+ 	<!-- img -->
+ 	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 	<tr><td align=3D"center">
+ 	 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYyN=
+zY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpLm9uZWxpbmsubWUvZFV6Ri9iMzllMjFmZT9jPTIx=
+XzAzXzIyc2lyRXJzaCIsICJwYXJ0bmVyX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODA2Iiw=
+gInR5cGUiOiAyLCAiYWN0aW9uX2lkIjogNjg0MTh9" target=3D"_blank" style=3D"text-=
+decoration: none; color: #ffffff;" data-link=3D"624806">
+ 	 <img src=3D"https://cdn.letteros.com/letterUploads/13966/mf26h_creative0=
+2.png" width=3D"600" alt=3D"" border=3D"0" style=3D"display: block; width: =
+100%; height: auto;"></a>
+ 	</td></tr>
+ 	</table>
+ 	<!-- img END -->
+
+ 	<!-- container -->
+ 	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 	<tr><td align=3D"center" style=3D"border-radius: 0 0 28px 28px; overflow:=
+ hidden; border: 1px solid #f4f4f4; border-top: none;">
+ =09
+ 		<!-- 560 -->
+ 		<table width=3D"560" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"width: 560px; width: 100% !important; max-width: 560px !important;">
+ 		<tr><td align=3D"left" style=3D"padding: 28px 10px 45px;">
+ 	=09
+ 			<!-- title -->
+ 			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 			<tr><td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-ser=
+if; font-size: 34px; line-height: 38px; color: #1f1f1f; mso-line-height-rul=
+e: exactly; font-weight: bold; padding-bottom: 8px;">
+ 		=09
+ 			 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTY=
+yNzY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpLm9uZWxpbmsubWUvZFV6Ri9iMzllMjFmZT9jPT=
+IxXzAzXzIyc2lyRXJzaCIsICJwYXJ0bmVyX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODA3I=
+iwgInR5cGUiOiAyLCAiYWN0aW9uX2lkIjogNjg0MTh9" target=3D"_blank" style=3D"col=
+or: #1f1f1f; text-decoration: none;" data-link=3D"624807">&#1055;&#1086;&#1=
+076;&#1072;&#1088;&#1086;&#1082; &#1086;&#1090;&#160;&#171;&#1045;&#1088;&#=
+1096;&#1072;&#187;!</a>
+ 			=20
+ 			</td></tr>
+ 			</table>
+ 			<!-- title END -->
+
+ 			<!-- button -->
+ 			<table width=3D"165" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" s=
+tyle=3D"width: 165px;">
+ 			<tr><td nowrap align=3D"center" valign=3D"middle" height=3D"36" style=
+=3D"height: 36px; display: block; mso-padding-alt: 0 15px; border-radius: 4=
+0px; border: 1px solid #DFDFDF;">
+ 			 <span style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 1=
+8px; line-height: 36px; white-space: nowrap; color: #000000; text-decoratio=
+n: none; display: block; padding: 0 15px;">
+ 			 <img src=3D"https://cdn.letteros.com/letterUploads/13966/mf57d_ico.png=
+" width=3D"16" height=3D"20" style=3D"vertical-align: middle;">&#160;&#160;=
+<span style=3D"mso-text-raise: 3px;">&#1076;&#1086;&#160;27&#160;&#1084;&#1=
+072;&#1088;&#1090;&#1072;</span>
+ 			 </span>
+ 			</td></tr>
+ 			</table>
+ 			<!-- button END -->
+
+ 			<!-- padding -->
+ 			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 			<tr><td height=3D"20" style=3D"font-size: 0; line-height: 20px; height:=
+ 20px;">
+ 			</td></tr>
+ 			</table>
+ 			<!-- padding END --> =20
+
+ 			<!-- text -->
+ 			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 			<tr><td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-ser=
+if; font-size: 18px; line-height: 27px; color: #000000; mso-line-height-rul=
+e: exactly; padding-bottom: 12px;">
+ 		=09
+ 			 &#1047;&#1072;&#160;&#1079;&#1072;&#1082;&#1072;&#1079; &#1076;&#1086;=
+&#1089;&#1090;&#1072;&#1074;&#1082;&#1080; &#1086;&#1090;&#160;1490 &#1088;=
+&#1091;&#1073;&#1083;&#1077;&#1081; &#1087;&#1086;&#1083;&#1091;&#1095;&#10=
+80; &#1079;&#1072;&#1087;&#1077;&#1095;&#1077;&#1085;&#1085;&#1099;&#1081; =
+&#1082;&#1072;&#1084;&#1072;&#1084;&#1073;&#1077;&#1088;. &#1050;&#1072;&#1=
+084;&#1072;&#1084;&#1073;&#1077;&#1088; &#1089;&#160;&#1093;&#1088;&#1091;&=
+#1089;&#1090;&#1103;&#1097;&#1077;&#1081; &#1082;&#1086;&#1088;&#1086;&#109=
+5;&#1082;&#1086;&#1081;, &#1084;&#1103;&#1075;&#1082;&#1086;&#1081; &#1089;=
+&#1077;&#1088;&#1076;&#1094;&#1077;&#1074;&#1080;&#1085;&#1086;&#1081; &#10=
+80;&#160;&#1082;&#1080;&#1089;&#1083;&#1086;-&#1089;&#1083;&#1072;&#1076;&#=
+1082;&#1080;&#1084; &#1082;&#1083;&#1102;&#1082;&#1074;&#1077;&#1085;&#1085=
+;&#1099;&#1084; &#1089;&#1086;&#1091;&#1089;&#1086;&#1084; &#1074;&#160;&#1=
+087;&#1086;&#1076;&#1072;&#1088;&#1086;&#1082;
+
+ 			</td></tr>
+
+ 			<tr><td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-ser=
+if; font-size: 18px; line-height: 27px; color: #000000; mso-line-height-rul=
+e: exactly; padding-bottom: 10px;">
+ 		=09
+ 			 &#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;:
+ 			=20
+ 			</td></tr>
+ 			</table>
+ 			<!-- text END -->
+
+ 			<!-- responsive_block -->
+ 			<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 			<tr><td align=3D"left" valign=3D"top" style=3D"font-size: 0px; line-hei=
+ght: 0px;">
+ 		=09
+ 				<!-- left -->
+ 				<div style=3D"display: inline-block; vertical-align: top;">
+ 				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"border-collapse: collapse;">
+ 				<tr><td align=3D"left" valign=3D"top" style=3D"padding-bottom: 12px; p=
+adding-right: 20px;">
+ 		=09
+ 					<!-- promocode -->
+ 					<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+">
+ 					<tr><td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-s=
+erif; font-size: 44px; line-height: 44px; color: #1f1f1f; mso-line-height-r=
+ule: exactly; font-weight: bold;">
+ 				=09
+ 					 &#1089;&#1099;&#1088;
+ 					=20
+ 					</td></tr>
+ 					</table>
+ 					<!-- promocode END -->
+ 		=09
+ 				</td></tr>
+ 				</table>
+ 				</div>
+ 				<!-- left END-->
+ 		=09
+ 				<!-- right -->
+ 				<!--[if mso]>
+ 				</td><td valign=3D"top">
+ 				<![endif]-->
+ 				<div style=3D"display: inline-block; vertical-align: top;">
+ 				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"border-collapse: collapse;">
+ 				<tr><td align=3D"left" valign=3D"top" style=3D"padding-bottom: 12px;">
+ 		=09
+ 					<!-- button -->
+ 					<table width=3D"185" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"width: 185px;">
+ 					<tr><td nowrap align=3D"center" bgcolor=3D"#B4E4FE" valign=3D"middle"=
+ height=3D"60" style=3D"height: 60px; display: block; mso-padding-alt: 0 20=
+px; background-color: #B4E4FE; border-radius: 50px;">
+ 					 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1M=
+TYyNzY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpLm9uZWxpbmsubWUvZFV6Ri9iMzllMjFmZT9j=
+PTIxXzAzXzIyc2lyRXJzaCIsICJwYXJ0bmVyX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODA=
+4IiwgInR5cGUiOiAyLCAiYWN0aW9uX2lkIjogNjg0MTh9" target=3D"_blank" style=3D"f=
+ont-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 60p=
+x; white-space: nowrap; color: #2B2C2C; text-decoration: none; display: blo=
+ck; padding: 0 20px; font-weight: bold;" data-link=3D"624808">
+ 					 &#1047;&#1072;&#1082;&#1072;&#1079;&#1072;&#1090;&#1100;
+ 					 </a>
+ 					</td></tr>
+ 					</table>
+ 					<!-- button END -->
+ 		=09
+ 				</td></tr>
+ 				</table>
+ 				</div>
+ 				<!-- right END-->
+ 			=09
+ 			</td></tr>
+ 			</table>
+ 			<!-- responsive_block END -->
+ 		=20
+ 		</td></tr>
+ 		</table>
+ 		<!-- 560 END -->
+ 	=20
+ 	</td></tr>
+ 	</table>
+ 	<!-- container END -->
+ =20
+ </td></tr>
+ </table>
+ <!-- ersh END -->
+
+ <!-- padding -->
+ <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr><td height=3D"20" style=3D"font-size: 0; line-height: 20px; height: 20=
+px;">
+ </td></tr>
+ </table>
+ <!-- padding END --> =20
+
+ <!-- block -->
+ <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"width: 600px; width: 100% !important; max-width: 600px !important;">
+ <tr><td align=3D"left">
+=20
+ 	<!-- img -->
+ 	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 	<tr><td align=3D"center">
+ 	 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYyN=
+zY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpLm9uZWxpbmsubWUvbWpobC82MmQ0MDc1MyIsICJw=
+YXJ0bmVyX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODA5IiwgInR5cGUiOiAyLCAiYWN0aW9=
+uX2lkIjogNjg0MTh9" target=3D"_blank" style=3D"text-decoration: none; color:=
+ #ffffff;" data-link=3D"624809">
+ 	 <img src=3D"https://cdn.letteros.com/letterUploads/13966/mf04o_creative0=
+3.png" width=3D"600" alt=3D"" border=3D"0" style=3D"display: block; width: =
+100%; height: auto;"></a>
+ 	</td></tr>
+ 	</table>
+ 	<!-- img END -->
+
+ 	<!-- container -->
+ 	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 	<tr><td align=3D"center" style=3D"border-radius: 0 0 28px 28px; overflow:=
+ hidden; border: 1px solid #f4f4f4; border-top:none;">
+ =09
+ 		<!-- 560 -->
+ 		<table width=3D"560" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"width: 560px; width: 100% !important; max-width: 560px !important;">
+ 		<tr><td align=3D"left" style=3D"padding: 28px 10px 35px;">
+ 	=09
+ 			<!-- title -->
+ 			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 			<tr><td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-ser=
+if; font-size: 34px; line-height: 38px; color: #1f1f1f; mso-line-height-rul=
+e: exactly; font-weight: bold; padding-bottom: 20px;">
+ 		=09
+ 			&#1046;&#1076;&#1077;&#1084; &#1090;&#1077;&#1073;&#1103; &#1074;&#160;=
+Telegram &#1080;&#160;&#171;&#1042;&#1050;&#1086;&#1085;&#1090;&#1072;&#108=
+2;&#1090;&#1077;&#187;!
+ 			=20
+ 			</td></tr>
+ 			</table>
+ 			<!-- title END -->
+
+ 			<!-- text -->
+ 			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 			<tr><td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-ser=
+if; font-size: 18px; line-height: 27px; color: #000000; mso-line-height-rul=
+e: exactly; padding-bottom: 20px;">
+ 		=09
+ 			 &#1058;&#1077;&#1087;&#1077;&#1088;&#1100; &#1091;&#160;&#1085;&#1072;=
+&#1089; &#1077;&#1089;&#1090;&#1100; &#1082;&#1072;&#1085;&#1072;&#1083; &#=
+1074;&#160;Telegram. <br>
+ 			 &#1058;&#1072;&#1084; &#1085;&#1086;&#1074;&#1086;&#1089;&#1090;&#1080=
+; &#1087;&#1086;&#160;&#1074;&#1089;&#1077;&#1084; &#1088;&#1077;&#1089;&#1=
+090;&#1086;&#1088;&#1072;&#1085;&#1072;&#1084; &#1080;&#160;&#1087;&#1088;&=
+#1086;&#1077;&#1082;&#1090;&#1072;&#1084; TanukiFamily, &#1087;&#1088;&#108=
+6;&#1084;&#1086;&#1082;&#1086;&#1076;&#1099; &#1080;&#160;&#1072;&#1082;&#1=
+094;&#1080;&#1080;. &#1041;&#1091;&#1076;&#1077;&#1090; &#1091;&#1076;&#108=
+6;&#1073;&#1085;&#1086; &#1080;&#160;&#1073;&#1077;&#1079; &#1089;&#1087;&#=
+1072;&#1084;&#1072;, &#1086;&#1073;&#1077;&#1097;&#1072;&#1077;&#1084;. &#1=
+040;&#160;&#1077;&#1097;&#1077; &#1078;&#1076;&#1077;&#1084; &#1074;&#160;&=
+#1075;&#1088;&#1091;&#1087;&#1087;&#1077; &#171;&#1058;&#1072;&#1085;&#1091=
+;&#1082;&#1080;&#187; &#1074;&#160;&#171;&#1042;&#1050;&#1086;&#1085;&#1090=
+;&#1072;&#1082;&#1090;&#1077;&#187;, &#1090;&#1072;&#1084; &#1090;&#1086;&#=
+1078;&#1077; &#1074;&#1089;&#1077;&#1075;&#1076;&#1072; &#1080;&#1085;&#109=
+0;&#1077;&#1088;&#1077;&#1089;&#1085;&#1086;.
+ 			=20
+ 			</td></tr>
+ 			</table>
+ 			<!-- text END -->
+
+ 			<!-- responsive_block -->
+ 			<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ 			<tr><td align=3D"left" valign=3D"top" style=3D"font-size: 0px; line-hei=
+ght: 0px;">
+ 		=09
+ 				<!-- left -->
+ 				<div style=3D"display: inline-block; vertical-align: top;">
+ 				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"border-collapse: collapse;">
+ 				<tr><td align=3D"left" valign=3D"top" style=3D"padding-bottom: 20px; p=
+adding-right: 20px;">
+ 		=09
+ 					<!-- button -->
+ 					<table width=3D"260" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"width: 260px;">
+ 					<tr><td nowrap align=3D"center" bgcolor=3D"#EA1D27" valign=3D"middle"=
+ height=3D"60" style=3D"height: 60px; display: block; mso-padding-alt: 0 20=
+px; background-color: #EA1D27; border-radius: 50px;">
+ 					 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1M=
+TYyNzY2LCAidXJsIjogImh0dHBzOi8vdC5tZS90YW51a2lmYW1pbHkiLCAicGFydG5lcl9pZCI6=
+IDE4MDAsICJsaW5rX2lkIjogIjYyNDgxMCIsICJ0eXBlIjogMiwgImFjdGlvbl9pZCI6IDY4NDE=
+4fQ=3D=3D" target=3D"_blank" style=3D"font-family: Arial, Helvetica, sans-s=
+erif; font-size: 20px; line-height: 60px; white-space: nowrap; color: #ffff=
+ff; text-decoration: none; display: block; padding: 0 20px; font-weight: bo=
+ld;" data-link=3D"624810">
+ 					 Telegram TanukiFamily
+ 					 </a>
+ 					</td></tr>
+ 					</table>
+ 					<!-- button END -->
+ 		=09
+ 				</td></tr>
+ 				</table>
+ 				</div>
+ 				<!-- left END-->
+ 		=09
+ 				<!-- right -->
+ 				<!--[if mso]>
+ 				</td><td valign=3D"top">
+ 				<![endif]-->
+ 				<div style=3D"display: inline-block; vertical-align: top;">
+ 				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"border-collapse: collapse;">
+ 				<tr><td align=3D"left" valign=3D"top" style=3D"padding-bottom: 20px;">
+ 		=09
+ 					<!-- button -->
+ 					<table width=3D"260" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"width: 260px;">
+ 					<tr><td nowrap align=3D"center" bgcolor=3D"#EA1D27" valign=3D"middle"=
+ height=3D"60" style=3D"height: 60px; display: block; mso-padding-alt: 0 20=
+px; background-color: #EA1D27; border-radius: 50px;">
+ 					 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1M=
+TYyNzY2LCAidXJsIjogImh0dHBzOi8vdmsuY29tL3RhbnVraS5vZmZpY2lhbCIsICJwYXJ0bmVy=
+X2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODExIiwgInR5cGUiOiAyLCAiYWN0aW9uX2lkIjo=
+gNjg0MTh9" target=3D"_blank" style=3D"font-family: Arial, Helvetica, sans-s=
+erif; font-size: 20px; line-height: 60px; white-space: nowrap; color: #ffff=
+ff; text-decoration: none; display: block; padding: 0 20px; font-weight: bo=
+ld;" data-link=3D"624811">
+ 					 VK &#1058;&#1072;&#1085;&#1091;&#1082;&#1080;
+ 					 </a>
+ 					</td></tr>
+ 					</table>
+ 					<!-- button END -->
+ 		=09
+ 				</td></tr>
+ 				</table>
+ 				</div>
+ 				<!-- right END-->
+ 			=09
+ 			</td></tr>
+
+ 			<tr><td align=3D"left" valign=3D"top" style=3D"font-size: 0px; line-hei=
+ght: 0px;">
+ 		=09
+ 				<!-- left -->
+ 				<div style=3D"display: inline-block; vertical-align: top;">
+ 				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"border-collapse: collapse;">
+ 				<tr><td align=3D"left" valign=3D"top" style=3D"padding-bottom: 20px; p=
+adding-right: 20px;">
+ 		=09
+ 					<!-- button -->
+ 					<table width=3D"260" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"width: 260px;">
+ 					<tr><td nowrap align=3D"center" bgcolor=3D"#EA1D27" valign=3D"middle"=
+ height=3D"60" style=3D"height: 60px; display: block; mso-padding-alt: 0 20=
+px; background-color: #EA1D27; border-radius: 50px;">
+ 					 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1M=
+TYyNzY2LCAidXJsIjogImh0dHBzOi8vdmsuY29tL3R2b3lhcGl6emFkZWxpdmVyeSIsICJwYXJ0=
+bmVyX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODEyIiwgInR5cGUiOiAyLCAiYWN0aW9uX2l=
+kIjogNjg0MTh9" target=3D"_blank" style=3D"font-family: Arial, Helvetica, sa=
+ns-serif; font-size: 20px; line-height: 60px; white-space: nowrap; color: #=
+ffffff; text-decoration: none; display: block; padding: 0 20px; font-weight=
+: bold;" data-link=3D"624812">
+ 					 VK TV&#1054;&#1071; Pizza
+ 					 </a>
+ 					</td></tr>
+ 					</table>
+ 					<!-- button END -->
+ 		=09
+ 				</td></tr>
+ 				</table>
+ 				</div>
+ 				<!-- left END-->
+ 		=09
+ 				<!-- right -->
+ 				<!--[if mso]>
+ 				</td><td valign=3D"top">
+ 				<![endif]-->
+ 				<div style=3D"display: inline-block; vertical-align: top;">
+ 				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"border-collapse: collapse;">
+ 				<tr><td align=3D"left" valign=3D"top" style=3D"padding-bottom: 20px;">
+ 		=09
+ 					<!-- button -->
+ 					<table width=3D"260" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"width: 260px;">
+ 					<tr><td nowrap align=3D"center" bgcolor=3D"#EA1D27" valign=3D"middle"=
+ height=3D"60" style=3D"height: 60px; display: block; mso-padding-alt: 0 20=
+px; background-color: #EA1D27; border-radius: 50px;">
+ 					 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1M=
+TYyNzY2LCAidXJsIjogImh0dHBzOi8vdmsuY29tL2Vyc2gucmVzdG9yYW4iLCAicGFydG5lcl9p=
+ZCI6IDE4MDAsICJsaW5rX2lkIjogIjYyNDgxMyIsICJ0eXBlIjogMiwgImFjdGlvbl9pZCI6IDY=
+4NDE4fQ=3D=3D" target=3D"_blank" style=3D"font-family: Arial, Helvetica, sa=
+ns-serif; font-size: 20px; line-height: 60px; white-space: nowrap; color: #=
+ffffff; text-decoration: none; display: block; padding: 0 20px; font-weight=
+: bold;" data-link=3D"624813">
+ 					 VK &#1045;&#1088;&#1096;
+ 					 </a>
+ 					</td></tr>
+ 					</table>
+ 					<!-- button END -->
+ 		=09
+ 				</td></tr>
+ 				</table>
+ 				</div>
+ 				<!-- right END-->
+ 			=09
+ 			</td></tr>
+ 			</table>
+ 			<!-- responsive_block END -->
+
+ 		</td></tr>
+ 		</table>
+ 		<!-- 560 END -->
+ 	=20
+ 	</td></tr>
+ 	</table>
+ 	<!-- container END -->
+ =20
+ </td></tr>
+ </table>
+ <!-- block END -->
+
+ <!-- padding -->
+ <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr><td height=3D"20" style=3D"font-size: 0; line-height: 20px; height: 20=
+px;">
+ </td></tr>
+ </table>
+ <!-- padding END -->=20
+
+
+
+	<!-- pre-footer -->
+	<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"width: 600px; width: 100% !important; max-width: 600px !important;">
+	<tr><td align=3D"right" bgcolor=3D"#F8F6F5" style=3D"background-color: #F8=
+F6F5; background-image: url(https://app.letteros.com/letterTemplates/22935/=
+img/pre-foot-bg.jpg); background-repeat: repeat; background-size: cover; ov=
+erflow: hidden; border-radius: 28px;">
+
+		<!-- 585 -->
+		<table width=3D"585" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"width: 585px; width: 100% !important; max-width: 585px !important;">
+		<tr><td align=3D"center" style=3D"padding-left: 15px;">
+	=09
+			<!-- responsive_block -->
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+			<tr><td align=3D"left" valign=3D"top" style=3D"font-size: 0px; line-heig=
+ht: 0px;">
+		=09
+				<!-- left -->
+				<div class=3D"mob_100" style=3D"display: inline-block; vertical-align: =
+top; width: 280px;">
+				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse: collapse;">
+				<tr><td align=3D"left" valign=3D"top" style=3D"padding-top: 35px; paddi=
+ng-right: 10px;">
+		=09
+					<!-- title -->
+					<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+>
+					<tr><td align=3D"left" style=3D"padding-bottom: 15px;">
+					 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MT=
+YyNzY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpLm9uZWxpbmsubWUvbWpobC82MmQ0MDc1MyIsI=
+CJwYXJ0bmVyX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODE3IiwgInR5cGUiOiAyLCAiYWN0=
+aW9uX2lkIjogNjg0MTh9" target=3D"_blank" style=3D"text-decoration: none; col=
+or: #000000; font-family: Arial, sans-serif; font-size: 18px; line-height: =
+20px;" data-link=3D"624817">
+					 <img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/pre-fo=
+ot-title.jpg" width=3D"270" height=3D"70" alt=3D"&#1055;&#1088;&#1080;&#108=
+9;&#1086;&#1077;&#1076;&#1080;&#1085;&#1103;&#1081;&#1089;&#1103; &#1082; T=
+anukiFamily" border=3D"0" style=3D"display: block; width: 100%; height: aut=
+o; max-width: 270px;"></a>
+					</td></tr>
+					</table>
+					<!-- title END -->
+
+					<!-- google -->
+					<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+					<tr><td align=3D"left" style=3D"padding-bottom: 10px;">
+					 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MT=
+YyNzY2LCAidXJsIjogImh0dHBzOi8vcGxheS5nb29nbGUuY29tL3N0b3JlL2FwcHMvZGV0YWlsc=
+z9pZD1jb20ubW9iaWxlbWVkaWEudGFudWtpJmhsPXJ1JmdsPVVTIiwgInBhcnRuZXJfaWQiOiAx=
+ODAwLCAibGlua19pZCI6ICI2MjQ4MTgiLCAidHlwZSI6IDIsICJhY3Rpb25faWQiOiA2ODQxOH0=
+=3D" target=3D"_blank" style=3D"text-decoration: none; color: #000000; font=
+-family: Arial, sans-serif; font-size: 18px; line-height: 20px;" data-link=
+=3D"624818">
+					 <img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/google=
+=2Epng" width=3D"194" height=3D"60" alt=
+=3D"Google Market" border=3D"0" style=
+=3D"display: block;"></a>
+					</td></tr>
+					</table>
+					<!-- google END -->
+
+					<!-- appstore -->
+					<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+					<tr><td align=3D"left" style=3D"padding-bottom: 10px;">
+					 <a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MT=
+YyNzY2LCAidXJsIjogImh0dHBzOi8vYXBwcy5hcHBsZS5jb20vcnUvYXBwL3RhbnVraWZhbWlse=
+S1cdTA0MzRcdTA0M2VcdTA0NDFcdTA0NDJcdTA0MzBcdTA0MzJcdTA0M2FcdTA0MzAtXHUwNDM1=
+XHUwNDM0XHUwNDRiL2lkOTM0NDIyMDUyIiwgInBhcnRuZXJfaWQiOiAxODAwLCAibGlua19pZCI=
+6ICI2MjQ4MTkiLCAidHlwZSI6IDIsICJhY3Rpb25faWQiOiA2ODQxOH0=3D" target=3D"_bla=
+nk" style=3D"text-decoration: none; color: #000000; font-family: Arial, san=
+s-serif; font-size: 18px; line-height: 20px;" data-link=3D"624819">
+					 <img src=3D"https://cdn.letteros.com/letterUploads/13966/mf52w_appsto=
+re.png" width=3D"194" height=3D"60" alt=3D"App Store" border=3D"0" style=3D=
+"display: block;"></a>
+					</td></tr>
+					</table>
+					<!-- appstore END -->
+		=09
+				</td></tr>
+				</table>
+				</div>
+				<!-- left END-->
+		=09
+				<!-- right -->
+				<!--[if mso]>
+				</td><td valign=3D"top" width=3D"290" style=3D"width: 290px;">
+				<![endif]-->
+				<div style=3D"display: inline-block; vertical-align: top; width: 290px;=
+ float: right;">
+				<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse: collapse;">
+				<tr><td align=3D"left" valign=3D"top">
+		=09
+					<!-- img -->
+					<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTY=
+yNzY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpLm9uZWxpbmsubWUvbWpobC82MmQ0MDc1MyIsIC=
+JwYXJ0bmVyX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODIwIiwgInR5cGUiOiAyLCAiYWN0a=
+W9uX2lkIjogNjg0MTh9" target=3D"_blank" style=3D"text-decoration: none; colo=
+r: #ffffff;" data-link=3D"624820">
+					<img src=3D"https://cdn.letteros.com/letterUploads/13966/mf25v_phone.g=
+if" width=3D"290" height=3D"290" alt=3D"" border=3D"0" style=3D"display: bl=
+ock; width: 100%; height: auto;"></a>
+					<!-- img END -->
+		=09
+				</td></tr>
+				</table>
+				</div>
+				<!-- right END-->
+			=09
+			</td></tr>
+			</table>
+			<!-- responsive_block END -->
+		=20
+		</td></tr>
+		</table>
+		<!-- 585 END -->
+
+	</td></tr>
+	</table>
+	<!-- pre-footer END -->=20
+
+	<!-- padding -->
+	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+	<tr><td height=3D"40" style=3D"font-size: 0; line-height: 40px; height: 40=
+px;">
+	</td></tr>
+	</table>
+	<!-- padding END --> =20
+
+	<!-- logos -->
+	<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"width: 600px; width: 100% !important; max-width: 600px !important;">
+	<tr><td align=3D"center">
+=09
+		<!-- container -->
+		<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+		<tr><td align=3D"center" width=3D"33%" style=3D"padding-right: 4px;">
+
+			<!-- img -->
+			<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+			<tr><td align=3D"left" style=3D"padding-bottom: 8px;">
+
+				<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYy=
+NzY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpLm9uZWxpbmsubWUvbWpobC82MmQ0MDc1MyIsICJ=
+wYXJ0bmVyX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODIxIiwgInR5cGUiOiAyLCAiYWN0aW=
+9uX2lkIjogNjg0MTh9" target=3D"_blank" style=3D"text-decoration: none; color=
+: #000000; font-family: Arial, sans-serif; font-size: 14px; line-height: 16=
+px;" data-link=3D"624821">
+				<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/tanuki.p=
+ng" width=3D"192" height=3D"60" alt=3D"&#1058;&#1072;&#1085;&#1091;&#1082;&=
+#1080;" border=3D"0" style=3D"display: block; width: 100%; height: auto; ma=
+x-width: 192px;"></a>
+			=20
+			</td></tr>
+			</table>
+			<!-- img END -->
+
+			<!-- social -->
+			<table width=3D"156" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"width: 156px; width: 100% !important; max-width: 156px !important;">
+			<tr><td align=3D"center">
+		=09
+				<!-- img -->
+				<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYy=
+NzY2LCAidXJsIjogImh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS90YW51a2kub2ZmaWNpYWwiLCA=
+icGFydG5lcl9pZCI6IDE4MDAsICJsaW5rX2lkIjogIjYyNDgyMiIsICJ0eXBlIjogMiwgImFjdG=
+lvbl9pZCI6IDY4NDE4fQ=3D=3D" target=3D"_blank" style=3D"text-decoration: non=
+e; color: #000000; font-family: Arial, sans-serif; font-size: 10px; line-he=
+ight: 12px; mso-line-height-rule: exactly;" data-link=3D"624822">
+				<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/soc01.pn=
+g" width=3D"32" height=3D"32" alt=3D"&#1060;&#1101;&#1081;&#1089;&#1073;&#1=
+091;&#1082;" border=3D"0" style=3D"display: block;"></a>
+				<!-- img END -->
+			=20
+			</td><td align=3D"center">
+		=09
+				<!-- img -->
+				<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYy=
+NzY2LCAidXJsIjogImh0dHBzOi8vdmsuY29tL3RhbnVraS5vZmZpY2lhbCIsICJwYXJ0bmVyX2l=
+kIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODIzIiwgInR5cGUiOiAyLCAiYWN0aW9uX2lkIjogNj=
+g0MTh9" target=3D"_blank" style=3D"text-decoration: none; color: #000000; f=
+ont-family: Arial, sans-serif; font-size: 10px; line-height: 12px; mso-line=
+-height-rule: exactly;" data-link=3D"624823">
+				<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/soc02.pn=
+g" width=3D"32" height=3D"32" alt=3D"&#1042;&#1082;&#1086;&#1085;&#1090;&#1=
+072;&#1082;&#1090;&#1077;" border=3D"0" style=3D"display: block;"></a>
+				<!-- img END -->
+			=20
+			</td><td align=3D"center">
+		=09
+				<!-- img -->
+				<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYy=
+NzY2LCAidXJsIjogImh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vdGFudWtpLm9mZmljaWFsLyI=
+sICJwYXJ0bmVyX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODI0IiwgInR5cGUiOiAyLCAiYW=
+N0aW9uX2lkIjogNjg0MTh9" target=3D"_blank" style=3D"text-decoration: none; c=
+olor: #000000; font-family: Arial, sans-serif; font-size: 10px; line-height=
+: 12px; mso-line-height-rule: exactly;" data-link=3D"624824">
+				<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/soc03.pn=
+g" width=3D"32" height=3D"32" alt=3D"&#1048;&#1085;&#1089;&#1090;&#1072;&#1=
+075;&#1088;&#1072;&#1084;" border=3D"0" style=3D"display: block;"></a>
+				<!-- img END -->
+			=20
+			</td></tr>
+			</table>
+			<!-- social END -->
+		=20
+		</td><td align=3D"center" width=3D"33%" style=3D"padding:0 2px;">
+
+			<!-- img -->
+			<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+			<tr><td align=3D"center" style=3D"padding-bottom: 8px;">
+
+				<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYy=
+NzY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpLm9uZWxpbmsubWUvbWpobC82MmQ0MDc1MyIsICJ=
+wYXJ0bmVyX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODI1IiwgInR5cGUiOiAyLCAiYWN0aW=
+9uX2lkIjogNjg0MTh9" target=3D"_blank" style=3D"text-decoration: none; color=
+: #000000; font-family: Arial, sans-serif; font-size: 14px; line-height: 16=
+px;" data-link=3D"624825">
+				<img src=3D"https://cdn.letteros.com/letterUploads/13966/mf54d_tvoya_pi=
+zza.png" width=3D"192" height=3D"60" alt=3D"&#1058;&#1074;&#1086;&#1103; &#=
+1087;&#1080;&#1094;&#1094;&#1072;" border=3D"0" style=3D"display: block; wi=
+dth: 100%; height: auto; max-width: 192px;"></a>
+			=20
+			</td></tr>
+			</table>
+			<!-- img END -->
+
+			<!-- social -->
+			<table width=3D"156" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"width: 156px; width: 100% !important; max-width: 156px !important;">
+			<tr><td align=3D"center">
+		=09
+				<!-- img -->
+				<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYy=
+NzY2LCAidXJsIjogImh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL2NoYW5uZWwvVUNhM2p0anh5RFh=
+CWFFfSG9OYU5GX013IiwgInBhcnRuZXJfaWQiOiAxODAwLCAibGlua19pZCI6ICI2MjQ4MjYiLC=
+AidHlwZSI6IDIsICJhY3Rpb25faWQiOiA2ODQxOH0=3D" target=3D"_blank" style=3D"te=
+xt-decoration: none; color: #000000; font-family: Arial, sans-serif; font-s=
+ize: 10px; line-height: 12px; mso-line-height-rule: exactly;" data-link=3D"=
+624826">
+				<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/soc04.pn=
+g" width=3D"32" height=3D"32" alt=3D"You Tube" border=3D"0" style=3D"displa=
+y: block;"></a>
+				<!-- img END -->
+			=20
+			</td><td align=3D"center">
+		=09
+				<!-- img -->
+				<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYy=
+NzY2LCAidXJsIjogImh0dHBzOi8vdmsuY29tL3R2b3lhcGl6emFkZWxpdmVyeSIsICJwYXJ0bmV=
+yX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODI3IiwgInR5cGUiOiAyLCAiYWN0aW9uX2lkIj=
+ogNjg0MTh9" target=3D"_blank" style=3D"text-decoration: none; color: #00000=
+0; font-family: Arial, sans-serif; font-size: 10px; line-height: 12px; mso-=
+line-height-rule: exactly;" data-link=3D"624827">
+				<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/soc02.pn=
+g" width=3D"32" height=3D"32" alt=3D"&#1042;&#1082;&#1086;&#1085;&#1090;&#1=
+072;&#1082;&#1090;&#1077;" border=3D"0" style=3D"display: block;"></a>
+				<!-- img END -->
+			=20
+			</td><td align=3D"center">
+		=09
+				<!-- img -->
+				<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYy=
+NzY2LCAidXJsIjogImh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vcGl6emF0dm95YS8iLCAicGF=
+ydG5lcl9pZCI6IDE4MDAsICJsaW5rX2lkIjogIjYyNDgyOCIsICJ0eXBlIjogMiwgImFjdGlvbl=
+9pZCI6IDY4NDE4fQ=3D=3D" target=3D"_blank" style=3D"text-decoration: none; c=
+olor: #000000; font-family: Arial, sans-serif; font-size: 10px; line-height=
+: 12px; mso-line-height-rule: exactly;" data-link=3D"624828">
+				<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/soc03.pn=
+g" width=3D"32" height=3D"32" alt=3D"&#1048;&#1085;&#1089;&#1090;&#1072;&#1=
+075;&#1088;&#1072;&#1084;" border=3D"0" style=3D"display: block;"></a>
+				<!-- img END -->
+			=20
+			</td></tr>
+			</table>
+			<!-- social END -->
+		=20
+		</td><td align=3D"center" width=3D"33%" style=3D"padding-left: 4px;">
+
+			<!-- img -->
+			<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+			<tr><td align=3D"center" style=3D"padding-bottom: 8px;">
+
+				<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYy=
+NzY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpLm9uZWxpbmsubWUvbWpobC82MmQ0MDc1MyIsICJ=
+wYXJ0bmVyX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODI5IiwgInR5cGUiOiAyLCAiYWN0aW=
+9uX2lkIjogNjg0MTh9" target=3D"_blank" style=3D"text-decoration: none; color=
+: #000000; font-family: Arial, sans-serif; font-size: 14px; line-height: 16=
+px;" data-link=3D"624829">
+				<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/ersh.png=
+" width=3D"192" height=3D"60" alt=3D"&#1025;&#1088;&#1096;" border=3D"0" st=
+yle=3D"display: block; width: 100%; height: auto; max-width: 192px;"></a>
+			=20
+			</td></tr>
+			</table>
+			<!-- img END -->
+
+			<!-- social -->
+			<table width=3D"156" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"width: 156px; width: 100% !important; max-width: 156px !important;">
+			<tr><td align=3D"center">
+		=09
+				<!-- img -->
+				<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYy=
+NzY2LCAidXJsIjogImh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9lcnNoLnJlc3RvcmFuLyIsICJ=
+wYXJ0bmVyX2lkIjogMTgwMCwgImxpbmtfaWQiOiAiNjI0ODMwIiwgInR5cGUiOiAyLCAiYWN0aW=
+9uX2lkIjogNjg0MTh9" target=3D"_blank" style=3D"text-decoration: none; color=
+: #000000; font-family: Arial, sans-serif; font-size: 10px; line-height: 12=
+px; mso-line-height-rule: exactly;" data-link=3D"624830">
+				<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/soc01.pn=
+g" width=3D"32" height=3D"32" alt=3D"&#1060;&#1101;&#1081;&#1089;&#1073;&#1=
+091;&#1082;" border=3D"0" style=3D"display: block;"></a>
+				<!-- img END -->
+			=20
+			</td><td align=3D"center">
+		=09
+				<!-- img -->
+				<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYy=
+NzY2LCAidXJsIjogImh0dHBzOi8vdmsuY29tL2Vyc2gucmVzdG9yYW4iLCAicGFydG5lcl9pZCI=
+6IDE4MDAsICJsaW5rX2lkIjogIjYyNDgzMSIsICJ0eXBlIjogMiwgImFjdGlvbl9pZCI6IDY4ND=
+E4fQ=3D=3D" target=3D"_blank" style=3D"text-decoration: none; color: #00000=
+0; font-family: Arial, sans-serif; font-size: 10px; line-height: 12px; mso-=
+line-height-rule: exactly;" data-link=3D"624831">
+				<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/soc02.pn=
+g" width=3D"32" height=3D"32" alt=3D"&#1042;&#1082;&#1086;&#1085;&#1090;&#1=
+072;&#1082;&#1090;&#1077;" border=3D"0" style=3D"display: block;"></a>
+				<!-- img END -->
+			=20
+			</td><td align=3D"center">
+		=09
+				<!-- img -->
+				<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYy=
+NzY2LCAidXJsIjogImh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vZXJzaC5yZXN0b3Jhbi8iLCA=
+icGFydG5lcl9pZCI6IDE4MDAsICJsaW5rX2lkIjogIjYyNDgzMiIsICJ0eXBlIjogMiwgImFjdG=
+lvbl9pZCI6IDY4NDE4fQ=3D=3D" target=3D"_blank" style=3D"text-decoration: non=
+e; color: #000000; font-family: Arial, sans-serif; font-size: 10px; line-he=
+ight: 12px; mso-line-height-rule: exactly;" data-link=3D"624832">
+				<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/soc03.pn=
+g" width=3D"32" height=3D"32" alt=3D"&#1048;&#1085;&#1089;&#1090;&#1072;&#1=
+075;&#1088;&#1072;&#1084;" border=3D"0" style=3D"display: block;"></a>
+				<!-- img END -->
+			=20
+			</td></tr>
+			</table>
+			<!-- social END -->
+		=20
+		</td></tr>
+		</table>
+		<!-- container END -->
+	=20
+	</td></tr>
+	</table>
+	<!-- logos END -->
+
+	<!-- padding -->
+	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+	<tr><td height=3D"40" style=3D"font-size: 0; line-height: 40px; height: 40=
+px;">
+	</td></tr>
+	</table>
+	<!-- padding END --> =20
+
+	<!-- footer -->
+	<table width=3D"540" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"width: 540px; width: 100% !important; max-width: 540px !important;">
+	<tr><td align=3D"left" style=3D"border-top: 1px solid #E3E3E3; padding-top=
+: 40px;">
+=09
+		<!-- footer-nav -->
+		<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+		<tr><td align=3D"left" style=3D"padding-right: 10px;">
+	=09
+			<!-- img -->
+			<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYyN=
+zY2LCAidXJsIjogImh0dHBzOi8vdC5tZS90YW51a2lmYW1pbHkiLCAicGFydG5lcl9pZCI6IDE4=
+MDAsICJsaW5rX2lkIjogIjYyNDgzMyIsICJ0eXBlIjogMiwgImFjdGlvbl9pZCI6IDY4NDE4fQ=
+=3D=3D" target=3D"_blank" style=3D"text-decoration: none; color: #000000; f=
+ont-family: Arial, sans-serif; font-size: 10px; line-height: 12px;" data-li=
+nk=3D"624833">
+			<img src=3D"https://cdn.letteros.com/letterUploads/13966/mf33b_tg.png" w=
+idth=3D"162" height=3D"36" alt=3D"&#1052;&#1077;&#1085;&#1102;" border=3D"0=
+" style=3D"display: block; width: 100%; height: auto; max-width: 162px;"></=
+a>
+			<!-- img END -->
+		=20
+		</td><td align=3D"left">
+	=09
+			<!-- img -->
+			<a href=3D"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYyN=
+zY2LCAidXJsIjogImh0dHBzOi8vdGFudWtpZmFtaWx5LnJ1L2xveWFsdHkvP3V0bV9zb3VyY2U9=
+ZW1haWwmdXRtX21lZGl1bT1wcm9tbyZ1dG1fdGVybT1rdXJhaSZ1dG1fY2FtcGFpZ249MjFfMDN=
+fMjJfa3VyYWlUYW51a2kiLCAicGFydG5lcl9pZCI6IDE4MDAsICJsaW5rX2lkIjogIjYyNDgzNC=
+IsICJ0eXBlIjogMiwgImFjdGlvbl9pZCI6IDY4NDE4fQ=3D=3D" target=3D"_blank" style=
+=3D"text-decoration: none; color: #000000; font-family: Arial, sans-serif; =
+font-size: 10px; line-height: 12px;" data-link=3D"624834">
+			<img src=3D"https://cdn.letteros.com/letterTemplates/22935/img/foot-nav0=
+3.png" width=3D"119" height=3D"36" alt=3D"&#1041;&#1086;&#1085;&#1091;&#108=
+9;&#1099;" border=3D"0" style=3D"display: block; width: 100%; height: auto;=
+ max-width: 119px;"></a>
+			<!-- img END -->
+		=20
+		</td></tr>
+		</table>
+		<!-- footer-nav END -->
+
+		<!-- padding -->
+		<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+		<tr><td height=3D"25" style=3D"font-size: 0; line-height: 25px; height: 2=
+5px;">
+		</td></tr>
+		</table>
+		<!-- padding END --> =20
+
+		<!-- disc -->
+		<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+		<tr><td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-serif=
+; font-size: 10px; line-height: 14px; color: #A7A7A7; mso-line-height-rule:=
+ exactly;">
+
+		 	&#1044;&#1083;&#1103; &#1087;&#1086;&#1083;&#1091;&#1095;&#1077;&#1085;=
+&#1080;&#1103; &#1089;&#1082;&#1080;&#1076;&#1082;&#1080; &#1080;&#1083;&#1=
+080; &#1087;&#1086;&#1076;&#1072;&#1088;&#1082;&#1072; &#1085;&#1072;&#160;=
+&#1079;&#1072;&#1082;&#1072;&#1079;&#1099; &#1076;&#1086;&#1089;&#1090;&#10=
+72;&#1074;&#1082;&#1080;, &#1087;&#1086;&#1078;&#1072;&#1083;&#1091;&#1081;=
+&#1089;&#1090;&#1072;, &#1074;&#1074;&#1077;&#1076;&#1080; &#1087;&#1088;&#=
+1086;&#1084;&#1086;&#1082;&#1086;&#1076;, &#1091;&#1082;&#1072;&#1079;&#107=
+2;&#1085;&#1085;&#1099;&#1081; &#1074;&#160;&#1087;&#1080;&#1089;&#1100;&#1=
+084;&#1077;, &#1074;&#160;&#1087;&#1086;&#1083;&#1077; &#171;&#1055;&#1088;=
+&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#187; <a href=3D"https://sailpla=
+y.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYyNzY2LCAidXJsIjogImh0dHBzOi8vdG=
+FudWtpLm9uZWxpbmsubWUvbWpobC82MDQ1NGM2NSIsICJwYXJ0bmVyX2lkIjogMTgwMCwgImxpb=
+mtfaWQiOiAiNjI0ODM1IiwgInR5cGUiOiAyLCAiYWN0aW9uX2lkIjogNjg0MTh9" target=3D"=
+_blank" style=3D"color: #a7a7a7; text-decoration: underline;" data-link=3D"=
+624835">&#1074;&#160;&#1084;&#1086;&#1073;&#1080;&#1083;&#1100;&#1085;&#108=
+6;&#1084; &#1087;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#=
+1080; TanukiFamily</a> &#1080;&#1083;&#1080; &#1085;&#1072;&#160;<a href=3D=
+"https://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYyNzY2LCAidXJsIj=
+ogImh0dHBzOi8vdGFudWtpZmFtaWx5LnJ1Lz91dG1fc291cmNlPWVtYWlsJnV0bV9tZWRpdW09c=
+HJvbW8mdXRtX3Rlcm09a3VyYWkmdXRtX2NhbXBhaWduPTIxbWFyMjIiLCAicGFydG5lcl9pZCI6=
+IDE4MDAsICJsaW5rX2lkIjogIjYyNDgzNiIsICJ0eXBlIjogMiwgImFjdGlvbl9pZCI6IDY4NDE=
+4fQ=3D=3D" target=3D"_blank" style=3D"color: #a7a7a7; text-decoration: unde=
+rline;" data-link=3D"624836">&#1089;&#1072;&#1081;&#1090;&#1077;</a>. <br>
+		 	&#1052;&#1080;&#1085;&#1080;&#1084;&#1072;&#1083;&#1100;&#1085;&#1072;&=
+#1103; &#1089;&#1091;&#1084;&#1084;&#1072; &#1079;&#1072;&#1082;&#1072;&#10=
+79;&#1072; &#1074;&#160;&#1076;&#1086;&#1089;&#1090;&#1072;&#1074;&#1082;&#=
+1077; &#1089;&#160;&#1091;&#1095;&#1077;&#1090;&#1086;&#1084; &#1089;&#1082=
+;&#1080;&#1076;&#1082;&#1080;&#160;&#8212; 990&#160;&#1088;&#1091;&#1073;&#=
+1083;&#1077;&#1081;. <br>
+		 	&#1055;&#1086;&#1076;&#1072;&#1088;&#1086;&#1082; &#1080;&#1083;&#1080;=
+ &#1089;&#1082;&#1080;&#1076;&#1082;&#1072; &#1076;&#1086;&#1089;&#1090;&#1=
+091;&#1087;&#1085;&#1099; &#1090;&#1086;&#1083;&#1100;&#1082;&#1086; &#1085=
+;&#1072;&#160;&#1076;&#1086;&#1089;&#1090;&#1072;&#1074;&#1082;&#1077;: &#1=
+090;&#1099;&#160;&#1085;&#1077;&#160;&#1084;&#1086;&#1078;&#1077;&#1096;&#1=
+100; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;=
+&#1090;&#1100; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076; &#1=
+076;&#1083;&#1103; &#1079;&#1072;&#1082;&#1072;&#1079;&#1086;&#1074; &#171;=
+&#1089;&#160;&#1089;&#1086;&#1073;&#1086;&#1081;&#187; &#1080;&#160;&#1074;=
+&#160;&#1079;&#1072;&#1083;&#1072;&#1093; &#1088;&#1077;&#1089;&#1090;&#108=
+6;&#1088;&#1072;&#1085;&#1086;&#1074;. &#1048;&#1089;&#1087;&#1086;&#1083;&=
+#1100;&#1079;&#1086;&#1074;&#1072;&#1090;&#1100; &#1087;&#1088;&#1086;&#108=
+4;&#1086;&#1082;&#1086;&#1076;&#1099; &#1085;&#1077;&#1074;&#1086;&#1079;&#=
+1084;&#1086;&#1078;&#1085;&#1086; &#1087;&#1088;&#1080; &#1079;&#1072;&#108=
+2;&#1072;&#1079;&#1077; &#1080;&#1079;&#160;&#1082;&#1072;&#1090;&#1077;&#1=
+075;&#1086;&#1088;&#1080;&#1080; &#171;Daily-&#1084;&#1077;&#1085;&#1102;&#=
+187; &#1080;&#160;&#171;&#1055;&#1080;&#1074;&#1086;&#187;. &#1055;&#1088;&=
+#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1099; &#1085;&#1077;&#160;&#1089=
+;&#1091;&#1084;&#1084;&#1080;&#1088;&#1091;&#1102;&#1090;&#1089;&#1103;: &#=
+1089;&#160;&#1086;&#1076;&#1085;&#1080;&#1084; &#1079;&#1072;&#1082;&#1072;=
+&#1079;&#1086;&#1084; &#1090;&#1099;&#160;&#1084;&#1086;&#1078;&#1077;&#109=
+6;&#1100; &#1087;&#1086;&#1083;&#1091;&#1095;&#1080;&#1090;&#1100; &#1090;&=
+#1086;&#1083;&#1100;&#1082;&#1086; &#1086;&#1076;&#1080;&#1085; &#1087;&#10=
+86;&#1076;&#1072;&#1088;&#1086;&#1082; &#1080;&#1083;&#1080; &#1086;&#1076;=
+&#1085;&#1091; &#1089;&#1082;&#1080;&#1076;&#1082;&#1091;. <br><br>
+		 	&#1063;&#1090;&#1086;&#1073;&#1099; &#1091;&#1079;&#1085;&#1072;&#1090;=
+&#1100;, &#1085;&#1072;&#1093;&#1086;&#1076;&#1080;&#1096;&#1100;&#1089;&#1=
+103;&#160;&#1083;&#1080; &#1090;&#1099;&#160;&#1074;&#160;&#1079;&#1086;&#1=
+085;&#1077; &#1076;&#1086;&#1089;&#1090;&#1072;&#1074;&#1082;&#1080; &#171;=
+&#1058;&#1072;&#1085;&#1091;&#1082;&#1080;&#187;, &#171;&#1045;&#1088;&#109=
+6;&#1072;&#187; &#1080;&#160;TVO&#1071; Pizza delivery, &#1074;&#1074;&#107=
+7;&#1076;&#1080; &#1089;&#1074;&#1086;&#1081; &#1072;&#1076;&#1088;&#1077;&=
+#1089; &#1076;&#1086;&#1089;&#1090;&#1072;&#1074;&#1082;&#1080; &#1087;&#10=
+77;&#1088;&#1077;&#1076; &#1079;&#1072;&#1082;&#1072;&#1079;&#1086;&#1084; =
+&#1074;&#160;&#1084;&#1086;&#1073;&#1080;&#1083;&#1100;&#1085;&#1086;&#1084=
+; &#1087;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1080; Ta=
+nukiFamily. <br><br>
+
+		  &#1053;&#1077;&#160;&#1086;&#1090;&#1074;&#1077;&#1095;&#1072;&#1081; &=
+#1085;&#1072;&#160;&#1101;&#1090;&#1086; &#1087;&#1080;&#1089;&#1100;&#1084=
+;&#1086;. &#1055;&#1086;&#160;&#1074;&#1089;&#1077;&#1084; &#1074;&#1086;&#=
+1087;&#1088;&#1086;&#1089;&#1072;&#1084; &#1090;&#1099;&#160;&#1084;&#1086;=
+&#1078;&#1077;&#1096;&#1100; &#1085;&#1072;&#1087;&#1080;&#1089;&#1072;&#10=
+90;&#1100; &#1085;&#1072;&#160;<a href=3D"mailto:help@tanuki.ru" target=3D"=
+_blank" style=3D"color: #A7A7A7; text-decoration: underline;" data-link=3D"=
+624837">help@tanuki.ru</a>. &#1058;&#1099;&#160;&#1074;&#1089;&#1077;&#1075=
+;&#1076;&#1072; &#1084;&#1086;&#1078;&#1077;&#1096;&#1100; <a href=3D"https=
+://sailplay.ru/sender/redirect/eyJ1c2VyX2lkIjogMTc1MTYyNzY2LCAidXJsIjogImh0=
+dHBzOi8vc2FpbHBsYXkucnUvc2VuZGVyL3Vuc3Vic2NyaWJlLz91aWQ9MTc1MTYyNzY2JnBpZD0=
+xODAwJmtleT00M2YwMTVlOWIyNGY2NDc3YzBjMjQxYjljZmQ2MmZhMjg4NTk0MTk2ZjRlODA2Nm=
+Q0NzAyODIwNjhlMTEyM2YzJmF0eXBlPTImYWlkPTY4NDE4IiwgInBhcnRuZXJfaWQiOiAxODAwL=
+CAibGlua19pZCI6ICI2MjQ4MzgiLCAidHlwZSI6IDIsICJhY3Rpb25faWQiOiA2ODQxOH0=3D" =
+target=3D"_blank" style=3D"color: #A7A7A7; text-decoration: underline;" dat=
+a-link=3D"624838">&#1086;&#1090;&#1087;&#1080;&#1089;&#1072;&#1090;&#1100;&=
+#1089;&#1103;</a> &#1074;&#160;&#1086;&#1076;&#1080;&#1085; &#1082;&#1083;&=
+#1080;&#1082;.
+		=20
+		</td></tr>
+		</table>
+		<!-- disc END -->
+	=20
+	</td></tr>
+	</table>
+	<!-- footer END -->
+
+</td></tr>
+</table>
+</div>
+<!-- body -->
+
+
+<img style=3D"border: none;" src=3D"http://sailplay.ru/sender/open/eyJ1c2Vy=
+X2lkIjogMTc1MTYyNzY2LCAidHlwZSI6IDIsICJwYXJ0bmVyX2lkIjogMTgwMCwgImFjdGlvbl9=
+pZCI6IDY4NDE4fQ=3D=3D" alt=3D"counter" width=3D"1" height=3D"1">
+</body>
+</html>

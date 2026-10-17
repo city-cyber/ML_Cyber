@@ -1,0 +1,467 @@
+Received: from myt5-83224607f841.qloud-c.yandex.net (myt5-83224607f841.qloud-c.yandex.net [2a02:6b8:c12:fa5:0:640:8322:4607])
+	by myt6-a9b2c4d5a8e4.qloud-c.yandex.net with LMTP id Nk8PyKv8Ui-g5uhXY9e
+	for <microman@yandex.ru>; Sun, 24 Apr 2022 12:43:27 +0300
+Received: from ip4.email.dns-shop.ru (ip4.email.dns-shop.ru [185.31.80.193])
+	by myt5-83224607f841.qloud-c.yandex.net (mxfront/Yandex) with ESMTPS id 7mOUSPsUFt-hQdSG51W;
+	Sun, 24 Apr 2022 12:43:26 +0300
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(Client certificate not present)
+Return-Path: 40227=d6efcf3e-53ec-4137-908b-b7ad4b164952=-2=5488894@e.email.dns-shop.ru
+X-Yandex-Fwd: 1
+Authentication-Results: myt5-83224607f841.qloud-c.yandex.net; spf=pass (myt5-83224607f841.qloud-c.yandex.net: domain of e.email.dns-shop.ru designates 185.31.80.193 as permitted sender, rule=[ip4:185.31.80.0/22]) smtp.mail=40227=d6efcf3e-53ec-4137-908b-b7ad4b164952=-2=5488894@e.email.dns-shop.ru; dkim=pass header.i=@email.dns-shop.ru
+X-Yandex-Spam: 1
+X-Yandex-Uid-Status: 1 228115479
+Received: by ip4.email.dns-shop.ru id hckdrq2rlv8u for <microman@yandex.ru>; Sun, 24 Apr 2022 09:43:25 +0000 (envelope-from <40227=d6efcf3e-53ec-4137-908b-b7ad4b164952=-2=5488894@e.email.dns-shop.ru>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; q=dns/txt;
+ d=email.dns-shop.ru; s=expertsender1k;
+ h=Date:Subject:From:To;
+ bh=rpXOSV2cdIqEZZw26g4I2favzSrNsjwRA60ZQe8kJwk=;
+ b=LME/YJsuSQkhWVYTvx3DJc/e+FLChnaRgrGw1hB+5E0notm2VAilftmxCD/mBYMdoMDx
+ xysVcDP3FczRHnwQvsJjvociG482CC1masddg4KuyDEix/47+3ZNjqlugKnOXK+rUtgHyw
+ 3v3hFERGWvTz2kJGQ6qVje6bWz3kjesQY=
+MIME-Version: 1.0
+Date: Sun, 24 Apr 2022 09:43:25 +0000
+Message-ID: <40227=d6efcf3e-53ec-4137-908b-b7ad4b164952=-2=5488894@links.email.dns-shop.ru>
+Content-Type: multipart/alternative; boundary="------------070700030202040501080905"
+Subject: =?utf-8?Q?=D0=9A=D0=BE=D0=B4_=D0=B0=D0=B2=D1=82=D0=BE=D1=80=D0=B8=D0=B7?= 
+ =?utf-8?Q?=D0=B0=D1=86=D0=B8=D0=B8?=
+From: "=?utf-8?Q?DNS_=E2=80=93_=D0=B3=D0=B8=D0=BF=D0=B5=D1=80=D0=BC=D0=B0=D1=80=D0=BA=D0=B5=D1=82_=D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D0=BE=D0=B9_=D0=B8_=D0=B1=D1=8B=D1=82=D0=BE=D0=B2=D0=BE=D0=B9_=D1=82=D0=B5=D1=85=D0=BD=D0=B8=D0=BA=D0=B8?=" <no-reply.dns@email.dns-shop.ru>
+To: microman@yandex.ru
+List-Unsubscribe: <mailto:nlu=49p=cnx1rszqw4iolgjxgrnz3hsqu=m~=mhc7l=3718d5ee@f.email.dns-shop.ru>,
+ <https://links.email.dns-shop.ru/u/2DC/r40SBwzsHDLaPYAWjzt2IQ/c~/Iemu/F/d10e70af>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Message-Type: transactional
+X-Yandex-Forward: ff070beb4a2451a121ab09d305103a90
+
+--------------070700030202040501080905
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+DNSDNSDNS
+--------------070700030202040501080905
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+	<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+=2E0">
+	<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"/>
+	<meta name=3D"x-apple-disable-message-reformatting">
+	<title>=D0=9A=D0=BE=D0=B4 =D0=B0=D0=B2=D1=82=D0=BE=D1=80=D0=B8=D0=B7=D0=B0=
+=D1=86=D0=B8=D0=B8</title>
+	<style type=3D"text/css">
+		html { -webkit-text-size-adjust: none; -ms-text-size-adjust: none;}
+
+		@media only screen and (min-device-width: 640px) {
+			.table640 {
+				width: 640px !important;
+			}
+		}
+
+		@media only screen and (max-device-width: 640px), only screen and (max-wi=
+dth: 640px) {
+			.table640 {
+				width: 100% !important;
+			}
+		}
+
+		@media only screen and (max-width: 640px) {
+			.table640 {
+				width: 100% !important;
+			}
+
+			.mob-table {
+				width: 94% !important;
+			}
+		}
+
+		.mob_link a {
+			text-decoration: none;
+			color:           #b1bac3;
+		}
+
+		.table640 {
+			width: 640px;
+		}
+	</style>
+	<style type=3D"text/css">
+		@-ms-viewport {
+			width: device-width
+		}
+	</style>
+</head>
+
+<body style=3D"padding:0px;margin:0px;">
+
+
+
+<div id=3D"mailsub" class=3D"notification" align=3D"center" style=3D"word-b=
+reak:normal;-webkit-text-size-adjust:none; -ms-text-size-adjust: none;line-=
+height: normal;">
+	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"line-height: normal;">
+		<tr>
+			<td align=3D"center" bgcolor=3D"#E5E5E5">
+				<!--[if (gte mso 9)|(IE)]>
+				<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+					<tr>
+						<td>
+				<![endif]-->
+				<div style=3D"max-width:640px;overflow:hidden;">
+					<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"table=
+640" width=3D"100%" style=3D"max-width: 640px;min-width:300px;">
+						<!--main -->
+						<tr>
+							<td align=3D"center">
+								<!-- Header beginning -->
+								<table width=3D"94%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" style=3D"min-width: 450px;margin:0;padding:0;border:0;border-collapse:co=
+llapse">
+									<tr>
+										<td align=3D"center" valign=3D"top">
+											<table class=3D"mob-table" style=3D"width: 100%;" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0">
+												<div style=3D"height: 60px"></div>
+												<tr>
+													<td align=3D"center">
+														<img style=3D"width: 100%;" src=3D"http://www.dns-shop.ru/mai=
+l-icons/logo.png" alt=3D"" border=3D"0"/>
+													</td>
+												</tr>
+											</table>
+											<!-- padding -->
+											<div style=3D"height: 35px;">&nbsp;</div>
+										</td>
+									</tr>
+								</table>
+								<!-- Header ending -->
+								<!-- Body beginning-->
+								<table width=3D"94%" cellspacing=3D"0" cellpadding=3D"0">
+									<!--		=D0=9D=D0=B0=D1=87=D0=B0=D0=BB=D0=BE border-radius		-->
+									<tr>
+										<td align=3D"center" style=3D"padding-left:7px;padding-right:7px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#fff;lin=
+e-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:5px;padding-right:5px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#fff;lin=
+e-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:4px;padding-right:4px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#fff;lin=
+e-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:3px;padding-right:3px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#fff;lin=
+e-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:2px;padding-right:2px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#fff;lin=
+e-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:1px;padding-right:1px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#fff;lin=
+e-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:1px;padding-right:1px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#fff;lin=
+e-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<!--		=D0=9A=D0=9E=D0=9D=D0=95=D0=A6 border-radius		-->
+										<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff">
+											<!-- padding -->
+											<div style=3D"height: 30px; line-height:50px; font-size:48px;">&=
+nbsp;</div>
+											<!-- Message beginning -->
+<table width=3D"90%" align=3D"center">
+	<tr>
+		<td>
+			<table style=3D"border-spacing: 0;border:0;width:100%;">
+				<tr>
+					<td style=3D"border: 0;vertical-align: top;line-height: 30px;">
+						<div>
+							<span style=3D"font-family: Arial, Helvetica, sans-serif;font-size: =
+22px;line-height: 24px;">=D0=97=D0=B4=D1=80=D0=B0=D0=B2=D1=81=D1=82=D0=B2=
+=D1=83=D0=B9=D1=82=D0=B5!</span>
+						</div>
+						<div style=3D"height: 10px"></div>
+						<div style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 15=
+px;line-height: 20px;">
+							<span>
+								=D0=92=D0=B0=D1=88 =D0=BA=D0=BE=D0=B4 =D0=B4=D0=BB=D1=8F =D0=BF=D0=
+=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D0=
+=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8:
+							</span>
+							<div>
+								<div style=3D"height: 20px"></div>
+								<table cellspacing=3D"0" cellpadding=3D"0" style=3D"color:#000;font=
+-size: 16px;line-height: 18px; width:90px; height: 45px">
+									<!--	=D0=A1=D0=BA=D1=80=D1=83=D0=B3=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =
+begin	-->
+									<tr>
+										<td align=3D"center" style=3D"padding-left:7px;padding-right:7px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:5px;padding-right:5px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:4px;padding-right:4px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:3px;padding-right:3px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:2px;padding-right:2px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:1px;padding-right:1px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:1px;padding-right:1px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<!--	=D0=A1=D0=BA=D1=80=D1=83=D0=B3=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =
+end	-->
+									<tr align=3D"center" style=3D"background: #f2f2f2;">
+										<td>
+											<strong>135272</strong>
+										</td>
+									</tr>
+									<!--	=D0=A1=D0=BA=D1=80=D1=83=D0=B3=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =
+begin	-->
+									<tr>
+										<td align=3D"center" style=3D"padding-left:1px;padding-right:1px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:1px;padding-right:1px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:2px;padding-right:2px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:3px;padding-right:3px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:4px;padding-right:4px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:5px;padding-right:5px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<tr>
+										<td align=3D"center" style=3D"padding-left:7px;padding-right:7px;=
+height:1px;line-height:1px;font-size:1px;">
+											<div style=3D"display:block;height:1px;background-color:#f2f2f2;=
+line-height:1px;font-size:1px;">&nbsp;</div>
+										</td>
+									</tr>
+									<!--	=D0=A1=D0=BA=D1=80=D1=83=D0=B3=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =
+end	-->
+								</table>
+							</div>
+
+							<div style=3D"margin-top:20px;">
+								<span style=3D"color: #999;font-size: 12px;line-height: 20px;">
+									=D0=95=D1=81=D0=BB=D0=B8 =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE =D0=
+=BF=D1=80=D0=B8=D1=88=D0=BB=D0=BE =D0=92=D0=B0=D0=BC =D0=BF=D0=BE =D0=BE=D1=
+=88=D0=B8=D0=B1=D0=BA=D0=B5, =D0=BF=D1=80=D0=BE=D0=B8=D0=B3=D0=BD=D0=BE=D1=
+=80=D0=B8=D1=80=D1=83=D0=B9=D1=82=D0=B5 =D0=B5=D0=B3=D0=BE. <br>
+									=D0=A1 =D1=83=D0=B2=D0=B0=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC, =D0=
+=B0=D0=B4=D0=BC=D0=B8=D0=BD=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=86=D0=B8=D1=8F=
+ .dns-shop.ru
+								</span>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div style=3D"height: 25px; line-height:50px; font-size:13px;">&nbsp;</d=
+iv>
+		</td>
+	</tr>
+</table>
+<!-- Message ending -->
+<!-- Footer beginning -->
+
+<!-- Footer ending -->
+</td>
+</tr>
+<tr>
+	<td align=3D"center" style=3D"padding-left:1px;padding-right:1px;height:1p=
+x;line-height:1px;font-size:1px;">
+		<div style=3D"display:block;height:1px;background-color:#fff;line-height:=
+1px;font-size:1px;">&nbsp;</div>
+	</td>
+</tr>
+<tr>
+	<td align=3D"center" style=3D"padding-left:1px;padding-right:1px;height:1p=
+x;line-height:1px;font-size:1px;">
+		<div style=3D"display:block;height:1px;background-color:#fff;line-height:=
+1px;font-size:1px;">&nbsp;</div>
+	</td>
+</tr>
+<tr>
+	<td align=3D"center" style=3D"padding-left:2px;padding-right:2px;height:1p=
+x;line-height:1px;font-size:1px;">
+		<div style=3D"display:block;height:1px;background-color:#fff;line-height:=
+1px;font-size:1px;">&nbsp;</div>
+	</td>
+</tr>
+<tr>
+	<td align=3D"center" style=3D"padding-left:3px;padding-right:3px;height:1p=
+x;line-height:1px;font-size:1px;">
+		<div style=3D"display:block;height:1px;background-color:#fff;line-height:=
+1px;font-size:1px;">&nbsp;</div>
+	</td>
+</tr>
+<tr>
+	<td align=3D"center" style=3D"padding-left:4px;padding-right:4px;height:1p=
+x;line-height:1px;font-size:1px;">
+		<div style=3D"display:block;height:1px;background-color:#fff;line-height:=
+1px;font-size:1px;">&nbsp;</div>
+	</td>
+</tr>
+<tr>
+	<td align=3D"center" style=3D"padding-left:5px;padding-right:5px;height:1p=
+x;line-height:1px;font-size:1px;">
+		<div style=3D"display:block;height:1px;background-color:#fff;line-height:=
+1px;font-size:1px;">&nbsp;</div>
+	</td>
+</tr>
+<tr>
+	<td align=3D"center" style=3D"padding-left:7px;padding-right:7px;height:1p=
+x;line-height:1px;font-size:1px;">
+		<div style=3D"display:block;height:1px;background-color:#fff;line-height:=
+1px;font-size:1px;">&nbsp;</div>
+	</td>
+</tr>
+</table>
+<!-- Body ending -->
+<!-- padding -->
+<!--main END-->
+
+<!--footer -->
+<table width=3D"94%">
+	<tr align=3D"left">
+		<div style=3D"height: 20px"></div>
+		<td align=3D"left">
+										<span style=3D"font-family: Arial, Tahoma, Helvetica, sans-serif;=
+ font-size: 12px;line-height:18px; color:#666; opacity:0.71">
+											=D0=92=D1=8B&nbsp;=D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D0=BB=D0=
+=B8 =D1=8D=D1=82=D0=BE =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE, =D0=BF=D0=BE=
+=D1=82=D0=BE=D0=BC=D1=83 =D1=87=D1=82=D0=BE =D0=B7=D0=B0=D1=80=D0=B5=D0=B3=
+=D0=B8=D1=81=D1=82=D1=80=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BB=D0=B8 =D0=B0=
+=D0=BA=D0=BA=D0=B0=D1=83=D0=BD=D1=82 =D0=BD=D0=B0&nbsp;=D1=81=D0=B0=D0=B9=
+=D1=82=D0=B0=D1=85 DNS:
+											<a href=3D"https://links.email.dns-shop.ru/c/2DC/HkP/r40SBwzsHDL=
+aPYAWjzt2IQ/c~/Iemu/F/906aebf1" target=3D"_blank" style=3D"text-decoration:=
+ none; color: #666; font-family: Arial, Helvetica, sans-serif;">dns-shop.ru=
+,</a> <a href=3D"https://links.email.dns-shop.ru/c/2DC/HkC/r40SBwzsHDLaPYAW=
+jzt2IQ/c~/Iemu/F/0929907e" target=3D"_blank" style=3D"text-decoration: none=
+; color: #666; font-family: Arial, Helvetica, sans-serif;">technopoint.ru, =
+</a> <a href=3D"https://links.email.dns-shop.ru/c/2DC/Hkh/r40SBwzsHDLaPYAWj=
+zt2IQ/c~/Iemu/F/c9b21c8a" target=3D"_blank" style=3D"text-decoration: none;=
+ color: #666; font-family: Arial, Helvetica, sans-serif;">club.dns-shop.ru.=
+</a><br>
+											<div style=3D"height: 5px"></div>
+											=C2=A9 2002-2022 =D0=9A=D0=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D1=
+=8F DNS
+										</span>
+		</td>
+	</tr>
+</table>
+</td>
+</tr>
+<!--footer END-->
+</table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+<img src=3D"https://links.email.dns-shop.ru/o/2DC/r40SBwzsHDLaPYAWjzt2IQ/Ie=
+mu/F/907d6e3e" alt=3D""/>
+--------------070700030202040501080905--
+

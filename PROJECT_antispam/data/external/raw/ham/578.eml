@@ -1,0 +1,286 @@
+Received: from mxfront6j.mail.yandex.net (localhost [127.0.0.1])
+	by mxfront6j.mail.yandex.net with LMTP id GCr8MEuWkL-ejGf2iUe
+	for <macrofag@mail.ru>; Sun, 15 Nov 2020 21:11:32 +0300
+Received: from mail-vk1-xa48.google.com (mail-vk1-xa48.google.com [2607:f8b0:4864:20::a48])
+	by mxfront6j.mail.yandex.net (mxfront/Yandex) with ESMTPS id ZZJxx3i8gA-BVCWSaML;
+	Sun, 15 Nov 2020 21:11:31 +0300
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(Client certificate not present)
+Return-Path: 3Um-xXwcKCfkopsfqmzlbhhmf.dpnwe-mbsljozb.sv@scoutcamp.bounces.google.com
+X-Yandex-Front: mxfront6j.mail.yandex.net
+X-Yandex-TimeMark: 1605463891.429
+Authentication-Results: mxfront6j.mail.yandex.net; spf=pass (mxfront6j.mail.yandex.net: domain of scoutcamp.bounces.google.com designates 2607:f8b0:4864:20::a48 as permitted sender, rule=[ip6:2607:f8b0:4000::/36]) smtp.mail=3Um-xXwcKCfkopsfqmzlbhhmf.dpnwe-mbsljozb.sv@scoutcamp.bounces.google.com; dkim=pass header.i=@kaggle.com
+X-Yandex-Suid-Status: 1 534897977
+X-Yandex-Spam: 1
+X-Yandex-Fwd: MTQyNDI0Njc1NTQxODc4MzgxNjcsNTYzNzA2NTA5MzM2NjYxMzk1NA==
+Received: by mail-vk1-xa48.google.com with SMTP id q62so4452308vka.22
+        for <macrofag@mail.ru>; Sun, 15 Nov 2020 10:11:31 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=kaggle.com; s=google;
+        h=mime-version:date:reply-to:feedback-id:message-id:subject:from:to;
+        bh=kvWNY7pqAjdb35HowiTkvCOUHnOPEQx0URWk2E4G2b0=;
+        b=CqUNCqR/w06UT6kfs1plTHtcz4+LCO3ifipxLTmMR55KwJsBcqm+lxqgmTnxoC7SQK
+         8NABbpeuGVyk5CHJU+UOAPWEIARgmPDKvP8OZienAtZ0RStU8UJBw76MPg4AorwgHYcw
+         E1rw/H2/hlTMAhh2q9X3IkllDJFtrRwienuJg=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:date:reply-to:feedback-id
+         :message-id:subject:from:to;
+        bh=kvWNY7pqAjdb35HowiTkvCOUHnOPEQx0URWk2E4G2b0=;
+        b=gGw2Ah4qTIArLhs9M2QiIfEW5bnhfmxVZ8X1XdHa15PGAf0Y4oww5mrOhzrUtBSZMS
+         hv5qvK7AC9D+jpDdKbi/uaP2DLDmLkfptdVz0rFcPS4dxVKK+0TDvMa4JmP8SZnFtoTT
+         rO6s1n6f1Bm8akxIIubUtApxfW8XuFrOFFhdqUHYb8sw34x7PA8knbFnhYX6alsl//Cr
+         Mvj+Bp9Bh7tRkOai6pwpcEGfrk5/h2EVz05i5BQuqZoiFVBm4tTD0KDLmB5FqnDuLta8
+         puL8b1Ur+C572W0apC8rYz1buoFZE+rZT6UDpW40SMAunbdoG5BQr+LrmBRZI1yaAqWY
+         u7cA==
+X-Gm-Message-State: AOAM531cY6b9baPbiXrobfTi9jXmoKvqpInAtnz/hhAwyullSzxcglRV
+	KzIoB/4rpV6dXM8=
+X-Google-Smtp-Source: ABdhPJwIhGM82xv0GkitPLZ+s+ZmhPtcfqv9Z1udhMRy3yp/j53QVejfZPrDGvGmx2ihz6xu7o6cfDg=
+MIME-Version: 1.0
+X-Received: by 2002:ab0:2984:: with SMTP id u4mr5721572uap.22.1605463890174;
+ Sun, 15 Nov 2020 10:11:30 -0800 (PST)
+Date: Sun, 15 Nov 2020 10:11:30 -0800
+Reply-To: Kaggle <noreply@kaggle.com>
+X-Google-Id: 4030869
+Feedback-ID: P2603-0:C20126035:M110331920-en-US:gamma
+X-Notifications: GAMMA:<c826ec113bbbe1ea583771c2da5e6dd4d20851bd-20126035-110779040@google.com>
+Message-ID: <c826ec113bbbe1ea583771c2da5e6dd4d20851bd-20126035-110779040@google.com>
+Subject: =?UTF-8?Q?You=E2=80=99re_officially_a_Kaggler=2E_Now_what=3F?=
+From: Kaggle <noreply@kaggle.com>
+To: macrofag@mail.ru
+Content-Type: multipart/alternative; boundary="000000000000dfa5de05b4293093"
+X-Yandex-Forward: 5aae6b49c4f1900e2a489ee3046b6e0b
+
+--000000000000dfa5de05b4293093
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+SGkgdmxhZGltaXJsYXJraW4sDQoNCllvdSdyZSBub3cgcGFydCBvZiB0aGUgd29ybGQncyBsYXJn
+ZXN0IGRhdGEgc2NpZW5jZSBjb21tdW5pdHkuIFdlbGNvbWUsICANCndlJ3JlIGdsYWQgeW91J3Jl
+IGhlcmUhDQoNCldoZXRoZXIgeW91J3JlIG5ldyB0byBtYWNoaW5lIGxlYXJuaW5nIG9yIGEgcmVu
+b3duZWQgZXhwZXJ0LCB3ZSB3YW50IHRvICANCnN1cHBvcnQgeW91IHdpdGggZnJlZSwgcG93ZXJm
+dWwgdG9vbHMgYW5kIHJlc291cmNlcyB0byBoZWxwIHlvdSBncm93IGFzIGEgIA0KZGF0YSBzY2ll
+bnRpc3QuDQoNClNvLCB3aGVyZSdzIHRoZSBiZXN0IHBsYWNlIHRvIHN0YXJ0Pw0KDQpXZSBoaWdo
+bHkgcmVjb21tZW5kIHRyeWluZyBvdXQgb3VyIG5vLXByZXNzdXJlIFRpdGFuaWMgY29tcGV0aXRp
+b24uIFlvdSdsbCAgDQpiZSBjaGFsbGVuZ2VkIHRvIHByZWRpY3Qgd2hpY2ggcGFzc2VuZ2VycyBz
+dXJ2aXZlZCB0aGUgaW5mYW1vdXMgMTkxMiAgDQpzaGlwd3JlY2suDQoNCkNoZWNrIG91dCB0aGUg
+VGl0YW5pYyBNYWNoaW5lIExlYXJuaW5nIENvbXBldGl0aW9u4oCLDQoNCkl0J3MgYSByZWFsbHkg
+ZnVuIGFuZCBmYXN0IHdheSB0byBnZXQgYSBzdHJvbmcgZ3Jhc3Agb2YgaG93IG91ciBwbGF0Zm9y
+bSAgDQp3b3Jrcy4gWW91J2xsIGJlY29tZSBtb3JlIGZhbWlsaWFyIHdpdGggaG93IG91ciBOb3Rl
+Ym9va3MgKG9ubGluZSBjb2RpbmcgIA0KZW52aXJvbm1lbnQgd2l0aCBmcmVlIEdQVXMpLCBvcGVu
+IGRhdGFzZXRzLCBhbmQgZGlzY3Vzc2lvbiB0b29scyB3b3JrICANCnRvZ2V0aGVyIHRvIGhlbHAg
+eW91IGJ1aWxkIGRhdGEgc2NpZW5jZSBwcm9qZWN0cy4NCg0KSGFwcHkgZXhwbG9yaW5nLA0KQWxl
+eGlzIGZyb20gS2FnZ2xlDQoNCg0KDQoNCg0KS2FnZ2xlLCBJbmMgMTYwMCBBbXBoaXRoZWF0cmUg
+UGt3eSBNb3VudGFpbiBWaWV3LCBDQSA5NDA0Mw0KDQpZb3UndmUgcmVjZWl2ZWQgdGhpcyBlbWFp
+bCB0byBjb25maXJtIHRoYXQgeW91J3JlIHJlZ2lzdGVyZWQgZm9yIEthZ2dsZS4NCg0KDQoNCg0K
+DQo=
+--000000000000dfa5de05b4293093
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html public "- / /w3c / /dtd html 4.01 transitional / /en" "http:=
+ / /www.w3.org /tr /html4 /loose.dtd">
+<html>
+  <head>
+    <title> Welcome to Kaggle </title>
+    <meta name=3Dviewport content=3Dwidth=3Ddevice-width>
+    <meta http-equiv=3DContent-Type content=3D"text/html; charset=3DUTF-8">
+    <meta name=3Dformat-detection content=3Dtelephone=3Dno>
+    <style type=3Dtext/css data-premailer=3Dignore>
+        .ReadMsgBody { width: 100%; background-color: #008ABC;}
+        .ExternalClass {width: 100%; background-color: #008ABC;}
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalCla=
+ss font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;}
+        body {margin:0; padding:0;}
+        table {border-spacing:0;}
+        table td {border-collapse:collapse;}
+        .yshortcuts a {border-bottom: none !important;}
+        @media screen and (max-width: 600px), screen and (max-device-width:=
+ 600px) {
+            table[class=3D"container"] { width: 95% !important; }
+        }
+        @media screen and (max-width: 480px), screen and (max-device-width:=
+ 480px) {
+            td[class=3D"container-padding"] { padding-left: 12px !important=
+; padding-right: 12px !important; }
+        }
+    </style>
+    <style type=3Dtext/css>
+        body { background-color: #F6F9FA; padding: 0px 0; margin: 10px 0; }
+        table.container { border: 1px solid #DEDFE0; font-family: 'Helvetic=
+a Neue', 'Helvetica', sans-serif; color: #47494D; }
+        table.container td { font-family: 'Helvetica Neue', 'Helvetica', sa=
+ns-serif; color: #47494D; }
+        table.container td.header div { }
+        table.container td.logo { text-align: center; padding: 50px 0; bord=
+er-bottom: 1px solid #efefef; }
+        table.container td.minilogo { text-align: center; }
+        h1, h2, h3, h4, h5, h6 { color: #008abc; line-height: 1.5; margin: =
+0 0 25px 0; font-family: 'Helvetica Neue', 'Helvetica', sans-serif;}
+        h1 { font-size: 22px; } h2 { font-size: 18px; } h3 { font-size: 16p=
+x; line-height: 0.5; } h4, h5, h6 { font-size: 14px; }
+        div { font-size: 14px; line-height: 1.5; margin: 0 0 25px 0; font-f=
+amily: 'Helvetica Neue', 'Helvetica', sans-serif; color: #47494D; }
+        p img { border: 1px solid #dedfe0; }
+=E2=80=8B
+        p { font-size: 14px; line-height: 1.5; margin: 0 0 25px 0; font-fam=
+ily: 'Helvetica Neue', 'Helvetica', sans-serif; color: #47494D; }
+        a { color: #008ABC; text-decoration: underline; font-family: 'Helve=
+tica Neue', 'Helvetica', sans-serif; }
+        td.container-padding img { border: 1px solid #ddd; padding: 20px; m=
+argin: 0 ; box-shadow: 0 0 3px #ddd; }
+        a.intercom-h2b-button { background-color: #008ABC; border-radius: 5=
+px; border: 1px solid rgba(0,0,0,0.2); color:#fff; display: inline-block; f=
+ont-size: 15px; font-weight: bold; min-height: 20px; padding: 9px 15px; tex=
+t-decoration: none; font-family: 'Helvetica Neue', 'Helvetica', sans-serif;=
+ }
+        ul li, ol li { font-size: 14px; line-height: 1.5; }
+        table.footer { border-top: 1px solid #efefef; width: 100%; height: =
+69px; }
+        table.footer td { vertical-align: middle; text-align: center; color=
+: #47494D; font-size: 12px; }
+        table.footer td.social { width: 50%; line-height: 20px; border-left=
+: none; }
+        table.footer td.social a { font-weight: bold; text-decoration: none=
+; }
+        table.footer td.social a.twitter { color: #00aced; }
+        table.footer td.social a.facebook { color: #6d83bc; }
+        table.footer td.social img { vertical-align: middle; }
+        table.footer td.subscription { width: 100%; }
+        table.footer td.subscription a { color: #47494D; }
+        hr { border: 0; border-bottom: 1px solid #DEDFE0; Margin: 20px 0; }
+    </style>
+  </head>
+  <body style=3D"margin:0; padding:10px 0;" bgcolor=3D#F6F9FA>
+    <br>
+    <table border=3D0 width=3D100% height=3D100% cellpadding=3D0 cellspacin=
+g=3D0 bgcolor=3D#F6F9FA>
+      <tbody>
+        <tr>
+          <td align=3Dcenter valign=3Dtop bgcolor=3D#F6F9FA style=3D"backgr=
+ound-color: #F6F9FA;">
+            <table width=3D600 cellpadding=3D0 cellspacing=3D0 border=3D0 c=
+lass=3Dcontainer bgcolor=3D#ffffff>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href=3Dhttps://www.google.com/appserve/mkt/p/AD-FnEy=
+RtPtZOwdoI4_BbENHXXdjlyqTfNY9qI9fuc4Y1VIbcDh8R74dRXptvenAwjbJi20P11SYZ0ALjP=
+_i target=3D_blank>
+                      <img src=3Dhttps://storage.googleapis.com/kaggle-medi=
+a/email-templates/kaggle-header.png width=3D600 height=3D147>
+                    </a>
+                  </td>
+                </tr>
+              <tr>
+              <td class=3Dheader>
+                <div> </div>
+              </td>
+            </tr>
+            <tr></tr>
+            <tr>
+              <td class=3Dcontainer-padding bgcolor=3D#ffffff style=3D"back=
+ground-color: #ffffff; padding-left: 30px; padding-right: 30px;">
+                <br>
+                <p style=3D"font-size: 14px; line-height: 1.5; margin: 0 0 =
+25px 0; font-family: &#39;Helvetica Neue&#39;, &#39;Helvetica&#39;, sans-se=
+rif; color: #47494D;">
+     Hi man,
+</p>
+<p style=3D"font-size: 14px; line-height: 1.5; margin: 0 0 25px 0; font-fam=
+ily: &#39;Helvetica Neue&#39;, &#39;Helvetica&#39;, sans-serif; color: #474=
+94D;">
+     You=E2=80=99re now part of the world=E2=80=99s largest data science co=
+mmunity. Welcome, we=E2=80=99re glad you=E2=80=99re here!
+</p>
+<p style=3D"font-size: 14px; line-height: 1.5; margin: 0 0 25px 0; font-fam=
+ily: &#39;Helvetica Neue&#39;, &#39;Helvetica&#39;, sans-serif; color: #474=
+94D;">
+     Whether you=E2=80=99re new to machine learning or a renowned expert, w=
+e want to support you with free, powerful tools and resources to help you g=
+row as a data scientist.
+</p>
+<p style=3D"font-size: 14px; line-height: 1.5; margin: 0 0 25px 0; font-fam=
+ily: &#39;Helvetica Neue&#39;, &#39;Helvetica&#39;, sans-serif; color: #474=
+94D;">
+So, where=E2=80=99s the best place to start?
+</p>
+<p style=3D"font-size: 14px; line-height: 1.5; margin: 0 0 25px 0; font-fam=
+ily: &#39;Helvetica Neue&#39;, &#39;Helvetica&#39;, sans-serif; color: #474=
+94D;">
+We highly recommend trying out our <a href=3Dhttps://www.google.com/appserv=
+e/mkt/p/AD-FnEx3bVF_lfUuPJfsJwdgSgEUfKLT0q4Wz7gQXCfp0WAY9k654ApQbnwNo5SfPBA=
+3oLCqwocPVkPB57bpp7x1Fa1ChqSo3QVBQhYcOA5UysPJixPC96x2mnnIgq_G71Xm6onWn2l7hm=
+WTld2zZRO2ui0IsLsSVhMaZAIyeepuiFLDbOu7KA target=3D_blank>no-pressure Titani=
+c competition</a>. You=E2=80=99ll be challenged to predict which passengers=
+ survived the infamous 1912 shipwreck.
+</p>
+<p style=3D"text-align: center;">
+     <a href=3Dhttps://www.google.com/appserve/mkt/p/AD-FnEx3bVF_lfUuPJfsJw=
+dgSgEUfKLT0q4Wz7gQXCfp0WAY9k654ApQbnwNo5SfPBA3oLCqwocPVkPB57bpp7x1Fa1ChqSo3=
+QVBQhYcOA5UysPJixPC96x2mnnIgq_G71Xm6onWn2l7hmWTld2zZRO2ui0IsLsSVhMaZAIyeepu=
+iFLDbOu7KA class=3Dintercom-h2b-button target=3D_blank style=3D"background-=
+color: #008ABC; border-radius: 5px; border: 1px solid rgba(0,0,0,0.2); colo=
+r:#fff; display: inline-block; font-size: 15px; font-weight: bold; min-heig=
+ht: 20px; padding: 9px 15px; text-decoration: none; font-family: &#39;Helve=
+tica Neue&#39;, &#39;Helvetica&#39;, sans-serif;">
+          Check out the Titanic Machine Learning Competition=E2=80=8B
+     </a>
+</p>
+<p style=3D"font-size: 14px; line-height: 1.5; margin: 0 0 25px 0; font-fam=
+ily: &#39;Helvetica Neue&#39;, &#39;Helvetica&#39;, sans-serif; color: #474=
+94D;">
+It=E2=80=99s a really fun and fast way to get a strong grasp of how our pla=
+tform works. You=E2=80=99ll become more familiar with how our Notebooks (on=
+line coding environment with free GPUs), open datasets, and discussion tool=
+s work together to help you build data science projects.
+</p>
+<p style=3D"font-size: 14px; line-height: 1.5; margin: 0 0 25px 0; font-fam=
+ily: &#39;Helvetica Neue&#39;, &#39;Helvetica&#39;, sans-serif; color: #474=
+94D;">
+Happy exploring,<br>
+Alexis from Kaggle
+</p>
+
+             =20
+=20
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table border=3D0 width=3D100% height=3D100% cellpadding=
+=3D0 cellspacing=3D0 bgcolor=3D#ffffff class=3Dfooter style=3D"border-top: =
+1px solid #efefef; width: 100%; height: 69px;">
+                      <tbody>
+                        <tr>
+                          <td class=3Dsubscription style=3D"width: 100%; ve=
+rtical-align: middle; text-align: center; color: #47494D; font-size: 12px;"=
+>
+                            <p style=3D"padding-top: 15px; font-size: 11px;=
+">
+                              Kaggle, Inc 1600 Amphitheatre Pkwy Mountain V=
+iew, CA 94043
+                            </p>
+                            <p style=3D"padding-right: 30px; padding-left: =
+30px; font-size: 11px;">
+                              You=E2=80=99ve received this email to confirm=
+ that you&#39;re registered for Kaggle.
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+  <img height=3D1 width=3D3 src=3Dhttps://www.google.com/appserve/mkt/img/A=
+D-FnExrzepxSCi2RNdYQCmZ4yrakkRdz4_Lidzypu-UxYTOSXI.gif></body>
+</html>
+--000000000000dfa5de05b4293093--
